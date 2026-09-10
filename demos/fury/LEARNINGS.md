@@ -1,3 +1,11 @@
+# Current finite-edge handoff
+
+The primary saved notebook is `models/Fury_RC_TE_0p5in.ntop`. Its wing, horizontal tail, and fin have 0.5 inch full trailing-edge controls. The earlier builder and records below describe a distinct appearance baseline.
+
+The finite-edge construction uses a C2 transition over the aft chord region. Convert full physical thickness to the half-thickness contribution and guide coordinates explicitly. Keep the RC scale conversion in the dependency graph. A finite section does not guarantee a clean exported surface.
+
+[Current mesh evidence](../../reports/Fury-RC.html) retains the raw and sharpened comparisons, inlet knife-edge findings, fragments, and volume-mesh limitations. Do not replace those findings with a claim based on smooth shading. New meshing runs require their own receipts.
+
 # Recorded lessons
 
 This is an edited record of prior work. Its native results apply to those recorded revisions.
@@ -17,7 +25,7 @@ Historical tool and artifact names below describe the source work. Use README.md
 - Verification notebook
 - Engineering report
 
-## Current revision: candidate thirteen
+## Historical appearance revision: candidate thirteen
 
 The splitter/cowl attachment closes farther forward, ahead of the wing-root blend. A native C2 Ramp varies the wing blend from **0.978016 inch at the leading edge to 0.125 inch at the trailing edge**. Both endpoints are editable in **Root blend controls**. These values control the blend field; they are not measured fillet radii.
 

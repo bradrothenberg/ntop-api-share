@@ -1,0 +1,47 @@
+{
+  "sections": [
+    "05 Cockpit glazing",
+    "05 Fuselage"
+  ],
+  "variables": {
+    "Window coordinate x": "05 Cockpit glazing",
+    "Window coordinate y": "05 Cockpit glazing",
+    "Window coordinate z": "05 Cockpit glazing",
+    "Glazing source loft": "05 Cockpit glazing",
+    "Cockpit pane 01 boundary": "05 Cockpit glazing",
+    "Cockpit pane 02 boundary": "05 Cockpit glazing",
+    "Cockpit pane 03 boundary": "05 Cockpit glazing",
+    "Cockpit pane 04 boundary": "05 Cockpit glazing",
+    "Cockpit pane 05 boundary": "05 Cockpit glazing",
+    "Cockpit pane 06 boundary": "05 Cockpit glazing",
+    "Cockpit pane 07 boundary": "05 Cockpit glazing",
+    "Cockpit pane 08 boundary": "05 Cockpit glazing",
+    "Cockpit pane 09 boundary": "05 Cockpit glazing",
+    "Cockpit pane 10 boundary": "05 Cockpit glazing",
+    "Cockpit pane 11 boundary": "05 Cockpit glazing",
+    "Cockpit pane 12 boundary": "05 Cockpit glazing",
+    "Cockpit pane 13 boundary": "05 Cockpit glazing",
+    "Cockpit pane 14 boundary": "05 Cockpit glazing",
+    "Cockpit pane 15 boundary": "05 Cockpit glazing",
+    "Cockpit pane 16 boundary": "05 Cockpit glazing",
+    "Cockpit pane 17 boundary": "05 Cockpit glazing",
+    "Cockpit pane 18 boundary": "05 Cockpit glazing",
+    "Cockpit window regions": "05 Cockpit glazing",
+    "COCKPIT WINDOWS": "05 Cockpit glazing",
+    "FUSELAGE SKIN": "05 Fuselage"
+  },
+  "final_bodies": {
+    "FUSELAGE SKIN": [
+      0.7,
+      0.74,
+      0.78,
+      1
+    ],
+    "COCKPIT WINDOWS": [
+      0.09,
+      0.15,
+      0.2,
+      1
+    ]
+  }
+}

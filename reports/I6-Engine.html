@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>I6 Engine</title>
+<style>
+:root{
+  --paper:#F7F8FA; --paper-2:#FFFFFF; --paper-3:#F0F2F5;
+  --ink:#262626; --ink-2:#4E4C4A; --ink-3:#6D6C6A; --ink-4:#A3A3A3;
+  --rule:#E4E7EC; --rule-2:#CBD0D8;
+  --orange:#F26B43; --orange-soft:#FDEEE8; --orange-line:#F5B29C;
+  --red:#B3362A; --red-soft:#F9E9E6; --red-line:#E3A99F;
+  --blue:#16489D; --blue-soft:#EDF2FB; --blue-line:#A9C0E8;
+  --green:#196B24; --green-soft:#E9F2EA; --green-line:#A8CBAE;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#141210; --paper-2:#1C1917; --paper-3:#211E1B;
+    --ink:#EDE9E4; --ink-2:#C9C3BA; --ink-3:#A39D94; --ink-4:#6E6862;
+    --rule:#2E2A26; --rule-2:#3B362F;
+    --orange:#F26B43; --orange-soft:#33201A; --orange-line:#7A4030;
+    --red:#E08B7B; --red-soft:#2A1613; --red-line:#6B3229;
+    --blue:#248AFF; --blue-soft:#14243D; --blue-line:#2B4A78;
+    --green:#6FBF7E; --green-soft:#12211A; --green-line:#2C4D39;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141210; --paper-2:#1C1917; --paper-3:#211E1B;
+  --ink:#EDE9E4; --ink-2:#C9C3BA; --ink-3:#A39D94; --ink-4:#6E6862;
+  --rule:#2E2A26; --rule-2:#3B362F;
+  --orange:#F26B43; --orange-soft:#33201A; --orange-line:#7A4030;
+  --red:#E08B7B; --red-soft:#2A1613; --red-line:#6B3229;
+  --blue:#248AFF; --blue-soft:#14243D; --blue-line:#2B4A78;
+  --green:#6FBF7E; --green-soft:#12211A; --green-line:#2C4D39;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);
+  font-family:"Aeonik","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16.5px;line-height:1.62;margin:0;-webkit-font-smoothing:antialiased}
+.wrap{max-width:830px;margin:0 auto;padding:0 26px 120px}
+.mast{border-bottom:2px solid var(--ink);padding:52px 0 20px;margin-bottom:44px}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:20px}
+h1{font-family:"Aeonik","Inter",system-ui,sans-serif;font-weight:600;font-size:clamp(36px,6vw,56px);line-height:1.05;letter-spacing:-.015em;margin:0 0 16px}
+.dek{font-size:clamp(17px,2.4vw,20px);line-height:1.5;color:var(--ink-2);max-width:64ch;margin:0 0 24px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 26px;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.03em}
+h2{font-family:"Aeonik","Inter",system-ui,sans-serif;font-weight:650;font-size:clamp(25px,3.6vw,31px);line-height:1.16;letter-spacing:-.012em;margin:64px 0 8px;padding-top:26px;border-top:1px solid var(--rule)}
+h2 .num{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;color:var(--orange);letter-spacing:.1em;display:block;margin-bottom:12px}
+h3{font-family:"Aeonik","Inter",sans-serif;font-weight:650;font-size:16.5px;margin:34px 0 8px}
+h4{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:28px 0 8px}
+p{margin:0 0 16px;max-width:70ch}
+a{color:var(--orange);text-underline-offset:2px}
+strong{font-weight:640;color:var(--ink)}
+code,.mono{font-family:"IBM Plex Mono",monospace;font-size:.88em}
+ul,ol{max-width:70ch;padding-left:22px;margin:0 0 18px}
+li{margin-bottom:7px} li::marker{color:var(--ink-4)}
+hr{border:0;border-top:1px solid var(--rule);margin:40px 0}
+.call{border-left:3px solid var(--orange);background:var(--orange-soft);padding:18px 22px;margin:26px 0;border-radius:0 5px 5px 0}
+.call.red{border-color:var(--red);background:var(--red-soft)}
+.call.blue{border-color:var(--blue);background:var(--blue-soft)}
+.call.green{border-color:var(--green);background:var(--green-soft)}
+.call p:last-child{margin-bottom:0}
+.call .lbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--orange);display:block;margin-bottom:7px}
+.call.red .lbl{color:var(--red)} .call.blue .lbl{color:var(--blue)} .call.green .lbl{color:var(--green)}
+.bluf{border:2px solid var(--ink);border-radius:7px;padding:26px 28px;margin:0 0 42px;background:var(--paper-2)}
+.bluf h4{margin-top:0}
+.bluf .verdict{font-family:"Aeonik","Inter",system-ui,sans-serif;font-size:21px;line-height:1.4;font-weight:600;margin:0 0 18px}
+.moves{display:grid;gap:1px;background:var(--rule-2);border:1px solid var(--rule-2);border-radius:5px;overflow:hidden;margin-top:20px}
+.move{background:var(--paper);padding:14px 16px;display:grid;grid-template-columns:78px 1fr;gap:14px;align-items:start}
+.move .tag{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:3px 0;color:var(--ink-3)}
+.move.do .tag{color:var(--green)} .move.kill .tag{color:var(--red)} .move.opt .tag{color:var(--blue)}
+.move div:last-child{font-size:15px;line-height:1.5}
+.tw{overflow-x:auto;margin:24px 0;border:1px solid var(--rule);border-radius:6px;background:var(--paper-2)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px}
+th{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);font-weight:600;padding:12px 14px;border-bottom:1px solid var(--rule-2);white-space:nowrap;background:var(--paper-3)}
+td{padding:12px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:0}
+td.num,th.num{font-family:"IBM Plex Mono",monospace;font-size:13px;white-space:nowrap}
+.pill{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2.5px 7px;border-radius:3px;white-space:nowrap}
+.p-hold{background:var(--green-soft);color:var(--green);border:1px solid var(--green-line)}
+.p-part{background:var(--orange-soft);color:var(--orange);border:1px solid var(--orange-line)}
+.p-fail{background:var(--red-soft);color:var(--red);border:1px solid var(--red-line)}
+.p-info{background:var(--blue-soft);color:var(--blue);border:1px solid var(--blue-line)}
+figure{margin:38px 0;padding:0}
+.figbox{border:1px solid var(--rule);border-radius:7px;background:var(--paper-2);padding:22px 20px 16px;overflow-x:auto}
+figure svg{display:block;width:100%;height:auto;min-width:520px}
+figcaption{font-size:13.5px;line-height:1.5;color:var(--ink-3);margin-top:12px}
+figcaption b{color:var(--ink-2);font-weight:600}
+.figlbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--orange);font-weight:600;margin-bottom:10px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:1px;background:var(--rule-2);border:1px solid var(--rule-2);border-radius:6px;overflow:hidden;margin:28px 0}
+.stat{background:var(--paper-2);padding:16px 16px 14px}
+.stat .v{font-family:"Aeonik","Inter",system-ui,sans-serif;font-size:27px;line-height:1;font-weight:600;margin-bottom:6px}
+.stat .k{font-size:12.5px;line-height:1.35;color:var(--ink-3)}
+.stat.warn .v{color:var(--red)}
+.src{font-size:13px;line-height:1.55;color:var(--ink-3)} .src a{color:var(--ink-2)}
+/* media additions, tokens only */
+.stats{grid-template-columns:repeat(3,1fr)}  /* six stats, two full rows */
+@media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
+.figbox img,.figbox video{display:block;width:100%;height:auto;border-radius:3px}
+.stills{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.stills img{width:100%;height:auto;display:block;border-radius:3px;border:1px solid var(--rule)}
+.stills .cap{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-top:6px;line-height:1.4}
+.eq{font-family:"IBM Plex Mono",monospace;font-size:13px;line-height:1.6;background:var(--paper-3);border:1px solid var(--rule);border-radius:5px;padding:14px 16px;margin:18px 0;white-space:pre;overflow-x:auto;color:var(--ink-2)}
+.parts{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:26px 0}
+.part{border:1px solid var(--rule);border-radius:7px;background:var(--paper-2);overflow:hidden}
+.part img{display:block;width:100%;aspect-ratio:7/5;object-fit:cover;background:var(--paper-3);border-bottom:1px solid var(--rule)}
+.part .pb{padding:14px 16px 16px}
+.part .pn{font-weight:650;font-size:15px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.part .pn .qty{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--orange);font-weight:600}
+.part dl{margin:10px 0 8px;font-size:13px;display:grid;grid-template-columns:auto 1fr;gap:3px 12px}
+.part dt{color:var(--ink-3)} .part dd{margin:0;font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--ink-2)}
+.part ul{font-size:13.5px;margin:0;padding-left:18px;color:var(--ink-2)} .part li{margin-bottom:4px}
+@media(max-width:640px){body{font-size:16px}.wrap{padding:0 18px 90px}.move{grid-template-columns:1fr;gap:5px}.stills,.parts{grid-template-columns:1fr}}
+</style>
+<style>.public-edition{position:relative;z-index:20;padding:10px 18px;background:#f3f0e8;color:#262923;font:13px/1.5 system-ui,sans-serif;overflow-wrap:anywhere}.public-edition a{color:#614000}.public-omission{display:block;position:relative;padding:18px!important;background:#f3f0e8;color:#474b49;border:1px solid #bfc5bd;font:14px/1.5 system-ui,sans-serif;text-align:left;max-width:100%;box-sizing:border-box}#rc-photo-comparison>img{position:relative;display:block;opacity:1;width:100%;height:auto}</style></head>
+<body><aside class="public-edition"><a href="index.html">Report collection</a> | Public edition: recorded results. Reference images, videos, and large outputs remain in the separate downloadable collection. Download the complete repository for offline viewing.</aside><aside style="padding:12px 22px;border-bottom:1px solid #cbd0d8;font:14px/1.5 system-ui,sans-serif;background:#f7f8fa;color:#262626">Recorded demonstration. This report includes its images, viewer assets, and data attachments. Source-code and model links are optional online references.</aside>
+<div class="wrap">
+<header class="mast">
+<div class="kicker">nTop · Engineering report · Notebook API demonstration</div>
+<h1>I6 Engine</h1>
+<p class="dek">A parametric inline-six engine authored, organised, animated and verified in nTop through the prototype Notebook API, with no clicks in the GUI.</p>
+<div class="meta"><span>6 SEP 2026</span><span>nTop 6.0.0-rc, build 42594</span><span>STATUS: BUILT AND VERIFIED</span></div>
+</header>
+<h2 style="border-top:0;margin-top:0;padding-top:0"><span class="num">01</span>Why this exists</h2>
+<p>The Notebook API lets a script add blocks, wire them and read values back in a live nTop notebook. This project tests whether that is enough to build a moving mechanical assembly at manufacturing detail, keep it organised, and prove the result numerically. The engine is the test article: one crank angle has to move six pistons, six rods, two camshafts, 24 valves and 24 springs, and every derived value has to match a closed-form model.</p>
+<div class="bluf">
+<h4>Summary</h4>
+<p class="verdict">The engine is built, moves from one parameter, and matches its closed-form kinematics to 5e-6 mm at six crank angles (measured).</p>
+<p>The notebook holds 1106 variables in 13 sections. A Python builder wrote it as one recipe and imported it in 26 minutes; the same build through single API calls was measured at over an hour and stopped. Part extents match the parameter table to 1.2e-5 mm. Two limits stand: a crank-angle change in the full notebook re-evaluates for over an hour, and nTop's bounding boxes of rotated bodies are padded, so three checks are one-sided bounds rather than equalities.</p>
+<div class="moves">
+<div class="move do"><span class="tag">Do</span><div>Open <code>I6_Engine.ntop</code>, edit <strong>Crank Angle</strong> in INPUTS, and wait for the re-evaluation. Edit any of the 188 parameters the same way.</div></div>
+<div class="move opt"><span class="tag">Option</span><div>Verify or animate in the 212-variable check notebook instead of the full one: same variable names, 15 to 90 s per angle (measured).</div></div>
+<div class="move"><span class="tag">Defer</span><div>Timing chain, manifolds and remaining fasteners are not modelled. Gear teeth are boxes on a polar array.</div></div>
+</div>
+</div>
+<div class="stats">
+<div class="stat"><div class="v">2997 cc</div><div class="k">displacement, six cylinders</div></div>
+<div class="stat"><div class="v">86 x 86</div><div class="k">bore x stroke, mm</div></div>
+<div class="stat"><div class="v">24</div><div class="k">valves, two overhead camshafts</div></div>
+<div class="stat"><div class="v">1</div><div class="k">motion input: Crank Angle</div></div>
+<div class="stat"><div class="v">188</div><div class="k">named design parameters with units</div></div>
+<div class="stat"><div class="v">1106</div><div class="k">variables in 13 sections</div></div>
+</div>
+<h2><span class="num">02</span>One input moves everything</h2>
+<p>Change <strong>Crank Angle</strong> and the notebook re-evaluates the whole engine. Six pistons and rods follow the slider-crank equations. Two camshafts turn at half speed. Every valve lifts by the exact flat-follower lift of the tangent cam lobe above it, so the lobe nose stays in contact with its bucket at every angle. Each spring's pitch is the installed length minus the lift, so the spring compresses with its valve.</p>
+<div class="eq">z_pin  = r cos(th) + sqrt(L^2 - r^2 sin^2(th))
+beta   = -asin(r sin(th) / L)
+psi    = th / 2
+lift   = max(0, d cos(psi - psi_c) + r_nose - R_base)</div>
+<p>Firing order 1-5-3-6-2-4. Crank throws at 0, 240, 120, 120, 240 and 0 degrees. Intake centreline at 470 crank degrees, exhaust at 250.</p>
+<figure>
+<div class="figlbl">Figure 1 — Two crank revolutions</div>
+<div class="figbox">
+<p class="public-omission">Motion video is available in the separate downloadable collection. Static assembly views are retained here.</p>
+</div>
+<figcaption><b>720 degrees in 72 frames.</b> Block, head, bedplate and pan are cut at the crank centreline, the notebook's <code>Cutaway Y = 0</code>. Rendered from the notebook's exported part geometry at 72 crank angles; one crank-angle change in the live notebook takes over an hour, so the video is not a viewport recording.</figcaption>
+</figure>
+<figure>
+<div class="figlbl">Figure 2 — Four crank angles</div>
+<div class="figbox">
+<div class="stills">
+<div><img alt="nTop viewport at 0 degrees" src="assets/ff2a4cd636a406419162051effb2b7660239159230319e310597846c10ff6218.png"/><div class="cap">0 deg. Cylinder 1 at firing TDC. nTop viewport capture.</div></div>
+<div><img alt="Rendered engine at 90 degrees" src="assets/fda92103dda1b71db1f0ac9143cd358881843493d3c248fc94c881eaabef191f.png"/><div class="cap">90 deg. Rendered from the exported STLs.</div></div>
+<div><img alt="Rendered engine at 180 degrees" src="assets/8fc126e3776f823a3882bef693636622aab4a84c713b10bcdfe0382f45ec6dc1.png"/><div class="cap">180 deg. Cylinder 1 at BDC. Rendered from the exported STLs.</div></div>
+<div><img alt="Rendered engine at 470 degrees" src="assets/da9aae75e10d9ec9590e8c676e0256aefacceb59be440c8086c9315cb7aa1053.png"/><div class="cap">470 deg. Cylinder 1 intake valves at full lift. Rendered from the exported STLs.</div></div>
+</div>
+</div>
+<figcaption><b>The viewport capture shows the notebook as saved:</b> 43 visible bodies, static parts translucent, springs as analytic helix fields. The three renders use the same part geometry placed by the same equations.</figcaption>
+</figure>
+<h2><span class="num">03</span>What is modelled</h2>
+<p>Every body below is an implicit built from primitives and booleans. Single-use construction blocks are nested inside their consumers, so each section shows only what is worth naming. Dimensions are in millimetres and come from the parameter table.</p>
+<figure>
+<div class="figlbl">Figure 3 — Exploded view</div>
+<div class="figbox"><img alt="Exploded engine" src="assets/9b3163c6147b3f16ac86102de2369ba02af3a5514be71e0a553c7435c47aa439.png"/></div>
+<figcaption><b>Every body the notebook exports, pulled apart along the engine axes.</b> Oil pan, bedplate, block and head; crankshaft, six rods, six pistons, 24 valves with springs, two camshafts.</figcaption>
+</figure>
+<div class="parts">
+<div class="part"><img alt="Crankshaft" src="assets/0a1dfa6f637f8de21d162236eed2d8a5f40ec86906c4add4bd81fe0403e49316.png"/><div class="pb">
+<div class="pn">Crankshaft <span class="qty">x1</span></div>
+<dl><dt>Main journals</dt><dd>7 x 60 x 24</dd><dt>Rod journals</dt><dd>6 x 50 x 26</dd><dt>Crank radius</dt><dd>43</dd><dt>Counterweight radius</dt><dd>62</dd><dt>Flywheel</dt><dd>280 x 28</dd></dl>
+<ul><li>Webs with counterweights on every throw</li><li>Nose with three-groove belt pulley</li><li>Rear flange, flywheel, 120-tooth ring gear, 8 bolt heads</li><li>Rotates about the crank axis by the crank angle</li></ul>
+</div></div>
+<div class="part"><img alt="Connecting rod" src="assets/a400c6601b371112c03337194c8ed50dbd0f42d706982a29f4afa10501de3e89.png"/><div class="pb">
+<div class="pn">Connecting rod <span class="qty">x6</span></div>
+<dl><dt>Centre to centre</dt><dd>145</dd><dt>Big end</dt><dd>R34, bore 25.5</dd><dt>Small end</dt><dd>R17, bore 11.5</dd><dt>Shank</dt><dd>20 x 16 I-beam</dd><dt>Cap bolts</dt><dd>2 x M9 at 64</dd></dl>
+<ul><li>I-beam shank with pocketed web</li><li>Cap bosses and bolt heads</li><li>Swings by -asin(r sin th / L) about the crank pin</li></ul>
+</div></div>
+<div class="part"><img alt="Piston" src="assets/b7daa2acecc5a8f893650f6a176308bea34fb38b10d68f704aa33071d6a65988.png"/><div class="pb">
+<div class="pn">Piston and pin <span class="qty">x6</span></div>
+<dl><dt>Diameter</dt><dd>85.8 (0.1 clearance)</dd><dt>Compression height</dt><dd>30</dd><dt>Length</dt><dd>62</dd><dt>Rings</dt><dd>1.2 / 1.2 / 2.5, depth 3.5</dd><dt>Pin</dt><dd>22 x 66</dd></dl>
+<ul><li>Spherical dish, 3 mm deep</li><li>Four valve reliefs matched to the valve layout</li><li>Hollow interior with pin bosses, 5 mm walls</li><li>Slipper skirt reliefs at the pin ends</li></ul>
+</div></div>
+<div class="part"><img alt="Cylinder block" src="assets/6987bfe981fa16917a84ed1e1121ddf69b8737b5bd15b43a3b47d116432fb3a9.png"/><div class="pb">
+<div class="pn">Cylinder block <span class="qty">x1</span></div>
+<dl><dt>Length</dt><dd>606</dd><dt>Upper width</dt><dd>150</dd><dt>Crankcase width</dt><dd>190</dd><dt>Deck height</dt><dd>218</dd><dt>Bore pitch</dt><dd>91</dd></dl>
+<ul><li>Six siamesed bores, 5 mm liner walls</li><li>Water jacket, 10 mm wide, 120 mm deep</li><li>Seven bulkheads with main bearing bores</li><li>14 head bolts in solid bosses through the jacket</li></ul>
+</div></div>
+<div class="part"><img alt="Cylinder head" src="assets/c6c97232bfa01694566bb1f1d745747146a7f11417496736bb387367c8639393.png"/><div class="pb">
+<div class="pn">Cylinder head <span class="qty">x1</span></div>
+<dl><dt>Width x height</dt><dd>175 x 150</dd><dt>Chambers</dt><dd>6 x dia 80 x 6</dd><dt>Runners</dt><dd>12 x dia 40, siamesed</dd><dt>Valve tilt</dt><dd>15 deg</dd><dt>Cam towers</dt><dd>7</dd></dl>
+<ul><li>24 valve throats, guides and bucket bores on the tilted axes</li><li>Spark plug hole and well per cylinder</li><li>Open cam pocket with journal bores in every tower</li></ul>
+</div></div>
+<div class="part"><img alt="Camshaft" src="assets/eaaa3c75d5c49ee4abf0813859d04c0c5be04705171017e04d192baa3d57c9f8.png"/><div class="pb">
+<div class="pn">Camshaft <span class="qty">x2</span></div>
+<dl><dt>Base circle</dt><dd>R16</dd><dt>Nose</dt><dd>R5 at 20.5</dd><dt>Lift</dt><dd>9.5</dd><dt>Duration</dt><dd>230 crank deg</dd><dt>Sprocket</dt><dd>dia 100, 40 teeth</dd></dl>
+<ul><li>12 lobes per shaft, phased per cylinder</li><li>Tangent-cam lobe: convex hull of base and nose circles</li><li>7 journals, dia 30; shaft dia 26</li><li>Turns at half crank speed</li></ul>
+</div></div>
+<div class="part"><img alt="Cam lobe" src="assets/db3ae84d4cb2f243a902422119cb9341966a7e24d538a0ff68902401931ca272.png"/><div class="pb">
+<div class="pn">Cam lobe <span class="qty">x24</span></div>
+<dl><dt>Width</dt><dd>14</dd><dt>Tip radius from axis</dt><dd>25.5</dd><dt>Flank</dt><dd>straight, tangent to both circles</dd></dl>
+<ul><li>Two cylinders and two half-spaces at the tangent points</li><li>Its support function gives the valve lift in closed form</li></ul>
+</div></div>
+<div class="part"><img alt="Intake valve" src="assets/44aa6885fa046484f5a1c2fe7b2714be7092d434ed5f302b3c0d80883d15ae65.png"/><div class="pb">
+<div class="pn">Intake valve <span class="qty">x12</span></div>
+<dl><dt>Head diameter</dt><dd>33</dd><dt>Stem</dt><dd>dia 6 x 95</dd><dt>Bucket</dt><dd>dia 33 x 22</dd><dt>Retainer</dt><dd>R12.5 x 5</dd></dl>
+<ul><li>Seat cone, head-to-stem fillet cone</li><li>Keeper groove, retainer, cup-shaped bucket tappet</li><li>Moves along its 15 degree axis by the computed lift</li></ul>
+</div></div>
+<div class="part"><img alt="Valve spring" src="assets/83b733ff95849f2bea67a74416cead413c73d186d41422f6b7bb632b52d45b2f.png"/><div class="pb">
+<div class="pn">Valve spring <span class="qty">x24</span></div>
+<dl><dt>Mean coil radius</dt><dd>10</dd><dt>Wire</dt><dd>dia 3.2</dd><dt>Active coils</dt><dd>6</dd><dt>Installed length</dt><dd>41 (seat 42 to retainer 83)</dd></dl>
+<ul><li>Exact helix distance field from three plane coordinate fields: <code>sqrt((rho - R)^2 + w^2) - r_wire</code>, w the axial offset to the nearest coil</li><li>Seat end fixed to the head; pitch = (installed length - lift) / 6</li></ul>
+</div></div>
+<div class="part"><img alt="Exhaust valve" src="assets/4493fe72827f6ebd98c2d294415309fe20cd1a85c602b90fc2f03cb692d52438.png"/><div class="pb">
+<div class="pn">Exhaust valve <span class="qty">x12</span></div>
+<dl><dt>Head diameter</dt><dd>28</dd><dt>Stem</dt><dd>dia 6 x 95</dd><dt>Bucket</dt><dd>dia 33 x 22</dd><dt>Centreline</dt><dd>250 crank deg</dd></dl>
+<ul><li>Same construction as the intake valve, smaller head</li><li>Leans to the exhaust side of the head</li></ul>
+</div></div>
+<div class="part"><img alt="Bedplate" src="assets/0a16ede4ffcce3113202c5196ea93170681c287497b6ef7a6ef0324f575ff8b7.png"/><div class="pb">
+<div class="pn">Bedplate <span class="qty">x1</span></div>
+<dl><dt>Depth</dt><dd>55</dd><dt>Width</dt><dd>190</dd><dt>Main bore</dt><dd>dia 64</dd></dl>
+<ul><li>Ladder frame: seven bulkheads carrying the lower main bearing halves</li></ul>
+</div></div>
+<div class="part"><img alt="Oil pan" src="assets/4a6e75d5900f5247e6a44a5aada27a9734a78b2df4211399ae217e091c745c8f.png"/><div class="pb">
+<div class="pn">Oil pan <span class="qty">x1</span></div>
+<dl><dt>Depth</dt><dd>70</dd><dt>Wall</dt><dd>4</dd></dl>
+<ul><li>Thin-walled sump under the bedplate</li></ul>
+</div></div>
+</div>
+<h2><span class="num">04</span>How it was built</h2>
+<p>A Python builder describes the engine as calls against the Notebook API. Building block by block was measured at 0.5 s or more per call once the notebook held a few hundred variables, over an hour for the engine. So the builder runs against a recording backend instead, writes one recipe, and <code>import_recipe</code> imports it in a single call: 1498 blocks, 1106 variables, 26 minutes (measured). The API cannot move blocks between sections, hide bodies or set colours, so a second tool rewrites the saved file: it orders the tree by section, writes the section ranges, hides every construction body, colours the 43 assembly bodies and frames the camera.</p>
+<div class="tw"><table>
+<tr><th>Section</th><th>Holds</th><th class="num">Variables</th></tr>
+<tr><td>INPUTS</td><td>Every design parameter as a named, unit-carrying variable</td><td class="num">188</td></tr>
+<tr><td>MATH - DIMENSIONS</td><td>Derived dimensions: crank radius, deck height, cylinder stations, cam axis</td><td class="num">275</td></tr>
+<tr><td>MATH - KINEMATICS</td><td>Everything that depends on Crank Angle: pin heights, rod tilt, cam angles, lifts</td><td class="num">132</td></tr>
+<tr><td>MATH - SPRING FIELDS</td><td>The 12 analytic helix fields, one per pair of springs</td><td class="num">285</td></tr>
+<tr><td>CRANKSHAFT to CAMSHAFTS</td><td>Seven sections of construction bodies in their local frames</td><td class="num">58</td></tr>
+<tr><td>CHECKS</td><td>Scalars compared with the closed-form model: kinematics, extents, clearances</td><td class="num">125</td></tr>
+<tr><td>ENGINE ASSEMBLY</td><td>The 43 placed, moving, coloured bodies. Only these are visible.</td><td class="num">43</td></tr>
+</table></div>
+<div class="call blue"><span class="lbl">Measured on this build</span>
+<p>Opening the notebook takes 85 s. One crank-angle change then re-evaluates for over an hour with 43 bodies visible and a 19 GB working set. The API call that sets the angle returns after 47 s; the first value read back blocks until the graph is done. Where the time goes has not been measured.</p></div>
+<h2><span class="num">05</span>Verification</h2>
+<p>Every kinematic value the notebook computes was read back through the API and compared with the same equations evaluated in plain Python. The six-angle sweep ran in the dependency closure of the CHECK variables, a 212-variable notebook with the piston, rod and intake valve of cylinder 1. The 27 part extents were read from bounding boxes in the full notebook at 0 degrees.</p>
+<div class="tw"><table>
+<tr><th>Check</th><th>Angles, deg</th><th class="num">Worst delta</th><th>Verdict</th></tr>
+<tr><td>Piston pin heights, cylinders 1 and 3</td><td>0, 90, 180, 270, 470, 615</td><td class="num">5.2e-6 mm</td><td><span class="pill p-hold">Holds</span></td></tr>
+<tr><td>Rod swing angle</td><td>same six</td><td class="num">3.6e-15 deg</td><td><span class="pill p-hold">Holds</span></td></tr>
+<tr><td>Intake and exhaust valve lift</td><td>same six</td><td class="num">&lt; 1e-9 mm</td><td><span class="pill p-hold">Holds</span></td></tr>
+<tr><td>Piston crown height and skirt position</td><td>same six</td><td class="num">5.2e-6 mm</td><td><span class="pill p-hold">Holds</span></td></tr>
+<tr><td>Displacement</td><td>-</td><td class="num">2997.34 cc, exact</td><td><span class="pill p-hold">Holds</span></td></tr>
+<tr><td>Part extents and clearances, 27 bounding boxes</td><td>0</td><td class="num">1.2e-5 mm</td><td><span class="pill p-hold">Holds</span></td></tr>
+<tr><td>Valve motion with tilt set to 0</td><td>0, 470</td><td class="num">1.9e-6 mm</td><td><span class="pill p-hold">Holds</span></td></tr>
+<tr><td>Rod top from the bounding box of the swung rod</td><td>same six</td><td class="num">0 to +1.77 mm</td><td><span class="pill p-part">One-sided</span></td></tr>
+<tr><td>Lowest point of the tilted intake valve, from its bounding box</td><td>same six</td><td class="num">-0.78 mm</td><td><span class="pill p-part">One-sided</span></td></tr>
+<tr><td>Crankshaft top from its bounding box (ring gear is a polar array)</td><td>0</td><td class="num">+3.0 mm</td><td><span class="pill p-part">One-sided</span></td></tr>
+</table></div>
+<div class="call"><span class="lbl">Why three checks are one-sided</span>
+<p>nTop's bounding box of a rotated body is the box of the rotated box, and a polar array's box is padded. The measured box therefore contains the exact model and grows with the angle, but does not equal it. These rows prove containment, not position. Position is proven by the exact scalars above.</p></div>
+<div class="call red"><span class="lbl">Found during verification</span>
+<p>The first sweep reported the rod angle with the wrong sign at every angle where it is non-zero. The geometry was correct; the check variable was built by holding a negated reference, and the recipe's <code>negative</code> property is honoured as a block input but ignored as the contents of a variable. The builder now negates with a block. The lesson generalises: verify derived values at an angle where they are non-zero, not only at the rest position.</p></div>
+<h2><span class="num">06</span>Limits and next steps</h2>
+<div class="tw"><table>
+<tr><th>If you want to</th><th>Then</th></tr>
+<tr><td>Change a dimension</td><td>Edit it in INPUTS, or in <code>engine_spec.py</code> and rebuild. Units in the GUI are inches and degrees; the recipe stores SI.</td></tr>
+<tr><td>Animate in the live notebook</td><td>Expect over an hour per angle with all bodies visible. Hide the block and head first, or use the 212-variable check notebook.</td></tr>
+<tr><td>Export a part</td><td>Add the export after the build with <code>engine.exports</code>. Mesh tolerance below 1.0 mm dropped the valve core once and made the block export run for an hour; 1.0 to 1.5 mm exports whole.</td></tr>
+<tr><td>Add the timing chain or manifolds</td><td>Not modelled. Gear and sprocket teeth are boxes on a polar array with no tip trim.</td></tr>
+<tr><td>Blend edges</td><td>Not possible from the API; the blend enum on booleans cannot be set.</td></tr>
+</table></div>
+<h2><span class="num">07</span>Sources and confidence</h2>
+<p class="src">All numbers are measured on this machine with nTop 6.0.0-rc build 42594 on 4 to 6 Sep 2026 unless marked otherwise. Evidence files: <code>_agent/engine_checks_*.json</code> (six angles), <code>_agent/engine_extents.json</code>, <code>_agent/engine_zero_tilt_*.json</code>, <code>_agent/engine_import.json</code>, <code>_agent/watch_*.csv</code> (CPU traces), <code>_agent/neg_test_result.json</code> (the negation test). Renders: <code>tools/render_engine.py</code> from the STLs in <code>exports/</code>. Method notes: <code>docs/API_NOTES.md</code>. Dimensions are design values from <code>nTopScripts/engine_spec.py</code>; they are not derived from any production engine.</p>
+</div>
+</body>
+</html>

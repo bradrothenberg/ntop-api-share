@@ -1,0 +1,1794 @@
+{
+  "date": "2026-09-10",
+  "scope": "Separate recipient checkout; recorded-graph, native-file, portability, report and public-content checks. No new native execution or solver run.",
+  "builds": [
+    {
+      "demo": "i6",
+      "returncode": 0,
+      "seconds": 0.782
+    },
+    {
+      "demo": "i6-astra",
+      "returncode": 0,
+      "seconds": 2.125
+    },
+    {
+      "demo": "jet20",
+      "returncode": 0,
+      "seconds": 3.296
+    },
+    {
+      "demo": "fury",
+      "returncode": 0,
+      "seconds": 2.5
+    },
+    {
+      "demo": "b52",
+      "returncode": 0,
+      "seconds": 0.563
+    },
+    {
+      "demo": "ddgx",
+      "returncode": 0,
+      "seconds": 2.609
+    },
+    {
+      "demo": "f16",
+      "returncode": 0,
+      "seconds": 0.563
+    },
+    {
+      "demo": "a12",
+      "returncode": 0,
+      "seconds": 0.531
+    },
+    {
+      "demo": "fcat",
+      "returncode": 0,
+      "seconds": 0.5
+    }
+  ],
+  "tests": {
+    "passed": 43,
+    "failed": 0,
+    "skipped": 0
+  },
+  "native_notebooks": 17,
+  "native_variables_matched": 697,
+  "public_reports": 27,
+  "browser_pages": 38,
+  "reference_image_hashes_excluded": 31,
+  "browser": [
+    {
+      "demo": "index",
+      "file": "index.html",
+      "sha256": "31317bdea5e8d37fa75962730d8b54d9110655ebbfd32912b91be2a1a245ab0e",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "i6-astra",
+      "file": "I6-Astra.html",
+      "sha256": "86c45c6c965cd893e5b25cb0bbc79256849f91bef662ff5b7548453d1fe01fd7",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 6,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "jet20",
+      "file": "Jet20.html",
+      "sha256": "bd30982c090e591a3469ca08670ebccddbe4a8e0bab80399dba1ef974ca61b09",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 34,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark view",
+          "state": ""
+        },
+        {
+          "name": "Assembled",
+          "state": "active"
+        },
+        {
+          "name": "Inside",
+          "state": "active"
+        },
+        {
+          "name": "Exploded",
+          "state": "active"
+        },
+        {
+          "name": "Section cut",
+          "state": "active"
+        },
+        {
+          "name": "INLET",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "COMPRESSOR",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "COMBUSTOR",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "TURBINE",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "NOZZLE",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "3D",
+          "state": "active"
+        },
+        {
+          "name": "Side",
+          "state": "active"
+        },
+        {
+          "name": "Inlet",
+          "state": "active"
+        },
+        {
+          "name": "Exhaust",
+          "state": "active"
+        },
+        {
+          "name": "Compressor",
+          "state": ""
+        },
+        {
+          "name": "Diffuser",
+          "state": ""
+        },
+        {
+          "name": "Liner ports",
+          "state": ""
+        },
+        {
+          "name": "Turbine",
+          "state": ""
+        },
+        {
+          "name": "Keep opposite half",
+          "state": ""
+        },
+        {
+          "name": "Isolate selection",
+          "state": ""
+        },
+        {
+          "name": "Show context",
+          "state": ""
+        },
+        {
+          "name": "All views",
+          "state": "active"
+        },
+        {
+          "name": "ASSEMBLY",
+          "state": "active"
+        },
+        {
+          "name": "AA",
+          "state": "active"
+        },
+        {
+          "name": "BB",
+          "state": "active"
+        }
+      ],
+      "ranges": [
+        {
+          "id": "jv-explode",
+          "min": "0",
+          "max": "100"
+        },
+        {
+          "id": "h",
+          "min": "0",
+          "max": "10000"
+        },
+        {
+          "id": "mach",
+          "min": "0",
+          "max": "0.5"
+        },
+        {
+          "id": "ec",
+          "min": "0.6",
+          "max": "0.82"
+        },
+        {
+          "id": "tit",
+          "min": "1000",
+          "max": "1250"
+        }
+      ],
+      "selects": [
+        {
+          "id": "jv-tour",
+          "options": 9
+        },
+        {
+          "id": "jv-cut",
+          "options": 3
+        },
+        {
+          "id": "jv-part",
+          "options": 72
+        },
+        {
+          "id": "perf-h",
+          "options": 3
+        },
+        {
+          "id": "perf-m",
+          "options": 3
+        },
+        {
+          "id": "perf-t",
+          "options": 6
+        },
+        {
+          "id": "perf-sensitivity",
+          "options": 11
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "assets_viewer_model.json",
+        "bytes": 131591
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "b52",
+      "file": "B52-Fuselage.html",
+      "sha256": "7132cf35364c99d97f6d386992ccc3049620bbdcae2b41138a55984b75d7c3e2",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 9,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        },
+        {
+          "name": "Smooth blend",
+          "state": "true"
+        },
+        {
+          "name": "Previous blend",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "validation_comparison.json",
+        "bytes": 1409
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "ddgx",
+      "file": "DDGX.html",
+      "sha256": "7c83a50104acf834cdc16db13a494b7419603d4b9ae1bf79de3e48a5e3c78601",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 15,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Switch theme",
+          "state": ""
+        },
+        {
+          "name": "Overview",
+          "state": "true"
+        },
+        {
+          "name": "Plan",
+          "state": "true"
+        },
+        {
+          "name": "Side",
+          "state": "true"
+        },
+        {
+          "name": "Front",
+          "state": "true"
+        },
+        {
+          "name": "Aft quarter",
+          "state": "true"
+        },
+        {
+          "name": "Superstructure",
+          "state": "true"
+        },
+        {
+          "name": "Bow side",
+          "state": "true"
+        },
+        {
+          "name": "Bow oblique",
+          "state": "true"
+        },
+        {
+          "name": "Bow front",
+          "state": "true"
+        },
+        {
+          "name": "Forward hull loft",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "build_ddgx_api_export.json",
+        "bytes": 1051279
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "i6",
+      "file": "I6-Engine.html",
+      "sha256": "e36f1653aee7c10a39a40bcd30d9e6a8b4322cfa463d763577539bcbf99b4b47",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 17,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "jet20-req",
+      "file": "Jet20-Requirements.html",
+      "sha256": "365c99bfa7367c1d079d7dbb193f85ec22d136b34ec03514bc7ee7f5f7e17dfb",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 1,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [
+        {
+          "id": "status",
+          "options": 5
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "ENGINE_REQUIREMENTS.md",
+        "bytes": 40157
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "jet20-sar",
+      "file": "Jet20-SAR-Engineering.html",
+      "sha256": "e5f41699084c0084cd379b89caf610615b6f4f362b72f846ccdc083335c66206",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [
+        {
+          "id": "hours",
+          "min": "0.5",
+          "max": "3"
+        },
+        {
+          "id": "ld-ratio",
+          "min": "10",
+          "max": "30"
+        }
+      ],
+      "selects": [
+        {
+          "id": "theme",
+          "options": 3
+        },
+        {
+          "id": "route",
+          "options": 13
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "study.json",
+        "bytes": 23051
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "jet20-closure",
+      "file": "Jet20-Closure-Plan.html",
+      "sha256": "0371a149c2100cfa5bed2e30b0ec9bd98169e2ce8f6af3f255d162779a3925da",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [
+        {
+          "id": "theme",
+          "options": 3
+        },
+        {
+          "id": "category",
+          "options": 9
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "closure_matrix.csv",
+        "bytes": 18856
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "jet20-p4",
+      "file": "Jet20-P4-Nacelle.html",
+      "sha256": "a09ed65d4ac4f5f57a64c250bb5042da7a4da22e21e81adab592d7aa6fc34a39",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 7,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Assembled",
+          "state": "active"
+        },
+        {
+          "name": "Inside",
+          "state": "active"
+        },
+        {
+          "name": "Exploded",
+          "state": "active"
+        },
+        {
+          "name": "Section cut",
+          "state": "active"
+        },
+        {
+          "name": "3D",
+          "state": "active"
+        },
+        {
+          "name": "Side",
+          "state": "active"
+        },
+        {
+          "name": "Inlet",
+          "state": "active"
+        },
+        {
+          "name": "Exhaust",
+          "state": "active"
+        },
+        {
+          "name": "Compressor",
+          "state": ""
+        },
+        {
+          "name": "Diffuser",
+          "state": ""
+        },
+        {
+          "name": "Liner ports",
+          "state": ""
+        },
+        {
+          "name": "Turbine",
+          "state": ""
+        },
+        {
+          "name": "Keep opposite half",
+          "state": ""
+        },
+        {
+          "name": "Isolate selection",
+          "state": ""
+        },
+        {
+          "name": "Show context",
+          "state": ""
+        }
+      ],
+      "ranges": [
+        {
+          "id": "jv-explode",
+          "min": "0",
+          "max": "100"
+        }
+      ],
+      "selects": [
+        {
+          "id": "jv-tour",
+          "options": 9
+        },
+        {
+          "id": "jv-cut",
+          "options": 3
+        },
+        {
+          "id": "jv-part",
+          "options": 76
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "model.json",
+        "bytes": 137013
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "jet20-p5",
+      "file": "Jet20-P5-Inlet.html",
+      "sha256": "51a19f001c216e5ffb395ac42d8d9bb2d8bc25f5c3c66f4b386236801ebfabc8",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 3,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "bell_pilot_verification.json",
+        "bytes": 7501
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "fcat",
+      "file": "F-Cat-Engineering.html",
+      "sha256": "fb589f125f0c0d5e21275865c924acc769e147599ebf98155cf4bd6efd630494",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 9,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark mode",
+          "state": ""
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "Pod_Closeout_Sections.png",
+        "bytes": 242622
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "fcat-aero",
+      "file": "F-Cat-Aero.html",
+      "sha256": "4d24f08ad75a0354c98511b771288c542dd138a4a74a2d62711197af7e63ec1d",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 24,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [
+        {
+          "id": "mission-reserve",
+          "options": 3
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "AVL_Panelization.png",
+        "bytes": 189040
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "f16",
+      "file": "F-16.html",
+      "sha256": "5e0038e89426ef5425e76c8991c36bce7ff2c08664339e1af9d4afeeceb18773",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 20,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "PREV",
+          "state": ""
+        },
+        {
+          "name": "NEXT",
+          "state": ""
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "f16-onshape",
+      "file": "F-16-Onshape-Comparison.html",
+      "sha256": "191dfdba4c19e087d68abaf22f446b141a4986c1a780bd056499809353b0c214",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 3,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Switch theme",
+          "state": ""
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "F16_Competitive_Analysis.md",
+        "bytes": 21082
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "f16-fusion",
+      "file": "F-16-Fusion-Comparison.html",
+      "sha256": "836e768c696fc4740a1b54ae68ddeb9539937d2b60c2d463156826d11ffba69b",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 4,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Switch theme",
+          "state": ""
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "README.md",
+        "bytes": 3514
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "a12",
+      "file": "A-12.html",
+      "sha256": "3ed8101e5a72895e7a69409c148a26f978a761b7b40f1283076972f0bd1c796c",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 17,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark mode",
+          "state": "theme"
+        },
+        {
+          "name": "Overview",
+          "state": "true"
+        },
+        {
+          "name": "Top",
+          "state": "true"
+        },
+        {
+          "name": "Side",
+          "state": "true"
+        },
+        {
+          "name": "Front",
+          "state": "true"
+        },
+        {
+          "name": "Inlet",
+          "state": "true"
+        },
+        {
+          "name": "Shoulder blends",
+          "state": "true"
+        },
+        {
+          "name": "Underside",
+          "state": "true"
+        },
+        {
+          "name": "Rear",
+          "state": "true"
+        },
+        {
+          "name": "Cockpit",
+          "state": "true"
+        },
+        {
+          "name": "Cockpit front",
+          "state": "true"
+        },
+        {
+          "name": "Cockpit roof",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "planform_reference.json",
+        "bytes": 8175
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "fury-current",
+      "file": "Fury-RC.html",
+      "sha256": "b2d22a84d0748753f3cbfb4a45884af89b9931dfc8debc99cfe7942f6f407a19",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 29,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "review.json",
+        "bytes": 2462
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "fury-earlier",
+      "file": "Fury-RC-Earlier-Surface.html",
+      "sha256": "866a41c1c7e17881ba4f81194a5f9f5796df2f38c2f5bc9716065f029e6d9edf",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 18,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "rc_unchanged_evidence.json",
+        "bytes": 35472
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "fury-alt",
+      "file": "Fury-Alternatives.html",
+      "sha256": "947c2c2df2da81d48b834530f917024abbaea7afbaeaf18a25ba91b0d09485b9",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 11,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "verification.json",
+        "bytes": 1935
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "fury-ready",
+      "file": "Fury-CFD-Readiness.html",
+      "sha256": "e2b928f822164cebc021e70c8d8df2ce5809e1043a1033ed8fa97eade29a24c5",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 1,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "reference_readback.json",
+        "bytes": 1676
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "api-learning",
+      "file": "Notebook-API-JSON-Output.html",
+      "sha256": "5729bf929bc068daa0eb5d05f597aad875223e61a79405b1c10ad51ea8b396c4",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 1,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "b52-r2",
+      "file": "B52-R2-Loft-Study.html",
+      "sha256": "4b5600aaad673a96f697bd2f03f0182b2387bbf69d6845b9b2df257ca0825b00",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        },
+        {
+          "name": "Difference",
+          "state": "true"
+        },
+        {
+          "name": "Overlay",
+          "state": "true"
+        },
+        {
+          "name": "Reference",
+          "state": "true"
+        },
+        {
+          "name": "Native model",
+          "state": "true"
+        }
+      ],
+      "ranges": [
+        {
+          "id": "opacity",
+          "min": "0",
+          "max": "100"
+        }
+      ],
+      "selects": [],
+      "svgImages": {
+        "count": 11,
+        "failed": []
+      },
+      "download": {
+        "name": "comparison.json",
+        "bytes": 2714
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "b52-r3",
+      "file": "B52-R3-Loft-Study.html",
+      "sha256": "af961734d19add563227c57957a67bcd7deb8d64a2b9ed8971676838e58dcf0d",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        },
+        {
+          "name": "R3 smooth",
+          "state": "true"
+        },
+        {
+          "name": "R2 previous",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 7,
+        "failed": []
+      },
+      "download": {
+        "name": "comparison.json",
+        "bytes": 2739
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "b52-r4",
+      "file": "B52-R4-Loft-Study.html",
+      "sha256": "0288e84daf897ac3b3510c8eb5a62960a756c58a7dc99efaec8ace6d0f2a4779",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 10,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        },
+        {
+          "name": "Native geometry",
+          "state": "true"
+        },
+        {
+          "name": "Reference overlay",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "comparison.json",
+        "bytes": 1835
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "b52-r5",
+      "file": "B52-R5-Loft-Study.html",
+      "sha256": "eb40348f2837198e0507dffd575fb42adb202e4f0d2b6f2d27fa056659b26f83",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 13,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        },
+        {
+          "name": "R5 refined surface",
+          "state": "true"
+        },
+        {
+          "name": "R4 previous surface",
+          "state": "true"
+        },
+        {
+          "name": "Native geometry",
+          "state": "true"
+        },
+        {
+          "name": "Reference overlay",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "comparison.json",
+        "bytes": 1360
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "b52-r6",
+      "file": "B52-R6-Loft-Study.html",
+      "sha256": "5451e9601c45f146fd36984b4eebd6168ede0e1f91b877b8eeaead74f778971e",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 5,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        },
+        {
+          "name": "Rounded tip",
+          "state": "true"
+        },
+        {
+          "name": "Previous tip",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "comparison.json",
+        "bytes": 1404
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "astra-reference",
+      "file": "I6-Astra-Reference.html",
+      "sha256": "80a7035c09c6d8654a701ddfe7cc5e4eafe5ea585214862a0d6b00a04f967c3f",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 223,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        }
+      ],
+      "ranges": [],
+      "selects": [
+        {
+          "id": "sweep-view",
+          "options": 3
+        },
+        {
+          "id": "sweep-order",
+          "options": 6
+        },
+        {
+          "id": "order",
+          "options": 3
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": {
+        "name": "results.csv",
+        "bytes": 18720
+      },
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-i6-astra",
+      "file": "../demos/i6-astra/reports/index.html",
+      "sha256": "132836519570fd5201a8ddba778977b503542f06fd2248857b9cf18022c31ae7",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 6,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-jet20",
+      "file": "../demos/jet20/reports/index.html",
+      "sha256": "f708f99db1b5efcd6417d934803a9a1158650be3ffcf76edcd1f1f0bb0b83603",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 34,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark view",
+          "state": ""
+        },
+        {
+          "name": "Assembled",
+          "state": "active"
+        },
+        {
+          "name": "Inside",
+          "state": "active"
+        },
+        {
+          "name": "Exploded",
+          "state": "active"
+        },
+        {
+          "name": "Section cut",
+          "state": "active"
+        },
+        {
+          "name": "INLET",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "COMPRESSOR",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "COMBUSTOR",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "TURBINE",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "NOZZLE",
+          "state": "jv-model-label"
+        },
+        {
+          "name": "3D",
+          "state": "active"
+        },
+        {
+          "name": "Side",
+          "state": "active"
+        },
+        {
+          "name": "Inlet",
+          "state": "active"
+        },
+        {
+          "name": "Exhaust",
+          "state": "active"
+        },
+        {
+          "name": "Compressor",
+          "state": ""
+        },
+        {
+          "name": "Diffuser",
+          "state": ""
+        },
+        {
+          "name": "Liner ports",
+          "state": ""
+        },
+        {
+          "name": "Turbine",
+          "state": ""
+        },
+        {
+          "name": "Keep opposite half",
+          "state": ""
+        },
+        {
+          "name": "Isolate selection",
+          "state": ""
+        },
+        {
+          "name": "Show context",
+          "state": ""
+        },
+        {
+          "name": "All views",
+          "state": "active"
+        },
+        {
+          "name": "ASSEMBLY",
+          "state": "active"
+        },
+        {
+          "name": "AA",
+          "state": "active"
+        },
+        {
+          "name": "BB",
+          "state": "active"
+        }
+      ],
+      "ranges": [
+        {
+          "id": "jv-explode",
+          "min": "0",
+          "max": "100"
+        },
+        {
+          "id": "h",
+          "min": "0",
+          "max": "10000"
+        },
+        {
+          "id": "mach",
+          "min": "0",
+          "max": "0.5"
+        },
+        {
+          "id": "ec",
+          "min": "0.6",
+          "max": "0.82"
+        },
+        {
+          "id": "tit",
+          "min": "1000",
+          "max": "1250"
+        }
+      ],
+      "selects": [
+        {
+          "id": "jv-tour",
+          "options": 9
+        },
+        {
+          "id": "jv-cut",
+          "options": 3
+        },
+        {
+          "id": "jv-part",
+          "options": 72
+        },
+        {
+          "id": "perf-h",
+          "options": 3
+        },
+        {
+          "id": "perf-m",
+          "options": 3
+        },
+        {
+          "id": "perf-t",
+          "options": 6
+        },
+        {
+          "id": "perf-sensitivity",
+          "options": 11
+        }
+      ],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-fury",
+      "file": "../demos/fury/reports/index.html",
+      "sha256": "baad7ba590bb165323122e418249c412f968eb7ac9eedbade94322cbad0f0655",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-b52",
+      "file": "../demos/b52/reports/index.html",
+      "sha256": "c0e3746a906937429d20c3ced334e46c3cc77988cf13e81716db4dd7c9fdfcce",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 9,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Dark theme",
+          "state": ""
+        },
+        {
+          "name": "Smooth blend",
+          "state": "true"
+        },
+        {
+          "name": "Previous blend",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-ddgx",
+      "file": "../demos/ddgx/reports/index.html",
+      "sha256": "8b4804232151597dd53d96c75c786f88c9c233a341b3f3f7a0f16f1956f63de0",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 15,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [
+        {
+          "name": "Switch theme",
+          "state": ""
+        },
+        {
+          "name": "Overview",
+          "state": "true"
+        },
+        {
+          "name": "Plan",
+          "state": "true"
+        },
+        {
+          "name": "Side",
+          "state": "true"
+        },
+        {
+          "name": "Front",
+          "state": "true"
+        },
+        {
+          "name": "Aft quarter",
+          "state": "true"
+        },
+        {
+          "name": "Superstructure",
+          "state": "true"
+        },
+        {
+          "name": "Bow side",
+          "state": "true"
+        },
+        {
+          "name": "Bow oblique",
+          "state": "true"
+        },
+        {
+          "name": "Bow front",
+          "state": "true"
+        },
+        {
+          "name": "Forward hull loft",
+          "state": "true"
+        }
+      ],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-f16",
+      "file": "../demos/f16/reports/index.html",
+      "sha256": "aa08bdeb3cbe6d7bcafc8524d8381d77f8cc628eaaaef4df0b691504eb66bf28",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-a12",
+      "file": "../demos/a12/reports/index.html",
+      "sha256": "57b7a88e614ab3cdabc9938fb59fd662f0a9f0b10a6796c250aef564e27a6211",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-fcat",
+      "file": "../demos/fcat/reports/index.html",
+      "sha256": "982a71440f705b090c0bd2bc330181a5f93fb58dfa6a187fe5437262bb060588",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 0,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "fury-original-public",
+      "file": "../demos/fury/reports/appearance-baseline.html",
+      "sha256": "d05f3a6f4843d181874765a45f38a5f673bd3c53755ca95660413ef8a0e156c6",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 10,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    },
+    {
+      "demo": "demo-i6",
+      "file": "../demos/i6/reports/index.html",
+      "sha256": "22693d3bad5c9819f54271aefe703990ce95951c0bf5bdf18f5ddbad8deb86a6",
+      "separateCheckout": true,
+      "errors": [],
+      "requests": [],
+      "missing": [],
+      "images": {
+        "count": 17,
+        "broken": []
+      },
+      "videos": [],
+      "controls": [],
+      "ranges": [],
+      "selects": [],
+      "svgImages": {
+        "count": 0,
+        "failed": []
+      },
+      "download": null,
+      "mobileWidth": 390,
+      "pass": true
+    }
+  ],
+  "audit": {
+    "files": 828,
+    "bytes": 313048980,
+    "embedded_payloads": 685,
+    "gzip_payloads": 2,
+    "images_scanned": 497,
+    "local_links": 833,
+    "findings": [],
+    "scope": "Pattern checks, native roundtrips, resource links, image metadata, and embedded/compressed payloads. Visual/provenance review is recorded separately."
+  },
+  "audit_receipt_scope": "The 828-file content snapshot before this documentation receipt. Final commit and CI must also pass the same scanner.",
+  "source_download_collection": {
+    "zip_unchanged_sha256": "d51bfe1c069cb3a6a51c804049a9b7815aee6aa776ae48d46be95d57555827ae"
+  },
+  "file_integrity": "reports/manifest.json hashes every public report and shared asset; docs/model-publication.json and docs/recipe-publication.json record model and recipe provenance."
+}

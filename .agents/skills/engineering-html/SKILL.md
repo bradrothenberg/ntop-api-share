@@ -24,3 +24,11 @@ Retain third-party license notices for bundled viewers. Use authored figures or 
 
 Before delivery, check all local links and images, inspect the page at desktop and phone sizes, and exercise controls.
 Remove private machine paths, source photos without clear permission, session identifiers, and unavailable artifact links.
+
+## Public collections
+
+For a multi-report handoff, share content-addressed local assets under `reports/assets/` and provide an offline catalogue. Test the complete downloaded tree. State clearly when an HTML depends on adjacent assets.
+
+Audit visible images, inline JavaScript image maps, data-URL downloads, compressed viewer payloads, and image metadata. Removing a visible photo does not remove an embedded copy. Retain source credits when the image itself is excluded.
+
+Remove photo-dependent controls when producing an edition without reference photos. Keep native view switches, calculations, and comparisons functional. Label recorded revisions, historical failures, and any omitted large media.

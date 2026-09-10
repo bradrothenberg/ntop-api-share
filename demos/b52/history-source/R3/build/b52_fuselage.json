@@ -1,0 +1,6700 @@
+{
+  "body": [
+    {
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "val": 9.144,
+          "units": {
+            "length": 1
+          }
+        }
+      },
+      "id": "b52_00001",
+      "name": "Fuselage length",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "val": 1.0,
+          "units": {}
+        }
+      },
+      "id": "b52_00002",
+      "name": "Width multiplier",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "val": 1.0,
+          "units": {}
+        }
+      },
+      "id": "b52_00003",
+      "name": "Height multiplier",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "id": "b52_00314",
+        "name": "plane_from_normal",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 1.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "b52_00005",
+      "name": "Coordinate x plane",
+      "type": "plane",
+      "variable": true
+    },
+    {
+      "contents": {
+        "ref": {
+          "id": "b52_00005"
+        },
+        "props": [
+          "scalar field"
+        ]
+      },
+      "id": "b52_00006",
+      "name": "Coordinate x",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "id": "b52_00315",
+        "name": "plane_from_normal",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 1.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "b52_00008",
+      "name": "Coordinate y plane",
+      "type": "plane",
+      "variable": true
+    },
+    {
+      "contents": {
+        "ref": {
+          "id": "b52_00008"
+        },
+        "props": [
+          "scalar field"
+        ]
+      },
+      "id": "b52_00009",
+      "name": "Coordinate y",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "id": "b52_00316",
+        "name": "plane_from_normal",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 1.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "b52_00011",
+      "name": "Coordinate z plane",
+      "type": "plane",
+      "variable": true
+    },
+    {
+      "contents": {
+        "ref": {
+          "id": "b52_00011"
+        },
+        "props": [
+          "scalar field"
+        ]
+      },
+      "id": "b52_00012",
+      "name": "Coordinate z",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00317",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "divide<real_field,real_field>",
+            "id": "b52_00318",
+            "name": "divide",
+            "type": "real_field",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00006"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00001"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "val": 1.0,
+              "units": {
+                "length": 1
+              }
+            }
+          }
+        ]
+      },
+      "id": "b52_00015",
+      "name": "Normalized longitudinal coordinate",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "divide<real_field,real_field>",
+        "id": "b52_00319",
+        "name": "divide",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00001"
+            },
+            "props": []
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "val": 1.0,
+              "units": {
+                "length": 1
+              }
+            }
+          }
+        ]
+      },
+      "id": "b52_00017",
+      "name": "Length scale",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "axis<point,vector>",
+        "id": "b52_00320",
+        "name": "axis",
+        "type": "axis",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 1.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "b52_00019",
+      "name": "Longitudinal guide axis",
+      "type": "axis",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "core.list<point>",
+        "id": "b52_00321",
+        "name": "core.list",
+        "type": "list<point>",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.9980114656902094
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.001656804733727811
+              },
+              {
+                "isFinite": true,
+                "val": 1.0066021663624365
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008757396449704143
+              },
+              {
+                "isFinite": true,
+                "val": 1.0156527769553558
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.02887573964497042
+              },
+              {
+                "isFinite": true,
+                "val": 1.0252269895290644
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.06035502958579881
+              },
+              {
+                "isFinite": true,
+                "val": 1.034267419645312
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.10319526627218936
+              },
+              {
+                "isFinite": true,
+                "val": 1.0405456546278093
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.157396449704142
+              },
+              {
+                "isFinite": true,
+                "val": 1.0432153045189028
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2229585798816568
+              },
+              {
+                "isFinite": true,
+                "val": 1.0432153045189028
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2998816568047337
+              },
+              {
+                "isFinite": true,
+                "val": 1.0422259118519863
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.3881656804733727
+              },
+              {
+                "isFinite": true,
+                "val": 1.0410566743293044
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.4878106508875741
+              },
+              {
+                "isFinite": true,
+                "val": 1.0398967859298387
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.5988165680473373
+              },
+              {
+                "isFinite": true,
+                "val": 1.038854870258652
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.7211834319526627
+              },
+              {
+                "isFinite": true,
+                "val": 1.0381811164413184
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.8549112426035502
+              },
+              {
+                "isFinite": true,
+                "val": 1.037986636391637
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.9503747534516767
+              },
+              {
+                "isFinite": true,
+                "val": 1.037986636391637
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 1.037986636391637
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00021",
+      "name": "Crown control points",
+      "type": "list<point>",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "spline_by_control_points<list<point>,integer>[5.20.0]",
+        "id": "b52_00322",
+        "name": "spline_by_control_points",
+        "type": "spline",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00021"
+            },
+            "props": []
+          },
+          {
+            "type": "integer",
+            "value": {
+              "val": 3
+            }
+          }
+        ]
+      },
+      "id": "b52_00023",
+      "name": "Crown spline",
+      "type": "spline",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00323",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "remap<real_field,real_field,real_field,real_field>",
+            "id": "b52_00324",
+            "name": "remap",
+            "type": "real_field",
+            "inputs": [
+              {
+                "func": "subtract<real_field,real_field>",
+                "id": "b52_00325",
+                "name": "subtract",
+                "type": "real_field",
+                "inputs": [
+                  {
+                    "func": "curve_axis_distance<curve_interface,axis,vector>[5.30.0]",
+                    "id": "b52_00326",
+                    "name": "curve_axis_distance",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00023"
+                        },
+                        "props": []
+                      },
+                      {
+                        "ref": {
+                          "id": "b52_00019"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "vector",
+                        "value": {
+                          "units": {},
+                          "value": [
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 1.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "real",
+                    "value": {
+                      "isFinite": true,
+                      "val": 1.0,
+                      "units": {
+                        "length": 1
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "ref": {
+                  "id": "b52_00015"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00009"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00012"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "ref": {
+              "id": "b52_00017"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00028",
+      "name": "Crown guide",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "core.list<point>",
+        "id": "b52_00327",
+        "name": "core.list",
+        "type": "list<point>",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.9978873191973477
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.001656804733727811
+              },
+              {
+                "isFinite": true,
+                "val": 0.9917586552184185
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008757396449704143
+              },
+              {
+                "isFinite": true,
+                "val": 0.9856254471335156
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.02887573964497042
+              },
+              {
+                "isFinite": true,
+                "val": 0.9795961271093008
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.06035502958579881
+              },
+              {
+                "isFinite": true,
+                "val": 0.9739041774604007
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.10319526627218936
+              },
+              {
+                "isFinite": true,
+                "val": 0.9688100423568079
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.157396449704142
+              },
+              {
+                "isFinite": true,
+                "val": 0.9645741698876478
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2229585798816568
+              },
+              {
+                "isFinite": true,
+                "val": 0.9614557651571687
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2998816568047337
+              },
+              {
+                "isFinite": true,
+                "val": 0.9595158136875529
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.3881656804733727
+              },
+              {
+                "isFinite": true,
+                "val": 0.9582262284379915
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.4878106508875741
+              },
+              {
+                "isFinite": true,
+                "val": 0.9572964432499463
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.5988165680473373
+              },
+              {
+                "isFinite": true,
+                "val": 0.9572964432499463
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.7211834319526627
+              },
+              {
+                "isFinite": true,
+                "val": 0.9643392712202489
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.8549112426035502
+              },
+              {
+                "isFinite": true,
+                "val": 0.975651505043342
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.9503747534516767
+              },
+              {
+                "isFinite": true,
+                "val": 0.985900054902761
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.9936042651936233
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00030",
+      "name": "Keel control points",
+      "type": "list<point>",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "spline_by_control_points<list<point>,integer>[5.20.0]",
+        "id": "b52_00328",
+        "name": "spline_by_control_points",
+        "type": "spline",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00030"
+            },
+            "props": []
+          },
+          {
+            "type": "integer",
+            "value": {
+              "val": 3
+            }
+          }
+        ]
+      },
+      "id": "b52_00032",
+      "name": "Keel spline",
+      "type": "spline",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00329",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "remap<real_field,real_field,real_field,real_field>",
+            "id": "b52_00330",
+            "name": "remap",
+            "type": "real_field",
+            "inputs": [
+              {
+                "func": "subtract<real_field,real_field>",
+                "id": "b52_00331",
+                "name": "subtract",
+                "type": "real_field",
+                "inputs": [
+                  {
+                    "func": "curve_axis_distance<curve_interface,axis,vector>[5.30.0]",
+                    "id": "b52_00332",
+                    "name": "curve_axis_distance",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00032"
+                        },
+                        "props": []
+                      },
+                      {
+                        "ref": {
+                          "id": "b52_00019"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "vector",
+                        "value": {
+                          "units": {},
+                          "value": [
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 1.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "real",
+                    "value": {
+                      "isFinite": true,
+                      "val": 1.0,
+                      "units": {
+                        "length": 1
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "ref": {
+                  "id": "b52_00015"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00009"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00012"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "ref": {
+              "id": "b52_00017"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00037",
+      "name": "Keel guide",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "core.list<point>",
+        "id": "b52_00333",
+        "name": "core.list",
+        "type": "list<point>",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 1.0000620732464307
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.001656804733727811
+              },
+              {
+                "isFinite": true,
+                "val": 1.0071985740724414
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008757396449704143
+              },
+              {
+                "isFinite": true,
+                "val": 1.0143286586203566
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.02887573964497042
+              },
+              {
+                "isFinite": true,
+                "val": 1.0211648467001038
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.06035502958579881
+              },
+              {
+                "isFinite": true,
+                "val": 1.0268002405665555
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.10319526627218936
+              },
+              {
+                "isFinite": true,
+                "val": 1.0301478641084334
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.157396449704142
+              },
+              {
+                "isFinite": true,
+                "val": 1.0313281410915431
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2229585798816568
+              },
+              {
+                "isFinite": true,
+                "val": 1.0313281410915431
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2998816568047337
+              },
+              {
+                "isFinite": true,
+                "val": 1.0311045404749695
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.3881656804733727
+              },
+              {
+                "isFinite": true,
+                "val": 1.0309364435668658
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.4878106508875741
+              },
+              {
+                "isFinite": true,
+                "val": 1.0303722245150335
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.5988165680473373
+              },
+              {
+                "isFinite": true,
+                "val": 1.0283342327380216
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.7211834319526627
+              },
+              {
+                "isFinite": true,
+                "val": 1.024122009368919
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.8549112426035502
+              },
+              {
+                "isFinite": true,
+                "val": 1.018281257534893
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.9503747534516767
+              },
+              {
+                "isFinite": true,
+                "val": 1.0120371857511117
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 1.0060521415270018
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00039",
+      "name": "Half width control points",
+      "type": "list<point>",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "spline_by_control_points<list<point>,integer>[5.20.0]",
+        "id": "b52_00334",
+        "name": "spline_by_control_points",
+        "type": "spline",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00039"
+            },
+            "props": []
+          },
+          {
+            "type": "integer",
+            "value": {
+              "val": 3
+            }
+          }
+        ]
+      },
+      "id": "b52_00041",
+      "name": "Half width spline",
+      "type": "spline",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00335",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "remap<real_field,real_field,real_field,real_field>",
+            "id": "b52_00336",
+            "name": "remap",
+            "type": "real_field",
+            "inputs": [
+              {
+                "func": "subtract<real_field,real_field>",
+                "id": "b52_00337",
+                "name": "subtract",
+                "type": "real_field",
+                "inputs": [
+                  {
+                    "func": "curve_axis_distance<curve_interface,axis,vector>[5.30.0]",
+                    "id": "b52_00338",
+                    "name": "curve_axis_distance",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00041"
+                        },
+                        "props": []
+                      },
+                      {
+                        "ref": {
+                          "id": "b52_00019"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "vector",
+                        "value": {
+                          "units": {},
+                          "value": [
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 1.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "real",
+                    "value": {
+                      "isFinite": true,
+                      "val": 1.0,
+                      "units": {
+                        "length": 1
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "ref": {
+                  "id": "b52_00015"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00009"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00012"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "ref": {
+              "id": "b52_00017"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00046",
+      "name": "Half width guide",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "core.list<point>",
+        "id": "b52_00339",
+        "name": "core.list",
+        "type": "list<point>",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.001656804733727811
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008757396449704143
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.02887573964497042
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.06035502958579881
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.10319526627218936
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.157396449704142
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2229585798816568
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.2998816568047337
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.3881656804733727
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.4878106508875741
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.5988165680473373
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.7211834319526627
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.8549112426035502
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.9503747534516767
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 1.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00048",
+      "name": "Lateral datum control points",
+      "type": "list<point>",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "spline_by_control_points<list<point>,integer>[5.20.0]",
+        "id": "b52_00340",
+        "name": "spline_by_control_points",
+        "type": "spline",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00048"
+            },
+            "props": []
+          },
+          {
+            "type": "integer",
+            "value": {
+              "val": 3
+            }
+          }
+        ]
+      },
+      "id": "b52_00050",
+      "name": "Lateral datum spline",
+      "type": "spline",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00341",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "remap<real_field,real_field,real_field,real_field>",
+            "id": "b52_00342",
+            "name": "remap",
+            "type": "real_field",
+            "inputs": [
+              {
+                "func": "subtract<real_field,real_field>",
+                "id": "b52_00343",
+                "name": "subtract",
+                "type": "real_field",
+                "inputs": [
+                  {
+                    "func": "curve_axis_distance<curve_interface,axis,vector>[5.30.0]",
+                    "id": "b52_00344",
+                    "name": "curve_axis_distance",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00050"
+                        },
+                        "props": []
+                      },
+                      {
+                        "ref": {
+                          "id": "b52_00019"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "vector",
+                        "value": {
+                          "units": {},
+                          "value": [
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 1.0
+                            },
+                            {
+                              "isFinite": true,
+                              "val": 0.0
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "real",
+                    "value": {
+                      "isFinite": true,
+                      "val": 1.0,
+                      "units": {
+                        "length": 1
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "ref": {
+                  "id": "b52_00015"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00009"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00012"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "ref": {
+              "id": "b52_00017"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00055",
+      "name": "Lateral datum guide",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00345",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "ref": {
+              "id": "b52_00002"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00057",
+      "name": "Section half width",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00346",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "add<real_field,real_field>",
+            "id": "b52_00347",
+            "name": "add",
+            "type": "real_field",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00028"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00037"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "val": 0.5,
+              "units": {}
+            }
+          }
+        ]
+      },
+      "id": "b52_00060",
+      "name": "Section height datum",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "multiply<real_field,real_field>",
+        "id": "b52_00348",
+        "name": "multiply",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "multiply<real_field,real_field>",
+            "id": "b52_00349",
+            "name": "multiply",
+            "type": "real_field",
+            "inputs": [
+              {
+                "func": "subtract<real_field,real_field>",
+                "id": "b52_00350",
+                "name": "subtract",
+                "type": "real_field",
+                "inputs": [
+                  {
+                    "ref": {
+                      "id": "b52_00028"
+                    },
+                    "props": []
+                  },
+                  {
+                    "ref": {
+                      "id": "b52_00037"
+                    },
+                    "props": []
+                  }
+                ]
+              },
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "val": 0.5,
+                  "units": {}
+                }
+              }
+            ]
+          },
+          {
+            "ref": {
+              "id": "b52_00003"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00064",
+      "name": "Section half height",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "abs<real_field>",
+        "id": "b52_00351",
+        "name": "abs",
+        "type": "real_field",
+        "inputs": [
+          {
+            "func": "subtract<real_field,real_field>",
+            "id": "b52_00352",
+            "name": "subtract",
+            "type": "real_field",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00009"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00055"
+                },
+                "props": []
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00067",
+      "name": "Absolute section lateral coordinate",
+      "type": "real_field",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "vector_field_2d_from_components<real_field,real_field>[5.31.0]",
+        "id": "b52_00353",
+        "name": "vector_field_2d_from_components",
+        "type": "vector_field_2d",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00067"
+            },
+            "props": []
+          },
+          {
+            "func": "subtract<real_field,real_field>",
+            "id": "b52_00354",
+            "name": "subtract",
+            "type": "real_field",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00012"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00060"
+                },
+                "props": []
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00070",
+      "name": "Transverse section coordinates",
+      "type": "vector_field_2d",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "conic_implicit<vector_field_2d,vector_field_2d,vector_field_2d,real_field,vector_field_2d>[5.31.0]",
+        "id": "b52_00355",
+        "name": "conic_implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "func": "vector_field_2d_from_components<real_field,real_field>[5.31.0]",
+            "id": "b52_00356",
+            "name": "vector_field_2d_from_components",
+            "type": "vector_field_2d",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "val": 0.0,
+                  "units": {
+                    "length": 1
+                  }
+                }
+              },
+              {
+                "ref": {
+                  "id": "b52_00064"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "func": "vector_field_2d_from_components<real_field,real_field>[5.31.0]",
+            "id": "b52_00357",
+            "name": "vector_field_2d_from_components",
+            "type": "vector_field_2d",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00057"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "b52_00064"
+                },
+                "props": []
+              }
+            ]
+          },
+          {
+            "func": "vector_field_2d_from_components<real_field,real_field>[5.31.0]",
+            "id": "b52_00358",
+            "name": "vector_field_2d_from_components",
+            "type": "vector_field_2d",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00057"
+                },
+                "props": []
+              },
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "val": 0.0,
+                  "units": {
+                    "length": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "val": 0.41421356237309515,
+              "units": {}
+            }
+          },
+          {
+            "ref": {
+              "id": "b52_00070"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00075",
+      "name": "Upper elliptical conic",
+      "type": "implicit",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "conic_implicit<vector_field_2d,vector_field_2d,vector_field_2d,real_field,vector_field_2d>[5.31.0]",
+        "id": "b52_00359",
+        "name": "conic_implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "func": "vector_field_2d_from_components<real_field,real_field>[5.31.0]",
+            "id": "b52_00360",
+            "name": "vector_field_2d_from_components",
+            "type": "vector_field_2d",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00057"
+                },
+                "props": []
+              },
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "val": 0.0,
+                  "units": {
+                    "length": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "func": "vector_field_2d_from_components<real_field,real_field>[5.31.0]",
+            "id": "b52_00361",
+            "name": "vector_field_2d_from_components",
+            "type": "vector_field_2d",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "b52_00057"
+                },
+                "props": []
+              },
+              {
+                "func": "multiply<real_field,real_field>",
+                "id": "b52_00362",
+                "name": "multiply",
+                "type": "real_field",
+                "inputs": [
+                  {
+                    "ref": {
+                      "id": "b52_00064"
+                    },
+                    "props": []
+                  },
+                  {
+                    "type": "real",
+                    "value": {
+                      "isFinite": true,
+                      "val": -1.0,
+                      "units": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "func": "vector_field_2d_from_components<real_field,real_field>[5.31.0]",
+            "id": "b52_00363",
+            "name": "vector_field_2d_from_components",
+            "type": "vector_field_2d",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "val": 0.0,
+                  "units": {
+                    "length": 1
+                  }
+                }
+              },
+              {
+                "func": "multiply<real_field,real_field>",
+                "id": "b52_00364",
+                "name": "multiply",
+                "type": "real_field",
+                "inputs": [
+                  {
+                    "ref": {
+                      "id": "b52_00064"
+                    },
+                    "props": []
+                  },
+                  {
+                    "type": "real",
+                    "value": {
+                      "isFinite": true,
+                      "val": -1.0,
+                      "units": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "val": 0.41421356237309515,
+              "units": {}
+            }
+          },
+          {
+            "ref": {
+              "id": "b52_00070"
+            },
+            "props": []
+          }
+        ]
+      },
+      "id": "b52_00082",
+      "name": "Lower elliptical conic",
+      "type": "implicit",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "set_bounding_box<implicit,bounding_box>",
+        "id": "b52_00365",
+        "name": "set_bounding_box",
+        "type": "implicit",
+        "inputs": [
+          {
+            "func": "max<list<real_field>>",
+            "id": "b52_00366",
+            "name": "max",
+            "type": "real_field",
+            "inputs": [
+              {
+                "func": "core.list<real_field>",
+                "id": "b52_00367",
+                "name": "core.list",
+                "type": "list<real_field>",
+                "inputs": [
+                  {
+                    "func": "multiply<real_field,real_field>",
+                    "id": "b52_00368",
+                    "name": "multiply",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00075"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "real",
+                        "value": {
+                          "isFinite": true,
+                          "val": -1.0,
+                          "units": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "func": "multiply<real_field,real_field>",
+                    "id": "b52_00369",
+                    "name": "multiply",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00082"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "real",
+                        "value": {
+                          "isFinite": true,
+                          "val": -1.0,
+                          "units": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "func": "subtract<real_field,real_field>",
+                    "id": "b52_00370",
+                    "name": "subtract",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00067"
+                        },
+                        "props": []
+                      },
+                      {
+                        "ref": {
+                          "id": "b52_00057"
+                        },
+                        "props": []
+                      }
+                    ]
+                  },
+                  {
+                    "func": "subtract<real_field,real_field>",
+                    "id": "b52_00371",
+                    "name": "subtract",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "func": "subtract<real_field,real_field>",
+                        "id": "b52_00372",
+                        "name": "subtract",
+                        "type": "real_field",
+                        "inputs": [
+                          {
+                            "ref": {
+                              "id": "b52_00012"
+                            },
+                            "props": []
+                          },
+                          {
+                            "ref": {
+                              "id": "b52_00060"
+                            },
+                            "props": []
+                          }
+                        ]
+                      },
+                      {
+                        "ref": {
+                          "id": "b52_00064"
+                        },
+                        "props": []
+                      }
+                    ]
+                  },
+                  {
+                    "func": "subtract<real_field,real_field>",
+                    "id": "b52_00373",
+                    "name": "subtract",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "func": "multiply<real_field,real_field>",
+                        "id": "b52_00374",
+                        "name": "multiply",
+                        "type": "real_field",
+                        "inputs": [
+                          {
+                            "ref": {
+                              "id": "b52_00064"
+                            },
+                            "props": []
+                          },
+                          {
+                            "type": "real",
+                            "value": {
+                              "isFinite": true,
+                              "val": -1.0,
+                              "units": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "func": "subtract<real_field,real_field>",
+                        "id": "b52_00375",
+                        "name": "subtract",
+                        "type": "real_field",
+                        "inputs": [
+                          {
+                            "ref": {
+                              "id": "b52_00012"
+                            },
+                            "props": []
+                          },
+                          {
+                            "ref": {
+                              "id": "b52_00060"
+                            },
+                            "props": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "func": "multiply<real_field,real_field>",
+                    "id": "b52_00376",
+                    "name": "multiply",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00006"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "real",
+                        "value": {
+                          "isFinite": true,
+                          "val": -1.0,
+                          "units": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "func": "subtract<real_field,real_field>",
+                    "id": "b52_00377",
+                    "name": "subtract",
+                    "type": "real_field",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00006"
+                        },
+                        "props": []
+                      },
+                      {
+                        "ref": {
+                          "id": "b52_00001"
+                        },
+                        "props": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "func": "create_bounding_box<point,point>",
+            "id": "b52_00378",
+            "name": "create_bounding_box",
+            "type": "bounding_box",
+            "inputs": [
+              {
+                "func": "point<real,real,real>",
+                "id": "b52_00379",
+                "name": "point",
+                "type": "point",
+                "inputs": [
+                  {
+                    "type": "real",
+                    "value": {
+                      "isFinite": true,
+                      "val": 0.0,
+                      "units": {
+                        "length": 1
+                      }
+                    }
+                  },
+                  {
+                    "func": "multiply<real,real>",
+                    "id": "b52_00380",
+                    "name": "multiply",
+                    "type": "real",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00001"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "real",
+                        "value": {
+                          "isFinite": true,
+                          "val": -0.05,
+                          "units": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "func": "multiply<real,real>",
+                    "id": "b52_00381",
+                    "name": "multiply",
+                    "type": "real",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00001"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "real",
+                        "value": {
+                          "isFinite": true,
+                          "val": -0.06,
+                          "units": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "func": "point<real,real,real>",
+                "id": "b52_00382",
+                "name": "point",
+                "type": "point",
+                "inputs": [
+                  {
+                    "ref": {
+                      "id": "b52_00001"
+                    },
+                    "props": []
+                  },
+                  {
+                    "func": "multiply<real,real>",
+                    "id": "b52_00383",
+                    "name": "multiply",
+                    "type": "real",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00001"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "real",
+                        "value": {
+                          "isFinite": true,
+                          "val": 0.05,
+                          "units": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "func": "multiply<real,real>",
+                    "id": "b52_00384",
+                    "name": "multiply",
+                    "type": "real",
+                    "inputs": [
+                      {
+                        "ref": {
+                          "id": "b52_00001"
+                        },
+                        "props": []
+                      },
+                      {
+                        "type": "real",
+                        "value": {
+                          "isFinite": true,
+                          "val": 0.06,
+                          "units": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00103",
+      "name": "FUSELAGE",
+      "type": "implicit",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00385",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.0025125774060059183
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00105",
+      "name": "CHECK 0.005 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00386",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.10670920737442062
+              },
+              {
+                "isFinite": true,
+                "val": -0.0025125774060059183
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00107",
+      "name": "CHECK 0.005 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00387",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.10026016043925477
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00109",
+      "name": "CHECK 0.005 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00388",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.10528531525126661
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00111",
+      "name": "CHECK 0.005 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00389",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00113",
+      "name": "CHECK 0.005 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00390",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00115",
+      "name": "CHECK 0.005 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00391",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00117",
+      "name": "CHECK 0.005 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00392",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00119",
+      "name": "CHECK 0.005 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00393",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.06287900345791197
+              },
+              {
+                "isFinite": true,
+                "val": 0.06308765463361976
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00121",
+      "name": "CHECK ellipse 0.005 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00394",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": -0.06287900345791196
+              },
+              {
+                "isFinite": true,
+                "val": 0.06308765463361976
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00123",
+      "name": "CHECK ellipse 0.005 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00395",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": -0.06287900345791199
+              },
+              {
+                "isFinite": true,
+                "val": -0.06811280944563161
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00125",
+      "name": "CHECK ellipse 0.005 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00396",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.045720000000000004
+              },
+              {
+                "isFinite": true,
+                "val": 0.06287900345791195
+              },
+              {
+                "isFinite": true,
+                "val": -0.06811280944563161
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00127",
+      "name": "CHECK ellipse 0.005 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00397",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018156199447579402
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00129",
+      "name": "CHECK 0.025 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00398",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.21348474311187207
+              },
+              {
+                "isFinite": true,
+                "val": 0.018156199447579402
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00131",
+      "name": "CHECK 0.025 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00399",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.21959820633330637
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00133",
+      "name": "CHECK 0.025 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00400",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.18328580743814757
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00135",
+      "name": "CHECK 0.025 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00401",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00137",
+      "name": "CHECK 0.025 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00402",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00139",
+      "name": "CHECK 0.025 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00403",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00141",
+      "name": "CHECK 0.025 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00404",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00143",
+      "name": "CHECK 0.025 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00405",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.1257970912785607
+              },
+              {
+                "isFinite": true,
+                "val": 0.15352614072043866
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00145",
+      "name": "CHECK ellipse 0.025 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00406",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": -0.12579709127856067
+              },
+              {
+                "isFinite": true,
+                "val": 0.15352614072043866
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00147",
+      "name": "CHECK ellipse 0.025 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00407",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": -0.12579709127856073
+              },
+              {
+                "isFinite": true,
+                "val": -0.11721374182527985
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00149",
+      "name": "CHECK ellipse 0.025 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00408",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.22860000000000003
+              },
+              {
+                "isFinite": true,
+                "val": 0.12579709127856067
+              },
+              {
+                "isFinite": true,
+                "val": -0.11721374182527988
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00151",
+      "name": "CHECK ellipse 0.025 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00409",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.03506028893290253
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00153",
+      "name": "CHECK 0.060 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00410",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.2868331446579956
+              },
+              {
+                "isFinite": true,
+                "val": 0.03506028893290253
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00155",
+      "name": "CHECK 0.060 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00411",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.3148075115887018
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00157",
+      "name": "CHECK 0.060 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00412",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.24468693372289674
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00159",
+      "name": "CHECK 0.060 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00413",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00161",
+      "name": "CHECK 0.060 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00414",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00163",
+      "name": "CHECK 0.060 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00415",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00165",
+      "name": "CHECK 0.060 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00416",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00167",
+      "name": "CHECK 0.060 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00417",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.16901805138060885
+              },
+              {
+                "isFinite": true,
+                "val": 0.2258003792790557
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00169",
+      "name": "CHECK ellipse 0.060 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00418",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": -0.16901805138060882
+              },
+              {
+                "isFinite": true,
+                "val": 0.2258003792790557
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00171",
+      "name": "CHECK ellipse 0.060 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00419",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": -0.16901805138060888
+              },
+              {
+                "isFinite": true,
+                "val": -0.1556798014132506
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00173",
+      "name": "CHECK ellipse 0.060 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00420",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.54864
+              },
+              {
+                "isFinite": true,
+                "val": 0.1690180513806088
+              },
+              {
+                "isFinite": true,
+                "val": -0.15567980141325066
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00175",
+      "name": "CHECK ellipse 0.060 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00421",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0398884294304265
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00177",
+      "name": "CHECK 0.120 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00422",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.33321911276205596
+              },
+              {
+                "isFinite": true,
+                "val": 0.0398884294304265
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00179",
+      "name": "CHECK 0.120 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00423",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.3859820580744013
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00181",
+      "name": "CHECK 0.120 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00424",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.3062051992135483
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00183",
+      "name": "CHECK 0.120 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00425",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00185",
+      "name": "CHECK 0.120 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00426",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00187",
+      "name": "CHECK 0.120 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00427",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00189",
+      "name": "CHECK 0.120 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00428",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00191",
+      "name": "CHECK 0.120 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00429",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.19635124521251218
+              },
+              {
+                "isFinite": true,
+                "val": 0.2775425133581743
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00193",
+      "name": "CHECK ellipse 0.120 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00430",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": -0.19635124521251215
+              },
+              {
+                "isFinite": true,
+                "val": 0.2775425133581743
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00195",
+      "name": "CHECK ellipse 0.120 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00431",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": -0.1963512452125122
+              },
+              {
+                "isFinite": true,
+                "val": -0.19776565449732128
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00197",
+      "name": "CHECK ellipse 0.120 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00432",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 1.09728
+              },
+              {
+                "isFinite": true,
+                "val": 0.19635124521251213
+              },
+              {
+                "isFinite": true,
+                "val": -0.19776565449732136
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00199",
+      "name": "CHECK ellipse 0.120 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00433",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.016809896533253155
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00201",
+      "name": "CHECK 0.250 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00434",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.34280290529180596
+              },
+              {
+                "isFinite": true,
+                "val": 0.016809896533253155
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00203",
+      "name": "CHECK 0.250 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00435",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.4016147933717298
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00205",
+      "name": "CHECK 0.250 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00436",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.3679950003052235
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00207",
+      "name": "CHECK 0.250 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00437",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00209",
+      "name": "CHECK 0.250 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00438",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00211",
+      "name": "CHECK 0.250 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00439",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00213",
+      "name": "CHECK 0.250 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00440",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00215",
+      "name": "CHECK 0.250 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00441",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.2019985491185715
+              },
+              {
+                "isFinite": true,
+                "val": 0.2818369807096644
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00217",
+      "name": "CHECK ellipse 0.250 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00442",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": -0.20199854911857149
+              },
+              {
+                "isFinite": true,
+                "val": 0.2818369807096644
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00219",
+      "name": "CHECK ellipse 0.250 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00443",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": -0.20199854911857154
+              },
+              {
+                "isFinite": true,
+                "val": -0.24821718764315803
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00221",
+      "name": "CHECK ellipse 0.250 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00444",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 2.286
+              },
+              {
+                "isFinite": true,
+                "val": 0.20199854911857146
+              },
+              {
+                "isFinite": true,
+                "val": -0.2482171876431581
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00223",
+      "name": "CHECK ellipse 0.250 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00445",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.012703199918047303
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00225",
+      "name": "CHECK 0.500 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00446",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.329107158720166
+              },
+              {
+                "isFinite": true,
+                "val": -0.012703199918047303
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00227",
+      "name": "CHECK 0.500 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00447",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.37402254282143865
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00229",
+      "name": "CHECK 0.500 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00448",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.39942894265753326
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00231",
+      "name": "CHECK 0.500 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00449",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00233",
+      "name": "CHECK 0.500 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00450",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00235",
+      "name": "CHECK 0.500 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00451",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00237",
+      "name": "CHECK 0.500 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00452",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00239",
+      "name": "CHECK 0.500 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00453",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.19392825305672232
+              },
+              {
+                "isFinite": true,
+                "val": 0.253682127420582
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00241",
+      "name": "CHECK ellipse 0.500 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00454",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": -0.1939282530567223
+              },
+              {
+                "isFinite": true,
+                "val": 0.253682127420582
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00243",
+      "name": "CHECK ellipse 0.500 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00455",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": -0.19392825305672234
+              },
+              {
+                "isFinite": true,
+                "val": -0.27908852725667654
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00245",
+      "name": "CHECK ellipse 0.500 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00456",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 4.572
+              },
+              {
+                "isFinite": true,
+                "val": 0.19392825305672226
+              },
+              {
+                "isFinite": true,
+                "val": -0.27908852725667666
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00247",
+      "name": "CHECK ellipse 0.500 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00457",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.04221910511550625
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00249",
+      "name": "CHECK 0.800 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00458",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.22562080218218547
+              },
+              {
+                "isFinite": true,
+                "val": 0.04221910511550625
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00251",
+      "name": "CHECK 0.800 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00459",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.35819749805924467
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00253",
+      "name": "CHECK 0.800 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00460",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.27375928782823217
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00255",
+      "name": "CHECK 0.800 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00461",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00257",
+      "name": "CHECK 0.800 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00462",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00259",
+      "name": "CHECK 0.800 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00463",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00261",
+      "name": "CHECK 0.800 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00464",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00263",
+      "name": "CHECK 0.800 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00465",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.13294833266647663
+              },
+              {
+                "isFinite": true,
+                "val": 0.2585785016625858
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00265",
+      "name": "CHECK ellipse 0.800 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00466",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": -0.13294833266647663
+              },
+              {
+                "isFinite": true,
+                "val": 0.2585785016625858
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00267",
+      "name": "CHECK ellipse 0.800 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00467",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": -0.13294833266647665
+              },
+              {
+                "isFinite": true,
+                "val": -0.17414029143157322
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00269",
+      "name": "CHECK ellipse 0.800 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00468",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 7.315200000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.1329483326664766
+              },
+              {
+                "isFinite": true,
+                "val": -0.17414029143157328
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00271",
+      "name": "CHECK ellipse 0.800 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00469",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.13078893088497184
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00273",
+      "name": "CHECK 0.980 inside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00470",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.09135549430040818
+              },
+              {
+                "isFinite": true,
+                "val": 0.13078893088497184
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00275",
+      "name": "CHECK 0.980 outside side",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00471",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.3573505328875701
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00277",
+      "name": "CHECK 0.980 outside crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00472",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.09577267111762641
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00279",
+      "name": "CHECK 0.980 outside keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00473",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00028"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00281",
+      "name": "CHECK 0.980 Crown",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00474",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00037"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00283",
+      "name": "CHECK 0.980 Keel",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00475",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00046"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00285",
+      "name": "CHECK 0.980 Half width",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00476",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00055"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00287",
+      "name": "CHECK 0.980 Lateral datum",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00477",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.053831741265389685
+              },
+              {
+                "isFinite": true,
+                "val": 0.2839211082056313
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00289",
+      "name": "CHECK ellipse 0.980 0",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00478",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": -0.05383174126538968
+              },
+              {
+                "isFinite": true,
+                "val": 0.2839211082056313
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00291",
+      "name": "CHECK ellipse 0.980 1",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00479",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": -0.0538317412653897
+              },
+              {
+                "isFinite": true,
+                "val": -0.02234324643568758
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00293",
+      "name": "CHECK ellipse 0.980 2",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00480",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 8.96112
+              },
+              {
+                "isFinite": true,
+                "val": 0.05383174126538967
+              },
+              {
+                "isFinite": true,
+                "val": -0.022343246435687636
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00295",
+      "name": "CHECK ellipse 0.980 3",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00481",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00297",
+      "name": "CHECK cap 0 above",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00482",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.5
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00299",
+      "name": "CHECK cap 0 below",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00483",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.4
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00301",
+      "name": "CHECK cap 0 beside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00484",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 9.144e-05
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00303",
+      "name": "CHECK cap 1e-05 above",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00485",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 9.144e-05
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.5
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00305",
+      "name": "CHECK cap 1e-05 below",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00486",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 9.144e-05
+              },
+              {
+                "isFinite": true,
+                "val": 0.4
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00307",
+      "name": "CHECK cap 1e-05 beside",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00487",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 9.144
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00309",
+      "name": "CHECK cap 1 above",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00488",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 9.144
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": -0.5
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00311",
+      "name": "CHECK cap 1 below",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "b52_00489",
+        "name": "evaluate_field",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "b52_00103"
+            },
+            "props": []
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 9.144
+              },
+              {
+                "isFinite": true,
+                "val": 0.4
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "id": "b52_00313",
+      "name": "CHECK cap 1 beside",
+      "type": "real",
+      "variable": true
+    }
+  ],
+  "description": "Smooth native guide-driven conic loft. Forward belly lump removed. Sixteen-control-point C2 guides replace the dense raster fit; elliptical sections remove transverse waviness. Smoothness has priority over the previous silhouette target. See R3 report for current comparisons.",
+  "displayname": "B-52H Fair Fuselage - R3",
+  "inputs": [],
+  "name": "user_func_7b215eb1_29e0_440e_a0be_cb2762d8f369",
+  "namespaces": [],
+  "version": [
+    1,
+    0,
+    0
+  ],
+  "output": {
+    "id": "b52_00103"
+  }
+}

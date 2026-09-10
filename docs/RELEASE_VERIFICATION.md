@@ -1,4 +1,22 @@
-# Release verification
+# September report expansion verification
+
+The public update contains nine demos, seventeen native notebooks, and twenty-seven reports. The existing public history is preserved. Reference photographs remain only in the separate downloadable collection.
+
+The exact staged files were exported to a separate recipient folder with spaces. No original workspace imports were used. The locked dependency installation, all nine build/replay jobs, and all 43 tests passed without skips. Native working-copy preparation resolved all 17 export paths under that recipient folder. Imports for the three new demos were staged, but not executed inside nTop.
+
+The three saved recipes match all 697 native variables by functions, connections, properties, types, literal values, and units. Tests verify the Fury wing, horizontal-tail, and fin controls are each 12.7 mm full thickness. Mesh and export operations in that notebook remain paused.
+
+All 27 reports, the catalogue, nine demo entry pages, and the retained Fury baseline page passed offline browser checks: 38 pages total. Checks covered image loading, SVG images, available view controls, attachments, and desktop/mobile layouts. Every F-16 slide was checked. The pages produced no script errors, failed local requests, or network dependencies during these checks.
+
+The staged content audit found no privacy, credential, excluded-photo, native-container, media-size, or local-link findings. It includes nested image maps and decoded downloads. The 31 excluded reference-image digests are checked against public files and decoded payloads. The original downloadable ZIP retains its prior SHA-256.
+
+[Expansion receipt](report-expansion-verification.json) | [Report manifest](../reports/manifest.json) | [Public audit scope](PUBLIC_AUDIT.md)
+
+These checks establish packaging and saved-graph correspondence. They do not establish new native geometry evaluation, solver validation, hardware qualification, or compatibility with a different nTop build.
+
+---
+
+# Initial six-demo release verification
 
 Verified on 10 September 2026 in an independent Git clone whose folder name contains spaces.
 The source and clone files matched byte for byte. No private source checkout was used by the test commands.

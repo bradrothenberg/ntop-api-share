@@ -8,6 +8,9 @@ JOBS={
  'fury':(['build_rc_native.py'], 'output/_agent/rc_native_recipe.json'),
  'b52':(['build_fuselage.py'], 'output/build/final_recipe.json'),
  'ddgx':(['build_ddgx.py'], 'output/build/ddgx.json'),
+ 'f16':(['replay.py'], 'output/build/recipe.json'),
+ 'a12':(['replay.py'], 'output/build/recipe.json'),
+ 'fcat':(['replay.py'], 'output/build/recipe.json'),
 }
 def prepare():
     (ROOT/'.local').mkdir(exist_ok=True)

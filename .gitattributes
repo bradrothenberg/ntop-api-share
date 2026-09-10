@@ -6,3 +6,7 @@
 *.ac binary
 # Preserve whitespace inside the bundled Three.js shader source.
 demos/jet20/reports/index.html whitespace=-blank-at-eol
+
+reports/*.html whitespace=-blank-at-eol
+# Retain fixed-width recorded AVL output without changing its content hash.
+reports/assets/56d3e314c912a6ac1b943d7dfbf35797fcf97f5a28dbe661f72b7ca7432bf872.txt whitespace=-blank-at-eol

@@ -29,3 +29,11 @@ Measure the exported file.
 
 Repository checks establish copy fidelity, relocation, and offline generation.
 Historical receipts preserve earlier native checks. They are not new nTop runs on this machine.
+
+## Finite-edge and aerodynamic report evidence
+
+The later Fury report separates native section thickness, raw surface topology, sharpened topology, and volume-mesh checks. A visually smoother edge can coexist with fragments or invalid cells. Preserve failed cases and measure the exported artifact at the requested tolerance.
+
+The F-Cat aero report separates inviscid loading, section polars, viscous CFD, and conditional mission calculations. Read wall-resolution, prism, pressure-peak, convergence, and refinement findings before using a coefficient. Geometry replay does not rerun those studies.
+
+The [report catalogue](../reports/index.html) retains these distinctions. The public edition removes reference photos and large outputs but preserves source credits, compact measurements, and unresolved findings.

@@ -89,3 +89,11 @@ DDGX uses shared lower hull and bulb rails, then introduces the blend over a lim
 Measure the contour of the combined native field. A smooth input rail alone does not establish a fair final union.
 Finite contour samples are evidence at those samples. Inferred shape controls do not establish real ship dimensions.
 See [DDGX's recorded lessons](../demos/ddgx/LEARNINGS.md).
+
+## Finite edges and later aircraft studies
+
+Fury and F-16 retain finite trailing-edge controls. Define full physical thickness, then convert to each surface's half-thickness contribution and guide scale. Inspect the native sections and exported mesh separately. Smooth display shading does not prove topology.
+
+F-16 R6 uses sparse cubic guides to reduce aft-fuselage oscillation. A-12 uses independent upper and lower section surfaces and separates cockpit crown shape from pane borders. F-Cat uses one continuous bent tail loft and local pod-fairing controls. Each method retains its own recorded validation limits.
+
+Read [F-16 lessons](../demos/f16/LEARNINGS.md), [A-12 lessons](../demos/a12/LEARNINGS.md), and [F-Cat lessons](../demos/fcat/LEARNINGS.md). The [B52 historical source](../demos/b52/history-source/README.md) preserves R2-R6 graphs alongside the current R7 builder.

@@ -1,32 +1,26 @@
 # Public release audit
 
-Scope: the new public snapshot only. This repository uses fresh Git history.
-Source workspaces remain unchanged. Private histories, raw session notes, and machine-specific configuration are excluded.
+The September update preserves the existing public history. Source workspaces and the separate downloadable collection remain unchanged. Private histories, raw sessions, and machine-specific configuration are excluded.
 
 ## Included and omitted material
 
-- Six demos contain standalone builders, local agent instructions, HTML reports, and 12 native notebooks.
-- Jet20 includes the original assembled and exploded nTop UI screenshots, with capture and model hashes.
-- Large exported meshes, movies, solver runs, caches, application binaries, application license files, and source-workspace backups are omitted.
-- Unverified reference notebooks and reference photographs are omitted. Fury uses numerical shape controls and native geometry.
-- DDGX retains authored inferred geometry. Its external concept image is linked, not redistributed.
-- B52 retains the upstream artist-model source, authors, full GPL-2.0 license, and complete editable derivative recipe.
-- Reports retain compact authored images and the jet viewer. Embedded media is included in the size and payload audit.
-- Commercial fonts are not bundled. Reports use local fallback fonts and work without network requests.
+- Nine demos contain local agent guidance, native notebooks, and scripts. Six use construction builders; F-16, A-12, and F-Cat replay saved graphs.
+- Seventeen native notebooks include F-16 R6, A-12 R33, F-Cat geometry and meshing, and the finite-edge Fury snapshot.
+- The 27-report catalogue includes Jet20 requirements and later reviews, both F-Cat reports, cross-CAD comparisons, B52 history, and the full I6 Astra reference.
+- Reference photos and photographic composites remain only in the separate downloadable collection. Visible images, JavaScript image maps, and download attachments were reviewed together. The excluded-image digest list guards against reintroduction.
+- Large meshes, movies, animated previews, solver runs, caches, binaries, license files, and workspace backups are omitted.
+- Jet20 retains the assembled and exploded nTop UI screenshots with capture and model hashes.
+- B52 retains its artist-model source, authors, GPL-2.0 license, current construction, and historical R2-R6 saved graphs.
+- Reports use local figures, viewer code, and fonts. They need the complete repository folder for offline viewing.
 
-## Automated and manual checks
+## Audit method
 
-The scanner checks the exact Git file manifest after staging. It inspects text, native-file chunks,
-binary and UTF-16 strings, embedded data URLs, compressed viewer geometry, and image metadata.
-Checks cover recognized credential formats, private keys, credential assignments, internal addresses,
-personal home paths, source-workspace paths, retired-project imports, missing links, and files over 50 MiB.
-All native containers must roundtrip byte for byte. model-publication.json records the native path edits and hashes.
-Only the original I6 notebook needed path changes: 13 export paths became repo:// references.
-Working-copy preparation resolves those references into the recipient checkout and preserves source files.
+The scanner checks the exact staged file list, native JSON and binary chunks, UTF-16 strings, image metadata, data URLs, nested image maps, and compressed viewer payloads. Repeated identical payloads are scanned once by SHA-256.
 
-Native screenshot provenance and model hashes are tested. Report images and browser layouts receive visual review.
-Historical notes distinguish their recorded revisions from this package's new offline checks.
+Checks cover recognized credentials, private keys, internal addresses, personal home paths, old workspace paths, retired dependencies, missing local links, prohibited media, and individual files above 50 MiB. Photo exclusions apply to decoded payloads as well as standalone files.
 
-This is a bounded content and provenance review, not a guarantee that every possible secret format can be detected.
-No fresh native geometry evaluation is claimed. The licensed custom nTop build remains a separate prerequisite.
-The exact release checks and results are in [RELEASE_VERIFICATION.md](RELEASE_VERIFICATION.md).
+All native containers must roundtrip exactly. [Publication records](model-publication.json) identify path-only edits. I6 has 13 portable export paths; F-Cat meshing and finite-edge Fury each have two. Working-copy preparation resolves these under the recipient checkout.
+
+[Recipe correspondence](recipe-publication.json) compares 697 saved variables against the three native snapshots, including functions, connections, types, properties, literals, and units. Browser checks exercise local figures, controls, downloads, and desktop/mobile layouts. These are packaging and recorded-graph checks, not new geometry or solver runs.
+
+The licensed custom nTop build remains an external prerequisite. A bounded audit cannot detect every possible secret format. See [release verification](RELEASE_VERIFICATION.md) and [report notes](REPORTS.md) for the exact scope.

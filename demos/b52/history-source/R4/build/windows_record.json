@@ -1,0 +1,6 @@
+{
+  "forward_glass_faces": 18,
+  "method": "Source glazing polygons define bounded normal prisms. These partition the native skin into disjoint body and window regions. Their union is exactly the original loft; no silhouette changes.",
+  "color_only": true,
+  "source": "reference/frozen_b52f.json"
+}

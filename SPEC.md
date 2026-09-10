@@ -1,7 +1,7 @@
 # Public handoff specification
 
 Create D:/nTop/ntop-api-share and publish a reviewed snapshot to public bradrothenberg/ntop-api-share.
-Preserve all existing source repositories. Use fresh history and a GitHub no-reply author email.
+Preserve all existing source repositories and the public repository history. Use a GitHub no-reply author email.
 
 Include the original inline-six, I6 Astra, 20 lbf jet, native Fury RC, B52 fuselage, and DDGX concept demonstrations.
 Each demo contains local agent instructions, an HTML report, scripts, relevant native models, and minimal inputs.
@@ -15,7 +15,15 @@ Plan:
 2. Create the new layout and adapt all paths and shared imports.
 3. Audit text, native JSON and binary strings, compressed/embedded payloads, images, and asset provenance.
 4. Verify a fresh checkout with no source-repository imports, run builders and tests, and review HTML reports.
-5. Create fresh Git history, audit the exact committed snapshot, publish publicly, and verify remote identity and CI.
+5. Audit the staged snapshot, commit to the existing public history, publish, and verify remote identity and CI.
 
 Native execution requires the matching licensed nTop custom build. Do not report offline tests as native verification.
 The source build was nTop 6.0.0-rc build 42594. Re-measure API behavior after a build change.
+
+## September report expansion
+
+Extend the current public repository with the 27-report catalogue, current F-16 R6, A-12 R33, F-Cat geometry/aerodynamics, Jet20 C5 requirements and later reviews, and finite-edge Fury evidence. Preserve existing public Git history. Reference photographs and photo composites remain only in the separate downloadable folder. Keep public source credits and authored numerical comparison figures.
+
+Add portable native snapshots and complete saved API recipes for the three new geometry demos. Replay these graphs through the existing build/stage harness; do not imply that replay reruns the original fitting, optimization, or CFD workflows. Keep the earlier Fury algorithmic builder and label its distinct revision. Add the separate current finite-edge notebook with paused meshing operations.
+
+Validate the staged public tree, a separate checkout, all native containers, graph closure, offline report interactions, local links, and the explicit excluded-photo hashes. Publish after those checks pass.

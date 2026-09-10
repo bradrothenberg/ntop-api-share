@@ -1,6 +1,6 @@
 # nTop Notebook API: public demo collection
 
-Six editable demonstrations, standalone recipe builders, and measured lessons from the prototype Notebook API.
+Nine editable demonstrations and 27 reports, with six source builders, three saved-graph replays, and measured Notebook API lessons.
 Each demo contains a local agent, scripts, native models, and an HTML report. No private project checkout is required.
 
 | Demo | Learn from it |
@@ -8,9 +8,14 @@ Each demo contains a local agent, scripts, native models, and an HTML report. No
 | [Original inline-six](demos/i6/README.md) | An API recorder, slider-crank mechanism, cam motion, and analytic helical springs. |
 | [I6 Astra](demos/i6-astra/README.md) | A native assembly with involute gears, nominal fasteners, belts, spline routes, and mechanism checks. |
 | [20 lbf jet](demos/jet20/README.md) | A native compressor, combustor, turbine, housing joints, fasteners, and service routes. The 20 lbf value is a conditional sizing target. |
-| [Fury RC](demos/fury/README.md) | A non-combat RC appearance study made from guide splines, native conics, an inlet cavity, and local wing-root blends. |
+| [Fury RC](demos/fury/README.md) | The finite-edge native snapshot and mesh evidence, plus the earlier conic-loft construction baseline. |
 | [B52 fuselage](demos/b52/README.md) | The R7 fair nose blend and accepted cockpit loft. Geometry is derived from a GPL-2.0 artist model, not production aircraft data. |
 | [DDGX concept](demos/ddgx/README.md) | A normalized public-concept exterior with a native hull loft, superstructure, and editable display features. Dimensions are inferred. |
+| [F-16](demos/f16/README.md) | R6 fair airfoils, finite trailing edges, and earlier cross-CAD comparisons. |
+| [A-12](demos/a12/README.md) | Independent section surfaces, fair guides, and the R33 cockpit study. |
+| [F-Cat](demos/fcat/README.md) | A continuous bent tail, cargo-pod fairing, and recorded aerodynamic studies. |
+
+[Open the report catalogue](reports/index.html). Download the complete repository, then open `reports/index.html` locally. The pages share offline assets. Reference photographs and videos remain in the separate downloadable collection.
 
 ## Get started
 
@@ -49,6 +54,7 @@ ntop-api-share/
     models/             Relevant .ntop snapshots
     reports/            Public HTML report and compact assets
     output/             Generated recipes and run evidence; ignored
+  reports/              27-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
   .agents/skills/       Bundled API and HTML-report skills
   templates/            HTML report template and offline CSS

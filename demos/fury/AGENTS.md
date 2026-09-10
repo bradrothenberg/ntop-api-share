@@ -12,3 +12,7 @@ A non-combat RC appearance study made from guide splines, native conics, an inle
 - Read measured scalar values and inspect the final geometry after native execution.
 - Keep geometry fit, selected dimensions, numerical checks, and engineering qualification distinct.
 - Finish with collapsed authored blocks and sections in a separate saved deliverable.
+
+## Current handoff
+
+Use `models/Fury_RC_TE_0p5in.ntop` for the finite-edge snapshot. The registered Fury builder creates the earlier appearance baseline. Keep that revision distinction in every generated receipt. Leave paused mesh and export operations paused until an explicit new run is requested.

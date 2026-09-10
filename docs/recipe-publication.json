@@ -1,0 +1,68 @@
+[
+  {
+    "demo": "f16",
+    "file": "demos/f16/inputs/recipe.json",
+    "source_sha256": "fd2603b098603b961c6e00acc35f5efb07fc69c396c91fdf84940493e205c3f6",
+    "sha256": "cb81aee92d3fca62a3c9b669becb4d0a5cff81e59e2c803f10b923280537aef3",
+    "offline_check": {
+      "variables": 344,
+      "expressions": 1418,
+      "functions": 26,
+      "references_resolve": true,
+      "scope": "offline graph validation"
+    },
+    "native_graph_correspondence": {
+      "demo": "f16",
+      "model": "F16_Parametric.ntop",
+      "variables": 344,
+      "matched": 344,
+      "mismatched_names": [],
+      "extra_native_names": [],
+      "scope": "Saved construction functions, connections, properties, types, literal values and units; no native evaluation"
+    }
+  },
+  {
+    "demo": "a12",
+    "file": "demos/a12/inputs/recipe.json",
+    "source_sha256": "3c6c207440676e9274bfaf4ab62cb82b30496e036ad768fdb46e1ce07201f52a",
+    "sha256": "dfb60d66c29fda54606c087444352d92bb44e229eba4e23b47f2a0a6d1dc3339",
+    "offline_check": {
+      "variables": 200,
+      "expressions": 1620,
+      "functions": 27,
+      "references_resolve": true,
+      "scope": "offline graph validation"
+    },
+    "native_graph_correspondence": {
+      "demo": "a12",
+      "model": "A12_R33.ntop",
+      "variables": 200,
+      "matched": 200,
+      "mismatched_names": [],
+      "extra_native_names": [],
+      "scope": "Saved construction functions, connections, properties, types, literal values and units; no native evaluation"
+    }
+  },
+  {
+    "demo": "fcat",
+    "file": "demos/fcat/inputs/recipe.json",
+    "source_sha256": "a992ff8bb62d7c1309f3f9ffdac909c7d281f17143f49632bcc22c626951eb97",
+    "sha256": "5ae377b0ad0dbc86833daa9dffb1cb4f728e70da618f29a06a677b2b493fc5d1",
+    "offline_check": {
+      "variables": 153,
+      "expressions": 1223,
+      "functions": 32,
+      "references_resolve": true,
+      "scope": "offline graph validation"
+    },
+    "native_graph_correspondence": {
+      "demo": "fcat",
+      "model": "F-Cat_Parametric.ntop",
+      "variables": 153,
+      "matched": 153,
+      "mismatched_names": [],
+      "extra_native_names": [],
+      "scope": "Saved construction functions, connections, properties, types, literal values and units; no native evaluation"
+    }
+  }
+]

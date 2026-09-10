@@ -51,9 +51,16 @@ class Links(HTMLParser):
 
 def inspect(root=ROOT):
     candidates=files();findings=[];native=[];embedded_count=0;gzip_count=0;links_count=0;image_count=0
+    excluded_path=ROOT/'docs/excluded-reference-hashes.json'
+    excluded_hashes=set(json.loads(excluded_path.read_text())['sha256']) if excluded_path.exists() else set()
+    seen_payloads=set()
     def flag(file,kind,detail):findings.append({'file':file,'kind':kind,'detail':detail})
     def scan(label,raw):
         nonlocal gzip_count,image_count
+        digest=hashlib.sha256(raw).hexdigest()
+        if digest in seen_payloads:return
+        seen_payloads.add(digest)
+        if digest in excluded_hashes:flag(label,'excluded-reference-image','Reference imagery is reserved for the separate downloadable collection')
         for kind,pattern in PATTERNS.items():
             match=pattern.search(raw)
             if match and not (label=='scripts/audit.py' and kind=='retired-dependency'):flag(label,kind,'byte '+str(match.start()))
@@ -63,6 +70,11 @@ def inspect(root=ROOT):
             for kind in ('personal-home','original-workspace','private-repository','service-token'):
                 m=PATTERNS[kind].search(compact)
                 if m:flag(label,kind+'-utf16','encoded string')
+        # SVG and JSON attachments can nest image data independently of HTML tags.
+        if raw.lstrip().startswith((b'<svg',b'<?xml',b'{',b'[')) and b'data:' in raw:
+            for i,m in enumerate(re.finditer(rb'data:([\w.+-]+/[\w.+-]+)(?:;charset=[^;,]+)?;base64,([A-Za-z0-9+/=]+)',raw)):
+                try:scan(label+f'::nested-data-{i}',base64.b64decode(m[2],validate=True))
+                except Exception as e:flag(label,'invalid-nested-data',str(e))
         if raw.startswith(b'\x1f\x8b'):
             gzip_count+=1;scan(label+'::gzip',gzip.decompress(raw))
         if raw.startswith(b'\x89PNG'):
@@ -82,7 +94,7 @@ def inspect(root=ROOT):
     for p in candidates:
         rel=p.relative_to(ROOT).as_posix();raw=p.read_bytes();scan(rel,raw)
         if len(raw)>50*1024*1024:flag(rel,'large-file',str(len(raw)))
-        if p.suffix.lower() in {'.exe','.msi','.dll','.pem','.key','.mp4','.zip'}:flag(rel,'excluded-file-type',p.suffix)
+        if p.suffix.lower() in {'.exe','.msi','.dll','.pem','.key','.mp4','.avi','.mov','.gif','.zip'}:flag(rel,'excluded-file-type',p.suffix)
         if p.suffix=='.py':
             try:compile(raw,str(p),'exec')
             except SyntaxError as e:flag(rel,'python-syntax',str(e))
@@ -103,6 +115,13 @@ def inspect(root=ROOT):
                 parser=Links();parser.feed(t);links=parser.links
                 for i,data in enumerate(parser.embedded):scan(rel+f'::embedded-{i}',data);embedded_count+=1
                 for asset in parser.remote_assets:flag(rel,'remote-report-asset',asset)
+                # Image maps and downloads can also be stored in JavaScript strings.
+                for i,m in enumerate(re.finditer(r'data:([\w.+-]+/[\w.+-]+)(?:;charset=[^;,]+)?;base64,([A-Za-z0-9+/=]+)',t)):
+                    try:
+                        data=base64.b64decode(m[2],validate=True)
+                        scan(rel+f'::inline-data-{i}',data)
+                        if m[1] in ('image/gif','video/mp4','application/zip'):flag(rel,'excluded-embedded-media',m[1])
+                    except Exception as e:flag(rel,'invalid-inline-data',str(e))
                 # Embedded compressed geometry can live in JSON/script strings rather than data URLs.
                 for i,m in enumerate(re.finditer(r'["\x27](H4sI[A-Za-z0-9+/=]{64,})["\x27]',t)):
                     try:scan(rel+f'::encoded-gzip-{i}',base64.b64decode(m[1]))

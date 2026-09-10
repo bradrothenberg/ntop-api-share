@@ -1,0 +1,23 @@
+{
+  "retrieved_utc_date": "2026-09-10",
+  "sources": [
+    {
+      "title": "Matsuyama B-52H three-view",
+      "url": "https://commons.wikimedia.org/wiki/File:Boeing_B-52H_Stratofortress_3-view_line_drawing.png",
+      "file": "reference/b52h_matsuyama_2015.png",
+      "license": "CC0 1.0",
+      "sha256": "390da4f94fad433b37c895a674b3e932375bcbbf4f6c35ba80411940a5239447"
+    },
+    {
+      "title": "USAF B-52H Standard Aircraft Characteristics, February 1963",
+      "url": "https://www.generalstaff.org/CDA/Air/B-52/B-52H_Stratofortress_SAC_FEB-1963.pdf",
+      "file": "reference/b52h_usaf_sac_1963.pdf",
+      "sha256": "4e44941b4dc04fcde32aca86da2ddc95043a70850b97aa221c3ef5b5b1f4165c"
+    },
+    {
+      "title": "USAF B-52H fact sheet",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52-stratofortress/b-52h-stratofortress/",
+      "role": "Published overall dimensions only"
+    }
+  ]
+}

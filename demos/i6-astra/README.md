@@ -2,7 +2,7 @@
 
 A native assembly with involute gears, nominal fasteners, belts, spline routes, and mechanism checks.
 
-[HTML report](reports/index.html) · [Recorded lessons](LEARNINGS.md) · [Local agent](AGENTS.md)
+[HTML report](reports/index.html) Â· [Recorded lessons](LEARNINGS.md) Â· [Local agent](AGENTS.md)
 
 ## Native models
 
@@ -26,3 +26,7 @@ The matching licensed custom build is an external prerequisite. See [setup](../.
 
 Source code is in scripts/, required data is in inputs/, and generated work is in output/.
 The report records earlier native observations. Offline reconstruction does not establish a new native verification.
+
+## Full reference collection
+
+[Complete reference report](../../reports/I6-Astra-Reference.html) includes configuration tables, assembly details, mechanism checks, and the 100-design family. [Summary report](../../reports/I6-Astra.html) provides a shorter introduction. Movies and animated previews remain in the separate downloadable collection.

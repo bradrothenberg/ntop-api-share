@@ -2,7 +2,7 @@
 from pathlib import Path
 import importlib,json,sys
 ROOT=Path(__file__).resolve().parents[1]
-DEMOS=('i6','i6-astra','jet20','fury','b52','ddgx')
+DEMOS=('i6','i6-astra','jet20','fury','b52','ddgx','f16','a12','fcat')
 def check_api(notebook):
     required=('list_variables','list_available_blocks','import_recipe','export_as_recipe','get_block_input','save_notebook_as')
     missing=[n for n in required if not callable(getattr(notebook,n,None))]

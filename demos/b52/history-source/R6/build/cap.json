@@ -1,0 +1,14 @@
+{
+  "kind": "Locally circular analytic paraboloid cap",
+  "radius_m": 0.060207401965641026,
+  "centerline_tilt": 0.10718063434789382,
+  "full_cap_end_m": 0.025,
+  "blend_end_m": 0.12,
+  "fit_region_m": [
+    0.004,
+    0.04
+  ],
+  "radial_fit_rms_m": 0.0017603957809648471,
+  "blend": "Explicit quintic smoothstep; value and first two weight derivatives match at both ends",
+  "equation": "q=(y*y+(z-k*x)**2)/(2*R)-x; cap=q/sqrt(1+(y*y+(z-k*x)**2)/R**2); F=(1-w)*cap+w*F_R5"
+}

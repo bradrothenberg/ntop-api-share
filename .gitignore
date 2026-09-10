@@ -17,3 +17,5 @@ node_modules/
 .env.*
 *.pem
 *.key
+*.mov
+*.gif

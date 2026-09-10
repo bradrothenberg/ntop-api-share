@@ -2,7 +2,7 @@
 
 A native compressor, combustor, turbine, housing joints, fasteners, and service routes. The 20 lbf value is a conditional sizing target.
 
-[HTML report](reports/index.html) · [Recorded lessons](LEARNINGS.md) · [Local agent](AGENTS.md)
+[HTML report](reports/index.html) Â· [Recorded lessons](LEARNINGS.md) Â· [Local agent](AGENTS.md)
 
 ## Native models
 
@@ -30,3 +30,9 @@ Source code is in scripts/, required data is in inputs/, and generated work is i
 The report records earlier native observations. Offline reconstruction does not establish a new native verification.
 
 [Native nTop assembled and exploded screenshots](screenshots/README.md). These later presentation snapshots are included in models/.
+
+## Expanded reports
+
+[Requirements C5](../../reports/Jet20-Requirements.html) | [Engineering study](../../reports/Jet20-SAR-Engineering.html) | [Closure plan](../../reports/Jet20-Closure-Plan.html) | [P4 nacelle](../../reports/Jet20-P4-Nacelle.html) | [P5 inlet pilot](../../reports/Jet20-P5-Inlet.html)
+
+The later reports retain their own revision and validation scope. The registered builder and saved engine assembly remain the P3 baseline.
