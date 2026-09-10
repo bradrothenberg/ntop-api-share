@@ -1,0 +1,92 @@
+{
+  "title": "Fury RC: native surfaces",
+  "dek": "Guide splines, conic lofts, inlet continuity, and editable concept allocations. A non-combat appearance study, not production aircraft data.",
+  "sections": [
+    {
+      "title": "A native editable exterior",
+      "paragraphs": [
+        "The graph builds the exterior from native conic and implicit-spline fields. Numerical guide arrays are included; source photographs and source meshes are omitted. Dimensions and placements are demonstration choices."
+      ],
+      "images": [
+        {
+          "src": "images/fury-00.png",
+          "caption": "Native nTop exterior. Recorded native nTop view."
+        }
+      ]
+    },
+    {
+      "title": "Keep the inlet and cavity continuous",
+      "paragraphs": [
+        "Use one signed-span lower conic to avoid a flat center and steep shoulder joins. Make the lip, roof, and cheeks one shell. Subtract the main cavity after additive blends. A centerline probe cannot establish a lateral passage."
+      ],
+      "images": [
+        {
+          "src": "images/fury-05.png",
+          "caption": "Integrated native inlet and diverter slot. Recorded native nTop view."
+        },
+        {
+          "src": "images/fury-06.png",
+          "caption": "Native cavity from inlet to outlet. Recorded native nTop view."
+        },
+        {
+          "src": "images/fury-07.png",
+          "caption": "Front view of the native inlet. Recorded native nTop view."
+        }
+      ]
+    },
+    {
+      "title": "Separate splitter material from passage checks",
+      "paragraphs": [
+        "The pointed splitter attaches to the forebody while lateral passages remain distinct. Sample across the span and at the cheek returns. Finite probes do not certify minimum clearance or installed flow."
+      ],
+      "images": [
+        {
+          "src": "images/fury-09.png",
+          "caption": "Center-gap splitter planform. Recorded native nTop view."
+        },
+        {
+          "src": "images/fury-10.png",
+          "caption": "Splitter attachment and lateral gap. Recorded native nTop view."
+        }
+      ]
+    },
+    {
+      "title": "Local root blends",
+      "paragraphs": [
+        "Compact C2 field blends preserve surfaces away from the wing, tail, and fin roots. A smoothing control is a field parameter, not a measured fillet radius. The native Ramp uses scalar field, input limits, output limits, and continuity."
+      ],
+      "images": [
+        {
+          "src": "images/fury-11.png",
+          "caption": "Wing root blend. Recorded native nTop view."
+        },
+        {
+          "src": "images/fury-12.png",
+          "caption": "Horizontal tail root blend. Recorded native nTop view."
+        }
+      ]
+    },
+    {
+      "title": "Editable allocation envelopes",
+      "paragraphs": [
+        "Internal bodies allocate avionics, energy storage, actuators, and landing gear. No hardware fit, wall thickness, mass, center of gravity, propulsion performance, or flight readiness is established by these shapes."
+      ],
+      "images": [
+        {
+          "src": "images/fury-14.png",
+          "caption": "Conceptual internal arrangement. Recorded native nTop view."
+        },
+        {
+          "src": "images/fury-16.png",
+          "caption": "Optional deployed-gear illustration. Recorded native nTop view."
+        }
+      ]
+    },
+    {
+      "title": "Rebuild and verify",
+      "paragraphs": [
+        "Build the complete recipe from scripts/build_rc_native.py through the root build command. Inspect the dependency closure, import into an empty scratch notebook, and compare evaluated scalar checks and final geometry. Keep fitted-image agreement separate from independent validation."
+      ]
+    }
+  ]
+}

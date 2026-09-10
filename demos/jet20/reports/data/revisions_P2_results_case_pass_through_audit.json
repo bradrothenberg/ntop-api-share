@@ -1,0 +1,446 @@
+{
+  "revision": "P2",
+  "model_source_sha256": "43428d4fd5ed2b8cc2a605b01cfa21ccf7a120b6406b91578f6575e070048ce2",
+  "method": "Ray containment of original native service-mesh vertices within the casing bounds and radial envelope. Unsigned surface distance quantifies contained depth. Numerical contact threshold: 0.03 mm.",
+  "contact_threshold_mm": 0.03,
+  "services": [
+    {
+      "service": "F01 Main fuel feed",
+      "native_vertices": 144240,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 119179,
+          "inside_vertices": 1798,
+          "penetrating_vertices_over_0_03_mm": 1534,
+          "maximum_measured_depth_mm": 0.5999066692718217,
+          "penetration_bounds_xyz_mm": [
+            [
+              59.89158630371094,
+              -1.5009169578552246,
+              94.47264099121094
+            ],
+            [
+              61.04164123535156,
+              1.501069188117981,
+              97.57079315185547
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            60.45730972290039,
+            -1.4530223608016968,
+            96.75414276123047
+          ]
+        }
+      ],
+      "intersects_case": true
+    },
+    {
+      "service": "F02 Front bearing feed",
+      "native_vertices": 71116,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 13750,
+          "inside_vertices": 2204,
+          "penetrating_vertices_over_0_03_mm": 2111,
+          "maximum_measured_depth_mm": 0.9345298055857207,
+          "penetration_bounds_xyz_mm": [
+            [
+              58.91127014160156,
+              5.362761497497559,
+              58.36236572265625
+            ],
+            [
+              62.04491424560547,
+              6.903880596160889,
+              60.77833938598633
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            60.01265335083008,
+            6.787783622741699,
+            59.217777252197266
+          ]
+        }
+      ],
+      "intersects_case": true
+    },
+    {
+      "service": "F03 Rear bearing feed",
+      "native_vertices": 147992,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 11893,
+          "inside_vertices": 0,
+          "penetrating_vertices_over_0_03_mm": 0,
+          "maximum_measured_depth_mm": 0
+        }
+      ],
+      "intersects_case": false
+    },
+    {
+      "service": "P01 Pressure sense",
+      "native_vertices": 49499,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 47523,
+          "inside_vertices": 1210,
+          "penetrating_vertices_over_0_03_mm": 1141,
+          "maximum_measured_depth_mm": 0.5997998762148098,
+          "penetration_bounds_xyz_mm": [
+            [
+              59.904972076416016,
+              -0.917780339717865,
+              49.438411712646484
+            ],
+            [
+              61.04262161254883,
+              1.2110203504562378,
+              51.415985107421875
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            60.47427749633789,
+            -0.2030767798423767,
+            50.755645751953125
+          ]
+        }
+      ],
+      "intersects_case": true
+    },
+    {
+      "service": "E01 Starter harness",
+      "native_vertices": 3925,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 291,
+          "inside_vertices": 168,
+          "penetrating_vertices_over_0_03_mm": 168,
+          "maximum_measured_depth_mm": 1.4756698608398438,
+          "penetration_bounds_xyz_mm": [
+            [
+              -2.009277105331421,
+              66.85449981689453,
+              12.059599876403809
+            ],
+            [
+              2.009277105331421,
+              71.8671646118164,
+              14.8023042678833
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            -0.5006552338600159,
+            67.05833435058594,
+            13.524330139160156
+          ]
+        },
+        {
+          "case": "CASE Inlet bell",
+          "tested_native_vertices": 693,
+          "inside_vertices": 150,
+          "penetrating_vertices_over_0_03_mm": 150,
+          "maximum_measured_depth_mm": 1.4882698059082031,
+          "penetration_bounds_xyz_mm": [
+            [
+              -2.008335828781128,
+              66.06478118896484,
+              9.040448188781738
+            ],
+            [
+              2.008335828781128,
+              70.83267211914062,
+              11.939603805541992
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            -1.8381962776184082,
+            67.67337799072266,
+            10.488269805908203
+          ]
+        }
+      ],
+      "intersects_case": true
+    },
+    {
+      "service": "E02 Ignition lead",
+      "native_vertices": 4586,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 3699,
+          "inside_vertices": 188,
+          "penetrating_vertices_over_0_03_mm": 177,
+          "maximum_measured_depth_mm": 1.4002084732055664,
+          "penetration_bounds_xyz_mm": [
+            [
+              6.571168899536133,
+              59.18901062011719,
+              13.599791526794434
+            ],
+            [
+              9.429988861083984,
+              71.39602661132812,
+              99.84150695800781
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            8.080828666687012,
+            68.98530578613281,
+            13.599791526794434
+          ]
+        }
+      ],
+      "intersects_case": true
+    },
+    {
+      "service": "E03 Temperature harness",
+      "native_vertices": 9934,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 5990,
+          "inside_vertices": 205,
+          "penetrating_vertices_over_0_03_mm": 201,
+          "maximum_measured_depth_mm": 1.48394775390625,
+          "penetration_bounds_xyz_mm": [
+            [
+              -9.113383293151855,
+              63.6773796081543,
+              13.884544372558594
+            ],
+            [
+              -6.884162425994873,
+              71.47327423095703,
+              144.94996643066406
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            -8.572914123535156,
+            65.87521362304688,
+            143.48394775390625
+          ]
+        },
+        {
+          "case": "CASE Rear barrel",
+          "tested_native_vertices": 1783,
+          "inside_vertices": 410,
+          "penetrating_vertices_over_0_03_mm": 401,
+          "maximum_measured_depth_mm": 1.4901275634765625,
+          "penetration_bounds_xyz_mm": [
+            [
+              -9.121755599975586,
+              59.25578308105469,
+              145.65098571777344
+            ],
+            [
+              -6.869471549987793,
+              65.81429290771484,
+              187.39126586914062
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            -8.141138076782227,
+            65.70609283447266,
+            146.99012756347656
+          ]
+        }
+      ],
+      "intersects_case": true
+    },
+    {
+      "service": "E04 Speed pickup lead",
+      "native_vertices": 4217,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 1271,
+          "inside_vertices": 158,
+          "penetrating_vertices_over_0_03_mm": 147,
+          "maximum_measured_depth_mm": 1.1088409423828125,
+          "penetration_bounds_xyz_mm": [
+            [
+              13.76469612121582,
+              57.74018096923828,
+              13.883567810058594
+            ],
+            [
+              16.099088668823242,
+              70.43647766113281,
+              34.65011978149414
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            14.968316078186035,
+            68.85957336425781,
+            13.891159057617188
+          ]
+        }
+      ],
+      "intersects_case": true
+    },
+    {
+      "service": "IGNITER Boss",
+      "native_vertices": 2098,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 1060,
+          "inside_vertices": 0,
+          "penetrating_vertices_over_0_03_mm": 0,
+          "maximum_measured_depth_mm": 0
+        }
+      ],
+      "intersects_case": false
+    },
+    {
+      "service": "SENSOR Exhaust probe",
+      "native_vertices": 1110,
+      "case_checks": [],
+      "intersects_case": false
+    },
+    {
+      "service": "FUEL Pump outlet union",
+      "native_vertices": 4000,
+      "case_checks": [
+        {
+          "case": "CASE Front barrel",
+          "tested_native_vertices": 2080,
+          "inside_vertices": 1740,
+          "penetrating_vertices_over_0_03_mm": 1069,
+          "maximum_measured_depth_mm": 1.4661664962768555,
+          "penetration_bounds_xyz_mm": [
+            [
+              65.89810180664062,
+              -2.75459623336792,
+              12.035207748413086
+            ],
+            [
+              71.9489517211914,
+              2.75459623336792,
+              14.868865966796875
+            ]
+          ],
+          "deepest_native_xyz_mm": [
+            68.38155364990234,
+            -2.75,
+            13.533833503723145
+          ]
+        },
+        {
+          "case": "CASE Inlet bell",
+          "tested_native_vertices": 2373,
+          "inside_vertices": 566,
+          "penetrating_vertices_over_0_03_mm": 0,
+          "maximum_measured_depth_mm": 0.009469011145553423
+        }
+      ],
+      "intersects_case": true
+    }
+  ],
+  "nominal_case_port_stations_mm": {
+    "F01 Main fuel feed": 99.0,
+    "P01 Pressure sense": 48.535182959652055,
+    "Igniter": 107.0,
+    "Exhaust probe": 213.68994881379902,
+    "F03 Rear bearing feed": 64.0
+  },
+  "sources": [
+    {
+      "name": "F01 Main fuel feed",
+      "mesh": "source-output/sharp_component_03.stl",
+      "source_hash": "d3a1d101474d6c4fd1ca2fe49b3bc822e45e1968a5428805f2a2545c6a37be06",
+      "mesh_sha256": "1574ba79fa7386e5c9ceda70b6af4b3094555f3329cbd7b25bb36837d1e56b99"
+    },
+    {
+      "name": "F02 Front bearing feed",
+      "mesh": "source-output/22_F02_Front_bearing_feed.stl",
+      "source_hash": "4c61d7baf0e3de7290e6f25d3233ca1aa6a87f51503a8e0260810ebac93b47a0",
+      "mesh_sha256": "b92aff3be02e3452efafaf59cd1a8c1966063ba64807f364619864fdcfd52227"
+    },
+    {
+      "name": "F03 Rear bearing feed",
+      "mesh": "source-output/23_F03_Rear_bearing_feed.stl",
+      "source_hash": "b1e5d6cec571e76154bbb9da05b4de2e7f63d418907748067d1853ce33a2baa0",
+      "mesh_sha256": "4a16b29b4c7ce18aa1acb676d24c131fcb7592074a0a4914a8d578c6032713fb"
+    },
+    {
+      "name": "P01 Pressure sense",
+      "mesh": "source-output/24_P01_Pressure_sense.stl",
+      "source_hash": "ce17ecd705637313403595379602eef414deb0f32a21374adf0ec3555199be08",
+      "mesh_sha256": "7ede1c15836d190f9aac6b7f163f723a3e150a7791a1d4686aec9ff3027085a4"
+    },
+    {
+      "name": "E01 Starter harness",
+      "mesh": "source-output/25_E01_Starter_harness.stl",
+      "source_hash": "db6660cafdd352c346be126289c88f694333084d90c2ac5006b670b117b4db7b",
+      "mesh_sha256": "e85ddabedcb8366f52a122c8d097814f890ad1fb271040ddb33d4b129fb68ed1"
+    },
+    {
+      "name": "E02 Ignition lead",
+      "mesh": "source-output/26_E02_Ignition_lead.stl",
+      "source_hash": "b8f7c45687f1fe86694f09ce90458b08583acd06d3217c81eac633b7bf021cae",
+      "mesh_sha256": "d9b86afc9485e434982becaa3d844413139512e53755d05f7a1aef2a313fcec3"
+    },
+    {
+      "name": "E03 Temperature harness",
+      "mesh": "source-output/27_E03_Temperature_harness.stl",
+      "source_hash": "721e08525516d71912b19823101446b376358289a6a6db6ce7db07b34a2cc105",
+      "mesh_sha256": "40281cd8cc2ef137b9e64aaff9848934770263cbf3d813b55c1063bb85a9df9d"
+    },
+    {
+      "name": "E04 Speed pickup lead",
+      "mesh": "source-output/28_E04_Speed_pickup_lead.stl",
+      "source_hash": "7d08fadcf9250c5af5574912f1f4223cb09e01d6cffd2800f605e0cf6659982e",
+      "mesh_sha256": "38e7fe0d406de5b2a5a47f0d47648e16699401c91a009b2bc7114b7b68046d40"
+    },
+    {
+      "name": "IGNITER Boss",
+      "mesh": "source-output/31_IGNITER_Boss.stl",
+      "source_hash": "aeace1267c88e59d00603aebfbc9c4b7835bc28cef67da708f04a9cedc8bcd47",
+      "mesh_sha256": "66af4bcd98d5cb7c77ca76383a6b6f2a1baa62c39244d1f3c022858fe003e787"
+    },
+    {
+      "name": "SENSOR Exhaust probe",
+      "mesh": "source-output/32_SENSOR_Exhaust_probe.stl",
+      "source_hash": "5f635df9d8bcf9eaec130db7a5a7f0cbf0244aa3c4fb8a8bbf32e2e8e407890e",
+      "mesh_sha256": "123f5744493ae96957abd96ed3bc242dd1fda58d959a93e950c032ff288a099b"
+    },
+    {
+      "name": "FUEL Pump outlet union",
+      "mesh": "source-output/70_FUEL_Pump_outlet_union.stl",
+      "source_hash": "ee59131a6472f02cc4a666b191bda8772ac6427531c0231b383e406b0185cafb",
+      "mesh_sha256": "25ae986c55b70f620edf1b8a36b9c27c6c65c85d2a18f24d4145c608a06353c7"
+    },
+    {
+      "name": "CASE Front barrel",
+      "mesh": "source-output/16_CASE_Front_barrel.stl",
+      "source_hash": "6147e4c753f43fcd7728b55d7ab07a8ae31f4092b6f9201c6b414e01c98d46c5",
+      "mesh_sha256": "ba4490dbaad3eec9f0ac5e4439939351ca69db4a94a77c0332ea8db754ce52c4"
+    },
+    {
+      "name": "CASE Rear barrel",
+      "mesh": "source-output/33_CASE_Rear_barrel.stl",
+      "source_hash": "312603a8f260715a0cd2f2a54afce84808e94b0287fdd66664d63e168d49889f",
+      "mesh_sha256": "eddc43f294534e0896125bd15cc0b8148e0ca791a1c7057ded3cdb31838e1eee"
+    },
+    {
+      "name": "CASE Inlet bell",
+      "mesh": "source-output/17_CASE_Inlet_bell.stl",
+      "source_hash": "e49fbb082e8a3e2df97863c62aacb02515b5c39da8e02a298c2cceaf9f982ba9",
+      "mesh_sha256": "42c6b65716cfd4b741941935583d35764ae2da687325d154ca42cd8776d1cd09"
+    },
+    {
+      "name": "NOZZLE Convergent duct",
+      "mesh": "source-output/18_NOZZLE_Convergent_duct.stl",
+      "source_hash": "b30437a50f4d838f9341dfde804c73975eeb3565ec0e72783441abbd093d818c",
+      "mesh_sha256": "ca7b40c15fc4468d4ca5a7f2b8321c67fea955f659ae51d8b461d60fec61bf04"
+    }
+  ],
+  "seconds": 53.357454999990296,
+  "scope": "Diagnostic case-interference screen only. A clear route is not a sealed, retained, thermally qualified bulkhead fitting. Boss and probe envelopes do not establish connector internals. No native geometry changed."
+}

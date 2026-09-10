@@ -1,0 +1,18 @@
+{
+  "construction": "Bolted metal assembly; removable end modules; separate liners and rotors",
+  "representation": "Sourced head, socket, nut, and washer envelopes. Threads use nominal cylinders and explicit callouts. Materials, preload, locking method, and tap preparation remain open.",
+  "sizes": {
+    "3": {"pitch_mm":0.5,"head_diameter_mm":5.5,"head_height_mm":3.0,"socket_af_mm":2.5,"socket_depth_mm":1.3,"nut_af_mm":5.5,"nut_height_mm":2.4,"washer_id_mm":3.2,"washer_od_mm":7.0,"washer_thickness_mm":0.5,"clearance_hole_mm":3.4},
+    "4": {"pitch_mm":0.7,"head_diameter_mm":7.0,"head_height_mm":4.0,"socket_af_mm":3.0,"socket_depth_mm":2.0,"nut_af_mm":7.0,"nut_height_mm":3.2,"washer_id_mm":4.3,"washer_od_mm":9.0,"washer_thickness_mm":0.8,"clearance_hole_mm":4.5},
+    "8": {"pitch_mm":1.25,"nut_af_mm":13.0,"nut_height_mm":6.5,"washer_id_mm":8.4,"washer_od_mm":16.0,"washer_thickness_mm":1.6}
+  },
+  "design_seeds_mm": {"flange_radius":72.0,"flange_pcd":131.0,"flange_thickness":3.0,"case_split_z":145.0,"gasket_thickness":0.5,"compressor_running_gap":0.3,"bearing_housing_radial_gap":0.05},
+  "sources": [
+    {"title":"Accu M3 socket cap screw dimensions","url":"https://www.accu.co.uk/metric-coarse-socket-cap-head-screws/716580-ZS700M3CX10S-8","use":"M3 head diameter, height, socket, and thread geometry"},
+    {"title":"Accu M4 socket cap screw datasheet","url":"https://www.accu.co.uk/api/product-datasheet?id=151797","use":"M4 head and socket dimensions; pitch"},
+    {"title":"Fastenright DIN 934 hex nuts","url":"https://www.fastenright.com/general-fixings/inconel-hexagon-full-nuts-din-934/ic02","use":"Hex nut dimensional envelopes only; no material selection"},
+    {"title":"Metric DIN 125 flat washer dimensions","url":"https://www.farnell.com/datasheets/2683070.pdf","use":"M3, M4, and M8 washer dimensions"},
+    {"title":"Westfield socket screw dimensional sheet","url":"https://www.westfieldfasteners.co.uk/Datasheets/ScrewBolt_SHCap_M.pdf","use":"Socket depth and head dimension cross-check"}
+  ],
+  "notes": ["Clearance holes and structural proportions are declared assembly design inputs, not load-qualified dimensions.","Catalog dimensions do not select fastener materials for the hot section.","No tightening torques are assigned without material, coating, temperature, friction, and joint-load data."]
+}

@@ -1,0 +1,35 @@
+{
+  "source_variables": 532,
+  "readback_variables": 532,
+  "graph_differences": [],
+  "checks": {
+    "compressor_diameter_error_mm": 0.0,
+    "turbine_diameter_error_mm": 0.0,
+    "nozzle_area_error_m2": 2.168404344971009e-19,
+    "tip_clearance_error_mm": 1.6653345369377348e-15,
+    "impeller_native_domain_radius_error_mm": 4.5327291786634305e-07,
+    "case_domain_radius_error_mm": 3.0994415283203125e-06,
+    "CHECK diffuser outlet radial gap error_mm": 0.0,
+    "CHECK rear feed inner liner clearance error_mm": 0.0,
+    "CHECK liner row 0.2 radius error_mm": 2.220446049250313e-16,
+    "CHECK liner row 0.48 radius error_mm": 0.0,
+    "CHECK liner row 0.76 radius error_mm": 8.881784197001252e-16,
+    "liner hole area error_mm2": 0.0
+  },
+  "display_units": "inch and degree; SI recipe units checked independently",
+  "native_model": "Jet20.ntop",
+  "inspection_model": "Jet20_Inspection.ntop",
+  "status": "verified preliminary geometry",
+  "inspection_graph_matches": true,
+  "source_recipe_sha256": "d7c08555c5c078105b27b9e8ecffebe80364441225f5b947fac0fde857e8c057",
+  "native_files": [
+    {
+      "path": "Jet20.ntop",
+      "sha256": "310d293e1fab68f5b60b4ec1b4b7e86c1cd783cdee13ebc83ffdc319738ff77e"
+    },
+    {
+      "path": "Jet20_Inspection.ntop",
+      "sha256": "247a1785e4575d80a0453609325bface1a3f61b451d7ed49fb7f145f699af336"
+    }
+  ]
+}

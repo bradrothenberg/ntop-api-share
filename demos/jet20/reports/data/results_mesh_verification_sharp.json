@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Impeller",
+    "triangles": 2461260,
+    "bounds_mm": [
+      [
+        -39.91978073120117,
+        -39.918636322021484,
+        19.99271011352539
+      ],
+      [
+        39.91978073120117,
+        39.918636322021484,
+        58.00790023803711
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "nonfinite_vertices": 0,
+    "volume_mm3": 94679.78989353555,
+    "seconds": 12.263337899988983,
+    "connected_components": 1,
+    "component_volumes_mm3": [
+      94679.78989353555
+    ]
+  },
+  {
+    "name": "Turbine rotor",
+    "triangles": 3834598,
+    "bounds_mm": [
+      [
+        -39.676334381103516,
+        -39.679622650146484,
+        194.6805877685547
+      ],
+      [
+        39.678749084472656,
+        39.67775344848633,
+        208.69927978515625
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "nonfinite_vertices": 0,
+    "volume_mm3": 25803.25247827952,
+    "seconds": 17.56208100001095,
+    "connected_components": 1,
+    "component_volumes_mm3": [
+      25803.25247827952
+    ]
+  },
+  {
+    "name": "Turbine stator",
+    "triangles": 3344668,
+    "bounds_mm": [
+      [
+        -41.182193756103516,
+        -41.18227767944336,
+        181.68194580078125
+      ],
+      [
+        41.182193756103516,
+        41.18227767944336,
+        193.69729614257812
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "nonfinite_vertices": 0,
+    "volume_mm3": 7627.961455963817,
+    "seconds": 14.362173700006679,
+    "connected_components": 1,
+    "component_volumes_mm3": [
+      7627.961455963817
+    ]
+  },
+  {
+    "name": "Fuel pipe",
+    "triangles": 288480,
+    "bounds_mm": [
+      [
+        40.11016082763672,
+        -1.504216194152832,
+        14.99199104309082
+      ],
+      [
+        70.57583618164062,
+        1.5052306652069092,
+        100.50007629394531
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "nonfinite_vertices": 0,
+    "volume_mm3": 414.3686608663508,
+    "seconds": 1.4602769000048283,
+    "connected_components": 1,
+    "component_volumes_mm3": [
+      414.3686608663508
+    ]
+  },
+  {
+    "name": "Temperature harness",
+    "triangles": 11948,
+    "bounds_mm": [
+      [
+        -9.211884498596191,
+        44.55522155761719,
+        13.867390632629395
+      ],
+      [
+        -6.799361705780029,
+        70.20068359375,
+        214.81484985351562
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "nonfinite_vertices": 0,
+    "volume_mm3": 786.9560678252474,
+    "seconds": 0.024495699995895848,
+    "connected_components": 1,
+    "component_volumes_mm3": [
+      786.9560678252474
+    ]
+  },
+  {
+    "name": "Nozzle",
+    "triangles": 1430634,
+    "bounds_mm": [
+      [
+        -61.07370376586914,
+        -61.07370376586914,
+        218.6831512451172
+      ],
+      [
+        61.07370376586914,
+        61.07370376586914,
+        269.444091796875
+      ]
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "nonfinite_vertices": 0,
+    "volume_mm3": 16017.156997476903,
+    "seconds": 4.232281300006434,
+    "connected_components": 1,
+    "component_volumes_mm3": [
+      16017.156997476903
+    ]
+  }
+]

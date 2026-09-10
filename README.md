@@ -1,0 +1,67 @@
+# nTop Notebook API: public demo collection
+
+Six editable demonstrations, standalone recipe builders, and measured lessons from the prototype Notebook API.
+Each demo contains a local agent, scripts, native models, and an HTML report. No private project checkout is required.
+
+| Demo | Learn from it |
+|---|---|
+| [Original inline-six](demos/i6/README.md) | An API recorder, slider-crank mechanism, cam motion, and analytic helical springs. |
+| [I6 Astra](demos/i6-astra/README.md) | A native assembly with involute gears, nominal fasteners, belts, spline routes, and mechanism checks. |
+| [20 lbf jet](demos/jet20/README.md) | A native compressor, combustor, turbine, housing joints, fasteners, and service routes. The 20 lbf value is a conditional sizing target. |
+| [Fury RC](demos/fury/README.md) | A non-combat RC appearance study made from guide splines, native conics, an inlet cavity, and local wing-root blends. |
+| [B52 fuselage](demos/b52/README.md) | The R7 fair nose blend and accepted cockpit loft. Geometry is derived from a GPL-2.0 artist model, not production aircraft data. |
+| [DDGX concept](demos/ddgx/README.md) | A normalized public-concept exterior with a native hull loft, superstructure, and editable display features. Dimensions are inferred. |
+
+## Get started
+
+Requirements: Windows, Git, uv, and a licensed nTop custom build with the Notebook API.
+The source work used **nTop 6.0.0-rc build 42594**. Obtain that build from its maintainer.
+The application and license are not included. Offline builders and tests run without nTop.
+
+```powershell
+git clone https://github.com/bradrothenberg/ntop-api-share.git
+cd "ntop-api-share"
+.\scripts\bootstrap.ps1 -NTopExe "C:\path\to\custom-build\ntop.exe"
+uv run --locked python scripts/smoke.py
+uv run --locked pytest -q
+```
+
+Launch nTop from that PowerShell session. In a new empty notebook, open **View > Python Console**:
+
+```python
+import ntop_api
+ntop_api.hello(notebook)
+```
+
+This checks the API surface, imports a small SI recipe, verifies 2 + 3 = 5, and saves a working notebook.
+[Full setup](docs/SETUP.md) explains demo selection, background dispatch, and portable model paths.
+
+## Structure
+
+```text
+ntop-api-share/
+  harness/              Standalone in-nTop agent and API entry point
+  scripts/              Build, stage, audit, native-file, and background-console tools
+  demos/<demo>/
+    AGENTS.md           Local agent instructions; CLAUDE.md routes here
+    scripts/            Editable source and numerical helpers
+    inputs/             Minimal source data or complete native recipe
+    models/             Relevant .ntop snapshots
+    reports/            Public HTML report and compact assets
+    output/             Generated recipes and run evidence; ignored
+  docs/                 Shared API, lofting, assembly, and verification lessons
+  .agents/skills/       Bundled API and HTML-report skills
+  templates/            HTML report template and offline CSS
+  tests/                Portability and graph-invariant checks
+```
+
+## Read next
+
+- [API lessons](docs/API.md), [method reference](docs/API_REFERENCE.md), and [measured API failures](docs/API_FINDINGS.md)
+- [Lofting](docs/LOFTING.md), [assemblies](docs/ASSEMBLIES.md), and [later jet lessons](docs/JET_EVOLUTION.md)
+- [Verification methods](docs/VERIFICATION.md) and [background console](docs/BACKGROUND_CONSOLE.md)
+- [Public audit](docs/PUBLIC_AUDIT.md), [verification receipt](docs/RELEASE_VERIFICATION.md), and [asset notices](THIRD_PARTY_NOTICES.md)
+
+Public sharing does not make these preliminary examples production-qualified.
+Native results in reports refer to recorded revisions. Fresh offline checks verify recipes and packaging.
+The B52 derivative has a GPL-2.0 license. Other bundled third-party notices retain their original scope.

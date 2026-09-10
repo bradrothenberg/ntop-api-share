@@ -1,0 +1,1714 @@
+{
+  "revision": "P3",
+  "part_groups": 71,
+  "joint_groups": 23,
+  "hardware_totals": {
+    "screws": 111,
+    "nuts": 96,
+    "washers": 207
+  },
+  "parts": [
+    {
+      "name": "COMP Impeller",
+      "id": "jet_000160",
+      "system": "03 Compressor",
+      "color": [
+        0.7,
+        0.74,
+        0.8
+      ],
+      "item": "P001",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "COMP Shroud",
+      "id": "jet_000164",
+      "system": "03 Compressor",
+      "color": [
+        0.63,
+        0.66,
+        0.7
+      ],
+      "item": "P002",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "COMP Diffuser vanes",
+      "id": "jet_000199",
+      "system": "03 Compressor",
+      "color": [
+        0.48,
+        0.53,
+        0.6
+      ],
+      "count": 17,
+      "item": "P003",
+      "quantity": 17,
+      "kind": "component group"
+    },
+    {
+      "name": "COMP Diffuser backplate",
+      "id": "jet_000210",
+      "system": "03 Compressor",
+      "color": [
+        0.5,
+        0.54,
+        0.6
+      ],
+      "item": "P004",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "BURN Outer liner",
+      "id": "jet_000313",
+      "system": "04 Combustor",
+      "color": [
+        0.65,
+        0.59,
+        0.52
+      ],
+      "item": "P005",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "BURN Inner liner",
+      "id": "jet_000314",
+      "system": "04 Combustor",
+      "color": [
+        0.6,
+        0.54,
+        0.48
+      ],
+      "item": "P006",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "BURN Dome",
+      "id": "jet_000326",
+      "system": "04 Combustor",
+      "color": [
+        0.65,
+        0.59,
+        0.52
+      ],
+      "item": "P007",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FUEL Manifold",
+      "id": "jet_000339",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.949,
+        0.42,
+        0.263
+      ],
+      "item": "P008",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FUEL Injector envelopes",
+      "id": "jet_000356",
+      "system": "04 Combustor",
+      "color": [
+        0.72,
+        0.5,
+        0.3
+      ],
+      "count": 12,
+      "item": "P009",
+      "quantity": 12,
+      "kind": "component group"
+    },
+    {
+      "name": "TURB Rotor blisk",
+      "id": "jet_000426",
+      "system": "05 Turbine and shaft",
+      "color": [
+        0.6,
+        0.64,
+        0.72
+      ],
+      "item": "P010",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "TURB Nozzle guide vanes",
+      "id": "jet_000480",
+      "system": "05 Turbine and shaft",
+      "color": [
+        0.53,
+        0.57,
+        0.63
+      ],
+      "item": "P011",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "TURB Tip shroud",
+      "id": "jet_000494",
+      "system": "05 Turbine and shaft",
+      "color": [
+        0.52,
+        0.55,
+        0.6
+      ],
+      "item": "P012",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "SHAFT Common shaft",
+      "id": "jet_000499",
+      "system": "05 Turbine and shaft",
+      "color": [
+        0.5,
+        0.54,
+        0.6
+      ],
+      "item": "P013",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "BEARING Front cartridge",
+      "id": "jet_000512",
+      "system": "05 Turbine and shaft",
+      "color": [
+        0.34,
+        0.4,
+        0.5
+      ],
+      "item": "P014",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "BEARING Rear cartridge",
+      "id": "jet_000525",
+      "system": "05 Turbine and shaft",
+      "color": [
+        0.34,
+        0.4,
+        0.5
+      ],
+      "item": "P015",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "SHAFT Bearing tunnel",
+      "id": "jet_000537",
+      "system": "05 Turbine and shaft",
+      "color": [
+        0.42,
+        0.45,
+        0.5
+      ],
+      "item": "P016",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "CASE Front barrel",
+      "id": "jet_000575",
+      "system": "07 Case and nozzle",
+      "color": [
+        0.72,
+        0.74,
+        0.78
+      ],
+      "item": "P017",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "CASE Inlet bell",
+      "id": "jet_000586",
+      "system": "07 Case and nozzle",
+      "color": [
+        0.64,
+        0.67,
+        0.73
+      ],
+      "item": "P018",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "NOZZLE Convergent duct",
+      "id": "jet_000608",
+      "system": "07 Case and nozzle",
+      "color": [
+        0.68,
+        0.69,
+        0.72
+      ],
+      "item": "P019",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "NOZZLE Center cone",
+      "id": "jet_000614",
+      "system": "07 Case and nozzle",
+      "color": [
+        0.6,
+        0.62,
+        0.68
+      ],
+      "item": "P020",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "STARTER Motor envelope",
+      "id": "jet_000618",
+      "system": "07 Case and nozzle",
+      "color": [
+        0.3,
+        0.35,
+        0.43
+      ],
+      "item": "P021",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "F03 Rear bearing feed",
+      "id": "jet_000774",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.949,
+        0.42,
+        0.263
+      ],
+      "item": "P022",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "F01 Main fuel feed",
+      "id": "jet_000970",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.949,
+        0.42,
+        0.263
+      ],
+      "item": "P023",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "F02 Front bearing feed",
+      "id": "jet_001054",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.949,
+        0.42,
+        0.263
+      ],
+      "item": "P024",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "P01 Pressure sense",
+      "id": "jet_001206",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.47,
+        0.52,
+        0.58
+      ],
+      "item": "P025",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "E01 Starter harness",
+      "id": "jet_001281",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.086,
+        0.28,
+        0.615
+      ],
+      "item": "P026",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "E02 Ignition lead",
+      "id": "jet_001358",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.086,
+        0.28,
+        0.615
+      ],
+      "item": "P027",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "E03 Temperature harness",
+      "id": "jet_001431",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.086,
+        0.28,
+        0.615
+      ],
+      "item": "P028",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "E04 Speed pickup lead",
+      "id": "jet_001506",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.086,
+        0.28,
+        0.615
+      ],
+      "item": "P029",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "ECU Service envelope",
+      "id": "jet_001512",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.25,
+        0.3,
+        0.4
+      ],
+      "item": "P030",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FUEL Pump envelope",
+      "id": "jet_001516",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.45,
+        0.5,
+        0.58
+      ],
+      "item": "P031",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "IGNITER Boss",
+      "id": "jet_001522",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.47,
+        0.5,
+        0.55
+      ],
+      "item": "P032",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "SENSOR Exhaust probe",
+      "id": "jet_001534",
+      "system": "06 Pipes and wiring",
+      "color": [
+        0.47,
+        0.5,
+        0.55
+      ],
+      "item": "P033",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "CASE Rear barrel",
+      "id": "jet_001604",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P034",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "SEAL Case split gasket",
+      "id": "jet_001617",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P035",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J01 Inlet module",
+      "id": "jet_001802",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 12,
+      "fastener_count": 12,
+      "hardware_group": "J01",
+      "item": "P036",
+      "quantity": 12,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J02 Case split",
+      "id": "jet_001851",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 12,
+      "fastener_count": 12,
+      "hardware_group": "J02",
+      "item": "P037",
+      "quantity": 12,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J03 Exhaust module",
+      "id": "jet_001910",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 12,
+      "fastener_count": 12,
+      "hardware_group": "J03",
+      "item": "P038",
+      "quantity": 12,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J04 Diffuser module",
+      "id": "jet_002127",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 6,
+      "fastener_count": 6,
+      "hardware_group": "J04",
+      "item": "P039",
+      "quantity": 6,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J24 Diffuser carrier to case",
+      "id": "jet_002191",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 3,
+      "fastener_count": 3,
+      "hardware_group": "J24",
+      "item": "P040",
+      "quantity": 3,
+      "kind": "hardware group"
+    },
+    {
+      "name": "BEARING Front retainer",
+      "id": "jet_002253",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P041",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "BEARING Rear retainer",
+      "id": "jet_002277",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P042",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J07 Front bearing retainer",
+      "id": "jet_002331",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 4,
+      "fastener_count": 4,
+      "hardware_group": "J07",
+      "item": "P043",
+      "quantity": 4,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J05 Front spider to case",
+      "id": "jet_002394",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 3,
+      "fastener_count": 3,
+      "hardware_group": "J05",
+      "item": "P044",
+      "quantity": 3,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J06 Guide vane frame to case",
+      "id": "jet_002484",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 6,
+      "fastener_count": 6,
+      "hardware_group": "J06",
+      "item": "P045",
+      "quantity": 6,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J08 Rear bearing and vane frame",
+      "id": "jet_002542",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 4,
+      "fastener_count": 4,
+      "hardware_group": "J08",
+      "item": "P046",
+      "quantity": 4,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J22 Turbine shroud carrier",
+      "id": "jet_002618",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 6,
+      "fastener_count": 6,
+      "hardware_group": "J22",
+      "item": "P047",
+      "quantity": 6,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J09 Outer liner tabs",
+      "id": "jet_002738",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 6,
+      "fastener_count": 6,
+      "hardware_group": "J09",
+      "item": "P048",
+      "quantity": 6,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J10 Inner liner lip",
+      "id": "jet_002783",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 4,
+      "fastener_count": 4,
+      "hardware_group": "J10",
+      "item": "P049",
+      "quantity": 4,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J23 Liner carrier to case",
+      "id": "jet_002837",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 3,
+      "fastener_count": 3,
+      "hardware_group": "J23",
+      "item": "P050",
+      "quantity": 3,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FUEL Manifold saddles",
+      "id": "jet_002863",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 3,
+      "item": "P051",
+      "quantity": 3,
+      "kind": "component group"
+    },
+    {
+      "name": "FUEL Manifold clamp caps",
+      "id": "jet_002867",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 3,
+      "item": "P052",
+      "quantity": 3,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J11 Manifold clamps",
+      "id": "jet_003117",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 6,
+      "fastener_count": 6,
+      "hardware_group": "J11",
+      "item": "P053",
+      "quantity": 6,
+      "kind": "hardware group"
+    },
+    {
+      "name": "SHAFT Inner race spacer sleeves",
+      "id": "jet_003171",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 4,
+      "item": "P054",
+      "quantity": 4,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST R01 Rotor retention nuts and washers",
+      "id": "jet_003200",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 2,
+      "fastener_count": 2,
+      "hardware_group": "R01",
+      "item": "P055",
+      "quantity": 2,
+      "kind": "hardware group"
+    },
+    {
+      "name": "MOUNT Starter carrier",
+      "id": "jet_003257",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P056",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J12 Starter flange",
+      "id": "jet_003301",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 3,
+      "fastener_count": 3,
+      "hardware_group": "J12",
+      "item": "P057",
+      "quantity": 3,
+      "kind": "hardware group"
+    },
+    {
+      "name": "MOUNT Service tray and ECU bracket",
+      "id": "jet_003320",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P058",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J13 ECU mounting tabs",
+      "id": "jet_003504",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 4,
+      "fastener_count": 4,
+      "hardware_group": "J13",
+      "item": "P059",
+      "quantity": 4,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J14 Service tray to inlet module",
+      "id": "jet_003661",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 4,
+      "fastener_count": 4,
+      "hardware_group": "J14",
+      "item": "P060",
+      "quantity": 4,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J15 Pump foot",
+      "id": "jet_003751",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 2,
+      "fastener_count": 2,
+      "hardware_group": "J15",
+      "item": "P061",
+      "quantity": 2,
+      "kind": "hardware group"
+    },
+    {
+      "name": "MOUNT Main fuel clamp bases",
+      "id": "jet_003834",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 2,
+      "item": "P062",
+      "quantity": 2,
+      "kind": "component group"
+    },
+    {
+      "name": "MOUNT Main fuel clamp caps",
+      "id": "jet_003837",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 2,
+      "item": "P063",
+      "quantity": 2,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J16 Fuel split clamps and case mounts",
+      "id": "jet_003985",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 4,
+      "fastener_count": 4,
+      "hardware_group": "J16",
+      "item": "P064",
+      "quantity": 4,
+      "kind": "hardware group"
+    },
+    {
+      "name": "MOUNT Cable guide lower",
+      "id": "jet_004004",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P065",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "MOUNT Cable guide upper",
+      "id": "jet_004011",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P066",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J19 Cable guide split",
+      "id": "jet_004123",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 3,
+      "fastener_count": 3,
+      "hardware_group": "J19",
+      "item": "P067",
+      "quantity": 3,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FAST J20 Cable guide to tray",
+      "id": "jet_004211",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 2,
+      "fastener_count": 2,
+      "hardware_group": "J20",
+      "item": "P068",
+      "quantity": 2,
+      "kind": "hardware group"
+    },
+    {
+      "name": "ECU Connector plate",
+      "id": "jet_004263",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P069",
+      "quantity": 1,
+      "kind": "component group"
+    },
+    {
+      "name": "FAST J21 Connector plate to ECU",
+      "id": "jet_004354",
+      "system": "10 Fasteners",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "count": 2,
+      "fastener_count": 2,
+      "hardware_group": "J21",
+      "item": "P070",
+      "quantity": 2,
+      "kind": "hardware group"
+    },
+    {
+      "name": "FUEL Pump outlet union",
+      "id": "jet_004370",
+      "system": "09 Assembly structures",
+      "color": [
+        0.57,
+        0.62,
+        0.67
+      ],
+      "item": "P071",
+      "quantity": 1,
+      "kind": "component group"
+    }
+  ],
+  "joints": [
+    {
+      "id": "J01",
+      "name": "Inlet module",
+      "size": 4,
+      "length_mm": 16,
+      "count": 12,
+      "pattern": "axial circle",
+      "phase_deg": 15,
+      "parts": [
+        "CASE Inlet bell",
+        "CASE Front barrel"
+      ],
+      "hole_diameter_mm": 4.5,
+      "tapped": false,
+      "radius_mm": 65.5,
+      "z0_mm": 9.000000000000002,
+      "z1_mm": 15.0,
+      "screws": 12,
+      "nuts": 12,
+      "washers": 24,
+      "thread": "M4 x 0.7",
+      "grip_mm": 5.999999999999998,
+      "protrusion_mm": 5.200000000000003
+    },
+    {
+      "id": "J02",
+      "name": "Case split",
+      "size": 4,
+      "length_mm": 16,
+      "count": 12,
+      "pattern": "axial circle",
+      "phase_deg": 15,
+      "parts": [
+        "CASE Front barrel",
+        "CASE Rear barrel",
+        "SEAL Case split gasket"
+      ],
+      "hole_diameter_mm": 4.5,
+      "tapped": false,
+      "radius_mm": 65.5,
+      "z0_mm": 142.0,
+      "z1_mm": 148.5,
+      "screws": 12,
+      "nuts": 12,
+      "washers": 24,
+      "thread": "M4 x 0.7",
+      "grip_mm": 6.5,
+      "protrusion_mm": 4.699999999999999
+    },
+    {
+      "id": "J03",
+      "name": "Exhaust module",
+      "size": 4,
+      "length_mm": 16,
+      "count": 12,
+      "pattern": "axial circle",
+      "phase_deg": 15,
+      "parts": [
+        "CASE Rear barrel",
+        "NOZZLE Convergent duct"
+      ],
+      "hole_diameter_mm": 4.5,
+      "tapped": false,
+      "radius_mm": 65.5,
+      "z0_mm": 215.68994881379902,
+      "z1_mm": 221.68994881379902,
+      "screws": 12,
+      "nuts": 12,
+      "washers": 24,
+      "thread": "M4 x 0.7",
+      "grip_mm": 6.0,
+      "protrusion_mm": 5.199999999999999
+    },
+    {
+      "id": "J04",
+      "name": "Diffuser module",
+      "size": 3,
+      "length_mm": 16,
+      "count": 6,
+      "pattern": "cartesian",
+      "axis": "z",
+      "parts": [
+        "COMP Shroud",
+        "COMP Diffuser backplate"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 10.664817040347947,
+      "points_mm": [
+        [
+          38.2172273439157,
+          35.2624947237637,
+          47.33518295965206
+        ],
+        [
+          -14.530806759699693,
+          49.92850543439355,
+          47.33518295965206
+        ],
+        [
+          -51.171103170265994,
+          9.247605113649373,
+          47.33518295965206
+        ],
+        [
+          -31.08704002107223,
+          -41.68448083793601,
+          47.33518295965206
+        ],
+        [
+          23.457730960361577,
+          -46.40834901384981,
+          47.33518295965206
+        ],
+        [
+          48.60057491692997,
+          -18.492812596894996,
+          47.33518295965206
+        ]
+      ],
+      "screws": 6,
+      "nuts": 6,
+      "washers": 12,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 1.9351829596520531
+    },
+    {
+      "id": "J24",
+      "name": "Diffuser carrier to case",
+      "size": 3,
+      "length_mm": 8,
+      "count": 3,
+      "pattern": "radial",
+      "phase_deg": 30,
+      "parts": [
+        "CASE Front barrel",
+        "COMP Diffuser backplate"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": true,
+      "radius_mm": 61.07517467695555,
+      "z0_mm": 56.5,
+      "engagement_mm": 6.3,
+      "screws": 3,
+      "nuts": 0,
+      "washers": 3,
+      "thread": "M3 x 0.5"
+    },
+    {
+      "id": "J07",
+      "name": "Front bearing retainer",
+      "size": 3,
+      "length_mm": 10,
+      "count": 4,
+      "pattern": "axial circle",
+      "phase_deg": 45,
+      "parts": [
+        "BEARING Front retainer",
+        "SHAFT Bearing tunnel"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "radius_mm": 15.0,
+      "z0_mm": 72.00000000000001,
+      "z1_mm": 77.0,
+      "screws": 4,
+      "nuts": 4,
+      "washers": 8,
+      "thread": "M3 x 0.5",
+      "grip_mm": 4.999999999999986,
+      "protrusion_mm": 1.6000000000000139
+    },
+    {
+      "id": "J05",
+      "name": "Front spider to case",
+      "size": 3,
+      "length_mm": 8,
+      "count": 3,
+      "pattern": "radial",
+      "phase_deg": 30,
+      "parts": [
+        "CASE Front barrel",
+        "SHAFT Bearing tunnel"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": true,
+      "radius_mm": 61.07517467695555,
+      "z0_mm": 78.0,
+      "engagement_mm": 6.3,
+      "screws": 3,
+      "nuts": 0,
+      "washers": 3,
+      "thread": "M3 x 0.5"
+    },
+    {
+      "id": "J06",
+      "name": "Guide vane frame to case",
+      "size": 3,
+      "length_mm": 8,
+      "count": 6,
+      "pattern": "radial",
+      "phase_deg": 30,
+      "parts": [
+        "CASE Rear barrel",
+        "TURB Nozzle guide vanes"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": true,
+      "radius_mm": 61.07517467695555,
+      "z0_mm": 184.68994881379902,
+      "engagement_mm": 6.3,
+      "screws": 6,
+      "nuts": 0,
+      "washers": 6,
+      "thread": "M3 x 0.5"
+    },
+    {
+      "id": "J08",
+      "name": "Rear bearing and vane frame",
+      "size": 3,
+      "length_mm": 14,
+      "count": 4,
+      "pattern": "axial circle",
+      "phase_deg": 45,
+      "parts": [
+        "BEARING Rear retainer",
+        "SHAFT Bearing tunnel",
+        "TURB Nozzle guide vanes"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "radius_mm": 15.0,
+      "z0_mm": 179.44050306963203,
+      "z1_mm": 187.44050306963203,
+      "screws": 4,
+      "nuts": 4,
+      "washers": 8,
+      "thread": "M3 x 0.5",
+      "grip_mm": 8.0,
+      "protrusion_mm": 2.5999999999999996
+    },
+    {
+      "id": "J22",
+      "name": "Turbine shroud carrier",
+      "size": 3,
+      "length_mm": 20,
+      "count": 6,
+      "pattern": "axial circle",
+      "phase_deg": 0,
+      "parts": [
+        "TURB Nozzle guide vanes",
+        "TURB Tip shroud"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "radius_mm": 54.5,
+      "z0_mm": 181.68994881379902,
+      "z1_mm": 196.689948813799,
+      "screws": 6,
+      "nuts": 6,
+      "washers": 12,
+      "thread": "M3 x 0.5",
+      "grip_mm": 14.999999999999972,
+      "protrusion_mm": 1.6000000000000298
+    },
+    {
+      "id": "J09",
+      "name": "Outer liner tabs",
+      "size": 3,
+      "length_mm": 10,
+      "count": 6,
+      "pattern": "axial circle",
+      "phase_deg": 0,
+      "parts": [
+        "BURN Dome",
+        "BURN Outer liner"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "radius_mm": 52.5,
+      "z0_mm": 90.0,
+      "z1_mm": 94.0,
+      "screws": 6,
+      "nuts": 6,
+      "washers": 12,
+      "thread": "M3 x 0.5",
+      "grip_mm": 4.0,
+      "protrusion_mm": 2.5999999999999996
+    },
+    {
+      "id": "J10",
+      "name": "Inner liner lip",
+      "size": 3,
+      "length_mm": 10,
+      "count": 4,
+      "pattern": "axial circle",
+      "phase_deg": 45,
+      "parts": [
+        "BURN Dome",
+        "BURN Inner liner"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "radius_mm": 22.0,
+      "z0_mm": 90.0,
+      "z1_mm": 94.0,
+      "screws": 4,
+      "nuts": 4,
+      "washers": 8,
+      "thread": "M3 x 0.5",
+      "grip_mm": 4.0,
+      "protrusion_mm": 2.5999999999999996
+    },
+    {
+      "id": "J23",
+      "name": "Liner carrier to case",
+      "size": 3,
+      "length_mm": 8,
+      "count": 3,
+      "pattern": "radial",
+      "phase_deg": 30,
+      "parts": [
+        "CASE Front barrel",
+        "BURN Outer liner"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": true,
+      "radius_mm": 61.07517467695555,
+      "z0_mm": 96.0,
+      "engagement_mm": 6.3,
+      "screws": 3,
+      "nuts": 0,
+      "washers": 3,
+      "thread": "M3 x 0.5"
+    },
+    {
+      "id": "J11",
+      "name": "Manifold clamps",
+      "size": 3,
+      "length_mm": 20,
+      "count": 6,
+      "pattern": "cartesian",
+      "axis": "z",
+      "parts": [
+        "BURN Dome",
+        "FUEL Manifold saddles",
+        "FUEL Manifold clamp caps"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 12.00000000000001,
+      "points_mm": [
+        [
+          25.538128041252705,
+          25.538128041252705,
+          90.0
+        ],
+        [
+          31.194982290745095,
+          31.194982290745095,
+          90.0
+        ],
+        [
+          -34.88573166945092,
+          9.347603628198225,
+          90.0
+        ],
+        [
+          -42.61313827976347,
+          11.418155989018397,
+          90.0
+        ],
+        [
+          9.347603628198199,
+          -34.88573166945093,
+          90.0
+        ],
+        [
+          11.418155989018365,
+          -42.613138279763476,
+          90.0
+        ]
+      ],
+      "screws": 6,
+      "nuts": 6,
+      "washers": 12,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 4.599999999999989
+    },
+    {
+      "id": "R01",
+      "name": "Rotor retention",
+      "size": 8,
+      "count": 2,
+      "pattern": "shaft nuts",
+      "parts": [
+        "SHAFT Common shaft",
+        "COMP Impeller",
+        "TURB Rotor blisk",
+        "SHAFT Inner race spacer sleeves"
+      ],
+      "tapped": false,
+      "note": "M8 x 1.25 nominal thread zones. Locking method, balance, and torque remain open.",
+      "screws": 0,
+      "nuts": 2,
+      "washers": 2,
+      "thread": "M8 x 1.25; nominal cylinders; locking and handedness to be selected"
+    },
+    {
+      "id": "J12",
+      "name": "Starter flange",
+      "size": 3,
+      "length_mm": 10,
+      "count": 3,
+      "pattern": "axial circle",
+      "phase_deg": 30,
+      "parts": [
+        "STARTER Motor envelope",
+        "MOUNT Starter carrier"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "radius_mm": 15.0,
+      "z0_mm": 5.0,
+      "z1_mm": 9.000000000000002,
+      "screws": 3,
+      "nuts": 3,
+      "washers": 6,
+      "thread": "M3 x 0.5",
+      "grip_mm": 4.000000000000002,
+      "protrusion_mm": 2.599999999999998
+    },
+    {
+      "id": "J13",
+      "name": "ECU mounting tabs",
+      "size": 3,
+      "length_mm": 12,
+      "count": 4,
+      "pattern": "cartesian",
+      "axis": "y",
+      "parts": [
+        "ECU Service envelope",
+        "MOUNT Service tray and ECU bracket"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 7.0,
+      "points_mm": [
+        [
+          -23.0,
+          104.00000000000001,
+          16.0
+        ],
+        [
+          -23.0,
+          104.00000000000001,
+          42.0
+        ],
+        [
+          23.0,
+          104.00000000000001,
+          16.0
+        ],
+        [
+          23.0,
+          104.00000000000001,
+          42.0
+        ]
+      ],
+      "screws": 4,
+      "nuts": 4,
+      "washers": 8,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 1.5999999999999996
+    },
+    {
+      "id": "J14",
+      "name": "Service tray to inlet module",
+      "size": 3,
+      "length_mm": 12,
+      "count": 4,
+      "pattern": "cartesian",
+      "axis": "z",
+      "parts": [
+        "CASE Inlet bell",
+        "MOUNT Service tray and ECU bracket"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 6.0,
+      "points_mm": [
+        [
+          -28.0,
+          62.0,
+          9.000000000000002
+        ],
+        [
+          -28.0,
+          79.0,
+          9.000000000000002
+        ],
+        [
+          28.0,
+          62.0,
+          9.000000000000002
+        ],
+        [
+          28.0,
+          79.0,
+          9.000000000000002
+        ]
+      ],
+      "screws": 4,
+      "nuts": 4,
+      "washers": 8,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 2.5999999999999996
+    },
+    {
+      "id": "J15",
+      "name": "Pump foot",
+      "size": 3,
+      "length_mm": 12,
+      "count": 2,
+      "pattern": "cartesian",
+      "axis": "z",
+      "parts": [
+        "FUEL Pump envelope",
+        "CASE Inlet bell"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 7.0,
+      "points_mm": [
+        [
+          60.07517467695555,
+          0.0,
+          5.0
+        ],
+        [
+          78.07517467695554,
+          0.0,
+          5.0
+        ]
+      ],
+      "screws": 2,
+      "nuts": 2,
+      "washers": 4,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 1.5999999999999996
+    },
+    {
+      "id": "J16",
+      "name": "Fuel split clamps and case mounts",
+      "size": 3,
+      "length_mm": 20,
+      "count": 4,
+      "pattern": "cartesian",
+      "axis": "x",
+      "parts": [
+        "CASE Front barrel",
+        "MOUNT Main fuel clamp bases",
+        "MOUNT Main fuel clamp caps"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 14.200000000000005,
+      "points_mm": [
+        [
+          58.87517467695555,
+          -4.25,
+          30.0
+        ],
+        [
+          58.87517467695555,
+          4.25,
+          30.0
+        ],
+        [
+          58.87517467695555,
+          -4.25,
+          60.0
+        ],
+        [
+          58.87517467695555,
+          4.25,
+          60.0
+        ]
+      ],
+      "screws": 4,
+      "nuts": 4,
+      "washers": 8,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 2.399999999999995
+    },
+    {
+      "id": "J19",
+      "name": "Cable guide split",
+      "size": 3,
+      "length_mm": 14,
+      "count": 3,
+      "pattern": "cartesian",
+      "axis": "y",
+      "parts": [
+        "MOUNT Cable guide lower",
+        "MOUNT Cable guide upper"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 8.0,
+      "points_mm": [
+        [
+          -12.0,
+          80.0,
+          15.0
+        ],
+        [
+          4.0,
+          80.0,
+          15.0
+        ],
+        [
+          21.0,
+          80.0,
+          15.0
+        ]
+      ],
+      "screws": 3,
+      "nuts": 3,
+      "washers": 6,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 2.5999999999999996
+    },
+    {
+      "id": "J20",
+      "name": "Cable guide to tray",
+      "size": 3,
+      "length_mm": 12,
+      "count": 2,
+      "pattern": "cartesian",
+      "axis": "z",
+      "parts": [
+        "MOUNT Cable guide lower",
+        "MOUNT Cable guide upper",
+        "MOUNT Service tray and ECU bracket"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": false,
+      "grip_mm": 6.0,
+      "points_mm": [
+        [
+          -20.0,
+          91.00000000000001,
+          12.0
+        ],
+        [
+          29.0,
+          87.00000000000001,
+          12.0
+        ]
+      ],
+      "screws": 2,
+      "nuts": 2,
+      "washers": 4,
+      "thread": "M3 x 0.5",
+      "protrusion_mm": 2.5999999999999996
+    },
+    {
+      "id": "J21",
+      "name": "Connector plate to ECU",
+      "size": 3,
+      "length_mm": 8,
+      "count": 2,
+      "pattern": "cartesian",
+      "axis": "y",
+      "parts": [
+        "ECU Connector plate",
+        "ECU Service envelope"
+      ],
+      "hole_diameter_mm": 3.4,
+      "tapped": true,
+      "grip_mm": 2.0,
+      "points_mm": [
+        [
+          -14.0,
+          91.00000000000001,
+          35.0
+        ],
+        [
+          14.0,
+          91.00000000000001,
+          35.0
+        ]
+      ],
+      "screws": 2,
+      "nuts": 0,
+      "washers": 2,
+      "thread": "M3 x 0.5",
+      "engagement_mm": 5.5
+    }
+  ],
+  "thread_representation": "Sourced head, socket, nut, and washer envelopes. Threads use nominal cylinders and explicit callouts. Materials, preload, locking method, and tap preparation remain open."
+}

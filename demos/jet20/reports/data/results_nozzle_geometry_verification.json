@@ -1,0 +1,10 @@
+{
+  "mesh": "source-output/18_NOZZLE_Convergent_duct.stl",
+  "section_z_mm": 269.33828604629997,
+  "expected_inner_radius_mm": 22.720615381288198,
+  "min_inner_radius_mm": 22.715067234139866,
+  "max_inner_radius_mm": 22.725261807644475,
+  "max_absolute_radius_error_mm": 0.00554814714833185,
+  "tolerance_mm": 0.025,
+  "method": "Plane cut 0.1 mm upstream of exit. Compare all inner contour vertices to the analytic cone radius."
+}

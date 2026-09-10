@@ -1,0 +1,157 @@
+{
+  "method": "Planar intersections of original native AT then Sharpen meshes. Three clearance holes per selected flange section.",
+  "tolerance_mm": 0.08,
+  "samples": [
+    {
+      "part": "CASE Inlet bell",
+      "z_mm": 10.5,
+      "azimuth_deg": 15,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2432864937158223,
+      "max_radius_mm": 2.2747397847747455,
+      "max_radius_error_mm": 0.024739784774745477,
+      "sample_points": 103
+    },
+    {
+      "part": "CASE Inlet bell",
+      "z_mm": 10.5,
+      "azimuth_deg": 45,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2434810037599098,
+      "max_radius_mm": 2.2730052533990968,
+      "max_radius_error_mm": 0.02300525339909676,
+      "sample_points": 101
+    },
+    {
+      "part": "CASE Inlet bell",
+      "z_mm": 10.5,
+      "azimuth_deg": 75,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2442386214173338,
+      "max_radius_mm": 2.2664950152326373,
+      "max_radius_error_mm": 0.0164950152326373,
+      "sample_points": 102
+    },
+    {
+      "part": "CASE Front barrel",
+      "z_mm": 13.5,
+      "azimuth_deg": 15,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2459681569829373,
+      "max_radius_mm": 2.27408904870487,
+      "max_radius_error_mm": 0.024089048704869942,
+      "sample_points": 77
+    },
+    {
+      "part": "CASE Front barrel",
+      "z_mm": 13.5,
+      "azimuth_deg": 45,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.239438969808579,
+      "max_radius_mm": 2.263516422128578,
+      "max_radius_error_mm": 0.013516422128577954,
+      "sample_points": 75
+    },
+    {
+      "part": "CASE Front barrel",
+      "z_mm": 13.5,
+      "azimuth_deg": 75,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2441568206611735,
+      "max_radius_mm": 2.2631473628431023,
+      "max_radius_error_mm": 0.01314736284310225,
+      "sample_points": 94
+    },
+    {
+      "part": "CASE Front barrel",
+      "z_mm": 143.5,
+      "azimuth_deg": 15,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2417795673081184,
+      "max_radius_mm": 2.274091833789832,
+      "max_radius_error_mm": 0.02409183378983215,
+      "sample_points": 77
+    },
+    {
+      "part": "CASE Front barrel",
+      "z_mm": 143.5,
+      "azimuth_deg": 45,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2394384992627008,
+      "max_radius_mm": 2.263680360559886,
+      "max_radius_error_mm": 0.013680360559885862,
+      "sample_points": 75
+    },
+    {
+      "part": "CASE Front barrel",
+      "z_mm": 143.5,
+      "azimuth_deg": 75,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.240439815754212,
+      "max_radius_mm": 2.2641245949536812,
+      "max_radius_error_mm": 0.014124594953681235,
+      "sample_points": 92
+    },
+    {
+      "part": "CASE Rear barrel",
+      "z_mm": 147,
+      "azimuth_deg": 15,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2424527951835853,
+      "max_radius_mm": 2.2652331198742788,
+      "max_radius_error_mm": 0.015233119874278778,
+      "sample_points": 89
+    },
+    {
+      "part": "CASE Rear barrel",
+      "z_mm": 147,
+      "azimuth_deg": 45,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.241870737907133,
+      "max_radius_mm": 2.258948993097014,
+      "max_radius_error_mm": 0.008948993097014135,
+      "sample_points": 82
+    },
+    {
+      "part": "CASE Rear barrel",
+      "z_mm": 147,
+      "azimuth_deg": 75,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2418101342120815,
+      "max_radius_mm": 2.2652331198742788,
+      "max_radius_error_mm": 0.015233119874278778,
+      "sample_points": 96
+    },
+    {
+      "part": "SEAL Case split gasket",
+      "z_mm": 145.25,
+      "azimuth_deg": 15,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2471070022364508,
+      "max_radius_mm": 2.250281070963414,
+      "max_radius_error_mm": 0.002892997763549232,
+      "sample_points": 375
+    },
+    {
+      "part": "SEAL Case split gasket",
+      "z_mm": 145.25,
+      "azimuth_deg": 45,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.248472284515267,
+      "max_radius_mm": 2.250287121815194,
+      "max_radius_error_mm": 0.001527715484733072,
+      "sample_points": 287
+    },
+    {
+      "part": "SEAL Case split gasket",
+      "z_mm": 145.25,
+      "azimuth_deg": 75,
+      "nominal_clearance_radius_mm": 2.25,
+      "min_radius_mm": 2.2486326550582394,
+      "max_radius_mm": 2.250322257357899,
+      "max_radius_error_mm": 0.0013673449417606065,
+      "sample_points": 239
+    }
+  ],
+  "maximum_error_mm": 0.024739784774745477
+}

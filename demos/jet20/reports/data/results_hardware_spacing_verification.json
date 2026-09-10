@@ -1,0 +1,6 @@
+{
+  "method": "Bounding cylinders for screw heads, shanks, washers, and hex nuts. Distinct fastener instances with parallel axes and overlapping axial intervals. Nut circumradii make this conservative.",
+  "comparisons": 5987,
+  "overlap_candidates": [],
+  "scope_limits": "Source-geometry screen only. Cross-axis contacts, hardware-to-body interference, access, fits, thermal growth, and loads are not covered."
+}

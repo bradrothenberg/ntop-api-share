@@ -1,0 +1,30 @@
+{
+  "baseline_nozzle_connected": true,
+  "checks": [
+    {
+      "section": "Stator inlet annulus",
+      "virtual_cap_z_mm": 182.0,
+      "virtual_cap_radius_mm": 39.97437305885383,
+      "outside_cap_open_area_mm2": 7.0,
+      "outside_cap_inlet_connected_area_mm2": 0.0,
+      "nozzle_still_connected": false,
+      "inlet_label": 1,
+      "nozzle_label": 2
+    },
+    {
+      "section": "Rotor outlet annulus",
+      "virtual_cap_z_mm": 206.0,
+      "virtual_cap_radius_mm": 39.97437305885383,
+      "outside_cap_open_area_mm2": 5897.0,
+      "outside_cap_inlet_connected_area_mm2": 0.0,
+      "nozzle_still_connected": false,
+      "inlet_label": 1,
+      "nozzle_label": 2
+    }
+  ],
+  "passed": true,
+  "seconds": 0.5282449000078486,
+  "geometry_receipt_sha256": "ee78ad041bfa9c8bdaddd743356e430ef2db4ee33f446a46675c4c82f9837d03",
+  "volume_sha256": "b905cff0265fdab74514bb7fbdd8d7778692d66bc463cd5db9997a78b41d44c0",
+  "scope": "Separate virtual one-voxel closures of the turbine flow cylinder at stator inlet and rotor outlet, including nominal tip clearance, in the existing restricted 0.5 mm six-face gas domain. No physical geometry change and no CFD leakage prediction."
+}

@@ -1,0 +1,45 @@
+{
+  "metric": "Continuous geometric silhouette IoU. R5 native spline geometry aft of X=0.122076123 m; analytic-cap/loft field roots forward. Root prediction is checked against the native nTop field evaluator.",
+  "notebook_sha256": "90177520b17f02a1d2292a71c8456122097d3131ed0b446faf1c1d76d509fcc1",
+  "reference_sha256": "461913938fd41af45a4269b7cf4094292de277209b29baa72937a2a570321bd3",
+  "views": {
+    "plan": {
+      "iou_percent": 99.6500074013175,
+      "pass": true,
+      "nose_cockpit_iou_percent": 99.69491682213464
+    },
+    "side": {
+      "iou_percent": 99.39297597300846,
+      "pass": true,
+      "nose_cockpit_iou_percent": 99.2136734990056
+    },
+    "front": {
+      "iou_percent": 99.14562234881639,
+      "pass": true
+    }
+  },
+  "convergence": [
+    {
+      "nose_longitudinal_samples": 129,
+      "nose_transverse_samples": 129,
+      "iou_percent": {
+        "plan": 99.65000214564016,
+        "side": 99.39297759690551,
+        "front": 99.14562234881639
+      },
+      "nose_area_outside_R5_front_m2": 0.0
+    },
+    {
+      "nose_longitudinal_samples": 257,
+      "nose_transverse_samples": 257,
+      "iou_percent": {
+        "plan": 99.6500074013175,
+        "side": 99.39297597300846,
+        "front": 99.14562234881639
+      },
+      "nose_area_outside_R5_front_m2": 0.0
+    }
+  ],
+  "maximum_convergence_change_percentage_points": 5.255677336890585e-06,
+  "all_pass": true
+}

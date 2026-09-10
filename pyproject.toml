@@ -1,0 +1,12 @@
+[project]
+name = "ntop-api-share"
+version = "0.1.0"
+description = "Portable examples and measured lessons for the prototype nTop Notebook API"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2,<3", "scipy>=1.14,<2", "shapely>=2,<3"]
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+render = ["pyvista>=0.44,<1", "trimesh>=4,<5", "pillow>=10", "matplotlib>=3.9", "shapely>=2", "reportlab>=4", "pypdfium2>=4"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "scripts", "harness"]

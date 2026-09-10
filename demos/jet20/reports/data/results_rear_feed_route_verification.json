@@ -1,0 +1,614 @@
+{
+  "revision": "P3",
+  "method": "P3 complete service screen checks every native F03 vertex and triangle center against all other solids. Current bore rays are in p3_interface_verification.json. The preserved P2 unsigned inner-liner gap remains valid because both source meshes are identical.",
+  "sample_count": 443976,
+  "hot_zone_pipe_radial_extent_mm": [
+    14.100137088896181,
+    15.900474618387872
+  ],
+  "combustion_space_crossing": false,
+  "clearances": [
+    {
+      "part": "BURN Inner liner",
+      "containment_samples": 216944,
+      "distance_samples": 1808,
+      "minimum_sampled_surface_distance_mm": 2.1006479791933703,
+      "at_mm": [
+        15.662925720214844,
+        -2.730874538421631,
+        93.42557525634766
+      ],
+      "inside_samples": 0,
+      "maximum_inside_depth_mm": 0,
+      "penetrations_over_0_03_mm": 0
+    },
+    {
+      "part": "BURN Outer liner",
+      "tested_samples": 215922,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "BURN Dome",
+      "tested_samples": 5747,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FUEL Manifold",
+      "tested_samples": 8522,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FUEL Injector envelopes",
+      "tested_samples": 25191,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "SHAFT Bearing tunnel",
+      "tested_samples": 260344,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.00776428653908536
+    },
+    {
+      "part": "CASE Front barrel",
+      "tested_samples": 36885,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "F01 Main fuel feed",
+      "tested_samples": 91382,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "SEAL Case split gasket",
+      "tested_samples": 1612,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FAST J02 Case split",
+      "tested_samples": 55721,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "BEARING Front retainer",
+      "tested_samples": 8542,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FAST J07 Front bearing retainer",
+      "tested_samples": 5478,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FAST J05 Front spider to case",
+      "tested_samples": 19601,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FAST J09 Outer liner tabs",
+      "tested_samples": 36287,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FAST J10 Inner liner lip",
+      "tested_samples": 36288,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FAST J23 Liner carrier to case",
+      "tested_samples": 19614,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FUEL Manifold saddles",
+      "tested_samples": 19632,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FUEL Manifold clamp caps",
+      "tested_samples": 8546,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    },
+    {
+      "part": "FAST J11 Manifold clamps",
+      "tested_samples": 63987,
+      "penetrations_over_0_03_mm": 0,
+      "maximum_inside_depth_mm": 0.0
+    }
+  ],
+  "bore_rays": [
+    {
+      "interface": "F03 radial inlet",
+      "hits": 0,
+      "start_mm": [
+        69.99538306856279,
+        -12.342074560012087,
+        64.0
+      ],
+      "end_mm": [
+        21.665770566268577,
+        -3.820259908672467,
+        64.0
+      ]
+    },
+    {
+      "interface": "F03 axial bore and support passages",
+      "hits": 0,
+      "start_mm": [
+        14.772116295183121,
+        -2.6047226650039548,
+        71.0
+      ],
+      "end_mm": [
+        14.772116295183121,
+        -2.6047226650039548,
+        168.940503069632
+      ]
+    },
+    {
+      "interface": "F03 receiver cross passage",
+      "hits": 0,
+      "start_mm": [
+        14.72287590753251,
+        -2.596040256120608,
+        169.440503069632
+      ],
+      "end_mm": [
+        7.878462024097664,
+        -1.3891854213354426,
+        169.440503069632
+      ]
+    }
+  ],
+  "native_open_edges": 0,
+  "native_regions": 1,
+  "sources": [
+    {
+      "name": "COMP Impeller",
+      "mesh": "source-output/sharp_component_00.stl",
+      "source_hash": "87e318a6c364c7a3bd18c0803a3554f8598341e2f35e82fb9f857c50103e5914",
+      "mesh_sha256": "d226c520cd5c070b7df0d2e1e40cf2cff3eb08f68c1c562ae7d961468bce8697"
+    },
+    {
+      "name": "COMP Shroud",
+      "mesh": "source-output/01_COMP_Shroud.stl",
+      "source_hash": "d24b47973be1f2158655b3d926193d5a6c41c96cf72032dba93d98675bf54c36",
+      "mesh_sha256": "6f335f8b5ddb4bbbaf531275d0568de794979d2a6f9b0c96c65ee9e65b8f3ee4"
+    },
+    {
+      "name": "COMP Diffuser vanes",
+      "mesh": "source-output/02_COMP_Diffuser_vanes.stl",
+      "source_hash": "5d796d6e85c51aaf0e9d99f420554d95e11359d2ab58cdc35992b342e9efec20",
+      "mesh_sha256": "ca42a8646daeff24caed54e71d663e90f789cbfb54abae9fb99b5d3390cabe43"
+    },
+    {
+      "name": "COMP Diffuser backplate",
+      "mesh": "source-output/03_COMP_Diffuser_backplate.stl",
+      "source_hash": "7eb386b614cae0181840535e49ae4abb896680145415391d23809b3b13fe2f86",
+      "mesh_sha256": "8e47e63892b7f715bbdd6884b4145059441063ea42116f667581c05df75d0b24"
+    },
+    {
+      "name": "BURN Outer liner",
+      "mesh": "source-output/04_BURN_Outer_liner.stl",
+      "source_hash": "d2f75fdc62c4abf44b10c3fb17b80149e6697ec4a314cb2cd2c5519b5136e0a2",
+      "mesh_sha256": "ebcb421732ac30e20b6c50f2df2085b497159e6806e6eddcc7844e6d4cc266a9"
+    },
+    {
+      "name": "BURN Inner liner",
+      "mesh": "source-output/05_BURN_Inner_liner.stl",
+      "source_hash": "f6dfbfecaaf07dd6764fa2e88424e23b941ca9f67b35620898ccf2a0d4145348",
+      "mesh_sha256": "9d57b15f914367aa7241fd9e408d01e0276537816b837555d9e7fe3910ebd0b4"
+    },
+    {
+      "name": "BURN Dome",
+      "mesh": "source-output/06_BURN_Dome.stl",
+      "source_hash": "d3b9eb7abb1b0918e3717208c688e21942057a5546e3ea7761c5b6cd90d63b1e",
+      "mesh_sha256": "98c635f6e09e3941d404911abca3eb3246a9c489e2f508598310122ed89564da"
+    },
+    {
+      "name": "FUEL Manifold",
+      "mesh": "source-output/07_FUEL_Manifold.stl",
+      "source_hash": "749e24ddb07bb702a9e35ad93cdc8c839f454210d2494621ed61fd9b56255d9d",
+      "mesh_sha256": "494991899af79f8022aced29e3b677dda6c1e6d7f4bd60808dcd59492bbffd1f"
+    },
+    {
+      "name": "FUEL Injector envelopes",
+      "mesh": "source-output/08_FUEL_Injector_envelopes.stl",
+      "source_hash": "e3b6c5e91792849247cea3108ca11d934154984e87aff0e629d4f15150d8aa00",
+      "mesh_sha256": "8452fe4537eebdd853b0e0ac17da5f08816d276ba0456a0c057997ffb3906e46"
+    },
+    {
+      "name": "TURB Rotor blisk",
+      "mesh": "source-output/sharp_component_01.stl",
+      "source_hash": "085018eb6ce89b2ca19dfafeacb3311ce9e8eb911f7266f525dc24d360deb28a",
+      "mesh_sha256": "f4189760434bfbbedef00505af145c3373ffee8a772b9f7a911d4529698efd18"
+    },
+    {
+      "name": "TURB Nozzle guide vanes",
+      "mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+      "source_hash": "64aefa7c89d2ea75cf438c7f0afc44afe1c8c0139e9067e7757e52d0f5f39d30",
+      "mesh_sha256": "5d296625a8fe32420585fafdee67c17c59923e8e2a9b02a82f85bcb7107ede6e"
+    },
+    {
+      "name": "TURB Tip shroud",
+      "mesh": "source-output/11_TURB_Tip_shroud.stl",
+      "source_hash": "f9d23d46bcb04f7af424bb6be6f8e289424da923e8ba9700b88132b0948036b6",
+      "mesh_sha256": "4135a73eeeb1a0e89bdcd206e1d34b427c392b0cf2d2446e7f3d9ec2e47d134d"
+    },
+    {
+      "name": "SHAFT Common shaft",
+      "mesh": "source-output/12_SHAFT_Common_shaft.stl",
+      "source_hash": "6bae27d2e443043d95eceb51da3c1172d6f8288fc6bc8cf2511b08708ff74489",
+      "mesh_sha256": "8f69dbcf13d076b2c7104ee4cfafdc5e27ed605f717c161cb34cbe8e5fe07e6e"
+    },
+    {
+      "name": "BEARING Front cartridge",
+      "mesh": "source-output/13_BEARING_Front_cartridge.stl",
+      "source_hash": "4b56cc4d3ff6380e0867d2e2eb7fd0b44e9c4afb02c363e5ad3ce1d8bfa79499",
+      "mesh_sha256": "0071c2642160e2edd37d0b090c4482a4fb8fb4f52079287bcb668e2b499fc147"
+    },
+    {
+      "name": "BEARING Rear cartridge",
+      "mesh": "source-output/14_BEARING_Rear_cartridge.stl",
+      "source_hash": "0200fbcb9e81fb6818ba3007de6200513e96843368869221b725c8ff797cda90",
+      "mesh_sha256": "beae7109fb5d09df41b4efe13d6281fe878387e97547242e86f8e164f52eb371"
+    },
+    {
+      "name": "SHAFT Bearing tunnel",
+      "mesh": "source-output/15_SHAFT_Bearing_tunnel.stl",
+      "source_hash": "33c98396945bed38e572094a8dad6aa759f3c5e87e190d7cf2a1d0c38bf6470d",
+      "mesh_sha256": "23e42444ba9e9b465541c9616093942821f930f8c338b4d586760653c15dbfb0"
+    },
+    {
+      "name": "CASE Front barrel",
+      "mesh": "source-output/16_CASE_Front_barrel.stl",
+      "source_hash": "1dd291f0bddef9fdaaa871d07304b5a6bdc419ab6077d3e1f45a65d606029f94",
+      "mesh_sha256": "c746b0284294038135f1736578323182780c406b4f43394bb5687edbbf6e3ff1"
+    },
+    {
+      "name": "CASE Inlet bell",
+      "mesh": "source-output/17_CASE_Inlet_bell.stl",
+      "source_hash": "13d07e61c294683f45a5e0865f693f3316ee9f6f0a35fdc06dee443fb177f15a",
+      "mesh_sha256": "a24941772f33760ed3864349d345c6bf37d13fcffcd7ad69c043cbde5f77c19e"
+    },
+    {
+      "name": "NOZZLE Convergent duct",
+      "mesh": "source-output/18_NOZZLE_Convergent_duct.stl",
+      "source_hash": "b30437a50f4d838f9341dfde804c73975eeb3565ec0e72783441abbd093d818c",
+      "mesh_sha256": "ca7b40c15fc4468d4ca5a7f2b8321c67fea955f659ae51d8b461d60fec61bf04"
+    },
+    {
+      "name": "NOZZLE Center cone",
+      "mesh": "source-output/19_NOZZLE_Center_cone.stl",
+      "source_hash": "311e9260ca70c51be0cc8f409e8f1850e2dee9951a0ab98ce4733056f8c74da0",
+      "mesh_sha256": "4384950251104e89e639d24a1afd7c505c6d5b880a8c7e5be0425060019b4b54"
+    },
+    {
+      "name": "STARTER Motor envelope",
+      "mesh": "source-output/20_STARTER_Motor_envelope.stl",
+      "source_hash": "a8b61cc5463128ecbee31fcdf560a1dd09493656e3f06962e29cd279ac28a8c4",
+      "mesh_sha256": "75fc0314896c948e4a8f621cb9946978691a7d5e9dfb12ccc6a682f0e235c1cb"
+    },
+    {
+      "name": "F03 Rear bearing feed",
+      "mesh": "source-output/23_F03_Rear_bearing_feed.stl",
+      "source_hash": "b1e5d6cec571e76154bbb9da05b4de2e7f63d418907748067d1853ce33a2baa0",
+      "mesh_sha256": "4a16b29b4c7ce18aa1acb676d24c131fcb7592074a0a4914a8d578c6032713fb"
+    },
+    {
+      "name": "F01 Main fuel feed",
+      "mesh": "source-output/22_F01_Main_fuel_feed.stl",
+      "source_hash": "546850423ea12aef5893a24f17c1b84e871d7fe2c724407abe3ecbae3702e8c6",
+      "mesh_sha256": "53f7998a73da6ecd1b888900209e11fa89c1585358f4e68df2bb2c5f173c30e1"
+    },
+    {
+      "name": "F02 Front bearing feed",
+      "mesh": "source-output/23_F02_Front_bearing_feed.stl",
+      "source_hash": "7b86d4158b1a3c2510bbeafe6a52dedb5bfe6769f5d90098ff00be2127966b66",
+      "mesh_sha256": "42e96b44fd5fd3a6d377642a26b9041dd887cf635b593086fc007f5b8d67b610"
+    },
+    {
+      "name": "P01 Pressure sense",
+      "mesh": "source-output/24_P01_Pressure_sense.stl",
+      "source_hash": "717489b8fd645881971a43f41968f0cf3a3d130da6ff9df8b71199aef221e68b",
+      "mesh_sha256": "6e0f22a86970dd6dda651fd548a2502d8e44974cdd6e8d3f4de7dfb55e486016"
+    },
+    {
+      "name": "E01 Starter harness",
+      "mesh": "source-output/25_E01_Starter_harness.stl",
+      "source_hash": "4dc08c5e1a84c70311839b0dbd6dd70478d160ac5a605b74ff5f1f9551357b1b",
+      "mesh_sha256": "1590babcb4fae8368e6e9588ba5ff905762a12851de90a991ebd482c7e7c79e0"
+    },
+    {
+      "name": "E02 Ignition lead",
+      "mesh": "source-output/26_E02_Ignition_lead.stl",
+      "source_hash": "33bf12fcf65a928b30f39003e1e5f1a3e8d28cd0cfca1dcdc88c13512e827905",
+      "mesh_sha256": "fdfe00e04695128e89cfc184d2d953a391ce899a59426b47629e9c8cf9dcb030"
+    },
+    {
+      "name": "E03 Temperature harness",
+      "mesh": "source-output/27_E03_Temperature_harness.stl",
+      "source_hash": "454d92f31d0209077cefc575af752d339091507b0f83734874d547ae990a4692",
+      "mesh_sha256": "1f66a1301e4f31fc01bcab44f5c62462ebddb29372bb60e3a655691070c72357"
+    },
+    {
+      "name": "E04 Speed pickup lead",
+      "mesh": "source-output/28_E04_Speed_pickup_lead.stl",
+      "source_hash": "2c7e68943a832c4ee0c74f4684e4781e540187ce2ea30757af12f0f410aa0d3a",
+      "mesh_sha256": "1e71171e1c57d083a1b95105540cbe3f7325ffc9857523058ab67f85f8c4cbc4"
+    },
+    {
+      "name": "ECU Service envelope",
+      "mesh": "source-output/29_ECU_Service_envelope.stl",
+      "source_hash": "afd44c3e61246af148147dcf9da8451064a196280b3ef25de610b586a19c12c7",
+      "mesh_sha256": "46fb3110348bc5c64270a294c46916b9be496518f7316c981cb7b99e34d2ae27"
+    },
+    {
+      "name": "FUEL Pump envelope",
+      "mesh": "source-output/30_FUEL_Pump_envelope.stl",
+      "source_hash": "5c92873e848ff511c7f2969ec73dcc00db2ce94648b7a617c3e5d61dd3cb9fc7",
+      "mesh_sha256": "2694376496cda6d49ca7b3877055b89f43d1aa08bac3c6b77d932b02a42332b8"
+    },
+    {
+      "name": "IGNITER Boss",
+      "mesh": "source-output/31_IGNITER_Boss.stl",
+      "source_hash": "43b6d9a7ad1e4734544c75a4b9258c344faac55ea9f329d38b6270fffca70860",
+      "mesh_sha256": "554752f8dc18eaccca111f97332a77ad57684515c271ec00173df5f25a0d78b7"
+    },
+    {
+      "name": "SENSOR Exhaust probe",
+      "mesh": "source-output/32_SENSOR_Exhaust_probe.stl",
+      "source_hash": "e11e789a93b82619aa4b25802501fa6e7ceb145c17d133361a02f457ebebc68b",
+      "mesh_sha256": "6e29f65519ad47c45e9d1f0bc118a957c9b46b63a9854680f11c432cffbc16f0"
+    },
+    {
+      "name": "CASE Rear barrel",
+      "mesh": "source-output/33_CASE_Rear_barrel.stl",
+      "source_hash": "e5ebb85f6562cc6879b32518c23612df36c7548628f38179ba4ec6e296587ffb",
+      "mesh_sha256": "74feebb02bb5c45385399884db17c14a856f8952d99fdeac65f089c082c3ebe3"
+    },
+    {
+      "name": "SEAL Case split gasket",
+      "mesh": "source-output/34_SEAL_Case_split_gasket.stl",
+      "source_hash": "0d72ea2fa506477db6e0a553bd3e72a398a192f84fb606a2f566b23650cf318e",
+      "mesh_sha256": "e3ee0b7172533c2de2ba021d7993b9c65ada405dd97b1d46b04f17b92a084633"
+    },
+    {
+      "name": "FAST J01 Inlet module",
+      "mesh": "source-output/35_FAST_J01_Inlet_module.stl",
+      "source_hash": "849f5ccf5e223cca798520b0a39d3f09a0d02a4be35a0c85fef3436b7f281c0b",
+      "mesh_sha256": "20b2821cf1aa424de671628957facd3a39948bbe31b024596e68a3f99989b4d5"
+    },
+    {
+      "name": "FAST J02 Case split",
+      "mesh": "source-output/36_FAST_J02_Case_split.stl",
+      "source_hash": "c938caea25dde28c7d4e11d97bf014cb94121d37745b331afb710c0ba43b958f",
+      "mesh_sha256": "f07a019ecb5ded212455ed8af083f50fce289c11b89bd4f7e93727830f2e9eab"
+    },
+    {
+      "name": "FAST J03 Exhaust module",
+      "mesh": "source-output/37_FAST_J03_Exhaust_module.stl",
+      "source_hash": "5f768631be04958dc8ba4be150f3ead4feac7a7580c9bc9612ce08e14e6eddf8",
+      "mesh_sha256": "093a4d300a569868ed66b5daae69e064914081883b91a5b31bf3b0c2b9598639"
+    },
+    {
+      "name": "FAST J04 Diffuser module",
+      "mesh": "source-output/38_FAST_J04_Diffuser_module.stl",
+      "source_hash": "a85ca2884815c8141db5ed7dae997b7c28bd1489854a1a3f78d8fd3736dc2220",
+      "mesh_sha256": "9c2dc1e7aa808cac3d999756dbe17511c389be4247f0f58441ca4dab84417f40"
+    },
+    {
+      "name": "FAST J24 Diffuser carrier to case",
+      "mesh": "source-output/39_FAST_J24_Diffuser_carrier_to_case.stl",
+      "source_hash": "ebf64295c4b180d355070311de9a144168453883fca1b9a19dde9d5b80bbddf5",
+      "mesh_sha256": "44920c613014f803abae5da0494f305ccc83b555aeff8c2c357c3afde36cbd06"
+    },
+    {
+      "name": "BEARING Front retainer",
+      "mesh": "source-output/40_BEARING_Front_retainer.stl",
+      "source_hash": "99403a587f5354da7e92194fdf112808ea43f6b98f28c1855a869e975e505536",
+      "mesh_sha256": "3f636bf8f13f1d5864260e725257baed56bcd0ca07adb753a503ca63373162de"
+    },
+    {
+      "name": "BEARING Rear retainer",
+      "mesh": "source-output/41_BEARING_Rear_retainer.stl",
+      "source_hash": "07f531cb1b833055f139fe084d21a95519790be4d067fbdd6050bebfeebc5310",
+      "mesh_sha256": "72096ef8773e1f271f60c3688cf5acdb84fd94c61bff74e3dd03ae8b4506717b"
+    },
+    {
+      "name": "FAST J07 Front bearing retainer",
+      "mesh": "source-output/42_FAST_J07_Front_bearing_retainer.stl",
+      "source_hash": "28d34ae751071391f246fa1e377a913b4e108fb54d6efac721815b266e3b5791",
+      "mesh_sha256": "e257bfba753fb83ae5146454036e921da0172febae65dc6448d45f67d8edb440"
+    },
+    {
+      "name": "FAST J05 Front spider to case",
+      "mesh": "source-output/43_FAST_J05_Front_spider_to_case.stl",
+      "source_hash": "0e3d11edaad774e7a975d1b94951a6cf21b0348610f1a00cf3bd2f3fc6bc2191",
+      "mesh_sha256": "30370af6032ed38a2808b5284b803a19b860d46c39085e72eb8785cebe82666f"
+    },
+    {
+      "name": "FAST J06 Guide vane frame to case",
+      "mesh": "source-output/44_FAST_J06_Guide_vane_frame_to_case.stl",
+      "source_hash": "1912a0239c2899f1cfa0de232c3f4804e0a0f27a2b9de03bd269fdfd79f39cae",
+      "mesh_sha256": "39e523317469f4dc79f3010b5b0394ac1904d84641ce2f5908964beb894d7e2b"
+    },
+    {
+      "name": "FAST J08 Rear bearing and vane frame",
+      "mesh": "source-output/45_FAST_J08_Rear_bearing_and_vane_frame.stl",
+      "source_hash": "0ce7e4ee043d6ebb39d9163f292020aa96908082efa212442077b0a13974a1a9",
+      "mesh_sha256": "b53bc9239268fa1155c5c4225462b56bf59c264ba4fc14601804f613d49b4ce0"
+    },
+    {
+      "name": "FAST J22 Turbine shroud carrier",
+      "mesh": "source-output/46_FAST_J22_Turbine_shroud_carrier.stl",
+      "source_hash": "7108fa71dc0fdbb0f224c94b4d690a539d7b7f0373bc26c84f7725614d1a0059",
+      "mesh_sha256": "2d183741e71485c957b0483792f8e6f1a6a9d88a668a1bb250e16de8b5365453"
+    },
+    {
+      "name": "FAST J09 Outer liner tabs",
+      "mesh": "source-output/47_FAST_J09_Outer_liner_tabs.stl",
+      "source_hash": "9a7c11ed5ee2fde0021b1b8f87adb06ca91becfd061a037fbc322d8b164d2437",
+      "mesh_sha256": "dd3747b8c0e614760a44b335baaeb906461c4e7edfbd69323ec9b6b4572cd812"
+    },
+    {
+      "name": "FAST J10 Inner liner lip",
+      "mesh": "source-output/48_FAST_J10_Inner_liner_lip.stl",
+      "source_hash": "1487a4020b607034f4ff584fcf72420d8a9b6195b37787db96217cc7f0d3e5d3",
+      "mesh_sha256": "0abebcb78b7bfd6c7ca12bb1c5dd78d8efb9a936e5c6bc1fe850cf473b01fb02"
+    },
+    {
+      "name": "FAST J23 Liner carrier to case",
+      "mesh": "source-output/49_FAST_J23_Liner_carrier_to_case.stl",
+      "source_hash": "e36618ef7b4c8de646a8c22675d2d5624becf5fbc91474bbcfaa5b10e246cf72",
+      "mesh_sha256": "101f09a28bdf614ea77dfd3dfa0b5cfbfa67495e3b996688fd5ba2d52eaf6bd9"
+    },
+    {
+      "name": "FUEL Manifold saddles",
+      "mesh": "source-output/50_FUEL_Manifold_saddles.stl",
+      "source_hash": "073a212766080f1627f9238230b10c697f6d6b7a94559f56cdec908f617a8bec",
+      "mesh_sha256": "ca2c18b24e4ad58e1d5baa4367bd21caa453ec31a0e69ef30669953a87450893"
+    },
+    {
+      "name": "FUEL Manifold clamp caps",
+      "mesh": "source-output/51_FUEL_Manifold_clamp_caps.stl",
+      "source_hash": "a9210b1fca032c564cc2611cc66c9c8a8c47c0e3644a40ea68aa8589bc4df780",
+      "mesh_sha256": "6b6c538574b7247bdb873ec8bdb9bc3a2b64e0903f200c1f856a0cce70eb0843"
+    },
+    {
+      "name": "FAST J11 Manifold clamps",
+      "mesh": "source-output/52_FAST_J11_Manifold_clamps.stl",
+      "source_hash": "254399a93ed5da99520a8c580f1e417ae1c8b7e107121ef237b623a741246d53",
+      "mesh_sha256": "0b62a42664c1476a0d12e6721757320552ca6bdb2eeedc97fe0f28444e59b30f"
+    },
+    {
+      "name": "SHAFT Inner race spacer sleeves",
+      "mesh": "source-output/53_SHAFT_Inner_race_spacer_sleeves.stl",
+      "source_hash": "13c8fe39bb748a0da5b34d5a657242a5111e27e5cb9e850c123f5b57cf9cbfb4",
+      "mesh_sha256": "58ac879b4f9c6cba5277b2995ec73cd9f69f29ffb122b7acb0291b9adac56415"
+    },
+    {
+      "name": "FAST R01 Rotor retention nuts and washers",
+      "mesh": "source-output/54_FAST_R01_Rotor_retention_nuts_and_washers.stl",
+      "source_hash": "01fdbb79b3138755960d7ab4d129904a3905ac4a3757761ccfc23dda76b5bbb4",
+      "mesh_sha256": "52b00ca8c4bd8bb45e2be49d6781c565d43aff14c7bec2f7a61d96b04fd20033"
+    },
+    {
+      "name": "MOUNT Starter carrier",
+      "mesh": "source-output/55_MOUNT_Starter_carrier.stl",
+      "source_hash": "6ecfed720d3df58510e562a0fe0d0a23db38f0d43a7eec43a4df521734f99e58",
+      "mesh_sha256": "09facdaa0d4f4f08ca6d51df2076c1c8df6b9da72e7b31687a0362339d8057cd"
+    },
+    {
+      "name": "FAST J12 Starter flange",
+      "mesh": "source-output/56_FAST_J12_Starter_flange.stl",
+      "source_hash": "03ece6ba4d6ac15d3683b776343ab6b81bd4b47831bff9f164e473af0f2ea700",
+      "mesh_sha256": "46f375826572ca93078c9e46970bb93cc44c2f4a2f86934ff6b00b7fd97a5b5b"
+    },
+    {
+      "name": "MOUNT Service tray and ECU bracket",
+      "mesh": "source-output/57_MOUNT_Service_tray_and_ECU_bracket.stl",
+      "source_hash": "43acb5b304cd066e48daf03e5df8b005e96f20f035fe5a3265a8b9508f08e6a0",
+      "mesh_sha256": "bfcae30f69498becf6da3ca7719a0eee9e8876733e436ae646bbd7c82c3a32ce"
+    },
+    {
+      "name": "FAST J13 ECU mounting tabs",
+      "mesh": "source-output/58_FAST_J13_ECU_mounting_tabs.stl",
+      "source_hash": "9e299a7576c285f0cc268b0b382577ceb577ae01280597326204fba4f0628591",
+      "mesh_sha256": "ef4c9ac2b97be5e7d9f41f31697e28a5f00363f724e3b20d98fef8ec98bbb0ab"
+    },
+    {
+      "name": "FAST J14 Service tray to inlet module",
+      "mesh": "source-output/59_FAST_J14_Service_tray_to_inlet_module.stl",
+      "source_hash": "d2652753530967488f0849156f762dad4cd5c17c7044a08bb55f25486e97e399",
+      "mesh_sha256": "cbff027674d7025450c4cb84c3349c3b14cdb5358c8725549ead1dd23f9fce4b"
+    },
+    {
+      "name": "FAST J15 Pump foot",
+      "mesh": "source-output/60_FAST_J15_Pump_foot.stl",
+      "source_hash": "3da1e1926f85e6f5665c40d258a932cfc2c4c2c58c7987494dc2726c72fb84eb",
+      "mesh_sha256": "4ede46ef6914ab89f8263cc2b80ddc8f896de42e800815f9d06e402e71de3461"
+    },
+    {
+      "name": "MOUNT Main fuel clamp bases",
+      "mesh": "source-output/61_MOUNT_Main_fuel_clamp_bases.stl",
+      "source_hash": "a4ecde8f9052b58e32922fd3b37c206631a99b8c379ed4b9e9dc7ee451d5ff3a",
+      "mesh_sha256": "2b434d6df81d602b770b7d4b5584a43dabff011c65e316e33dd16300b51dce02"
+    },
+    {
+      "name": "MOUNT Main fuel clamp caps",
+      "mesh": "source-output/62_MOUNT_Main_fuel_clamp_caps.stl",
+      "source_hash": "1a83ed775e5a5070cdc396b6fbebff4fa3cd48f7c5c12f132d089bfd6981982c",
+      "mesh_sha256": "1f2f8b038dbc5c9a3eaf47bb8960334b5afcdebb2527e88c909664c3d7760fb7"
+    },
+    {
+      "name": "FAST J16 Fuel split clamps and case mounts",
+      "mesh": "source-output/63_FAST_J16_Fuel_split_clamps_and_case_mounts.stl",
+      "source_hash": "8b633b0fdf4c43131062c532f4f2e5aa68d1e72a243c242d7967cb531cfe17b2",
+      "mesh_sha256": "2cbfa7b6663225508db1e35c598b613a3b47186f29a1ca68b3f329b7fa7ee271"
+    },
+    {
+      "name": "MOUNT Cable guide lower",
+      "mesh": "source-output/64_MOUNT_Cable_guide_lower.stl",
+      "source_hash": "194a60e5d6da2fc412f6719744ca69016794137b2e27d85e9a6355210c39be38",
+      "mesh_sha256": "221fbbffff0e20903b449def591d49e5071c7b7ef6cfb649265c41a4346c7ac7"
+    },
+    {
+      "name": "MOUNT Cable guide upper",
+      "mesh": "source-output/65_MOUNT_Cable_guide_upper.stl",
+      "source_hash": "52bf69b4ea7cdfadd599b36e017305ab9a73320d930ae13e5044fae9e52518bf",
+      "mesh_sha256": "f7b1dfd57e941869289056ce5451124b4eecde0f4102b813d8aa81eefbbb2f61"
+    },
+    {
+      "name": "FAST J19 Cable guide split",
+      "mesh": "source-output/66_FAST_J19_Cable_guide_split.stl",
+      "source_hash": "a32f5cc0dcd526f6e80b9a5e107c7926d7865a89cdc751c97f0333b59b711166",
+      "mesh_sha256": "a81e8c8f7064ae9b2a9a32552772e5e175eecd5a72f27662e844ea5c76d56fda"
+    },
+    {
+      "name": "FAST J20 Cable guide to tray",
+      "mesh": "source-output/67_FAST_J20_Cable_guide_to_tray.stl",
+      "source_hash": "1b59620d3291668f1e60b1d633c11386be6a4adaac427e0b19e5dca066ffd836",
+      "mesh_sha256": "e938275faa8990e712b1ce3de58a9a1a667aa4328aca9ee51aa776ee2f788840"
+    },
+    {
+      "name": "ECU Connector plate",
+      "mesh": "source-output/68_ECU_Connector_plate.stl",
+      "source_hash": "ac18e35de886d79c80e1302665cddd78a85a79ee7f8c26441ab19fb640f265c3",
+      "mesh_sha256": "b0c2997329618b1222402c1fc542cfe34e188b50db4b3e0b3454c476d6a8adb3"
+    },
+    {
+      "name": "FAST J21 Connector plate to ECU",
+      "mesh": "source-output/69_FAST_J21_Connector_plate_to_ECU.stl",
+      "source_hash": "efee0a0f55824c85436fe1d4293a9b2dd881e78e1aec34f9e13f8d484f2a072b",
+      "mesh_sha256": "71a36a9899a7a31632de3a2325f2bca01d41963199908bdd0ce7ea7ff742d514"
+    },
+    {
+      "name": "FUEL Pump outlet union",
+      "mesh": "source-output/70_FUEL_Pump_outlet_union.stl",
+      "source_hash": "ee59131a6472f02cc4a666b191bda8772ac6427531c0231b383e406b0185cafb",
+      "mesh_sha256": "25ae986c55b70f620edf1b8a36b9c27c6c65c85d2a18f24d4145c608a06353c7"
+    }
+  ],
+  "scope": "Cold mesh routing screen with 0.03 mm numerical penetration tolerance. No seal, fluid, lubrication, thermal, stress, or production-fit qualification.",
+  "passed": true,
+  "minimum_pipe_to_straight_inner_wall_mm": 9.247098745933457,
+  "clearance_interpretation": "The radial clearance uses the straight wall radius. The forward liner lip is closer; its sampled minimum is listed in the BURN Inner liner clearance row.",
+  "complete_service_screen": "results/service_route_verification.json",
+  "current_bore_screen": "results/p3_interface_verification.json"
+}

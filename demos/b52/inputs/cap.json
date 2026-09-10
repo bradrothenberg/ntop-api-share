@@ -1,0 +1,18 @@
+{
+  "kind": "Circular-pole cap with quadratic centerline and radial growth",
+  "radius_m": 0.054997712038305495,
+  "centerline_tilt": 0.0526628708523956,
+  "full_cap_end_m": 1.0000000000000003e-05,
+  "blend_end_m": 0.12207612331059872,
+  "blend": "Explicit quintic smoothstep; value and first two weight derivatives match at both ends",
+  "equation": "rho2=y*y+(z-k*x-c2*x*x)**2; cap=((rho2-s2*x*x)/(2*R)-x)/sqrt(1+rho2/R**2); F=(1-w)*cap+w*F_R5",
+  "centerline_quadratic_per_m": -0.32488154400565394,
+  "radial_quadratic": 0.12271837751501283,
+  "method": "Constrained fairness fit of the meridians",
+  "measured_min_keel_curvature": 1.2893652851332644,
+  "measured_max_crown_curvature": -0.06722092480572198,
+  "optimization_region_m": [
+    0.0005,
+    0.129
+  ]
+}

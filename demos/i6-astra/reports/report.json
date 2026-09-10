@@ -1,0 +1,60 @@
+{
+  "title": "I6 Astra: assembly and motion",
+  "dek": "Editable native parts, involute gears, nominal fasteners, belts, and spline service routes.",
+  "sections": [
+    {
+      "title": "An assembly with explicit controls",
+      "paragraphs": [
+        "The source encodes host dimensions in millimetres and recipe dimensions in SI. A complete dependency closure carries the mechanism, parts, and checks into nTop."
+      ],
+      "images": [
+        {
+          "src": "images/hero.png",
+          "caption": "Recorded hero view from the original I6 Astra report. Host-rendered geometry or analytical plot; not a fresh native validation."
+        },
+        {
+          "src": "images/exploded.png",
+          "caption": "Recorded exploded view from the original I6 Astra report. Host-rendered geometry or analytical plot; not a fresh native validation."
+        }
+      ]
+    },
+    {
+      "title": "Gears and service routes",
+      "paragraphs": [
+        "Gear engagement needs numerical tooth-profile checks. A screenshot alone does not verify backlash or contact. Native spline routes keep cable and hose paths editable. Their sampled clearances do not establish installation or service access."
+      ],
+      "images": [
+        {
+          "src": "images/gears.png",
+          "caption": "Recorded gears view from the original I6 Astra report. Host-rendered geometry or analytical plot; not a fresh native validation."
+        },
+        {
+          "src": "images/routing.png",
+          "caption": "Recorded routing view from the original I6 Astra report. Host-rendered geometry or analytical plot; not a fresh native validation."
+        }
+      ]
+    },
+    {
+      "title": "Inspect inside and compare motion",
+      "paragraphs": [
+        "Use the inspection model and a small kinematic closure to verify motion before evaluating the full geometry. Compare analytic expectations with measured native scalars. Preserve the distinction between rendering a rigid transform and evaluating a changed native graph."
+      ],
+      "images": [
+        {
+          "src": "images/section.png",
+          "caption": "Recorded section view from the original I6 Astra report. Host-rendered geometry or analytical plot; not a fresh native validation."
+        },
+        {
+          "src": "images/kinematics.png",
+          "caption": "Recorded kinematics view from the original I6 Astra report. Host-rendered geometry or analytical plot; not a fresh native validation."
+        }
+      ]
+    },
+    {
+      "title": "Reproduce the source",
+      "paragraphs": [
+        "Run the root build command for i6-astra. Generated recipes, layouts, and checks stay under output/. The captured figures record the original report revision. They are examples of presentation and do not replace checks on a rebuilt model."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4542 @@
+{
+  "parts": [
+    {
+      "name": "COMP Impeller",
+      "family": "Compressor",
+      "color": "#98b0bc",
+      "source_hash": "87e318a6c364c7a3bd18c0803a3554f8598341e2f35e82fb9f857c50103e5914",
+      "source_mesh": "source-output/sharp_component_00.stl",
+      "source_mesh_sha256": "d226c520cd5c070b7df0d2e1e40cf2cff3eb08f68c1c562ae7d961468bce8697",
+      "source_triangles": 2461260,
+      "display_triangles": 90000,
+      "vertices": 97076,
+      "bounds_mm": [
+        -39.91978073120117,
+        39.91978073120117,
+        -39.918636322021484,
+        39.918636322021484,
+        19.99271011352539,
+        58.00790023803711
+      ],
+      "display_bounds_mm": [
+        -39.91978073120117,
+        39.91978073120117,
+        -39.91849136352539,
+        39.918636322021484,
+        19.99271011352539,
+        58.00790023803711
+      ],
+      "bounds_max_error_mm": 0.00014495849609375,
+      "explode_mm": [
+        0,
+        0,
+        -85
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -39.91978073120117,
+        -39.91849136352539,
+        19.99271011352539
+      ],
+      "position_step_mm": [
+        0.0012182736536487937,
+        0.001218236517161131,
+        0.0005800746148452163
+      ],
+      "position_quantization_max_mm": 0.0006091368268243968,
+      "index_bytes": 4,
+      "description": "Centrifugal rotor: 12 full blades, 12 splitters, hub, backplate, and shaft bore. M8 clamp stack. Aerodynamic edges and root fillets remain open.",
+      "joints": [
+        "R01"
+      ],
+      "seconds": 0.1447063999949023,
+      "position": {
+        "offset": 0,
+        "bytes": 582456
+      },
+      "normal": {
+        "offset": 582456,
+        "bytes": 291228
+      },
+      "index": {
+        "offset": 873684,
+        "bytes": 1080000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "COMP Shroud",
+      "family": "Compressor",
+      "color": "#98b0bc",
+      "source_hash": "d24b47973be1f2158655b3d926193d5a6c41c96cf72032dba93d98675bf54c36",
+      "source_mesh": "source-output/01_COMP_Shroud.stl",
+      "source_mesh_sha256": "6f335f8b5ddb4bbbaf531275d0568de794979d2a6f9b0c96c65ee9e65b8f3ee4",
+      "source_triangles": 690854,
+      "display_triangles": 24000,
+      "vertices": 17520,
+      "bounds_mm": [
+        -59.87560272216797,
+        59.87560272216797,
+        -59.87520980834961,
+        59.87560272216797,
+        11.994832038879395,
+        55.00737762451172
+      ],
+      "display_bounds_mm": [
+        -59.868003845214844,
+        59.87251663208008,
+        -59.87251663208008,
+        59.87286376953125,
+        11.99515151977539,
+        55.00737762451172
+      ],
+      "bounds_max_error_mm": 0.007598876953125,
+      "explode_mm": [
+        0,
+        95,
+        -40
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -59.868003845214844,
+        -59.87251663208008,
+        11.99515151977539
+      ],
+      "position_step_mm": [
+        0.0018271232256665826,
+        0.0018271972658112645,
+        0.0006563244969584048
+      ],
+      "position_quantization_max_mm": 0.0009135986329056323,
+      "index_bytes": 2,
+      "description": "Open inlet sleeve, offset running surface, diffuser roof, and six standoffs. The radial compressor exit remains open.",
+      "joints": [
+        "J04"
+      ],
+      "seconds": 0.04877779999515042,
+      "position": {
+        "offset": 1953684,
+        "bytes": 105120
+      },
+      "normal": {
+        "offset": 2058804,
+        "bytes": 52560
+      },
+      "index": {
+        "offset": 2111364,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "COMP Diffuser vanes",
+      "family": "Compressor",
+      "color": "#98b0bc",
+      "source_hash": "5d796d6e85c51aaf0e9d99f420554d95e11359d2ab58cdc35992b342e9efec20",
+      "source_mesh": "source-output/02_COMP_Diffuser_vanes.stl",
+      "source_mesh_sha256": "ca42a8646daeff24caed54e71d663e90f789cbfb54abae9fb99b5d3390cabe43",
+      "source_triangles": 171280,
+      "display_triangles": 24000,
+      "vertices": 20760,
+      "bounds_mm": [
+        -56.61881637573242,
+        56.271202087402344,
+        -56.65785598754883,
+        56.13010025024414,
+        48.5280876159668,
+        55.007659912109375
+      ],
+      "display_bounds_mm": [
+        -56.61881637573242,
+        56.271202087402344,
+        -56.65785598754883,
+        56.13010025024414,
+        48.5280876159668,
+        55.007659912109375
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        -35
+      ],
+      "quantity": 17,
+      "position_min_mm": [
+        -56.61881637573242,
+        -56.65785598754883,
+        48.5280876159668
+      ],
+      "position_step_mm": [
+        0.0017225912306457758,
+        0.0017210339428856969,
+        9.887193300528452e-05
+      ],
+      "position_quantization_max_mm": 0.0008612956153228879,
+      "index_bytes": 2,
+      "description": "Seventeen fixed vanes between the roof and backplate. Clamped within the diffuser module; final vane joining process remains open.",
+      "joints": [],
+      "seconds": 0.011989499995252118,
+      "position": {
+        "offset": 2255364,
+        "bytes": 124560
+      },
+      "normal": {
+        "offset": 2379924,
+        "bytes": 62280
+      },
+      "index": {
+        "offset": 2442204,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "COMP Diffuser backplate",
+      "family": "Compressor",
+      "color": "#98b0bc",
+      "source_hash": "7eb386b614cae0181840535e49ae4abb896680145415391d23809b3b13fe2f86",
+      "source_mesh": "source-output/03_COMP_Diffuser_backplate.stl",
+      "source_mesh_sha256": "8e47e63892b7f715bbdd6884b4145059441063ea42116f667581c05df75d0b24",
+      "source_triangles": 165524,
+      "display_triangles": 24000,
+      "vertices": 17523,
+      "bounds_mm": [
+        -56.681800842285156,
+        56.68184280395508,
+        -59.88103485107422,
+        56.68185806274414,
+        52.9935417175293,
+        61.00645446777344
+      ],
+      "display_bounds_mm": [
+        -56.681556701660156,
+        56.68183135986328,
+        -59.88103485107422,
+        56.68178939819336,
+        52.9935417175293,
+        61.00645446777344
+      ],
+      "bounds_max_error_mm": 0.000244140625,
+      "explode_mm": [
+        0,
+        0,
+        -12
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -56.681556701660156,
+        -59.88103485107422,
+        52.9935417175293
+      ],
+      "position_step_mm": [
+        0.0017298144521191716,
+        0.0017786346143111587,
+        0.00012226920807734132
+      ],
+      "position_quantization_max_mm": 0.0008893173071555793,
+      "index_bytes": 2,
+      "description": "Backplate ends at the diffuser vane outer radius. The annular clearance around its edge turns discharge air toward the combustor. Three local case lugs remain. Six axial joints sit on a 52 mm radius.",
+      "joints": [
+        "J04",
+        "J24"
+      ],
+      "seconds": 0.01237579999724403,
+      "position": {
+        "offset": 2586204,
+        "bytes": 105138
+      },
+      "normal": {
+        "offset": 2691344,
+        "bytes": 52569
+      },
+      "index": {
+        "offset": 2743916,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "BURN Outer liner",
+      "family": "Combustor",
+      "color": "#bca28b",
+      "source_hash": "d2f75fdc62c4abf44b10c3fb17b80149e6697ec4a314cb2cd2c5519b5136e0a2",
+      "source_mesh": "source-output/04_BURN_Outer_liner.stl",
+      "source_mesh_sha256": "ebcb421732ac30e20b6c50f2df2085b497159e6806e6eddcc7844e6d4cc266a9",
+      "source_triangles": 1752072,
+      "display_triangles": 24930,
+      "vertices": 33977,
+      "bounds_mm": [
+        -56.00725173950195,
+        56.0003776550293,
+        -59.879364013671875,
+        55.999977111816406,
+        89.99149322509766,
+        181.69654846191406
+      ],
+      "display_bounds_mm": [
+        -55.970157623291016,
+        55.74974060058594,
+        -59.87568664550781,
+        55.7508544921875,
+        89.993408203125,
+        181.69532775878906
+      ],
+      "bounds_max_error_mm": 0.2506370544433594,
+      "explode_mm": [
+        0,
+        90,
+        35
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -55.970157623291016,
+        -59.87568664550781,
+        89.993408203125
+      ],
+      "position_step_mm": [
+        0.0017047362634912133,
+        0.0017643478931859136,
+        0.001399281551130116
+      ],
+      "position_quantization_max_mm": 0.0008821739465929568,
+      "index_bytes": 2,
+      "description": "P3 outer wall with 42 flow-study openings. One live radius scale drives all three rows. Flanges and case lugs remain. Air split, cooling, flame stability, and strength remain unqualified.",
+      "joints": [
+        "J09",
+        "J23"
+      ],
+      "seconds": 0.11553769999591168,
+      "position": {
+        "offset": 2887916,
+        "bytes": 203862
+      },
+      "normal": {
+        "offset": 3091780,
+        "bytes": 101931
+      },
+      "index": {
+        "offset": 3193712,
+        "bytes": 149580
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "BURN Inner liner",
+      "family": "Combustor",
+      "color": "#bca28b",
+      "source_hash": "f6dfbfecaaf07dd6764fa2e88424e23b941ca9f67b35620898ccf2a0d4145348",
+      "source_mesh": "source-output/05_BURN_Inner_liner.stl",
+      "source_mesh_sha256": "9d57b15f914367aa7241fd9e408d01e0276537816b837555d9e7fe3910ebd0b4",
+      "source_triangles": 666956,
+      "display_triangles": 24000,
+      "vertices": 16877,
+      "bounds_mm": [
+        -26.34915542602539,
+        26.34915542602539,
+        -26.34915542602539,
+        26.34915542602539,
+        89.99437713623047,
+        181.69479370117188
+      ],
+      "display_bounds_mm": [
+        -26.34915542602539,
+        26.34915542602539,
+        -26.34915542602539,
+        26.34915542602539,
+        89.99437713623047,
+        181.69479370117188
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        -80,
+        15
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -26.34915542602539,
+        -26.34915542602539,
+        89.99437713623047
+      ],
+      "position_step_mm": [
+        0.0008041246910579503,
+        0.0008041246910579503,
+        0.001399258617311716
+      ],
+      "position_quantization_max_mm": 0.000699629308655858,
+      "index_bytes": 2,
+      "description": "Inner annular wall, forward mounting lip, and aft transition. Separate from the rotor bearing tunnel. Inner-wall cooling apertures are not defined.",
+      "joints": [
+        "J10"
+      ],
+      "seconds": 0.044473999994806945,
+      "position": {
+        "offset": 3343292,
+        "bytes": 101262
+      },
+      "normal": {
+        "offset": 3444556,
+        "bytes": 50631
+      },
+      "index": {
+        "offset": 3495188,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "BURN Dome",
+      "family": "Combustor",
+      "color": "#bca28b",
+      "source_hash": "d3b9eb7abb1b0918e3717208c688e21942057a5546e3ea7761c5b6cd90d63b1e",
+      "source_mesh": "source-output/06_BURN_Dome.stl",
+      "source_mesh_sha256": "98c635f6e09e3941d404911abca3eb3246a9c489e2f508598310122ed89564da",
+      "source_triangles": 160492,
+      "display_triangles": 24000,
+      "vertices": 18186,
+      "bounds_mm": [
+        -57.50912094116211,
+        57.513484954833984,
+        -50.46613693237305,
+        50.46613693237305,
+        89.99076843261719,
+        92.00923156738281
+      ],
+      "display_bounds_mm": [
+        -57.50912094116211,
+        57.513484954833984,
+        -50.46613693237305,
+        50.46613693237305,
+        89.99076843261719,
+        92.00923156738281
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        20
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -57.50912094116211,
+        -50.46613693237305,
+        89.99076843261719
+      ],
+      "position_step_mm": [
+        0.0017551324563100934,
+        0.0015401277923956513,
+        3.07997725030873e-05
+      ],
+      "position_quantization_max_mm": 0.0008775662281550467,
+      "index_bytes": 2,
+      "description": "Annular front wall, outer tabs, inner lip, injector apertures, and manifold clamp holes.",
+      "joints": [
+        "J09",
+        "J10",
+        "J11"
+      ],
+      "seconds": 0.010697599995182827,
+      "position": {
+        "offset": 3639188,
+        "bytes": 109116
+      },
+      "normal": {
+        "offset": 3748304,
+        "bytes": 54558
+      },
+      "index": {
+        "offset": 3802864,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FUEL Manifold",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "749e24ddb07bb702a9e35ad93cdc8c839f454210d2494621ed61fd9b56255d9d",
+      "source_mesh": "source-output/07_FUEL_Manifold.stl",
+      "source_mesh_sha256": "494991899af79f8022aced29e3b677dda6c1e6d7f4bd60808dcd59492bbffd1f",
+      "source_triangles": 578852,
+      "display_triangles": 24000,
+      "vertices": 15025,
+      "bounds_mm": [
+        -41.616790771484375,
+        41.616790771484375,
+        -41.616790771484375,
+        41.616790771484375,
+        97.49384307861328,
+        100.50794982910156
+      ],
+      "display_bounds_mm": [
+        -41.616790771484375,
+        41.60608673095703,
+        -41.61098098754883,
+        41.61098098754883,
+        97.49626159667969,
+        100.50373840332031
+      ],
+      "bounds_max_error_mm": 0.01070404052734375,
+      "explode_mm": [
+        0,
+        0,
+        45
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -41.616790771484375,
+        -41.61098098754883,
+        97.49626159667969
+      ],
+      "position_step_mm": [
+        0.0012698996579274535,
+        0.0012698856880888343,
+        4.589115269482136e-05
+      ],
+      "position_quantization_max_mm": 0.0006349498289637268,
+      "index_bytes": 2,
+      "description": "Hollow ring with a matched main-feed socket at -15 degrees and twelve injection ports. The feed sits between injectors and liner bolts. Sealing and a leak-tested joining process remain open.",
+      "joints": [],
+      "seconds": 0.03789919998962432,
+      "position": {
+        "offset": 3946864,
+        "bytes": 90150
+      },
+      "normal": {
+        "offset": 4037016,
+        "bytes": 45075
+      },
+      "index": {
+        "offset": 4082092,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FUEL Injector envelopes",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "e3b6c5e91792849247cea3108ca11d934154984e87aff0e629d4f15150d8aa00",
+      "source_mesh": "source-output/08_FUEL_Injector_envelopes.stl",
+      "source_mesh_sha256": "8452fe4537eebdd853b0e0ac17da5f08816d276ba0456a0c057997ffb3906e46",
+      "source_triangles": 162136,
+      "display_triangles": 24000,
+      "vertices": 14292,
+      "bounds_mm": [
+        -41.916664123535156,
+        41.916664123535156,
+        -41.9166145324707,
+        41.916664123535156,
+        99.99070739746094,
+        109.00927734375
+      ],
+      "display_bounds_mm": [
+        -41.91661071777344,
+        41.9166145324707,
+        -41.9166145324707,
+        41.9166145324707,
+        99.99150848388672,
+        109.00839233398438
+      ],
+      "bounds_max_error_mm": 0.000885009765625,
+      "explode_mm": [
+        0,
+        0,
+        45
+      ],
+      "quantity": 12,
+      "position_min_mm": [
+        -41.91661071777344,
+        -41.9166145324707,
+        99.99150848388672
+      ],
+      "position_step_mm": [
+        0.0012792130000889301,
+        0.001279213116504252,
+        0.0001375888241454959
+      ],
+      "position_quantization_max_mm": 0.000639606558252126,
+      "index_bytes": 2,
+      "description": "Twelve bored injector sleeves. These show packaging and flow connections; atomization and metering hardware remain unselected.",
+      "joints": [],
+      "seconds": 0.010994600001140498,
+      "position": {
+        "offset": 4226092,
+        "bytes": 85752
+      },
+      "normal": {
+        "offset": 4311844,
+        "bytes": 42876
+      },
+      "index": {
+        "offset": 4354720,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "TURB Rotor blisk",
+      "family": "Turbine",
+      "color": "#a88669",
+      "source_hash": "085018eb6ce89b2ca19dfafeacb3311ce9e8eb911f7266f525dc24d360deb28a",
+      "source_mesh": "source-output/sharp_component_01.stl",
+      "source_mesh_sha256": "f4189760434bfbbedef00505af145c3373ffee8a772b9f7a911d4529698efd18",
+      "source_triangles": 3834598,
+      "display_triangles": 90000,
+      "vertices": 74701,
+      "bounds_mm": [
+        -39.676334381103516,
+        39.678749084472656,
+        -39.679622650146484,
+        39.67775344848633,
+        194.6805877685547,
+        208.69927978515625
+      ],
+      "display_bounds_mm": [
+        -39.676334381103516,
+        39.67656707763672,
+        -39.67595291137695,
+        39.6724967956543,
+        194.6805877685547,
+        208.69915771484375
+      ],
+      "bounds_max_error_mm": 0.00525665283203125,
+      "explode_mm": [
+        0,
+        0,
+        135
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -39.676334381103516,
+        -39.67595291137695,
+        194.6805877685547
+      ],
+      "position_step_mm": [
+        0.0012108477531000972,
+        0.0012107797665521502,
+        0.0002139096613973379
+      ],
+      "position_quantization_max_mm": 0.0006054238765500486,
+      "index_bytes": 4,
+      "description": "Twenty-five cambered blades, annular disk, and shaft bore. Separate rotating component retained by the rear M8 stack.",
+      "joints": [
+        "R01"
+      ],
+      "seconds": 0.23863609999534674,
+      "position": {
+        "offset": 4498720,
+        "bytes": 448206
+      },
+      "normal": {
+        "offset": 4946928,
+        "bytes": 224103
+      },
+      "index": {
+        "offset": 5171032,
+        "bytes": 1080000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "TURB Nozzle guide vanes",
+      "family": "Turbine",
+      "color": "#a88669",
+      "source_hash": "64aefa7c89d2ea75cf438c7f0afc44afe1c8c0139e9067e7757e52d0f5f39d30",
+      "source_mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+      "source_mesh_sha256": "5d296625a8fe32420585fafdee67c17c59923e8e2a9b02a82f85bcb7107ede6e",
+      "source_triangles": 9982930,
+      "display_triangles": 90000,
+      "vertices": 60320,
+      "bounds_mm": [
+        -59.875152587890625,
+        59.875152587890625,
+        -59.875152587890625,
+        59.875152587890625,
+        181.6854705810547,
+        193.6959228515625
+      ],
+      "display_bounds_mm": [
+        -59.8744010925293,
+        59.8744010925293,
+        -59.87481689453125,
+        59.87403869628906,
+        181.6854705810547,
+        193.69522094726562
+      ],
+      "bounds_max_error_mm": 0.0011138916015625,
+      "explode_mm": [
+        0,
+        0,
+        85
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -59.8744010925293,
+        -59.87481689453125,
+        181.6854705810547
+      ],
+      "position_step_mm": [
+        0.0018272496527060866,
+        0.0018272504676133394,
+        0.00018325704149901867
+      ],
+      "position_quantization_max_mm": 0.0009136252338066697,
+      "index_bytes": 2,
+      "description": "Nineteen vanes, inner and outer bands, rear bearing support web, and six case attachments.",
+      "joints": [
+        "J06",
+        "J08",
+        "J22"
+      ],
+      "seconds": 146.3623571000062,
+      "position": {
+        "offset": 6251032,
+        "bytes": 361920
+      },
+      "normal": {
+        "offset": 6612952,
+        "bytes": 180960
+      },
+      "index": {
+        "offset": 6793912,
+        "bytes": 540000
+      }
+    },
+    {
+      "name": "TURB Tip shroud",
+      "family": "Turbine",
+      "color": "#a88669",
+      "source_hash": "f9d23d46bcb04f7af424bb6be6f8e289424da923e8ba9700b88132b0948036b6",
+      "source_mesh": "source-output/11_TURB_Tip_shroud.stl",
+      "source_mesh_sha256": "4135a73eeeb1a0e89bdcd206e1d34b427c392b0cf2d2446e7f3d9ec2e47d134d",
+      "source_triangles": 381020,
+      "display_triangles": 24000,
+      "vertices": 17111,
+      "bounds_mm": [
+        -59.87629699707031,
+        59.87629699707031,
+        -59.87629699707031,
+        59.876747131347656,
+        187.6853790283203,
+        206.69500732421875
+      ],
+      "display_bounds_mm": [
+        -59.87361526489258,
+        59.87374496459961,
+        -59.874908447265625,
+        59.87496566772461,
+        187.68545532226562,
+        206.6934814453125
+      ],
+      "bounds_max_error_mm": 0.002681732177734375,
+      "explode_mm": [
+        0,
+        90,
+        105
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -59.87361526489258,
+        -59.874908447265625,
+        187.68545532226562
+      ],
+      "position_step_mm": [
+        0.0018272275337949395,
+        0.0018272660672664642,
+        0.00029004388488829136
+      ],
+      "position_quantization_max_mm": 0.0009136330336332321,
+      "index_bytes": 2,
+      "description": "Stationary tip ring, carrier flange, and six posts. Cold radial gap is a study input; hot growth is unresolved.",
+      "joints": [
+        "J22"
+      ],
+      "seconds": 0.024479499988956377,
+      "position": {
+        "offset": 7333912,
+        "bytes": 102666
+      },
+      "normal": {
+        "offset": 7436580,
+        "bytes": 51333
+      },
+      "index": {
+        "offset": 7487916,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "SHAFT Common shaft",
+      "family": "Shaft and bearings",
+      "color": "#abb5bd",
+      "source_hash": "6bae27d2e443043d95eceb51da3c1172d6f8288fc6bc8cf2511b08708ff74489",
+      "source_mesh": "source-output/12_SHAFT_Common_shaft.stl",
+      "source_mesh_sha256": "8f69dbcf13d076b2c7104ee4cfafdc5e27ed605f717c161cb34cbe8e5fe07e6e",
+      "source_triangles": 29328,
+      "display_triangles": 23998,
+      "vertices": 12857,
+      "bounds_mm": [
+        -6.023133277893066,
+        6.023133277893066,
+        -6.023133277893066,
+        6.023133277893066,
+        8.99390983581543,
+        219.696044921875
+      ],
+      "display_bounds_mm": [
+        -6.023133277893066,
+        6.023133277893066,
+        -6.023133277893066,
+        6.023133277893066,
+        8.99390983581543,
+        219.696044921875
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        0
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -6.023133277893066,
+        -6.023133277893066,
+        8.99390983581543
+      ],
+      "position_step_mm": [
+        0.00018381424888502806,
+        0.00018381424888502806,
+        0.0032151085324585438
+      ],
+      "position_quantization_max_mm": 0.0016075542662292719,
+      "index_bytes": 2,
+      "description": "Eight-millimeter nominal shaft with central land and end thread zones. Bearing fits, torque transmission, threads, and balance remain open.",
+      "joints": [
+        "R01"
+      ],
+      "seconds": 0.001472699994337745,
+      "position": {
+        "offset": 7631916,
+        "bytes": 77142
+      },
+      "normal": {
+        "offset": 7709060,
+        "bytes": 38571
+      },
+      "index": {
+        "offset": 7747632,
+        "bytes": 143988
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "BEARING Front cartridge",
+      "family": "Shaft and bearings",
+      "color": "#abb5bd",
+      "source_hash": "4b56cc4d3ff6380e0867d2e2eb7fd0b44e9c4afb02c363e5ad3ce1d8bfa79499",
+      "source_mesh": "source-output/13_BEARING_Front_cartridge.stl",
+      "source_mesh_sha256": "0071c2642160e2edd37d0b090c4482a4fb8fb4f52079287bcb668e2b499fc147",
+      "source_triangles": 16304,
+      "display_triangles": 16304,
+      "vertices": 9084,
+      "bounds_mm": [
+        -9.002254486083984,
+        9.002254486083984,
+        -9.001821517944336,
+        9.002254486083984,
+        74.9959945678711,
+        84.0040054321289
+      ],
+      "display_bounds_mm": [
+        -9.002254486083984,
+        9.002254486083984,
+        -9.001821517944336,
+        9.002254486083984,
+        74.9959945678711,
+        84.0040054321289
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        -25
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -9.002254486083984,
+        -9.001821517944336,
+        74.9959945678711
+      ],
+      "position_step_mm": [
+        0.0002747311955317855,
+        0.0002747245889622718,
+        0.00013745343312621117
+      ],
+      "position_quantization_max_mm": 0.00013736559776589274,
+      "index_bytes": 2,
+      "description": "Bearing package envelope at the forward station. Internal races, rolling elements, seals, and bearing specification remain open.",
+      "joints": [],
+      "seconds": 0.0008428000001003966,
+      "position": {
+        "offset": 7891620,
+        "bytes": 54504
+      },
+      "normal": {
+        "offset": 7946124,
+        "bytes": 27252
+      },
+      "index": {
+        "offset": 7973376,
+        "bytes": 97824
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "BEARING Rear cartridge",
+      "family": "Shaft and bearings",
+      "color": "#abb5bd",
+      "source_hash": "0200fbcb9e81fb6818ba3007de6200513e96843368869221b725c8ff797cda90",
+      "source_mesh": "source-output/14_BEARING_Rear_cartridge.stl",
+      "source_mesh_sha256": "beae7109fb5d09df41b4efe13d6281fe878387e97547242e86f8e164f52eb371",
+      "source_triangles": 16304,
+      "display_triangles": 16304,
+      "vertices": 9084,
+      "bounds_mm": [
+        -9.002254486083984,
+        9.002254486083984,
+        -9.001821517944336,
+        9.002254486083984,
+        172.43649291992188,
+        181.4445037841797
+      ],
+      "display_bounds_mm": [
+        -9.002254486083984,
+        9.002254486083984,
+        -9.001821517944336,
+        9.002254486083984,
+        172.43649291992188,
+        181.4445037841797
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        38
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -9.002254486083984,
+        -9.001821517944336,
+        172.43649291992188
+      ],
+      "position_step_mm": [
+        0.0002747311955317855,
+        0.0002747245889622718,
+        0.00013745343312621117
+      ],
+      "position_quantization_max_mm": 0.00013736559776589274,
+      "index_bytes": 2,
+      "description": "Bearing package envelope at the rear station. Housing clearance and retaining faces are modeled.",
+      "joints": [],
+      "seconds": 0.0007035000016912818,
+      "position": {
+        "offset": 8071200,
+        "bytes": 54504
+      },
+      "normal": {
+        "offset": 8125704,
+        "bytes": 27252
+      },
+      "index": {
+        "offset": 8152956,
+        "bytes": 97824
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "SHAFT Bearing tunnel",
+      "family": "Shaft and bearings",
+      "color": "#abb5bd",
+      "source_hash": "33c98396945bed38e572094a8dad6aa759f3c5e87e190d7cf2a1d0c38bf6470d",
+      "source_mesh": "source-output/15_SHAFT_Bearing_tunnel.stl",
+      "source_mesh_sha256": "23e42444ba9e9b465541c9616093942821f930f8c338b4d586760653c15dbfb0",
+      "source_triangles": 1036500,
+      "display_triangles": 24000,
+      "vertices": 19638,
+      "bounds_mm": [
+        -59.877845764160156,
+        59.87709045410156,
+        -59.89168167114258,
+        59.877925872802734,
+        73.9910888671875,
+        182.4494171142578
+      ],
+      "display_bounds_mm": [
+        -59.86357879638672,
+        59.87369918823242,
+        -59.89168167114258,
+        59.87421798706055,
+        73.9910888671875,
+        182.4494171142578
+      ],
+      "bounds_max_error_mm": 0.0142669677734375,
+      "explode_mm": [
+        0,
+        0,
+        0
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -59.86357879638672,
+        -59.89168167114258,
+        73.9910888671875
+      ],
+      "position_step_mm": [
+        0.0018270736327394843,
+        0.0018275105394423008,
+        0.0016549680149182677
+      ],
+      "position_quantization_max_mm": 0.0009137552697211504,
+      "index_bytes": 2,
+      "description": "Stationary housing with end flanges and three front support webs. The rear feed has a matched forward passage, two guide bores, and a counterbored receiver. Its cross passage opens into the cavity ahead of the rear bearing. Sealing and fabrication remain open.",
+      "joints": [
+        "J07",
+        "J05",
+        "J08"
+      ],
+      "seconds": 0.07054739999875892,
+      "position": {
+        "offset": 8250780,
+        "bytes": 117828
+      },
+      "normal": {
+        "offset": 8368608,
+        "bytes": 58914
+      },
+      "index": {
+        "offset": 8427524,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "CASE Front barrel",
+      "family": "Casing and exhaust",
+      "color": "#abb5bd",
+      "source_hash": "1dd291f0bddef9fdaaa871d07304b5a6bdc419ab6077d3e1f45a65d606029f94",
+      "source_mesh": "source-output/16_CASE_Front_barrel.stl",
+      "source_mesh_sha256": "c746b0284294038135f1736578323182780c406b4f43394bb5687edbbf6e3ff1",
+      "source_triangles": 2838618,
+      "display_triangles": 24000,
+      "vertices": 19956,
+      "bounds_mm": [
+        -72.00713348388672,
+        72.00713348388672,
+        -72.00713348388672,
+        72.00713348388672,
+        11.992086410522461,
+        145.00790405273438
+      ],
+      "display_bounds_mm": [
+        -72.00570678710938,
+        72.00570678710938,
+        -72.00713348388672,
+        72.00713348388672,
+        11.994451522827148,
+        145.00730895996094
+      ],
+      "bounds_max_error_mm": 0.0023651123046875,
+      "explode_mm": [
+        0,
+        165,
+        0
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -72.00570678710938,
+        -72.00713348388672,
+        11.994451522827148
+      ],
+      "position_step_mm": [
+        0.0021974733099341393,
+        0.0021975168492645025,
+        0.002029646188020706
+      ],
+      "position_quantization_max_mm": 0.0010987584246322513,
+      "index_bytes": 2,
+      "description": "Front barrel with matched fuel, bearing-feed, pressure, and speed-lead passages. Integral sleeves share route coordinates. The pump union has a matched flange pocket. Cold interference checks pass; sealing and retention remain open.",
+      "joints": [
+        "J01",
+        "J02",
+        "J24",
+        "J05",
+        "J23",
+        "J16"
+      ],
+      "seconds": 0.19516119999752846,
+      "position": {
+        "offset": 8571524,
+        "bytes": 119736
+      },
+      "normal": {
+        "offset": 8691260,
+        "bytes": 59868
+      },
+      "index": {
+        "offset": 8751128,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "CASE Inlet bell",
+      "family": "Casing and exhaust",
+      "color": "#abb5bd",
+      "source_hash": "13d07e61c294683f45a5e0865f693f3316ee9f6f0a35fdc06dee443fb177f15a",
+      "source_mesh": "source-output/17_CASE_Inlet_bell.stl",
+      "source_mesh_sha256": "a24941772f33760ed3864349d345c6bf37d13fcffcd7ad69c043cbde5f77c19e",
+      "source_triangles": 273872,
+      "display_triangles": 24000,
+      "vertices": 18406,
+      "bounds_mm": [
+        -72.00326538085938,
+        82.0811996459961,
+        -72.00411224365234,
+        84.0048828125,
+        -0.007370270788669586,
+        12.007378578186035
+      ],
+      "display_bounds_mm": [
+        -72.00326538085938,
+        82.0811996459961,
+        -71.9998779296875,
+        84.0048828125,
+        -0.007370270788669586,
+        12.007378578186035
+      ],
+      "bounds_max_error_mm": 0.00423431396484375,
+      "explode_mm": [
+        0,
+        0,
+        -135
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -72.00326538085938,
+        -71.9998779296875,
+        -0.007370270788669586
+      ],
+      "position_step_mm": [
+        0.0023511783219873905,
+        0.00238048005849123,
+        0.00018333330808673054
+      ],
+      "position_quantization_max_mm": 0.001190240029245615,
+      "index_bytes": 2,
+      "description": "Open inlet neck and front flange with pump and service-tray attachment pads.",
+      "joints": [
+        "J01",
+        "J14",
+        "J15"
+      ],
+      "seconds": 0.020812499991734512,
+      "position": {
+        "offset": 8895128,
+        "bytes": 110436
+      },
+      "normal": {
+        "offset": 9005564,
+        "bytes": 55218
+      },
+      "index": {
+        "offset": 9060784,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "NOZZLE Convergent duct",
+      "family": "Casing and exhaust",
+      "color": "#abb5bd",
+      "source_hash": "b30437a50f4d838f9341dfde804c73975eeb3565ec0e72783441abbd093d818c",
+      "source_mesh": "source-output/18_NOZZLE_Convergent_duct.stl",
+      "source_mesh_sha256": "ca7b40c15fc4468d4ca5a7f2b8321c67fea955f659ae51d8b461d60fec61bf04",
+      "source_triangles": 1377120,
+      "display_triangles": 24000,
+      "vertices": 24534,
+      "bounds_mm": [
+        -72.00078582763672,
+        72.00078582763672,
+        -72.00078582763672,
+        72.00041198730469,
+        218.68067932128906,
+        269.44677734375
+      ],
+      "display_bounds_mm": [
+        -71.99846649169922,
+        71.99394989013672,
+        -71.99629974365234,
+        71.99879455566406,
+        218.68067932128906,
+        269.4452819824219
+      ],
+      "bounds_max_error_mm": 0.0068359375,
+      "explode_mm": [
+        0,
+        0,
+        220
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -71.99846649169922,
+        -71.99629974365234,
+        218.68067932128906
+      ],
+      "position_step_mm": [
+        0.00219718343578279,
+        0.0021972241811454296,
+        0.0007746181800030172
+      ],
+      "position_quantization_max_mm": 0.0010986120905727148,
+      "index_bytes": 2,
+      "description": "Convergent annular shell and bolted inlet flange. Native exit area supplies the 1D analysis.",
+      "joints": [
+        "J03"
+      ],
+      "seconds": 0.09257660000002943,
+      "position": {
+        "offset": 9204784,
+        "bytes": 147204
+      },
+      "normal": {
+        "offset": 9351988,
+        "bytes": 73602
+      },
+      "index": {
+        "offset": 9425592,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "NOZZLE Center cone",
+      "family": "Casing and exhaust",
+      "color": "#abb5bd",
+      "source_hash": "311e9260ca70c51be0cc8f409e8f1850e2dee9951a0ab98ce4733056f8c74da0",
+      "source_mesh": "source-output/19_NOZZLE_Center_cone.stl",
+      "source_mesh_sha256": "4384950251104e89e639d24a1afd7c505c6d5b880a8c7e5be0425060019b4b54",
+      "source_triangles": 243254,
+      "display_triangles": 24000,
+      "vertices": 14592,
+      "bounds_mm": [
+        -52.35416030883789,
+        52.3510856628418,
+        -59.88022994995117,
+        30.804826736450195,
+        209.68142700195312,
+        256.4443664550781
+      ],
+      "display_bounds_mm": [
+        -52.35416030883789,
+        52.3510856628418,
+        -59.88022994995117,
+        30.804826736450195,
+        209.681884765625,
+        256.441162109375
+      ],
+      "bounds_max_error_mm": 0.003204345703125,
+      "explode_mm": [
+        0,
+        0,
+        165
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -52.35416030883789,
+        -59.88022994995117,
+        209.681884765625
+      ],
+      "position_step_mm": [
+        0.0015976995928213,
+        0.0013837652513757348,
+        0.0007135008345358074
+      ],
+      "position_quantization_max_mm": 0.00079884979641065,
+      "index_bytes": 2,
+      "description": "Hollow stationary tail cone with three exhaust struts. The bore clears the rear rotor nut.",
+      "joints": [],
+      "seconds": 0.017626899993047118,
+      "position": {
+        "offset": 9569592,
+        "bytes": 87552
+      },
+      "normal": {
+        "offset": 9657144,
+        "bytes": 43776
+      },
+      "index": {
+        "offset": 9700920,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "STARTER Motor envelope",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "a8b61cc5463128ecbee31fcdf560a1dd09493656e3f06962e29cd279ac28a8c4",
+      "source_mesh": "source-output/20_STARTER_Motor_envelope.stl",
+      "source_mesh_sha256": "75fc0314896c948e4a8f621cb9946978691a7d5e9dfb12ccc6a682f0e235c1cb",
+      "source_triangles": 44162,
+      "display_triangles": 24000,
+      "vertices": 14652,
+      "bounds_mm": [
+        -18.0000057220459,
+        18.0000057220459,
+        -18.0000057220459,
+        18.0000057220459,
+        -20.003463745117188,
+        7.0046162605285645
+      ],
+      "display_bounds_mm": [
+        -18.0000057220459,
+        18.0000057220459,
+        -18.0000057220459,
+        18.0000057220459,
+        -20.003463745117188,
+        7.0046162605285645
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        -195
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -18.0000057220459,
+        -18.0000057220459,
+        -20.003463745117188
+      ],
+      "position_step_mm": [
+        0.0005493249627761543,
+        0.0005493249627761543,
+        0.0004121168749406934
+      ],
+      "position_quantization_max_mm": 0.00027466248138807714,
+      "index_bytes": 2,
+      "description": "Motor envelope with a bolted front carrier flange. Motor internals and disengagement coupling remain unselected.",
+      "joints": [
+        "J12"
+      ],
+      "seconds": 0.0029975999932503328,
+      "position": {
+        "offset": 9844920,
+        "bytes": 87912
+      },
+      "normal": {
+        "offset": 9932832,
+        "bytes": 43956
+      },
+      "index": {
+        "offset": 9976788,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "F03 Rear bearing feed",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "b1e5d6cec571e76154bbb9da05b4de2e7f63d418907748067d1853ce33a2baa0",
+      "source_mesh": "source-output/23_F03_Rear_bearing_feed.stl",
+      "source_mesh_sha256": "4a16b29b4c7ce18aa1acb676d24c131fcb7592074a0a4914a8d578c6032713fb",
+      "source_triangles": 295984,
+      "display_triangles": 12000,
+      "vertices": 9030,
+      "bounds_mm": [
+        13.86928653717041,
+        68.18402862548828,
+        -12.883505821228027,
+        -1.7066036462783813,
+        63.0987663269043,
+        167.44529724121094
+      ],
+      "display_bounds_mm": [
+        13.86928653717041,
+        68.18402862548828,
+        -12.883505821228027,
+        -1.7071009874343872,
+        63.0987663269043,
+        167.44381713867188
+      ],
+      "bounds_max_error_mm": 0.0014801025390625,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        13.86928653717041,
+        -12.883505821228027,
+        63.0987663269043
+      ],
+      "position_step_mm": [
+        0.0008287898381240666,
+        0.0001705410104477778,
+        0.0015922033926472068
+      ],
+      "position_quantization_max_mm": 0.0007961016963236034,
+      "index_bytes": 2,
+      "description": "P2 hollow feed enters the casing ahead of the front bearing support. A local bend leads to a straight run inside the inner liner, beside the bearing tunnel. Matched guide holes and a receiver replace the former combustion-space crossing. Seals, metering, lubrication, and thermal qualification remain open.",
+      "joints": [],
+      "seconds": 0.016649299999698997,
+      "position": {
+        "offset": 10120788,
+        "bytes": 54180
+      },
+      "normal": {
+        "offset": 10174968,
+        "bytes": 27090
+      },
+      "index": {
+        "offset": 10202060,
+        "bytes": 72000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "F01 Main fuel feed",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "546850423ea12aef5893a24f17c1b84e871d7fe2c724407abe3ecbae3702e8c6",
+      "source_mesh": "source-output/22_F01_Main_fuel_feed.stl",
+      "source_mesh_sha256": "53f7998a73da6ecd1b888900209e11fa89c1585358f4e68df2bb2c5f173c30e1",
+      "source_triangles": 354416,
+      "display_triangles": 12000,
+      "vertices": 6882,
+      "bounds_mm": [
+        38.357398986816406,
+        70.57808685302734,
+        -19.377866744995117,
+        1.4998974800109863,
+        14.993535041809082,
+        100.50467681884766
+      ],
+      "display_bounds_mm": [
+        38.363990783691406,
+        70.5745849609375,
+        -19.377866744995117,
+        1.4998044967651367,
+        14.996334075927734,
+        100.50433349609375
+      ],
+      "bounds_max_error_mm": 0.006591796875,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        38.363990783691406,
+        -19.377866744995117,
+        14.996334075927734
+      ],
+      "position_step_mm": [
+        0.0004915021709166467,
+        0.0003185728273820132,
+        0.001304768375121057
+      ],
+      "position_quantization_max_mm": 0.0006523841875605285,
+      "index_bytes": 2,
+      "description": "Hollow supply line with two split clamps. It turns to -15 degrees outside the case, then crosses matched case and liner holes at Z = 99 mm into the manifold socket. Cold route and bore checks pass.",
+      "joints": [],
+      "seconds": 0.025408400004380383,
+      "position": {
+        "offset": 10274060,
+        "bytes": 41292
+      },
+      "normal": {
+        "offset": 10315352,
+        "bytes": 20646
+      },
+      "index": {
+        "offset": 10336000,
+        "bytes": 72000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "F02 Front bearing feed",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "7b86d4158b1a3c2510bbeafe6a52dedb5bfe6769f5d90098ff00be2127966b66",
+      "source_mesh": "source-output/23_F02_Front_bearing_feed.stl",
+      "source_mesh_sha256": "42e96b44fd5fd3a6d377642a26b9041dd887cf635b593086fc007f5b8d67b610",
+      "source_triangles": 117456,
+      "display_triangles": 12000,
+      "vertices": 6428,
+      "bounds_mm": [
+        12.319781303405762,
+        66.9532470703125,
+        2.493950843811035,
+        18.74419593811035,
+        85.09819030761719,
+        86.90412139892578
+      ],
+      "display_bounds_mm": [
+        12.319781303405762,
+        66.94962310791016,
+        2.495666742324829,
+        18.74419593811035,
+        85.09819030761719,
+        86.90412139892578
+      ],
+      "bounds_max_error_mm": 0.00362396240234375,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        12.319781303405762,
+        2.495666742324829,
+        85.09819030761719
+      ],
+      "position_step_mm": [
+        0.0008335979655385017,
+        0.00024793666671030223,
+        2.7556741770240478e-05
+      ],
+      "position_quantization_max_mm": 0.00041679898276925087,
+      "index_bytes": 2,
+      "description": "Straight radial feed at Z = 86 mm and +15 degrees. A matched case sleeve and housing receiver open into the cavity behind the front bearing. Metering, sealing, and bearing requirements remain open.",
+      "joints": [],
+      "seconds": 0.008272699997178279,
+      "position": {
+        "offset": 10408000,
+        "bytes": 38568
+      },
+      "normal": {
+        "offset": 10446568,
+        "bytes": 19284
+      },
+      "index": {
+        "offset": 10465852,
+        "bytes": 72000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "P01 Pressure sense",
+      "family": "Fuel and pipes",
+      "color": "#abb5bd",
+      "source_hash": "717489b8fd645881971a43f41968f0cf3a3d130da6ff9df8b71199aef221e68b",
+      "source_mesh": "source-output/24_P01_Pressure_sense.stl",
+      "source_mesh_sha256": "6e0f22a86970dd6dda651fd548a2502d8e44974cdd6e8d3f4de7dfb55e486016",
+      "source_triangles": 94364,
+      "display_triangles": 12000,
+      "vertices": 6449,
+      "bounds_mm": [
+        32.376712799072266,
+        40.62315368652344,
+        -57.58312225341797,
+        -46.831417083740234,
+        24.99334716796875,
+        52.77630615234375
+      ],
+      "display_bounds_mm": [
+        32.378238677978516,
+        40.619537353515625,
+        -57.58306884765625,
+        -46.83181381225586,
+        24.99334716796875,
+        52.77630615234375
+      ],
+      "bounds_max_error_mm": 0.0036163330078125,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        32.378238677978516,
+        -57.58306884765625,
+        24.99334716796875
+      ],
+      "position_step_mm": [
+        0.00012575415894389153,
+        0.0001640536356717348,
+        0.00042394077172502875
+      ],
+      "position_quantization_max_mm": 0.00021197038586251438,
+      "index_bytes": 2,
+      "description": "Hollow pressure tube at -55 degrees with a local bend and straight crossing at Z = 51.768 mm. Its open end reaches the diffuser discharge space through a shared case sleeve. Sensor and fitting selection remain open.",
+      "joints": [],
+      "seconds": 0.008232700012740679,
+      "position": {
+        "offset": 10537852,
+        "bytes": 38694
+      },
+      "normal": {
+        "offset": 10576548,
+        "bytes": 19347
+      },
+      "index": {
+        "offset": 10595896,
+        "bytes": 72000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "E01 Starter harness",
+      "family": "Electrical and mounts",
+      "color": "#2061a7",
+      "source_hash": "4dc08c5e1a84c70311839b0dbd6dd70478d160ac5a605b74ff5f1f9551357b1b",
+      "source_mesh": "source-output/25_E01_Starter_harness.stl",
+      "source_mesh_sha256": "1590babcb4fae8368e6e9588ba5ff905762a12851de90a991ebd482c7e7c79e0",
+      "source_triangles": 11862,
+      "display_triangles": 11862,
+      "vertices": 5991,
+      "bounds_mm": [
+        -2.0351033210754395,
+        2.033848524093628,
+        9.928637504577637,
+        93.00567626953125,
+        -15.027464866638184,
+        26.03822135925293
+      ],
+      "display_bounds_mm": [
+        -2.0351033210754395,
+        2.033848524093628,
+        9.928637504577637,
+        93.00567626953125,
+        -15.027464866638184,
+        26.03822135925293
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -2.0351033210754395,
+        9.928637504577637,
+        -15.027464866638184
+      ],
+      "position_step_mm": [
+        6.2088220147416e-05,
+        0.0012676743790507317,
+        0.0006266221753321588
+      ],
+      "position_quantization_max_mm": 0.0006338371895253658,
+      "index_bytes": 2,
+      "description": "Starter power bundle routed above the inlet flanges. A local bend ahead of the inlet ends in the motor terminal pocket. Conductors, insulation, contacts, and current rating remain open.",
+      "joints": [],
+      "seconds": 0.0010853999992832541,
+      "position": {
+        "offset": 10667896,
+        "bytes": 35946
+      },
+      "normal": {
+        "offset": 10703844,
+        "bytes": 17973
+      },
+      "index": {
+        "offset": 10721820,
+        "bytes": 71172
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "E02 Ignition lead",
+      "family": "Electrical and mounts",
+      "color": "#2061a7",
+      "source_hash": "33bf12fcf65a928b30f39003e1e5f1a3e8d28cd0cfca1dcdc88c13512e827905",
+      "source_mesh": "source-output/26_E02_Ignition_lead.stl",
+      "source_mesh_sha256": "fdfe00e04695128e89cfc184d2d953a391ce899a59426b47629e9c8cf9dcb030",
+      "source_triangles": 10354,
+      "display_triangles": 10354,
+      "vertices": 5258,
+      "bounds_mm": [
+        6.55963659286499,
+        9.430262565612793,
+        64.6357421875,
+        93.00502014160156,
+        13.588143348693848,
+        108.4028549194336
+      ],
+      "display_bounds_mm": [
+        6.55963659286499,
+        9.430262565612793,
+        64.6357421875,
+        93.00502014160156,
+        13.588143348693848,
+        108.4028549194336
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        6.55963659286499,
+        64.6357421875,
+        13.588143348693848
+      ],
+      "position_step_mm": [
+        4.38029455835931e-05,
+        0.000432887434726581,
+        0.0014467798173427582
+      ],
+      "position_quantization_max_mm": 0.0007233899086713791,
+      "index_bytes": 2,
+      "description": "Bundle routed above the case flanges. It ends in the exterior igniter terminal pocket. Voltage insulation, contacts, and shield termination remain open.",
+      "joints": [],
+      "seconds": 0.0011473000049591064,
+      "position": {
+        "offset": 10792992,
+        "bytes": 31548
+      },
+      "normal": {
+        "offset": 10824540,
+        "bytes": 15774
+      },
+      "index": {
+        "offset": 10840316,
+        "bytes": 62124
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "E03 Temperature harness",
+      "family": "Electrical and mounts",
+      "color": "#2061a7",
+      "source_hash": "454d92f31d0209077cefc575af752d339091507b0f83734874d547ae990a4692",
+      "source_mesh": "source-output/27_E03_Temperature_harness.stl",
+      "source_mesh_sha256": "1f66a1301e4f31fc01bcab44f5c62462ebddb29372bb60e3a655691070c72357",
+      "source_triangles": 19154,
+      "display_triangles": 12000,
+      "vertices": 6063,
+      "bounds_mm": [
+        -9.121761322021484,
+        -6.88122034072876,
+        64.96745300292969,
+        93.00562286376953,
+        13.879249572753906,
+        212.8135528564453
+      ],
+      "display_bounds_mm": [
+        -9.121761322021484,
+        -6.88122034072876,
+        64.96745300292969,
+        93.00480651855469,
+        13.879249572753906,
+        212.8135528564453
+      ],
+      "bounds_max_error_mm": 0.00081634521484375,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -9.121761322021484,
+        64.96745300292969,
+        13.879249572753906
+      ],
+      "position_step_mm": [
+        3.418846245040186e-05,
+        0.000427822582423687,
+        0.0030355427879840136
+      ],
+      "position_quantization_max_mm": 0.0015177713939920068,
+      "index_bytes": 2,
+      "description": "Bundle routed above all case flanges. It ends at the exterior probe head at Z = 211.690 mm. The probe crosses the pressure wall through a matched hole. Gland, contacts, and thermal protection remain open.",
+      "joints": [],
+      "seconds": 0.0019389999943086877,
+      "position": {
+        "offset": 10902440,
+        "bytes": 36378
+      },
+      "normal": {
+        "offset": 10938820,
+        "bytes": 18189
+      },
+      "index": {
+        "offset": 10957012,
+        "bytes": 72000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "E04 Speed pickup lead",
+      "family": "Electrical and mounts",
+      "color": "#2061a7",
+      "source_hash": "2c7e68943a832c4ee0c74f4684e4781e540187ce2ea30757af12f0f410aa0d3a",
+      "source_mesh": "source-output/28_E04_Speed_pickup_lead.stl",
+      "source_mesh_sha256": "1e71171e1c57d083a1b95105540cbe3f7325ffc9857523058ab67f85f8c4cbc4",
+      "source_triangles": 10118,
+      "display_triangles": 10118,
+      "vertices": 5162,
+      "bounds_mm": [
+        13.863978385925293,
+        16.17801284790039,
+        10.832963943481445,
+        93.00389099121094,
+        13.883634567260742,
+        69.1298599243164
+      ],
+      "display_bounds_mm": [
+        13.863978385925293,
+        16.17801284790039,
+        10.832963943481445,
+        93.00389099121094,
+        13.883634567260742,
+        69.1298599243164
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        13.863978385925293,
+        10.832963943481445,
+        13.883634567260742
+      ],
+      "position_step_mm": [
+        3.530990215949714e-05,
+        0.0012538479641079903,
+        0.0008430033340118825
+      ],
+      "position_quantization_max_mm": 0.0006269239820539951,
+      "index_bytes": 2,
+      "description": "Bundle routed above the inlet flange, with a straight crossing through a matched sleeve at Z = 68 mm. It enters the cool front plenum. Pickup package, attachment, and sealing remain open.",
+      "joints": [],
+      "seconds": 0.0009979000024031848,
+      "position": {
+        "offset": 11029012,
+        "bytes": 30972
+      },
+      "normal": {
+        "offset": 11059984,
+        "bytes": 15486
+      },
+      "index": {
+        "offset": 11075472,
+        "bytes": 60708
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "ECU Service envelope",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "afd44c3e61246af148147dcf9da8451064a196280b3ef25de610b586a19c12c7",
+      "source_mesh": "source-output/29_ECU_Service_envelope.stl",
+      "source_mesh_sha256": "46fb3110348bc5c64270a294c46916b9be496518f7316c981cb7b99e34d2ae27",
+      "source_triangles": 56626,
+      "display_triangles": 24000,
+      "vertices": 15478,
+      "bounds_mm": [
+        -27.007389068603516,
+        27.00652503967285,
+        92.99430084228516,
+        108.0051498413086,
+        9.998218536376953,
+        48.00166320800781
+      ],
+      "display_bounds_mm": [
+        -27.007389068603516,
+        27.00652503967285,
+        92.99430084228516,
+        108.0051498413086,
+        9.998218536376953,
+        48.00166320800781
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -27.007389068603516,
+        92.99430084228516,
+        9.998218536376953
+      ],
+      "position_step_mm": [
+        0.0008241995237767696,
+        0.0002290508709847927,
+        0.0005798953934572637
+      ],
+      "position_quantization_max_mm": 0.0004120997618883848,
+      "index_bytes": 2,
+      "description": "Electronic controller package with four mounting tabs. Circuit, connector pinout, and heat rejection remain open.",
+      "joints": [
+        "J13",
+        "J21"
+      ],
+      "seconds": 0.0027937999984715134,
+      "position": {
+        "offset": 11136180,
+        "bytes": 92868
+      },
+      "normal": {
+        "offset": 11229048,
+        "bytes": 46434
+      },
+      "index": {
+        "offset": 11275484,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FUEL Pump envelope",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "5c92873e848ff511c7f2969ec73dcc00db2ce94648b7a617c3e5d61dd3cb9fc7",
+      "source_mesh": "source-output/30_FUEL_Pump_envelope.stl",
+      "source_mesh_sha256": "2694376496cda6d49ca7b3877055b89f43d1aa08bac3c6b77d932b02a42332b8",
+      "source_triangles": 25044,
+      "display_triangles": 24000,
+      "vertices": 13585,
+      "bounds_mm": [
+        56.072998046875,
+        82.07734680175781,
+        -7.004955291748047,
+        7.004955291748047,
+        -9.005189895629883,
+        9.003972053527832
+      ],
+      "display_bounds_mm": [
+        56.072998046875,
+        82.07734680175781,
+        -7.004955291748047,
+        7.004955291748047,
+        -9.005189895629883,
+        9.003972053527832
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        56.072998046875,
+        -7.004955291748047,
+        -9.005189895629883
+      ],
+      "position_step_mm": [
+        0.00039680092595517635,
+        0.00021377753000706434,
+        0.0002748022088780999
+      ],
+      "position_quantization_max_mm": 0.00019840046297758818,
+      "index_bytes": 2,
+      "description": "Pump package with two mounting holes and an outlet bore. Pump internals, supply port, and flow rating remain open.",
+      "joints": [
+        "J15"
+      ],
+      "seconds": 0.0012658000050578266,
+      "position": {
+        "offset": 11419484,
+        "bytes": 81510
+      },
+      "normal": {
+        "offset": 11500996,
+        "bytes": 40755
+      },
+      "index": {
+        "offset": 11541752,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "IGNITER Boss",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "43b6d9a7ad1e4734544c75a4b9258c344faac55ea9f329d38b6270fffca70860",
+      "source_mesh": "source-output/31_IGNITER_Boss.stl",
+      "source_mesh_sha256": "554752f8dc18eaccca111f97332a77ad57684515c271ec00173df5f25a0d78b7",
+      "source_triangles": 6390,
+      "display_triangles": 6390,
+      "vertices": 3556,
+      "bounds_mm": [
+        4.777318000793457,
+        11.222681999206543,
+        47.69195556640625,
+        67.07962036132812,
+        103.7773208618164,
+        110.2226791381836
+      ],
+      "display_bounds_mm": [
+        4.777318000793457,
+        11.222681999206543,
+        47.69195556640625,
+        67.07962036132812,
+        103.7773208618164,
+        110.2226791381836
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        4.777318000793457,
+        47.69195556640625,
+        103.7773208618164
+      ],
+      "position_step_mm": [
+        9.834994853008538e-05,
+        0.000295836798613891,
+        9.834986121859401e-05
+      ],
+      "position_quantization_max_mm": 0.0001479183993069455,
+      "index_bytes": 2,
+      "description": "Attachment envelope across the liner and case, with an exterior pocket for E02. The cold route clears surrounding solids. Igniter internals, gland, thread, sealing, and thermal interface remain open.",
+      "joints": [],
+      "seconds": 0.00043200000072829425,
+      "position": {
+        "offset": 11685752,
+        "bytes": 21336
+      },
+      "normal": {
+        "offset": 11707088,
+        "bytes": 10668
+      },
+      "index": {
+        "offset": 11717756,
+        "bytes": 38340
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "SENSOR Exhaust probe",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "e11e789a93b82619aa4b25802501fa6e7ceb145c17d133361a02f457ebebc68b",
+      "source_mesh": "source-output/32_SENSOR_Exhaust_probe.stl",
+      "source_mesh_sha256": "6e29f65519ad47c45e9d1f0bc118a957c9b46b63a9854680f11c432cffbc16f0",
+      "source_triangles": 7656,
+      "display_triangles": 7656,
+      "vertices": 4168,
+      "bounds_mm": [
+        -10.504055976867676,
+        -5.497291088104248,
+        25.997438430786133,
+        68.07792663574219,
+        209.18878173828125,
+        214.19110107421875
+      ],
+      "display_bounds_mm": [
+        -10.504055976867676,
+        -5.497291088104248,
+        25.997438430786133,
+        68.07792663574219,
+        209.18878173828125,
+        214.19110107421875
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -10.504055976867676,
+        25.997438430786133,
+        209.18878173828125
+      ],
+      "position_step_mm": [
+        7.639833347639069e-05,
+        0.0006421071011573076,
+        7.633049972355366e-05
+      ],
+      "position_quantization_max_mm": 0.0003210535505786538,
+      "index_bytes": 2,
+      "description": "Probe stem crosses the rear casing and ends in an exterior head with a lead pocket. Its position clears the exhaust flange. Sensor internals, gland, thread, and seal remain unselected.",
+      "joints": [],
+      "seconds": 0.0007194999925559387,
+      "position": {
+        "offset": 11756096,
+        "bytes": 25008
+      },
+      "normal": {
+        "offset": 11781104,
+        "bytes": 12504
+      },
+      "index": {
+        "offset": 11793608,
+        "bytes": 45936
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "CASE Rear barrel",
+      "family": "Casing and exhaust",
+      "color": "#abb5bd",
+      "source_hash": "e5ebb85f6562cc6879b32518c23612df36c7548628f38179ba4ec6e296587ffb",
+      "source_mesh": "source-output/33_CASE_Rear_barrel.stl",
+      "source_mesh_sha256": "74feebb02bb5c45385399884db17c14a856f8952d99fdeac65f089c082c3ebe3",
+      "source_triangles": 1391424,
+      "display_triangles": 24000,
+      "vertices": 18361,
+      "bounds_mm": [
+        -72.00057983398438,
+        72.00057983398438,
+        -72.00057983398438,
+        72.00057983398438,
+        145.4937744140625,
+        218.69618225097656
+      ],
+      "display_bounds_mm": [
+        -72.00049591064453,
+        71.99921417236328,
+        -72.00049591064453,
+        71.99972534179688,
+        145.4937744140625,
+        218.69618225097656
+      ],
+      "bounds_max_error_mm": 0.00136566162109375,
+      "explode_mm": [
+        0,
+        -165,
+        0
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -72.00049591064453,
+        -72.00049591064453,
+        145.4937744140625
+      ],
+      "position_step_mm": [
+        0.0021972947288304567,
+        0.0021973024122416973,
+        0.0011169970966875553
+      ],
+      "position_quantization_max_mm": 0.0010986512061208487,
+      "index_bytes": 2,
+      "description": "Rear barrel with split and exhaust flanges, vane-frame attachment holes, and matched probe passage. The E03 harness stays above the flanges. Cold route checks pass.",
+      "joints": [
+        "J02",
+        "J03",
+        "J06"
+      ],
+      "seconds": 0.11172280000755563,
+      "position": {
+        "offset": 11839544,
+        "bytes": 110166
+      },
+      "normal": {
+        "offset": 11949712,
+        "bytes": 55083
+      },
+      "index": {
+        "offset": 12004796,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "SEAL Case split gasket",
+      "family": "Casing and exhaust",
+      "color": "#abb5bd",
+      "source_hash": "0d72ea2fa506477db6e0a553bd3e72a398a192f84fb606a2f566b23650cf318e",
+      "source_mesh": "source-output/34_SEAL_Case_split_gasket.stl",
+      "source_mesh_sha256": "e3ee0b7172533c2de2ba021d7993b9c65ada405dd97b1d46b04f17b92a084633",
+      "source_triangles": 1679526,
+      "display_triangles": 24000,
+      "vertices": 27212,
+      "bounds_mm": [
+        -72.00399780273438,
+        72.00399780273438,
+        -72.00399780273438,
+        72.00395202636719,
+        144.99172973632812,
+        145.50827026367188
+      ],
+      "display_bounds_mm": [
+        -72.00399780273438,
+        72.00360107421875,
+        -72.00399780273438,
+        72.00395202636719,
+        144.99172973632812,
+        145.50827026367188
+      ],
+      "bounds_max_error_mm": 0.000396728515625,
+      "explode_mm": [
+        0,
+        0,
+        55
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -72.00399780273438,
+        -72.00399780273438,
+        144.99172973632812
+      ],
+      "position_step_mm": [
+        0.002197415102273226,
+        0.00219742045737803,
+        7.881903002271429e-06
+      ],
+      "position_quantization_max_mm": 0.001098710228689015,
+      "index_bytes": 2,
+      "description": "Half-millimeter split-joint seal envelope with the same twelve-hole pattern. Material and compression remain open.",
+      "joints": [
+        "J02"
+      ],
+      "seconds": 0.11249030000180937,
+      "position": {
+        "offset": 12148796,
+        "bytes": 163272
+      },
+      "normal": {
+        "offset": 12312068,
+        "bytes": 81636
+      },
+      "index": {
+        "offset": 12393704,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J01 Inlet module",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "849f5ccf5e223cca798520b0a39d3f09a0d02a4be35a0c85fef3436b7f281c0b",
+      "source_mesh": "source-output/35_FAST_J01_Inlet_module.stl",
+      "source_mesh_sha256": "20b2821cf1aa424de671628957facd3a39948bbe31b024596e68a3f99989b4d5",
+      "source_triangles": 616570,
+      "display_triangles": 25570,
+      "vertices": 42687,
+      "bounds_mm": [
+        -67.77176666259766,
+        67.77176666259766,
+        -67.77200317382812,
+        67.77200317382812,
+        4.192719459533691,
+        24.207645416259766
+      ],
+      "display_bounds_mm": [
+        -67.77176666259766,
+        67.76750946044922,
+        -67.76585388183594,
+        67.76237487792969,
+        4.192886829376221,
+        24.206279754638672
+      ],
+      "bounds_max_error_mm": 0.0096282958984375,
+      "explode_mm": [
+        0,
+        0,
+        -135
+      ],
+      "quantity": 12,
+      "position_min_mm": [
+        -67.77176666259766,
+        -67.76585388183594,
+        4.192886829376221
+      ],
+      "position_step_mm": [
+        0.002068196889013052,
+        0.0020680283196270466,
+        0.00030538480496034026
+      ],
+      "position_quantization_max_mm": 0.001034098444506526,
+      "index_bytes": 2,
+      "description": "Inlet module: 12 screws, 12 nuts, and 24 washers. M4 x 16 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J01"
+      ],
+      "seconds": 0.045768199997837655,
+      "position": {
+        "offset": 12537704,
+        "bytes": 256122
+      },
+      "normal": {
+        "offset": 12793828,
+        "bytes": 128061
+      },
+      "index": {
+        "offset": 12921892,
+        "bytes": 153420
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J02 Case split",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "c938caea25dde28c7d4e11d97bf014cb94121d37745b331afb710c0ba43b958f",
+      "source_mesh": "source-output/36_FAST_J02_Case_split.stl",
+      "source_mesh_sha256": "f07a019ecb5ded212455ed8af083f50fce289c11b89bd4f7e93727830f2e9eab",
+      "source_triangles": 637050,
+      "display_triangles": 25358,
+      "vertices": 42178,
+      "bounds_mm": [
+        -67.77176666259766,
+        67.77176666259766,
+        -67.7719955444336,
+        67.77200317382812,
+        137.19271850585938,
+        157.20765686035156
+      ],
+      "display_bounds_mm": [
+        -67.76780700683594,
+        67.76780700683594,
+        -67.7719955444336,
+        67.75257110595703,
+        137.19288635253906,
+        157.20645141601562
+      ],
+      "bounds_max_error_mm": 0.01943206787109375,
+      "explode_mm": [
+        0,
+        0,
+        55
+      ],
+      "quantity": 12,
+      "position_min_mm": [
+        -67.76780700683594,
+        -67.7719955444336,
+        137.19288635253906
+      ],
+      "position_step_mm": [
+        0.002068141009658575,
+        0.0020679724402725697,
+        0.00030538742430508137
+      ],
+      "position_quantization_max_mm": 0.0010340705048292875,
+      "index_bytes": 2,
+      "description": "Case split: 12 screws, 12 nuts, and 24 washers. M4 x 16 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J02"
+      ],
+      "seconds": 0.044100700004491955,
+      "position": {
+        "offset": 13075312,
+        "bytes": 253068
+      },
+      "normal": {
+        "offset": 13328380,
+        "bytes": 126534
+      },
+      "index": {
+        "offset": 13454916,
+        "bytes": 152148
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J03 Exhaust module",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "5f768631be04958dc8ba4be150f3ead4feac7a7580c9bc9612ce08e14e6eddf8",
+      "source_mesh": "source-output/37_FAST_J03_Exhaust_module.stl",
+      "source_mesh_sha256": "093a4d300a569868ed66b5daae69e064914081883b91a5b31bf3b0c2b9598639",
+      "source_triangles": 616608,
+      "display_triangles": 25208,
+      "vertices": 42215,
+      "bounds_mm": [
+        -67.77176666259766,
+        67.77176666259766,
+        -67.7719955444336,
+        67.77200317382812,
+        210.88265991210938,
+        230.8975830078125
+      ],
+      "display_bounds_mm": [
+        -67.76628112792969,
+        67.77176666259766,
+        -67.73458099365234,
+        67.74637603759766,
+        210.88284301757812,
+        230.89639282226562
+      ],
+      "bounds_max_error_mm": 0.03741455078125,
+      "explode_mm": [
+        0,
+        0,
+        220
+      ],
+      "quantity": 12,
+      "position_min_mm": [
+        -67.76628112792969,
+        -67.73458099365234,
+        210.88284301757812
+      ],
+      "position_step_mm": [
+        0.0020681782625615597,
+        0.0020673067774623632,
+        0.0003053871914744377
+      ],
+      "position_quantization_max_mm": 0.0010340891312807798,
+      "index_bytes": 2,
+      "description": "Exhaust module: 12 screws, 12 nuts, and 24 washers. M4 x 16 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J03"
+      ],
+      "seconds": 0.06216359999962151,
+      "position": {
+        "offset": 13607064,
+        "bytes": 253290
+      },
+      "normal": {
+        "offset": 13860356,
+        "bytes": 126645
+      },
+      "index": {
+        "offset": 13987004,
+        "bytes": 151248
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J04 Diffuser module",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "a85ca2884815c8141db5ed7dae997b7c28bd1489854a1a3f78d8fd3736dc2220",
+      "source_mesh": "source-output/38_FAST_J04_Diffuser_module.stl",
+      "source_mesh_sha256": "9c2dc1e7aa808cac3d999756dbe17511c389be4247f0f58441ca4dab84417f40",
+      "source_triangles": 204126,
+      "display_triangles": 10078,
+      "vertices": 16537,
+      "bounds_mm": [
+        -54.67056655883789,
+        52.10026931762695,
+        -49.90814971923828,
+        53.428611755371094,
+        43.827945709228516,
+        62.842681884765625
+      ],
+      "display_bounds_mm": [
+        -54.66817855834961,
+        52.06602096557617,
+        -49.9022102355957,
+        53.40864562988281,
+        43.8304328918457,
+        62.839962005615234
+      ],
+      "bounds_max_error_mm": 0.03424835205078125,
+      "explode_mm": [
+        0,
+        95,
+        -40
+      ],
+      "quantity": 6,
+      "position_min_mm": [
+        -54.66817855834961,
+        -49.9022102355957,
+        43.8304328918457
+      ],
+      "position_step_mm": [
+        0.0016286594327539206,
+        0.0015764225972816348,
+        0.00029006681870669127
+      ],
+      "position_quantization_max_mm": 0.0008143297163769603,
+      "index_bytes": 2,
+      "description": "Diffuser module: 6 screws, 6 nuts, and 12 washers. M3 x 16 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J04"
+      ],
+      "seconds": 0.016703999994206242,
+      "position": {
+        "offset": 14138252,
+        "bytes": 99222
+      },
+      "normal": {
+        "offset": 14237476,
+        "bytes": 49611
+      },
+      "index": {
+        "offset": 14287088,
+        "bytes": 60468
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J24 Diffuser carrier to case",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "ebf64295c4b180d355070311de9a144168453883fca1b9a19dde9d5b80bbddf5",
+      "source_mesh": "source-output/39_FAST_J24_Diffuser_carrier_to_case.stl",
+      "source_mesh_sha256": "44920c613014f803abae5da0494f305ccc83b555aeff8c2c357c3afde36cbd06",
+      "source_triangles": 62362,
+      "display_triangles": 6000,
+      "vertices": 7416,
+      "bounds_mm": [
+        -57.29487609863281,
+        57.29283905029297,
+        -64.58338928222656,
+        34.66732406616211,
+        52.99867248535156,
+        60.00239562988281
+      ],
+      "display_bounds_mm": [
+        -57.29464340209961,
+        57.28564453125,
+        -64.58023071289062,
+        34.6616096496582,
+        52.99867248535156,
+        60.00063705444336
+      ],
+      "bounds_max_error_mm": 0.00719451904296875,
+      "explode_mm": [
+        0,
+        0,
+        -12
+      ],
+      "quantity": 3,
+      "position_min_mm": [
+        -57.29464340209961,
+        -64.58023071289062,
+        52.99867248535156
+      ],
+      "position_step_mm": [
+        0.001748383161611855,
+        0.001514333300292492,
+        0.00010684313019737601
+      ],
+      "position_quantization_max_mm": 0.0008741915808059275,
+      "index_bytes": 2,
+      "description": "Diffuser carrier to case: 3 screws, 0 nuts, and 3 washers. M3 x 8 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J24"
+      ],
+      "seconds": 0.005460100001073442,
+      "position": {
+        "offset": 14347556,
+        "bytes": 44496
+      },
+      "normal": {
+        "offset": 14392052,
+        "bytes": 22248
+      },
+      "index": {
+        "offset": 14414300,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "BEARING Front retainer",
+      "family": "Shaft and bearings",
+      "color": "#abb5bd",
+      "source_hash": "99403a587f5354da7e92194fdf112808ea43f6b98f28c1855a869e975e505536",
+      "source_mesh": "source-output/40_BEARING_Front_retainer.stl",
+      "source_mesh_sha256": "3f636bf8f13f1d5864260e725257baed56bcd0ca07adb753a503ca63373162de",
+      "source_triangles": 186730,
+      "display_triangles": 24000,
+      "vertices": 22048,
+      "bounds_mm": [
+        -19.005592346191406,
+        19.005592346191406,
+        -19.005592346191406,
+        19.005592346191406,
+        71.9924087524414,
+        75.00732421875
+      ],
+      "display_bounds_mm": [
+        -19.005592346191406,
+        19.005592346191406,
+        -19.005592346191406,
+        19.005592346191406,
+        71.9924087524414,
+        75.00732421875
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        -42
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -19.005592346191406,
+        -19.005592346191406,
+        71.9924087524414
+      ],
+      "position_step_mm": [
+        0.0005800134968012571,
+        0.0005800134968012571,
+        4.6004661271581426e-05
+      ],
+      "position_quantization_max_mm": 0.00029000674840062857,
+      "index_bytes": 2,
+      "description": "Removable outer-race retainer with four M3 through joints, a shaft clearance bore, and a matched rear-feed clearance passage.",
+      "joints": [
+        "J07"
+      ],
+      "seconds": 0.015451300001586787,
+      "position": {
+        "offset": 14450300,
+        "bytes": 132288
+      },
+      "normal": {
+        "offset": 14582588,
+        "bytes": 66144
+      },
+      "index": {
+        "offset": 14648732,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "BEARING Rear retainer",
+      "family": "Shaft and bearings",
+      "color": "#abb5bd",
+      "source_hash": "07f531cb1b833055f139fe084d21a95519790be4d067fbdd6050bebfeebc5310",
+      "source_mesh": "source-output/41_BEARING_Rear_retainer.stl",
+      "source_mesh_sha256": "72096ef8773e1f271f60c3688cf5acdb84fd94c61bff74e3dd03ae8b4506717b",
+      "source_triangles": 41070,
+      "display_triangles": 23998,
+      "vertices": 15231,
+      "bounds_mm": [
+        -19.001739501953125,
+        19.001739501953125,
+        -19.000839233398438,
+        19.000011444091797,
+        181.4359130859375,
+        184.446044921875
+      ],
+      "display_bounds_mm": [
+        -19.001739501953125,
+        19.001739501953125,
+        -19.000839233398438,
+        19.000011444091797,
+        181.4359130859375,
+        184.446044921875
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -19.001739501953125,
+        -19.000839233398438,
+        181.4359130859375
+      ],
+      "position_step_mm": [
+        0.0005798959173262119,
+        0.0005798558122478426,
+        4.593166886479594e-05
+      ],
+      "position_quantization_max_mm": 0.00028994795866310596,
+      "index_bytes": 2,
+      "description": "Removable outer-race retainer captured by the rear housing and guide-vane support joint.",
+      "joints": [
+        "J08"
+      ],
+      "seconds": 0.0036211000115145,
+      "position": {
+        "offset": 14792732,
+        "bytes": 91386
+      },
+      "normal": {
+        "offset": 14884120,
+        "bytes": 45693
+      },
+      "index": {
+        "offset": 14929816,
+        "bytes": 143988
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J07 Front bearing retainer",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "28d34ae751071391f246fa1e377a913b4e108fb54d6efac721815b266e3b5791",
+      "source_mesh": "source-output/42_FAST_J07_Front_bearing_retainer.stl",
+      "source_mesh_sha256": "e257bfba753fb83ae5146454036e921da0172febae65dc6448d45f67d8edb440",
+      "source_triangles": 143886,
+      "display_triangles": 6000,
+      "vertices": 9135,
+      "bounds_mm": [
+        -14.111502647399902,
+        14.111504554748535,
+        -14.110885620117188,
+        14.11088752746582,
+        68.49296569824219,
+        81.50480651855469
+      ],
+      "display_bounds_mm": [
+        -14.111502647399902,
+        14.111504554748535,
+        -14.110885620117188,
+        14.110549926757812,
+        68.49296569824219,
+        81.50479888916016
+      ],
+      "bounds_max_error_mm": 0.0003376007080078125,
+      "explode_mm": [
+        0,
+        0,
+        -42
+      ],
+      "quantity": 4,
+      "position_min_mm": [
+        -14.111502647399902,
+        -14.110885620117188,
+        68.49296569824219
+      ],
+      "position_step_mm": [
+        0.0004306554910726845,
+        0.0004306315095163882,
+        0.00019854784477502108
+      ],
+      "position_quantization_max_mm": 0.00021532774553634226,
+      "index_bytes": 2,
+      "description": "Front bearing retainer: 4 screws, 4 nuts, and 8 washers. M3 x 10 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J07"
+      ],
+      "seconds": 0.008973799995146692,
+      "position": {
+        "offset": 15073804,
+        "bytes": 54810
+      },
+      "normal": {
+        "offset": 15128616,
+        "bytes": 27405
+      },
+      "index": {
+        "offset": 15156024,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J05 Front spider to case",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "0e3d11edaad774e7a975d1b94951a6cf21b0348610f1a00cf3bd2f3fc6bc2191",
+      "source_mesh": "source-output/43_FAST_J05_Front_spider_to_case.stl",
+      "source_mesh_sha256": "30370af6032ed38a2808b5284b803a19b860d46c39085e72eb8785cebe82666f",
+      "source_triangles": 62360,
+      "display_triangles": 6000,
+      "vertices": 7456,
+      "bounds_mm": [
+        -57.29487609863281,
+        57.29283905029297,
+        -64.58338165283203,
+        34.66732406616211,
+        74.49867248535156,
+        81.50239562988281
+      ],
+      "display_bounds_mm": [
+        -57.29464340209961,
+        57.28564453125,
+        -64.58235168457031,
+        34.6616096496582,
+        74.49867248535156,
+        81.5006332397461
+      ],
+      "bounds_max_error_mm": 0.00719451904296875,
+      "explode_mm": [
+        0,
+        0,
+        0
+      ],
+      "quantity": 3,
+      "position_min_mm": [
+        -57.29464340209961,
+        -64.58235168457031,
+        74.49867248535156
+      ],
+      "position_step_mm": [
+        0.001748383161611855,
+        0.0015143656637519598,
+        0.0001068430719897151
+      ],
+      "position_quantization_max_mm": 0.0008741915808059275,
+      "index_bytes": 2,
+      "description": "Front spider to case: 3 screws, 0 nuts, and 3 washers. M3 x 8 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J05"
+      ],
+      "seconds": 0.0028671000036410987,
+      "position": {
+        "offset": 15192024,
+        "bytes": 44736
+      },
+      "normal": {
+        "offset": 15236760,
+        "bytes": 22368
+      },
+      "index": {
+        "offset": 15259128,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J06 Guide vane frame to case",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "1912a0239c2899f1cfa0de232c3f4804e0a0f27a2b9de03bd269fdfd79f39cae",
+      "source_mesh": "source-output/44_FAST_J06_Guide_vane_frame_to_case.stl",
+      "source_mesh_sha256": "39e523317469f4dc79f3010b5b0394ac1904d84641ce2f5908964beb894d7e2b",
+      "source_triangles": 118050,
+      "display_triangles": 6000,
+      "vertices": 9752,
+      "bounds_mm": [
+        -57.29636764526367,
+        57.29636001586914,
+        -64.57963562011719,
+        64.57962799072266,
+        181.1877899169922,
+        188.1940460205078
+      ],
+      "display_bounds_mm": [
+        -57.29401397705078,
+        57.291587829589844,
+        -64.57893371582031,
+        64.57962799072266,
+        181.1897735595703,
+        188.19155883789062
+      ],
+      "bounds_max_error_mm": 0.004772186279296875,
+      "explode_mm": [
+        0,
+        0,
+        85
+      ],
+      "quantity": 6,
+      "position_min_mm": [
+        -57.29401397705078,
+        -64.57893371582031,
+        181.1897735595703
+      ],
+      "position_step_mm": [
+        0.0017484641866758466,
+        0.0019708334002643824,
+        0.00010684039443731308
+      ],
+      "position_quantization_max_mm": 0.0009854167001321912,
+      "index_bytes": 2,
+      "description": "Guide vane frame to case: 6 screws, 0 nuts, and 6 washers. M3 x 8 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J06"
+      ],
+      "seconds": 0.007926799997221678,
+      "position": {
+        "offset": 15295128,
+        "bytes": 58512
+      },
+      "normal": {
+        "offset": 15353640,
+        "bytes": 29256
+      },
+      "index": {
+        "offset": 15382896,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J08 Rear bearing and vane frame",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "0ce7e4ee043d6ebb39d9163f292020aa96908082efa212442077b0a13974a1a9",
+      "source_mesh": "source-output/45_FAST_J08_Rear_bearing_and_vane_frame.stl",
+      "source_mesh_sha256": "b53bc9239268fa1155c5c4225462b56bf59c264ba4fc14601804f613d49b4ce0",
+      "source_triangles": 142644,
+      "display_triangles": 6000,
+      "vertices": 9519,
+      "bounds_mm": [
+        -14.106525421142578,
+        14.11139965057373,
+        -14.111396789550781,
+        14.108084678649902,
+        175.9337158203125,
+        192.94564819335938
+      ],
+      "display_bounds_mm": [
+        -14.104981422424316,
+        14.104982376098633,
+        -14.106163024902344,
+        14.10103702545166,
+        175.9353485107422,
+        192.94564819335938
+      ],
+      "bounds_max_error_mm": 0.0070476531982421875,
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "quantity": 4,
+      "position_min_mm": [
+        -14.104981422424316,
+        -14.106163024902344,
+        175.9353485107422
+      ],
+      "position_step_mm": [
+        0.0004304564790800214,
+        0.0004304142785258591,
+        0.0002595605328679085
+      ],
+      "position_quantization_max_mm": 0.0002152282395400107,
+      "index_bytes": 2,
+      "description": "Rear bearing and vane frame: 4 screws, 4 nuts, and 8 washers. M3 x 14 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J08"
+      ],
+      "seconds": 0.009687199999461882,
+      "position": {
+        "offset": 15418896,
+        "bytes": 57114
+      },
+      "normal": {
+        "offset": 15476012,
+        "bytes": 28557
+      },
+      "index": {
+        "offset": 15504572,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J22 Turbine shroud carrier",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "7108fa71dc0fdbb0f224c94b4d690a539d7b7f0373bc26c84f7725614d1a0059",
+      "source_mesh": "source-output/46_FAST_J22_Turbine_shroud_carrier.stl",
+      "source_mesh_sha256": "2d183741e71485c957b0483792f8e6f1a6a9d88a668a1bb250e16de8b5365453",
+      "source_triangles": 212008,
+      "display_triangles": 9536,
+      "vertices": 15914,
+      "bounds_mm": [
+        -58.00196075439453,
+        58.00196075439453,
+        -50.70732498168945,
+        50.707069396972656,
+        178.18240356445312,
+        201.194580078125
+      ],
+      "display_bounds_mm": [
+        -57.997703552246094,
+        57.99989700317383,
+        -50.701133728027344,
+        50.698081970214844,
+        178.1831512451172,
+        201.1942901611328
+      ],
+      "bounds_max_error_mm": 0.0089874267578125,
+      "explode_mm": [
+        0,
+        90,
+        105
+      ],
+      "quantity": 6,
+      "position_min_mm": [
+        -57.997703552246094,
+        -50.701133728027344,
+        178.1831512451172
+      ],
+      "position_step_mm": [
+        0.0017700099851936102,
+        0.001547252875752747,
+        0.00035112746991217136
+      ],
+      "position_quantization_max_mm": 0.0008850049925968051,
+      "index_bytes": 2,
+      "description": "Turbine shroud carrier: 6 screws, 6 nuts, and 12 washers. M3 x 20 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J22"
+      ],
+      "seconds": 0.01601680000021588,
+      "position": {
+        "offset": 15540572,
+        "bytes": 95484
+      },
+      "normal": {
+        "offset": 15636056,
+        "bytes": 47742
+      },
+      "index": {
+        "offset": 15683800,
+        "bytes": 57216
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J09 Outer liner tabs",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "9a7c11ed5ee2fde0021b1b8f87adb06ca91becfd061a037fbc322d8b164d2437",
+      "source_mesh": "source-output/47_FAST_J09_Outer_liner_tabs.stl",
+      "source_mesh_sha256": "dd3747b8c0e614760a44b335baaeb906461c4e7edfbd69323ec9b6b4572cd812",
+      "source_triangles": 195890,
+      "display_triangles": 8768,
+      "vertices": 14663,
+      "bounds_mm": [
+        -55.99979782104492,
+        55.99979782104492,
+        -48.96889114379883,
+        48.968605041503906,
+        86.49137115478516,
+        99.50611114501953
+      ],
+      "display_bounds_mm": [
+        -55.99463653564453,
+        55.963623046875,
+        -48.968326568603516,
+        48.966278076171875,
+        86.49237823486328,
+        99.50182342529297
+      ],
+      "bounds_max_error_mm": 0.036174774169921875,
+      "explode_mm": [
+        0,
+        90,
+        35
+      ],
+      "quantity": 6,
+      "position_min_mm": [
+        -55.99463653564453,
+        -48.968326568603516,
+        86.49237823486328
+      ],
+      "position_step_mm": [
+        0.001708373543806374,
+        0.0014943862333893776,
+        0.00019851140677928925
+      ],
+      "position_quantization_max_mm": 0.000854186771903187,
+      "index_bytes": 2,
+      "description": "Outer liner tabs: 6 screws, 6 nuts, and 12 washers. M3 x 10 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J09"
+      ],
+      "seconds": 0.011790999997174367,
+      "position": {
+        "offset": 15741016,
+        "bytes": 87978
+      },
+      "normal": {
+        "offset": 15828996,
+        "bytes": 43989
+      },
+      "index": {
+        "offset": 15872988,
+        "bytes": 52608
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J10 Inner liner lip",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "1487a4020b607034f4ff584fcf72420d8a9b6195b37787db96217cc7f0d3e5d3",
+      "source_mesh": "source-output/48_FAST_J10_Inner_liner_lip.stl",
+      "source_mesh_sha256": "0abebcb78b7bfd6c7ca12bb1c5dd78d8efb9a936e5c6bc1fe850cf473b01fb02",
+      "source_triangles": 135366,
+      "display_triangles": 7056,
+      "vertices": 11809,
+      "bounds_mm": [
+        -19.05645179748535,
+        19.05645179748535,
+        -19.05645179748535,
+        19.05645179748535,
+        86.49131774902344,
+        99.50625610351562
+      ],
+      "display_bounds_mm": [
+        -19.055665969848633,
+        19.0560359954834,
+        -19.05417823791504,
+        19.055665969848633,
+        86.49639892578125,
+        99.50625610351562
+      ],
+      "bounds_max_error_mm": 0.0050811767578125,
+      "explode_mm": [
+        0,
+        -80,
+        15
+      ],
+      "quantity": 4,
+      "position_min_mm": [
+        -19.055665969848633,
+        -19.05417823791504,
+        86.49639892578125
+      ],
+      "position_step_mm": [
+        0.000581547268666327,
+        0.0005815189215354621,
+        0.0001985176932066679
+      ],
+      "position_quantization_max_mm": 0.0002907736343331635,
+      "index_bytes": 2,
+      "description": "Inner liner lip: 4 screws, 4 nuts, and 8 washers. M3 x 10 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J10"
+      ],
+      "seconds": 0.009402500014402904,
+      "position": {
+        "offset": 15925596,
+        "bytes": 70854
+      },
+      "normal": {
+        "offset": 15996452,
+        "bytes": 35427
+      },
+      "index": {
+        "offset": 16031880,
+        "bytes": 42336
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J23 Liner carrier to case",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "e36618ef7b4c8de646a8c22675d2d5624becf5fbc91474bbcfaa5b10e246cf72",
+      "source_mesh": "source-output/49_FAST_J23_Liner_carrier_to_case.stl",
+      "source_mesh_sha256": "101f09a28bdf614ea77dfd3dfa0b5cfbfa67495e3b996688fd5ba2d52eaf6bd9",
+      "source_triangles": 62358,
+      "display_triangles": 6000,
+      "vertices": 7414,
+      "bounds_mm": [
+        -57.29487609863281,
+        57.29283905029297,
+        -64.58338165283203,
+        34.66732406616211,
+        92.49867248535156,
+        99.50239562988281
+      ],
+      "display_bounds_mm": [
+        -57.29464340209961,
+        57.28564453125,
+        -64.58235168457031,
+        34.6616096496582,
+        92.49867248535156,
+        99.50064086914062
+      ],
+      "bounds_max_error_mm": 0.00719451904296875,
+      "explode_mm": [
+        0,
+        90,
+        35
+      ],
+      "quantity": 3,
+      "position_min_mm": [
+        -57.29464340209961,
+        -64.58235168457031,
+        92.49867248535156
+      ],
+      "position_step_mm": [
+        0.001748383161611855,
+        0.0015143656637519598,
+        0.00010684318840503693
+      ],
+      "position_quantization_max_mm": 0.0008741915808059275,
+      "index_bytes": 2,
+      "description": "Liner carrier to case: 3 screws, 0 nuts, and 3 washers. M3 x 8 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J23"
+      ],
+      "seconds": 0.0039591999957337976,
+      "position": {
+        "offset": 16074216,
+        "bytes": 44484
+      },
+      "normal": {
+        "offset": 16118700,
+        "bytes": 22242
+      },
+      "index": {
+        "offset": 16140944,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FUEL Manifold saddles",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "073a212766080f1627f9238230b10c697f6d6b7a94559f56cdec908f617a8bec",
+      "source_mesh": "source-output/50_FUEL_Manifold_saddles.stl",
+      "source_mesh_sha256": "ca2c18b24e4ad58e1d5baa4367bd21caa453ec31a0e69ef30669953a87450893",
+      "source_triangles": 158024,
+      "display_triangles": 24000,
+      "vertices": 18545,
+      "bounds_mm": [
+        -46.28894805908203,
+        35.443660736083984,
+        -46.28728103637695,
+        35.44028091430664,
+        91.99229431152344,
+        99.00772857666016
+      ],
+      "display_bounds_mm": [
+        -46.28894805908203,
+        35.443660736083984,
+        -46.28728103637695,
+        35.43994903564453,
+        91.99229431152344,
+        99.00772857666016
+      ],
+      "bounds_max_error_mm": 0.000331878662109375,
+      "explode_mm": [
+        0,
+        0,
+        45
+      ],
+      "quantity": 3,
+      "position_min_mm": [
+        -46.28894805908203,
+        -46.28728103637695,
+        91.99229431152344
+      ],
+      "position_step_mm": [
+        0.0012471595546230674,
+        0.0012470775982365012,
+        0.00010704866144806147
+      ],
+      "position_quantization_max_mm": 0.0006235797773115337,
+      "index_bytes": 2,
+      "description": "Three shaped lower seats for the fuel ring, at 45, 165, and 285 degrees, between injector locations.",
+      "joints": [
+        "J11"
+      ],
+      "seconds": 0.014133300006506033,
+      "position": {
+        "offset": 16176944,
+        "bytes": 111270
+      },
+      "normal": {
+        "offset": 16288216,
+        "bytes": 55635
+      },
+      "index": {
+        "offset": 16343852,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FUEL Manifold clamp caps",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "a9210b1fca032c564cc2611cc66c9c8a8c47c0e3644a40ea68aa8589bc4df780",
+      "source_mesh": "source-output/51_FUEL_Manifold_clamp_caps.stl",
+      "source_mesh_sha256": "6b6c538574b7247bdb873ec8bdb9bc3a2b64e0903f200c1f856a0cce70eb0843",
+      "source_triangles": 129532,
+      "display_triangles": 24000,
+      "vertices": 18977,
+      "bounds_mm": [
+        -46.28737258911133,
+        35.43648147583008,
+        -46.292510986328125,
+        35.443748474121094,
+        98.9913330078125,
+        102.00814819335938
+      ],
+      "display_bounds_mm": [
+        -46.28737258911133,
+        35.43648147583008,
+        -46.292510986328125,
+        35.443748474121094,
+        98.9913330078125,
+        102.00814819335938
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        45
+      ],
+      "quantity": 3,
+      "position_min_mm": [
+        -46.28737258911133,
+        -46.292510986328125,
+        98.9913330078125
+      ],
+      "position_step_mm": [
+        0.0012470260262489319,
+        0.0012472153175622225,
+        4.603364868671633e-05
+      ],
+      "position_quantization_max_mm": 0.0006236076587811112,
+      "index_bytes": 2,
+      "description": "Three shaped upper caps. Six M3 joints attach the cap and saddle stack to the dome.",
+      "joints": [
+        "J11"
+      ],
+      "seconds": 0.008808099999441765,
+      "position": {
+        "offset": 16487852,
+        "bytes": 113862
+      },
+      "normal": {
+        "offset": 16601716,
+        "bytes": 56931
+      },
+      "index": {
+        "offset": 16658648,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J11 Manifold clamps",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "254399a93ed5da99520a8c580f1e417ae1c8b7e107121ef237b623a741246d53",
+      "source_mesh": "source-output/52_FAST_J11_Manifold_clamps.stl",
+      "source_mesh_sha256": "0b62a42664c1476a0d12e6721757320552ca6bdb2eeedc97fe0f28444e59b30f",
+      "source_triangles": 188796,
+      "display_triangles": 10796,
+      "vertices": 18007,
+      "bounds_mm": [
+        -46.1159782409668,
+        34.69462966918945,
+        -46.1159782409668,
+        34.69462966918945,
+        86.5,
+        109.5
+      ],
+      "display_bounds_mm": [
+        -46.10676956176758,
+        34.65910720825195,
+        -46.109825134277344,
+        34.6688117980957,
+        86.5,
+        109.5
+      ],
+      "bounds_max_error_mm": 0.0355224609375,
+      "explode_mm": [
+        0,
+        0,
+        45
+      ],
+      "quantity": 6,
+      "position_min_mm": [
+        -46.10676956176758,
+        -46.109825134277344,
+        86.5
+      ],
+      "position_step_mm": [
+        0.0012324083363637328,
+        0.0012326030991971493,
+        0.00035095750354230404
+      ],
+      "position_quantization_max_mm": 0.0006163015495985746,
+      "index_bytes": 2,
+      "description": "Manifold clamps: 6 screws, 6 nuts, and 12 washers. M3 x 20 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J11"
+      ],
+      "seconds": 0.01525680000486318,
+      "position": {
+        "offset": 16802648,
+        "bytes": 108042
+      },
+      "normal": {
+        "offset": 16910692,
+        "bytes": 54021
+      },
+      "index": {
+        "offset": 16964716,
+        "bytes": 64776
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "SHAFT Inner race spacer sleeves",
+      "family": "Shaft and bearings",
+      "color": "#abb5bd",
+      "source_hash": "13c8fe39bb748a0da5b34d5a657242a5111e27e5cb9e850c123f5b57cf9cbfb4",
+      "source_mesh": "source-output/53_SHAFT_Inner_race_spacer_sleeves.stl",
+      "source_mesh_sha256": "58ac879b4f9c6cba5277b2995ec73cd9f69f29ffb122b7acb0291b9adac56415",
+      "source_triangles": 78790,
+      "display_triangles": 23998,
+      "vertices": 13443,
+      "bounds_mm": [
+        -6.020105838775635,
+        6.020122051239014,
+        -6.020122051239014,
+        6.020122051239014,
+        57.995269775390625,
+        194.69468688964844
+      ],
+      "display_bounds_mm": [
+        -6.020105838775635,
+        6.020122051239014,
+        -6.020122051239014,
+        6.020122051239014,
+        57.995269775390625,
+        194.69468688964844
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        0
+      ],
+      "quantity": 4,
+      "position_min_mm": [
+        -6.020105838775635,
+        -6.020122051239014,
+        57.995269775390625
+      ],
+      "position_step_mm": [
+        0.00018372210615780205,
+        0.00018372235354036093,
+        0.002085899468511343
+      ],
+      "position_quantization_max_mm": 0.0010429497342556715,
+      "index_bytes": 2,
+      "description": "Four separate sleeve envelopes define the axial stack between the two rotors, bearing inner races, and central shaft land.",
+      "joints": [
+        "R01"
+      ],
+      "seconds": 0.00413660000776872,
+      "position": {
+        "offset": 17029492,
+        "bytes": 80658
+      },
+      "normal": {
+        "offset": 17110152,
+        "bytes": 40329
+      },
+      "index": {
+        "offset": 17150484,
+        "bytes": 143988
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST R01 Rotor retention nuts and washers",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "01fdbb79b3138755960d7ab4d129904a3905ac4a3757761ccfc23dda76b5bbb4",
+      "source_mesh": "source-output/54_FAST_R01_Rotor_retention_nuts_and_washers.stl",
+      "source_mesh_sha256": "52b00ca8c4bd8bb45e2be49d6781c565d43aff14c7bec2f7a61d96b04fd20033",
+      "source_triangles": 96076,
+      "display_triangles": 6000,
+      "vertices": 5581,
+      "bounds_mm": [
+        -8.00132942199707,
+        8.00132942199707,
+        -8.00132942199707,
+        8.00132942199707,
+        11.895729064941406,
+        216.79669189453125
+      ],
+      "display_bounds_mm": [
+        -8.00033950805664,
+        8.00132942199707,
+        -8.00132942199707,
+        7.999836444854736,
+        11.895729064941406,
+        216.79669189453125
+      ],
+      "bounds_max_error_mm": 0.0014929771423339844,
+      "explode_mm": [
+        0,
+        0,
+        0
+      ],
+      "quantity": 2,
+      "position_min_mm": [
+        -8.00033950805664,
+        -8.00132942199707,
+        11.895729064941406
+      ],
+      "position_step_mm": [
+        0.0002441698161419481,
+        0.0002441621327307075,
+        0.0031265884172171354
+      ],
+      "position_quantization_max_mm": 0.0015632942086085677,
+      "index_bytes": 2,
+      "description": "Rotor retention: 0 screws, 2 nuts, and 2 washers. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "R01"
+      ],
+      "seconds": 0.007279999990714714,
+      "position": {
+        "offset": 17294472,
+        "bytes": 33486
+      },
+      "normal": {
+        "offset": 17327960,
+        "bytes": 16743
+      },
+      "index": {
+        "offset": 17344704,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "MOUNT Starter carrier",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "6ecfed720d3df58510e562a0fe0d0a23db38f0d43a7eec43a4df521734f99e58",
+      "source_mesh": "source-output/55_MOUNT_Starter_carrier.stl",
+      "source_mesh_sha256": "09facdaa0d4f4f08ca6d51df2076c1c8df6b9da72e7b31687a0362339d8057cd",
+      "source_triangles": 46872,
+      "display_triangles": 24000,
+      "vertices": 15224,
+      "bounds_mm": [
+        -24.83319091796875,
+        24.8290958404541,
+        -27.816057205200195,
+        18.004188537597656,
+        6.993296146392822,
+        10.004420280456543
+      ],
+      "display_bounds_mm": [
+        -24.83319091796875,
+        24.8290958404541,
+        -27.816057205200195,
+        18.004188537597656,
+        6.993296146392822,
+        10.004420280456543
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        0,
+        0,
+        -170
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -24.83319091796875,
+        -27.816057205200195,
+        6.993296146392822
+      ],
+      "position_step_mm": [
+        0.0007577979122288525,
+        0.0006991720874793828,
+        4.5946810132591054e-05
+      ],
+      "position_quantization_max_mm": 0.00037889895611442626,
+      "index_bytes": 2,
+      "description": "Three-arm support and bolted motor flange. Carrier-to-inlet joining process remains open.",
+      "joints": [
+        "J12"
+      ],
+      "seconds": 0.003814399999100715,
+      "position": {
+        "offset": 17380704,
+        "bytes": 91344
+      },
+      "normal": {
+        "offset": 17472048,
+        "bytes": 45672
+      },
+      "index": {
+        "offset": 17517720,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J12 Starter flange",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "03ece6ba4d6ac15d3683b776343ab6b81bd4b47831bff9f164e473af0f2ea700",
+      "source_mesh": "source-output/56_FAST_J12_Starter_flange.stl",
+      "source_mesh_sha256": "46f375826572ca93078c9e46970bb93cc44c2f4a2f86934ff6b00b7fd97a5b5b",
+      "source_triangles": 105758,
+      "display_triangles": 6000,
+      "vertices": 8914,
+      "bounds_mm": [
+        -16.496118545532227,
+        16.491230010986328,
+        -18.50258445739746,
+        11.000686645507812,
+        1.4913907051086426,
+        14.50800609588623
+      ],
+      "display_bounds_mm": [
+        -16.494632720947266,
+        16.489206314086914,
+        -18.499706268310547,
+        10.999014854431152,
+        1.4916006326675415,
+        14.507131576538086
+      ],
+      "bounds_max_error_mm": 0.0028781890869140625,
+      "explode_mm": [
+        0,
+        0,
+        -195
+      ],
+      "quantity": 3,
+      "position_min_mm": [
+        -16.494632720947266,
+        -18.499706268310547,
+        1.4916006326675415
+      ],
+      "position_step_mm": [
+        0.0005033011548221111,
+        0.0004501216462813318,
+        0.00019860426255036145
+      ],
+      "position_quantization_max_mm": 0.00025165057741105556,
+      "index_bytes": 2,
+      "description": "Starter flange: 3 screws, 3 nuts, and 6 washers. M3 x 10 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J12"
+      ],
+      "seconds": 0.008687700013979338,
+      "position": {
+        "offset": 17661720,
+        "bytes": 53484
+      },
+      "normal": {
+        "offset": 17715204,
+        "bytes": 26742
+      },
+      "index": {
+        "offset": 17741948,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "MOUNT Service tray and ECU bracket",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "43acb5b304cd066e48daf03e5df8b005e96f20f035fe5a3265a8b9508f08e6a0",
+      "source_mesh": "source-output/57_MOUNT_Service_tray_and_ECU_bracket.stl",
+      "source_mesh_sha256": "bfcae30f69498becf6da3ca7719a0eee9e8876733e436ae646bbd7c82c3a32ce",
+      "source_triangles": 105488,
+      "display_triangles": 24000,
+      "vertices": 17136,
+      "bounds_mm": [
+        -36.002994537353516,
+        36.002994537353516,
+        58.99562454223633,
+        111.0056381225586,
+        11.991962432861328,
+        50.00112533569336
+      ],
+      "display_bounds_mm": [
+        -36.002994537353516,
+        36.002994537353516,
+        58.99562454223633,
+        111.0056381225586,
+        11.991962432861328,
+        50.00112533569336
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -36.002994537353516,
+        58.99562454223633,
+        11.991962432861328
+      ],
+      "position_step_mm": [
+        0.0010987409623339772,
+        0.0007936219335533679,
+        0.000579982646740973
+      ],
+      "position_quantization_max_mm": 0.0005493704811669886,
+      "index_bytes": 2,
+      "description": "Tray and upright support with ECU, cable-guide, and inlet-module attachment holes. Fabrication seams remain open.",
+      "joints": [
+        "J13",
+        "J14",
+        "J20"
+      ],
+      "seconds": 0.00934899999992922,
+      "position": {
+        "offset": 17777948,
+        "bytes": 102816
+      },
+      "normal": {
+        "offset": 17880764,
+        "bytes": 51408
+      },
+      "index": {
+        "offset": 17932172,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J13 ECU mounting tabs",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "9e299a7576c285f0cc268b0b382577ceb577ae01280597326204fba4f0628591",
+      "source_mesh": "source-output/58_FAST_J13_ECU_mounting_tabs.stl",
+      "source_mesh_sha256": "ef4c9ac2b97be5e7d9f41f31697e28a5f00363f724e3b20d98fef8ec98bbb0ab",
+      "source_triangles": 127868,
+      "display_triangles": 6780,
+      "vertices": 11259,
+      "bounds_mm": [
+        -26.500696182250977,
+        26.500696182250977,
+        100.49418640136719,
+        115.50525665283203,
+        12.49720573425293,
+        45.50272750854492
+      ],
+      "display_bounds_mm": [
+        -26.48134994506836,
+        26.496658325195312,
+        100.49651336669922,
+        115.50525665283203,
+        12.49720573425293,
+        45.49684143066406
+      ],
+      "bounds_max_error_mm": 0.019346237182617188,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 4,
+      "position_min_mm": [
+        -26.48134994506836,
+        100.49651336669922,
+        12.49720573425293
+      ],
+      "position_step_mm": [
+        0.0008083925931714475,
+        0.00022901874035596848,
+        0.0005035421345382929
+      ],
+      "position_quantization_max_mm": 0.00040419629658572376,
+      "index_bytes": 2,
+      "description": "ECU mounting tabs: 4 screws, 4 nuts, and 8 washers. M3 x 12 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J13"
+      ],
+      "seconds": 0.009987000012188219,
+      "position": {
+        "offset": 18076172,
+        "bytes": 67554
+      },
+      "normal": {
+        "offset": 18143728,
+        "bytes": 33777
+      },
+      "index": {
+        "offset": 18177508,
+        "bytes": 40680
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J14 Service tray to inlet module",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "d2652753530967488f0849156f762dad4cd5c17c7044a08bb55f25486e97e399",
+      "source_mesh": "source-output/59_FAST_J14_Service_tray_to_inlet_module.stl",
+      "source_mesh_sha256": "cbff027674d7025450c4cb84c3349c3b14cdb5358c8725549ead1dd23f9fce4b",
+      "source_triangles": 135438,
+      "display_triangles": 6666,
+      "vertices": 10924,
+      "bounds_mm": [
+        -31.50311851501465,
+        31.503814697265625,
+        58.50014877319336,
+        82.50064086914062,
+        5.493593215942383,
+        20.505462646484375
+      ],
+      "display_bounds_mm": [
+        -31.499753952026367,
+        31.503814697265625,
+        58.50077438354492,
+        82.49922943115234,
+        5.4957356452941895,
+        20.504018783569336
+      ],
+      "bounds_max_error_mm": 0.00336456298828125,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 4,
+      "position_min_mm": [
+        -31.499753952026367,
+        58.50077438354492,
+        5.4957356452941895
+      ],
+      "position_step_mm": [
+        0.0009613728616386652,
+        0.00036619295133277774,
+        0.0002290117263328284
+      ],
+      "position_quantization_max_mm": 0.0004806864308193326,
+      "index_bytes": 2,
+      "description": "Service tray to inlet module: 4 screws, 4 nuts, and 8 washers. M3 x 12 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J14"
+      ],
+      "seconds": 0.009585399995557964,
+      "position": {
+        "offset": 18218188,
+        "bytes": 65544
+      },
+      "normal": {
+        "offset": 18283732,
+        "bytes": 32772
+      },
+      "index": {
+        "offset": 18316504,
+        "bytes": 39996
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J15 Pump foot",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "3da1e1926f85e6f5665c40d258a932cfc2c4c2c58c7987494dc2726c72fb84eb",
+      "source_mesh": "source-output/60_FAST_J15_Pump_foot.stl",
+      "source_mesh_sha256": "4ede46ef6914ab89f8263cc2b80ddc8f896de42e800815f9d06e402e71de3461",
+      "source_triangles": 71032,
+      "display_triangles": 6000,
+      "vertices": 8115,
+      "bounds_mm": [
+        56.57173538208008,
+        81.57862091064453,
+        -3.5008065700531006,
+        3.5008065700531006,
+        1.4939780235290527,
+        16.50226593017578
+      ],
+      "display_bounds_mm": [
+        56.57594299316406,
+        81.57356262207031,
+        -3.5008065700531006,
+        3.5008065700531006,
+        1.4939780235290527,
+        16.501026153564453
+      ],
+      "bounds_max_error_mm": 0.00505828857421875,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 2,
+      "position_min_mm": [
+        56.57594299316406,
+        -3.5008065700531006,
+        1.4939780235290527
+      ],
+      "position_step_mm": [
+        0.00038143922574818134,
+        0.00010683776781661436,
+        0.00022899286705069244
+      ],
+      "position_quantization_max_mm": 0.00019071961287409067,
+      "index_bytes": 2,
+      "description": "Pump foot: 2 screws, 2 nuts, and 4 washers. M3 x 12 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J15"
+      ],
+      "seconds": 0.00629599999228958,
+      "position": {
+        "offset": 18356500,
+        "bytes": 48690
+      },
+      "normal": {
+        "offset": 18405192,
+        "bytes": 24345
+      },
+      "index": {
+        "offset": 18429540,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "MOUNT Main fuel clamp bases",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "a4ecde8f9052b58e32922fd3b37c206631a99b8c379ed4b9e9dc7ee451d5ff3a",
+      "source_mesh": "source-output/61_MOUNT_Main_fuel_clamp_bases.stl",
+      "source_mesh_sha256": "2b434d6df81d602b770b7d4b5584a43dabff011c65e316e33dd16300b51dce02",
+      "source_triangles": 31546,
+      "display_triangles": 23998,
+      "vertices": 13630,
+      "bounds_mm": [
+        62.07035446166992,
+        69.07999420166016,
+        -7.5,
+        7.5,
+        25.496551513671875,
+        64.5034408569336
+      ],
+      "display_bounds_mm": [
+        62.07035446166992,
+        69.07999420166016,
+        -7.5,
+        7.5,
+        25.496551513671875,
+        64.5034408569336
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 2,
+      "position_min_mm": [
+        62.07035446166992,
+        -7.5,
+        25.496551513671875
+      ],
+      "position_step_mm": [
+        0.00010696024401113391,
+        0.0002288853283971548,
+        0.0005952069768682122
+      ],
+      "position_quantization_max_mm": 0.0002976034884341061,
+      "index_bytes": 2,
+      "description": "Two lower clamp blocks with supports from the case pads. Nominal pipe seating radius is 1.65 mm.",
+      "joints": [
+        "J16"
+      ],
+      "seconds": 0.002067900000838563,
+      "position": {
+        "offset": 18465540,
+        "bytes": 81780
+      },
+      "normal": {
+        "offset": 18547320,
+        "bytes": 40890
+      },
+      "index": {
+        "offset": 18588212,
+        "bytes": 143988
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "MOUNT Main fuel clamp caps",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "1a83ed775e5a5070cdc396b6fbebff4fa3cd48f7c5c12f132d089bfd6981982c",
+      "source_mesh": "source-output/62_MOUNT_Main_fuel_clamp_caps.stl",
+      "source_mesh_sha256": "1f2f8b038dbc5c9a3eaf47bb8960334b5afcdebb2527e88c909664c3d7760fb7",
+      "source_triangles": 22000,
+      "display_triangles": 22000,
+      "vertices": 12354,
+      "bounds_mm": [
+        69.068603515625,
+        73.08060455322266,
+        -7.499996662139893,
+        7.499996185302734,
+        25.496553421020508,
+        64.5034408569336
+      ],
+      "display_bounds_mm": [
+        69.068603515625,
+        73.08060455322266,
+        -7.499996662139893,
+        7.499996185302734,
+        25.496553421020508,
+        64.5034408569336
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 2,
+      "position_min_mm": [
+        69.068603515625,
+        -7.499996662139893,
+        25.496553421020508
+      ],
+      "position_step_mm": [
+        6.121920887380838e-05,
+        0.00022888521198183298,
+        0.0005952069768682122
+      ],
+      "position_quantization_max_mm": 0.0002976034884341061,
+      "index_bytes": 2,
+      "description": "Two removable upper blocks share the four through joints with the bases and case pads.",
+      "joints": [
+        "J16"
+      ],
+      "seconds": 0.0021336000063456595,
+      "position": {
+        "offset": 18732200,
+        "bytes": 74124
+      },
+      "normal": {
+        "offset": 18806324,
+        "bytes": 37062
+      },
+      "index": {
+        "offset": 18843388,
+        "bytes": 132000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J16 Fuel split clamps and case mounts",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "8b633b0fdf4c43131062c532f4f2e5aa68d1e72a243c242d7967cb531cfe17b2",
+      "source_mesh": "source-output/63_FAST_J16_Fuel_split_clamps_and_case_mounts.stl",
+      "source_mesh_sha256": "2cbfa7b6663225508db1e35c598b613a3b47186f29a1ca68b3f329b7fa7ee271",
+      "source_triangles": 136110,
+      "display_triangles": 7902,
+      "vertices": 13472,
+      "bounds_mm": [
+        55.36659622192383,
+        78.38191223144531,
+        -7.748888969421387,
+        7.748900413513184,
+        26.498371124267578,
+        63.50112533569336
+      ],
+      "display_bounds_mm": [
+        55.37071990966797,
+        78.38191223144531,
+        -7.748744964599609,
+        7.740262985229492,
+        26.501361846923828,
+        63.496910095214844
+      ],
+      "bounds_max_error_mm": 0.008637428283691406,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 4,
+      "position_min_mm": [
+        55.37071990966797,
+        -7.748744964599609,
+        26.501361846923828
+      ],
+      "position_step_mm": [
+        0.00035112828481942415,
+        0.00023634711396880448,
+        0.0005645158817060292
+      ],
+      "position_quantization_max_mm": 0.0002822579408530146,
+      "index_bytes": 2,
+      "description": "Fuel split clamps and case mounts: 4 screws, 4 nuts, and 8 washers. M3 x 20 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J16"
+      ],
+      "seconds": 0.011616199990385212,
+      "position": {
+        "offset": 18975388,
+        "bytes": 80832
+      },
+      "normal": {
+        "offset": 19056220,
+        "bytes": 40416
+      },
+      "index": {
+        "offset": 19096636,
+        "bytes": 47412
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "MOUNT Cable guide lower",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "194a60e5d6da2fc412f6719744ca69016794137b2e27d85e9a6355210c39be38",
+      "source_mesh": "source-output/64_MOUNT_Cable_guide_lower.stl",
+      "source_mesh_sha256": "221fbbffff0e20903b449def591d49e5071c7b7ef6cfb649265c41a4346c7ac7",
+      "source_triangles": 35056,
+      "display_triangles": 24000,
+      "vertices": 14852,
+      "bounds_mm": [
+        -24.00321388244629,
+        25.0,
+        77.99852752685547,
+        95.00338745117188,
+        10.995506286621094,
+        19.004491806030273
+      ],
+      "display_bounds_mm": [
+        -24.00321388244629,
+        25.0,
+        77.99852752685547,
+        95.00338745117188,
+        10.995506286621094,
+        19.004491806030273
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -24.00321388244629,
+        77.99852752685547,
+        10.995506286621094
+      ],
+      "position_step_mm": [
+        0.0007477410836145282,
+        0.0002594775287434459,
+        0.0001222092832904309
+      ],
+      "position_quantization_max_mm": 0.0003738705418072641,
+      "index_bytes": 2,
+      "description": "Lower cable-guide half, four bundle passages, three split-joint holes, and one tray ear.",
+      "joints": [
+        "J19",
+        "J20"
+      ],
+      "seconds": 0.0031255000067176297,
+      "position": {
+        "offset": 19144048,
+        "bytes": 89112
+      },
+      "normal": {
+        "offset": 19233160,
+        "bytes": 44556
+      },
+      "index": {
+        "offset": 19277716,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "MOUNT Cable guide upper",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "52bf69b4ea7cdfadd599b36e017305ab9a73320d930ae13e5044fae9e52518bf",
+      "source_mesh": "source-output/65_MOUNT_Cable_guide_upper.stl",
+      "source_mesh_sha256": "f7b1dfd57e941869289056ce5451124b4eecde0f4102b813d8aa81eefbbb2f61",
+      "source_triangles": 29996,
+      "display_triangles": 23998,
+      "vertices": 14335,
+      "bounds_mm": [
+        -16.002431869506836,
+        33.0009880065918,
+        83.99568176269531,
+        90.00432586669922,
+        10.996539115905762,
+        19.004507064819336
+      ],
+      "display_bounds_mm": [
+        -16.002431869506836,
+        33.0009880065918,
+        83.99568176269531,
+        90.00432586669922,
+        10.996539115905762,
+        19.004507064819336
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -16.002431869506836,
+        83.99568176269531,
+        10.996539115905762
+      ],
+      "position_step_mm": [
+        0.0007477442268282175,
+        9.168602991849184e-05,
+        0.00012219375639688224
+      ],
+      "position_quantization_max_mm": 0.00037387211341410875,
+      "index_bytes": 2,
+      "description": "Upper cable-guide half, four bundle passages, three split-joint holes, and one tray ear.",
+      "joints": [
+        "J19",
+        "J20"
+      ],
+      "seconds": 0.002047000001766719,
+      "position": {
+        "offset": 19421716,
+        "bytes": 86010
+      },
+      "normal": {
+        "offset": 19507728,
+        "bytes": 43005
+      },
+      "index": {
+        "offset": 19550736,
+        "bytes": 143988
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J19 Cable guide split",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "a32f5cc0dcd526f6e80b9a5e107c7926d7865a89cdc751c97f0333b59b711166",
+      "source_mesh": "source-output/66_FAST_J19_Cable_guide_split.stl",
+      "source_mesh_sha256": "a81e8c8f7064ae9b2a9a32552772e5e175eecd5a72f27662e844ea5c76d56fda",
+      "source_triangles": 98770,
+      "display_triangles": 6000,
+      "vertices": 9913,
+      "bounds_mm": [
+        -15.502549171447754,
+        24.502599716186523,
+        76.49464416503906,
+        93.50398254394531,
+        11.50015640258789,
+        18.499906539916992
+      ],
+      "display_bounds_mm": [
+        -15.502549171447754,
+        24.482585906982422,
+        76.49589538574219,
+        93.50016021728516,
+        11.502349853515625,
+        18.497474670410156
+      ],
+      "bounds_max_error_mm": 0.020013809204101562,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 3,
+      "position_min_mm": [
+        -15.502549171447754,
+        76.49589538574219,
+        11.502349853515625
+      ],
+      "position_step_mm": [
+        0.0006101340404711664,
+        0.00025946844834834337,
+        0.00010673876386135817
+      ],
+      "position_quantization_max_mm": 0.0003050670202355832,
+      "index_bytes": 2,
+      "description": "Cable guide split: 3 screws, 3 nuts, and 6 washers. M3 x 14 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J19"
+      ],
+      "seconds": 0.006466900013037957,
+      "position": {
+        "offset": 19694724,
+        "bytes": 59478
+      },
+      "normal": {
+        "offset": 19754204,
+        "bytes": 29739
+      },
+      "index": {
+        "offset": 19783944,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J20 Cable guide to tray",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "1b59620d3291668f1e60b1d633c11386be6a4adaac427e0b19e5dca066ffd836",
+      "source_mesh": "source-output/67_FAST_J20_Cable_guide_to_tray.stl",
+      "source_mesh_sha256": "e938275faa8990e712b1ce3de58a9a1a667aa4328aca9ee51aa776ee2f788840",
+      "source_triangles": 68360,
+      "display_triangles": 6000,
+      "vertices": 7274,
+      "bounds_mm": [
+        -23.503482818603516,
+        32.503482818603516,
+        83.49687957763672,
+        94.50312042236328,
+        8.5,
+        23.5
+      ],
+      "display_bounds_mm": [
+        -23.503482818603516,
+        32.50090408325195,
+        83.49687957763672,
+        94.50206756591797,
+        8.5,
+        23.5
+      ],
+      "bounds_max_error_mm": 0.0025787353515625,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 2,
+      "position_min_mm": [
+        -23.503482818603516,
+        83.49687957763672,
+        8.5
+      ],
+      "position_step_mm": [
+        0.0008545721648260951,
+        0.0001679284032434225,
+        0.0002288853283971548
+      ],
+      "position_quantization_max_mm": 0.00042728608241304755,
+      "index_bytes": 2,
+      "description": "Cable guide to tray: 2 screws, 2 nuts, and 4 washers. M3 x 12 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J20"
+      ],
+      "seconds": 0.005311999993864447,
+      "position": {
+        "offset": 19819944,
+        "bytes": 43644
+      },
+      "normal": {
+        "offset": 19863588,
+        "bytes": 21822
+      },
+      "index": {
+        "offset": 19885412,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "ECU Connector plate",
+      "family": "Electrical and mounts",
+      "color": "#abb5bd",
+      "source_hash": "ac18e35de886d79c80e1302665cddd78a85a79ee7f8c26441ab19fb640f265c3",
+      "source_mesh": "source-output/68_ECU_Connector_plate.stl",
+      "source_mesh_sha256": "b0c2997329618b1222402c1fc542cfe34e188b50db4b3e0b3454c476d6a8adb3",
+      "source_triangles": 44846,
+      "display_triangles": 24000,
+      "vertices": 18073,
+      "bounds_mm": [
+        -19.00456428527832,
+        19.00456428527832,
+        88.99165344238281,
+        93.03661346435547,
+        9.996136665344238,
+        39.00386428833008
+      ],
+      "display_bounds_mm": [
+        -19.00456428527832,
+        19.00456428527832,
+        88.99165344238281,
+        93.03661346435547,
+        9.996136665344238,
+        39.00386428833008
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        -19.00456428527832,
+        88.99165344238281,
+        9.996136665344238
+      ],
+      "position_step_mm": [
+        0.0005799821228720248,
+        6.172213034005836e-05,
+        0.00044262956362217665
+      ],
+      "position_quantization_max_mm": 0.0002899910614360124,
+      "index_bytes": 2,
+      "description": "Plate with four bored terminal bosses at Z = 24 mm and two nominal tapped attachments at Z = 35 mm. Guide holes and screws clear the bundles. Connector contacts and cavities remain open.",
+      "joints": [
+        "J21"
+      ],
+      "seconds": 0.003799600002821535,
+      "position": {
+        "offset": 19921412,
+        "bytes": 108438
+      },
+      "normal": {
+        "offset": 20029852,
+        "bytes": 54219
+      },
+      "index": {
+        "offset": 20084072,
+        "bytes": 144000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FAST J21 Connector plate to ECU",
+      "family": "Fasteners",
+      "color": "#46515a",
+      "source_hash": "efee0a0f55824c85436fe1d4293a9b2dd881e78e1aec34f9e13f8d484f2a072b",
+      "source_mesh": "source-output/69_FAST_J21_Connector_plate_to_ECU.stl",
+      "source_mesh_sha256": "71a36a9899a7a31632de3a2325f2bca01d41963199908bdd0ce7ea7ff742d514",
+      "source_triangles": 33174,
+      "display_triangles": 6000,
+      "vertices": 5616,
+      "bounds_mm": [
+        -17.50019645690918,
+        17.499935150146484,
+        87.49207305908203,
+        98.50455474853516,
+        31.500335693359375,
+        38.49967956542969
+      ],
+      "display_bounds_mm": [
+        -17.50019645690918,
+        17.497785568237305,
+        87.49207305908203,
+        98.50455474853516,
+        31.501304626464844,
+        38.498695373535156
+      ],
+      "bounds_max_error_mm": 0.0021495819091796875,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 2,
+      "position_min_mm": [
+        -17.50019645690918,
+        87.49207305908203,
+        31.501304626464844
+      ],
+      "position_step_mm": [
+        0.0005340349744074047,
+        0.00016803969629108906,
+        0.00010677333921194077
+      ],
+      "position_quantization_max_mm": 0.00026701748720370233,
+      "index_bytes": 2,
+      "description": "Connector plate to ECU: 2 screws, 0 nuts, and 2 washers. M3 x 8 mm nominal screws. Threads and hardware use nominal envelopes. See the joint schedule for the mating stack and remaining definitions.",
+      "joints": [
+        "J21"
+      ],
+      "seconds": 0.0023469000007025898,
+      "position": {
+        "offset": 20228072,
+        "bytes": 33696
+      },
+      "normal": {
+        "offset": 20261768,
+        "bytes": 16848
+      },
+      "index": {
+        "offset": 20278616,
+        "bytes": 36000
+      },
+      "display_cache_reused": true
+    },
+    {
+      "name": "FUEL Pump outlet union",
+      "family": "Fuel and pipes",
+      "color": "#d67b35",
+      "source_hash": "ee59131a6472f02cc4a666b191bda8772ac6427531c0231b383e406b0185cafb",
+      "source_mesh": "source-output/70_FUEL_Pump_outlet_union.stl",
+      "source_mesh_sha256": "25ae986c55b70f620edf1b8a36b9c27c6c65c85d2a18f24d4145c608a06353c7",
+      "source_triangles": 8000,
+      "display_triangles": 8000,
+      "vertices": 4555,
+      "bounds_mm": [
+        65.89810180664062,
+        72.25224304199219,
+        -2.75459623336792,
+        2.75459623336792,
+        7.996947288513184,
+        15.001928329467773
+      ],
+      "display_bounds_mm": [
+        65.89810180664062,
+        72.25224304199219,
+        -2.75459623336792,
+        2.75459623336792,
+        7.996947288513184,
+        15.001928329467773
+      ],
+      "bounds_max_error_mm": 0.0,
+      "explode_mm": [
+        -90,
+        0,
+        -60
+      ],
+      "quantity": 1,
+      "position_min_mm": [
+        65.89810180664062,
+        -2.75459623336792,
+        7.996947288513184
+      ],
+      "position_step_mm": [
+        9.695797780295834e-05,
+        8.406488632317632e-05,
+        0.00010688915790524334
+      ],
+      "position_quantization_max_mm": 5.344457895262167e-05,
+      "index_bytes": 2,
+      "description": "Hexagonal union with a two-millimeter bore and matched clearance through the pump foot and both inlet-flange members. Cold route and bore checks pass. Threads, seals, and retention remain undefined.",
+      "joints": [],
+      "seconds": 0.0006412999937310815,
+      "position": {
+        "offset": 20314616,
+        "bytes": 27330
+      },
+      "normal": {
+        "offset": 20341948,
+        "bytes": 13665
+      },
+      "index": {
+        "offset": 20355616,
+        "bytes": 48000
+      },
+      "display_cache_reused": true
+    }
+  ],
+  "units": "mm",
+  "source": "Native Notebook API AT then Sharpen STL exports",
+  "display_method": "Topology-preserving mesh simplification, local 16-bit position quantization, 8-bit normals. Display copies only; original STL files remain unchanged.",
+  "raw_bytes": 20403616,
+  "compressed_bytes": 14484635,
+  "source_triangles": 36152420,
+  "display_triangles": 1399626
+}

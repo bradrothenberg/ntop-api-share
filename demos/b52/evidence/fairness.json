@@ -1,0 +1,28 @@
+{
+  "R6": {
+    "keel_curvature_reversals": 2,
+    "keel_curvature_range_per_m": [
+      -1.1568101209100243,
+      15.763143170361326
+    ],
+    "sample_count": 856,
+    "checked_region_m": [
+      0.003085,
+      0.12193000000000001
+    ],
+    "keel_peak_to_peak_curvature_per_m": 16.91995329127135
+  },
+  "R7": {
+    "keel_curvature_reversals": 0,
+    "keel_curvature_range_per_m": [
+      1.3396974137455138,
+      15.922130707861939
+    ],
+    "sample_count": 856,
+    "checked_region_m": [
+      0.003085,
+      0.12193000000000001
+    ],
+    "keel_peak_to_peak_curvature_per_m": 14.582433294116425
+  }
+}

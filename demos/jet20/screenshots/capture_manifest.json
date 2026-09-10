@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-09-09T12:36:02.846513+00:00",
+  "images": [
+    {
+      "view": "Assembled",
+      "image": "Jet20_Assembled_nTop.jpg",
+      "sha256": "946f0feb13152327d187c03cfbc9a992da98079c36360e6c95cad41800aa66dd",
+      "bytes": 188609,
+      "width": 1920,
+      "height": 1153,
+      "native_file": "../models/Jet20_Assembled.ntop",
+      "native_sha256": "0cb163f5aa0d4be20acc77c7309f9d867e7528c43aaf8e1143033f2e240b5912",
+      "application": "nTop 6.0.3",
+      "capture": "Unedited window capture; full application UI",
+      "visual_review": "Complete assembly framed; no section cut; no modal dialog"
+    },
+    {
+      "view": "Exploded",
+      "image": "Jet20_Exploded_nTop.jpg",
+      "sha256": "c44df71b49a8c1d99a1a050d09f780cf917d4ae21781d49320acd07390f58ade",
+      "bytes": 203329,
+      "width": 1920,
+      "height": 1152,
+      "native_file": "../models/Jet20_Exploded_Implicits.ntop",
+      "native_sha256": "6054856f925c99b6bcb4c91c27b3f4e50c0566d607eb4b935f69e30722149f23",
+      "application": "nTop 6.0.3",
+      "capture": "Unedited window capture; full application UI",
+      "visual_review": "Complete assembly framed; no section cut; no modal dialog"
+    }
+  ],
+  "native_implicit_verification_sha256": "7e4e80844e9cdea647a5943cf25b242c7ed9f51c5aad125459297acda2ac7db3",
+  "scope": "Recorded unedited nTop 6.0.3 UI captures on 2026-09-09. Presentation snapshots are separate from recipe-authoring build prerequisites."
+}

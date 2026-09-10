@@ -1,0 +1,1667 @@
+{
+  "method": "Native STL axial sections intersected with the mean-radius circle. Air gaps separate blade sectors. Group nearby crossings, use each sector outer faces for camber, and retain all internal crossing evidence. This is not a surface-smoothness or self-intersection check.",
+  "face_group_distance_mm": 0.05,
+  "tolerance_deg": 0.25,
+  "samples": [
+    {
+      "component": "Rotor",
+      "mesh": "source-output/sharp_component_01.stl",
+      "axial_fraction": 0.1,
+      "raw_intersections": 50,
+      "face_groups": 50,
+      "outer_faces_used": 50,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8032594611733236,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8037869909796472,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035164949839935,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8044306712655709,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802683717960377,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803954172532502,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.804349585081691,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8032810632840841,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8031336053975678,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8043787009701078,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033555749125125,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8037657019429435,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8038859223854509,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803238798284761,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033486872829906,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.801629910644012,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8041288678630235,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8027025024045159,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8040753321972247,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034779868735002,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8038110976829552,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8027738832922454,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8043990507845963,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8028771977350235,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8029983573997531,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": 0.9724137931034493,
+      "phase_error_deg": 0.0010481599819848915
+    },
+    {
+      "component": "Rotor",
+      "mesh": "source-output/sharp_component_01.stl",
+      "axial_fraction": 0.3,
+      "raw_intersections": 50,
+      "face_groups": 50,
+      "outer_faces_used": 50,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8031583382490223,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803458263207153,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022829831520121,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8036821111665127,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8025782119991046,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033142491353978,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8039341357920824,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8032841940247736,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8031533290639182,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8036489253151954,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8028843984386231,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033142491354013,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035459239464844,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8037137316474803,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033962745414861,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8040418332718264,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8036905641663737,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8027898500697802,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033693501715531,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8036548737225125,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8031599036193648,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8027945461808149,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8037231238695498,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035750398349081,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.80210390478453,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": 1.3034482758620718,
+      "phase_error_deg": 0.0006304500139697137
+    },
+    {
+      "component": "Rotor",
+      "mesh": "source-output/sharp_component_01.stl",
+      "axial_fraction": 0.5,
+      "raw_intersections": 50,
+      "face_groups": 50,
+      "outer_faces_used": 50,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034654639107456,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033054830614661,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8038458489046151,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033956483933449,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035196257246787,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803504598169373,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8032635311362241,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803580362094077,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8031476937306773,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035866235754474,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034003445043796,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035434193539334,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034213204670024,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033164406538746,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034100498005162,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803520251872813,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033878215416389,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033943960970764,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033809339121064,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034823699104678,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034588893552942,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033571402828656,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033828123565092,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8032350413959346,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8029219673269149,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": -0.5172413793103408,
+      "phase_error_deg": 0.00033986144972215633
+    },
+    {
+      "component": "Rotor",
+      "mesh": "source-output/sharp_component_01.stl",
+      "axial_fraction": 0.7,
+      "raw_intersections": 50,
+      "face_groups": 50,
+      "outer_faces_used": 50,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034194420225962,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035421670576579,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803377177023273,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803468907725498,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034685946514308,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034372872445232,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034545063183266,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034789260957156,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034322780594353,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034623331700604,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803377177023273,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035471762427528,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034300865409376,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034701600217943,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034698469476993,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803415372059713,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035744136867599,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033724809122383,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033173798760622,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035155557617782,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034817437623336,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033824992824421,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034000314303125,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034795522438637,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8032557042844763,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": -4.489655172413787,
+      "phase_error_deg": 0.0001293144506437557
+    },
+    {
+      "component": "Rotor",
+      "mesh": "source-output/sharp_component_01.stl",
+      "axial_fraction": 0.9,
+      "raw_intersections": 50,
+      "face_groups": 50,
+      "outer_faces_used": 50,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8027071985155507,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034632723922618,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035155557617921,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035208780209611,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033702893937545,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034667162070176,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033399212090605,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034313388372183,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.803397839911832,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034385395408057,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034955190213707,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8032356675440723,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034808045401184,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034344695779052,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034009706525208,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033922045785926,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035155557617921,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8035117988729588,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033978399118425,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8033969006896273,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034930144288198,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034278950224677,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034704730958475,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8034804914660651,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.80344480102219,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": -10.61379310344827,
+      "phase_error_deg": 3.8896362942773886e-05
+    },
+    {
+      "component": "Stator",
+      "mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+      "axial_fraction": 0.1,
+      "raw_intersections": 38,
+      "face_groups": 38,
+      "outer_faces_used": 38,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019545684535954,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021111054881087,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020068518231221,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020228186006431,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019952680825689,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019742921199462,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020400376744464,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020459860817496,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019458023796567,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.80205788289637,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020697797110043,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020365938596802,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020434814892126,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019486200462886,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020043472305712,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020760411923886,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021139231547337,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020290800820413,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019326532687538,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": 0.3227586206896553,
+      "phase_error_deg": 0.0006707925291750626
+    },
+    {
+      "component": "Stator",
+      "mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+      "axial_fraction": 0.3,
+      "raw_intersections": 38,
+      "face_groups": 38,
+      "outer_faces_used": 38,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019379755279368,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019937027122194,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802014678674856,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019893196752657,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.801987441230849,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020729104516896,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020200009340389,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019896327493328,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019589514905873,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020801111552891,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020628920814858,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020228186006431,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802033776193076,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802044420711414,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020970171549975,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020293931561084,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020600744148538,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020591351926802,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019771097865364,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": 2.904827586206897,
+      "phase_error_deg": 0.0004832866744556676
+    },
+    {
+      "component": "Stator",
+      "mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+      "axial_fraction": 0.5,
+      "raw_intersections": 38,
+      "face_groups": 38,
+      "outer_faces_used": 38,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8019999641936071,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020140525267148,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020475514520992,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020719712294813,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020672751184534,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020679012665877,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020544390816178,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020879380069952,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020265754894625,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020920079698957,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020575698223168,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020566306001154,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020910687476943,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020888772291965,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020741627479859,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020741627479859,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020566306000877,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020713450813262,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020431684151454,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": 8.06896551724138,
+      "phase_error_deg": 0.0003927034350995518
+    },
+    {
+      "component": "Stator",
+      "mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+      "axial_fraction": 0.7,
+      "raw_intersections": 38,
+      "face_groups": 38,
+      "outer_faces_used": 38,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020757281183111,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021655803761245,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802238526634208,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021176800435619,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021674588205394,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022044015606866,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021129839325254,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.80221222841241,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021871824868867,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021687111168149,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021082878214837,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802166206524264,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022131676346114,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802163701931713,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021189323398494,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021831125239862,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021574404503149,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8020963910068633,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8021596319688126,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": 15.815172413793102,
+      "phase_error_deg": 0.0003680793875007081
+    },
+    {
+      "component": "Stator",
+      "mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+      "axial_fraction": 0.9,
+      "raw_intersections": 38,
+      "face_groups": 38,
+      "outer_faces_used": 38,
+      "blade_sectors": [
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022451011896671,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023574947804476,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023496679287138,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023099075219242,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8024210488164502,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022892446333825,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.80232055204029,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022817308557436,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023506071509012,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023236827809891,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022942538185122,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023164820774173,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023130382626511,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023553032619638,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023095944478849,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8022829831520399,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.8023095944478849,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802272338633702,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        },
+        {
+          "face_groups": 2,
+          "raw_crossings": 2,
+          "outer_width_mm": 0.802317108225496,
+          "internal_crossing_angles_rad": [],
+          "internal_crossing_span_mm": 0
+        }
+      ],
+      "expected_phase_deg": 26.143448275862074,
+      "phase_error_deg": 0.0003950473215725535
+    }
+  ]
+}

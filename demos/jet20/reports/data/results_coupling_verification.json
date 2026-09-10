@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "native_radius_multiplier": 1.0,
+      "nozzle_radius_m": 0.022647257475923784,
+      "conditional_thrust_lbf": 20.0,
+      "expected_lbf": 20.0
+    },
+    {
+      "native_radius_multiplier": 1.05,
+      "nozzle_radius_m": 0.023779620349719973,
+      "conditional_thrust_lbf": 22.049999999999997,
+      "expected_lbf": 22.05
+    }
+  ],
+  "native_restored": true,
+  "meaning": "Geometry-to-cycle continuity check; not a component map or an off-design performance validation."
+}

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.ntop binary
+*.png binary
+*.jpg binary
+*.gz binary
+*.ac binary
+# Preserve whitespace inside the bundled Three.js shader source.
+demos/jet20/reports/index.html whitespace=-blank-at-eol

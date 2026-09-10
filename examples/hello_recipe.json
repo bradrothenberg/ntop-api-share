@@ -1,0 +1,109 @@
+{
+  "displayname": "Notebook API hello",
+  "description": "Two scalars and an SI sphere.",
+  "inputs": [],
+  "name": "user_func_ntop_api_hello",
+  "namespaces": [],
+  "version": [
+    1,
+    0,
+    0
+  ],
+  "body": [
+    {
+      "id": "a",
+      "name": "Harness a",
+      "type": "real",
+      "variable": true,
+      "contents": {
+        "type": "real",
+        "value": {
+          "val": 2.0,
+          "units": {},
+          "isFinite": true
+        }
+      }
+    },
+    {
+      "id": "b",
+      "name": "Harness b",
+      "type": "real",
+      "variable": true,
+      "contents": {
+        "type": "real",
+        "value": {
+          "val": 3.0,
+          "units": {},
+          "isFinite": true
+        }
+      }
+    },
+    {
+      "id": "sum",
+      "name": "Harness sum",
+      "type": "real",
+      "variable": true,
+      "contents": {
+        "func": "add<real,real>",
+        "id": "plus",
+        "name": "Add",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "a"
+            },
+            "props": []
+          },
+          {
+            "ref": {
+              "id": "b"
+            },
+            "props": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "ball",
+      "name": "Harness sphere",
+      "type": "implicit",
+      "variable": true,
+      "contents": {
+        "func": "sphere<point,real>",
+        "id": "sphere",
+        "name": "Sphere",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "val": 0.0,
+                "isFinite": true
+              },
+              {
+                "val": 0.0,
+                "isFinite": true
+              },
+              {
+                "val": 0.0,
+                "isFinite": true
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "val": 0.01,
+              "isFinite": true,
+              "units": {
+                "length": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

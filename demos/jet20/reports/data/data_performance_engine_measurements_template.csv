@@ -1,0 +1,1 @@
+point_id,altitude_m,mach,ambient_temperature_K,ambient_pressure_Pa,rpm,air_mass_flow_kg_s,fuel_mass_flow_kg_s,net_thrust_N,Tt2_K,pt2_Pa,Tt3_K,pt3_Pa,Tt4_K,pt4_Pa,Tt5_K,pt5_Pa,accessory_power_W,measurement_uncertainty_reference

@@ -1,0 +1,26 @@
+{
+  "target": "2022 PEO Ships DDG(X) exterior concept",
+  "attachment": "user-concept.png",
+  "sources": [
+    {
+      "title": "DDG(X) Program, CAPT David Hart, 12 January 2022",
+      "url": "https://www.navsea.navy.mil/Portals/103/Documents/Exhibits/SNA2022/SNA2022-CAPTDavidHart-DDGX-Program.pdf",
+      "authority": "U.S. Navy / NAVSEA / PEO Ships",
+      "use": "Concept identity and visible external arrangement. No dimensioned three-view set."
+    },
+    {
+      "title": "PEO Ships 2022 DDG(X) concept image archive",
+      "url": "https://commons.wikimedia.org/wiki/File:DDG(X)_SNA_2022.png",
+      "authority": "Archive of U.S. Navy image, credited to NAVSEA / PEO Ships",
+      "use": "Image provenance; original 1846 by 1168 pixels."
+    }
+  ],
+  "reference_views": {"plan": null, "side": null, "front": null},
+  "search_record": {
+    "date": "2026-09-09",
+    "queries": ["DDG(X) 2022 concept orthographic top side front drawing dimensions", "DDG(X) three view", "DDG(X) plan view", "DDG(X) front view", "site.navsea.navy.mil DDGX 2023 2024 pdf design rendering"],
+    "finding": "No matching independent orthographic set located. The source release and later references show perspective concept renderings."
+  },
+  "acceptance": {"metric": "silhouette intersection over union", "threshold_each_view": 0.99, "status": "unverified: independent orthographic references unavailable"},
+  "dimensions": {"physical_length": null, "model_length_m": 1.0, "meaning": "normalization convention, not real ship length"}
+}

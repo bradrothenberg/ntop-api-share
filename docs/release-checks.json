@@ -1,0 +1,271 @@
+{
+  "recorded_utc": "2026-09-10T18:53:16.653571+00:00",
+  "scope": "Fresh independent local Git clone before release-receipt additions. No source workspaces required and no new native execution.",
+  "recipient_setup": {
+    "locked_uv_sync": true,
+    "python": "3.12.11",
+    "bootstrap": true,
+    "cleared_environment": [
+      "NTOP_PYSCRIPTS",
+      "NTOP_API_ROOT",
+      "NTOP_EXE",
+      "PYTHONPATH",
+      "PYTHONHOME",
+      "VIRTUAL_ENV"
+    ],
+    "checkout_path_contains_spaces": true,
+    "tracked_files_unchanged_after_checks": true
+  },
+  "tests": {
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 2.51
+  },
+  "builds": [
+    {
+      "variables": 1106,
+      "expressions": 1473,
+      "functions": 34,
+      "references_resolve": true,
+      "scope": "offline graph validation",
+      "demo": "i6",
+      "seconds": 0.516,
+      "recipe": "demos/i6/output/_agent/engine_full.json"
+    },
+    {
+      "variables": 254,
+      "expressions": 4276,
+      "functions": 36,
+      "references_resolve": true,
+      "scope": "offline graph validation",
+      "demo": "i6-astra",
+      "seconds": 1.922,
+      "recipe": "demos/i6-astra/output/evidence/engine_recipe.json"
+    },
+    {
+      "variables": 532,
+      "expressions": 4059,
+      "functions": 36,
+      "references_resolve": true,
+      "scope": "offline graph validation",
+      "demo": "jet20",
+      "seconds": 2.875,
+      "recipe": "demos/jet20/output/build/jet20_recipe.json"
+    },
+    {
+      "variables": 373,
+      "expressions": 1909,
+      "functions": 48,
+      "references_resolve": true,
+      "scope": "offline graph validation",
+      "demo": "fury",
+      "seconds": 2.062,
+      "recipe": "demos/fury/output/_agent/rc_native_recipe.json"
+    },
+    {
+      "variables": 409,
+      "expressions": 553,
+      "functions": 21,
+      "references_resolve": true,
+      "scope": "offline graph validation",
+      "demo": "b52",
+      "seconds": 0.313,
+      "recipe": "demos/b52/output/build/final_recipe.json"
+    },
+    {
+      "variables": 123,
+      "expressions": 776,
+      "functions": 29,
+      "references_resolve": true,
+      "scope": "offline graph validation",
+      "demo": "ddgx",
+      "seconds": 2.25,
+      "recipe": "demos/ddgx/output/build/ddgx.json"
+    }
+  ],
+  "smoke": {
+    "passed": true,
+    "runs": [
+      {
+        "demo": "i6",
+        "returncode": 0,
+        "seconds": 0.797
+      },
+      {
+        "demo": "i6-astra",
+        "returncode": 0,
+        "seconds": 2.125
+      },
+      {
+        "demo": "jet20",
+        "returncode": 0,
+        "seconds": 3.078
+      },
+      {
+        "demo": "fury",
+        "returncode": 0,
+        "seconds": 2.297
+      },
+      {
+        "demo": "b52",
+        "returncode": 0,
+        "seconds": 0.531
+      },
+      {
+        "demo": "ddgx",
+        "returncode": 0,
+        "seconds": 2.485
+      }
+    ],
+    "scope": "offline source builders; no new native execution"
+  },
+  "code_and_input_manifest_sha256": "b5711b0befa554806be3be790834ea34c0e164f5181ee0a9e05d7f87913112c7",
+  "code_and_input_files": [
+    ".github/workflows/check.yml",
+    ".python-version",
+    "demos/b52/inputs/base_checks.json",
+    "demos/b52/inputs/cap.json",
+    "demos/b52/inputs/checks.json",
+    "demos/b52/inputs/final_recipe.json",
+    "demos/b52/inputs/public_loft.json",
+    "demos/b52/inputs/reference_sections.json",
+    "demos/b52/scripts/build_fuselage.py",
+    "demos/b52/scripts/nose_geometry.py",
+    "demos/ddgx/inputs/ntop_block_catalog.json",
+    "demos/ddgx/scripts/build_ddgx.py",
+    "demos/ddgx/scripts/fair_forward_guides.py",
+    "demos/ddgx/scripts/guide_fit.py",
+    "demos/ddgx/scripts/recipe.py",
+    "demos/ddgx/scripts/smooth_native.py",
+    "demos/fury/inputs/catalog.json",
+    "demos/fury/inputs/source_profiles.json",
+    "demos/fury/scripts/build_rc_native.py",
+    "demos/fury/scripts/make_notebook.py",
+    "demos/fury/scripts/native_gap_divider.py",
+    "demos/fury/scripts/native_inlet_duct.py",
+    "demos/fury/scripts/native_internal_layout.py",
+    "demos/fury/scripts/native_root_blend_checks.py",
+    "demos/fury/scripts/native_root_blends.py",
+    "demos/i6-astra/inputs/initial_state.json",
+    "demos/i6-astra/scripts/build_engine.py",
+    "demos/i6-astra/scripts/check_gears.py",
+    "demos/i6-astra/scripts/native_graph.py",
+    "demos/i6-astra/scripts/ntop_runtime.py",
+    "demos/i6/scripts/dry_run.py",
+    "demos/i6/scripts/engine.py",
+    "demos/i6/scripts/engine_spec.py",
+    "demos/i6/scripts/make_engine_recipe.py",
+    "demos/i6/scripts/recipe_backend.py",
+    "demos/jet20/inputs/design.json",
+    "demos/jet20/inputs/hardware.json",
+    "demos/jet20/scripts/assembly_detail.py",
+    "demos/jet20/scripts/build_jet.py",
+    "demos/jet20/scripts/cycle.py",
+    "demos/jet20/scripts/make_documentation_exports.py",
+    "demos/jet20/scripts/native_graph.py",
+    "demos/jet20/scripts/service_interfaces.py",
+    "demos/jet20/scripts/service_routes.py",
+    "demos/jet20/scripts/shared_expressions.py",
+    "demos/jet20/scripts/verify.py",
+    "harness/agent.py",
+    "harness/ntop_api.py",
+    "pyproject.toml",
+    "scripts/audit.py",
+    "scripts/bootstrap.ps1",
+    "scripts/build.py",
+    "scripts/check_repo.py",
+    "scripts/collapse_saved_notebook.py",
+    "scripts/ntop_console_post.ps1",
+    "scripts/organize_notebook.py",
+    "scripts/prepare.py",
+    "scripts/project.py",
+    "scripts/render_report.py",
+    "scripts/smoke.py",
+    "scripts/stage.py",
+    "scripts/verify_recipe.py",
+    "tests/test_handoff.py",
+    "uv.lock"
+  ],
+  "notebooks_prepared": 12,
+  "portable_paths_resolved": 13,
+  "native_container_checks": [
+    {
+      "file": "demos/b52/models/B52F_Fair_Nose_Blend.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/ddgx/models/DDGX_Concept.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/fury/models/Fury_RC_Internal_Layout.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/fury/models/Fury_RC_Layout_Gear_Illustration.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/fury/models/Fury_RC_Native.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/i6-astra/models/I6_Astra.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/i6-astra/models/I6_Astra_Inspection.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/i6/models/I6_Engine.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/jet20/models/Jet20.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/jet20/models/Jet20_Assembled.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/jet20/models/Jet20_Exploded_Implicits.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "demos/jet20/models/Jet20_Inspection.ntop",
+      "json_chunks": 11,
+      "roundtrip": true
+    }
+  ],
+  "audit": {
+    "files": 211,
+    "bytes": 119289261,
+    "embedded_payloads": 76,
+    "gzip_payloads": 1,
+    "images_scanned": 92,
+    "local_links": 164,
+    "findings": [],
+    "scope": "Pattern checks, native roundtrips, resource links, image metadata, and embedded/compressed payloads. Visual/provenance review is recorded separately."
+  },
+  "additional_checks": [
+    "PowerShell parser accepted both scripts",
+    "B52 staged import script generated in recipient checkout",
+    "Original B52 source and native jet screenshot/model hashes verified",
+    "All published report images visually reviewed",
+    "All six reports passed offline browser and mobile checks"
+  ]
+}

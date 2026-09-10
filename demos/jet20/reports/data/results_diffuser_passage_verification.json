@@ -1,0 +1,64 @@
+{
+  "native_vane_regions": 17,
+  "expected_vanes": 17,
+  "post_to_vane_clearance_mm": [
+    5.077500103910049,
+    5.077527356812704,
+    5.077410041289603,
+    5.0775815968195595,
+    5.077387569788028,
+    5.0775223857567635
+  ],
+  "minimum_clearance_mm": 5.077387569788028,
+  "post_sections": [
+    {
+      "center_mm": [
+        38.2172273439157,
+        35.2624947237637,
+        52.0
+      ],
+      "post_radius_error_mm": 0.008909629797468899
+    },
+    {
+      "center_mm": [
+        -14.530806759699693,
+        49.92850543439355,
+        52.0
+      ],
+      "post_radius_error_mm": 0.009221126860580853
+    },
+    {
+      "center_mm": [
+        -51.171103170265994,
+        9.247605113649373,
+        52.0
+      ],
+      "post_radius_error_mm": 0.008419792751535038
+    },
+    {
+      "center_mm": [
+        -31.08704002107223,
+        -41.68448083793601,
+        52.0
+      ],
+      "post_radius_error_mm": 0.009573244603352737
+    },
+    {
+      "center_mm": [
+        23.457730960361577,
+        -46.40834901384981,
+        52.0
+      ],
+      "post_radius_error_mm": 0.009919943937847009
+    },
+    {
+      "center_mm": [
+        48.60057491692997,
+        -18.492812596894996,
+        52.0
+      ],
+      "post_radius_error_mm": 0.010818332684050525
+    }
+  ],
+  "scope": "Cold geometric passage check. No pressure loss, aerodynamic capacity, hot growth, or strength prediction."
+}

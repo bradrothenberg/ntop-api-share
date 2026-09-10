@@ -1,0 +1,97 @@
+{
+  "stem": "ddgx",
+  "started": 1789053587.4250617,
+  "import_seconds": 208.75215190000017,
+  "variable_count": 123,
+  "length_readback_inches": 39.37007874015748,
+  "checks": {
+    "hull center": {
+      "display_value": -1.3386054386246433,
+      "expected_inside": true,
+      "pass": true
+    },
+    "hull outside beam": {
+      "display_value": 1.2785259057616438,
+      "expected_inside": false,
+      "pass": true
+    },
+    "above deck": {
+      "display_value": 1.0235992857848055,
+      "expected_inside": false,
+      "pass": true
+    },
+    "lower bilge": {
+      "display_value": -0.6341283348215319,
+      "expected_inside": true,
+      "pass": true
+    },
+    "bow root lower": {
+      "display_value": -0.5574290174268154,
+      "expected_inside": true,
+      "pass": true
+    },
+    "bow root neck": {
+      "display_value": -0.6460205834454539,
+      "expected_inside": true,
+      "pass": true
+    },
+    "bow root upper": {
+      "display_value": -0.5700198978041103,
+      "expected_inside": true,
+      "pass": true
+    },
+    "bow tip interior": {
+      "display_value": -0.28894749432364375,
+      "expected_inside": true,
+      "pass": true
+    },
+    "below bulb": {
+      "display_value": 0.27686936969745096,
+      "expected_inside": false,
+      "pass": true
+    },
+    "forward section 0.65 inside": {
+      "display_value": -0.02922103915906502,
+      "expected_inside": true,
+      "pass": true
+    },
+    "forward section 0.65 outside": {
+      "display_value": 0.030027373529821634,
+      "expected_inside": false,
+      "pass": true
+    },
+    "forward section 0.75 inside": {
+      "display_value": -0.030378031033483025,
+      "expected_inside": true,
+      "pass": true
+    },
+    "forward section 0.75 outside": {
+      "display_value": 0.03100718638687345,
+      "expected_inside": false,
+      "pass": true
+    },
+    "forward section 0.85 inside": {
+      "display_value": -0.03414239323689348,
+      "expected_inside": true,
+      "pass": true
+    },
+    "forward section 0.85 outside": {
+      "display_value": 0.0344494279141589,
+      "expected_inside": false,
+      "pass": true
+    },
+    "forward section 0.92 inside": {
+      "display_value": -0.037302041882728454,
+      "expected_inside": true,
+      "pass": true
+    },
+    "forward section 0.92 outside": {
+      "display_value": 0.037394224195486124,
+      "expected_inside": false,
+      "pass": true
+    }
+  },
+  "saved_sha256": "ec6a9d0922df7f82a34d10ee586d79f5c531cdefa1b783095fafbac4cfacacf6",
+  "ok": true,
+  "finished": 1789053805.3548741
+}

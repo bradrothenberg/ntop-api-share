@@ -1,0 +1,118 @@
+{
+  "revision": "R2",
+  "requirement": "J20-GEO-012",
+  "created_utc": "2026-09-08T22:31:42.685993+00:00",
+  "passed": true,
+  "mesh": "source-output/10_TURB_Nozzle_guide_vanes.stl",
+  "mesh_sha256": "5d296625a8fe32420585fafdee67c17c59923e8e2a9b02a82f85bcb7107ede6e",
+  "source_hash": "64aefa7c89d2ea75cf438c7f0afc44afe1c8c0139e9067e7757e52d0f5f39d30",
+  "native_source_unchanged": true,
+  "native_probe_readback_matches": true,
+  "mesher": "mesh_from_implicit_body_2<implicit,real>",
+  "mesh_tolerance_mm": 0.2,
+  "sharpen_iterations": 1,
+  "sharpen_against_same_source": true,
+  "numerical_island_filter": null,
+  "topology": {
+    "surface_regions": 1,
+    "watertight": true,
+    "winding_consistent": true,
+    "euler_number": -64,
+    "expected_euler": -64,
+    "expected_genus": 33,
+    "through_hole_accounting": {
+      "vane_gas_passages": 19,
+      "central_bore": 1,
+      "J22_axial_holes": 6,
+      "web_vent_holes": 3,
+      "J08_axial_holes": 4
+    }
+  },
+  "annulus_sections": {
+    "axial_planes": 99,
+    "radii": 15,
+    "circles": 1485,
+    "failed_circles": 0,
+    "expected_crossings_per_circle": 38,
+    "receipt": "results/ngv_scan_ngv_standard_0.2_sharp.json"
+  },
+  "frame_cap_disposition": {
+    "mesh": "exports\\R2_probe\\ngv_standard_0.2_sharp.stl",
+    "sha256": "5d296625a8fe32420585fafdee67c17c59923e8e2a9b02a82f85bcb7107ede6e",
+    "frame_end_z_mm": 187.689948813799,
+    "section_brackets": [
+      {
+        "offset_mm": -0.05,
+        "section_regions": 27,
+        "regions_reaching_gas_annulus": 20,
+        "regions_outside_gas_annulus": 7
+      },
+      {
+        "offset_mm": -0.01,
+        "section_regions": 27,
+        "regions_reaching_gas_annulus": 20,
+        "regions_outside_gas_annulus": 7
+      },
+      {
+        "offset_mm": -0.001,
+        "section_regions": 335,
+        "regions_reaching_gas_annulus": 20,
+        "regions_outside_gas_annulus": 315
+      },
+      {
+        "offset_mm": 0,
+        "section_regions": 863,
+        "regions_reaching_gas_annulus": 20,
+        "regions_outside_gas_annulus": 843
+      },
+      {
+        "offset_mm": 0.001,
+        "section_regions": 485,
+        "regions_reaching_gas_annulus": 20,
+        "regions_outside_gas_annulus": 465
+      },
+      {
+        "offset_mm": 0.01,
+        "section_regions": 21,
+        "regions_reaching_gas_annulus": 20,
+        "regions_outside_gas_annulus": 1
+      },
+      {
+        "offset_mm": 0.05,
+        "section_regions": 21,
+        "regions_reaching_gas_annulus": 20,
+        "regions_outside_gas_annulus": 1
+      }
+    ],
+    "surface_regions": 1,
+    "near_cap_vertices": 560506,
+    "cap_z_offsets_mm": [
+      -0.00017525422867947782,
+      2.311002913302218e-05
+    ],
+    "stl_float32_spacing_mm": 1.52587890625e-05,
+    "seconds": 27.013534999990952,
+    "interpretation": "The frame-end sweep measures tessellation waviness of the external nominally flat cap. Report measured offsets and region locations; do not label this solely as float32 roundoff. The gas-annulus circle screen and global Euler/connected-region checks separately test internal crossings and surface topology. Manufacturing surface tolerance remains undefined."
+  },
+  "evidence_sha256": {
+    "results/ngv_standard_probe.json": "d3d3e68f5e5a706fde4c30ef8c0ca45fc8485b7a9b083e7d16ad8fb66fffaea4",
+    "build/ngv_probe/standard.json": "21b1efb5bea5fc1b6bb208f26bddc169d4c8410dd1fe9edaa643e105894d8b72",
+    "build/ngv_probe/standard_readback.json": "7380f17e088fee127a559c62fc907d2ef91f702d2de1b984020f21f1910ef01d",
+    "results/ngv_diagnostic_ngv_standard_0.2_sharp.json": "1365e12d6a77c70d8876372972636103e4c8d782ec2775a40febdc7b44a5b8a2",
+    "results/ngv_scan_ngv_standard_0.2_sharp.json": "8f2048f81bed12ecced5c96a248520cb0de87d853c0f2e7d520ff4c004de0fda",
+    "results/ngv_cap_ngv_standard_0.2_sharp.json": "9d9fc3b87ce562ec56eeb7a2f956cccfd4a194e967370db8d27ce68e30770b2b",
+    "_agent/ngv_diagnostic.py": "ee22194046ec06cb2e10ad5ed0611f5df44ba09a142ef594772fd965b3c7610a",
+    "_agent/ngv_scan.py": "66d4c740a47151438a18185aa132d323269a18a286b6f4d359d36cf15945986f",
+    "_agent/ngv_cap_disposition.py": "42dc5e7b910f6d2d5fb2ed69298b79c3ae252381ffc8803e45ef8d9983eac840",
+    "tools/adopt_ngv_export_r2.py": "b05d88b850a544bc31905b5cf38877e64a26468636ea99fd28d1fae1d54f902c"
+  },
+  "rejected_baseline": {
+    "mesh": "exports/P1/10_TURB_Nozzle_guide_vanes.stl",
+    "mesh_sha256": "593a1205c52a9ed98f15aec3c00a3f59942f82cc9e47b60ffb69ef871527d2a5",
+    "euler_number": -5470,
+    "original_failed_sample_sectors": 4,
+    "broad_scan_failed_circles": 73,
+    "broad_scan_circles": 440
+  },
+  "scope": "Corrects internal vane-mesh contours and excess surface handles. Near-coplanar slice loops are located on the external frame cap and edge transitions, outside the gas annulus. This is a cold mesh inspection, not a drawing tolerance, aerodynamic validation, or manufacturing release."
+}

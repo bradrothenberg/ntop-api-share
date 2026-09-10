@@ -1,0 +1,24 @@
+{
+  "image": "assets/requirements/ngv_correction.png",
+  "image_sha256": "bc2d6101d8f8058e2ea67dc0713d8d1c9f59b3f27ed7d6aeb59abb31ce9b598c",
+  "sources": [
+    {
+      "path": "exports/P1/10_TURB_Nozzle_guide_vanes.stl",
+      "mesh_sha256": "593a1205c52a9ed98f15aec3c00a3f59942f82cc9e47b60ffb69ef871527d2a5"
+    },
+    {
+      "path": "exports/R2/10_TURB_Nozzle_guide_vanes.stl",
+      "mesh_sha256": "5d296625a8fe32420585fafdee67c17c59923e8e2a9b02a82f85bcb7107ede6e"
+    }
+  ],
+  "plane_z_mm": 192.489948813799,
+  "axial_fraction": 0.9,
+  "inspection_center_xy_mm": [
+    31.019682348521375,
+    4.234741313976683
+  ],
+  "displayed_width_mm": 1.6,
+  "method": "Exact planar intersections of original native STL triangles. Identical plane, center and scale. No decimation or contour removal.",
+  "selection": "Largest internal-crossing span in the preserved R1 camber receipt.",
+  "surface_receipt_sha256": "59ae5b06d4327f43017151d859d4eee6a7d9cfc62a2fbd689fb8f4fa2db50bbd"
+}

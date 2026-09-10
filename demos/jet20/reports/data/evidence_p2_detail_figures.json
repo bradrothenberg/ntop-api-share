@@ -1,0 +1,571 @@
+[
+  {
+    "id": "diffuser_turn",
+    "title": "P2 / OPEN DIFFUSER TURN AND FRONT SUPPORT",
+    "image": "assets/corrections/diffuser_turn.png",
+    "normal": [
+      0.17364817766693033,
+      0.984807753012208,
+      0.0
+    ],
+    "origin_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "Native AT then Sharpen STL. Planar clipping and intersection outlines. No decimation. Flow overlays are interpretation.",
+    "sources": [
+      {
+        "name": "COMP Impeller",
+        "path": "source-output/sharp_component_00.stl",
+        "source_triangles": 2461260,
+        "source_hash": "87e318a6c364c7a3bd18c0803a3554f8598341e2f35e82fb9f857c50103e5914",
+        "mesh_sha256": "d226c520cd5c070b7df0d2e1e40cf2cff3eb08f68c1c562ae7d961468bce8697"
+      },
+      {
+        "name": "COMP Shroud",
+        "path": "source-output/01_COMP_Shroud.stl",
+        "source_triangles": 690854,
+        "source_hash": "d24b47973be1f2158655b3d926193d5a6c41c96cf72032dba93d98675bf54c36",
+        "mesh_sha256": "6f335f8b5ddb4bbbaf531275d0568de794979d2a6f9b0c96c65ee9e65b8f3ee4"
+      },
+      {
+        "name": "COMP Diffuser vanes",
+        "path": "source-output/02_COMP_Diffuser_vanes.stl",
+        "source_triangles": 171280,
+        "source_hash": "5d796d6e85c51aaf0e9d99f420554d95e11359d2ab58cdc35992b342e9efec20",
+        "mesh_sha256": "ca42a8646daeff24caed54e71d663e90f789cbfb54abae9fb99b5d3390cabe43"
+      },
+      {
+        "name": "COMP Diffuser backplate",
+        "path": "source-output/03_COMP_Diffuser_backplate.stl",
+        "source_triangles": 165524,
+        "source_hash": "7eb386b614cae0181840535e49ae4abb896680145415391d23809b3b13fe2f86",
+        "mesh_sha256": "8e47e63892b7f715bbdd6884b4145059441063ea42116f667581c05df75d0b24"
+      },
+      {
+        "name": "BURN Outer liner",
+        "path": "source-output/04_BURN_Outer_liner.stl",
+        "source_triangles": 1752072,
+        "source_hash": "d2f75fdc62c4abf44b10c3fb17b80149e6697ec4a314cb2cd2c5519b5136e0a2",
+        "mesh_sha256": "ebcb421732ac30e20b6c50f2df2085b497159e6806e6eddcc7844e6d4cc266a9"
+      },
+      {
+        "name": "BURN Inner liner",
+        "path": "source-output/05_BURN_Inner_liner.stl",
+        "source_triangles": 666956,
+        "source_hash": "f6dfbfecaaf07dd6764fa2e88424e23b941ca9f67b35620898ccf2a0d4145348",
+        "mesh_sha256": "9d57b15f914367aa7241fd9e408d01e0276537816b837555d9e7fe3910ebd0b4"
+      },
+      {
+        "name": "BURN Dome",
+        "path": "source-output/06_BURN_Dome.stl",
+        "source_triangles": 160492,
+        "source_hash": "d3b9eb7abb1b0918e3717208c688e21942057a5546e3ea7761c5b6cd90d63b1e",
+        "mesh_sha256": "98c635f6e09e3941d404911abca3eb3246a9c489e2f508598310122ed89564da"
+      },
+      {
+        "name": "SHAFT Common shaft",
+        "path": "source-output/12_SHAFT_Common_shaft.stl",
+        "source_triangles": 29328,
+        "source_hash": "6bae27d2e443043d95eceb51da3c1172d6f8288fc6bc8cf2511b08708ff74489",
+        "mesh_sha256": "8f69dbcf13d076b2c7104ee4cfafdc5e27ed605f717c161cb34cbe8e5fe07e6e"
+      },
+      {
+        "name": "BEARING Front cartridge",
+        "path": "source-output/13_BEARING_Front_cartridge.stl",
+        "source_triangles": 16304,
+        "source_hash": "4b56cc4d3ff6380e0867d2e2eb7fd0b44e9c4afb02c363e5ad3ce1d8bfa79499",
+        "mesh_sha256": "0071c2642160e2edd37d0b090c4482a4fb8fb4f52079287bcb668e2b499fc147"
+      },
+      {
+        "name": "BEARING Rear cartridge",
+        "path": "source-output/14_BEARING_Rear_cartridge.stl",
+        "source_triangles": 16304,
+        "source_hash": "0200fbcb9e81fb6818ba3007de6200513e96843368869221b725c8ff797cda90",
+        "mesh_sha256": "beae7109fb5d09df41b4efe13d6281fe878387e97547242e86f8e164f52eb371"
+      },
+      {
+        "name": "SHAFT Bearing tunnel",
+        "path": "source-output/15_SHAFT_Bearing_tunnel.stl",
+        "source_triangles": 1036500,
+        "source_hash": "33c98396945bed38e572094a8dad6aa759f3c5e87e190d7cf2a1d0c38bf6470d",
+        "mesh_sha256": "23e42444ba9e9b465541c9616093942821f930f8c338b4d586760653c15dbfb0"
+      },
+      {
+        "name": "CASE Front barrel",
+        "path": "source-output/16_CASE_Front_barrel.stl",
+        "source_triangles": 2838618,
+        "source_hash": "1dd291f0bddef9fdaaa871d07304b5a6bdc419ab6077d3e1f45a65d606029f94",
+        "mesh_sha256": "c746b0284294038135f1736578323182780c406b4f43394bb5687edbbf6e3ff1"
+      },
+      {
+        "name": "CASE Inlet bell",
+        "path": "source-output/17_CASE_Inlet_bell.stl",
+        "source_triangles": 273872,
+        "source_hash": "13d07e61c294683f45a5e0865f693f3316ee9f6f0a35fdc06dee443fb177f15a",
+        "mesh_sha256": "a24941772f33760ed3864349d345c6bf37d13fcffcd7ad69c043cbde5f77c19e"
+      },
+      {
+        "name": "F03 Rear bearing feed",
+        "path": "source-output/23_F03_Rear_bearing_feed.stl",
+        "source_triangles": 295984,
+        "source_hash": "b1e5d6cec571e76154bbb9da05b4de2e7f63d418907748067d1853ce33a2baa0",
+        "mesh_sha256": "4a16b29b4c7ce18aa1acb676d24c131fcb7592074a0a4914a8d578c6032713fb"
+      },
+      {
+        "name": "CASE Rear barrel",
+        "path": "source-output/33_CASE_Rear_barrel.stl",
+        "source_triangles": 1391424,
+        "source_hash": "e5ebb85f6562cc6879b32518c23612df36c7548628f38179ba4ec6e296587ffb",
+        "mesh_sha256": "74feebb02bb5c45385399884db17c14a856f8952d99fdeac65f089c082c3ebe3"
+      },
+      {
+        "name": "FAST J04 Diffuser module",
+        "path": "source-output/38_FAST_J04_Diffuser_module.stl",
+        "source_triangles": 204126,
+        "source_hash": "a85ca2884815c8141db5ed7dae997b7c28bd1489854a1a3f78d8fd3736dc2220",
+        "mesh_sha256": "9c2dc1e7aa808cac3d999756dbe17511c389be4247f0f58441ca4dab84417f40"
+      },
+      {
+        "name": "FAST J24 Diffuser carrier to case",
+        "path": "source-output/39_FAST_J24_Diffuser_carrier_to_case.stl",
+        "source_triangles": 62362,
+        "source_hash": "ebf64295c4b180d355070311de9a144168453883fca1b9a19dde9d5b80bbddf5",
+        "mesh_sha256": "44920c613014f803abae5da0494f305ccc83b555aeff8c2c357c3afde36cbd06"
+      },
+      {
+        "name": "BEARING Front retainer",
+        "path": "source-output/40_BEARING_Front_retainer.stl",
+        "source_triangles": 186730,
+        "source_hash": "99403a587f5354da7e92194fdf112808ea43f6b98f28c1855a869e975e505536",
+        "mesh_sha256": "3f636bf8f13f1d5864260e725257baed56bcd0ca07adb753a503ca63373162de"
+      },
+      {
+        "name": "BEARING Rear retainer",
+        "path": "source-output/41_BEARING_Rear_retainer.stl",
+        "source_triangles": 41070,
+        "source_hash": "07f531cb1b833055f139fe084d21a95519790be4d067fbdd6050bebfeebc5310",
+        "mesh_sha256": "72096ef8773e1f271f60c3688cf5acdb84fd94c61bff74e3dd03ae8b4506717b"
+      },
+      {
+        "name": "FAST J07 Front bearing retainer",
+        "path": "source-output/42_FAST_J07_Front_bearing_retainer.stl",
+        "source_triangles": 143886,
+        "source_hash": "28d34ae751071391f246fa1e377a913b4e108fb54d6efac721815b266e3b5791",
+        "mesh_sha256": "e257bfba753fb83ae5146454036e921da0172febae65dc6448d45f67d8edb440"
+      },
+      {
+        "name": "SHAFT Inner race spacer sleeves",
+        "path": "source-output/53_SHAFT_Inner_race_spacer_sleeves.stl",
+        "source_triangles": 78790,
+        "source_hash": "13c8fe39bb748a0da5b34d5a657242a5111e27e5cb9e850c123f5b57cf9cbfb4",
+        "mesh_sha256": "58ac879b4f9c6cba5277b2995ec73cd9f69f29ffb122b7acb0291b9adac56415"
+      }
+    ]
+  },
+  {
+    "id": "rear_feed",
+    "title": "P2 / REAR FEED INSIDE THE INNER LINER",
+    "image": "assets/corrections/rear_feed.png",
+    "normal": [
+      0.17364817766693033,
+      0.984807753012208,
+      0.0
+    ],
+    "origin_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "Native AT then Sharpen STL. Planar clipping and intersection outlines. No decimation. Flow overlays are interpretation.",
+    "sources": [
+      {
+        "name": "COMP Impeller",
+        "path": "source-output/sharp_component_00.stl",
+        "source_triangles": 2461260,
+        "source_hash": "87e318a6c364c7a3bd18c0803a3554f8598341e2f35e82fb9f857c50103e5914",
+        "mesh_sha256": "d226c520cd5c070b7df0d2e1e40cf2cff3eb08f68c1c562ae7d961468bce8697"
+      },
+      {
+        "name": "COMP Shroud",
+        "path": "source-output/01_COMP_Shroud.stl",
+        "source_triangles": 690854,
+        "source_hash": "d24b47973be1f2158655b3d926193d5a6c41c96cf72032dba93d98675bf54c36",
+        "mesh_sha256": "6f335f8b5ddb4bbbaf531275d0568de794979d2a6f9b0c96c65ee9e65b8f3ee4"
+      },
+      {
+        "name": "COMP Diffuser vanes",
+        "path": "source-output/02_COMP_Diffuser_vanes.stl",
+        "source_triangles": 171280,
+        "source_hash": "5d796d6e85c51aaf0e9d99f420554d95e11359d2ab58cdc35992b342e9efec20",
+        "mesh_sha256": "ca42a8646daeff24caed54e71d663e90f789cbfb54abae9fb99b5d3390cabe43"
+      },
+      {
+        "name": "COMP Diffuser backplate",
+        "path": "source-output/03_COMP_Diffuser_backplate.stl",
+        "source_triangles": 165524,
+        "source_hash": "7eb386b614cae0181840535e49ae4abb896680145415391d23809b3b13fe2f86",
+        "mesh_sha256": "8e47e63892b7f715bbdd6884b4145059441063ea42116f667581c05df75d0b24"
+      },
+      {
+        "name": "BURN Outer liner",
+        "path": "source-output/04_BURN_Outer_liner.stl",
+        "source_triangles": 1752072,
+        "source_hash": "d2f75fdc62c4abf44b10c3fb17b80149e6697ec4a314cb2cd2c5519b5136e0a2",
+        "mesh_sha256": "ebcb421732ac30e20b6c50f2df2085b497159e6806e6eddcc7844e6d4cc266a9"
+      },
+      {
+        "name": "BURN Inner liner",
+        "path": "source-output/05_BURN_Inner_liner.stl",
+        "source_triangles": 666956,
+        "source_hash": "f6dfbfecaaf07dd6764fa2e88424e23b941ca9f67b35620898ccf2a0d4145348",
+        "mesh_sha256": "9d57b15f914367aa7241fd9e408d01e0276537816b837555d9e7fe3910ebd0b4"
+      },
+      {
+        "name": "BURN Dome",
+        "path": "source-output/06_BURN_Dome.stl",
+        "source_triangles": 160492,
+        "source_hash": "d3b9eb7abb1b0918e3717208c688e21942057a5546e3ea7761c5b6cd90d63b1e",
+        "mesh_sha256": "98c635f6e09e3941d404911abca3eb3246a9c489e2f508598310122ed89564da"
+      },
+      {
+        "name": "SHAFT Common shaft",
+        "path": "source-output/12_SHAFT_Common_shaft.stl",
+        "source_triangles": 29328,
+        "source_hash": "6bae27d2e443043d95eceb51da3c1172d6f8288fc6bc8cf2511b08708ff74489",
+        "mesh_sha256": "8f69dbcf13d076b2c7104ee4cfafdc5e27ed605f717c161cb34cbe8e5fe07e6e"
+      },
+      {
+        "name": "BEARING Front cartridge",
+        "path": "source-output/13_BEARING_Front_cartridge.stl",
+        "source_triangles": 16304,
+        "source_hash": "4b56cc4d3ff6380e0867d2e2eb7fd0b44e9c4afb02c363e5ad3ce1d8bfa79499",
+        "mesh_sha256": "0071c2642160e2edd37d0b090c4482a4fb8fb4f52079287bcb668e2b499fc147"
+      },
+      {
+        "name": "BEARING Rear cartridge",
+        "path": "source-output/14_BEARING_Rear_cartridge.stl",
+        "source_triangles": 16304,
+        "source_hash": "0200fbcb9e81fb6818ba3007de6200513e96843368869221b725c8ff797cda90",
+        "mesh_sha256": "beae7109fb5d09df41b4efe13d6281fe878387e97547242e86f8e164f52eb371"
+      },
+      {
+        "name": "SHAFT Bearing tunnel",
+        "path": "source-output/15_SHAFT_Bearing_tunnel.stl",
+        "source_triangles": 1036500,
+        "source_hash": "33c98396945bed38e572094a8dad6aa759f3c5e87e190d7cf2a1d0c38bf6470d",
+        "mesh_sha256": "23e42444ba9e9b465541c9616093942821f930f8c338b4d586760653c15dbfb0"
+      },
+      {
+        "name": "CASE Front barrel",
+        "path": "source-output/16_CASE_Front_barrel.stl",
+        "source_triangles": 2838618,
+        "source_hash": "1dd291f0bddef9fdaaa871d07304b5a6bdc419ab6077d3e1f45a65d606029f94",
+        "mesh_sha256": "c746b0284294038135f1736578323182780c406b4f43394bb5687edbbf6e3ff1"
+      },
+      {
+        "name": "CASE Inlet bell",
+        "path": "source-output/17_CASE_Inlet_bell.stl",
+        "source_triangles": 273872,
+        "source_hash": "13d07e61c294683f45a5e0865f693f3316ee9f6f0a35fdc06dee443fb177f15a",
+        "mesh_sha256": "a24941772f33760ed3864349d345c6bf37d13fcffcd7ad69c043cbde5f77c19e"
+      },
+      {
+        "name": "F03 Rear bearing feed",
+        "path": "source-output/23_F03_Rear_bearing_feed.stl",
+        "source_triangles": 295984,
+        "source_hash": "b1e5d6cec571e76154bbb9da05b4de2e7f63d418907748067d1853ce33a2baa0",
+        "mesh_sha256": "4a16b29b4c7ce18aa1acb676d24c131fcb7592074a0a4914a8d578c6032713fb"
+      },
+      {
+        "name": "CASE Rear barrel",
+        "path": "source-output/33_CASE_Rear_barrel.stl",
+        "source_triangles": 1391424,
+        "source_hash": "e5ebb85f6562cc6879b32518c23612df36c7548628f38179ba4ec6e296587ffb",
+        "mesh_sha256": "74feebb02bb5c45385399884db17c14a856f8952d99fdeac65f089c082c3ebe3"
+      },
+      {
+        "name": "FAST J04 Diffuser module",
+        "path": "source-output/38_FAST_J04_Diffuser_module.stl",
+        "source_triangles": 204126,
+        "source_hash": "a85ca2884815c8141db5ed7dae997b7c28bd1489854a1a3f78d8fd3736dc2220",
+        "mesh_sha256": "9c2dc1e7aa808cac3d999756dbe17511c389be4247f0f58441ca4dab84417f40"
+      },
+      {
+        "name": "FAST J24 Diffuser carrier to case",
+        "path": "source-output/39_FAST_J24_Diffuser_carrier_to_case.stl",
+        "source_triangles": 62362,
+        "source_hash": "ebf64295c4b180d355070311de9a144168453883fca1b9a19dde9d5b80bbddf5",
+        "mesh_sha256": "44920c613014f803abae5da0494f305ccc83b555aeff8c2c357c3afde36cbd06"
+      },
+      {
+        "name": "BEARING Front retainer",
+        "path": "source-output/40_BEARING_Front_retainer.stl",
+        "source_triangles": 186730,
+        "source_hash": "99403a587f5354da7e92194fdf112808ea43f6b98f28c1855a869e975e505536",
+        "mesh_sha256": "3f636bf8f13f1d5864260e725257baed56bcd0ca07adb753a503ca63373162de"
+      },
+      {
+        "name": "BEARING Rear retainer",
+        "path": "source-output/41_BEARING_Rear_retainer.stl",
+        "source_triangles": 41070,
+        "source_hash": "07f531cb1b833055f139fe084d21a95519790be4d067fbdd6050bebfeebc5310",
+        "mesh_sha256": "72096ef8773e1f271f60c3688cf5acdb84fd94c61bff74e3dd03ae8b4506717b"
+      },
+      {
+        "name": "FAST J07 Front bearing retainer",
+        "path": "source-output/42_FAST_J07_Front_bearing_retainer.stl",
+        "source_triangles": 143886,
+        "source_hash": "28d34ae751071391f246fa1e377a913b4e108fb54d6efac721815b266e3b5791",
+        "mesh_sha256": "e257bfba753fb83ae5146454036e921da0172febae65dc6448d45f67d8edb440"
+      },
+      {
+        "name": "SHAFT Inner race spacer sleeves",
+        "path": "source-output/53_SHAFT_Inner_race_spacer_sleeves.stl",
+        "source_triangles": 78790,
+        "source_hash": "13c8fe39bb748a0da5b34d5a657242a5111e27e5cb9e850c123f5b57cf9cbfb4",
+        "mesh_sha256": "58ac879b4f9c6cba5277b2995ec73cd9f69f29ffb122b7acb0291b9adac56415"
+      }
+    ]
+  },
+  {
+    "id": "receiver",
+    "title": "P2 / FEED RECEIVER AND REAR BEARING CAVITY",
+    "image": "assets/corrections/receiver.png",
+    "normal": [
+      0.17364817766693033,
+      0.984807753012208,
+      0.0
+    ],
+    "origin_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "Native AT then Sharpen STL. Planar clipping and intersection outlines. No decimation. Flow overlays are interpretation.",
+    "sources": [
+      {
+        "name": "BURN Inner liner",
+        "path": "source-output/05_BURN_Inner_liner.stl",
+        "source_triangles": 666956,
+        "source_hash": "f6dfbfecaaf07dd6764fa2e88424e23b941ca9f67b35620898ccf2a0d4145348",
+        "mesh_sha256": "9d57b15f914367aa7241fd9e408d01e0276537816b837555d9e7fe3910ebd0b4"
+      },
+      {
+        "name": "SHAFT Common shaft",
+        "path": "source-output/12_SHAFT_Common_shaft.stl",
+        "source_triangles": 29328,
+        "source_hash": "6bae27d2e443043d95eceb51da3c1172d6f8288fc6bc8cf2511b08708ff74489",
+        "mesh_sha256": "8f69dbcf13d076b2c7104ee4cfafdc5e27ed605f717c161cb34cbe8e5fe07e6e"
+      },
+      {
+        "name": "BEARING Rear cartridge",
+        "path": "source-output/14_BEARING_Rear_cartridge.stl",
+        "source_triangles": 16304,
+        "source_hash": "0200fbcb9e81fb6818ba3007de6200513e96843368869221b725c8ff797cda90",
+        "mesh_sha256": "beae7109fb5d09df41b4efe13d6281fe878387e97547242e86f8e164f52eb371"
+      },
+      {
+        "name": "SHAFT Bearing tunnel",
+        "path": "source-output/15_SHAFT_Bearing_tunnel.stl",
+        "source_triangles": 1036500,
+        "source_hash": "33c98396945bed38e572094a8dad6aa759f3c5e87e190d7cf2a1d0c38bf6470d",
+        "mesh_sha256": "23e42444ba9e9b465541c9616093942821f930f8c338b4d586760653c15dbfb0"
+      },
+      {
+        "name": "F03 Rear bearing feed",
+        "path": "source-output/23_F03_Rear_bearing_feed.stl",
+        "source_triangles": 295984,
+        "source_hash": "b1e5d6cec571e76154bbb9da05b4de2e7f63d418907748067d1853ce33a2baa0",
+        "mesh_sha256": "4a16b29b4c7ce18aa1acb676d24c131fcb7592074a0a4914a8d578c6032713fb"
+      },
+      {
+        "name": "BEARING Rear retainer",
+        "path": "source-output/41_BEARING_Rear_retainer.stl",
+        "source_triangles": 41070,
+        "source_hash": "07f531cb1b833055f139fe084d21a95519790be4d067fbdd6050bebfeebc5310",
+        "mesh_sha256": "72096ef8773e1f271f60c3688cf5acdb84fd94c61bff74e3dd03ae8b4506717b"
+      },
+      {
+        "name": "FAST J08 Rear bearing and vane frame",
+        "path": "source-output/45_FAST_J08_Rear_bearing_and_vane_frame.stl",
+        "source_triangles": 142644,
+        "source_hash": "0ce7e4ee043d6ebb39d9163f292020aa96908082efa212442077b0a13974a1a9",
+        "mesh_sha256": "b53bc9239268fa1155c5c4225462b56bf59c264ba4fc14601804f613d49b4ce0"
+      },
+      {
+        "name": "SHAFT Inner race spacer sleeves",
+        "path": "source-output/53_SHAFT_Inner_race_spacer_sleeves.stl",
+        "source_triangles": 78790,
+        "source_hash": "13c8fe39bb748a0da5b34d5a657242a5111e27e5cb9e850c123f5b57cf9cbfb4",
+        "mesh_sha256": "58ac879b4f9c6cba5277b2995ec73cd9f69f29ffb122b7acb0291b9adac56415"
+      }
+    ]
+  },
+  {
+    "id": "entry",
+    "title": "P2 / CASE ENTRY AND FRONT SUPPORT PASSAGES",
+    "image": "assets/corrections/entry.png",
+    "normal": [
+      0.17364817766693033,
+      0.984807753012208,
+      0.0
+    ],
+    "origin_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "method": "Native AT then Sharpen STL. Planar clipping and intersection outlines. No decimation. Flow overlays are interpretation.",
+    "sources": [
+      {
+        "name": "COMP Impeller",
+        "path": "source-output/sharp_component_00.stl",
+        "source_triangles": 2461260,
+        "source_hash": "87e318a6c364c7a3bd18c0803a3554f8598341e2f35e82fb9f857c50103e5914",
+        "mesh_sha256": "d226c520cd5c070b7df0d2e1e40cf2cff3eb08f68c1c562ae7d961468bce8697"
+      },
+      {
+        "name": "COMP Shroud",
+        "path": "source-output/01_COMP_Shroud.stl",
+        "source_triangles": 690854,
+        "source_hash": "d24b47973be1f2158655b3d926193d5a6c41c96cf72032dba93d98675bf54c36",
+        "mesh_sha256": "6f335f8b5ddb4bbbaf531275d0568de794979d2a6f9b0c96c65ee9e65b8f3ee4"
+      },
+      {
+        "name": "COMP Diffuser vanes",
+        "path": "source-output/02_COMP_Diffuser_vanes.stl",
+        "source_triangles": 171280,
+        "source_hash": "5d796d6e85c51aaf0e9d99f420554d95e11359d2ab58cdc35992b342e9efec20",
+        "mesh_sha256": "ca42a8646daeff24caed54e71d663e90f789cbfb54abae9fb99b5d3390cabe43"
+      },
+      {
+        "name": "COMP Diffuser backplate",
+        "path": "source-output/03_COMP_Diffuser_backplate.stl",
+        "source_triangles": 165524,
+        "source_hash": "7eb386b614cae0181840535e49ae4abb896680145415391d23809b3b13fe2f86",
+        "mesh_sha256": "8e47e63892b7f715bbdd6884b4145059441063ea42116f667581c05df75d0b24"
+      },
+      {
+        "name": "BURN Outer liner",
+        "path": "source-output/04_BURN_Outer_liner.stl",
+        "source_triangles": 1752072,
+        "source_hash": "d2f75fdc62c4abf44b10c3fb17b80149e6697ec4a314cb2cd2c5519b5136e0a2",
+        "mesh_sha256": "ebcb421732ac30e20b6c50f2df2085b497159e6806e6eddcc7844e6d4cc266a9"
+      },
+      {
+        "name": "BURN Inner liner",
+        "path": "source-output/05_BURN_Inner_liner.stl",
+        "source_triangles": 666956,
+        "source_hash": "f6dfbfecaaf07dd6764fa2e88424e23b941ca9f67b35620898ccf2a0d4145348",
+        "mesh_sha256": "9d57b15f914367aa7241fd9e408d01e0276537816b837555d9e7fe3910ebd0b4"
+      },
+      {
+        "name": "BURN Dome",
+        "path": "source-output/06_BURN_Dome.stl",
+        "source_triangles": 160492,
+        "source_hash": "d3b9eb7abb1b0918e3717208c688e21942057a5546e3ea7761c5b6cd90d63b1e",
+        "mesh_sha256": "98c635f6e09e3941d404911abca3eb3246a9c489e2f508598310122ed89564da"
+      },
+      {
+        "name": "SHAFT Common shaft",
+        "path": "source-output/12_SHAFT_Common_shaft.stl",
+        "source_triangles": 29328,
+        "source_hash": "6bae27d2e443043d95eceb51da3c1172d6f8288fc6bc8cf2511b08708ff74489",
+        "mesh_sha256": "8f69dbcf13d076b2c7104ee4cfafdc5e27ed605f717c161cb34cbe8e5fe07e6e"
+      },
+      {
+        "name": "BEARING Front cartridge",
+        "path": "source-output/13_BEARING_Front_cartridge.stl",
+        "source_triangles": 16304,
+        "source_hash": "4b56cc4d3ff6380e0867d2e2eb7fd0b44e9c4afb02c363e5ad3ce1d8bfa79499",
+        "mesh_sha256": "0071c2642160e2edd37d0b090c4482a4fb8fb4f52079287bcb668e2b499fc147"
+      },
+      {
+        "name": "BEARING Rear cartridge",
+        "path": "source-output/14_BEARING_Rear_cartridge.stl",
+        "source_triangles": 16304,
+        "source_hash": "0200fbcb9e81fb6818ba3007de6200513e96843368869221b725c8ff797cda90",
+        "mesh_sha256": "beae7109fb5d09df41b4efe13d6281fe878387e97547242e86f8e164f52eb371"
+      },
+      {
+        "name": "SHAFT Bearing tunnel",
+        "path": "source-output/15_SHAFT_Bearing_tunnel.stl",
+        "source_triangles": 1036500,
+        "source_hash": "33c98396945bed38e572094a8dad6aa759f3c5e87e190d7cf2a1d0c38bf6470d",
+        "mesh_sha256": "23e42444ba9e9b465541c9616093942821f930f8c338b4d586760653c15dbfb0"
+      },
+      {
+        "name": "CASE Front barrel",
+        "path": "source-output/16_CASE_Front_barrel.stl",
+        "source_triangles": 2838618,
+        "source_hash": "1dd291f0bddef9fdaaa871d07304b5a6bdc419ab6077d3e1f45a65d606029f94",
+        "mesh_sha256": "c746b0284294038135f1736578323182780c406b4f43394bb5687edbbf6e3ff1"
+      },
+      {
+        "name": "CASE Inlet bell",
+        "path": "source-output/17_CASE_Inlet_bell.stl",
+        "source_triangles": 273872,
+        "source_hash": "13d07e61c294683f45a5e0865f693f3316ee9f6f0a35fdc06dee443fb177f15a",
+        "mesh_sha256": "a24941772f33760ed3864349d345c6bf37d13fcffcd7ad69c043cbde5f77c19e"
+      },
+      {
+        "name": "F03 Rear bearing feed",
+        "path": "source-output/23_F03_Rear_bearing_feed.stl",
+        "source_triangles": 295984,
+        "source_hash": "b1e5d6cec571e76154bbb9da05b4de2e7f63d418907748067d1853ce33a2baa0",
+        "mesh_sha256": "4a16b29b4c7ce18aa1acb676d24c131fcb7592074a0a4914a8d578c6032713fb"
+      },
+      {
+        "name": "CASE Rear barrel",
+        "path": "source-output/33_CASE_Rear_barrel.stl",
+        "source_triangles": 1391424,
+        "source_hash": "e5ebb85f6562cc6879b32518c23612df36c7548628f38179ba4ec6e296587ffb",
+        "mesh_sha256": "74feebb02bb5c45385399884db17c14a856f8952d99fdeac65f089c082c3ebe3"
+      },
+      {
+        "name": "FAST J04 Diffuser module",
+        "path": "source-output/38_FAST_J04_Diffuser_module.stl",
+        "source_triangles": 204126,
+        "source_hash": "a85ca2884815c8141db5ed7dae997b7c28bd1489854a1a3f78d8fd3736dc2220",
+        "mesh_sha256": "9c2dc1e7aa808cac3d999756dbe17511c389be4247f0f58441ca4dab84417f40"
+      },
+      {
+        "name": "FAST J24 Diffuser carrier to case",
+        "path": "source-output/39_FAST_J24_Diffuser_carrier_to_case.stl",
+        "source_triangles": 62362,
+        "source_hash": "ebf64295c4b180d355070311de9a144168453883fca1b9a19dde9d5b80bbddf5",
+        "mesh_sha256": "44920c613014f803abae5da0494f305ccc83b555aeff8c2c357c3afde36cbd06"
+      },
+      {
+        "name": "BEARING Front retainer",
+        "path": "source-output/40_BEARING_Front_retainer.stl",
+        "source_triangles": 186730,
+        "source_hash": "99403a587f5354da7e92194fdf112808ea43f6b98f28c1855a869e975e505536",
+        "mesh_sha256": "3f636bf8f13f1d5864260e725257baed56bcd0ca07adb753a503ca63373162de"
+      },
+      {
+        "name": "BEARING Rear retainer",
+        "path": "source-output/41_BEARING_Rear_retainer.stl",
+        "source_triangles": 41070,
+        "source_hash": "07f531cb1b833055f139fe084d21a95519790be4d067fbdd6050bebfeebc5310",
+        "mesh_sha256": "72096ef8773e1f271f60c3688cf5acdb84fd94c61bff74e3dd03ae8b4506717b"
+      },
+      {
+        "name": "FAST J07 Front bearing retainer",
+        "path": "source-output/42_FAST_J07_Front_bearing_retainer.stl",
+        "source_triangles": 143886,
+        "source_hash": "28d34ae751071391f246fa1e377a913b4e108fb54d6efac721815b266e3b5791",
+        "mesh_sha256": "e257bfba753fb83ae5146454036e921da0172febae65dc6448d45f67d8edb440"
+      },
+      {
+        "name": "SHAFT Inner race spacer sleeves",
+        "path": "source-output/53_SHAFT_Inner_race_spacer_sleeves.stl",
+        "source_triangles": 78790,
+        "source_hash": "13c8fe39bb748a0da5b34d5a657242a5111e27e5cb9e850c123f5b57cf9cbfb4",
+        "mesh_sha256": "58ac879b4f9c6cba5277b2995ec73cd9f69f29ffb122b7acb0291b9adac56415"
+      }
+    ]
+  }
+]

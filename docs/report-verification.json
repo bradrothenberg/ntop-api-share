@@ -1,0 +1,200 @@
+{
+  "scope": "Offline Edge browser, desktop 1440x1000 and mobile 390x844; report assets visually reviewed. Recorded native figures, not new native evaluation.",
+  "reports": [
+    {
+      "demo": "i6",
+      "report_sha256": "6e12ab53103146fea25adfcb396d4184237ca117593ba3aaa67485e590362261",
+      "image_sources": 17,
+      "missing_images": 0,
+      "script_errors": [],
+      "external_requests": [],
+      "mobile_width": {
+        "width": 390,
+        "viewport": 390
+      },
+      "controls": []
+    },
+    {
+      "demo": "i6-astra",
+      "report_sha256": "132836519570fd5201a8ddba778977b503542f06fd2248857b9cf18022c31ae7",
+      "image_sources": 6,
+      "missing_images": 0,
+      "script_errors": [],
+      "external_requests": [],
+      "mobile_width": {
+        "width": 390,
+        "viewport": 390
+      },
+      "controls": []
+    },
+    {
+      "demo": "jet20",
+      "report_sha256": "f708f99db1b5efcd6417d934803a9a1158650be3ffcf76edcd1f1f0bb0b83603",
+      "image_sources": 34,
+      "missing_images": 0,
+      "script_errors": [],
+      "external_requests": [],
+      "mobile_width": {
+        "width": 390,
+        "viewport": 390
+      },
+      "controls": [
+        {
+          "name": "Assembled",
+          "button": {
+            "class": "active",
+            "pressed": null,
+            "selected": null
+          },
+          "canvasHash": "2abdfe709f24eabeea5c4ddd34f4b90e72708e930f022d75b1f7b8cf33b32062"
+        },
+        {
+          "name": "Exploded",
+          "button": {
+            "class": "active",
+            "pressed": null,
+            "selected": null
+          },
+          "canvasHash": "7c0cc2fff991f93d3990d79d1a0b4922569359e00f231ee98dbadc30c633bacb"
+        },
+        {
+          "name": "Section cut",
+          "button": {
+            "class": "active",
+            "pressed": null,
+            "selected": null
+          },
+          "canvasHash": "4ad0bafc9c7564b5ba15c582a9608f220b04241f8c563ad10ae5585c605ce804"
+        },
+        {
+          "name": "Inside",
+          "button": {
+            "class": "active",
+            "pressed": null,
+            "selected": null
+          },
+          "canvasHash": "8c0c2275db40cc5de4674053bd891ac93b27433e7689e9bc1e69b744a6823a2f"
+        },
+        {
+          "name": "Reset view",
+          "button": {
+            "class": "",
+            "pressed": null,
+            "selected": null
+          },
+          "canvasHash": "4ad0bafc9c7564b5ba15c582a9608f220b04241f8c563ad10ae5585c605ce804"
+        },
+        {
+          "name": "Theme",
+          "state": {
+            "html": "dark",
+            "body": ""
+          }
+        }
+      ]
+    },
+    {
+      "demo": "fury",
+      "report_sha256": "d05f3a6f4843d181874765a45f38a5f673bd3c53755ca95660413ef8a0e156c6",
+      "image_sources": 10,
+      "missing_images": 0,
+      "script_errors": [],
+      "external_requests": [],
+      "mobile_width": {
+        "width": 390,
+        "viewport": 390
+      },
+      "controls": []
+    },
+    {
+      "demo": "b52",
+      "report_sha256": "c0e3746a906937429d20c3ced334e46c3cc77988cf13e81716db4dd7c9fdfcce",
+      "image_sources": 9,
+      "missing_images": 0,
+      "script_errors": [],
+      "external_requests": [],
+      "mobile_width": {
+        "width": 390,
+        "viewport": 390
+      },
+      "controls": [
+        {
+          "name": "Previous blend",
+          "button": {
+            "class": "",
+            "pressed": "true",
+            "selected": null
+          }
+        },
+        {
+          "name": "Smooth blend",
+          "button": {
+            "class": "",
+            "pressed": "true",
+            "selected": null
+          }
+        },
+        {
+          "name": "Theme",
+          "state": {
+            "html": "dark",
+            "body": ""
+          }
+        }
+      ]
+    },
+    {
+      "demo": "ddgx",
+      "report_sha256": "8b4804232151597dd53d96c75c786f88c9c233a341b3f3f7a0f16f1956f63de0",
+      "image_sources": 15,
+      "missing_images": 0,
+      "script_errors": [],
+      "external_requests": [],
+      "mobile_width": {
+        "width": 390,
+        "viewport": 390
+      },
+      "controls": [
+        {
+          "name": "Side",
+          "button": {
+            "class": "",
+            "pressed": null,
+            "selected": "true"
+          }
+        },
+        {
+          "name": "Plan",
+          "button": {
+            "class": "",
+            "pressed": null,
+            "selected": "true"
+          }
+        },
+        {
+          "name": "Front",
+          "button": {
+            "class": "",
+            "pressed": null,
+            "selected": "true"
+          }
+        },
+        {
+          "name": "Overview",
+          "button": {
+            "class": "",
+            "pressed": null,
+            "selected": "true"
+          }
+        },
+        {
+          "name": "Theme",
+          "state": {
+            "html": "dark",
+            "body": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "route": "F03 Rear bearing feed",
+  "finding": "The current pipe passes through the annular combustion space. This is an unresolved routing defect, not just a projection artifact.",
+  "method": "Axial cuts of original native pipe and liner STL exports; compare their radial extents at the same stations.",
+  "sections": [
+    {
+      "native_z_mm": 145,
+      "pipe_radial_extent_mm": [
+        41.673343658447266,
+        43.85688400268555
+      ],
+      "combustion_annulus_inner_radius_mm": 26.348995208740234,
+      "combustion_annulus_outer_radius_mm": 48.49488067626953,
+      "pipe_section_inside_combustion_annulus": true
+    },
+    {
+      "native_z_mm": 150,
+      "pipe_radial_extent_mm": [
+        38.03914260864258,
+        40.291465759277344
+      ],
+      "combustion_annulus_inner_radius_mm": 26.34768295288086,
+      "combustion_annulus_outer_radius_mm": 48.49484634399414,
+      "pipe_section_inside_combustion_annulus": true
+    },
+    {
+      "native_z_mm": 160,
+      "pipe_radial_extent_mm": [
+        29.66470718383789,
+        32.09921646118164
+      ],
+      "combustion_annulus_inner_radius_mm": 26.347911834716797,
+      "combustion_annulus_outer_radius_mm": 48.49376678466797,
+      "pipe_section_inside_combustion_annulus": true
+    }
+  ],
+  "sources": [
+    {
+      "name": "F03 Rear bearing feed",
+      "mesh": "source-output/23_F03_Rear_bearing_feed.stl",
+      "sha256": "66c644bfbb34833f9a199de216ed6b9dc6c0732cca6196bb419d7dd20bad7456"
+    },
+    {
+      "name": "BURN Inner liner",
+      "mesh": "source-output/05_BURN_Inner_liner.stl",
+      "sha256": "9d57b15f914367aa7241fd9e408d01e0276537816b837555d9e7fe3910ebd0b4"
+    },
+    {
+      "name": "BURN Outer liner",
+      "mesh": "source-output/04_BURN_Outer_liner.stl",
+      "sha256": "c0b8328841a72a76dae96a390538045bd52a6a692b5914c2a4cfe2d602fab227"
+    }
+  ],
+  "scope": "Geometric location check. Fluid selection, temperature, sealing, and pressure qualification are not established."
+}
