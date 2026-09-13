@@ -29,3 +29,9 @@ This is the public Notebook API demo handoff. Read README.md and SPEC.md first.
 Read docs/API_42926.md before applying older API findings. Preserve evidence labels: supplied documentation, recorded native behavior, offline tests, and new native execution.
 TCP dispatch requires verified process identity and a unique receipt directory. A timeout is an unknown outcome until its completion record is checked.
 For two-rail geometry, read docs/PROPELLER_LEARNINGS.md. Preserve raw meshes and measured cleanup evidence.
+
+## Native CSG example
+
+Use [.agents/skills/ntop-csg-modeling/SKILL.md](.agents/skills/ntop-csg-modeling/SKILL.md) for measured solid reconstruction.
+The KestrelSAT example includes one corner part and its extracted original STEP solid. Keep the complete assembly out of this demo.
+Keep recorded native evidence distinct from new host checks and recipe replay.

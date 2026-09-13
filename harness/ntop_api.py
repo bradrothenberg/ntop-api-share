@@ -2,7 +2,7 @@
 from pathlib import Path
 import importlib,json,sys
 ROOT=Path(__file__).resolve().parents[1]
-DEMOS=('i6','i6-astra','jet20','fury','b52','ddgx','f16','a12','fcat','propellers')
+DEMOS=('i6','i6-astra','jet20','fury','b52','ddgx','f16','a12','fcat','propellers','kestrelsat-corner')
 FEATURES_42926 = ('set_block_input_units', 'get_block_input_units', 'block_state', 'move_block')
 
 def check_api(notebook, *, require_42926=False):

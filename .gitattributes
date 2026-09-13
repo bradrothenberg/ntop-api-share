@@ -10,3 +10,7 @@ demos/jet20/reports/index.html whitespace=-blank-at-eol
 reports/*.html whitespace=-blank-at-eol
 # Retain fixed-width recorded AVL output without changing its content hash.
 reports/assets/56d3e314c912a6ac1b943d7dfbf35797fcf97f5a28dbe661f72b7ca7432bf872.txt whitespace=-blank-at-eol
+# Preserve exact file hashes in the recorded corner example manifest.
+demos/kestrelsat-corner/** -text whitespace=cr-at-eol
+# Retain whitespace in the extracted STEP reference.
+demos/kestrelsat-corner/inputs/Corner_block_source.step whitespace=cr-at-eol,-blank-at-eol

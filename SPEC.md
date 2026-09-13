@@ -39,3 +39,11 @@ No new native execution against an existing user session is part of this public-
 The user also requested a shared propeller folder. Include all 22 saved construction graphs, two audited native assembly snapshots, native screenshots, selected measurements, and the CFD plan. Large blade caches and meshes are regenerated locally. Carry the subsequent folded-Mobius correction into the airfoil case after native validation.
 
 The marine_prop case extends the collection to 23 complete graphs. Include its native views, cap dimensions, and mesh-cleanup bounds. The shaft-specific spline and propeller retainer remain pending. Keep the large notebook cache, STL files, and source photographs private.
+
+## September 13 CSG skill and single-part example
+
+Add the native CSG modeling skill and a self-contained KestrelSAT corner demo. Include the editable native part, complete construction recipe, one extracted original STEP solid, a compact matched-view report, and portable validation evidence. Preserve the measured original coordinate frame. Exclude the full assembly and raw generated meshes.
+
+The part uses primitive stock, plane cuts, cylindrical tools, and three genuine hexagonal recess profiles. Report recorded build 42594 native mesh overlap and bidirectional surface samples separately from new offline extraction and package checks. This request adds local repository files; it does not publish a remote update.
+
+Publication follow-up: push the complete audited branch, including the API update, propeller studies, and KestrelSAT corner example, to the existing public repository. Open a pull request against main and preserve the existing public history.

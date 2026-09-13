@@ -10,4 +10,5 @@ jobs:
       - run: uv run --locked python scripts/prepare.py --models
       - run: uv run --locked python scripts/smoke.py
       - run: uv run --locked pytest -q
+      - run: uv run --locked python demos/kestrelsat-corner/scripts/check_example.py
       - run: uv run --locked python scripts/audit.py

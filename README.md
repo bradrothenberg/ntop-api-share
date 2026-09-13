@@ -1,10 +1,11 @@
 # nTop Notebook API: public demo collection
 
-Ten editable demonstrations and 28 reports, with six source builders, four saved-graph replay collections, and measured Notebook API lessons.
+Eleven editable demonstrations and 29 reports, with six source builders, five saved-graph replay collections, and measured Notebook API lessons.
 Each demo contains a local agent, scripts, native models, and an HTML report. No private project checkout is required.
 
 | Demo | Learn from it |
 |---|---|
+| [KestrelSAT corner](demos/kestrelsat-corner/README.md) | One native CSG part, its original STEP reference, matched geometry views, and measured volume and surface checks. |
 | [Propellers](demos/propellers/README.md) | An eight-inch assembly, separate retained spinner, twenty native two-rail blade studies, and a CFD optimization plan. |
 | [Original inline-six](demos/i6/README.md) | An API recorder, slider-crank mechanism, cam motion, and analytic helical springs. |
 | [I6 Astra](demos/i6-astra/README.md) | A native assembly with involute gears, nominal fasteners, belts, spline routes, and mechanism checks. |
@@ -56,15 +57,16 @@ ntop-api-share/
     models/             Relevant .ntop snapshots
     reports/            Public HTML report and compact assets
     output/             Generated recipes and run evidence; ignored
-  reports/              28-report offline catalogue and shared compact assets
+  reports/              29-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
-  .agents/skills/       Bundled API and HTML-report skills
+  .agents/skills/       Bundled API, CSG modeling, and HTML-report skills
   templates/            HTML report template and offline CSS
   tests/                Portability and graph-invariant checks
 ```
 
 ## Read next
 
+- [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)
 - [Build 42926 changes](docs/API_42926.md) and [propeller workflow lessons](docs/PROPELLER_LEARNINGS.md)
 - [API lessons](docs/API.md), [method reference](docs/API_REFERENCE.md), and [measured API failures](docs/API_FINDINGS.md)
 - [Lofting](docs/LOFTING.md), [assemblies](docs/ASSEMBLIES.md), and [later jet lessons](docs/JET_EVOLUTION.md)

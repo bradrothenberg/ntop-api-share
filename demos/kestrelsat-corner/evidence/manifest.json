@@ -1,0 +1,134 @@
+{
+  "scope": "Portable one-part example files; hashes bind recorded evidence, source extraction, replay recipes and report assets",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "fa884c1695f6b40f57c8f05393007c0f25638a7eec08fa613060ed067990ec41",
+      "bytes": 952
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "1888f1644be2565ec0953219188d74f67aec59d4ffcb2acc8b4f5f06980c2a22",
+      "bytes": 44
+    },
+    {
+      "path": "evidence/geometry-binding.json",
+      "sha256": "22dd6f79b29099fbd4d8f3384c9b0545a288d71eaa00578548d32b970d16bedf",
+      "bytes": 3033
+    },
+    {
+      "path": "evidence/native-portability.json",
+      "sha256": "437e8c98674106ab175fecaa16319dd77eb125882ff89719a95c6ab35a390ae1",
+      "bytes": 2981
+    },
+    {
+      "path": "evidence/reference-recheck.json",
+      "sha256": "539a3df4222f9e1efa5c1daa08db9e26f40d99ac5275388f7eb856163c4afba4",
+      "bytes": 2311
+    },
+    {
+      "path": "evidence/source-extraction.json",
+      "sha256": "dd202939256a8acf204830e44c13b52a3bd13cb36f62aa7c2a31dc73ef007bb2",
+      "bytes": 1325
+    },
+    {
+      "path": "evidence/validation.json",
+      "sha256": "841a412c775d9455ccc2dd2b7a7d7fc0f02cb42f53067bfdfc6949dec1495a4c",
+      "bytes": 2404
+    },
+    {
+      "path": "inputs/corner.csg.json",
+      "sha256": "1714c8f6fd1bb5ab9e19e9c1bbf8b261de9a79d05455ed8011af362eada94a18",
+      "bytes": 12589
+    },
+    {
+      "path": "inputs/corner.recipe.json",
+      "sha256": "463a6b817dbedbf79e7712aff51f601c88187c2d94840fc5d4ccc80d09ce9413",
+      "bytes": 63732
+    },
+    {
+      "path": "inputs/Corner_block_source.step",
+      "sha256": "84e879e36daedca939259d12f7134c33defd548408f09b4d04ed1a2e8bebc34d",
+      "bytes": 185867
+    },
+    {
+      "path": "inputs/mesh.recipe.json",
+      "sha256": "b2ac5d90ff86a83d5d7a4d0dff617fb5b321a090f5ae43dacef1a7e61e215dfa",
+      "bytes": 63369
+    },
+    {
+      "path": "models/Corner_block.ntop",
+      "sha256": "72d7f9fbe6fb78fc54082ee2e4e2ad902b12a63ffe6e1c269f285904c95b1837",
+      "bytes": 93665
+    },
+    {
+      "path": "README.md",
+      "sha256": "b97a7ac2746d37b7200d005b9ce07413ef1b0582cbcc43164010b4cb9d5d8d99",
+      "bytes": 5062
+    },
+    {
+      "path": "reports/assets/host-modeled-opposite.png",
+      "sha256": "36fd2d6ff0b45bfac38181bf6b65db52853d868c50183bfc21ec971f2b55e5b5",
+      "bytes": 40921
+    },
+    {
+      "path": "reports/assets/host-modeled.png",
+      "sha256": "3988b59bae3f1aab8ec364bbf72efe51646a285f6b4b34881d71b39f97ea94d8",
+      "bytes": 37378
+    },
+    {
+      "path": "reports/assets/host-step-opposite.png",
+      "sha256": "7279e68106fb8b899370f139c45bbc878e72d298e283e285aeddeb204b8e9043",
+      "bytes": 36235
+    },
+    {
+      "path": "reports/assets/host-step.png",
+      "sha256": "069504ad56b93d2cc460bc1c69b463eb99ffcdb683a037862f64dad475cdd26d",
+      "bytes": 29903
+    },
+    {
+      "path": "reports/assets/native-camera.json",
+      "sha256": "e1f1a510331d781bb95d73f2502571cb5ad4e1fe31c2616a19639c8c2a5e0417",
+      "bytes": 895
+    },
+    {
+      "path": "reports/assets/native-implicit.png",
+      "sha256": "ff6994ba518e7cd1b6d4ae356e155280b5bfb0b0650d4b1504312e843c8c1d0e",
+      "bytes": 35066
+    },
+    {
+      "path": "reports/assets/native-render.json",
+      "sha256": "58d870eacd140d676385775ee41a7c3218f3ac485574ecb8961ccb7f01e3d728",
+      "bytes": 202
+    },
+    {
+      "path": "reports/assets/provenance.json",
+      "sha256": "9e031119b2c7aae3173c1f8792d1ff44253cb4662758ec7d567f6c289726750f",
+      "bytes": 6461
+    },
+    {
+      "path": "reports/index.html",
+      "sha256": "445c2a27e7be6952a7733075abbcd2991376ef82d2ee715e20ec707b9b12f492",
+      "bytes": 16047
+    },
+    {
+      "path": "scripts/check_example.py",
+      "sha256": "23d4e6cf987c37d5c0e475788d4ef1ac15507759f73c4dc7cbf07bd8df0f4b67",
+      "bytes": 13581
+    },
+    {
+      "path": "scripts/replay.py",
+      "sha256": "1ee43f4c31ebc1ec511f69794ad31c49531ecefe14ca7451bfa26a4d3e8e63c1",
+      "bytes": 2136
+    },
+    {
+      "path": "scripts/verify.py",
+      "sha256": "bc2509d711ad4cf1a34b95dce183c11450c0e41f215b02e631fd38db1774023a",
+      "bytes": 7082
+    }
+  ],
+  "native_models": 1,
+  "source_step_solids": 1,
+  "raw_meshes_included": false,
+  "native_execution_in_this_packaging_task": false
+}
