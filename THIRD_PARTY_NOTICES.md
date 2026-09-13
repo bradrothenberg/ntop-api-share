@@ -16,3 +16,7 @@ nTop application binaries, commercial font binaries, and license files are not i
 The B52 R2-R6 report derivatives include corresponding saved graphs and guide data in [history-source](demos/b52/history-source/README.md), under the existing GPL-2.0 terms. The original artist source remains in the B52 upstream folder. Shared report viewers retain the existing Three.js MIT notice.
 
 Reference photographs and photographic composites are excluded from the public edition. Their source citations remain as historical context. Authored comparisons do not confer rights to the excluded source images.
+
+## KestrelSAT corner example
+
+The [corner demo](demos/kestrelsat-corner/README.md) contains one solid extracted from the user-supplied KestrelSAT Mk2 Structure STEP file, at the user's request. The full assembly is excluded. The demo records source hashes, native reconstruction, and authored comparison figures. No new blanket license or production qualification is assigned to this source geometry.

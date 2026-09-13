@@ -1,0 +1,184 @@
+{
+  "created_utc": "2026-09-13T21:34:19.457211+00:00",
+  "host_comparison": {
+    "kind": "New host-rendered mesh comparison; no new native execution.",
+    "renderer": "PyVista 0.48.4",
+    "window_pixels": [
+      960,
+      640
+    ],
+    "camera": {
+      "eye_mm": [
+        -160.32324393836765,
+        37.77454060132295,
+        67.61488068351673
+      ],
+      "focal_mm": [
+        -198.42836170488297,
+        -0.33057716519238056,
+        29.509762917001403
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parallel_scale_mm": 23.35180221453297,
+      "clipping_range_mm": [
+        0.1,
+        264.0000000000001
+      ]
+    },
+    "identical_camera_scale_lighting_and_material": true,
+    "source_geometry_unchanged": true,
+    "images": [
+      {
+        "image": "assets/host-step.png",
+        "image_sha256": "069504ad56b93d2cc460bc1c69b463eb99ffcdb683a037862f64dad475cdd26d",
+        "source": "output/source_fine.stl",
+        "source_sha256": "29e3866bd42385fcbf8d5a8356613c769f6376a5cf7ba4e7947afeaae3ac04d3",
+        "point_count": 1968,
+        "triangle_count": 3932,
+        "mesh_bounds_mm": [
+          -209.42835998535156,
+          -187.42835998535156,
+          -11.33057689666748,
+          10.66942310333252,
+          18.509763717651367,
+          40.509761810302734
+        ],
+        "view": "recess"
+      },
+      {
+        "image": "assets/host-modeled.png",
+        "image_sha256": "3988b59bae3f1aab8ec364bbf72efe51646a285f6b4b34881d71b39f97ea94d8",
+        "source": "output/native.stl",
+        "source_sha256": "5bd85d581feed32955c12daee40f2b095423115821d098b3494be29eccc21df6",
+        "point_count": 92854,
+        "triangle_count": 185704,
+        "mesh_bounds_mm": [
+          -209.43634033203125,
+          -187.4207000732422,
+          -11.337495803833008,
+          10.677619934082031,
+          18.503644943237305,
+          40.517765045166016
+        ],
+        "view": "recess"
+      },
+      {
+        "view": "opposite",
+        "image": "assets/host-step-opposite.png",
+        "image_sha256": "7279e68106fb8b899370f139c45bbc878e72d298e283e285aeddeb204b8e9043",
+        "source": "output/source_fine.stl",
+        "source_sha256": "29e3866bd42385fcbf8d5a8356613c769f6376a5cf7ba4e7947afeaae3ac04d3",
+        "point_count": 1968,
+        "triangle_count": 3932,
+        "mesh_bounds_mm": [
+          -209.42835998535156,
+          -187.42835998535156,
+          -11.33057689666748,
+          10.66942310333252,
+          18.509763717651367,
+          40.509761810302734
+        ]
+      },
+      {
+        "view": "opposite",
+        "image": "assets/host-modeled-opposite.png",
+        "image_sha256": "36fd2d6ff0b45bfac38181bf6b65db52853d868c50183bfc21ec971f2b55e5b5",
+        "source": "output/native.stl",
+        "source_sha256": "5bd85d581feed32955c12daee40f2b095423115821d098b3494be29eccc21df6",
+        "point_count": 92854,
+        "triangle_count": 185704,
+        "mesh_bounds_mm": [
+          -209.43634033203125,
+          -187.4207000732422,
+          -11.337495803833008,
+          10.677619934082031,
+          18.503644943237305,
+          40.517765045166016
+        ]
+      }
+    ],
+    "display": "Smooth vertex normals with sharp-edge splitting at 30 degrees. This changes shading only; triangle coordinates are not modified.",
+    "raw_mesh_scope": "Meshes are retained in ignored output/. They are excluded from Git.",
+    "views": {
+      "recess": {
+        "eye_mm": [
+          -160.32324393836765,
+          37.77454060132295,
+          67.61488068351673
+        ],
+        "focal_mm": [
+          -198.42836170488297,
+          -0.33057716519238056,
+          29.509762917001403
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "parallel_scale_mm": 23.35180221453297,
+        "clipping_range_mm": [
+          0.1,
+          264.0000000000001
+        ]
+      },
+      "opposite": {
+        "eye_mm": [
+          -236.5334794713983,
+          37.77454060132295,
+          67.61488068351673
+        ],
+        "focal_mm": [
+          -198.42836170488297,
+          -0.33057716519238056,
+          29.509762917001403
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "parallel_scale_mm": 23.35180221453297,
+        "clipping_range_mm": [
+          0.1,
+          264.0000000000001
+        ]
+      }
+    },
+    "camera_scope": "Both source/candidate pairs use the same fixed scale, focal point, lighting and material. The pocket view reflects the recess camera across the X center plane, exposing the negative-X pocket and bore.",
+    "view_selection": "A full 180-degree view hid the rounded pocket behind a diagonal face. That host-only camera trial remains in ignored output/. The final negative-X view visibly exposes the rounded pocket and bore."
+  },
+  "recorded_native": {
+    "image": "assets/native-implicit.png",
+    "image_sha256": "ff6994ba518e7cd1b6d4ae356e155280b5bfb0b0650d4b1504312e843c8c1d0e",
+    "model": "models/Corner_block.ntop",
+    "build": "nTop 6.0.0-rc build 42594",
+    "capture_date": "2026-09-13",
+    "completed": true,
+    "visually_inspected_in_source_record": true,
+    "source_unchanged": true,
+    "exit_code": null,
+    "elapsed_seconds": null,
+    "timing_scope": "No first-frame or process-exit time was captured. No opening-speed claim.",
+    "camera": "assets/native-camera.json",
+    "camera_sha256": "e1f1a510331d781bb95d73f2502571cb5ad4e1fe31c2616a19639c8c2a5e0417",
+    "render_config": "assets/native-render.json",
+    "render_config_sha256": "58d870eacd140d676385775ee41a7c3218f3ac485574ecb8961ccb7f01e3d728",
+    "new_native_execution": false,
+    "recorded_original_model_sha256": "74ecd137b5e93540e97a981bad13e731699bd4a20a253eed387316e079116bfc",
+    "delivered_model_sha256": "72d7f9fbe6fb78fc54082ee2e4e2ad902b12a63ffe6e1c269f285904c95b1837",
+    "portability_binding": "evidence/native-portability.json",
+    "portability_binding_sha256": "437e8c98674106ab175fecaa16319dd77eb125882ff89719a95c6ab35a390ae1",
+    "original_and_delivered_geometry_equal": true,
+    "changed_field": "main.fn.def.description"
+  },
+  "image_metadata_audit": {
+    "native_png_info": {},
+    "host_png_info": {},
+    "private_paths_or_session_ids_in_public_metadata": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "camera_config": "camera.json",
+  "implicit_resolution": 3,
+  "gpu_acceleration": "on",
+  "ambient_occlusion": "on",
+  "force_transparent": "off",
+  "section_cut": [],
+  "field_viewer": []
+}

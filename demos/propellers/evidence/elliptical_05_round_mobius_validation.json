@@ -1,0 +1,60 @@
+{
+  "id": "05_round_mobius",
+  "triangles": 288124,
+  "vertices": 144058,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 201.6152088139223,
+  "bounds_mm": [
+    [
+      -91.9717788696289,
+      -97.5799560546875,
+      -10.807563781738281
+    ],
+    [
+      100.80631256103516,
+      97.58312225341797,
+      10.806835174560547
+    ]
+  ],
+  "volume_mm3": 37932.986194858786,
+  "native_sweeps": 4,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Ribbon half 1 profile",
+      "Ribbon half 1 spine",
+      "Ribbon half 1 chord and twist rail",
+      "Ribbon half 1 center rail"
+    ],
+    [
+      "Ribbon half 2 profile",
+      "Ribbon half 2 spine",
+      "Ribbon half 2 chord and twist rail",
+      "Ribbon half 2 center rail"
+    ],
+    [
+      "Hub support -1 profile",
+      "Hub support -1 spine",
+      "Hub support -1 chord and twist rail",
+      "Hub support -1 center rail"
+    ],
+    [
+      "Hub support 1 profile",
+      "Hub support 1 spine",
+      "Hub support 1 chord and twist rail",
+      "Hub support 1 center rail"
+    ]
+  ],
+  "seconds": 235.169324100003,
+  "sha256": "332cfa700db3da36dfbd63d24c58a88d569f5ce25aff62e8e031274bd5b2357e",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.9952324104309085,
+    "maximum_mesh_edge_mm": 2.485261923371087,
+    "conservative_surface_gap_lower_bound_mm": 6.029498525292134,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "notebook_sha256": "aa7afd66f19c85c11b4a01935e766b7d8320d16f082e5c078af9b969aa8df28b",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

@@ -1,0 +1,37 @@
+{
+  "scope": "New offline CAD extraction and reimport; no new nTop execution",
+  "original_assembly_sha256": "2633883903ba1db1bbe435cb3d86a2218d42694596c478acfcffc6c2b356830e",
+  "original_solid_index": 0,
+  "original_solid_count": 28,
+  "published_solid_count": 1,
+  "extracted_step_sha256": "84e879e36daedca939259d12f7134c33defd548408f09b4d04ed1a2e8bebc34d",
+  "source_valid": true,
+  "reimport_valid": true,
+  "source_volume_mm3": 6866.570266324959,
+  "reimport_volume_mm3": 6866.570266319449,
+  "intersection_volume_mm3": 6866.570266324961,
+  "volume_iou": 1.0000000000008031,
+  "source_bounds_mm": [
+    -209.428361704883,
+    -11.330577165192386,
+    18.509762917001396,
+    -187.428361704883,
+    10.669422834807627,
+    40.50976291700141
+  ],
+  "reimport_bounds_mm": [
+    -209.4283617048,
+    -11.330577165195974,
+    18.509762916997083,
+    -187.4283617047945,
+    10.669422834852,
+    40.5097629170455
+  ],
+  "source_surfaces": {
+    "GeomAbs_Plane": 47,
+    "GeomAbs_Cylinder": 6
+  },
+  "coordinate_frame": "Original STEP world coordinates; no transformation",
+  "original_source_unchanged": true,
+  "numerical_note": "The raw CAD intersection-over-union differs from unity by about 8e-13 due to Boolean numerical precision. It is not an accuracy greater than 100 percent."
+}

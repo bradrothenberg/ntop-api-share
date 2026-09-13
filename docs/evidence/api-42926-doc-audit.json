@@ -1,0 +1,197 @@
+{
+  "build": 42926,
+  "package_date": "2026-09-10",
+  "audit_date": "2026-09-13",
+  "scope": "Offline documentation and skill reconciliation; supplied files were read-only. No native execution or performance benchmark.",
+  "supplied_source_files": [
+    {
+      "file": "README.md",
+      "sha256": "c5d609d1d023b59de18f793fa92dbc2fa33a56942c1b8064a708c68dbeadd2d0",
+      "matches_previous_manifest": true
+    },
+    {
+      "file": ".claude/skills/ntop-modeling/SKILL.md",
+      "sha256": "b5813abba504f80045f35574a24f683d48592f14a8e07a2ad557c107f00ddde6",
+      "matches_previous_manifest": true
+    },
+    {
+      "file": "tools/send.py",
+      "sha256": "1010c56d61f11588734a1c41c933eccfa1d27a0a799db382d8ba260ad8396e94",
+      "matches_previous_manifest": true
+    },
+    {
+      "file": "tools/blocks.py",
+      "sha256": "8805c628cb42641e702bd606252b9e2970032ea36caaff7fd519e907bc943527",
+      "matches_previous_manifest": true
+    },
+    {
+      "file": "nTopScripts/demo1.py",
+      "sha256": "1168edcb14715dc905e40b26224001d3c49ce24dd31eb1664986e8e922c3b1c9",
+      "matches_previous_manifest": true
+    },
+    {
+      "file": ".claude/skills/SKILL.md",
+      "sha256": "b5813abba504f80045f35574a24f683d48592f14a8e07a2ad557c107f00ddde6",
+      "identical_to": ".claude/skills/ntop-modeling/SKILL.md"
+    }
+  ],
+  "recorded_evidence": [
+    {
+      "file": "docs/evidence/api-42926-surface.json",
+      "sha256": "b23afc304bc2923550d3626b2ab68cf85d99d87f4e64db095780e04a400b1af8",
+      "hash_scope": "Published Git blob bytes"
+    },
+    {
+      "file": "docs/evidence/api-42926-types.json",
+      "sha256": "5cfdba52e11c8d7c1f9cd6e015a46da26e005c9ff2fbefe1d131cf0300dc290a",
+      "hash_scope": "Published Git blob bytes"
+    }
+  ],
+  "current_reference": "docs/API_REFERENCE.md",
+  "historical_reference": "docs/API_REFERENCE_42594.md",
+  "recorded_method_count": 31,
+  "documented_methods": [
+    "add_block",
+    "add_section",
+    "add_variable",
+    "append_to_list",
+    "block_state",
+    "clear_block_input",
+    "close_current_open_custom_block",
+    "connect_block_property",
+    "current_open_custom_block",
+    "delete_block",
+    "delete_variable",
+    "export_as_recipe",
+    "get_block_input",
+    "get_block_input_units",
+    "import_recipe",
+    "list_available_blocks",
+    "list_block_inputs",
+    "list_block_properties",
+    "list_blocks",
+    "list_custom_blocks",
+    "list_sections",
+    "list_variables",
+    "move_block",
+    "new_notebook",
+    "open_custom_block",
+    "open_notebook",
+    "rename_variable",
+    "save_notebook",
+    "save_notebook_as",
+    "set_block_input",
+    "set_block_input_units"
+  ],
+  "reviewed_shared_guidance": [
+    ".agents/skills/engineering-html/SKILL.md",
+    ".agents/skills/ntop-csg-modeling/SKILL.md",
+    ".agents/skills/ntop-csg-modeling/references/geometry-robustness.md",
+    ".agents/skills/ntop-csg-modeling/references/kestrelsat-corner.md",
+    ".agents/skills/ntop-notebook-api/SKILL.md",
+    "AGENTS.md",
+    "README.md",
+    "SPEC.md",
+    "docs/API.md",
+    "docs/API_42926.md",
+    "docs/API_DOC_AUDIT_42926.md",
+    "docs/API_FINDINGS.md",
+    "docs/API_REFERENCE.md",
+    "docs/API_REFERENCE_42594.md",
+    "docs/ASSEMBLIES.md",
+    "docs/BACKGROUND_CONSOLE.md",
+    "docs/JET_EVOLUTION.md",
+    "docs/LOFTING.md",
+    "docs/PROPELLER_LEARNINGS.md",
+    "docs/PUBLIC_AUDIT.md",
+    "docs/RELEASE_VERIFICATION.md",
+    "docs/REPORTS.md",
+    "docs/SETUP.md",
+    "docs/VERIFICATION.md",
+    "docs/VERIFICATION_42926.md"
+  ],
+  "reviewed_demo_agents": [
+    "demos/a12/AGENTS.md",
+    "demos/b52/AGENTS.md",
+    "demos/ddgx/AGENTS.md",
+    "demos/f16/AGENTS.md",
+    "demos/fcat/AGENTS.md",
+    "demos/fury/AGENTS.md",
+    "demos/i6-astra/AGENTS.md",
+    "demos/i6/AGENTS.md",
+    "demos/jet20/AGENTS.md",
+    "demos/kestrelsat-corner/AGENTS.md",
+    "demos/propellers/AGENTS.md"
+  ],
+  "demo_notes_scanned_for_api_claims": [
+    "demos/a12/LEARNINGS.md",
+    "demos/a12/README.md",
+    "demos/b52/LEARNINGS.md",
+    "demos/b52/README.md",
+    "demos/ddgx/LEARNINGS.md",
+    "demos/ddgx/README.md",
+    "demos/f16/LEARNINGS.md",
+    "demos/f16/README.md",
+    "demos/fcat/LEARNINGS.md",
+    "demos/fcat/README.md",
+    "demos/fury/LEARNINGS.md",
+    "demos/fury/README.md",
+    "demos/i6-astra/LEARNINGS.md",
+    "demos/i6-astra/README.md",
+    "demos/i6/LEARNINGS.md",
+    "demos/i6/README.md",
+    "demos/jet20/LEARNINGS.md",
+    "demos/jet20/README.md",
+    "demos/kestrelsat-corner/README.md",
+    "demos/propellers/LEARNINGS.md",
+    "demos/propellers/README.md"
+  ],
+  "reviewed_helpers": [
+    "harness/agent.py",
+    "harness/ntop_api.py",
+    "harness/block_catalog.py",
+    "scripts/ntop_tcp.py",
+    "scripts/ntop_console_post.ps1",
+    "scripts/stage.py",
+    "scripts/replay_recipe.py",
+    "examples/probe_42926.py",
+    "tests/test_api_42926.py"
+  ],
+  "evidence_classes": [
+    "supplied documentation",
+    "recorded native behavior",
+    "offline checks",
+    "new native execution: not performed"
+  ],
+  "native_probe_scope": [
+    "real",
+    "integer",
+    "bool",
+    "text"
+  ],
+  "unverified_by_this_audit": [
+    "new native point/vector readback",
+    "new native TCP dispatch",
+    "new native clear/move/list-processing behavior",
+    "new complete Automate input/output authoring",
+    "performance changes"
+  ],
+  "conflict_details": "docs/API_DOC_AUDIT_42926.md",
+  "unrelated_marine_work_included": false,
+  "offline_validation": {
+    "recorded_signatures_match": 31,
+    "current_python_examples_parse": 6,
+    "bundled_skills_valid": 3,
+    "demo_smoke_checks_passed": 11,
+    "pytest_passed": 104,
+    "pytest_skipped": 0,
+    "corner_manifest_and_graph_check_passed": true,
+    "public_payload_audit": {
+      "files": 989,
+      "local_links": 1074,
+      "native_notebooks": 20,
+      "findings": 0,
+      "scope": "Separate staged checkout plus final documentation-only delta scan"
+    }
+  }
+}

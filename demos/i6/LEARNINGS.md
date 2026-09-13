@@ -1,5 +1,7 @@
 # Recorded lessons
 
+For new API work, use [the build 42926 reference](../../docs/API_REFERENCE.md). The type, unit, and timing observations below retain build 42594 scope.
+
 This is an edited record of prior work. Its native results apply to those recorded revisions.
 Local machine paths and omitted artifact links were removed for this public handoff.
 Historical tool and artifact names below describe the source work. Use README.md for the runnable commands and files in this checkout.

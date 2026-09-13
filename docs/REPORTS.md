@@ -2,7 +2,7 @@
 
 [Open the offline catalogue](../reports/index.html). Download or clone the complete repository, then open `reports/index.html`. Reports use shared local assets. GitHub's source view is not an HTML hosting service. No website is deployed.
 
-The collection contains 27 reports across ten project and method groups:
+The catalogue contains the original 27 reports plus the propeller gallery and KestrelSAT corner comparison: 29 reports across twelve groups.
 
 | Group | Coverage |
 |---|---|
@@ -16,11 +16,15 @@ The collection contains 27 reports across ten project and method groups:
 | A-12 | R33 guide, cockpit, and silhouette study |
 | F-Cat | Geometry and aerodynamic reports |
 | API method | JSON output and recorded viewport evidence |
+| Propellers | Shared two-rail studies, assembly, spinner, and marine-case evidence |
+| KestrelSAT corner | Single-part native CSG and matched STEP comparison |
 
 Reference photographs, photo composites, uncertain source scans, movies, animated previews, ZIP bundles, raw meshes, and solver output are excluded. They are not recoverable from public report image maps or download attachments. The separate local downloadable collection retains the user-approved reference photos and media.
 
 Authored native views, numerical comparison figures, source credits, and compact evidence attachments remain. B52 derivatives retain GPL-2.0 source and notices. The [historical source](../demos/b52/history-source/README.md) supplies editable R2-R6 graphs and guide data.
 
-Nine geometry demos contain native notebooks. F-16, A-12, and F-Cat replay complete saved API graphs. They do not include the original reference-fitting or solver pipelines. Fury's current finite-edge notebook is separate from its earlier registered builder.
+Eleven geometry demos contain native notebooks. F-16, A-12, F-Cat, propellers, and KestrelSAT corner replay complete saved API graphs. Replay does not rerun original measurement, fitting, or solver pipelines. Fury's current finite-edge notebook is separate from its earlier registered builder.
+
+For API capability claims, use [the current build 42926 reference](API_REFERENCE.md). An older report's build label identifies its recorded evidence.
 
 Results describe recorded revisions. Packaging checks establish portability and artifact integrity. They do not establish a new native nTop run, valid CFD mesh, hardware verification, or flight readiness.

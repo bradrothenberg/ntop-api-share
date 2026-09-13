@@ -1,0 +1,100 @@
+{
+  "method": "Central M3 x 12 button screw, internal clamp boss, 6 mm locating spigot, and custom M5 female adapter nut",
+  "dimensions": {
+    "adapter_base_z_mm": 5.445,
+    "adapter_shoulder_z_mm": 19.445,
+    "spigot_top_z_mm": 21.445,
+    "adapter_flats_mm": 8.0,
+    "spigot_diameter_mm": 6.0,
+    "socket_diameter_mm": 6.1,
+    "socket_top_z_mm": 21.595,
+    "boss_diameter_mm": 8.8,
+    "screw_seat_z_mm": 27.0,
+    "m5_socket_end_z_mm": 14.445,
+    "m3_socket_end_z_mm": 14.445,
+    "screw_length_mm": 12.0,
+    "head_diameter_mm": 5.7,
+    "head_height_mm": 1.65,
+    "head_counterbore_mm": 6.2,
+    "screw_clearance_mm": 3.4,
+    "screw_thread": "M3 x 0.5",
+    "adapter_thread": "M5 x 0.8",
+    "thread_geometry": "Nominal major-diameter envelopes; thread flanks are not modeled.",
+    "adapter_material_assumption": "Machined steel; grade and heat treatment need engineering release."
+  },
+  "parts": {
+    "spinner": {
+      "triangles": 122524,
+      "watertight": true,
+      "components": 1,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -10.159605026245117,
+          -10.159666061401367,
+          4.694252967834473
+        ],
+        [
+          10.159624099731445,
+          10.159586906433105,
+          27.555477142333984
+        ]
+      ],
+      "sha256": "65d2c90cd7829f524d6ee39b26c1617fac7ba0d54794b4cd3f0ef5526a18501e"
+    },
+    "spinner_adapter_nut": {
+      "triangles": 78976,
+      "watertight": true,
+      "components": 1,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -4.625293254852295,
+          -4.007914066314697,
+          5.440558433532715
+        ],
+        [
+          4.625438690185547,
+          4.008357048034668,
+          21.44992446899414
+        ]
+      ],
+      "sha256": "a0bd7e3a9e6254478f63b86ac55197b6c9dd01384bf1616899d3db90aa7e8af9"
+    },
+    "retaining_screw_reference": {
+      "triangles": 23798,
+      "watertight": true,
+      "components": 1,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -2.8472697734832764,
+          -2.846436023712158,
+          14.997634887695312
+        ],
+        [
+          2.8447084426879883,
+          2.8446717262268066,
+          28.493576049804688
+        ]
+      ],
+      "sha256": "2a4fb1c3d1cf7b4cdd572b0837a7211da8005242ab4181e0f70c0e8d9f523db4"
+    }
+  },
+  "nominal_stack_checks": {
+    "m5_engagement_mm": 7.0,
+    "m5_tip_clearance_mm": 2.0,
+    "m3_engagement_mm": 6.445,
+    "m3_tip_clearance_mm": 0.5549999999999997,
+    "shaft_to_retaining_screw_tip_gap_mm": 2.5549999999999997,
+    "spigot_diametral_clearance_mm": 0.09999999999999964,
+    "spigot_axial_clearance_mm": 0.14999999999999858,
+    "screw_clearance_mm": 0.3999999999999999,
+    "head_radial_clearance_mm": 0.25
+  },
+  "notes": [
+    "Dimensions are nominal geometry checks. Engagement includes thread envelopes; thread runout must be allowed in a manufacturing drawing.",
+    "Machine and tap the custom adapter M5 x 0.8 from the rear and M3 x 0.5 from the front, with the M3 bore opening into the M5 recess. The STL is a reference, not a ready-to-print threaded nut.",
+    "Final material, joint torque, locking treatment, balance, and rotational qualification need engineering release."
+  ]
+}

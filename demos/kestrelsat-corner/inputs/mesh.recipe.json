@@ -1,0 +1,2413 @@
+{
+  "name": "user_func_3840a00a_1cdd_5d08_89ac_fe2a29a30d11",
+  "displayname": "KestrelSAT CSG - Corner block",
+  "description": "Continuous native CSG reconstructed from measured original STEP surfaces. See csg/SPEC.md for validation.",
+  "version": [
+    1,
+    0,
+    0
+  ],
+  "imports": [],
+  "cbRefs": [],
+  "namespaces": [],
+  "inputs": [],
+  "body": [
+    {
+      "id": "003 22 mm outer envelope",
+      "name": "003 22 mm outer envelope",
+      "type": "box",
+      "contents": {
+        "func": "box_from_corners<point,point>",
+        "type": "box",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.209428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.011330577165192385
+              },
+              {
+                "isFinite": true,
+                "val": 0.018509762917001397
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.187428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.010669422834807627
+              },
+              {
+                "isFinite": true,
+                "val": 0.04050976291700141
+              }
+            ]
+          }
+        ],
+        "id": "csg_00001",
+        "name": "box_from_corners"
+      },
+      "variable": true
+    },
+    {
+      "id": "004 Exact outer cut face 3 plane",
+      "name": "004 Exact outer cut face 3 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.187428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.011030577165192386
+              },
+              {
+                "isFinite": true,
+                "val": 0.018509762917001404
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": -0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.7071067811865478
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.7071067811865474
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00002",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "004 Exact outer cut face 3 negative half-space",
+      "name": "004 Exact outer cut face 3 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "004 Exact outer cut face 3 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00003",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "005 Exact outer cut face 4 plane",
+      "name": "005 Exact outer cut face 4 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.209128361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.000330577165192383
+              },
+              {
+                "isFinite": true,
+                "val": 0.0185097629170014
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": -0.707106781186543
+                },
+                {
+                  "isFinite": true,
+                  "val": -2.2302449697212894e-16
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.707106781186552
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00004",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "005 Exact outer cut face 4 negative half-space",
+      "name": "005 Exact outer cut face 4 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "005 Exact outer cut face 4 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00005",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "006 Exact outer cut face 5 plane",
+      "name": "006 Exact outer cut face 5 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.209128361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.011330577165192382
+              },
+              {
+                "isFinite": true,
+                "val": 0.029509762917001404
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": -0.707106781186542
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.707106781186553
+                },
+                {
+                  "isFinite": true,
+                  "val": 2.465190328815662e-31
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00006",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "006 Exact outer cut face 5 negative half-space",
+      "name": "006 Exact outer cut face 5 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "006 Exact outer cut face 5 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00007",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "007 Exact outer cut face 36 plane",
+      "name": "007 Exact outer cut face 36 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.19054802298775722
+              },
+              {
+                "isFinite": true,
+                "val": 0.00754976155193347
+              },
+              {
+                "isFinite": true,
+                "val": 0.037390101634127246
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 0.5773502691896257
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.577350269189626
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.5773502691896255
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00008",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "007 Exact outer cut face 36 negative half-space",
+      "name": "007 Exact outer cut face 36 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "007 Exact outer cut face 36 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00009",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "008 Exact outer cut face 49 plane",
+      "name": "008 Exact outer cut face 49 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.20350575901298684
+              },
+              {
+                "isFinite": true,
+                "val": -0.005331624473296075
+              },
+              {
+                "isFinite": true,
+                "val": 0.024508715608897703
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": -0.5773502691896172
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.5773502691896304
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.57735026918963
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00010",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "008 Exact outer cut face 49 negative half-space",
+      "name": "008 Exact outer cut face 49 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "008 Exact outer cut face 49 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00011",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "009 Exact outer cut face 50 plane",
+      "name": "009 Exact outer cut face 50 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.209428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.0021400005900639434
+              },
+              {
+                "isFinite": true,
+                "val": 0.02770033949212986
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": -0.8880738339771133
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.3250575836718712
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.325057583671871
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00012",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "009 Exact outer cut face 50 negative half-space",
+      "name": "009 Exact outer cut face 50 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "009 Exact outer cut face 50 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00013",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "010 Exact outer cut face 51 plane",
+      "name": "010 Exact outer cut face 51 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.2006392594459401
+              },
+              {
+                "isFinite": true,
+                "val": -0.011064623607389483
+              },
+              {
+                "isFinite": true,
+                "val": 0.027375215175944493
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": -0.32505758367186194
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.8880738339771169
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.32505758367186965
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00014",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "010 Exact outer cut face 51 negative half-space",
+      "name": "010 Exact outer cut face 51 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "010 Exact outer cut face 51 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00015",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "011 Exact outer cut face 52 plane",
+      "name": "011 Exact outer cut face 52 plane",
+      "type": "plane",
+      "contents": {
+        "func": "plane_from_normal<point,vector>[1.1.0]",
+        "type": "plane",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.2006392594459401
+              },
+              {
+                "isFinite": true,
+                "val": -0.0024651249062492865
+              },
+              {
+                "isFinite": true,
+                "val": 0.018775716474804298
+              }
+            ]
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": -0.32505758367186305
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.3250575836718713
+                },
+                {
+                  "isFinite": true,
+                  "val": -0.888073833977116
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00016",
+        "name": "plane_from_normal"
+      },
+      "variable": true
+    },
+    {
+      "id": "011 Exact outer cut face 52 negative half-space",
+      "name": "011 Exact outer cut face 52 negative half-space",
+      "type": "implicit",
+      "contents": {
+        "func": "add<real_field,real_field>",
+        "type": "real_field",
+        "inputs": [
+          {
+            "ref": {
+              "id": "011 Exact outer cut face 52 plane"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          }
+        ],
+        "id": "csg_00017",
+        "name": "add"
+      },
+      "variable": true
+    },
+    {
+      "id": "002 Convex chamfered corner base",
+      "name": "002 Convex chamfered corner base",
+      "type": "implicit",
+      "contents": {
+        "func": "boolean_intersect<blend_enum,real_field,list<implicit>>[5.44.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "func": "core.list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "003 22 mm outer envelope"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "004 Exact outer cut face 3 negative half-space"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "005 Exact outer cut face 4 negative half-space"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "006 Exact outer cut face 5 negative half-space"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "007 Exact outer cut face 36 negative half-space"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "008 Exact outer cut face 49 negative half-space"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "009 Exact outer cut face 50 negative half-space"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "010 Exact outer cut face 51 negative half-space"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "011 Exact outer cut face 52 negative half-space"
+                },
+                "props": []
+              }
+            ],
+            "id": "csg_00019",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00018",
+        "name": "boolean_intersect"
+      },
+      "variable": true
+    },
+    {
+      "id": "013 Pocket 25 straight region 1",
+      "name": "013 Pocket 25 straight region 1",
+      "type": "box",
+      "contents": {
+        "func": "box_from_corners<point,point>",
+        "type": "box",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.209428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.002669422834807618
+              },
+              {
+                "isFinite": true,
+                "val": 0.029509762917001397
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.20342836170488302
+              },
+              {
+                "isFinite": true,
+                "val": 0.010669422834807627
+              },
+              {
+                "isFinite": true,
+                "val": 0.04050976291700141
+              }
+            ]
+          }
+        ],
+        "id": "csg_00020",
+        "name": "box_from_corners"
+      },
+      "variable": true
+    },
+    {
+      "id": "014 Pocket 25 straight region 2",
+      "name": "014 Pocket 25 straight region 2",
+      "type": "box",
+      "contents": {
+        "func": "box_from_corners<point,point>",
+        "type": "box",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.209428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.0003305771651923823
+              },
+              {
+                "isFinite": true,
+                "val": 0.032509762917001396
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.20342836170488302
+              },
+              {
+                "isFinite": true,
+                "val": 0.010669422834807627
+              },
+              {
+                "isFinite": true,
+                "val": 0.04050976291700141
+              }
+            ]
+          }
+        ],
+        "id": "csg_00021",
+        "name": "box_from_corners"
+      },
+      "variable": true
+    },
+    {
+      "id": "015 Pocket 25 exact rounded corner",
+      "name": "015 Pocket 25 exact rounded corner",
+      "type": "cylinder",
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.20342836170488302
+              },
+              {
+                "isFinite": true,
+                "val": 0.002669422834807618
+              },
+              {
+                "isFinite": true,
+                "val": 0.032509762917001396
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.209428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.002669422834807618
+              },
+              {
+                "isFinite": true,
+                "val": 0.032509762917001396
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.003
+            }
+          }
+        ],
+        "id": "csg_00022",
+        "name": "cylinder"
+      },
+      "variable": true
+    },
+    {
+      "id": "012 Rounded pocket 25",
+      "name": "012 Rounded pocket 25",
+      "type": "implicit",
+      "contents": {
+        "func": "boolean_union<blend_enum,real_field,list<implicit>>[5.44.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "func": "core.list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "013 Pocket 25 straight region 1"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "014 Pocket 25 straight region 2"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "015 Pocket 25 exact rounded corner"
+                },
+                "props": []
+              }
+            ],
+            "id": "csg_00024",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00023",
+        "name": "boolean_union"
+      },
+      "variable": true
+    },
+    {
+      "id": "017 Pocket 26 straight region 0",
+      "name": "017 Pocket 26 straight region 0",
+      "type": "box",
+      "contents": {
+        "func": "box_from_corners<point,point>",
+        "type": "box",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.195428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.011330577165192384
+              },
+              {
+                "isFinite": true,
+                "val": 0.029509762917001404
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.187428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.005330577165192383
+              },
+              {
+                "isFinite": true,
+                "val": 0.04050976291700141
+              }
+            ]
+          }
+        ],
+        "id": "csg_00025",
+        "name": "box_from_corners"
+      },
+      "variable": true
+    },
+    {
+      "id": "018 Pocket 26 straight region 2",
+      "name": "018 Pocket 26 straight region 2",
+      "type": "box",
+      "contents": {
+        "func": "box_from_corners<point,point>",
+        "type": "box",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.198428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.011330577165192384
+              },
+              {
+                "isFinite": true,
+                "val": 0.0325097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.187428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.005330577165192383
+              },
+              {
+                "isFinite": true,
+                "val": 0.04050976291700141
+              }
+            ]
+          }
+        ],
+        "id": "csg_00026",
+        "name": "box_from_corners"
+      },
+      "variable": true
+    },
+    {
+      "id": "019 Pocket 26 exact rounded corner",
+      "name": "019 Pocket 26 exact rounded corner",
+      "type": "cylinder",
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.195428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.005330577165192383
+              },
+              {
+                "isFinite": true,
+                "val": 0.0325097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.195428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.011330577165192384
+              },
+              {
+                "isFinite": true,
+                "val": 0.0325097629170014
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.003
+            }
+          }
+        ],
+        "id": "csg_00027",
+        "name": "cylinder"
+      },
+      "variable": true
+    },
+    {
+      "id": "016 Rounded pocket 26",
+      "name": "016 Rounded pocket 26",
+      "type": "implicit",
+      "contents": {
+        "func": "boolean_union<blend_enum,real_field,list<implicit>>[5.44.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "func": "core.list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "017 Pocket 26 straight region 0"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "018 Pocket 26 straight region 2"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "019 Pocket 26 exact rounded corner"
+                },
+                "props": []
+              }
+            ],
+            "id": "csg_00029",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00028",
+        "name": "boolean_union"
+      },
+      "variable": true
+    },
+    {
+      "id": "021 Pocket 24 straight region 0",
+      "name": "021 Pocket 24 straight region 0",
+      "type": "box",
+      "contents": {
+        "func": "box_from_corners<point,point>",
+        "type": "box",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.195428361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.00033057716519238503
+              },
+              {
+                "isFinite": true,
+                "val": 0.0185097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.187428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.010669422834807627
+              },
+              {
+                "isFinite": true,
+                "val": 0.0245097629170014
+              }
+            ]
+          }
+        ],
+        "id": "csg_00030",
+        "name": "box_from_corners"
+      },
+      "variable": true
+    },
+    {
+      "id": "022 Pocket 24 straight region 1",
+      "name": "022 Pocket 24 straight region 1",
+      "type": "box",
+      "contents": {
+        "func": "box_from_corners<point,point>",
+        "type": "box",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.198428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.002669422834807615
+              },
+              {
+                "isFinite": true,
+                "val": 0.0185097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.187428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.010669422834807627
+              },
+              {
+                "isFinite": true,
+                "val": 0.0245097629170014
+              }
+            ]
+          }
+        ],
+        "id": "csg_00031",
+        "name": "box_from_corners"
+      },
+      "variable": true
+    },
+    {
+      "id": "023 Pocket 24 exact rounded corner",
+      "name": "023 Pocket 24 exact rounded corner",
+      "type": "cylinder",
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.195428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.002669422834807613
+              },
+              {
+                "isFinite": true,
+                "val": 0.0185097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.195428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.002669422834807615
+              },
+              {
+                "isFinite": true,
+                "val": 0.0245097629170014
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.003
+            }
+          }
+        ],
+        "id": "csg_00032",
+        "name": "cylinder"
+      },
+      "variable": true
+    },
+    {
+      "id": "020 Rounded pocket 24",
+      "name": "020 Rounded pocket 24",
+      "type": "implicit",
+      "contents": {
+        "func": "boolean_union<blend_enum,real_field,list<implicit>>[5.44.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "func": "core.list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "021 Pocket 24 straight region 0"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "022 Pocket 24 straight region 1"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "023 Pocket 24 exact rounded corner"
+                },
+                "props": []
+              }
+            ],
+            "id": "csg_00034",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00033",
+        "name": "boolean_union"
+      },
+      "variable": true
+    },
+    {
+      "id": "024 Blind 2.7 mm bore face 9",
+      "name": "024 Blind 2.7 mm bore face 9",
+      "type": "cylinder",
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.194428361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.006169422834807619
+              },
+              {
+                "isFinite": true,
+                "val": 0.0360097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.20342836170488302
+              },
+              {
+                "isFinite": true,
+                "val": 0.006169422834807619
+              },
+              {
+                "isFinite": true,
+                "val": 0.0360097629170014
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.00135
+            }
+          }
+        ],
+        "id": "csg_00035",
+        "name": "cylinder"
+      },
+      "variable": true
+    },
+    {
+      "id": "025 Blind 2.7 mm bore face 18",
+      "name": "025 Blind 2.7 mm bore face 18",
+      "type": "cylinder",
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.191928361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.0036694228348076187
+              },
+              {
+                "isFinite": true,
+                "val": 0.0360097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.191928361704883
+              },
+              {
+                "isFinite": true,
+                "val": -0.005330577165192382
+              },
+              {
+                "isFinite": true,
+                "val": 0.0360097629170014
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.00135
+            }
+          }
+        ],
+        "id": "csg_00036",
+        "name": "cylinder"
+      },
+      "variable": true
+    },
+    {
+      "id": "026 Blind 2.7 mm bore face 6",
+      "name": "026 Blind 2.7 mm bore face 6",
+      "type": "cylinder",
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.191928361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.006169422834807618
+              },
+              {
+                "isFinite": true,
+                "val": 0.0335097629170014
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": -0.191928361704883
+              },
+              {
+                "isFinite": true,
+                "val": 0.006169422834807615
+              },
+              {
+                "isFinite": true,
+                "val": 0.024509762917001396
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.00135
+            }
+          }
+        ],
+        "id": "csg_00037",
+        "name": "cylinder"
+      },
+      "variable": true
+    },
+    {
+      "id": "027 Straight hexagonal recess face 32 profile",
+      "name": "027 Straight hexagonal recess face 32 profile",
+      "type": "new_profile",
+      "contents": {
+        "func": "profile_from_points<list<point>>[5.20.0]",
+        "type": "new_profile",
+        "inputs": [
+          {
+            "func": "core.list<point>",
+            "type": "list<point>",
+            "inputs": [
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.191428361704883
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.00037652961599416715
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03304529682293414
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.191428361704883
+                  },
+                  {
+                    "isFinite": true,
+                    "val": -0.003866111071125124
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.02880265613581485
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.191428361704883
+                  },
+                  {
+                    "isFinite": true,
+                    "val": -0.0038661110711251247
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.02597422901106866
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.191428361704883
+                  },
+                  {
+                    "isFinite": true,
+                    "val": -0.0010376839463789272
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.025974229011068658
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.191428361704883
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.003204956740740357
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.030216869698187945
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.191428361704883
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.003204956740740358
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03304529682293414
+                  }
+                ]
+              }
+            ],
+            "id": "csg_00039",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00038",
+        "name": "profile_from_points"
+      },
+      "variable": true
+    },
+    {
+      "id": "027 Straight hexagonal recess face 32",
+      "name": "027 Straight hexagonal recess face 32",
+      "type": "implicit",
+      "contents": {
+        "func": "extrude<new_profile,real,real,bool,vector>[5.20.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "ref": {
+              "id": "027 Straight hexagonal recess face 32 profile"
+            },
+            "props": []
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.004
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "angle": 1
+              },
+              "val": 0
+            }
+          },
+          {
+            "type": "bool",
+            "value": {
+              "val": false
+            }
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 1.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00040",
+        "name": "extrude"
+      },
+      "variable": true
+    },
+    {
+      "id": "028 Straight hexagonal recess face 29 profile",
+      "name": "028 Straight hexagonal recess face 29 profile",
+      "type": "new_profile",
+      "contents": {
+        "func": "profile_from_points<list<point>>[5.20.0]",
+        "type": "new_profile",
+        "inputs": [
+          {
+            "func": "core.list<point>",
+            "type": "list<point>",
+            "inputs": [
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.20196389561081574
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.006669422834807617
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.02880265613581485
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.1977212549236965
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0066694228348076175
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03304529682293413
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.19489282779895029
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0066694228348076175
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03304529682293413
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.19489282779895029
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.006669422834807617
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.030216869698187945
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.1991354684860696
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.006669422834807616
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.025974229011068658
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.20196389561081574
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.006669422834807616
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.025974229011068658
+                  }
+                ]
+              }
+            ],
+            "id": "csg_00042",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00041",
+        "name": "profile_from_points"
+      },
+      "variable": true
+    },
+    {
+      "id": "028 Straight hexagonal recess face 29",
+      "name": "028 Straight hexagonal recess face 29",
+      "type": "implicit",
+      "contents": {
+        "func": "extrude<new_profile,real,real,bool,vector>[5.20.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "ref": {
+              "id": "028 Straight hexagonal recess face 29 profile"
+            },
+            "props": []
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0040000000000000105
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "angle": 1
+              },
+              "val": 0
+            }
+          },
+          {
+            "type": "bool",
+            "value": {
+              "val": false
+            }
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 1.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00043",
+        "name": "extrude"
+      },
+      "variable": true
+    },
+    {
+      "id": "029 Straight hexagonal recess face 35 profile",
+      "name": "029 Straight hexagonal recess face 35 profile",
+      "type": "new_profile",
+      "contents": {
+        "func": "profile_from_points<list<point>>[5.20.0]",
+        "type": "new_profile",
+        "inputs": [
+          {
+            "func": "core.list<point>",
+            "type": "list<point>",
+            "inputs": [
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.20196389561081574
+                  },
+                  {
+                    "isFinite": true,
+                    "val": -0.0010376839463789268
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03650976291700139
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.20196389561081574
+                  },
+                  {
+                    "isFinite": true,
+                    "val": -0.003866111071125121
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.036509762917001407
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.1991354684860696
+                  },
+                  {
+                    "isFinite": true,
+                    "val": -0.003866111071125121
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.036509762917001407
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.19489282779895029
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0003765296159941642
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03650976291700139
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.19489282779895029
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.003204956740740359
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03650976291700139
+                  }
+                ]
+              },
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": -0.1977212549236965
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.003204956740740359
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.03650976291700139
+                  }
+                ]
+              }
+            ],
+            "id": "csg_00045",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00044",
+        "name": "profile_from_points"
+      },
+      "variable": true
+    },
+    {
+      "id": "029 Straight hexagonal recess face 35",
+      "name": "029 Straight hexagonal recess face 35",
+      "type": "implicit",
+      "contents": {
+        "func": "extrude<new_profile,real,real,bool,vector>[5.20.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "ref": {
+              "id": "029 Straight hexagonal recess face 35 profile"
+            },
+            "props": []
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.004000000000000014
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "angle": 1
+              },
+              "val": 0
+            }
+          },
+          {
+            "type": "bool",
+            "value": {
+              "val": false
+            }
+          },
+          {
+            "type": "vector",
+            "value": {
+              "units": {},
+              "value": [
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 0.0
+                },
+                {
+                  "isFinite": true,
+                  "val": 1.0
+                }
+              ]
+            }
+          }
+        ],
+        "id": "csg_00046",
+        "name": "extrude"
+      },
+      "variable": true
+    },
+    {
+      "id": "001 Corner: exact source CSG",
+      "name": "001 Corner: exact source CSG",
+      "type": "implicit",
+      "contents": {
+        "func": "boolean_subtract<blend_enum,real_field,implicit,list<implicit>>[5.44.0]",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "ref": {
+              "id": "002 Convex chamfered corner base"
+            },
+            "props": []
+          },
+          {
+            "func": "core.list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "012 Rounded pocket 25"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "016 Rounded pocket 26"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "020 Rounded pocket 24"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "024 Blind 2.7 mm bore face 9"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "025 Blind 2.7 mm bore face 18"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "026 Blind 2.7 mm bore face 6"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "027 Straight hexagonal recess face 32"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "028 Straight hexagonal recess face 29"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "029 Straight hexagonal recess face 35"
+                },
+                "props": []
+              }
+            ],
+            "id": "csg_00048",
+            "name": "core.list"
+          }
+        ],
+        "id": "csg_00047",
+        "name": "boolean_subtract"
+      },
+      "variable": true
+    },
+    {
+      "id": "RESULT Body",
+      "name": "RESULT Body",
+      "type": "implicit",
+      "contents": {
+        "ref": {
+          "id": "001 Corner: exact source CSG"
+        },
+        "props": []
+      },
+      "variable": true
+    },
+    {
+      "id": "VALIDATION AT remeshed",
+      "name": "VALIDATION AT remeshed",
+      "type": "mesh",
+      "contents": {
+        "func": "mesh_by_adaptive_tets<implicit,real_field,bool>[5.42.0]",
+        "type": "mesh",
+        "inputs": [
+          {
+            "ref": {
+              "id": "RESULT Body"
+            },
+            "props": []
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 5e-05
+            }
+          },
+          {
+            "type": "bool",
+            "value": {
+              "val": true
+            }
+          }
+        ],
+        "id": "csg_00049",
+        "name": "mesh_by_adaptive_tets"
+      },
+      "variable": true
+    },
+    {
+      "id": "VALIDATION Sharpened mesh",
+      "name": "VALIDATION Sharpened mesh",
+      "type": "mesh",
+      "contents": {
+        "func": "sharpen_mesh<mesh,implicit,integer,mesh_sharpen_enum>",
+        "type": "mesh",
+        "inputs": [
+          {
+            "ref": {
+              "id": "VALIDATION AT remeshed"
+            },
+            "props": []
+          },
+          {
+            "ref": {
+              "id": "RESULT Body"
+            },
+            "props": []
+          },
+          {
+            "type": "integer",
+            "value": {
+              "val": 1
+            }
+          },
+          {
+            "type": "mesh_sharpen_enum",
+            "value": {
+              "enum": 0
+            }
+          }
+        ],
+        "id": "csg_00050",
+        "name": "sharpen_mesh"
+      },
+      "variable": true
+    },
+    {
+      "id": "VALIDATION Export mesh",
+      "name": "VALIDATION Export mesh",
+      "type": "mesh_file_data",
+      "contents": {
+        "func": "export_mesh<file_path,mesh,unit_length_enum>",
+        "type": "mesh_file_data",
+        "inputs": [
+          {
+            "type": "file_path",
+            "value": {
+              "val": "repo://demos/kestrelsat-corner/output/native.stl"
+            }
+          },
+          {
+            "ref": {
+              "id": "VALIDATION Sharpened mesh"
+            },
+            "props": []
+          },
+          {
+            "type": "unit_length_enum",
+            "value": {
+              "id": "mm"
+            }
+          }
+        ],
+        "id": "csg_00051",
+        "name": "export_mesh"
+      },
+      "variable": true
+    }
+  ],
+  "output": {
+    "id": "VALIDATION Export mesh"
+  }
+}

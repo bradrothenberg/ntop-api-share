@@ -18,6 +18,11 @@ Keep captions adjacent to figures. Separate chosen dimensions, calculations, mea
 Display the relevant source revision and the scope of each check. Do not imply that a screenshot validates a mesh,
 that finite samples prove global continuity, or that an appearance reconstruction is production geometry.
 
+Use [the current build 42926 API reference](../../../docs/API_REFERENCE.md) when describing API capabilities.
+Keep supplied documentation, recorded native results, offline checks, and new native execution distinct.
+A current documentation baseline does not change an older model's build number or validate its replay on the newer build.
+Historical failures need their original build label and a link to current behavior when that behavior has changed.
+
 For comparisons, keep camera and scale fixed. Preserve a failure when changing the metric or sample locations.
 Prefer compact embedded images for a standalone report. Keep large movies and generated mesh archives out of Git.
 Retain third-party license notices for bundled viewers. Use authored figures or assets with documented redistribution terms.

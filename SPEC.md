@@ -27,3 +27,29 @@ Extend the current public repository with the 27-report catalogue, current F-16 
 Add portable native snapshots and complete saved API recipes for the three new geometry demos. Replay these graphs through the existing build/stage harness; do not imply that replay reruns the original fitting, optimization, or CFD workflows. Keep the earlier Fury algorithmic builder and label its distinct revision. Add the separate current finite-edge notebook with paused meshing operations.
 
 Validate the staged public tree, a separate checkout, all native containers, graph closure, offline report interactions, local links, and the explicit excluded-photo hashes. Publish after those checks pass.
+
+## September 13 API and propeller learning update
+
+Update shared guidance and harness for the supplied build 42926 demo package. Preserve the nine existing demos and their recorded provenance.
+Include path-free API evidence, current type/unit/state/movement guidance, optional owned-session TCP dispatch, and the two-rail propeller lessons.
+Retain old findings with explicit historical labels. Test offline helpers and audit all proposed public files.
+Do not import private workspaces, model binaries, reference images, CFD outputs, credentials, or private Git history.
+No new native execution against an existing user session is part of this public-repo audit.
+
+The user also requested a shared propeller folder. Include all 22 saved construction graphs, two audited native assembly snapshots, native screenshots, selected measurements, and the CFD plan. Large blade caches and meshes are regenerated locally. Carry the subsequent folded-Mobius correction into the airfoil case after native validation.
+
+The marine_prop case extends the collection to 23 complete graphs. Include its native views, cap dimensions, and mesh-cleanup bounds. The shaft-specific spline and propeller retainer remain pending. Keep the large notebook cache, STL files, and source photographs private.
+
+## September 13 CSG skill and single-part example
+
+Add the native CSG modeling skill and a self-contained KestrelSAT corner demo. Include the editable native part, complete construction recipe, one extracted original STEP solid, a compact matched-view report, and portable validation evidence. Preserve the measured original coordinate frame. Exclude the full assembly and raw generated meshes.
+
+The part uses primitive stock, plane cuts, cylindrical tools, and three genuine hexagonal recess profiles. Report recorded build 42594 native mesh overlap and bidirectional surface samples separately from new offline extraction and package checks. This request adds local repository files; it does not publish a remote update.
+
+Publication follow-up: push the complete audited branch, including the API update, propeller studies, and KestrelSAT corner example, to the existing public repository. Open a pull request against main and preserve the existing public history.
+
+## Build 42926 documentation audit
+
+Audit all shared API documentation, bundled skills, demo guidance, and helper examples against the supplied September 10 package. Make build 42926 the current reference. Retain build 42594 findings as labeled historical evidence. Resolve contradictions between supplied prose and recorded docstrings without claiming new native verification.
+
+Plan: inventory source identities and all guidance; compare the complete method surface and modeling workflows; update current reference, setup, skills, and evidence labels; validate links, examples, package checks, and the public audit; publish the focused changes to the existing pull request. Preserve unrelated marine work in progress and keep the supplied package read-only.

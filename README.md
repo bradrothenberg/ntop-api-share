@@ -1,10 +1,12 @@
 # nTop Notebook API: public demo collection
 
-Nine editable demonstrations and 27 reports, with six source builders, three saved-graph replays, and measured Notebook API lessons.
+Eleven editable demonstrations and 29 reports, with six source builders, five saved-graph replay collections, and measured Notebook API lessons.
 Each demo contains a local agent, scripts, native models, and an HTML report. No private project checkout is required.
 
 | Demo | Learn from it |
 |---|---|
+| [KestrelSAT corner](demos/kestrelsat-corner/README.md) | One native CSG part, its original STEP reference, matched geometry views, and measured volume and surface checks. |
+| [Propellers](demos/propellers/README.md) | An eight-inch assembly, separate retained spinner, twenty native two-rail blade studies, and a CFD optimization plan. |
 | [Original inline-six](demos/i6/README.md) | An API recorder, slider-crank mechanism, cam motion, and analytic helical springs. |
 | [I6 Astra](demos/i6-astra/README.md) | A native assembly with involute gears, nominal fasteners, belts, spline routes, and mechanism checks. |
 | [20 lbf jet](demos/jet20/README.md) | A native compressor, combustor, turbine, housing joints, fasteners, and service routes. The 20 lbf value is a conditional sizing target. |
@@ -20,7 +22,9 @@ Each demo contains a local agent, scripts, native models, and an HTML report. No
 ## Get started
 
 Requirements: Windows, Git, uv, and a licensed nTop custom build with the Notebook API.
-The source work used **nTop 6.0.0-rc build 42594**. Obtain that build from its maintainer.
+The current API documentation targets **nTop 6.1.0-rc build 42926**, from the September 10 package.
+The original demos retain their recorded **6.0.0-rc build 42594** provenance.
+Start with the [current method reference](docs/API_REFERENCE.md) and [September changes](docs/API_42926.md). Obtain licensed builds from their maintainer.
 The application and license are not included. Offline builders and tests run without nTop.
 
 ```powershell
@@ -35,6 +39,7 @@ Launch nTop from that PowerShell session. In a new empty notebook, open **View >
 
 ```python
 import ntop_api
+ntop_api.check_api(notebook, require_42926=True)
 ntop_api.hello(notebook)
 ```
 
@@ -54,16 +59,19 @@ ntop-api-share/
     models/             Relevant .ntop snapshots
     reports/            Public HTML report and compact assets
     output/             Generated recipes and run evidence; ignored
-  reports/              27-report offline catalogue and shared compact assets
+  reports/              29-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
-  .agents/skills/       Bundled API and HTML-report skills
+  .agents/skills/       Bundled API, CSG modeling, and HTML-report skills
   templates/            HTML report template and offline CSS
   tests/                Portability and graph-invariant checks
 ```
 
 ## Read next
 
-- [API lessons](docs/API.md), [method reference](docs/API_REFERENCE.md), and [measured API failures](docs/API_FINDINGS.md)
+- [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)
+- [Build 42926 changes](docs/API_42926.md) and [propeller workflow lessons](docs/PROPELLER_LEARNINGS.md)
+- [API lessons](docs/API.md), [current method reference](docs/API_REFERENCE.md), and [documentation audit](docs/API_DOC_AUDIT_42926.md)
+- [Archived build 42594 reference](docs/API_REFERENCE_42594.md) and [historical API failures](docs/API_FINDINGS.md)
 - [Lofting](docs/LOFTING.md), [assemblies](docs/ASSEMBLIES.md), and [later jet lessons](docs/JET_EVOLUTION.md)
 - [Verification methods](docs/VERIFICATION.md) and [background console](docs/BACKGROUND_CONSOLE.md)
 - [Public audit](docs/PUBLIC_AUDIT.md), [verification receipt](docs/RELEASE_VERIFICATION.md), and [asset notices](THIRD_PARTY_NOTICES.md)

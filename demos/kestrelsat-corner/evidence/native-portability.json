@@ -1,0 +1,60 @@
+{
+  "scope": "Description-only portability edit and offline complete native/recipe graph verification. No new nTop execution or geometry evaluation.",
+  "model": "models/Corner_block.ntop",
+  "source_native_sha256": "74ecd137b5e93540e97a981bad13e731699bd4a20a253eed387316e079116bfc",
+  "native_before_sha256": "74ecd137b5e93540e97a981bad13e731699bd4a20a253eed387316e079116bfc",
+  "native_after_sha256": "72d7f9fbe6fb78fc54082ee2e4e2ad902b12a63ffe6e1c269f285904c95b1837",
+  "source_native_unchanged": true,
+  "changed_json_field": "main.fn.def.description",
+  "original_description": "Continuous native CSG reconstructed from measured original STEP surfaces. See csg/SPEC.md for validation.",
+  "published_description": "Continuous native CSG reconstructed from measured original STEP surfaces. See the demo README and its evidence folder for recorded verification.",
+  "all_non_fn_leaf_chunks_byte_identical": true,
+  "all_non_main_top_level_chunks_byte_identical": true,
+  "function_code_inputs_output_units_and_connections_unchanged": true,
+  "output_matches_recorded_geometry_binding": true,
+  "offline_native_check": {
+    "passed": true,
+    "native_model_sha256": "72d7f9fbe6fb78fc54082ee2e4e2ad902b12a63ffe6e1c269f285904c95b1837",
+    "recipe_sha256": "463a6b817dbedbf79e7712aff51f601c88187c2d94840fc5d4ccc80d09ce9413",
+    "native_container_roundtrip_exact": true,
+    "offline_recipe": {
+      "variables": 12,
+      "expressions": 48,
+      "functions": 11,
+      "references_resolve": true,
+      "scope": "offline graph validation"
+    },
+    "graph": {
+      "variables": 12,
+      "matched": 12,
+      "extra_native_names": [],
+      "output_name": "RESULT Body",
+      "output_type": "implicit",
+      "output_expression_sha256": "98f1126ff41ff7be7a1c40e46c70e9f19ddfdd83414700f1672fd13485c5af45",
+      "input_count": 0,
+      "external_geometry_dependencies": 0,
+      "complete_named_expressions_and_output_equal": true,
+      "numeric_comparison": "Exact decoded numeric ratios; no geometric or numeric tolerance"
+    },
+    "mesh_recipe": {
+      "body_expression_sha256": "98f1126ff41ff7be7a1c40e46c70e9f19ddfdd83414700f1672fd13485c5af45",
+      "matches_native_output": true,
+      "only_file_path": "repo://demos/kestrelsat-corner/output/native.stl",
+      "at_tolerance_mm": 0.05,
+      "remesh": true,
+      "sharpen_iterations": 1,
+      "export_units": "mm",
+      "pipeline_connections_verified": true,
+      "native_execution_performed": false
+    },
+    "authored_rows_collapsed": 167,
+    "sections_collapsed": 2,
+    "manifest_checked": false,
+    "manifest_files_checked": 0,
+    "scope": "Offline saved-graph, presentation, dependency and file-identity checks. Recorded geometry evidence is referenced, not rerun.",
+    "native_execution_performed": false,
+    "geometry_evaluation_performed": false
+  },
+  "native_execution_performed": false,
+  "geometry_evaluation_performed": false
+}

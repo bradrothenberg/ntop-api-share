@@ -1,0 +1,59 @@
+{
+  "id": "07_three_petal",
+  "triangles": 287910,
+  "vertices": 143949,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 202.8078518159272,
+  "bounds_mm": [
+    [
+      -62.422481536865234,
+      -91.68467712402344,
+      -45.843135833740234
+    ],
+    [
+      101.32219696044922,
+      88.09278869628906,
+      41.44874572753906
+    ]
+  ],
+  "volume_mm3": 65562.36427069877,
+  "native_sweeps": 1,
+  "native_closed_curves": 3,
+  "native_inputs": [
+    [
+      "Closed loop profile",
+      "Closed loop spine",
+      "Closed loop chord and twist rail",
+      "Closed loop center rail"
+    ]
+  ],
+  "seconds": 152.28068380000002,
+  "sha256": "48621b9bb2ed754443e15a6124c87d38482f1ee5a4772e894c8e5edae8328083",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 4.394871905148904,
+    "maximum_mesh_edge_mm": 2.8723074337767294,
+    "conservative_surface_gap_lower_bound_mm": 3.953450093837497,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "mesh_cleanup": {
+    "method": "Native Split Mesh, Filter Mesh List, Merge Mesh after Sharpen",
+    "threshold_mm3": 1e-06,
+    "raw_triangles": 287910,
+    "raw_components": 1,
+    "removed_components": [],
+    "retained_surface_vertices_unchanged": true
+  },
+  "smooth_tip_revision": {
+    "radial_trim_active": false,
+    "uniform_loop_scale": 0.9566543310721811,
+    "former_cutoff_radius_mm": 101.6,
+    "measured_radial_clearance_mm": 0.19607409203639747,
+    "faces_on_former_cutoff": 0,
+    "pilot_source": "07_three_petal_untrimmed_pilot",
+    "pilot_untrimmed_radius_mm": 105.99439808771348
+  },
+  "notebook_sha256": "31dfaab431d7d54c16894e4d0b6eecb6c785c9011012fe5735adc05c50df4a57",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

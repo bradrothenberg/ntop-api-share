@@ -1,0 +1,42 @@
+{
+  "id": "01_scimitar",
+  "triangles": 92314,
+  "vertices": 46157,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 203.2130517141738,
+  "bounds_mm": [
+    [
+      -99.60716247558594,
+      -25.583690643310547,
+      -6.2800068855285645
+    ],
+    [
+      99.60747528076172,
+      25.572425842285156,
+      6.287912368774414
+    ]
+  ],
+  "volume_mm3": 17504.339486466823,
+  "native_sweeps": 1,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Blade profile",
+      "Blade spine",
+      "Blade chord and twist rail",
+      "Blade center rail"
+    ]
+  ],
+  "seconds": 37.89311570000427,
+  "sha256": "49d8f141fe055a1052060fdba54009e4f3a7363a8d051af2f0d39f381ec95c0a",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.994915790557862,
+    "maximum_mesh_edge_mm": 2.6872246540642837,
+    "conservative_surface_gap_lower_bound_mm": 5.869745883908722,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "notebook_sha256": "071d890a73a52377ab884c06ed7370ecfd1c9f8bb12d3c10e4036ba3c9be3aef",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

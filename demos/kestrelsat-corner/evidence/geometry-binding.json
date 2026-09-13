@@ -1,0 +1,78 @@
+{
+  "family": 0,
+  "passed": true,
+  "created_utc": "2026-09-13T17:19:53.622605+00:00",
+  "binding_kind": "Current native expression and settings bound to an existing independently accepted mesh receipt; this check does not evaluate geometry.",
+  "contract": {
+    "source_step_sha256": "2633883903ba1db1bbe435cb3d86a2218d42694596c478acfcffc6c2b356830e",
+    "part_default_expression_sha256": "98f1126ff41ff7be7a1c40e46c70e9f19ddfdd83414700f1672fd13485c5af45",
+    "part_input_driven_expression_sha256": "98f1126ff41ff7be7a1c40e46c70e9f19ddfdd83414700f1672fd13485c5af45",
+    "part_inputs": [],
+    "validation_result_body_default_expression_sha256": "98f1126ff41ff7be7a1c40e46c70e9f19ddfdd83414700f1672fd13485c5af45",
+    "validation_result_body_input_driven_expression_sha256": "98f1126ff41ff7be7a1c40e46c70e9f19ddfdd83414700f1672fd13485c5af45",
+    "mesh_sha256": "5bd85d581feed32955c12daee40f2b095423115821d098b3494be29eccc21df6",
+    "settings": {
+      "at_function": "mesh_by_adaptive_tets<implicit,real_field,bool>[5.42.0]",
+      "tolerance_native_literal": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "units": {
+            "length": 1
+          },
+          "val": 5e-05
+        }
+      },
+      "tolerance_mm": 0.05,
+      "remesh": {
+        "type": "bool",
+        "value": {
+          "val": true
+        }
+      },
+      "sharpen_function": "sharpen_mesh<mesh,implicit,integer,mesh_sharpen_enum>",
+      "sharpen_iterations": {
+        "type": "integer",
+        "value": {
+          "val": 1
+        }
+      },
+      "sharpen_mode": {
+        "type": "mesh_sharpen_enum",
+        "value": {
+          "enum": 0
+        }
+      },
+      "export_function": "export_mesh<file_path,mesh,unit_length_enum>",
+      "export_unit": {
+        "type": "unit_length_enum",
+        "value": {
+          "id": "mm"
+        }
+      },
+      "source_tessellation_deflection_mm": 0.005,
+      "source_angular_deflection_rad": 0.05
+    },
+    "geometry_receipt_sha256": "1728e54fdb2a8fd49b6fa0fe512a418b16ea7204178d60f3658e5abb304334f5"
+  },
+  "contract_sha256": "6dc430e525b9befb358861d44630a1e0fb886d8359d2785fcedf54232c300db3",
+  "numeric_normalization": "Exact decoded numeric ratios only. No rounding, epsilon or geometric tolerance. Boolean values remain distinct.",
+  "volume_iou": 0.9997393027808267,
+  "geometry_graphs_equal": true,
+  "actual_mesh_pipeline_bound": true,
+  "input_defaults_bound": true,
+  "published_artifacts": {
+    "native_model": {
+      "file": "../models/Corner_block.ntop",
+      "sha256": "72d7f9fbe6fb78fc54082ee2e4e2ad902b12a63ffe6e1c269f285904c95b1837"
+    },
+    "recipe": {
+      "file": "../inputs/corner.recipe.json",
+      "sha256": "463a6b817dbedbf79e7712aff51f601c88187c2d94840fc5d4ccc80d09ce9413"
+    },
+    "source_part": {
+      "file": "../inputs/Corner_block_source.step",
+      "sha256": "84e879e36daedca939259d12f7134c33defd548408f09b4d04ed1a2e8bebc34d"
+    }
+  }
+}

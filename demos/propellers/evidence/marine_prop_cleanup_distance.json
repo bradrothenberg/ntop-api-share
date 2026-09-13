@@ -1,0 +1,238 @@
+{
+  "raw_sha256": "2570fc0f460de0f232da44080412c229e7920eff8c122fdc93a8f98b38badc65",
+  "raw_triangles": 504844,
+  "retained_triangles": 504484,
+  "threshold_mm3": 0.3959060182963488,
+  "discarded_parts": [
+    {
+      "triangles": 8,
+      "volume_mm3": 0.027902172755148058,
+      "extent_mm": 1.468017578125,
+      "distance_upper_bound_mm": 0.5159424981387616
+    },
+    {
+      "triangles": 4,
+      "volume_mm3": 6.371967953100466e-05,
+      "extent_mm": 0.13580322265625,
+      "distance_upper_bound_mm": 0.34973227352706826
+    },
+    {
+      "triangles": 6,
+      "volume_mm3": 0.006589214752333798,
+      "extent_mm": 1.38897705078125,
+      "distance_upper_bound_mm": 0.633551092843859
+    },
+    {
+      "triangles": 6,
+      "volume_mm3": 0.0006739411818822797,
+      "extent_mm": 0.273529052734375,
+      "distance_upper_bound_mm": 0.3128128964851978
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 0.0035104161667618428,
+      "extent_mm": 1.04931640625,
+      "distance_upper_bound_mm": 0.4923153876115942
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 0.004951370913431674,
+      "extent_mm": 0.865203857421875,
+      "distance_upper_bound_mm": 0.44247203123816203
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 0.0005415205670639504,
+      "extent_mm": 0.6563720703125,
+      "distance_upper_bound_mm": 0.4314544633561449
+    },
+    {
+      "triangles": 10,
+      "volume_mm3": 0.002936982069741134,
+      "extent_mm": 0.76458740234375,
+      "distance_upper_bound_mm": 0.4337163011162043
+    },
+    {
+      "triangles": 4,
+      "volume_mm3": 1.4748935844484852e-06,
+      "extent_mm": 0.0797119140625,
+      "distance_upper_bound_mm": 0.13479332999512175
+    },
+    {
+      "triangles": 6,
+      "volume_mm3": 0.00032229816665108046,
+      "extent_mm": 0.54144287109375,
+      "distance_upper_bound_mm": 0.45833647071988104
+    },
+    {
+      "triangles": 4,
+      "volume_mm3": 2.383679022462578e-06,
+      "extent_mm": 0.083892822265625,
+      "distance_upper_bound_mm": 0.20707247644880744
+    },
+    {
+      "triangles": 16,
+      "volume_mm3": 0.024779466144641066,
+      "extent_mm": 1.68536376953125,
+      "distance_upper_bound_mm": 0.4319539457679731
+    },
+    {
+      "triangles": 10,
+      "volume_mm3": 0.015863168746771333,
+      "extent_mm": 2.1805419921875,
+      "distance_upper_bound_mm": 0.6115565662990603
+    },
+    {
+      "triangles": 16,
+      "volume_mm3": 0.03626941497446978,
+      "extent_mm": 3.10791015625,
+      "distance_upper_bound_mm": 1.143373173325362
+    },
+    {
+      "triangles": 6,
+      "volume_mm3": 0.0011658019485783673,
+      "extent_mm": 1.03155517578125,
+      "distance_upper_bound_mm": 0.44907545441565905
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 0.00917413635015881,
+      "extent_mm": 1.962127685546875,
+      "distance_upper_bound_mm": 0.5565997865387651
+    },
+    {
+      "triangles": 18,
+      "volume_mm3": 0.1979530091481744,
+      "extent_mm": 4.3409423828125,
+      "distance_upper_bound_mm": 0.7169372827243669
+    },
+    {
+      "triangles": 14,
+      "volume_mm3": 0.008388075049651889,
+      "extent_mm": 3.13616943359375,
+      "distance_upper_bound_mm": 0.669318114168861
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 7.434248000019276e-06,
+      "extent_mm": 0.598724365234375,
+      "distance_upper_bound_mm": 0.3830947386798074
+    },
+    {
+      "triangles": 14,
+      "volume_mm3": 0.0005052589491327808,
+      "extent_mm": 1.11773681640625,
+      "distance_upper_bound_mm": 0.6178135221371364
+    },
+    {
+      "triangles": 14,
+      "volume_mm3": 0.17882945494947458,
+      "extent_mm": 4.34490966796875,
+      "distance_upper_bound_mm": 0.954996577299786
+    },
+    {
+      "triangles": 6,
+      "volume_mm3": 2.9711875484395023e-06,
+      "extent_mm": 0.556884765625,
+      "distance_upper_bound_mm": 0.43214067374071874
+    },
+    {
+      "triangles": 4,
+      "volume_mm3": 5.138304388196957e-06,
+      "extent_mm": 0.12725830078125,
+      "distance_upper_bound_mm": 0.18479109629157459
+    },
+    {
+      "triangles": 18,
+      "volume_mm3": 0.033542062543460816,
+      "extent_mm": 2.43048095703125,
+      "distance_upper_bound_mm": 1.1194709151415059
+    },
+    {
+      "triangles": 14,
+      "volume_mm3": 0.17280291221205366,
+      "extent_mm": 4.35162353515625,
+      "distance_upper_bound_mm": 1.059685537277046
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 0.011151842623737215,
+      "extent_mm": 2.620849609375,
+      "distance_upper_bound_mm": 0.5752791210922403
+    },
+    {
+      "triangles": 10,
+      "volume_mm3": 0.0008763573101925696,
+      "extent_mm": 0.78424072265625,
+      "distance_upper_bound_mm": 0.4177719513143717
+    },
+    {
+      "triangles": 12,
+      "volume_mm3": 0.022697753199632114,
+      "extent_mm": 1.61810302734375,
+      "distance_upper_bound_mm": 0.7808634323478443
+    },
+    {
+      "triangles": 6,
+      "volume_mm3": 0.0001240206065441877,
+      "extent_mm": 2.93505859375,
+      "distance_upper_bound_mm": 0.8686928645233678
+    },
+    {
+      "triangles": 4,
+      "volume_mm3": 7.775363523402727e-08,
+      "extent_mm": 0.1565399169921875,
+      "distance_upper_bound_mm": 0.303392250694523
+    },
+    {
+      "triangles": 4,
+      "volume_mm3": 5.812047708294207e-07,
+      "extent_mm": 0.2174835205078125,
+      "distance_upper_bound_mm": 0.3058186834093112
+    },
+    {
+      "triangles": 14,
+      "volume_mm3": 0.0016708161315506231,
+      "extent_mm": 1.5501708984375,
+      "distance_upper_bound_mm": 0.4791572445886182
+    },
+    {
+      "triangles": 14,
+      "volume_mm3": 0.06938736571383212,
+      "extent_mm": 3.5478515625,
+      "distance_upper_bound_mm": 0.5871042198525758
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 8.801849103908428e-05,
+      "extent_mm": 0.91668701171875,
+      "distance_upper_bound_mm": 0.42646767217840315
+    },
+    {
+      "triangles": 12,
+      "volume_mm3": 0.019959139326675295,
+      "extent_mm": 2.468505859375,
+      "distance_upper_bound_mm": 0.7113582437851789
+    },
+    {
+      "triangles": 8,
+      "volume_mm3": 0.010665336407304457,
+      "extent_mm": 1.46533203125,
+      "distance_upper_bound_mm": 0.5214178406566757
+    },
+    {
+      "triangles": 12,
+      "volume_mm3": 0.012750650016490303,
+      "extent_mm": 1.2099456787109375,
+      "distance_upper_bound_mm": 0.5180841925459414
+    },
+    {
+      "triangles": 10,
+      "volume_mm3": 0.0015670070466361115,
+      "extent_mm": 1.523345947265625,
+      "distance_upper_bound_mm": 0.40758939809304995
+    }
+  ],
+  "maximum_distance_upper_bound_mm": 1.143373173325362,
+  "method": "Subdivide discarded triangles to maximum 0.4 mm edges. Minimum vertex distance plus longest triangle edge gives a Lipschitz bound to the retained surface."
+}

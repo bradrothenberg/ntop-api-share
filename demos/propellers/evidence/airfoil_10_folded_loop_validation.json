@@ -1,0 +1,58 @@
+{
+  "id": "10_folded_loop",
+  "recipe_sha256": "868b5f37b08aa1584650cf283db3dd9f05d700386c224092f183dbfc5ec865de",
+  "triangles": 420814,
+  "vertices": 210401,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 202.4738848875193,
+  "bounds_mm": [
+    [
+      -67.14019012451172,
+      -92.41584014892578,
+      -41.52247619628906
+    ],
+    [
+      101.20298767089844,
+      89.97357940673828,
+      32.57610321044922
+    ]
+  ],
+  "volume_mm3": 54307.16198310631,
+  "native_sweeps": 2,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Folded Mobius half 1 profile",
+      "Folded Mobius half 1 spine",
+      "Folded Mobius half 1 chord and twist rail",
+      "Folded Mobius half 1 center rail"
+    ],
+    [
+      "Folded Mobius half 2 profile",
+      "Folded Mobius half 2 spine",
+      "Folded Mobius half 2 chord and twist rail",
+      "Folded Mobius half 2 center rail"
+    ]
+  ],
+  "seconds": 300.34651029999986,
+  "sha256": "d27892f97149e208f0a8f45b7440aa627da9ce3338d4b9067b28385b5af61786",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 5.055368949425972,
+    "maximum_mesh_edge_mm": 2.2768262226959313,
+    "conservative_surface_gap_lower_bound_mm": 4.8357100515149805,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "smooth_tip_revision": {
+    "radial_trim_active": false,
+    "uniform_loop_scale": 0.956647681000027,
+    "former_cutoff_radius_mm": 101.6,
+    "measured_radial_clearance_mm": 0.3630575562403493,
+    "faces_on_former_cutoff": 0,
+    "pilot_source": "folded_mobius_pilot",
+    "pilot_untrimmed_radius_mm": 105.83833736382323
+  },
+  "notebook_sha256": "0912c6ac61717602bfae47a516b7989da76373a86781145989f568122df1b3ca",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "10_folded_loop",
+  "triangles": 259756,
+  "vertices": 129872,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 202.80037832687842,
+  "bounds_mm": [
+    [
+      -65.82135009765625,
+      -91.62207794189453,
+      -34.386199951171875
+    ],
+    [
+      101.39672088623047,
+      91.29006958007812,
+      40.78144454956055
+    ]
+  ],
+  "volume_mm3": 72964.0574434026,
+  "native_sweeps": 1,
+  "native_closed_curves": 3,
+  "native_inputs": [
+    [
+      "Closed loop profile",
+      "Closed loop spine",
+      "Closed loop chord and twist rail",
+      "Closed loop center rail"
+    ]
+  ],
+  "seconds": 79.21496149999996,
+  "sha256": "0e39632b6f25ebda23c8475272b66c5593fc3ec2edffec3cccc7fa5b8294bdc9",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.013339451227469,
+    "maximum_mesh_edge_mm": 2.9314365569780736,
+    "conservative_surface_gap_lower_bound_mm": 6.399114337652705,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "smooth_tip_revision": {
+    "radial_trim_active": false,
+    "uniform_loop_scale": 0.9604664458150384,
+    "former_cutoff_radius_mm": 101.6,
+    "measured_radial_clearance_mm": 0.19981083656078624,
+    "faces_on_former_cutoff": 0,
+    "pilot_source": "10_folded_loop_untrimmed_pilot",
+    "pilot_untrimmed_radius_mm": 105.57370373720175
+  },
+  "notebook_sha256": "64f8f89d1edb5b3f338343c48c396a40128e89a535f0c95376b4b26c824c8fcd",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

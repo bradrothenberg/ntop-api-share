@@ -1,0 +1,42 @@
+{
+  "id": "09_three_loop",
+  "triangles": 286966,
+  "vertices": 143477,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 203.214144161154,
+  "bounds_mm": [
+    [
+      -72.93019104003906,
+      -92.12503814697266,
+      -7.487587928771973
+    ],
+    [
+      101.6017074584961,
+      94.52851104736328,
+      7.489588260650635
+    ]
+  ],
+  "volume_mm3": 29170.07780148998,
+  "native_sweeps": 1,
+  "native_closed_curves": 3,
+  "native_inputs": [
+    [
+      "Closed loop profile",
+      "Closed loop spine",
+      "Closed loop chord and twist rail",
+      "Closed loop center rail"
+    ]
+  ],
+  "seconds": 200.22367310000118,
+  "sha256": "39dd15e3e34c701f723e7b060b17d54789f68871097cbe320052bb7363f0fd47",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.994486637115479,
+    "maximum_mesh_edge_mm": 2.3386370159577083,
+    "conservative_surface_gap_lower_bound_mm": 5.813096762210977,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "notebook_sha256": "47b1cd6738cda3e08991692de47bcfe5a86ee3d6869c8e808cd44f43d1c6dc12",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

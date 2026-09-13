@@ -11,6 +11,8 @@ JOBS={
  'f16':(['replay.py'], 'output/build/recipe.json'),
  'a12':(['replay.py'], 'output/build/recipe.json'),
  'fcat':(['replay.py'], 'output/build/recipe.json'),
+ 'propellers':(['replay.py'], 'output/build/recipe.json'),
+ 'kestrelsat-corner':(['replay.py'], 'output/build/recipe.json'),
 }
 def prepare():
     (ROOT/'.local').mkdir(exist_ok=True)

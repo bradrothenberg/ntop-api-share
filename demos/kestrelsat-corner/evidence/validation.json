@@ -1,0 +1,73 @@
+{
+  "family": 0,
+  "original_step_sha256": "2633883903ba1db1bbe435cb3d86a2218d42694596c478acfcffc6c2b356830e",
+  "native_mesh_sha256": "5bd85d581feed32955c12daee40f2b095423115821d098b3494be29eccc21df6",
+  "source_tessellation_deflection_mm": 0.005,
+  "source_angular_deflection_rad": 0.05,
+  "native_mesh_closed": true,
+  "source_mesh_closed": true,
+  "source_faces": 3932,
+  "native_faces": 185704,
+  "source_volume_mm3": 6866.59946563113,
+  "native_volume_mm3": 6866.048673536318,
+  "intersection_mm3": 6865.42893710901,
+  "union_mm3": 6867.21920205844,
+  "volume_iou": 0.9997393027808267,
+  "volume_iou_pct": 99.97393027808266,
+  "missing_volume_mm3": 1.1705285221205486,
+  "excess_volume_mm3": 0.6197364273084531,
+  "source_to_native": {
+    "samples": 7968,
+    "max_mm": 0.04642665534509973,
+    "p99_mm": 0.009480550843465555,
+    "p95_mm": 0.007292165170455037,
+    "rms_mm": 0.0030891470691785084
+  },
+  "native_to_source": {
+    "samples": 98854,
+    "max_mm": 0.02212269919840659,
+    "p99_mm": 0.0099555354291278,
+    "p95_mm": 0.003772827917254204,
+    "rms_mm": 0.0020021040880252956
+  },
+  "source_bounds_mm": [
+    [
+      -209.428361704883,
+      -11.330577165192384,
+      18.509762917001396
+    ],
+    [
+      -187.428361704883,
+      10.669422834807623,
+      40.50976291700141
+    ]
+  ],
+  "native_bounds_mm": [
+    [
+      -209.43634033203125,
+      -11.337495803833008,
+      18.503644943237305
+    ],
+    [
+      -187.4207000732422,
+      10.677619934082031,
+      40.517765045166016
+    ]
+  ],
+  "passed_volume_target": true,
+  "limits": "Overlap is computed from the actual nTop mesh and a fine STEP tessellation. Surface extrema are sampled; they are not certified Hausdorff bounds.",
+  "elapsed_s": 12.647786200000155,
+  "evidence_scope": "Recorded native build 42594 export compared with original STEP solid 0; not new native execution in this checkout",
+  "native_model_sha256": "72d7f9fbe6fb78fc54082ee2e4e2ad902b12a63ffe6e1c269f285904c95b1837",
+  "extracted_step_sha256": "84e879e36daedca939259d12f7134c33defd548408f09b4d04ed1a2e8bebc34d",
+  "mesh_settings": {
+    "at_tolerance_mm": 0.05,
+    "remesh": true,
+    "sharpen_iterations": 1,
+    "sharpen_mode_enum": 0,
+    "export_units": "mm"
+  },
+  "native_build": "nTop 6.0.0-rc build 42594",
+  "notebook_inputs": [],
+  "output_type": "implicit"
+}

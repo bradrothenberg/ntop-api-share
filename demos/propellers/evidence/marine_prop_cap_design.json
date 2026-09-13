@@ -1,0 +1,66 @@
+{
+  "status": "Aft cover geometry; shaft-specific spline and propeller retainer pending",
+  "cap_outer_diameter_mm": 914.4,
+  "cap_base_z_mm": 731.52,
+  "flange_thickness_mm": 24.0,
+  "nose_height_mm": 213.36,
+  "wall_nominal_mm": 20.0,
+  "pilot_radius_mm": 242.84,
+  "barrel_bore_radius_mm": 243.84,
+  "pilot_radial_clearance_mm": 1,
+  "pilot_engagement_mm": 12,
+  "bolt_count": 8,
+  "bolt_circle_diameter_mm": 762.0,
+  "bolt_positions_mm": [
+    [
+      381.0,
+      0.0
+    ],
+    [
+      269.4076836320746,
+      269.4076836320746
+    ],
+    [
+      2.3329521523757077e-14,
+      381.0
+    ],
+    [
+      -269.40768363207457,
+      269.4076836320746
+    ],
+    [
+      -381.0,
+      4.6659043047514155e-14
+    ],
+    [
+      -269.4076836320747,
+      -269.40768363207457
+    ],
+    [
+      -6.998856457127123e-14,
+      -381.0
+    ],
+    [
+      269.40768363207457,
+      -269.4076836320747
+    ]
+  ],
+  "fastener": "M24 x 3 x 70 socket head screw, nominal thread envelope",
+  "head_diameter_mm": 36,
+  "head_height_mm": 24,
+  "hex_key_mm": 19,
+  "clearance_hole_mm": 26,
+  "washer": "Authored 50 OD x 26 ID x 5 mm ring",
+  "nominal_socket_engagement_mm": 41,
+  "socket_depth_mm": 50,
+  "bottom_clearance_mm": 9,
+  "limits": [
+    "Cap screws retain the cover; a separate shaft retainer must carry propeller axial load.",
+    "Fastener grade, preload, locking, corrosion pairing, and sealing need engineering release.",
+    "Thread flanks are not modeled."
+  ],
+  "sources": [
+    "https://torqbolt.com/iso-4762-socket-head-cap-screws-dimensions-standards-specifications",
+    "https://www.solas.com/proimages/download/RBX_203.pdf"
+  ]
+}

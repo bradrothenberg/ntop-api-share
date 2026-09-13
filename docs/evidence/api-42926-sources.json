@@ -1,0 +1,49 @@
+{
+  "scope": "Source identity and recorded evidence; no new native execution in this repository update.",
+  "build": 42926,
+  "package_date": "2026-09-10",
+  "records": [
+    {
+      "source": "supplied demo package",
+      "file": "README.md",
+      "sha256": "c5d609d1d023b59de18f793fa92dbc2fa33a56942c1b8064a708c68dbeadd2d0"
+    },
+    {
+      "source": "supplied demo package",
+      "file": ".claude/skills/ntop-modeling/SKILL.md",
+      "sha256": "b5813abba504f80045f35574a24f683d48592f14a8e07a2ad557c107f00ddde6"
+    },
+    {
+      "source": "supplied demo package",
+      "file": "tools/send.py",
+      "sha256": "1010c56d61f11588734a1c41c933eccfa1d27a0a799db382d8ba260ad8396e94"
+    },
+    {
+      "source": "supplied demo package",
+      "file": "tools/blocks.py",
+      "sha256": "8805c628cb42641e702bd606252b9e2970032ea36caaff7fd519e907bc943527"
+    },
+    {
+      "source": "supplied demo package",
+      "file": "nTopScripts/demo1.py",
+      "sha256": "1168edcb14715dc905e40b26224001d3c49ce24dd31eb1664986e8e922c3b1c9"
+    },
+    {
+      "source": "recorded propeller evidence",
+      "file": "Propeller8in/evidence/api_surface.json",
+      "sha256": "ecfa9ccd68cd19530324ec76ea1d4e978c762c6f57ddc8f2b0e4373d3677afb6"
+    },
+    {
+      "source": "recorded propeller evidence",
+      "file": "Propeller8in/evidence/unit_type_probe.json",
+      "sha256": "f3ea9e51891ef9cbc433c7e5b01fb3de9b00872638f01da90f6330cb08c55309"
+    },
+    {
+      "source": "supplied demo package",
+      "file": ".claude/skills/SKILL.md",
+      "sha256": "b5813abba504f80045f35574a24f683d48592f14a8e07a2ad557c107f00ddde6",
+      "identical_to": ".claude/skills/ntop-modeling/SKILL.md"
+    }
+  ],
+  "documentation_audit": "api-42926-doc-audit.json"
+}

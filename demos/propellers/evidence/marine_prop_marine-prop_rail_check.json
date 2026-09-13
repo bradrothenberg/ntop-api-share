@@ -1,0 +1,17 @@
+{
+  "spine": {
+    "minimum_speed_mm": 2208.5361597578158,
+    "maximum_curvature_per_mm": 0.002803518747264309,
+    "maximum_neighbor_tangent_angle_deg": 0.017737759031596134,
+    "interior_continuity": "C2 by simple-knot cubic construction",
+    "point_count": 81
+  },
+  "edge_rail": {
+    "minimum_speed_mm": 2712.0970865733284,
+    "maximum_curvature_per_mm": 0.002287403757946817,
+    "maximum_neighbor_tangent_angle_deg": 0.026727409574618905,
+    "interior_continuity": "C2 by simple-knot cubic construction",
+    "point_count": 81
+  },
+  "scope": "Numerical checks of the rail control interpolants. Native surface and final mesh still require inspection."
+}

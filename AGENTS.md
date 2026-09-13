@@ -23,3 +23,16 @@ This is the public Notebook API demo handoff. Read README.md and SPEC.md first.
 - Public report pages may share compact local assets under reports/assets/. Test a complete checkout offline.
 - F-16, A-12, and F-Cat use saved recipe replay. Label replay separately from original algorithmic construction or new native verification.
 - The finite-edge Fury snapshot is primary. The existing Fury builder reconstructs the earlier appearance baseline; do not mislabel its output.
+
+## Build 42926 update
+
+Use docs/API_REFERENCE.md as the current build 42926 method contract and docs/API_42926.md for migration guidance. Read docs/API_DOC_AUDIT_42926.md for source conflicts. The archived docs/API_REFERENCE_42594.md and API_FINDINGS.md retain historical findings.
+Preserve evidence labels: supplied documentation, recorded native behavior, offline tests, and new native execution.
+TCP dispatch requires verified process identity and a unique receipt directory. A timeout is an unknown outcome until its completion record is checked.
+For two-rail geometry, read docs/PROPELLER_LEARNINGS.md. Preserve raw meshes and measured cleanup evidence.
+
+## Native CSG example
+
+Use [.agents/skills/ntop-csg-modeling/SKILL.md](.agents/skills/ntop-csg-modeling/SKILL.md) for measured solid reconstruction.
+The KestrelSAT example includes one corner part and its extracted original STEP solid. Keep the complete assembly out of this demo.
+Keep recorded native evidence distinct from new host checks and recipe replay.

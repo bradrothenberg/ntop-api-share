@@ -1,0 +1,56 @@
+{
+  "propeller_before": {
+    "sample_vertices": 19518,
+    "top_z_mm": 4.87278413772583,
+    "bottom_z_mm": -4.829217433929443,
+    "maximum_protrusion_mm": 0.4277841377258298
+  },
+  "propeller_after": {
+    "sample_vertices": 20603,
+    "top_z_mm": 4.452175140380859,
+    "bottom_z_mm": -4.453372478485107,
+    "maximum_protrusion_mm": 0.008372478485107138
+  },
+  "spinner": {
+    "triangles": 122524,
+    "vertices": 61238,
+    "watertight": true,
+    "components": 1,
+    "winding_consistent": true,
+    "bounds_mm": [
+      [
+        -10.159605026245117,
+        -10.159666061401367,
+        4.694252967834473
+      ],
+      [
+        10.159624099731445,
+        10.159586906433105,
+        27.555477142333984
+      ]
+    ],
+    "volume_mm3": 1614.7982739080337,
+    "zero_area_faces": 0,
+    "finite_vertices": true,
+    "mesh_sha256": "65d2c90cd7829f524d6ee39b26c1617fac7ba0d54794b4cd3f0ef5526a18501e"
+  },
+  "clearance": {
+    "minimum_vertex_to_vertex_mm": 0.2506135286189036,
+    "sampled_axial_gap_to_hub_region_mm": 0.24207782745361328,
+    "nominal_hub_axial_gap_mm": 0.255,
+    "nominal_washer_radial_gap_mm": 2.95521549696638,
+    "nominal_nut_radial_gap_mm": 2.2153082330383107,
+    "nominal_shaft_tip_to_inner_nose_mm": 15.055
+  },
+  "native_spinner_checks": {
+    "CHECK Spinner shell": true,
+    "CHECK Spinner cavity": true,
+    "CHECK Spinner nose": true,
+    "CHECK Spinner rear opening": true
+  },
+  "notes": [
+    "Vertex clearances are sampled distances, not a global surface-distance bound.",
+    "Hardware and spinner dimensions are design assumptions.",
+    "Retention uses a central screw and custom adapter nut. Thread flanks and joint strength need separate validation."
+  ]
+}

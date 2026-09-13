@@ -1,0 +1,42 @@
+{
+  "id": "04_high_twist",
+  "triangles": 110744,
+  "vertices": 55372,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 203.21016140844202,
+  "bounds_mm": [
+    [
+      -101.60307312011719,
+      -10.17235279083252,
+      -7.233650207519531
+    ],
+    [
+      101.60307312011719,
+      10.16903305053711,
+      7.222753047943115
+    ]
+  ],
+  "volume_mm3": 8643.12943677282,
+  "native_sweeps": 1,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Blade profile",
+      "Blade spine",
+      "Blade chord and twist rail",
+      "Blade center rail"
+    ]
+  ],
+  "seconds": 23.558811900002183,
+  "sha256": "fcef5bc4c906169765f6042a12f86043d8d2e4c55a83bac2a8a0a5fe34674596",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.779799479056483,
+    "maximum_mesh_edge_mm": 2.148636728608241,
+    "conservative_surface_gap_lower_bound_mm": 5.960241462207296,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "notebook_sha256": "f2b797f0cbdc581927d3af2b056c271485e84b2b37d99cdc7aec4e10dbaa84df",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}
