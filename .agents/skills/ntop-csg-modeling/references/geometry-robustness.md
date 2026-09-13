@@ -26,6 +26,8 @@ Derive a fillet from the source surface arrangement before selecting a smooth Bo
 
 If using a conic-distance tube, verify its distance field and trim region in a small native pilot. An unrestricted tube can protect unrelated material. Contact endpoints alone may not delimit the valid region. This repository's corner example does not supply or validate a general handle-fillet helper.
 
+The recorded KestrelSAT handle construction combines planar conic distance with out-of-plane distance before subtracting the tube radius. It uses full analytic canals, verified tangent-sector gates, and the original Boolean topology. Bounded-arc prototypes left local join errors. Preserve residual differences between source B-spline patches and ideal analytic surfaces in the comparison record.
+
 For a rounded opening, preserve the throat separately from the mouth transition. Limit expanded mouth geometry to the fillet depth. Probe multiple axial and angular stations on both sides of the original cylindrical wall.
 
 ## Evidence and display warnings

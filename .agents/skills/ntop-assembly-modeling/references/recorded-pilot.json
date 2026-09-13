@@ -1,0 +1,709 @@
+{
+  "transport": "nTopCL convert --ext and exportjson --ext. This pilot did not use the live Notebook API.",
+  "executable_sha256": "3f9e1cc95336bd95c4b0473aa3c01feb1851ade52514a529223b8d2de96dd6a9",
+  "part_output": "implicit",
+  "assembly_output": "implicit",
+  "part_inputs": [
+    {
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "units": {
+            "length": 1
+          },
+          "val": 0.01
+        }
+      },
+      "description": "Overall X span. Hole diameter2 mm and plate thickness2 mm stay fixed.",
+      "dimension": {
+        "length": 1
+      },
+      "name": "Width",
+      "type": "real"
+    }
+  ],
+  "assembly_import_count": 1,
+  "assembly_custom_instance_count": 2,
+  "assembly_translation_B_mm": [
+    0,
+    12,
+    0
+  ],
+  "fixed_hole_diameter_mm": 2,
+  "fixed_thickness_mm": 2,
+  "width_cases_mm": [
+    10,
+    14
+  ],
+  "field_checks": [
+    {
+      "width_input_mm": 10,
+      "name": "Part A far span -0.1",
+      "measured_field_mm": -0.0999999999999994,
+      "expected_field_mm": -0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A far span +0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A far span +0.1",
+      "measured_field_mm": 0.0999999999999994,
+      "expected_field_mm": 0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A left span",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A fixed X12 station",
+      "measured_field_mm": 2.0,
+      "expected_field_mm": 2,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A bore X1.9",
+      "measured_field_mm": -0.10000002607704833,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.6077048326245134e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A bore X2",
+      "measured_field_mm": -2.6077050024539417e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.6077050024539417e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A bore X2.1",
+      "measured_field_mm": 0.09999997392294818,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.607705182344766e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A bore X3",
+      "measured_field_mm": 0.9999998082289446,
+      "expected_field_mm": 1,
+      "error_mm": 1.917710553689389e-07,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A bore X3.9",
+      "measured_field_mm": 0.10000002607701224,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.6077012230119045e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A bore X4",
+      "measured_field_mm": 2.607701402902729e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.607701402902729e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A bore X4.1",
+      "measured_field_mm": -0.09999997392298363,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.60770163795776e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A thickness Z-0.1",
+      "measured_field_mm": 0.10000000000000005,
+      "expected_field_mm": 0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A thickness Z0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A thickness Z0.1",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A thickness Z1.9",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A thickness Z2",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A thickness Z2.1",
+      "measured_field_mm": 0.10000000000000026,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A left chamfer plane",
+      "measured_field_mm": 1.6792885170532207e-08,
+      "expected_field_mm": 0,
+      "error_mm": 1.6792885170532207e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part A right chamfer plane",
+      "measured_field_mm": -8.673617379884035e-16,
+      "expected_field_mm": 0,
+      "error_mm": 8.673617379884035e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B far span -0.1",
+      "measured_field_mm": -0.0999999999999994,
+      "expected_field_mm": -0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B far span +0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B far span +0.1",
+      "measured_field_mm": 0.0999999999999994,
+      "expected_field_mm": 0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B left span",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B fixed X12 station",
+      "measured_field_mm": 2.0,
+      "expected_field_mm": 2,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B bore X1.9",
+      "measured_field_mm": -0.10000002607707154,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.6077071529906348e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B bore X2",
+      "measured_field_mm": -2.6077075394870253e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.6077075394870253e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B bore X2.1",
+      "measured_field_mm": 0.0999999739229201,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.6077079912090184e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B bore X3",
+      "measured_field_mm": 0.9999997045490141,
+      "expected_field_mm": 1,
+      "error_mm": 2.9545098589878194e-07,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B bore X3.9",
+      "measured_field_mm": 0.10000002607698415,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.6076984141476522e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B bore X4",
+      "measured_field_mm": 2.6076988658696454e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.6076988658696454e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B bore X4.1",
+      "measured_field_mm": -0.09999997392300662,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.6076993384083202e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B thickness Z-0.1",
+      "measured_field_mm": 0.10000000000000005,
+      "expected_field_mm": 0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B thickness Z0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B thickness Z0.1",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B thickness Z1.9",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B thickness Z2",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B thickness Z2.1",
+      "measured_field_mm": 0.10000000000000026,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B left chamfer plane",
+      "measured_field_mm": 9.054986973991777e-08,
+      "expected_field_mm": 0,
+      "error_mm": 9.054986973991777e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 10,
+      "name": "Part B right chamfer plane",
+      "measured_field_mm": 7.375698402728448e-08,
+      "expected_field_mm": 0,
+      "error_mm": 7.375698402728448e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A far span -0.1",
+      "measured_field_mm": -0.0999999999999994,
+      "expected_field_mm": -0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A far span +0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A far span +0.1",
+      "measured_field_mm": 0.0999999999999994,
+      "expected_field_mm": 0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A left span",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A fixed X12 station",
+      "measured_field_mm": -1.0,
+      "expected_field_mm": -1,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A bore X1.9",
+      "measured_field_mm": -0.10000002607704833,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.6077048326245134e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A bore X2",
+      "measured_field_mm": -2.6077050024539417e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.6077050024539417e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A bore X2.1",
+      "measured_field_mm": 0.09999997392294818,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.607705182344766e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A bore X3",
+      "measured_field_mm": 0.9999998082289446,
+      "expected_field_mm": 1,
+      "error_mm": 1.917710553689389e-07,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A bore X3.9",
+      "measured_field_mm": 0.10000002607701224,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.6077012230119045e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A bore X4",
+      "measured_field_mm": 2.607701402902729e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.607701402902729e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A bore X4.1",
+      "measured_field_mm": -0.09999997392298363,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.60770163795776e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A thickness Z-0.1",
+      "measured_field_mm": 0.10000000000000005,
+      "expected_field_mm": 0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A thickness Z0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A thickness Z0.1",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A thickness Z1.9",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A thickness Z2",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A thickness Z2.1",
+      "measured_field_mm": 0.10000000000000026,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A left chamfer plane",
+      "measured_field_mm": 1.6792885170532207e-08,
+      "expected_field_mm": 0,
+      "error_mm": 1.6792885170532207e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part A right chamfer plane",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B far span -0.1",
+      "measured_field_mm": -0.0999999999999994,
+      "expected_field_mm": -0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B far span +0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B far span +0.1",
+      "measured_field_mm": 0.0999999999999994,
+      "expected_field_mm": 0.1,
+      "error_mm": 6.106226635438361e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B left span",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B fixed X12 station",
+      "measured_field_mm": -1.0,
+      "expected_field_mm": -1,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B bore X1.9",
+      "measured_field_mm": -0.10000002607707154,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.6077071529906348e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B bore X2",
+      "measured_field_mm": -2.6077075394870253e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.6077075394870253e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B bore X2.1",
+      "measured_field_mm": 0.0999999739229201,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.6077079912090184e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B bore X3",
+      "measured_field_mm": 0.9999997045490141,
+      "expected_field_mm": 1,
+      "error_mm": 2.9545098589878194e-07,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B bore X3.9",
+      "measured_field_mm": 0.10000002607698415,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.6076984141476522e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B bore X4",
+      "measured_field_mm": 2.6076988658696454e-08,
+      "expected_field_mm": 0,
+      "error_mm": 2.6076988658696454e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B bore X4.1",
+      "measured_field_mm": -0.09999997392300662,
+      "expected_field_mm": -0.1,
+      "error_mm": 2.6076993384083202e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B thickness Z-0.1",
+      "measured_field_mm": 0.10000000000000005,
+      "expected_field_mm": 0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B thickness Z0",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B thickness Z0.1",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B thickness Z1.9",
+      "measured_field_mm": -0.10000000000000005,
+      "expected_field_mm": -0.1,
+      "error_mm": 4.163336342344337e-17,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B thickness Z2",
+      "measured_field_mm": 0.0,
+      "expected_field_mm": 0,
+      "error_mm": 0.0,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B thickness Z2.1",
+      "measured_field_mm": 0.10000000000000026,
+      "expected_field_mm": 0.1,
+      "error_mm": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B left chamfer plane",
+      "measured_field_mm": 9.054986973991777e-08,
+      "expected_field_mm": 0,
+      "error_mm": 9.054986973991777e-08,
+      "passed": true
+    },
+    {
+      "width_input_mm": 14,
+      "name": "Part B right chamfer plane",
+      "measured_field_mm": 7.375698315992274e-08,
+      "expected_field_mm": 0,
+      "error_mm": 7.375698315992274e-08,
+      "passed": true
+    }
+  ],
+  "field_check_tolerance_mm": 1e-05,
+  "passed": true,
+  "post_save_cleanup_assertions": [
+    "part_convert"
+  ],
+  "command_times_s": {
+    "part_convert": 7.633530300001439,
+    "part_readback": 9.334224400001403,
+    "assembly_convert": 7.9083007000008365,
+    "assembly_readback": 8.428255300001183,
+    "validation_convert": 9.892577200000233,
+    "evaluate_width_10": 7.681375800000751,
+    "evaluate_width_14": 8.469024800000625,
+    "assembly_evaluate_reopen": 7.222465000000739
+  },
+  "evidence_scope": "Sanitized numeric excerpt of the recorded generic pilot on 2026-09-13. This is not new native execution in this checkout.",
+  "native_build": "nTop 6.0.0-rc build 42594",
+  "construction_builders_unchanged": true,
+  "construction_ast_sha256": "57a0d6667fc23903e4b8bf5dad23ed2edef164a6eb3aa89cfe8e30f5774c91d2",
+  "maximum_field_error_mm": 2.9545098589878194e-07,
+  "native_check_count": 80,
+  "timing_scope": "Recorded commands under concurrent host load. Not a controlled speed or GUI comparison.",
+  "omitted_from_public_copy": [
+    "Local executable and output paths",
+    "Raw process transcripts",
+    "Generated native binaries",
+    "Original absolute-path command receipts"
+  ]
+}

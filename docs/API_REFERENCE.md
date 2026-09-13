@@ -238,6 +238,8 @@ Use `True` when only the recipe is required.
 Complete recipes can carry `inputs` and `output`; preserve them during replay.
 There is no dedicated live method to promote a block to a notebook input or set a notebook output.
 Input merging is documented; a complete newly authored Automate input/output workflow was not tested by this audit.
+
+The later [assembly-skill pilot](../.agents/skills/ntop-assembly-modeling/references/generic-pilot.md) supplies recorded build 42594 CLI evidence for complete part inputs, custom imports, and implicit outputs. It uses `convert --ext` and `exportjson --ext`; it does not establish live API promotion or build 42926 compatibility.
 Do not turn that remaining verification gap into a claim that recipe-based authoring is impossible.
 
 Cross-import references are not a substitute for a complete dependency closure.

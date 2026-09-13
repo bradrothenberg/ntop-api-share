@@ -38,6 +38,8 @@ Use the root harness/ntop_api.py and scripts/stage.py. No private checkout or pe
 - Recipe import merges blocks and appends inputs, and takes the recipe name/description. Preserve complete input/output contracts during replay.
 - Dedicated live input/output promotion remains absent. Do not infer that recipe-based Automate authoring is impossible or newly verified.
 
+For reusable part inputs and imported custom definitions, use the [assembly modeling skill](../ntop-assembly-modeling/SKILL.md). Its generic pilot records build 42594 CLI conversion and readback. It does not certify the live import route or build 42926.
+
 ## Geometry and performance
 
 Read docs/LOFTING.md for guide-driven conics, signed coordinates, cavity cuts, and local root blends.
