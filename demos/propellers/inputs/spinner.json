@@ -1,0 +1,4287 @@
+{
+  "displayname": "Separate retained spinner",
+  "description": "Recorded native construction graph. Replay requires build 42926.",
+  "name": "user_func_shared_propeller",
+  "inputs": [],
+  "namespaces": [],
+  "version": [
+    1,
+    0,
+    0
+  ],
+  "body": [
+    {
+      "id": "200",
+      "name": "Spinner outer nose profile points",
+      "type": "list<point>",
+      "variable": true,
+      "contents": {
+        "func": "core.list<point>",
+        "id": "199",
+        "name": "list<point>",
+        "type": "list<point>",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0047
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.01016
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0047
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010158639961161148
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.005092681559035682
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010154560208759876
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.005485257987722628
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010147761835044553
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.005877624183858033
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010138246660104213
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0062696751015234335
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010126017231381273
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.006661305779208037
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.01011107682298952
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.007052411367909455
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010093429434837554
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.007442887159204313
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010073079791557913
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.007832628613281238
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.010050033341242175
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.008221531386928682
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.01002429625398237
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.00860949136147013
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009995875420219106
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.008996404670639183
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009964778448896821
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.009382167728387078
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00993101366542669
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.009766677256615165
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00989459010945771
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.010149830312824957
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009855517532456566
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.010531524317678332
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009813806395096934
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.010911657082460497
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009769467864458892
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.011290126836438376
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009722513811039241
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.011666832254107095
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00967295680557347
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.012041672482317283
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009620810115670274
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.012414547167275877
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009566087702259491
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01278535648141328
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009508804215854429
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.013154001150109604
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009448974992629564
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.013520382478272882
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009386616050314673
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.013884402376762153
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00932174408390651
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.014245963388648267
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009254376461199147
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.014604968715305474
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009184531218134184
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.014961322242326769
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009112227053972115
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.015314928565256028
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009037483326286058
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.015665693015130096
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008960320045779287
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01601352168382394
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008880757870927871
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01635832144919216
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008798818102449897
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0167
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008714522677602764
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.017038465860637324
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008627894164310042
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01737362841560883
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00853895575511949
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.017705397933794043
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00844773126099386
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018033685592470452
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008354245104936115
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018358403501093558
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008258522315450812
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018679464724827254
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008160588519843352
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018996783307818395
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00806046993735895
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.019310274296209295
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007958193372163089
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.019619853760881857
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007853786206165407
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.019925438819927494
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0077472763916889035
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.020226947660836575
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00763869244398641
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.020524299562401652
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007528063433606385
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.020817414916328443
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007415418978610011
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021106215248548908
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0073007892366417325
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021390623240230677
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007184204896855324
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021670562748477142
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0070656971716976545
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021945958826712752
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006945297788552372
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.022216737744748055
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006823038981245707
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.022482827008519012
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0066989534814167
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.022744155379495458
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006573074509754151
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02300065289375331
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006445435767102638
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023252250880705684
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0063160714254399866
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02349888198148761
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006185016118728602
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023740480166989646
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006052304933643124
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023976980755535476
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00591797340017687
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.024208320430198764
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005782057482129606
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0244344372557546
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00564459356747916
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.024655270695261085
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005505618458639477
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02487076162626651
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00536516936260774
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025080852356637894
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005223283881003132
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02528548664000653
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005080000000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025484609690826526
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004935356080158015
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02567816819904221
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004789390846152136
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02586611034436052
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004642143376405075
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.026048385810124544
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004493653092625053
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02622494579678452
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0043439597492516665
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02639574303496264
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0041931034228126505
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02656073179810822
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0040411245011944315
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02671986791473979
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.003888063672829313
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02687310878027088
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0037339619158021898
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02702041336841629
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0035788604868797337
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027161742242175817
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0034228009104649557
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0272970575643925
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.003265824967480123
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027426323107882535
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.003107974684180984
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02754950426513418
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.002949292320905339
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02766656805757301
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0027898203607589133
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027777483144391085
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.002629601498241611
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02788221983093764
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.002468678627817162
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027980750076669055
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.002307094832429234
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028073047502656007
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0021448933719670853
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028159087398645723
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0019821176716838637
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028238846729677528
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0018188113105705877
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028312304142249858
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0016550180096890224
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028379439970037095
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0014907816204664777
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02844023623915474
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0013261461129557256
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028494676672971446
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00116115556406316
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028542746696466666
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0009958541457483353
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028584433440132725
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00083028611319807
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028619725743420327
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0006644957929782556
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02864861415772648
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0004985275711665682
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028671090948924137
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00033242588146924586
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028687150099432773
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00016623519332510504
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028696787309829483
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0287
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "202",
+      "name": "Spinner outer nose profile",
+      "type": "new_profile",
+      "variable": true,
+      "contents": {
+        "func": "profile_from_points<list<point>>[5.20.0]",
+        "id": "201",
+        "name": "new_profile",
+        "type": "new_profile",
+        "inputs": [
+          {
+            "ref": {
+              "id": "200"
+            },
+            "props": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "208",
+      "name": "Spinner outer nose",
+      "type": "implicit",
+      "variable": true,
+      "contents": {
+        "func": "revolve<new_profile,axis,real>[5.20.0]",
+        "id": "207",
+        "name": "implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "ref": {
+              "id": "202"
+            },
+            "props": []
+          },
+          {
+            "func": "axis<point,vector>",
+            "id": "205",
+            "name": "axis",
+            "type": "axis",
+            "inputs": [
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  }
+                ]
+              },
+              {
+                "type": "vector",
+                "value": {
+                  "units": {},
+                  "value": [
+                    {
+                      "isFinite": true,
+                      "val": 0.0
+                    },
+                    {
+                      "isFinite": true,
+                      "val": 0.0
+                    },
+                    {
+                      "isFinite": true,
+                      "val": 1.0
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "angle": 1
+              },
+              "val": 6.283185307179586
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "309",
+      "name": "Spinner hardware cavity profile points",
+      "type": "list<point>",
+      "variable": true,
+      "contents": {
+        "func": "core.list<point>",
+        "id": "308",
+        "name": "list<point>",
+        "type": "list<point>",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0037
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008960000000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0037
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008960000000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0047
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008958800595669676
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.005073047481083899
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008955202703788238
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0054459950883364965
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008949207287598347
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.005818742974665131
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008940815952217887
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.006191191346447262
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008930030944210257
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.006563240490247636
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008916855150982885
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.006934790799513982
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008901292100014222
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.007305742801244098
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008883345957909341
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.007675997182617176
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008863021529284438
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.008045454817582249
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008840324255480515
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.008414016793396623
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008815260213106614
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.008781584437107224
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008787836112412946
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.009148059341967723
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008758059295494405
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.009513343393784407
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00872593773432491
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.009877338797183709
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008691480028623116
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.010239948101794415
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008654695403550051
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.010601074228337474
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00861559370723934
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.010960620494616456
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008574185408160592
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.011318490641401741
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008530481592316763
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01167458885820142
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008484493960276148
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.012028819808912085
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008436234824039867
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.012381088657342618
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00838571710374564
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.012731301092604124
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00833295432420875
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.013079363354359242
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00827796061130113
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.013425182257924046
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008220750688169522
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.013768665219215851
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008161339871293735
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0141097202795402
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008099744066386054
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.014448256130210432
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.008035979764132888
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.014784182136993231
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007970064035779831
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.015117408364373593
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007902014528561261
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.015447845599632746
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007831849460975761
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.015775405376732554
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007759587617908572
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.016099999999999996
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007685248345602438
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.016421542567605456
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007608851546478147
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01673994699482839
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007530417673806165
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01705512803710434
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0074499677262308064
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.017367001312846932
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0073675232421483855
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01767548332603888
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0072831062939408735
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01798049148858589
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00719673948206658
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018281944142427477
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007108445929009468
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01857976058139883
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.007018249273088709
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018873861072837762
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006926173662130124
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.019164166878931115
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006832243747001239
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.019450600277794744
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006736484675011638
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.01973308458428157
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006638922083180434
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02001154417051202
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006539582091372609
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.020285904486121463
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006438491295306095
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.020556092078219144
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006335676759431467
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.020822034611053284
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0062311660096861215
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021083660885377112
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006124987026124927
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021340900857510656
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.006017168235429285
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021593685658093064
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005907738503296617
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021841947610520683
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005796727126712323
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02208562024906565
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005684163826106264
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0223246383366704
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005570078737395894
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02255893788241323
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005454502403918138
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.022788456158640162
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005337465768252204
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023013131717758702
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005219000163935508
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023232904408688828
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.005099137307074929
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023447715392966872
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004977909287855639
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02365750716049803
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0048553485619497756
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023862223544953185
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004731487941827298
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.024061809738806
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004606360587971267
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.024256212308006207
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004480000000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0244453792062852
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004352440007698408
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0246292597890901
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.004223714761960939
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.024807804827142493
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0040938587256485704
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.024980966519618317
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.003962906664362251
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025148698506945295
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.003830893637135329
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025310955883214508
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.003697854987047377
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025467695208202808
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0035638263317620184
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025618874519002802
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0034288435539912053
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025764453341257338
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0032929427918885453
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.025904392699995477
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0031561604293742535
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.026038655130067024
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.003018533086394292
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02616720468617287
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.002880097609116329
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02629000695248841
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00274089106006512
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.026407029051877473
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.002600950708199984
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.026518239654694364
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0024603140189369947
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.026623608987171532
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0023190186441185857
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.026723108839390757
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0021771024119332455
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0268167125728356
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0020346033167879863
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.026904395127523205
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0018915595091363274
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02698613302871344
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00174800928526451
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027061904393193652
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0016039910770386284
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027131688935137364
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.001459543441615516
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027195467971535242
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0013147050511200433
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027253224427197003
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0011695146822916635
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027304942839322877
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0010240112061029442
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02735060936164333
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0008782335773528625
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027390211768126088
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0007322208242376681
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02742373945624931
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0005860120379020838
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.02745118344984016
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00043964636197366645
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027472536401477933
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00029316298208311445
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027487792594461137
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.00014660111537332095
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027496947944338008
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0275
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "311",
+      "name": "Spinner hardware cavity profile",
+      "type": "new_profile",
+      "variable": true,
+      "contents": {
+        "func": "profile_from_points<list<point>>[5.20.0]",
+        "id": "310",
+        "name": "new_profile",
+        "type": "new_profile",
+        "inputs": [
+          {
+            "ref": {
+              "id": "309"
+            },
+            "props": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "317",
+      "name": "Spinner hardware cavity",
+      "type": "implicit",
+      "variable": true,
+      "contents": {
+        "func": "revolve<new_profile,axis,real>[5.20.0]",
+        "id": "316",
+        "name": "implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "ref": {
+              "id": "311"
+            },
+            "props": []
+          },
+          {
+            "func": "axis<point,vector>",
+            "id": "314",
+            "name": "axis",
+            "type": "axis",
+            "inputs": [
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  }
+                ]
+              },
+              {
+                "type": "vector",
+                "value": {
+                  "units": {},
+                  "value": [
+                    {
+                      "isFinite": true,
+                      "val": 0.0
+                    },
+                    {
+                      "isFinite": true,
+                      "val": 0.0
+                    },
+                    {
+                      "isFinite": true,
+                      "val": 1.0
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "angle": 1
+              },
+              "val": 6.283185307179586
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "322",
+      "name": "Spinner hollow shell",
+      "type": "implicit",
+      "variable": true,
+      "contents": {
+        "func": "boolean_subtract<blend_enum,real_field,implicit,list<implicit>>[5.44.0]",
+        "id": "321",
+        "name": "implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "ref": {
+              "id": "208"
+            },
+            "props": []
+          },
+          {
+            "func": "core.list<implicit>",
+            "id": "320",
+            "name": "list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "317"
+                },
+                "props": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "327",
+      "name": "Spinner internal clamp boss",
+      "type": "cylinder",
+      "variable": true,
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "id": "326",
+        "name": "cylinder",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.019445
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.028
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0044
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "332",
+      "name": "Spinner shell and boss",
+      "type": "implicit",
+      "variable": true,
+      "contents": {
+        "func": "boolean_union<blend_enum,real_field,list<implicit>>[5.44.0]",
+        "id": "331",
+        "name": "implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0006
+            }
+          },
+          {
+            "func": "core.list<implicit>",
+            "id": "330",
+            "name": "list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "322"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "327"
+                },
+                "props": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "337",
+      "name": "Spinner preserved outer form",
+      "type": "implicit",
+      "variable": true,
+      "contents": {
+        "func": "boolean_intersect<blend_enum,real_field,list<implicit>>[5.44.0]",
+        "id": "336",
+        "name": "implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "func": "core.list<implicit>",
+            "id": "335",
+            "name": "list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "332"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "208"
+                },
+                "props": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "342",
+      "name": "M3 clearance through spinner",
+      "type": "cylinder",
+      "variable": true,
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "id": "341",
+        "name": "cylinder",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.018
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.035
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0017
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "347",
+      "name": "Spinner locating socket",
+      "type": "cylinder",
+      "variable": true,
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "id": "346",
+        "name": "cylinder",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0192
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.021595
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0030499999999999998
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "352",
+      "name": "M3 head counterbore",
+      "type": "cylinder",
+      "variable": true,
+      "contents": {
+        "func": "cylinder<point,point,real>",
+        "id": "351",
+        "name": "cylinder",
+        "type": "cylinder",
+        "inputs": [
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.027
+              }
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.035
+              }
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0031
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "357",
+      "name": "Spinner - separate part",
+      "type": "implicit",
+      "variable": true,
+      "contents": {
+        "func": "boolean_subtract<blend_enum,real_field,implicit,list<implicit>>[5.44.0]",
+        "id": "356",
+        "name": "implicit",
+        "type": "implicit",
+        "inputs": [
+          {
+            "type": "blend_enum",
+            "value": {
+              "enum": 0
+            }
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.0
+            }
+          },
+          {
+            "ref": {
+              "id": "337"
+            },
+            "props": []
+          },
+          {
+            "func": "core.list<implicit>",
+            "id": "355",
+            "name": "list<implicit>",
+            "type": "list<implicit>",
+            "inputs": [
+              {
+                "ref": {
+                  "id": "342"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "347"
+                },
+                "props": []
+              },
+              {
+                "ref": {
+                  "id": "352"
+                },
+                "props": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "360",
+      "name": "CHECK Spinner shell",
+      "type": "real",
+      "variable": true,
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "359",
+        "name": "real",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "357"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.009550000000000001
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.006
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "363",
+      "name": "CHECK Spinner cavity",
+      "type": "real",
+      "variable": true,
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "362",
+        "name": "real",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "357"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.012445
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "366",
+      "name": "CHECK Spinner nose",
+      "type": "real",
+      "variable": true,
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "365",
+        "name": "real",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "357"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0039
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.023
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "369",
+      "name": "CHECK Spinner rear opening",
+      "type": "real",
+      "variable": true,
+      "contents": {
+        "func": "evaluate_field<real_field,point>",
+        "id": "368",
+        "name": "real",
+        "type": "real",
+        "inputs": [
+          {
+            "ref": {
+              "id": "357"
+            },
+            "props": [
+              "scalar field"
+            ]
+          },
+          {
+            "type": "point",
+            "value": [
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0
+              },
+              {
+                "isFinite": true,
+                "val": 0.0047
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "373",
+      "name": "Spinner AT mesh",
+      "type": "mesh",
+      "variable": true,
+      "contents": {
+        "func": "mesh_by_adaptive_tets<implicit,real_field,bool>[5.42.0]",
+        "id": "372",
+        "name": "mesh",
+        "type": "mesh",
+        "inputs": [
+          {
+            "ref": {
+              "id": "357"
+            },
+            "props": []
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 5e-05
+            }
+          },
+          {
+            "type": "bool",
+            "value": {
+              "val": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "377",
+      "name": "Spinner sharpened mesh",
+      "type": "mesh",
+      "variable": true,
+      "contents": {
+        "func": "sharpen_mesh<mesh,implicit,integer,mesh_sharpen_enum>",
+        "id": "376",
+        "name": "mesh",
+        "type": "mesh",
+        "inputs": [
+          {
+            "ref": {
+              "id": "373"
+            },
+            "props": []
+          },
+          {
+            "ref": {
+              "id": "357"
+            },
+            "props": []
+          },
+          {
+            "type": "integer",
+            "value": {
+              "val": 1
+            }
+          },
+          {
+            "type": "mesh_sharpen_enum",
+            "value": {
+              "enum": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "381",
+      "name": "Spinner STL export",
+      "type": "mesh_file_data",
+      "variable": true,
+      "contents": {
+        "func": "export_mesh<file_path,mesh,unit_length_enum>",
+        "id": "380",
+        "name": "mesh_file_data",
+        "type": "mesh_file_data",
+        "inputs": [
+          {
+            "type": "file_path",
+            "value": {
+              "val": "repo://demos/propellers/output/exports/spinner/spinner.stl"
+            }
+          },
+          {
+            "ref": {
+              "id": "377"
+            },
+            "props": []
+          },
+          {
+            "type": "unit_length_enum",
+            "value": {
+              "id": "mm"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

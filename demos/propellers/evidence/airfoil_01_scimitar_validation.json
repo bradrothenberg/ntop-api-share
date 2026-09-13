@@ -1,0 +1,72 @@
+{
+  "id": "01_scimitar",
+  "recipe_sha256": "02f64d0bf50e365c51fcc778cf89150d169ab1b4bdbc91de81bb460da95f3af3",
+  "triangles": 280690,
+  "vertices": 140131,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 203.21396915433948,
+  "bounds_mm": [
+    [
+      -99.61090850830078,
+      -25.646011352539062,
+      -5.86543083190918
+    ],
+    [
+      99.60872650146484,
+      25.645692825317383,
+      6.316346645355225
+    ]
+  ],
+  "volume_mm3": 12500.359868347836,
+  "native_sweeps": 1,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Blade profile",
+      "Blade spine",
+      "Blade chord and twist rail",
+      "Blade center rail"
+    ]
+  ],
+  "seconds": 159.97487530000035,
+  "sha256": "fe1b10612ce381f098035ec24447a784fa81a7a0f322f96340503af8e15220f7",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.993811912536621,
+    "maximum_mesh_edge_mm": 2.2363963281443464,
+    "conservative_surface_gap_lower_bound_mm": 5.763603977031435,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "mesh_cleanup": {
+    "method": "Native Split Mesh, Filter Mesh List, Merge Mesh after Sharpen",
+    "threshold_mm3": 0.0001,
+    "raw_triangles": 280744,
+    "raw_components": 5,
+    "removed_components": [
+      {
+        "triangles": 12,
+        "absolute_volume_mm3": 2.4559978164116207e-06,
+        "maximum_extent_mm": 0.07663822174072266
+      },
+      {
+        "triangles": 14,
+        "absolute_volume_mm3": 1.8064097309814504e-07,
+        "maximum_extent_mm": 0.03562355041503906
+      },
+      {
+        "triangles": 14,
+        "absolute_volume_mm3": 1.8064097309814504e-07,
+        "maximum_extent_mm": 0.03562355041503906
+      },
+      {
+        "triangles": 14,
+        "absolute_volume_mm3": 9.805523334119557e-06,
+        "maximum_extent_mm": 0.09202289581298828
+      }
+    ],
+    "retained_surface_vertices_unchanged": true
+  },
+  "notebook_sha256": "fe38e800dc765fd7fba0b7a46f5d61021afca3810d6c52a5888cba41b7fa4d40",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

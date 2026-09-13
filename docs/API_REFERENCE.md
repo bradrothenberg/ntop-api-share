@@ -1,5 +1,9 @@
 # The nTop Notebook API
 
+**Historical build 42594 reference.** For build 42926 use [the September update](API_42926.md).
+That build adds six value types, explicit units, build states, movement, descriptive docstrings, and a documented TCP service.
+The limitations below remain a record of the older build; they are not the current method contract.
+
 Reference for the prototype Python API inside nTop's GUI. Everything
 here was measured on **nTop 6.0.0-rc, build 42594**, in August 2026. The
 API is unreleased and absent from the public documentation; a search of

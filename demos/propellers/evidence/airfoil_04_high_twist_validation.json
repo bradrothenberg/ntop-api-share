@@ -1,0 +1,132 @@
+{
+  "id": "04_high_twist",
+  "recipe_sha256": "ad4b330d32bce639e4ecafb0eb1c01abbcfddbf8b916902d3477316635c231aa",
+  "triangles": 338294,
+  "vertices": 168207,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 203.26021825213363,
+  "bounds_mm": [
+    [
+      -101.61393737792969,
+      -10.170295715332031,
+      -7.255820274353027
+    ],
+    [
+      101.60265350341797,
+      10.173157691955566,
+      7.306227207183838
+    ]
+  ],
+  "volume_mm3": 6603.056828987986,
+  "native_sweeps": 1,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Blade profile",
+      "Blade spine",
+      "Blade chord and twist rail",
+      "Blade center rail"
+    ]
+  ],
+  "seconds": 127.24471709999852,
+  "sha256": "ea21a454756f346daee70fadd554a29b4c22f173fd7feab6389675e8c221444e",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.765341299749463,
+    "maximum_mesh_edge_mm": 2.254336903782446,
+    "conservative_surface_gap_lower_bound_mm": 5.984330805198885,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "mesh_cleanup": {
+    "method": "Native Split Mesh, Filter Mesh List, Merge Mesh after Sharpen",
+    "threshold_mm3": 0.0001,
+    "raw_triangles": 338408,
+    "raw_components": 17,
+    "removed_components": [
+      {
+        "triangles": 14,
+        "absolute_volume_mm3": 1.0380403672550474e-06,
+        "maximum_extent_mm": 0.0494537353515625
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 8.475312052198583e-07,
+        "maximum_extent_mm": 0.03177642822265625
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 8.172923125886652e-09,
+        "maximum_extent_mm": 0.009707927703857422
+      },
+      {
+        "triangles": 10,
+        "absolute_volume_mm3": 3.853049265029977e-06,
+        "maximum_extent_mm": 0.04541349411010742
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 1.5533255983898875e-06,
+        "maximum_extent_mm": 0.0475153923034668
+      },
+      {
+        "triangles": 8,
+        "absolute_volume_mm3": 2.414744989092758e-08,
+        "maximum_extent_mm": 0.024268150329589844
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 4.459128121558272e-08,
+        "maximum_extent_mm": 0.009379863739013672
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 1.7277864884617199e-09,
+        "maximum_extent_mm": 0.0048313140869140625
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 1.7277864884617199e-09,
+        "maximum_extent_mm": 0.0048313140869140625
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 4.459128121558272e-08,
+        "maximum_extent_mm": 0.009379863739013672
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 1.975242666565208e-08,
+        "maximum_extent_mm": 0.013984918594360352
+      },
+      {
+        "triangles": 8,
+        "absolute_volume_mm3": 3.162615748250839e-08,
+        "maximum_extent_mm": 0.01650238037109375
+      },
+      {
+        "triangles": 10,
+        "absolute_volume_mm3": 3.8530492650253505e-06,
+        "maximum_extent_mm": 0.04541349411010742
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 7.386923487898271e-09,
+        "maximum_extent_mm": 0.00780034065246582
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 8.475312052204365e-07,
+        "maximum_extent_mm": 0.03177642822265625
+      },
+      {
+        "triangles": 14,
+        "absolute_volume_mm3": 9.583378359631748e-07,
+        "maximum_extent_mm": 0.04656219482421875
+      }
+    ],
+    "retained_surface_vertices_unchanged": true
+  },
+  "notebook_sha256": "f3a751adc37d8e86eed952aa5b75343588a7702860b5d51706427d71e8752953",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

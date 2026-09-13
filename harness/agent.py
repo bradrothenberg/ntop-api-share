@@ -21,7 +21,7 @@ import sys
 import traceback
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
-OUT_DIR = os.path.join(os.path.dirname(_HERE), "_agent")
+OUT_DIR = os.path.join(os.path.dirname(_HERE), '.local', '_agent')
 
 
 def _write(name, payload):
@@ -80,8 +80,13 @@ def _state(notebook):
     sections = notebook.list_sections()
     state = {"sections": [], "variables": notebook.list_variables()}
     for section in sections:
-        blocks = notebook.list_blocks(section["id"])
+        blocks = [dict(item) for item in notebook.list_blocks(section["id"])]
         for block in blocks:
+            if callable(getattr(notebook, 'block_state', None)):
+                try:
+                    block['state'] = notebook.block_state(block['id'])
+                except Exception as exc:
+                    block['state_error'] = str(exc)
             try:
                 block["inputs"] = _inputs(notebook, block["id"])
             except Exception as exc:
@@ -105,8 +110,13 @@ def _inputs(notebook, block_id):
         try:
             entry["value"] = notebook.get_block_input(block_id, spec["name"])
         except Exception as exc:
-            # Only real, vector and point can be read back; the rest raise.
+            # Type support varies by build; connections are not necessarily readable literals.
             entry["value_error"] = str(exc)
+        if callable(getattr(notebook, 'get_block_input_units', None)):
+            try:
+                entry['display_units'] = notebook.get_block_input_units(block_id, spec['name'])
+            except Exception as exc:
+                entry['units_error'] = str(exc)
         out.append(entry)
     return out
 

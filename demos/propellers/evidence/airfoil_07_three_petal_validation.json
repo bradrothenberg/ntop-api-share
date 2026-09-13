@@ -1,0 +1,277 @@
+{
+  "id": "07_three_petal",
+  "recipe_sha256": "fb0fe666a95f43e127d79880f7d36a1cbd5117500b4b63f22733db5202cef209",
+  "triangles": 891970,
+  "vertices": 444991,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 202.86085253513866,
+  "bounds_mm": [
+    [
+      -62.437686920166016,
+      -91.71653747558594,
+      -45.877662658691406
+    ],
+    [
+      101.34632873535156,
+      88.13233947753906,
+      40.938133239746094
+    ]
+  ],
+  "volume_mm3": 45091.98489536116,
+  "native_sweeps": 1,
+  "native_closed_curves": 3,
+  "native_inputs": [
+    [
+      "Closed loop profile",
+      "Closed loop spine",
+      "Closed loop chord and twist rail",
+      "Closed loop center rail"
+    ]
+  ],
+  "seconds": 1237.1701958000003,
+  "sha256": "5ee8dc2bde4eea4b370ab6d0d47bff684aa6e04081da6996ac8b0e95d319c9f3",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 4.364640392716342,
+    "maximum_mesh_edge_mm": 2.213234376917663,
+    "conservative_surface_gap_lower_bound_mm": 4.037923455966159,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "cleanup_surface_distance_bound": {
+    "id": "07_three_petal",
+    "raw_mesh_sha256": "b1b0e3e99f18a0645eaab2b96ec7ef10ba11e7abd29de59b132fb35490125d41",
+    "method": "Subdivide each discarded triangle to maximum edge 0.02 mm. Distance to retained surface is 1-Lipschitz; minimum vertex distance plus longest triangle edge bounds every point. Retained surface must remain unchanged.",
+    "parts": [
+      {
+        "triangles": 16,
+        "maximum_extent_mm": 0.206451416015625,
+        "volume_mm3": 3.933438212986677e-06,
+        "subdivision_triangles": 1032,
+        "maximum_sample_distance_mm": 0.04099408796587411,
+        "surface_distance_upper_bound_mm": 0.045352598178298204
+      },
+      {
+        "triangles": 4,
+        "maximum_extent_mm": 0.019695281982421875,
+        "volume_mm3": 9.671231877145248e-08,
+        "subdivision_triangles": 10,
+        "maximum_sample_distance_mm": 0.0065734425823779285,
+        "surface_distance_upper_bound_mm": 0.018341187753155012
+      },
+      {
+        "triangles": 8,
+        "maximum_extent_mm": 0.01267242431640625,
+        "volume_mm3": 1.1723390840161681e-07,
+        "subdivision_triangles": 8,
+        "maximum_sample_distance_mm": 0.008795243349150154,
+        "surface_distance_upper_bound_mm": 0.021242093875227467
+      },
+      {
+        "triangles": 8,
+        "maximum_extent_mm": 0.016971588134765625,
+        "volume_mm3": 2.2625544535137543e-08,
+        "subdivision_triangles": 10,
+        "maximum_sample_distance_mm": 0.0061677905658589285,
+        "surface_distance_upper_bound_mm": 0.021831593759549815
+      },
+      {
+        "triangles": 6,
+        "maximum_extent_mm": 0.018685340881347656,
+        "volume_mm3": 8.131977072043841e-08,
+        "subdivision_triangles": 8,
+        "maximum_sample_distance_mm": 0.028823404049274477,
+        "surface_distance_upper_bound_mm": 0.037120071618832545
+      },
+      {
+        "triangles": 4,
+        "maximum_extent_mm": 0.0023459196090698242,
+        "volume_mm3": 3.4520532184731736e-12,
+        "subdivision_triangles": 4,
+        "maximum_sample_distance_mm": 0.0003640043835718247,
+        "surface_distance_upper_bound_mm": 0.0025797021640004444
+      },
+      {
+        "triangles": 4,
+        "maximum_extent_mm": 0.0015306472778320312,
+        "volume_mm3": 9.741628856395953e-11,
+        "subdivision_triangles": 4,
+        "maximum_sample_distance_mm": 0.0052912147364338104,
+        "surface_distance_upper_bound_mm": 0.006050577339624251
+      },
+      {
+        "triangles": 6,
+        "maximum_extent_mm": 0.041818857192993164,
+        "volume_mm3": 4.8447328918803725e-08,
+        "subdivision_triangles": 22,
+        "maximum_sample_distance_mm": 0.011232796468910325,
+        "surface_distance_upper_bound_mm": 0.02443162475729898
+      },
+      {
+        "triangles": 4,
+        "maximum_extent_mm": 0.021549224853515625,
+        "volume_mm3": 9.913331695246205e-09,
+        "subdivision_triangles": 8,
+        "maximum_sample_distance_mm": 0.00966301224383551,
+        "surface_distance_upper_bound_mm": 0.021947702213169693
+      },
+      {
+        "triangles": 4,
+        "maximum_extent_mm": 0.0098724365234375,
+        "volume_mm3": 1.1078067517865156e-08,
+        "subdivision_triangles": 4,
+        "maximum_sample_distance_mm": 0.009233518589965323,
+        "surface_distance_upper_bound_mm": 0.017629208805784467
+      },
+      {
+        "triangles": 16,
+        "maximum_extent_mm": 0.1352672576904297,
+        "volume_mm3": 1.315138641319602e-05,
+        "subdivision_triangles": 286,
+        "maximum_sample_distance_mm": 0.013062097929258002,
+        "surface_distance_upper_bound_mm": 0.02633086623762641
+      },
+      {
+        "triangles": 16,
+        "maximum_extent_mm": 0.09723520278930664,
+        "volume_mm3": 4.64968457164483e-06,
+        "subdivision_triangles": 152,
+        "maximum_sample_distance_mm": 0.012824509358551684,
+        "surface_distance_upper_bound_mm": 0.02790713340249504
+      },
+      {
+        "triangles": 4,
+        "maximum_extent_mm": 0.0049991607666015625,
+        "volume_mm3": 1.947018984984709e-09,
+        "subdivision_triangles": 4,
+        "maximum_sample_distance_mm": 0.00820065440214679,
+        "surface_distance_upper_bound_mm": 0.009646060176749013
+      },
+      {
+        "triangles": 4,
+        "maximum_extent_mm": 0.006134986877441406,
+        "volume_mm3": 5.82273792983784e-11,
+        "subdivision_triangles": 4,
+        "maximum_sample_distance_mm": 0.005780646424033935,
+        "surface_distance_upper_bound_mm": 0.010904974946367128
+      },
+      {
+        "triangles": 8,
+        "maximum_extent_mm": 0.09312915802001953,
+        "volume_mm3": 1.3638026366242946e-06,
+        "subdivision_triangles": 94,
+        "maximum_sample_distance_mm": 0.015268845631736553,
+        "surface_distance_upper_bound_mm": 0.023530775286841284
+      },
+      {
+        "triangles": 6,
+        "maximum_extent_mm": 0.017444610595703125,
+        "volume_mm3": 3.173738667127298e-08,
+        "subdivision_triangles": 10,
+        "maximum_sample_distance_mm": 0.0019172868598551368,
+        "surface_distance_upper_bound_mm": 0.019176095193094513
+      }
+    ],
+    "maximum_removed_surface_distance_bound_mm": 0.045352598178298204
+  },
+  "mesh_cleanup": {
+    "method": "Native Split Mesh, Filter Mesh List, Merge Mesh after Sharpen",
+    "threshold_mm3": 0.0001,
+    "raw_triangles": 892088,
+    "raw_components": 17,
+    "removed_components": [
+      {
+        "triangles": 16,
+        "absolute_volume_mm3": 3.933438212986677e-06,
+        "maximum_extent_mm": 0.206451416015625
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 9.671231877145248e-08,
+        "maximum_extent_mm": 0.019695281982421875
+      },
+      {
+        "triangles": 8,
+        "absolute_volume_mm3": 1.1723390840161681e-07,
+        "maximum_extent_mm": 0.01267242431640625
+      },
+      {
+        "triangles": 8,
+        "absolute_volume_mm3": 2.2625544535137543e-08,
+        "maximum_extent_mm": 0.016971588134765625
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 8.131977072043841e-08,
+        "maximum_extent_mm": 0.018685340881347656
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 3.4520532184731736e-12,
+        "maximum_extent_mm": 0.0023459196090698242
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 9.741628856395953e-11,
+        "maximum_extent_mm": 0.0015306472778320312
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 4.8447328918803725e-08,
+        "maximum_extent_mm": 0.041818857192993164
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 9.913331695246205e-09,
+        "maximum_extent_mm": 0.021549224853515625
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 1.1078067517865156e-08,
+        "maximum_extent_mm": 0.0098724365234375
+      },
+      {
+        "triangles": 16,
+        "absolute_volume_mm3": 1.315138641319602e-05,
+        "maximum_extent_mm": 0.1352672576904297
+      },
+      {
+        "triangles": 16,
+        "absolute_volume_mm3": 4.64968457164483e-06,
+        "maximum_extent_mm": 0.09723520278930664
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 1.947018984984709e-09,
+        "maximum_extent_mm": 0.0049991607666015625
+      },
+      {
+        "triangles": 4,
+        "absolute_volume_mm3": 5.82273792983784e-11,
+        "maximum_extent_mm": 0.006134986877441406
+      },
+      {
+        "triangles": 8,
+        "absolute_volume_mm3": 1.3638026366242946e-06,
+        "maximum_extent_mm": 0.09312915802001953
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 3.173738667127298e-08,
+        "maximum_extent_mm": 0.017444610595703125
+      }
+    ],
+    "retained_surface_vertices_unchanged": true
+  },
+  "smooth_tip_revision": {
+    "radial_trim_active": false,
+    "uniform_loop_scale": 0.9566543310721811,
+    "former_cutoff_radius_mm": 101.6,
+    "measured_radial_clearance_mm": 0.16957373243066343,
+    "faces_on_former_cutoff": 0,
+    "pilot_source": "07_three_petal_untrimmed_pilot",
+    "pilot_untrimmed_radius_mm": 105.99439808771348
+  },
+  "notebook_sha256": "70d877987d2a99d57f6320d171f0b03dd4d53797ac93d2e28e727e9e540dcf50",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

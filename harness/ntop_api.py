@@ -2,12 +2,17 @@
 from pathlib import Path
 import importlib,json,sys
 ROOT=Path(__file__).resolve().parents[1]
-DEMOS=('i6','i6-astra','jet20','fury','b52','ddgx','f16','a12','fcat')
-def check_api(notebook):
+DEMOS=('i6','i6-astra','jet20','fury','b52','ddgx','f16','a12','fcat','propellers')
+FEATURES_42926 = ('set_block_input_units', 'get_block_input_units', 'block_state', 'move_block')
+
+def check_api(notebook, *, require_42926=False):
     required=('list_variables','list_available_blocks','import_recipe','export_as_recipe','get_block_input','save_notebook_as')
     missing=[n for n in required if not callable(getattr(notebook,n,None))]
     if missing:raise RuntimeError('Missing Notebook API methods: '+', '.join(missing))
-    return {'compatible_surface':True,'note':'Re-measure semantics after a build change.'}
+    features = {name: callable(getattr(notebook, name, None)) for name in FEATURES_42926}
+    if require_42926 and not all(features.values()):
+        raise RuntimeError('Missing build-42926 features: '+', '.join(k for k,v in features.items() if not v))
+    return {'compatible_surface':True, 'features_42926':features, 'note':'Feature presence only; no build identity or semantic verification.'}
 def use(demo):
     if demo not in DEMOS:raise ValueError('Unknown demo: '+demo)
     for name,module in list(sys.modules.items()):

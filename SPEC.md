@@ -27,3 +27,13 @@ Extend the current public repository with the 27-report catalogue, current F-16 
 Add portable native snapshots and complete saved API recipes for the three new geometry demos. Replay these graphs through the existing build/stage harness; do not imply that replay reruns the original fitting, optimization, or CFD workflows. Keep the earlier Fury algorithmic builder and label its distinct revision. Add the separate current finite-edge notebook with paused meshing operations.
 
 Validate the staged public tree, a separate checkout, all native containers, graph closure, offline report interactions, local links, and the explicit excluded-photo hashes. Publish after those checks pass.
+
+## September 13 API and propeller learning update
+
+Update shared guidance and harness for the supplied build 42926 demo package. Preserve the nine existing demos and their recorded provenance.
+Include path-free API evidence, current type/unit/state/movement guidance, optional owned-session TCP dispatch, and the two-rail propeller lessons.
+Retain old findings with explicit historical labels. Test offline helpers and audit all proposed public files.
+Do not import private workspaces, model binaries, reference images, CFD outputs, credentials, or private Git history.
+No new native execution against an existing user session is part of this public-repo audit.
+
+The user also requested a shared propeller folder. Include all 22 saved construction graphs, two audited native assembly snapshots, native screenshots, selected measurements, and the CFD plan. Large blade caches and meshes are regenerated locally. Carry the subsequent folded-Mobius correction into the airfoil case after native validation.

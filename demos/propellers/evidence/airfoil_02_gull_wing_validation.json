@@ -1,0 +1,72 @@
+{
+  "id": "02_gull_wing",
+  "recipe_sha256": "af5fd0ba58d9e6f1fec16f56671354dc65d18aca62904f2840ad8f5165258861",
+  "triangles": 309498,
+  "vertices": 154389,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 203.25271081493293,
+  "bounds_mm": [
+    [
+      -101.6111831665039,
+      -11.878937721252441,
+      -4.4499640464782715
+    ],
+    [
+      101.6217041015625,
+      11.858305931091309,
+      22.452653884887695
+    ]
+  ],
+  "volume_mm3": 11683.113256306367,
+  "native_sweeps": 1,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Blade profile",
+      "Blade spine",
+      "Blade chord and twist rail",
+      "Blade center rail"
+    ]
+  ],
+  "seconds": 165.2508186999994,
+  "sha256": "289a3efd6a19a7eaaace34aebc96f1419ff706ea9bb4f0c6f96af832bb08eabe",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.995035953521729,
+    "maximum_mesh_edge_mm": 2.046992848502453,
+    "conservative_surface_gap_lower_bound_mm": 5.953007456673328,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "mesh_cleanup": {
+    "method": "Native Split Mesh, Filter Mesh List, Merge Mesh after Sharpen",
+    "threshold_mm3": 0.0001,
+    "raw_triangles": 309526,
+    "raw_components": 5,
+    "removed_components": [
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 3.175533409288898e-09,
+        "maximum_extent_mm": 0.027317821979522705
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 1.5591495754312587e-07,
+        "maximum_extent_mm": 0.0128021240234375
+      },
+      {
+        "triangles": 10,
+        "absolute_volume_mm3": 1.2323588257923124e-06,
+        "maximum_extent_mm": 0.036407470703125
+      },
+      {
+        "triangles": 6,
+        "absolute_volume_mm3": 3.1755334089997775e-09,
+        "maximum_extent_mm": 0.027317821979522705
+      }
+    ],
+    "retained_surface_vertices_unchanged": true
+  },
+  "notebook_sha256": "8d1875e305d0148f4150e9ea051583047965d6d545d8f41eee16bb27528fe75c",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

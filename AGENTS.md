@@ -23,3 +23,9 @@ This is the public Notebook API demo handoff. Read README.md and SPEC.md first.
 - Public report pages may share compact local assets under reports/assets/. Test a complete checkout offline.
 - F-16, A-12, and F-Cat use saved recipe replay. Label replay separately from original algorithmic construction or new native verification.
 - The finite-edge Fury snapshot is primary. The existing Fury builder reconstructs the earlier appearance baseline; do not mislabel its output.
+
+## Build 42926 update
+
+Read docs/API_42926.md before applying older API findings. Preserve evidence labels: supplied documentation, recorded native behavior, offline tests, and new native execution.
+TCP dispatch requires verified process identity and a unique receipt directory. A timeout is an unknown outcome until its completion record is checked.
+For two-rail geometry, read docs/PROPELLER_LEARNINGS.md. Preserve raw meshes and measured cleanup evidence.

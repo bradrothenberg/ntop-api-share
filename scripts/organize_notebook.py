@@ -1,8 +1,8 @@
 """Organise a saved .ntop notebook into sections, hide intermediates, colour parts.
 
 `import_recipe` puts every imported block into the first section and the
-Notebook API has no way to move blocks between sections or to change
-visibility. The saved file does carry both, as data:
+build-42594 Notebook API had no block movement or visibility setters.
+Build 42926 adds move_block; this saved-file helper also controls visibility. The saved file does carry both, as data:
 
   MAGIC%$1 container
     table at byte 24: 16-byte chunk name + 8-byte END offset relative to

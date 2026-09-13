@@ -1,0 +1,22 @@
+{
+  "adapter_base_z_mm": 5.445,
+  "adapter_shoulder_z_mm": 19.445,
+  "spigot_top_z_mm": 21.445,
+  "adapter_flats_mm": 8.0,
+  "spigot_diameter_mm": 6.0,
+  "socket_diameter_mm": 6.1,
+  "socket_top_z_mm": 21.595,
+  "boss_diameter_mm": 8.8,
+  "screw_seat_z_mm": 27.0,
+  "m5_socket_end_z_mm": 14.445,
+  "m3_socket_end_z_mm": 14.445,
+  "screw_length_mm": 12.0,
+  "head_diameter_mm": 5.7,
+  "head_height_mm": 1.65,
+  "head_counterbore_mm": 6.2,
+  "screw_clearance_mm": 3.4,
+  "screw_thread": "M3 x 0.5",
+  "adapter_thread": "M5 x 0.8",
+  "thread_geometry": "Nominal major-diameter envelopes; thread flanks are not modeled.",
+  "adapter_material_assumption": "Machined steel; grade and heat treatment need engineering release."
+}

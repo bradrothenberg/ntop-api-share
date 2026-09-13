@@ -3,15 +3,17 @@
 Sources: full reference,
 engine notes, and
 API skill.
-These observations describe the tested prototype.
+These observations describe the tested prototype. Read [build 42926 changes](API_42926.md) for the current update.
+The detailed older reference and failure log retain their original build scope.
 
 ## Author small, then author in bulk
 
 Discover identifiers with list_available_blocks. Never infer an identifier from a display label.
 Finish a block's inputs before another block consumes it. Consumption can nest it and remove it from top-level listings.
 
-The live setter supports a limited type set.
-Use an exported recipe for text, file paths, integers, Booleans, enums, and lists.
+Build 42926 supports real, vector, point, integer, bool, and text through live setters/readers.
+Use an exported recipe for unsupported file paths, enums, lists, and direct real_field values.
+Build 42594 required recipes for additional types, including text, integers, and Booleans.
 Boolean literals use {"val": false}. The I6 backend records notebook operations and imports one complete recipe.
 
 References resolve within one recipe. A second recipe cannot reliably reference an earlier import.
@@ -35,7 +37,8 @@ Some Boolean body lists accept direct appends. Use the observed signature.
 | Boundary | Convention observed |
 |---|---|
 | Recipes | Explicit SI; angles in radians |
-| Fresh GUI setter/readback | Inches and degrees in the tested default |
+| Build 42926 setter | Explicit units when supplied; display units otherwise |
+| Getter and unit getter | Display units, not the originally entered expression |
 | Legacy Automate template | Millimeters and degrees |
 | Measurement meshes | Explicit STL export in millimeters |
 

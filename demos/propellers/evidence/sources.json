@@ -1,0 +1,89 @@
+{
+  "accessed": "2026-09-11",
+  "sources": [
+    {
+      "id": "motor",
+      "title": "Scorpion SII-2212-1400kv (V2)",
+      "url": "https://www.scorpionsystem.com/catalog/clearance/motor_1/sii_-_airplane_motor/SII-2212-1400KV/",
+      "facts": {
+        "outside_diameter_mm": 27.9,
+        "body_length_mm": 30.0,
+        "shaft_diameter_mm": 2.98,
+        "adapter_thread": "M5 x 0.8"
+      }
+    },
+    {
+      "id": "adapter",
+      "title": "Scorpion 3mm Threaded Prop Adapter",
+      "url": "https://www.scorpionsystem.com/catalog/aeroplane/accessories_3/prop_adapter/PropAdapter3/",
+      "facts": {
+        "motor_shaft_nominal_mm": 3,
+        "prop_shaft_nominal_mm": 5,
+        "thread": "M5 x 0.8"
+      }
+    },
+    {
+      "id": "prop_reference",
+      "title": "APC 8x4E",
+      "url": "https://www.apcprop.com/product/8x4e/?v=f24485ae434a",
+      "facts": {
+        "diameter_in": 8,
+        "pitch_in": 4,
+        "hub_diameter_in": 0.8,
+        "hub_thickness_in": 0.35,
+        "original_bore_in": 0.25
+      },
+      "note": "Size and hub precedent only. The blade geometry is an original practice model."
+    },
+    {
+      "id": "airfoil",
+      "title": "NASA TM X-3284: NACA airfoil ordinates",
+      "url": "https://ntrs.nasa.gov/citations/19760003945",
+      "facts": {
+        "thickness_polynomial": [
+          0.2969,
+          -0.126,
+          -0.3516,
+          0.2843,
+          -0.1015
+        ]
+      },
+      "note": "The study uses a symmetric 15-percent thickness section. No aerodynamic result is inferred."
+    },
+    {
+      "id": "retention_reference",
+      "title": "Horizon Hobby: propeller and central spinner screw installation",
+      "url": "https://www.horizonhobby.com/on/demandware.static/Sites-horizon-us-Site/Sites-horizon-master/default/Manuals/PKZ5180-Manual_EN.pdf",
+      "facts": {
+        "basis": "Documented central screw into the propeller adapter. Our nut and boss dimensions are custom."
+      },
+      "accessed": "2026-09-12"
+    },
+    {
+      "id": "retaining_screw",
+      "title": "Accu M3 x 12 socket button screw, ISO 7380-1",
+      "url": "https://www.accu.co.uk/socket-button-screws/8104-SSB-M3-12-A2",
+      "facts": {
+        "length_mm": 12,
+        "head_diameter_mm": 5.7,
+        "head_height_mm": 1.65,
+        "hex_socket_mm": 2,
+        "pitch_mm": 0.5
+      },
+      "accessed": "2026-09-12"
+    }
+  ],
+  "assumptions": {
+    "hub_bore_mm": 5.1,
+    "washer_od_mm": 12,
+    "washer_thickness_mm": 1,
+    "nut_across_flats_mm": 8,
+    "nut_height_mm": 4,
+    "shaft_length_above_seat_mm": 16.89,
+    "seat_to_motor_front_mm": 8,
+    "hub_blend_radius_mm": 2,
+    "blade_chords": "See design.json station table",
+    "root_pitch_cap_radius_mm": 16
+  },
+  "fit_scope": "Nominal geometry fit to the M5 interface. Adapter axial dimensions, tolerance stack, thread engagement, and actual hardware fit require measurement."
+}

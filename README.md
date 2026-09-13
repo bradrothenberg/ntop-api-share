@@ -1,10 +1,11 @@
 # nTop Notebook API: public demo collection
 
-Nine editable demonstrations and 27 reports, with six source builders, three saved-graph replays, and measured Notebook API lessons.
+Ten editable demonstrations and 28 reports, with six source builders, four saved-graph replay collections, and measured Notebook API lessons.
 Each demo contains a local agent, scripts, native models, and an HTML report. No private project checkout is required.
 
 | Demo | Learn from it |
 |---|---|
+| [Propellers](demos/propellers/README.md) | An eight-inch assembly, separate retained spinner, twenty native two-rail blade studies, and a CFD optimization plan. |
 | [Original inline-six](demos/i6/README.md) | An API recorder, slider-crank mechanism, cam motion, and analytic helical springs. |
 | [I6 Astra](demos/i6-astra/README.md) | A native assembly with involute gears, nominal fasteners, belts, spline routes, and mechanism checks. |
 | [20 lbf jet](demos/jet20/README.md) | A native compressor, combustor, turbine, housing joints, fasteners, and service routes. The 20 lbf value is a conditional sizing target. |
@@ -20,7 +21,8 @@ Each demo contains a local agent, scripts, native models, and an HTML report. No
 ## Get started
 
 Requirements: Windows, Git, uv, and a licensed nTop custom build with the Notebook API.
-The source work used **nTop 6.0.0-rc build 42594**. Obtain that build from its maintainer.
+The original demos used **nTop 6.0.0-rc build 42594**. The shared guidance also covers **6.1.0-rc build 42926**.
+Read the [September API update](docs/API_42926.md) before selecting a build. Obtain licensed builds from their maintainer.
 The application and license are not included. Offline builders and tests run without nTop.
 
 ```powershell
@@ -54,7 +56,7 @@ ntop-api-share/
     models/             Relevant .ntop snapshots
     reports/            Public HTML report and compact assets
     output/             Generated recipes and run evidence; ignored
-  reports/              27-report offline catalogue and shared compact assets
+  reports/              28-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
   .agents/skills/       Bundled API and HTML-report skills
   templates/            HTML report template and offline CSS
@@ -63,6 +65,7 @@ ntop-api-share/
 
 ## Read next
 
+- [Build 42926 changes](docs/API_42926.md) and [propeller workflow lessons](docs/PROPELLER_LEARNINGS.md)
 - [API lessons](docs/API.md), [method reference](docs/API_REFERENCE.md), and [measured API failures](docs/API_FINDINGS.md)
 - [Lofting](docs/LOFTING.md), [assemblies](docs/ASSEMBLIES.md), and [later jet lessons](docs/JET_EVOLUTION.md)
 - [Verification methods](docs/VERIFICATION.md) and [background console](docs/BACKGROUND_CONSOLE.md)

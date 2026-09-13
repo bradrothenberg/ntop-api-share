@@ -1,0 +1,42 @@
+{
+  "id": "02_gull_wing",
+  "triangles": 105792,
+  "vertices": 52896,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 203.2122259775505,
+  "bounds_mm": [
+    [
+      -101.60153198242188,
+      -11.783313751220703,
+      -4.449705600738525
+    ],
+    [
+      101.6044921875,
+      11.782155990600586,
+      22.451215744018555
+    ]
+  ],
+  "volume_mm3": 16266.59694961204,
+  "native_sweeps": 1,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Blade profile",
+      "Blade spine",
+      "Blade chord and twist rail",
+      "Blade center rail"
+    ]
+  ],
+  "seconds": 36.05011480000394,
+  "sha256": "f880abb552f5b6d12d4a7f18de2cd3d2770b4ec28e0dfba1ff73cfc81a061421",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.995294399261475,
+    "maximum_mesh_edge_mm": 2.3933081953870676,
+    "conservative_surface_gap_lower_bound_mm": 5.606692586625872,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "notebook_sha256": "cd63e9ae37a11a7c4f0d1912e05143b8c68e0537e01895e53918f43c95d06c95",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

@@ -1,5 +1,8 @@
 # Notebook API findings
 
+**Historical build 42594 findings.** Read [the build 42926 update](API_42926.md) for changed type, unit, clearing, and transport behavior.
+These earlier failure records are retained as evidence, not restated as current limitations.
+
 Eleven behaviors found while building the example export with the
 prototype Notebook API, and then trying to make the result sweepable.
 Measured on **nTop 6.0.0-rc, build 42594**, 29 and 30 August 2026. Error

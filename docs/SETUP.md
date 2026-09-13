@@ -6,6 +6,8 @@ Pass -NTopExe or set NTOP_EXE to the matching licensed custom build. Start nTop 
 An already-running nTop instance does not inherit new environment variables; restart a task-owned session or
 add this checkout's harness folder to sys.path manually in its Python Console.
 
+Read [the build 42926 update](API_42926.md) for current capabilities and the optional owned-session TCP tool.
+`ntop_api.check_api(notebook, require_42926=True)` checks feature presence without changing the graph.
 Use the tiny `ntop_api.hello(notebook)` check in an empty notebook before a large build.
 `ntop_api.use("jet20")` selects one demo and clears cached modules from other demo folders.
 Then `import agent` exposes run, dump, recipe, blocks, properties, and api helpers.

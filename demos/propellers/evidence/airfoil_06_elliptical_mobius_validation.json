@@ -1,0 +1,61 @@
+{
+  "id": "06_elliptical_mobius",
+  "recipe_sha256": "1f25565982e99f9f7e9fc73aa9758c8ee3a3cb169fca55e4f05b76782c822aca",
+  "triangles": 337300,
+  "vertices": 168646,
+  "watertight": true,
+  "components": 1,
+  "winding_consistent": true,
+  "swept_diameter_mm": 197.0545542252832,
+  "bounds_mm": [
+    [
+      -91.55176544189453,
+      -28.374160766601562,
+      -8.305883407592773
+    ],
+    [
+      98.5209732055664,
+      28.379016876220703,
+      8.304025650024414
+    ]
+  ],
+  "volume_mm3": 17749.722381782038,
+  "native_sweeps": 4,
+  "native_closed_curves": 0,
+  "native_inputs": [
+    [
+      "Ribbon half 1 profile",
+      "Ribbon half 1 spine",
+      "Ribbon half 1 chord and twist rail",
+      "Ribbon half 1 center rail"
+    ],
+    [
+      "Ribbon half 2 profile",
+      "Ribbon half 2 spine",
+      "Ribbon half 2 chord and twist rail",
+      "Ribbon half 2 center rail"
+    ],
+    [
+      "Hub support -1 profile",
+      "Hub support -1 spine",
+      "Hub support -1 chord and twist rail",
+      "Hub support -1 center rail"
+    ],
+    [
+      "Hub support 1 profile",
+      "Hub support 1 spine",
+      "Hub support 1 chord and twist rail",
+      "Hub support 1 center rail"
+    ]
+  ],
+  "seconds": 170.43351359999906,
+  "sha256": "deb47d9852ff3fb0a96fad213c97124e1b015b3d6bc1235788608e0bda83bcdd",
+  "motor_reference_clearance": {
+    "minimum_vertex_distance_mm": 7.3560030888154815,
+    "maximum_mesh_edge_mm": 2.175444546521414,
+    "conservative_surface_gap_lower_bound_mm": 6.804406466169574,
+    "reference": "Finite cylinder R13.95 mm, z=-42.445 to -12.445 mm. Motor dimensions published; axial position assumed."
+  },
+  "notebook_sha256": "15850e45e524c9c6e22a1ad2bc67d6631093ab5ff1fe54e4953a5ac000cf28fb",
+  "scope": "Recorded source measurement. Public recipe has portable export paths and was not reevaluated here."
+}

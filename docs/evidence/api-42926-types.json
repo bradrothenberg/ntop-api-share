@@ -1,0 +1,38 @@
+{
+  "real": {
+    "value": 1.0,
+    "units": "in",
+    "state": {
+      "blockId": "Scalar_0",
+      "buildState": "e_OK",
+      "pauseState": "e_UNPAUSED"
+    }
+  },
+  "integer": {
+    "value": 7,
+    "units": "",
+    "state": {
+      "blockId": "Integer_0",
+      "buildState": "e_OK",
+      "pauseState": "e_UNPAUSED"
+    }
+  },
+  "bool": {
+    "value": true,
+    "units": "",
+    "state": {
+      "blockId": "Bool_0",
+      "buildState": "e_OK",
+      "pauseState": "e_UNPAUSED"
+    }
+  },
+  "text": {
+    "value": "build-42926",
+    "units": "",
+    "state": {
+      "blockId": "Text_0",
+      "buildState": "e_OK",
+      "pauseState": "e_UNPAUSED"
+    }
+  }
+}
