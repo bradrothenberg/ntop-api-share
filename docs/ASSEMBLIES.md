@@ -2,6 +2,8 @@
 
 These lessons retain their recorded demo revisions. Use [the current build 42926 reference](API_REFERENCE.md) for API calls and units.
 
+For reusable part notebooks, start with the [assembly modeling skill](../.agents/skills/ntop-assembly-modeling/SKILL.md). It includes a generic two-instance pilot, complete custom-block contracts, and [fixed-feature resizing guidance](../.agents/skills/ntop-assembly-modeling/references/fixed-feature-resizing.md) derived from KestrelSAT. Use the [CSG skill](../.agents/skills/ntop-csg-modeling/SKILL.md) for source reconstruction before modularization.
+
 Sources: I6 notes,
 Astra log, Jet log,
 and joint builder.

@@ -1,0 +1,81 @@
+{
+  "scope": "Source comparison and offline package audit. No new native execution.",
+  "source_root": "User-supplied Notebook API Demos workspace (read-only)",
+  "source_files": [
+    {
+      "path": "skills/ntop-assembly-modeling/references/custom-block-contracts.md",
+      "sha256": "5d2c07d1a9981133865b694a0ca322e626a39517c97383eb52d52a59f20b67b8"
+    },
+    {
+      "path": "skills/ntop-assembly-modeling/references/generic-pilot.md",
+      "sha256": "3429ef1b5d1b52621f1e72548aecabcf03388757a133f10af84aaf771bb38837"
+    },
+    {
+      "path": "skills/ntop-assembly-modeling/references/recorded-pilot.json",
+      "sha256": "1f048104200520cd0b9a19f45943cc326269179810d73ee00413249475b51146"
+    },
+    {
+      "path": "skills/ntop-assembly-modeling/references/verification-and-gui.md",
+      "sha256": "7726a320ba32c31a1dfee877fbabf53c5d1b4bbddfee49164993a94215fc2e6d"
+    },
+    {
+      "path": "skills/ntop-assembly-modeling/scripts/run_pilot.py",
+      "sha256": "2cb90a7d0ba52f23211a6dff62f7db24dd53aa19f975f7c14eb6b74b09afd3c4"
+    },
+    {
+      "path": "skills/ntop-assembly-modeling/SKILL.md",
+      "sha256": "e4a29a13cca92e07bb10c90998ddcbd67c8b72bf3cb17a9e6ef087c3a35a961e"
+    },
+    {
+      "path": "skills/ntop-csg-modeling/references/kestrelsat.md",
+      "sha256": "bebf9d445b934ffd525e92fc6e80a14f2f868ad7844d727b5930eae727a3cb88"
+    },
+    {
+      "path": "skills/ntop-csg-modeling/SKILL.md",
+      "sha256": "a0108806fa306681d13c6e3c63e652bd0e89518d4a60d32e156705cf4e8eb7bf"
+    },
+    {
+      "path": "KestrelSAT_Mk2/csg/skills/ntop-custom-assembly/examples/README.md",
+      "sha256": "92ae540956c6fc2451f3750a2d276899c36fa2aa742388362efefd28c330c936"
+    },
+    {
+      "path": "KestrelSAT_Mk2/csg/skills/ntop-custom-assembly/references/example-pilot.md",
+      "sha256": "17ba92bb5fb5974ba62fdf428921b7511ebd59b0c3c962058afde14e1d88605b"
+    },
+    {
+      "path": "KestrelSAT_Mk2/csg/skills/ntop-custom-assembly/references/kestrelsat-example.md",
+      "sha256": "9ba806639ccb81004b9c03c577eb168d60261ae33749d89b527f8089b0918c18"
+    },
+    {
+      "path": "KestrelSAT_Mk2/csg/skills/ntop-custom-assembly/references/resizing-contract.md",
+      "sha256": "056197f5a131650cee5169394df2e4ff6d4deed34332b9210fb688082fdf53d1"
+    },
+    {
+      "path": "KestrelSAT_Mk2/csg/skills/ntop-custom-assembly/SKILL.md",
+      "sha256": "ab161d3b7bb0e3d017c8890df6eae93832fb97897c39859e1d96b6a48b6f5d1e"
+    },
+    {
+      "path": "KestrelSAT_Mk2/modular/skills/ntop-custom-assembly/SKILL.md",
+      "sha256": "b298e5f11b30d5643a043ccf3d18a2ccb55684d3753867584db15ea034628e28"
+    },
+    {
+      "path": "KestrelSAT_Mk2/csg/skills/ntop-custom-assembly/examples/run_example.py",
+      "sha256": "e02efe33bbdf39d1b2a9de475c961c027e216cbea9edb0c986bdbfebccf02c47"
+    },
+    {
+      "path": "KestrelSAT_Mk2/csg/skills/ntop-custom-assembly/examples/generated/verification.json",
+      "sha256": "a8b546e9fc130557a97be4c6aeebdf6e445251c38abd2cb783a97de0f7f2f71a"
+    }
+  ],
+  "source_hash_scope": "SHA-256 of original source bytes; public text uses checkout line endings.",
+  "pilot_script_matches_source_text": true,
+  "pilot_construction_ast_matches_source": true,
+  "recorded_pilot_json_matches_source": true,
+  "pilot_construction_ast_matches_original_native_example": true,
+  "construction_ast_sha256": "69004165951c4a7db7077729158ddd9816ff6fccf3f102952e668b7b3fe838f3",
+  "construction_ast_method": "Python ast.dump(Module containing mm, scalar, point, vector, ref, Recipe, part_recipe, assembly_recipe, validation_recipe; include_attributes=False)",
+  "original_native_receipt_shared_fields_match": true,
+  "recorded_native_build": "nTop 6.0.0-rc build 42594",
+  "recorded_native_check_count": 80,
+  "recorded_maximum_field_error_mm": 2.9545098589878194e-07
+}

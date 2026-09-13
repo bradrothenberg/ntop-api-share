@@ -1,6 +1,6 @@
 ---
 name: ntop-csg-modeling
-description: Reconstruct editable native nTop solids from STEP with measured primitives, planes, and sparse projected profiles. Use for faithful part remodeling or replacing layered approximations, with explicit geometry and native-output verification.
+description: Reconstruct editable native nTop solids from STEP with measured primitives, planes, analytic fillets, and sparse projected profiles. Use for faithful part remodeling or replacing layered approximations, with explicit geometry and native-output verification.
 ---
 
 # Native nTop CSG modeling
@@ -13,6 +13,8 @@ New API guidance targets build 42926. The corner's build 42594 measurements rema
 Use [the current method reference](../../../docs/API_REFERENCE.md) for supported input repair, native list processing, and top-level block movement.
 
 The [corner-part example](references/kestrelsat-corner.md) links a single native model, its STEP reference, editable recipes, and recorded comparison. It does not include the satellite assembly. Read [geometry robustness](references/geometry-robustness.md) when grouped curves, touching solids, fillets, or preview imports need special treatment.
+
+Use the [assembly modeling skill](../ntop-assembly-modeling/SKILL.md) when packaging reconstructed families as reusable custom blocks. Its [generic pilot](../ntop-assembly-modeling/references/generic-pilot.md) carries recorded build 42594 CLI evidence for dimensioned inputs and implicit outputs.
 
 ## Define the geometry contract
 
@@ -45,9 +47,15 @@ Memoize exactly identical subtrees before compilation. A translated copy should 
 
 Prove complete expanded output equality after sharing or compaction. Compare functions, overloads, ordered inputs, properties, literal types, and exact values. Names, block counts, and rounded numeric comparisons are insufficient.
 
+Use the actual saved literal encoding for byte-sensitive comparisons. An importer can normalize numeric encoding, such as `0` to `0.0`; distinguish that from a changed value or type.
+
 Use the repository harness for live API authoring or complete recipe replay. Label those transports separately from CLI conversion and recorded native snapshots. If a large import times out, inspect completion evidence before retrying. Native container packing is a conditional fallback that requires measured records and full expression verification; this skill does not supply an unmeasured packer.
 
 ## Verify against the source
+
+For a reusable part, expose meaningful dimensioned inputs and one implicit output before assembly integration. Preserve exact input order, defaults, valid ranges, and the output coordinate frame. Keep display meshes outside that output.
+
+Verify native geometry at nominal and changed inputs. Read the [fixed-feature resizing contract](../ntop-assembly-modeling/references/fixed-feature-resizing.md) when holes or walls must remain fixed. Test applied minima and below-minimum requests. Rebuild protected regions after moving or adding features; earlier map evidence does not validate the new geometry.
 
 Validate one small complete part before extending the workflow. Use exact CAD intersection when reliable. An empty Common result that contradicts valid coincident solids is an unresolved Boolean failure, not a usable overlap result.
 

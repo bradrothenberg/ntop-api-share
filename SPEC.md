@@ -53,3 +53,9 @@ Publication follow-up: push the complete audited branch, including the API updat
 Audit all shared API documentation, bundled skills, demo guidance, and helper examples against the supplied September 10 package. Make build 42926 the current reference. Retain build 42594 findings as labeled historical evidence. Resolve contradictions between supplied prose and recorded docstrings without claiming new native verification.
 
 Plan: inventory source identities and all guidance; compare the complete method surface and modeling workflows; update current reference, setup, skills, and evidence labels; validate links, examples, package checks, and the public audit; publish the focused changes to the existing pull request. Preserve unrelated marine work in progress and keep the supplied package read-only.
+
+## KestrelSAT modeling skills follow-up
+
+Import the requested reusable assembly skill and compare the KestrelSAT modular and CSG custom-assembly skills. Consolidate their portable lessons into the bundled assembly and CSG skills. Include the generic two-instance recipe pilot, recorded build 42594 evidence, input contracts, and fixed-feature resizing guidance. Keep build 42926 API guidance current and distinguish offline checks from native execution.
+
+Plan: compare the source skills and references; adapt local links and remove source-workspace dependencies; run the offline pilot and package checks; audit a clean staged snapshot; publish a focused follow-up pull request against merged main. Preserve unrelated marine changes. Do not copy the complete satellite assembly or operate an existing nTop session.

@@ -36,3 +36,8 @@ For two-rail geometry, read docs/PROPELLER_LEARNINGS.md. Preserve raw meshes and
 Use [.agents/skills/ntop-csg-modeling/SKILL.md](.agents/skills/ntop-csg-modeling/SKILL.md) for measured solid reconstruction.
 The KestrelSAT example includes one corner part and its extracted original STEP solid. Keep the complete assembly out of this demo.
 Keep recorded native evidence distinct from new host checks and recipe replay.
+
+## Native assembly modeling
+
+Use [.agents/skills/ntop-assembly-modeling/SKILL.md](.agents/skills/ntop-assembly-modeling/SKILL.md) for reusable implicit-output part notebooks, custom-block contracts, placements, and native assembly verification.
+The skill includes a generic source-only two-instance pilot. It does not add the full KestrelSAT assembly to this repository. Prefer direct native body visibility, family colors, and collapsed sections unless the user chooses another view.
