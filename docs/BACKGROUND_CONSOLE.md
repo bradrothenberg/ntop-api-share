@@ -1,7 +1,12 @@
 # Background Notebook API commands
 
-The prototype binds `notebook` inside nTop's Python Console. Build 42594 used the window-message bridge below.
-Build 42926 also documents a loopback TCP console, described later on this page. nTop Automate does not expose this Notebook API.
+The prototype binds `notebook` inside nTop's Python Console. For build 42926, use the [TCP route below](#build-42926-tcp-transport).
+The [current method reference](API_REFERENCE.md) describes the commands carried by either transport.
+TCP reaches the GUI process; nTop Automate does not expose this Notebook API.
+
+## Legacy window-message bridge
+
+Build 42594 used this route. It remains available when an installed build has no TCP listener.
 
 The bundled scripts/ntop_console_post.ps1 stages a UTF-8 command and posts WM_CHAR and Return to one
 verified nTop Python Console. It does not activate the window or send keys to the foreground app.
@@ -20,7 +25,7 @@ Check it before sending another command. An early py> prompt or a pre-existing e
 Do not overwrite foreign input. If discovery cannot find the verified console, inspect the setup and permissions.
 Keep any manual console-opening step separate from routine background dispatch.
 
-## Optional build 42926 TCP transport
+## Build 42926 TCP transport
 
 The supplied package documents a listener on 127.0.0.1:2323 from nTop process startup.
 No console window is required according to that package. A port response does not identify the open notebook.

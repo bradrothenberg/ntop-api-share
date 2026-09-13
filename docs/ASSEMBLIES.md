@@ -1,5 +1,7 @@
 # Inline-six and jet assembly lessons
 
+These lessons retain their recorded demo revisions. Use [the current build 42926 reference](API_REFERENCE.md) for API calls and units.
+
 Sources: I6 notes,
 Astra log, Jet log,
 and joint builder.

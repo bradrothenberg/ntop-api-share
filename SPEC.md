@@ -47,3 +47,9 @@ Add the native CSG modeling skill and a self-contained KestrelSAT corner demo. I
 The part uses primitive stock, plane cuts, cylindrical tools, and three genuine hexagonal recess profiles. Report recorded build 42594 native mesh overlap and bidirectional surface samples separately from new offline extraction and package checks. This request adds local repository files; it does not publish a remote update.
 
 Publication follow-up: push the complete audited branch, including the API update, propeller studies, and KestrelSAT corner example, to the existing public repository. Open a pull request against main and preserve the existing public history.
+
+## Build 42926 documentation audit
+
+Audit all shared API documentation, bundled skills, demo guidance, and helper examples against the supplied September 10 package. Make build 42926 the current reference. Retain build 42594 findings as labeled historical evidence. Resolve contradictions between supplied prose and recorded docstrings without claiming new native verification.
+
+Plan: inventory source identities and all guidance; compare the complete method surface and modeling workflows; update current reference, setup, skills, and evidence labels; validate links, examples, package checks, and the public audit; publish the focused changes to the existing pull request. Preserve unrelated marine work in progress and keep the supplied package read-only.

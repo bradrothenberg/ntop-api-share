@@ -1,4 +1,8 @@
-# Public release audit
+# Recorded September report-expansion audit
+
+This page records the earlier nine-demo report expansion. Its counts are historical.
+For the current API documentation audit, read [build 42926 audit results](API_DOC_AUDIT_42926.md).
+The scanner described below remains the public-payload check; rerun it against each staged update.
 
 The September update preserves the existing public history. Source workspaces and the separate downloadable collection remain unchanged. Private histories, raw sessions, and machine-specific configuration are excluded.
 

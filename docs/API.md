@@ -1,10 +1,8 @@
 # Notebook API lessons
 
-Sources: full reference,
-engine notes, and
-API skill.
-These observations describe the tested prototype. Read [build 42926 changes](API_42926.md) for the current update.
-The detailed older reference and failure log retain their original build scope.
+Use [the current build 42926 reference](API_REFERENCE.md) for exact methods and [the change guide](API_42926.md) for migration.
+The [documentation audit](API_DOC_AUDIT_42926.md) identifies source conflicts and evidence limits.
+The [older reference](API_REFERENCE_42594.md) and failure log retain their build 42594 scope.
 
 ## Author small, then author in bulk
 
@@ -24,13 +22,18 @@ Export each subsystem with its complete dependency closure. Do not split a graph
 Wrap reused outputs in named variables before fan-out. The prototype can silently drop plain-block connections.
 A successful call does not establish wiring.
 
-add_variable wraps the block. Its wrapper exposes Input. Set literals before wrapping.
+add_variable wraps the block. Use rename_variable for an existing typed variable.
+Getters and setters traverse wrappers; input listings, connections, and clearing have their own target rules.
+Finish raw inputs before wrapping where practical. Inspect the actual target before repairing a connection.
+Build 42926 documents clear_block_input for reference removal and nested-block extraction.
 Property chains generally need a variable per hop: body, bounding box, point, coordinate.
 Use an explicit computation when readback ignores a direct property reference inside a variable.
 The I6 measured this with the negative property. Multiplying by -1 avoids the ambiguity.
 
-Seed a typed list container for fresh list inputs, then append.
-Some Boolean body lists accept direct appends. Use the observed signature.
+Use native list processing for repeated geometry when the operation and types support it.
+Seed a typed list only when the target has no list; some Bodies and Curves inputs accept direct appends.
+Watch for reducing-overload conflicts, including add<real,real>. Verify count and geometry, not only block count.
+Computed integer counts can use the supplied skill's round, floor, or ceiling property route after identifier checks.
 
 ## Units
 
@@ -43,17 +46,18 @@ Some Boolean body lists accept direct appends. Use the observed signature.
 | Measurement meshes | Explicit STL export in millimeters |
 
 Display units can change. Read their declaration or perform a calibration check.
-Dimensionally wrong connections can evaluate without a useful error.
+Dimensionally wrong connections can succeed at wiring and fail only during evaluation. Check units and block_state.
 Negate a length by multiplication, not subtraction from a dimensionless zero.
 Arc length divided by radius is already in radians. Jet's degree-accepting angle helper needs conversion.
 
 ## Performance and presentation
 
-Live mutation becomes slow in a large graph. Use the recorder and subsystem closures.
-A setter can return before evaluation finishes. The next read can block.
-It can report "was not carried out" after applying a value. Read before retrying.
+The older builds recorded slow large-graph mutation and delayed reads. Re-measure performance on the selected build.
+Use compact native list processing or complete recipe closures where each fits the graph.
+An earlier setter reported "was not carried out" after applying a value. Inspect state before retrying an uncertain mutation.
 
-Sections, visibility, colors, and cameras were applied through saved-file metadata.
+Use add_section and move_block for supported live section creation and block ordering on build 42926.
+Visibility, colors, camera, and collapse handling remain separate saved-file or rendering workflows.
 Prove a byte-exact container round trip before editing metadata.
 Compare function graphs and unit-carrying literal tables after organizing.
 

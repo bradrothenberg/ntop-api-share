@@ -9,6 +9,9 @@ Build continuous native implicit geometry from measured source features. A CAD i
 
 Use the bundled [Notebook API skill](../ntop-notebook-api/SKILL.md) for authoring transport, exact block identifiers, units, and native verification. Read [build 42926 guidance](../../../docs/API_42926.md) before applying older findings. Use the [engineering HTML skill](../engineering-html/SKILL.md) for reports.
 
+New API guidance targets build 42926. The corner's build 42594 measurements remain historical evidence.
+Use [the current method reference](../../../docs/API_REFERENCE.md) for supported input repair, native list processing, and top-level block movement.
+
 The [corner-part example](references/kestrelsat-corner.md) links a single native model, its STEP reference, editable recipes, and recorded comparison. It does not include the satellite assembly. Read [geometry robustness](references/geometry-robustness.md) when grouped curves, touching solids, fillets, or preview imports need special treatment.
 
 ## Define the geometry contract
@@ -34,6 +37,9 @@ Keep transforms explicit. Avoid applying a second centering transform to geometr
 Recipes use explicit SI values. Live setter and getter units depend on the installed build and notebook display settings. Read dimensioned values and units back after changes.
 
 Finish raw inputs before wrapping computed blocks. Keep shared expressions and property owners in named variables, following the API skill's measured connection rules.
+Use native list processing for repeated features when it preserves the editable design contract. Validate count and actual feature placement.
+For local rewiring, try the current build's documented clear operation on the actual target before replacing the graph.
+Inspect default-valued and wrapped targets after clearing; they have distinct documented behavior and recorded failures.
 
 Memoize exactly identical subtrees before compilation. A translated copy should reference its first compiled body. Nest single-use construction variables while retaining the output, useful profiles, shared values, and property owners.
 

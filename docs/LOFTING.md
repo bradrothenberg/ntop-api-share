@@ -1,5 +1,7 @@
 # Fury: native lofting lessons
 
+These geometry lessons retain their recorded demo revisions. Use [the current build 42926 reference](API_REFERENCE.md) for API calls and units.
+
 Sources: builder,
 inlet,
 root blends,

@@ -22,8 +22,9 @@ Each demo contains a local agent, scripts, native models, and an HTML report. No
 ## Get started
 
 Requirements: Windows, Git, uv, and a licensed nTop custom build with the Notebook API.
-The original demos used **nTop 6.0.0-rc build 42594**. The shared guidance also covers **6.1.0-rc build 42926**.
-Read the [September API update](docs/API_42926.md) before selecting a build. Obtain licensed builds from their maintainer.
+The current API documentation targets **nTop 6.1.0-rc build 42926**, from the September 10 package.
+The original demos retain their recorded **6.0.0-rc build 42594** provenance.
+Start with the [current method reference](docs/API_REFERENCE.md) and [September changes](docs/API_42926.md). Obtain licensed builds from their maintainer.
 The application and license are not included. Offline builders and tests run without nTop.
 
 ```powershell
@@ -38,6 +39,7 @@ Launch nTop from that PowerShell session. In a new empty notebook, open **View >
 
 ```python
 import ntop_api
+ntop_api.check_api(notebook, require_42926=True)
 ntop_api.hello(notebook)
 ```
 
@@ -68,7 +70,8 @@ ntop-api-share/
 
 - [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)
 - [Build 42926 changes](docs/API_42926.md) and [propeller workflow lessons](docs/PROPELLER_LEARNINGS.md)
-- [API lessons](docs/API.md), [method reference](docs/API_REFERENCE.md), and [measured API failures](docs/API_FINDINGS.md)
+- [API lessons](docs/API.md), [current method reference](docs/API_REFERENCE.md), and [documentation audit](docs/API_DOC_AUDIT_42926.md)
+- [Archived build 42594 reference](docs/API_REFERENCE_42594.md) and [historical API failures](docs/API_FINDINGS.md)
 - [Lofting](docs/LOFTING.md), [assemblies](docs/ASSEMBLIES.md), and [later jet lessons](docs/JET_EVOLUTION.md)
 - [Verification methods](docs/VERIFICATION.md) and [background console](docs/BACKGROUND_CONSOLE.md)
 - [Public audit](docs/PUBLIC_AUDIT.md), [verification receipt](docs/RELEASE_VERIFICATION.md), and [asset notices](THIRD_PARTY_NOTICES.md)

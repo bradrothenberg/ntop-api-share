@@ -2,6 +2,9 @@
 
 A successful API call is not a verified graph.
 Separate source topology, native readback, dimensions, meshes, and visual checks.
+Use [build 42926's current method contract](API_REFERENCE.md) for new authoring.
+Record requested units, readback units, block state, and command completion separately.
+An incomplete block state can conceal a dimension error until the graph evaluates.
 
 1. Inspect recipe connections, literals, units, and named dependencies.
 2. Compare a native measurement with an independent equation or known input.
@@ -10,10 +13,11 @@ Separate source topology, native readback, dimensions, meshes, and visual checks
 5. Measure actual mesh bounds, connected regions, open edges, and bore openings.
 6. Inspect native views and source-linked figures.
 
-The measured meshing route uses Mesh from Implicit by AT with Remesh false,
-then Sharpen Mesh against the same implicit source.
-Its identifier is mesh_by_adaptive_tets<implicit,real_field,bool>[5.42.0].
-The examples use one Sharpen iteration and enum 0.
+The older I6/jet route used Mesh from Implicit by AT with Remesh false, followed by Sharpen against the same implicit source.
+The corner example records Remesh true and one Sharpen iteration. Propeller cases have their own settings and cleanup evidence.
+These are case-specific recorded choices, not one current-build default.
+The recorded AT identifier is mesh_by_adaptive_tets<implicit,real_field,bool>[5.42.0]; query the installed build before reuse.
+On build 42926, a dimensional real connection can drive its field-valued tolerance. The direct field setter remains unsupported.
 
 Jet's coarse fuel-pipe export fragmented a thin wall into many closed regions.
 Refinement restored one route with open bores. Watertightness alone missed the failure.

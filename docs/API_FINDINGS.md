@@ -1,6 +1,21 @@
 # Notebook API findings
 
 **Historical build 42594 findings.** Read [the build 42926 update](API_42926.md) for changed type, unit, clearing, and transport behavior.
+
+Use [the current method reference](API_REFERENCE.md) for new work. The sections below retain their original experimental scope.
+
+| Historical issue | Build 42926 status |
+|---|---|
+| Three writable types | Six types are supported: real, vector, point, integer, bool, and text |
+| Unspecified setter units | Explicit units and display-unit getters are available |
+| Wrapped inputs inaccessible | Getters/setters traverse wrappers; other methods have distinct target rules |
+| Existing variables may be renamed by wrapping | Use `rename_variable`; `add_variable` can create a second wrapper |
+| Rebuild after a bad connection | `clear_block_input` documents repair; retain the separate failed mesh-wrapper case |
+| No external console channel | The supplied package documents loopback TCP from process startup |
+| No block movement | `move_block` reorders top-level blocks and changes their section |
+| No notebook input/output methods | Dedicated methods remain absent; recipe input merging is documented, and full Automate authoring needs separate verification |
+
+These status updates reconcile source documentation and recorded evidence. They are not a new native test run.
 These earlier failure records are retained as evidence, not restated as current limitations.
 
 Eleven behaviors found while building the example export with the

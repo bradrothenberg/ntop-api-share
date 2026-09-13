@@ -1,6 +1,7 @@
 # Findings and learning log
 
 This edited history refers to source-workspace tools. Use [README.md](README.md) for the runnable public commands.
+Use [the build 42926 reference](../../docs/API_REFERENCE.md) for new API work. The older skill, display units, and meshing settings below describe recorded cases.
 
 ## 2026-09-07: project setup
 - The reference directory contains three .ntop notebooks, not analysis or test datasets.

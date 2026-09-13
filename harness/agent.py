@@ -143,7 +143,9 @@ def blocks(notebook, mask=""):
     """Write the block identifiers matching `mask` to `_agent/blocks.json`.
 
     Block identifiers are only known at runtime; they are not in the binary.
-    Run this once with no mask to give the agent the full catalog.
+    Use a narrow mask for routine discovery. An empty mask writes the entire
+    catalog to disk; it is an explicit full-snapshot operation, not the
+    default discovery workflow. block_catalog.lookup provides bounded lookup.
     """
     found = notebook.list_available_blocks(mask)
     return _write("blocks.json", {"mask": mask, "count": len(found), "ids": found})

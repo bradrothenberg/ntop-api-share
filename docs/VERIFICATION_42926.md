@@ -1,6 +1,10 @@
-# Build 42926 and shared propeller verification
+# Recorded build 42926 and shared propeller verification
 
 Date: 13 September 2026.
+
+This receipt records the initial API and propeller package checks below.
+The later [documentation audit](API_DOC_AUDIT_42926.md) covers the current 31-method reference and all bundled skills.
+Its offline checks do not replace or relabel the native evidence recorded here.
 
 - All ten demo smoke commands passed in the fresh staged copy.
 - The complete test suite passed: 102 tests.

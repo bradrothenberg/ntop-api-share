@@ -26,7 +26,8 @@ This is the public Notebook API demo handoff. Read README.md and SPEC.md first.
 
 ## Build 42926 update
 
-Read docs/API_42926.md before applying older API findings. Preserve evidence labels: supplied documentation, recorded native behavior, offline tests, and new native execution.
+Use docs/API_REFERENCE.md as the current build 42926 method contract and docs/API_42926.md for migration guidance. Read docs/API_DOC_AUDIT_42926.md for source conflicts. The archived docs/API_REFERENCE_42594.md and API_FINDINGS.md retain historical findings.
+Preserve evidence labels: supplied documentation, recorded native behavior, offline tests, and new native execution.
 TCP dispatch requires verified process identity and a unique receipt directory. A timeout is an unknown outcome until its completion record is checked.
 For two-rail geometry, read docs/PROPELLER_LEARNINGS.md. Preserve raw meshes and measured cleanup evidence.
 

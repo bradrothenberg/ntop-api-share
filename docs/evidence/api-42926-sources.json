@@ -37,6 +37,13 @@
       "source": "recorded propeller evidence",
       "file": "Propeller8in/evidence/unit_type_probe.json",
       "sha256": "f3ea9e51891ef9cbc433c7e5b01fb3de9b00872638f01da90f6330cb08c55309"
+    },
+    {
+      "source": "supplied demo package",
+      "file": ".claude/skills/SKILL.md",
+      "sha256": "b5813abba504f80045f35574a24f683d48592f14a8e07a2ad557c107f00ddde6",
+      "identical_to": ".claude/skills/ntop-modeling/SKILL.md"
     }
-  ]
+  ],
+  "documentation_audit": "api-42926-doc-audit.json"
 }
