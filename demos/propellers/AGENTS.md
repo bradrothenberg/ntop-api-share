@@ -11,3 +11,5 @@ Keep native Closed settings for closed loops. Do not reintroduce radial tip clip
 The three half-twist airfoil ribbons use a modified NACA-derived symmetric profile; do not label it an unmodified NACA section.
 Retain raw mesh exports and validate any fragment cleanup. Mesh quality is separate from aerodynamic qualification.
 Do not add reference photos, cached large blade notebooks, meshes, solver logs, cloud credentials, or application binaries to Git.
+
+Preserve the marine screw's continuous return and buried root ends. Keep the aft cap separate. Its screws retain the cover only. The shaft-specific splined cartridge and axial retainer require a selected drive before compatibility can be claimed.

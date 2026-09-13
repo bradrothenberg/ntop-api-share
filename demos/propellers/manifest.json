@@ -654,6 +654,36 @@
       "design": "evidence/airfoil_10_folded_loop_design.json",
       "description": "Three folded petals each exchange section edges through a 180-degree half turn near the outer bend. The native view retains visible edge ripples; this is a topology study. The separate marine screw uses continuous spline profiles and uninterrupted loops.",
       "half_twist_degrees": 180
+    },
+    {
+      "id": "marine_prop",
+      "title": "Fuller marine loop screw and aft cap",
+      "group": "marine",
+      "recipe": "inputs/marine_prop.json",
+      "recipe_sha256": "056f54f149edeb38fee07cbd795e85452d5ffa070c82d0415a14654b8130d723",
+      "source_notebook_sha256": "d3c3f61a2a358a64146283e93ef5f01be54382d6b0c624d40e1282fb793467da",
+      "source_notebook_bytes": 57833064,
+      "variables": 147,
+      "source_file": "marine-prop/marine-prop.ntop",
+      "evidence_scope": "Recorded native source; saved graph extracted offline",
+      "recorded_geometry": {
+        "triangles": 504484,
+        "vertices": 252108,
+        "watertight": true,
+        "components": 1,
+        "winding_consistent": true,
+        "swept_diameter_mm": 3044.671362644787,
+        "volume_mm3": 1119818004.242376,
+        "native_sweep_count": 1,
+        "stl_sha256": "00d4bba9eadef7399a2cee308d5bbf449237f73339bce3c4b77bcab01f8eab87"
+      },
+      "profile": "Smooth NACA 66-derived CST section; 14% thickness, 2% camber",
+      "natural_tips": true,
+      "image": "reports/assets/marine_prop_iso.png",
+      "image_sha256": "7acb95eccbeee692d2cdde3e736eedbc6bc2960baa6482611992c5c767ed7714",
+      "measurements": "evidence/marine_prop_validation.json",
+      "design": "evidence/marine_prop_marine-prop_design.json",
+      "description": "Three continuous two-rail return loops, broad roots, and a larger hollow barrel. Eight M24 screws retain a separate service cap. The internally splined cartridge and axial propeller retention still require a selected drive shaft. No marine performance or strength qualification exists."
     }
   ]
 }

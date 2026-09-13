@@ -1,0 +1,20 @@
+{
+  "aft_cap": {
+    "triangles": 293144,
+    "components": 1,
+    "watertight": true,
+    "volume_mm3": 21974096.31810906
+  },
+  "cap_screw_reference": {
+    "triangles": 16152,
+    "components": 1,
+    "watertight": true,
+    "volume_mm3": 52427.78046597494
+  },
+  "cap_washer_reference": {
+    "triangles": 12950,
+    "components": 1,
+    "watertight": true,
+    "volume_mm3": 7160.41539998144
+  }
+}

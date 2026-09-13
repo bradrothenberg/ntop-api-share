@@ -82,3 +82,5 @@ A single open two-rail sweep can run from one axial hub attachment to the other 
 Use a closed cubic profile spline and continuous cubic guides. A rotation-minimizing frame avoids frame-axis switches.
 Keep the outer bend inside one sweep, so no overlapping sweep endpoints meet at the tip.
 A native edge-swap study may still show display ripples even when mesh topology passes. Report these checks separately.
+
+The marine-prop revision uses smooth spline profiles and an uninterrupted outer return. It increases barrel diameter and root chord while burying the entire sweep end sections in the hub. Keep its service-cap retention separate from shaft torque transfer and axial propeller retention. A cover with screws does not establish a compatible splined drive.

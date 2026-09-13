@@ -1,7 +1,7 @@
 # Propeller and two-rail blade studies
 
 An eight-inch propeller, separate retained spinner, ten original blade forms, and ten airfoil candidates.
-The folder contains 22 complete construction recipes, two native assembly notebooks, recorded measurements, and native nTop screenshots.
+The folder contains 23 complete construction recipes, two native assembly notebooks, recorded measurements, and native nTop screenshots.
 The large cached blade notebooks and mesh exports can be regenerated locally from the recipes.
 
 [Open the shared report](reports/index.html) | [Case manifest](manifest.json) | [Lessons](LEARNINGS.md) | [CFD plan](CFD_PLAN.md)
@@ -46,3 +46,5 @@ The source models were evaluated in nTop build 42926. The public packaging check
 The original section studies are shape experiments. The NACA candidates are not accepted aerodynamic optima.
 The CFD pilot established solver startup and rotating-wall velocity. It did not establish converged performance, wake animations, or noise.
 The nominal retention geometry is not a released manufacturing drawing or a safe-speed qualification.
+
+The `marine_prop` case adds the fuller ship-scale return-loop screw and separate aft service cap. Read [MARINE.md](MARINE.md) for the shaft-interface limits.

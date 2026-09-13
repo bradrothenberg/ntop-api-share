@@ -1,0 +1,15 @@
+{
+  "scale": 1.0245763768608354,
+  "endpoint_sections": [
+    {
+      "maximum_radius_mm": 372.98798447551627,
+      "maximum_abs_z_mm": 639.37201426745
+    },
+    {
+      "maximum_radius_mm": 395.4932299739189,
+      "maximum_abs_z_mm": 461.48750220082997
+    }
+  ],
+  "barrel_radius_mm": 457.2,
+  "barrel_half_length_mm": 731.52
+}
