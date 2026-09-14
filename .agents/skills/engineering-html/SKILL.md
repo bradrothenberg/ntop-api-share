@@ -7,11 +7,43 @@ description: Build self-contained HTML engineering reports for these nTop demons
 
 Use templates/report.html and templates/report.css as the local starting point.
 The included demo reports show native geometry, assembly inspections, and before/after comparisons.
+For PDF output, use [engineering-report](../engineering-report/SKILL.md).
 
-Lead with the model and its purpose. Use a restrained paper-and-ink palette, one orange accent,
-system sans-serif text, monospace metadata, numbered evidence sections, and clear table rules.
+Lead with the model and its purpose. Follow the nTop document design rules below.
 Keep the page readable at desktop and phone widths. Make controls keyboard-operable and label them.
 Support light and dark themes without remote font or script dependencies.
+
+## nTop report design
+
+Use the tokens from the local `ntop-design-v1` and `ntop-docs-v1` skills.
+The values below keep this shared skill usable without those local skills.
+The user's report preference makes nTop blue the primary highlight color, including in light mode.
+This overrides the orange document accent in the source design guidance.
+
+- Highlight text, links, section numbers, key values, and callout labels use nTop blue `#16489D`.
+  On dark surfaces, use the design skill's lighter blue `#248AFF`.
+  Use `--accent` and the `.highlight` class (or `mark`) for highlighted text.
+  Keep ordinary bold text in the body text color. Use blue for selected emphasis.
+- Use a cool grey page `#F7F8FA`, white surfaces `#FFFFFF`, and panel grey `#F0F2F5`.
+  Use ink `#262626`, headline ink `#0A0A0A`, and muted text `#6D6C6A`.
+  Use hairlines `#E4E7EC` and stronger rules `#CBD0D8`.
+  Blue callouts use the pale tint `#EDF2FB` and a 3px blue left rule.
+- Use `"Aeonik", "Inter", system-ui, sans-serif` for headings and body.
+  Use `"Aeonik Fono", "IBM Plex Mono", ui-monospace, monospace` for labels, section numbers, and code.
+  Use locally available fonts and system fallbacks. Do not bundle licensed fonts or require a font download.
+- Use a large, tight, sentence-case title, a short purpose statement, and a mono metadata row.
+  Separate numbered evidence sections with hairline rules. Keep generous space between sections.
+- Use mono uppercase table headers on the grey panel, horizontal row rules, and plain white rows.
+  Wrap wide tables in `.table-wrap` or `.tw`. Keep the page within the viewport.
+- Use one blue highlight per visual group. For categorical charts, use blue for the featured series
+  and neutral colors for context. Keep scientific color scales and explicit pass/fail colors meaningful.
+- Keep the report anatomy suited to engineering evidence: purpose, summary, measured results,
+  figures, limitations, and next steps. Use the deck's blue emphasis with the document layout.
+
+The template supports the system theme and explicit `data-theme="light"` or `data-theme="dark"`
+on the root element. Verify highlight contrast and table readability in both themes.
+
+## Engineering evidence
 
 Use actual model renders for geometry evidence. Label host-rendered, native-rendered, and recorded figures correctly.
 Keep captions adjacent to figures. Separate chosen dimensions, calculations, measured readbacks, and open findings.
