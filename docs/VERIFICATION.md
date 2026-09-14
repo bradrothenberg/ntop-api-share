@@ -6,6 +6,8 @@ Use [build 42926's current method contract](API_REFERENCE.md) for new authoring.
 Record requested units, readback units, block state, and command completion separately.
 An incomplete block state can conceal a dimension error until the graph evaluates.
 
+The [recent modeling review](RECENT_MODELING_LEARNINGS.md) adds examples of passing native field samples followed by failed mesh exports, reversed edges in smooth sweeps, and attachment gaps after shape changes. Check each intended invariant independently. A file can exist but still contain an export placeholder.
+
 1. Inspect recipe connections, literals, units, and named dependencies.
 2. Compare a native measurement with an independent equation or known input.
 3. Perturb one control. Check the dependent output, restore, and check again.

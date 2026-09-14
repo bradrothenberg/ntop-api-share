@@ -71,6 +71,7 @@ ntop-api-share/
 - [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)
 - [Native assembly modeling skill](.agents/skills/ntop-assembly-modeling/SKILL.md): reusable custom parts, explicit inputs, shared placements, and a generic contract pilot
 - [KestrelSAT skill audit](docs/KESTRELSAT_SKILL_AUDIT.md): source coverage, resizing lessons, and recorded pilot scope
+- [Recent modeling lessons](docs/RECENT_MODELING_LEARNINGS.md): bulkheads, marine propellers, skis, KestrelSAT, and DDG(X), with evidence and unfinished experiments separated
 - [Build 42926 changes](docs/API_42926.md) and [propeller workflow lessons](docs/PROPELLER_LEARNINGS.md)
 - [API lessons](docs/API.md), [current method reference](docs/API_REFERENCE.md), and [documentation audit](docs/API_DOC_AUDIT_42926.md)
 - [Archived build 42594 reference](docs/API_REFERENCE_42594.md) and [historical API failures](docs/API_FINDINGS.md)

@@ -1,0 +1,80 @@
+{
+  "scope": "Sanitized excerpts of existing recorded evidence, checked offline during this documentation update. No new native execution.",
+  "source_manifest": "recent-modeling-sources.json",
+  "bulkheads": {
+    "source": "bulkheads/evidence/native_sample_check.json",
+    "evidence": "recorded native field samples",
+    "passed": true,
+    "sample_count": 286,
+    "limit": "Separate full-field mesh exports failed; this field check does not certify a mesh."
+  },
+  "marine": {
+    "edge_source": "marine/marine-prop/evidence/r5_saved_graph_edge_check.json",
+    "evidence": "recorded saved-graph orientation checks and native shoulder measurements",
+    "edge_cases": 7,
+    "stations_per_case": 121,
+    "reversed_stations": 0,
+    "earlier_r3_nominal_reversed_stations": 40,
+    "earlier_r3_stations": 81,
+    "shoulder_source": "marine/marine-prop/evidence/r5_shoulder_validation.json",
+    "shoulder_accepted": true,
+    "native_shoulder_samples": 72,
+    "maximum_mesh_height_above_seat_mm": 0.008491210937449978,
+    "maximum_spigot_mesh_radial_excess_mm": 0.14201981804291108,
+    "limit": "Orientation, native seat geometry, mesh deviations, and hydrodynamic performance are separate checks. The R6 blend-taper candidate remains unverified."
+  },
+  "skis": {
+    "saved_reopen_source": "skis/results/continuous_blends/native_reopen.json",
+    "saved_reopen_checks": 32,
+    "saved_reopen_passed": true,
+    "saved_reopen_source_unchanged": true,
+    "curve_pilot_source": "skis/results/continuous_blends/curve_pilot.json",
+    "curve_pilot_checks": 168,
+    "maximum_native_radius_error_mm": 1.5172611788669133e-05,
+    "closed_pocket_source": "skis/results/continuous_blends/root_curve_pilot.json",
+    "closed_pocket_samples": 126,
+    "maximum_native_contact_radius_error_mm": 0.0003009822530990469,
+    "limit": "Local canal pilots and full-ski continuous-field readback are separate results. No full-ski rolling-ball certificate or new FEA."
+  },
+  "kestrel": {
+    "source": "kestrel/validation/native_color_audit.json",
+    "evidence": "recorded offline presentation and exact-expression audit",
+    "passed": true,
+    "native_body_expressions_compared": 28,
+    "input_contracts_unchanged": true,
+    "active_external_geometry_dependencies": 0,
+    "dormant_hidden_preview_dependencies": 5,
+    "native_geometry_evaluation_performed": false,
+    "limit": "A closed exterior render does not independently reveal every internal body or establish GUI update timing."
+  },
+  "ddgx": {
+    "source": "ddgx/studies/20260913_build_sequence/deck_contact/verification.json",
+    "evidence": "recorded native attachment/support samples",
+    "passed": true,
+    "cases": 10,
+    "checks_per_case": 465,
+    "native_checks": 4650,
+    "categories": {
+      "Bulwark aft": 24,
+      "Bulwark forward": 24,
+      "Foredeck cover": 9,
+      "Deck panel base": 30,
+      "Deck panel lid": 114,
+      "Guardrail foot": 182,
+      "Aviation marking": 8,
+      "Aviation circle": 16,
+      "Roof fitting": 9,
+      "Aft deckhouse": 15,
+      "Forward deckhouse": 15,
+      "Uptake": 9,
+      "Aft upper house": 1,
+      "Bridge supported by deckhouse": 1,
+      "Mast tower": 1,
+      "Main mast": 1,
+      "Aft antenna port": 1,
+      "Aft antenna starboard": 1,
+      "Roof exhaust": 4
+    },
+    "limit": "Sampled native intersections between each attachment and its support. A connected overhang need not meet the weather deck across its whole footprint."
+  }
+}

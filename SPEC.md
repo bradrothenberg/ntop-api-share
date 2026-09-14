@@ -59,3 +59,9 @@ Plan: inventory source identities and all guidance; compare the complete method 
 Import the requested reusable assembly skill and compare the KestrelSAT modular and CSG custom-assembly skills. Consolidate their portable lessons into the bundled assembly and CSG skills. Include the generic two-instance recipe pilot, recorded build 42594 evidence, input contracts, and fixed-feature resizing guidance. Keep build 42926 API guidance current and distinguish offline checks from native execution.
 
 Plan: compare the source skills and references; adapt local links and remove source-workspace dependencies; run the offline pilot and package checks; audit a clean staged snapshot; publish a focused follow-up pull request against merged main. Preserve unrelated marine changes. Do not copy the complete satellite assembly or operate an existing nTop session.
+
+## Recent modeling lessons
+
+Review the September 12-13 bulkhead, marine propeller, ski, KestrelSAT, and DDG(X) work. Extract reusable modeling, API, verification, and presentation lessons into public guidance and the relevant bundled skills. Bind recorded claims to source-file hashes. Label earlier baseline evidence and unfinished experiments separately.
+
+Plan: inspect current source notes and completed receipts; compare existing guidance; consolidate portable lessons; validate links, skill metadata, and the proposed public snapshot; publish the focused documentation update. Source projects remain read-only. Preserve their active model work and pending marine assets. This task adds guidance, not model snapshots or new native execution.

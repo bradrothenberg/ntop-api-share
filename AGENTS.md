@@ -41,3 +41,7 @@ Keep recorded native evidence distinct from new host checks and recipe replay.
 
 Use [.agents/skills/ntop-assembly-modeling/SKILL.md](.agents/skills/ntop-assembly-modeling/SKILL.md) for reusable implicit-output part notebooks, custom-block contracts, placements, and native assembly verification.
 The skill includes a generic source-only two-instance pilot. It does not add the full KestrelSAT assembly to this repository. Prefer direct native body visibility, family colors, and collapsed sections unless the user chooses another view.
+
+## Recent modeling lessons
+
+Read [docs/RECENT_MODELING_LEARNINGS.md](docs/RECENT_MODELING_LEARNINGS.md) for the reviewed bulkhead, marine, ski, KestrelSAT, and DDG(X) findings. Keep source revisions and evidence scopes explicit. Passing field samples, exact graph comparisons, successful exports, and presentation checks establish different facts.
