@@ -44,6 +44,23 @@ Retain process identity and probe receipts locally. Recheck ownership before eac
 
 Evidence scope: direct process launch is the preferred workflow. This procedure does not certify simultaneous TCP routing for multiple nTop windows. Validate routing on the installed build.
 
+## Multiple agents and ports
+
+Prefer one agent, one nTop process, one notebook, and one distinct loopback server listener port for each independently active modeling session, when the installed build supports configuring those ports.
+Record the agent owner, executable, PID, creation time, endpoint, and notebook together. Different client source ports, output folders, or socket connections do not create separate nTop notebook sessions.
+
+The supplied build 42926 README and `tools/send.py` document `127.0.0.1:2323`. A read-only check of the exact supplied `ntop.exe --help` on 14 September 2026 returned the Automate command options and no Python console server-port option.
+No supported console server-port configuration was found in those sources. This is a limit of the inspected documentation and help, not proof that no internal configuration exists. Confirm any server setting with the build maintainer before relying on it.
+The shared client's `--port` argument only changes where it connects; it does not start, rebind, or configure a listener. Do not present distinct client port arguments as verified independent nTop sessions.
+
+When distinct server endpoints cannot be verified, serialize native authoring through one assigned session owner, or use a verified process-specific transport. Other agents can prepare recipes and review artifacts offline.
+Do not allow multiple agents or clients to mutate the same live notebook concurrently, even through separate sockets or ports: the interpreter's `notebook` is shared within that process.
+The helper's pending receipt lock covers this checkout only. It is not a cross-checkout or machine-wide agent coordination service.
+
+The shared TCP helper retains its conservative requirement for exactly one loopback listener at the destination port. It also sends a nonce-tagged, read-only `os.getpid()` probe over the connected socket, requires exactly one matching response, and sends the notebook command only on that same socket after another host ownership check.
+A mismatching or unconfirmed PID closes the connection without sending notebook code. This detects a wrong destination; it does not instruct the operating system to route a connection to an arbitrary PID or make ambiguous listener ownership acceptable.
+This helper change is covered by offline socket tests. It does not certify simultaneous native TCP sessions on different ports.
+
 ## Legacy window-message bridge
 
 Build 42594 used this route. It remains available when an installed build has no TCP listener.
@@ -80,7 +97,7 @@ $ntopSelectedProcess = Get-Process -Id $ntopProcessId
 uv run --locked python scripts/ntop_tcp.py --session .local/session.json --file .local/command.py --run-dir .local/tcp-run-001 --timeout 30
 ```
 
-Use a fresh run directory each time. The helper verifies the listener's PID, executable, and creation time before sending.
+Use a fresh run directory each time. The helper verifies the listener's PID, executable, and creation time, then checks the interpreter PID on the actual connected socket before sending notebook code.
 It retains `command.py`, `runner.py`, `transcript.txt`, `dispatch.json`, and an in-nTop `completion.json`.
 A completed transport receipt is separate from block build state and geometric verification.
 

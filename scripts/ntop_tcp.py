@@ -4,9 +4,11 @@ import argparse
 import base64
 import json
 import os
+import re
 import socket
 import subprocess
 import time
+import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -56,6 +58,18 @@ def read_prompt(connection, timeout):
             raise RuntimeError('Unexpectedly large console banner')
     return bytes(output)
 
+def verify_interpreter(connection, expected_pid, timeout, transcript):
+    """Identify this socket's interpreter before sending any notebook command."""
+    marker = f'NTOP_SESSION_{uuid.uuid4().hex}_PID_'
+    probe = f"print({marker!r} + str(__import__('os').getpid()))\n"
+    connection.sendall(probe.encode('ascii'))
+    response = read_prompt(connection, timeout)
+    transcript.extend(response)
+    matches = re.findall(rb'(?m)^' + marker.encode('ascii') + rb'([0-9]+)\r?$', response)
+    if len(matches) != 1 or int(matches[0]) != int(expected_pid):
+        raise RuntimeError('TCP interpreter PID differs from the selected process or is unconfirmed; no notebook command was sent')
+    return int(matches[0])
+
 def make_runner(command, completion):
     # The runner writes a local receipt even if the TCP client disconnects.
     return f"""import json as _receipt_json, traceback as _receipt_tb
@@ -103,6 +117,7 @@ def dispatch(command, session, run_dir, *, port=2323, timeout=30.0, owner_check=
     try:
         with socket.create_connection(('127.0.0.1',port),timeout=timeout) as connection:
             transcript.extend(read_prompt(connection,timeout))
+            record['interpreter_pid'] = verify_interpreter(connection, session['pid'], timeout, transcript)
             owner_check(session,port)
             # A send error can still follow partial delivery. Do not retry it.
             attempted = True
