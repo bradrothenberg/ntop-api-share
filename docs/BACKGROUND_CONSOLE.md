@@ -4,6 +4,46 @@ The prototype binds `notebook` inside nTop's Python Console. For build 42926, us
 The [current method reference](API_REFERENCE.md) describes the commands carried by either transport.
 TCP reaches the GUI process; nTop Automate does not expose this Notebook API.
 
+## Launch a separate task-owned process
+
+For new modeling work, launch the exact intended licensed custom build directly from the host shell and use the Notebook API in its task-owned scratch notebook.
+Computer Use is not required for process launch or API authoring. Preserve the user's existing windows and notebooks.
+Do not launch through a `.ntop` file association, an unverified shortcut, or whichever `ntop.exe` happens to be on PATH: those can select a different build or existing session.
+
+After `scripts/bootstrap.ps1` has set `NTOP_EXE` and `NTOP_PYSCRIPTS` in the current PowerShell session:
+
+```powershell
+$ntopExistingProcesses = @(Get-Process -Name ntop -ErrorAction SilentlyContinue | Select-Object Id, Path, StartTime, MainWindowTitle)
+$ntopExecutable = (Resolve-Path -LiteralPath $env:NTOP_EXE).Path
+$ntopTaskProcess = Start-Process -FilePath $ntopExecutable -WorkingDirectory (Split-Path -Parent $ntopExecutable) -PassThru
+$ntopProcessId = $ntopTaskProcess.Id
+Get-Process -Id $ntopProcessId | Select-Object Id, Path, StartTime, MainWindowTitle
+```
+
+Verify that the returned process remains running, has the selected executable path and a new creation time, and is separate from the recorded existing processes.
+If the shell runs under an isolated account or desktop, use the host's supported desktop execution route for this direct launch, with any required host approval. A process on an isolated desktop does not establish that the user's nTop window opened.
+If startup hands off to another process or exits, do not assume the original PID identifies a new session. Inspect the actual process before proceeding.
+Use a blank task-owned notebook. Never use `new_notebook` or `open_notebook` on a user's existing session to make room; both discard unsaved work without prompts.
+Do not save a recovery copy and take over that session as the default setup workflow.
+
+For TCP, inspect listener ownership before sending even the initial API probe:
+
+```powershell
+Get-NetTCPConnection -State Listen -LocalPort 2323 | Select-Object LocalAddress, LocalPort, OwningProcess
+```
+
+Require exactly one loopback listener owned by the verified task process. A second window, a successful launch, or a responding port does not establish attachment to that process.
+If port 2323 still belongs to an existing session, multiple owners appear, or the new process has no listener, do not send commands to that endpoint and do not terminate the user's process to free the port.
+Use a separately addressable endpoint only when the installed build documents and verifies it, or the verified process-specific legacy bridge when its console is available. Otherwise report the attachment limitation and continue offline recipe work.
+The client's `--port` option selects a destination; it does not configure nTop's listening port. Do not invent a server-port flag.
+
+After host ownership checks pass, create the local identity record described below and make the first dispatch read-only.
+Inspect `os.getpid()`, `notebook.list_blocks()`, `notebook.list_variables()`, and `notebook.current_open_custom_block()` in that interpreter; compare the PID and notebook contents with the intended scratch session.
+An empty variable list alone is insufficient to identify a notebook. Confirm that no user document was restored or redirected into the selected process before authoring or saving to the task's output folder.
+Retain process identity and probe receipts locally. Recheck ownership before each dispatch with the bundled helper.
+
+Evidence scope: direct process launch is the preferred workflow. This procedure does not certify simultaneous TCP routing for multiple nTop windows. Validate routing on the installed build.
+
 ## Legacy window-message bridge
 
 Build 42594 used this route. It remains available when an installed build has no TCP listener.

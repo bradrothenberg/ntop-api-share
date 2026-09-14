@@ -14,6 +14,7 @@ This is the public Notebook API demo handoff. Read README.md and SPEC.md first.
 - Distinguish offline recipe checks, recorded native results, and new native execution.
 - Collapse authored blocks and custom sections after the final save, using a separate output file.
 - Use the shared Notebook API skill for API work. Use the report skill for HTML reports.
+- For native work, launch a separate task-owned nTop process directly with the exact custom-build executable, then use the Notebook API. Follow the shared skill's process and listener checks; Computer Use is not required for this workflow.
 - Do not control a user's existing nTop session while preparing or auditing the repository.
 
 ## Report expansion, 10 September 2026

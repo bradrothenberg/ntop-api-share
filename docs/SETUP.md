@@ -5,7 +5,9 @@ Build 42594 remains the recorded source of older demo results. Opening those fil
 
 Run host Python through uv from the repository root. `uv sync --locked` installs pinned dependencies.
 `scripts/bootstrap.ps1` sets NTOP_PYSCRIPTS to this checkout's harness/ for the current PowerShell session.
-Pass -NTopExe or set NTOP_EXE to the matching licensed custom build. Start nTop from that session.
+Pass -NTopExe or set NTOP_EXE to the exact matching licensed custom-build executable.
+Launch a separate task-owned nTop process directly from that PowerShell session with `Start-Process`, then author through the Notebook API.
+Follow [launch and attachment checks](BACKGROUND_CONSOLE.md#launch-a-separate-task-owned-process) before editing; opening a second window alone does not select its TCP session. Computer Use is not required.
 An already-running nTop instance does not inherit new environment variables; restart a task-owned session or
 add this checkout's harness folder to sys.path manually in its Python Console.
 
