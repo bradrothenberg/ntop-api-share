@@ -8,6 +8,8 @@ Sources: I6 notes,
 Astra log, Jet log,
 and joint builder.
 
+Read the [recent assembly lessons](RECENT_MODELING_LEARNINGS.md) for the DDG(X) attachment/support checks and the KestrelSAT comparison of default and symbolic body expressions. Drive attachments from their actual supports and test contact across parameter states. Keep presentation changes separate from geometry evaluation.
+
 ## One definition per interface
 
 Store dimensions once with units. Derive part positions and mating features from those values.

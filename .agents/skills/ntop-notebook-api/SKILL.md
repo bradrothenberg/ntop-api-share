@@ -31,6 +31,7 @@ Use the root harness/ntop_api.py and scripts/stage.py. No private checkout or pe
 - Check reducing-overload conflicts such as add<list<real>>. Verify item count, dimensions, and geometry after list processing.
 - For computed integer counts, inspect the source's round, floor, or ceiling property. Do not connect an unconverted real to an integer input.
 - Import a whole dependency closure. References do not reliably resolve across separate recipe imports.
+- For large work, independent groups can carry complete local controls and dependencies. Connect shared controls explicitly after each import, inspect connection errors, and save verified checkpoints. This does not imply cross-import reference resolution.
 - Use the recorder in demos/i6/scripts/recipe_backend.py for large builds.
 - Compare graph wiring and exact scalar expectations. A successful call alone is not evidence of a complete graph.
 - Use move_block(block_id, targetBlockId, placeBefore=False) for live ordering and moves into the target's section. Both IDs must be top-level.
@@ -45,6 +46,7 @@ For reusable part inputs and imported custom definitions, use the [assembly mode
 Read docs/LOFTING.md for guide-driven conics, signed coordinates, cavity cuts, and local root blends.
 Read docs/PROPELLER_LEARNINGS.md for two-rail profile mapping, closed loops, half twists, natural tips, and flat clamp faces.
 Read docs/ASSEMBLIES.md for kinematics, nominal hardware, blade angles, and service routes.
+Read [recent modeling lessons](../../../docs/RECENT_MODELING_LEARNINGS.md) for incremental bulkhead imports, marine edge identity, ski field geometry, and assembly contact checks. A small import can reevaluate existing export blocks; isolate the required dependency closure before benchmarking.
 Use analytic spring fields and small verification closures. Rotated-body boxes are conservative bounds.
 Check actual mesh extents after export. A mesh block's box can disagree with the exported triangles.
 The B52 and DDGX lessons distinguish continuity from surface fairness and independent references from fitted inputs.

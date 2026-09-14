@@ -37,6 +37,8 @@ Keep high-level size, spacing, motion, or placement controls in an assembly sect
 
 Record transform order and the rotation origin. Apply the source placement once. A body already expressed in the source world frame must not receive a second centering transform.
 
+Drive each attachment from its intended support geometry. Check contact after parameter changes, including variant states and moving parent guides. A supported overhang need not touch every nearby surface. Read [recent DDG(X) and marine lessons](../../../docs/RECENT_MODELING_LEARNINGS.md) for contact checks, edge identity, and finishing surfaces.
+
 If holes and wall thicknesses must stay fixed, move feature centers or use verified stretch regions. Uniform scaling changes those features. Check boundary positions and local signs at nominal and changed sizes. Record any clamps and the applied values.
 
 Read [fixed-feature resizing](references/fixed-feature-resizing.md) for the retained KestrelSAT map equations, protected-region limits, and required repeat checks after a geometry edit. Earlier map verification does not certify replacement CSG parts.

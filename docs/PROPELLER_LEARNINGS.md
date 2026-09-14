@@ -3,6 +3,8 @@
 These lessons record native work on build 42926. They describe construction and verification, not qualified propeller performance.
 The [shared propeller folder](../demos/propellers/README.md) carries audited recipes, two assembly notebooks, native screenshots, and selected measurements. CFD outputs and supplied photographs remain excluded.
 
+The [recent marine review](RECENT_MODELING_LEARNINGS.md) adds R4/R5 lessons on physical leading-edge identity, signed frame checks, and seating surfaces damaged by blend growth. Shortest-angle interpolation alone did not preserve foil orientation. The later R6 taper candidate remains unverified in the reviewed source. These notes do not update the bundled model revision.
+
 ## Sweep along Two Rails
 
 The verified profile overload is:

@@ -4,6 +4,8 @@ This is an edited record of prior work. Its native results apply to those record
 Local machine paths and omitted artifact links were removed for this public handoff.
 Historical tool and artifact names below describe the source work. Use README.md for the runnable commands and files in this checkout.
 
+The [September 12-13 modeling review](../../docs/RECENT_MODELING_LEARNINGS.md) adds later DDG(X) lessons on support-driven attachments, dependent framing, variant checks, and visualization meshes. The bundled demo below retains its earlier revision and evidence.
+
 # DDG(X) public concept reconstruction
 
 Open `models/DDGX_Concept.ntop` in nTop. Open `reports/index.html` for the

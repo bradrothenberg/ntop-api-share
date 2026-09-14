@@ -1,0 +1,174 @@
+{
+  "scope": "Read-only snapshot of modeling notes and completed evidence; no new native execution.",
+  "requested_period": "September 12-13, 2026; older baselines are labeled separately.",
+  "sources": [
+    {
+      "id": "bulkheads/README.md",
+      "sha256": "737f3f54838bb964102f4a2596a17e4b0efd7834577bb5dbb5513e77b204057d",
+      "bytes": 5549
+    },
+    {
+      "id": "bulkheads/evidence/native_mesh_failure.md",
+      "sha256": "049b4f67cbab9844712c058919480ab66b0da2336a60c1591a7cd1dacd0ab892",
+      "bytes": 1772
+    },
+    {
+      "id": "bulkheads/evidence/pocket_pilot_native.json",
+      "sha256": "5a9d396818dd137cc61f4f37b87a985940144b87aef6a407fc042bbbf06192ea",
+      "bytes": 6139
+    },
+    {
+      "id": "bulkheads/evidence/native_sample_check.json",
+      "sha256": "2c157c8a3b85989fde6b3788d58c75a0c7eb896012dc61fcf75fa3dcfee11bab",
+      "bytes": 207
+    },
+    {
+      "id": "bulkheads/scripts/prepare_independent.py",
+      "sha256": "daa6027b58da785424789d64b5992d799d0b78cfc90d522608f340c74ffcc489",
+      "bytes": 1139
+    },
+    {
+      "id": "bulkheads/scripts/run_independent_all.py",
+      "sha256": "5b600d914fb297b898c2ac7bc422d6d0260a8f1c8ac44cf7536dad50a800ad2a",
+      "bytes": 1107
+    },
+    {
+      "id": "marine/docs/MARINE_OGIVE_LEARNINGS.md",
+      "sha256": "e326421155e16249cf7a81018374732b2ec81290e03992bef39415437d08f9db",
+      "bytes": 5043
+    },
+    {
+      "id": "marine/marine-prop/README.md",
+      "sha256": "6ab3452709516d0028d22a1bd9c9cc639d2ac273be73f02e4b14f178deecea4f",
+      "bytes": 3441
+    },
+    {
+      "id": "marine/marine-prop/candidates/trailing-edge-blend-r6/README.md",
+      "sha256": "57d2cb2f9d2853a8f271ff0b41f25440ff91540caeac18053b930593c5dbbf61",
+      "bytes": 4609
+    },
+    {
+      "id": "skis/CONTINUOUS_FIELDS.md",
+      "sha256": "e7a1709e6a5dec66fac0c6c8cd1bc414ff1ac0681525cc720aa52f92fe3042a9",
+      "bytes": 5630
+    },
+    {
+      "id": "skis/BLENDS.md",
+      "sha256": "2301e6de97866d33f0e955b2d15445d8ff30033fc6a293b4867d15099931c05f",
+      "bytes": 3704
+    },
+    {
+      "id": "skis/ROLLING_BALL.md",
+      "sha256": "4a14293303c58c55902c2c4aed46e7f5574ab7bf3b745c621a861352017bad7d",
+      "bytes": 7689
+    },
+    {
+      "id": "skis/ROLLING_PREVIEW.md",
+      "sha256": "2fde1edb22c328e81c9749fef030fd21b365fd09796e3808daa0b7dd8982103c",
+      "bytes": 2885
+    },
+    {
+      "id": "skis/GEOMETRY_CONTROLS.md",
+      "sha256": "c780810eeddefa58e0b0436f655fcdf53f2950a984ef94f1f4b2f75eccf751b6",
+      "bytes": 3525
+    },
+    {
+      "id": "skis/results/continuous_blends/curve_pilot.json",
+      "sha256": "f3613eefe686357eb8a0b5a36a658a5bc65df54ae8a11d24599fa01f5af25272",
+      "bytes": 7969
+    },
+    {
+      "id": "skis/results/continuous_blends/root_curve_pilot.json",
+      "sha256": "5ba4d1285f197d818a256468f2fa6f0a2c95cc2d38f45ac4f530cf2a3627bff6",
+      "bytes": 12250
+    },
+    {
+      "id": "skis/results/continuous_blends/native_reopen.json",
+      "sha256": "eb53212203da5f5afadc16b1c94ac711dba6616cc6483630a5cc162cedfd10e7",
+      "bytes": 8138
+    },
+    {
+      "id": "kestrel/README.md",
+      "sha256": "6b5ff78b5b7ee22a8e124e36e3966295f4c0e799ae4ce98d7c85e60b7221652d",
+      "bytes": 7531
+    },
+    {
+      "id": "kestrel/validation/native_csg_dependency_audit.md",
+      "sha256": "0aece6762149dbae82b461118b6b38ad29ba9f6a5e5e4980ddf3ddbad51ae996",
+      "bytes": 2929
+    },
+    {
+      "id": "kestrel/validation/native_color_audit.json",
+      "sha256": "4f9656449b878e4c0ce808afb4ac9d53b0fe6aad47560c3411fabab145004c8f",
+      "bytes": 20122
+    },
+    {
+      "id": "kestrel/validation/preview_import_warning.md",
+      "sha256": "6a69c90fe906b1c010306a5678becf425d22ed2fc1416acfcdfcb15327b6d4fb",
+      "bytes": 2150
+    },
+    {
+      "id": "kestrel/validation/native_color_render.json",
+      "sha256": "d91d95e663bd85d8803700684dee1316e5a7d47349d2c355e37d260da3fb068a",
+      "bytes": 2255
+    },
+    {
+      "id": "ddgx/studies/20260913_build_sequence/README.md",
+      "sha256": "474e1bb11e720c69363496711c41c3a3b36427469cc1e2fef1deca930f278c1a",
+      "bytes": 9883
+    },
+    {
+      "id": "ddgx/docs/VISUALIZATION_MESHING.md",
+      "sha256": "c990841b5a467c4506c5363faa7489f9860bf5a34dc136d07b9b3f8fcc342e41",
+      "bytes": 12198
+    },
+    {
+      "id": "ddgx/studies/20260913_build_sequence/deck_contact/verification.json",
+      "sha256": "1972c8a9f3041f8583be3b161b69dd4f6f19c4a7bdaecdba4359e65140f1f2dd",
+      "bytes": 2900
+    },
+    {
+      "id": "ddgx/studies/20260913_build_sequence/shape_options/structure_verification.json",
+      "sha256": "02cd6ee69e8a97063cd33396f162551059eda6f312733a863753970809e7178d",
+      "bytes": 5757
+    },
+    {
+      "id": "ddgx/studies/20260913_build_sequence/verification.json",
+      "sha256": "a3f7c0273f8fc23ce3ad710f6bb626549bb5dfbf0d834c8c216f39454679c8ed",
+      "bytes": 16327
+    },
+    {
+      "id": "marine/marine-prop/evidence/r3_saved_graph_edge_failure.json",
+      "sha256": "0a3376622c73e57831742b08645223f75b6c639dc8e451d57404a33a9eb0d222",
+      "bytes": 1687
+    },
+    {
+      "id": "marine/marine-prop/evidence/r4_saved_graph_edge_check.json",
+      "sha256": "a9eaf755bc21d0e5891b0c187a2e04f39ed9786fa598a509fbf11a05a2f4279b",
+      "bytes": 1677
+    },
+    {
+      "id": "marine/marine-prop/evidence/r5_saved_graph_edge_check.json",
+      "sha256": "c087327ec2b2e0313f0856ff940fe6728073d7a07eaaa9b4c8a15f2bdeb0e0b0",
+      "bytes": 1675
+    },
+    {
+      "id": "marine/marine-prop/evidence/r5_shoulder_pilot.json",
+      "sha256": "b97d54f353d64e9cf54639a415a5dc1bf3a2bf495b290be1951a919f633483f7",
+      "bytes": 16157
+    },
+    {
+      "id": "marine/marine-prop/evidence/r5_shoulder_validation.json",
+      "sha256": "ab707c3d5b5de52d01ce2c2b3b545ad54b49cb196066fb19b9389dcca1f4a565",
+      "bytes": 852
+    },
+    {
+      "id": "skis/README.md",
+      "sha256": "c6b5fe6ca3b534954a0d567bf2b84844f12217764cb96706b184256b57c4a4a5",
+      "bytes": 19531
+    }
+  ],
+  "capture_started_at_utc": "2026-09-14T01:51:22.881857+00:00",
+  "capture_completed_at_utc": "2026-09-14T02:00:01.277965+00:00",
+  "capture_note": "Files were captured individually from active source workspaces. Hashes bind the reviewed snapshots, not later edits."
+}

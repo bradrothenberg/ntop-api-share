@@ -34,6 +34,8 @@ For projected geometry, join each closed wire from its curves, then pass compati
 
 Keep transforms explicit. Avoid applying a second centering transform to geometry already in the source coordinate frame. Record units at every conversion boundary.
 
+A radius in field coordinates can change physically after a nonlinear map. For a required rolling-ball radius, use the mapped parent surfaces and unit normals, regenerate the center curve after edits, and verify contact sectors and clearance. Read [recent ski and bulkhead lessons](../../../docs/RECENT_MODELING_LEARNINGS.md) before generalizing a local fillet pilot.
+
 ## Author and simplify
 
 Recipes use explicit SI values. Live setter and getter units depend on the installed build and notebook display settings. Read dimensioned values and units back after changes.
@@ -64,6 +66,8 @@ Compare an actual nTop export with a documented tessellation of the STEP. Comput
 Measure distances in both directions. Include surface-area samples, vertices, and small-feature checks. Record units, sample counts, maximum, percentiles, and RMS values. Sampled extrema are not certified Hausdorff bounds.
 
 Check holes, walls, recesses, and narrow transitions independently of global overlap. Inspect mesh topology and warnings. A high IoU can conceal a local defect.
+
+Check mechanical interfaces after smooth blends. A blend can grow across a seat or locating surface. Apply a bounded finishing envelope when required, then verify mating clearance and actual exported geometry. Passing field samples does not prove a completed mesh export; reject stale placeholder files.
 
 Bind evidence to the source STEP, native output expression, input defaults or overrides, exported mesh, and meshing settings. A geometry edit invalidates earlier evidence. A presentation edit may retain it only after exact output and input equality is established.
 

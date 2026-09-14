@@ -32,6 +32,8 @@ For a rounded opening, preserve the throat separately from the mouth transition.
 
 ## Evidence and display warnings
 
+The recent ski work distinguishes a continuous native field from an exact physical rolling-ball surface. A local construction-circle radius can change after mapping onto curved parents. Match offset-surface contacts in world coordinates, regenerate the center curve with the radius, and keep finite endpoint caps out of a concave fillet. A local pilot is not a complete-part radius certificate. See [the recorded lessons](../../../../docs/RECENT_MODELING_LEARNINGS.md).
+
 Exact CAD Booleans can fail on complex but valid coincident solids. Retain the failure and cross-check classification. A documented converged mesh intersection can provide an alternative comparison; volume difference cannot replace intersection-over-union.
 
 Imported display meshes require their own topology checks. A closed, manifold, oriented mesh can still report self-intersection. A prior isolated test retained every STL triangle and coordinate in indexed OBJ: the vertex-merging warning disappeared, but self-intersection remained. This does not establish the cause or prove a false positive.
