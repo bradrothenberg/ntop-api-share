@@ -11,6 +11,15 @@ Older demos retain build 42594 provenance. Its archived reference describes hist
 Re-measure after a build change. Feature presence is not a semantic compatibility test.
 Use the root harness/ntop_api.py and scripts/stage.py. No private checkout or personal skill installation is required.
 
+## Start an owned nTop session
+
+Launch a separate task-owned nTop window/process directly from the host shell, then author through the Notebook API.
+On Windows, use PowerShell `Start-Process -FilePath` with the exact intended licensed custom-build executable and retain the returned PID.
+Use the [launch and attachment procedure](../../../docs/BACKGROUND_CONSOLE.md#launch-a-separate-task-owned-process) to verify executable path, creation time, actual API listener ownership, and the scratch notebook before edits.
+Computer Use is not a prerequisite for launching nTop or using the Notebook API. Prefer direct process launch and API dispatch for this workflow.
+Keep the user's existing windows and notebooks intact. Do not call `new_notebook` or `open_notebook` in an existing user session to make room for the task; both discard unsaved work without prompts.
+A new window does not prove that TCP reaches it. If the default port still belongs to an existing session, or listener ownership is ambiguous, stop dispatch to that endpoint and resolve routing without closing or repurposing the user's session.
+
 ## Authoring
 
 - Use a task-owned notebook and a small calibration case first. Inspect the exact block identifier.

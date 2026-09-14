@@ -35,7 +35,8 @@ uv run --locked python scripts/smoke.py
 uv run --locked pytest -q
 ```
 
-Launch nTop from that PowerShell session. In a new empty notebook, open **View > Python Console**:
+Launch a separate task-owned nTop process directly from that PowerShell session using the [launch and attachment procedure](docs/BACKGROUND_CONSOLE.md#launch-a-separate-task-owned-process).
+Use the Notebook API after verifying the intended process and scratch notebook. For manual console use, open **View > Python Console** in that new empty notebook:
 
 ```python
 import ntop_api
