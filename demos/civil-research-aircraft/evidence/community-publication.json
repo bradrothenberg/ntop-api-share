@@ -1,0 +1,2034 @@
+{
+  "scope": "Offline publication preparation. Source native results are recorded evidence, not new execution.",
+  "models": [
+    {
+      "source": "lug_attachment/deliverables/Aircraft-G.ntop",
+      "file": "civil-research-aircraft-rev-g.ntop",
+      "source_sha256": "1f491b7444ea5a30317665d8fd107305fe53e614293c8cc8af76c6db80190bf6",
+      "published_sha256": "94cc089a5b187507111f81cc5a2967139f2bafd47d1e302533083476d46dd9ea",
+      "bytes": 39083460,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 424,
+      "binary_chunks_preserved": 0,
+      "airfoil_paths": [
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/Aft-lug-joint.ntop",
+      "file": "rev-g-aft-lug-joint.ntop",
+      "source_sha256": "8035aa43d070b761a5c41347cbc843f2f3622f42ef61d424d9e2c543a868efd0",
+      "published_sha256": "ce0e122ccac95cb35057e0aff776b452c8d25c420adc71bc54c2e5aadc8b2ecd",
+      "bytes": 39087875,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 424,
+      "binary_chunks_preserved": 0,
+      "airfoil_paths": [
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/C-Aft.ntop",
+      "file": "rev-g-c-aft.ntop",
+      "source_sha256": "2ef93d19908786c0b73106a5fab4757d39a050e1559dfa79e8eb34c763a2ee3d",
+      "published_sha256": "2ef93d19908786c0b73106a5fab4757d39a050e1559dfa79e8eb34c763a2ee3d",
+      "bytes": 4731558,
+      "changed_chunks": [],
+      "function_chunks_preserved": 1,
+      "binary_chunks_preserved": 66,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/C-Fwd.ntop",
+      "file": "rev-g-c-fwd.ntop",
+      "source_sha256": "0332d4ecfb75b12083e45cceda08f08a58f11d6ff7d00f903886f71de4dc773b",
+      "published_sha256": "0332d4ecfb75b12083e45cceda08f08a58f11d6ff7d00f903886f71de4dc773b",
+      "bytes": 6458533,
+      "changed_chunks": [],
+      "function_chunks_preserved": 1,
+      "binary_chunks_preserved": 72,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/Forward-lug-joint.ntop",
+      "file": "rev-g-forward-lug-joint.ntop",
+      "source_sha256": "9dda7fdc5c420ef199dd1163c5bdaae3c8b24e8db13ffd93e9b85bc2a40dba5c",
+      "published_sha256": "65a78ff8b237beb07ae5b9bdd4de6a27cf75682ac947cd3e550097d8757c9ff9",
+      "bytes": 39087875,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 424,
+      "binary_chunks_preserved": 0,
+      "airfoil_paths": [
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/Frames-G.ntop",
+      "file": "rev-g-frames-g.ntop",
+      "source_sha256": "123a665ad6c461a15c8641ae1ab2352b4e9d0cea1e91f96a17a8a30c50269532",
+      "published_sha256": "a6906a27eca5b081488dc11d50369dba3bdf7ae8b58df4882def0f0bab0bcbaf",
+      "bytes": 39087415,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 424,
+      "binary_chunks_preserved": 0,
+      "airfoil_paths": [
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/P-Front-spar.ntop",
+      "file": "rev-g-p-front-spar.ntop",
+      "source_sha256": "71fc8dfb0c8cff02bdc10e918b8dedf30a8016a9fab62268d7a8f6a6dabd680d",
+      "published_sha256": "71fc8dfb0c8cff02bdc10e918b8dedf30a8016a9fab62268d7a8f6a6dabd680d",
+      "bytes": 1721100,
+      "changed_chunks": [],
+      "function_chunks_preserved": 1,
+      "binary_chunks_preserved": 49,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/P-Lower-inner-splice.ntop",
+      "file": "rev-g-p-lower-inner-splice.ntop",
+      "source_sha256": "2dc8e53e53f3d86af891d818ae99c3186f2f7df435b260f23c9a0c6ce8b714de",
+      "published_sha256": "2dc8e53e53f3d86af891d818ae99c3186f2f7df435b260f23c9a0c6ce8b714de",
+      "bytes": 554846,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 27,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/P-Lower-outer-splice.ntop",
+      "file": "rev-g-p-lower-outer-splice.ntop",
+      "source_sha256": "955215da6957a51173217ecf3d12e04962037b600062b08bbbc9a3d8518e3e1a",
+      "published_sha256": "955215da6957a51173217ecf3d12e04962037b600062b08bbbc9a3d8518e3e1a",
+      "bytes": 1466602,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 19,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/P-Rear-spar.ntop",
+      "file": "rev-g-p-rear-spar.ntop",
+      "source_sha256": "3b4a9c19ff287b3b3490d8e751e4d73f6176d5cbc0131a2886149aab645063b8",
+      "published_sha256": "3b4a9c19ff287b3b3490d8e751e4d73f6176d5cbc0131a2886149aab645063b8",
+      "bytes": 1327933,
+      "changed_chunks": [],
+      "function_chunks_preserved": 1,
+      "binary_chunks_preserved": 49,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/P-Upper-inner-splice.ntop",
+      "file": "rev-g-p-upper-inner-splice.ntop",
+      "source_sha256": "8e96db7cbf47d6b42069b8e72a680e7cb4b178dfd8f2d29c2d266d48a7c0a9ff",
+      "published_sha256": "8e96db7cbf47d6b42069b8e72a680e7cb4b178dfd8f2d29c2d266d48a7c0a9ff",
+      "bytes": 554739,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 27,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/P-Upper-outer-splice.ntop",
+      "file": "rev-g-p-upper-outer-splice.ntop",
+      "source_sha256": "d0266be9669236edd844236717848cec596a5b85670fddec6d0d4438f19b7f8d",
+      "published_sha256": "d0266be9669236edd844236717848cec596a5b85670fddec6d0d4438f19b7f8d",
+      "bytes": 1466250,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 19,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/S-Front-spar.ntop",
+      "file": "rev-g-s-front-spar.ntop",
+      "source_sha256": "bf8c5c6d99e6e527365a52bf08c7a2412d5827e520cedbf1b6b096955abd6329",
+      "published_sha256": "bf8c5c6d99e6e527365a52bf08c7a2412d5827e520cedbf1b6b096955abd6329",
+      "bytes": 1691502,
+      "changed_chunks": [],
+      "function_chunks_preserved": 1,
+      "binary_chunks_preserved": 49,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/S-Lower-inner-splice.ntop",
+      "file": "rev-g-s-lower-inner-splice.ntop",
+      "source_sha256": "3bda0b3c781589c8cf80013b4a1dd328d580dc5beabdde85ed4ea51ac109fce8",
+      "published_sha256": "3bda0b3c781589c8cf80013b4a1dd328d580dc5beabdde85ed4ea51ac109fce8",
+      "bytes": 554265,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 27,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/S-Lower-outer-splice.ntop",
+      "file": "rev-g-s-lower-outer-splice.ntop",
+      "source_sha256": "149c6404dee5c4cf69bb9ba1a857e94ee9e80704b761028a82ab94e5642092f8",
+      "published_sha256": "149c6404dee5c4cf69bb9ba1a857e94ee9e80704b761028a82ab94e5642092f8",
+      "bytes": 1464987,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 19,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/S-Rear-spar.ntop",
+      "file": "rev-g-s-rear-spar.ntop",
+      "source_sha256": "0855709d595135d7b6f233c7318c38a3d988c3b5dd1ba3944ada4ccefd8a31bc",
+      "published_sha256": "0855709d595135d7b6f233c7318c38a3d988c3b5dd1ba3944ada4ccefd8a31bc",
+      "bytes": 1290898,
+      "changed_chunks": [],
+      "function_chunks_preserved": 1,
+      "binary_chunks_preserved": 49,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/S-Upper-inner-splice.ntop",
+      "file": "rev-g-s-upper-inner-splice.ntop",
+      "source_sha256": "ec37099a7f4fd1942434eb955aae2c62ccea7d701ccb5696591ddf20012c53ea",
+      "published_sha256": "ec37099a7f4fd1942434eb955aae2c62ccea7d701ccb5696591ddf20012c53ea",
+      "bytes": 554154,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 27,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/deliverables/S-Upper-outer-splice.ntop",
+      "file": "rev-g-s-upper-outer-splice.ntop",
+      "source_sha256": "b8e6236f5aa1fdc2f95e95218028a926b082708903f6116c5381077ac346d7c2",
+      "published_sha256": "b8e6236f5aa1fdc2f95e95218028a926b082708903f6116c5381077ac346d7c2",
+      "bytes": 1464635,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 19,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "lug_attachment/parts/Root-pin.ntop",
+      "file": "rev-g-root-pin.ntop",
+      "source_sha256": "ed91c35dd2a3c4fd35477bf27576f478ec38cf90d1493b2a44ce4086b14fb703",
+      "published_sha256": "ed91c35dd2a3c4fd35477bf27576f478ec38cf90d1493b2a44ce4086b14fb703",
+      "bytes": 14338,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 0,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "buckling/models/Thin-sections-study.ntop",
+      "file": "buckling-thin-sections-study.ntop",
+      "source_sha256": "28761db3f409f64b01e803ec8277a6e1354d7af579fe998359a28d173aa565ff",
+      "published_sha256": "28761db3f409f64b01e803ec8277a6e1354d7af579fe998359a28d173aa565ff",
+      "bytes": 199200,
+      "changed_chunks": [],
+      "function_chunks_preserved": 15,
+      "binary_chunks_preserved": 8,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "buckling/models/I-section-generator.ntop",
+      "file": "buckling-i-section-generator.ntop",
+      "source_sha256": "b1189fae94c8da4aa1e6e7bdacce781858d5f747b98c3524fc2232ea168fcb9c",
+      "published_sha256": "b1189fae94c8da4aa1e6e7bdacce781858d5f747b98c3524fc2232ea168fcb9c",
+      "bytes": 81641,
+      "changed_chunks": [],
+      "function_chunks_preserved": 5,
+      "binary_chunks_preserved": 1,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "buckling/models/Flat-section-generator.ntop",
+      "file": "buckling-flat-section-generator.ntop",
+      "source_sha256": "f9d63466a2367966b3ff748e366a7502e3ad93c60bacd51667591e34449f6a40",
+      "published_sha256": "f9d63466a2367966b3ff748e366a7502e3ad93c60bacd51667591e34449f6a40",
+      "bytes": 46652,
+      "changed_chunks": [],
+      "function_chunks_preserved": 4,
+      "binary_chunks_preserved": 1,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "buckling/models/Hat-section-generator.ntop",
+      "file": "buckling-hat-section-generator.ntop",
+      "source_sha256": "06fde57b1fe2a0226f467cbcae7015ea7c3880664770448592cac645d6af6165",
+      "published_sha256": "06fde57b1fe2a0226f467cbcae7015ea7c3880664770448592cac645d6af6165",
+      "bytes": 82524,
+      "changed_chunks": [],
+      "function_chunks_preserved": 5,
+      "binary_chunks_preserved": 1,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Aircraft-structure.ntop",
+      "file": "rev-f-aircraft-structure.ntop",
+      "source_sha256": "0bdb5a6e2c5e93dd70d408dc6735c6823d8d12321fde278ae0adf65aea2b4ff2",
+      "published_sha256": "2bdf85d34e94c17171ad8edff86d2cc410ed4d90564a32f85e55ef2f6d450c04",
+      "bytes": 23940459,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 380,
+      "binary_chunks_preserved": 3135,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/Aircraft-structure.ntop",
+      "file": "rev-d-aircraft-structure.ntop",
+      "source_sha256": "58b30b8746ccb232c8b81c29f743c85fb1a106558a3755de4822127758c6ee2e",
+      "published_sha256": "37a48e0a3116e8702836eeeb8c38ca4b2ad2449975ee3e849295f07027fee32f",
+      "bytes": 21661285,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 380,
+      "binary_chunks_preserved": 2983,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/Forward-primary-bulkhead.ntop",
+      "file": "rev-d-forward-primary-bulkhead.ntop",
+      "source_sha256": "dd64b990e927c257abaa0100b6dbdab8176b12ad9e90ad21b81c23bffbf06c65",
+      "published_sha256": "dd64b990e927c257abaa0100b6dbdab8176b12ad9e90ad21b81c23bffbf06c65",
+      "bytes": 2746625,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 58,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/Aft-primary-bulkhead.ntop",
+      "file": "rev-d-aft-primary-bulkhead.ntop",
+      "source_sha256": "e7a2320fd975e77ce12d8b8fd089c9fe18376585da1343a1ca5d58f3308dfc00",
+      "published_sha256": "e7a2320fd975e77ce12d8b8fd089c9fe18376585da1343a1ca5d58f3308dfc00",
+      "bytes": 2642689,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 58,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F01-frame.ntop",
+      "file": "rev-d-f01-frame.ntop",
+      "source_sha256": "b4ca8dc51eae5e866f6ce19ea6a4c452783b44481aed9c010f3c38c7a87ee711",
+      "published_sha256": "b4ca8dc51eae5e866f6ce19ea6a4c452783b44481aed9c010f3c38c7a87ee711",
+      "bytes": 217023,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F02-frame.ntop",
+      "file": "rev-d-f02-frame.ntop",
+      "source_sha256": "0613ae4f750a0861c4718c7067d1004838df10f94399c18650b524364543f6b3",
+      "published_sha256": "0613ae4f750a0861c4718c7067d1004838df10f94399c18650b524364543f6b3",
+      "bytes": 255627,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F03-frame.ntop",
+      "file": "rev-d-f03-frame.ntop",
+      "source_sha256": "edc98bda97b6899448474e97318e7172eb11a27e91ae28d742b726df2ea97b82",
+      "published_sha256": "edc98bda97b6899448474e97318e7172eb11a27e91ae28d742b726df2ea97b82",
+      "bytes": 279493,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F04-frame.ntop",
+      "file": "rev-d-f04-frame.ntop",
+      "source_sha256": "e28167975c1766429bf9d8c31b0966a2b60886feffdff100e41447d8f00d4ef9",
+      "published_sha256": "e28167975c1766429bf9d8c31b0966a2b60886feffdff100e41447d8f00d4ef9",
+      "bytes": 279792,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F05-frame.ntop",
+      "file": "rev-d-f05-frame.ntop",
+      "source_sha256": "714e27267582f777d7bb7693ec32df1cf4a2fca0e773889d8e5c5d84a5680628",
+      "published_sha256": "714e27267582f777d7bb7693ec32df1cf4a2fca0e773889d8e5c5d84a5680628",
+      "bytes": 291701,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F07-frame.ntop",
+      "file": "rev-d-f07-frame.ntop",
+      "source_sha256": "4176200a343ebb7b630960fea038cabc1bda4c5afc1ee6c9558aaa7a4439a177",
+      "published_sha256": "4176200a343ebb7b630960fea038cabc1bda4c5afc1ee6c9558aaa7a4439a177",
+      "bytes": 273336,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F09-frame.ntop",
+      "file": "rev-d-f09-frame.ntop",
+      "source_sha256": "0b6930949a00fe7595a6fae0e52f7c37be1d7cdeb32ea9daeac4ddce6859028d",
+      "published_sha256": "0b6930949a00fe7595a6fae0e52f7c37be1d7cdeb32ea9daeac4ddce6859028d",
+      "bytes": 258078,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F10-frame.ntop",
+      "file": "rev-d-f10-frame.ntop",
+      "source_sha256": "a27c13800239c2d0068a237a58b20e2554aa416b5c3d3e2b7fec1d1e64cc228a",
+      "published_sha256": "a27c13800239c2d0068a237a58b20e2554aa416b5c3d3e2b7fec1d1e64cc228a",
+      "bytes": 243158,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F11-frame.ntop",
+      "file": "rev-d-f11-frame.ntop",
+      "source_sha256": "618a1e4ea4e38bb6cebd4650cebb7d59ce3ff875c2af08feeb7b3e9643dcd175",
+      "published_sha256": "618a1e4ea4e38bb6cebd4650cebb7d59ce3ff875c2af08feeb7b3e9643dcd175",
+      "bytes": 218969,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "modular/deliverables/F12-frame.ntop",
+      "file": "rev-d-f12-frame.ntop",
+      "source_sha256": "c0b13dcb566e1e537b390e4bb1ab77f4251c66d1a2e0ad225592d38bd12fd33d",
+      "published_sha256": "c0b13dcb566e1e537b390e4bb1ab77f4251c66d1a2e0ad225592d38bd12fd33d",
+      "bytes": 185292,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 2,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/Aircraft-structure.ntop",
+      "file": "rev-e-aircraft-structure.ntop",
+      "source_sha256": "dcfe35ee020a230e81f5aa6daf999368b1c33fd4df4c4ed9bc2ecda9aff5792c",
+      "published_sha256": "1a44911aaedd2a20d169d447b5189ae0763670758959aac2e8cdc740d493fefc",
+      "bytes": 23504116,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 380,
+      "binary_chunks_preserved": 3111,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/Forward-primary-bulkhead.ntop",
+      "file": "rev-e-forward-primary-bulkhead.ntop",
+      "source_sha256": "43ad0bbaf1f504ddd0c926a4ce5768ca913e33f5d8c90dfb293db046b3523e2e",
+      "published_sha256": "43ad0bbaf1f504ddd0c926a4ce5768ca913e33f5d8c90dfb293db046b3523e2e",
+      "bytes": 2818981,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 66,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/Aft-primary-bulkhead.ntop",
+      "file": "rev-e-aft-primary-bulkhead.ntop",
+      "source_sha256": "ab7c18ebe5b21eb8c7d855987f76d9ccadca8770c45c9cb7d57c74e1d4c5ca69",
+      "published_sha256": "ab7c18ebe5b21eb8c7d855987f76d9ccadca8770c45c9cb7d57c74e1d4c5ca69",
+      "bytes": 2716755,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 66,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F01-frame.ntop",
+      "file": "rev-e-f01-frame.ntop",
+      "source_sha256": "e0cbfd523daec9cba7da04fcbfe85fefd9fca4e7c5690fcdb5870d22b317b160",
+      "published_sha256": "e0cbfd523daec9cba7da04fcbfe85fefd9fca4e7c5690fcdb5870d22b317b160",
+      "bytes": 353616,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F02-frame.ntop",
+      "file": "rev-e-f02-frame.ntop",
+      "source_sha256": "681dfc4df9ac33def30d1bb7eeb9de50888529d0d99ea3f31934aaabdd5ecb86",
+      "published_sha256": "681dfc4df9ac33def30d1bb7eeb9de50888529d0d99ea3f31934aaabdd5ecb86",
+      "bytes": 413897,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F03-frame.ntop",
+      "file": "rev-e-f03-frame.ntop",
+      "source_sha256": "43b813dce3a395d69f44eb7706f907351cbc0756ed59055c28e2122e00a378b6",
+      "published_sha256": "43b813dce3a395d69f44eb7706f907351cbc0756ed59055c28e2122e00a378b6",
+      "bytes": 418619,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F04-frame.ntop",
+      "file": "rev-e-f04-frame.ntop",
+      "source_sha256": "dcbabb2d468f820a45e59abb50adb35da7fa81fef2bd92ec93f98c95db6234ad",
+      "published_sha256": "dcbabb2d468f820a45e59abb50adb35da7fa81fef2bd92ec93f98c95db6234ad",
+      "bytes": 404801,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F05-frame.ntop",
+      "file": "rev-e-f05-frame.ntop",
+      "source_sha256": "70ba7d160d0b09251971f9f8b068c42ee9b348db4e23245fb2cb22ae709183f8",
+      "published_sha256": "70ba7d160d0b09251971f9f8b068c42ee9b348db4e23245fb2cb22ae709183f8",
+      "bytes": 411264,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F07-frame.ntop",
+      "file": "rev-e-f07-frame.ntop",
+      "source_sha256": "00158e21f24c4baf1add1772f4c5a3ab6c788ec1132756718020b460325dac0a",
+      "published_sha256": "00158e21f24c4baf1add1772f4c5a3ab6c788ec1132756718020b460325dac0a",
+      "bytes": 398983,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F09-frame.ntop",
+      "file": "rev-e-f09-frame.ntop",
+      "source_sha256": "50330efd6dff063f7d0f778684a4e1a0422d933e61939ac53115b4dc7a814a92",
+      "published_sha256": "50330efd6dff063f7d0f778684a4e1a0422d933e61939ac53115b4dc7a814a92",
+      "bytes": 389792,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F10-frame.ntop",
+      "file": "rev-e-f10-frame.ntop",
+      "source_sha256": "96a840d2d5924548cef3967b04151fbea34639f58ba46d446618e42ba1112372",
+      "published_sha256": "96a840d2d5924548cef3967b04151fbea34639f58ba46d446618e42ba1112372",
+      "bytes": 377909,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F11-frame.ntop",
+      "file": "rev-e-f11-frame.ntop",
+      "source_sha256": "2d2bf3b15deb177ff3931edac97dceb5fd9ccfa766063506fcadcc137709f83e",
+      "published_sha256": "2d2bf3b15deb177ff3931edac97dceb5fd9ccfa766063506fcadcc137709f83e",
+      "bytes": 351944,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "hat_longerons/deliverables/F12-frame.ntop",
+      "file": "rev-e-f12-frame.ntop",
+      "source_sha256": "e4e7a58b6d76540c4c6eb198b89ce9a39571f2239bccd50fcb1853bdb99b0dd6",
+      "published_sha256": "e4e7a58b6d76540c4c6eb198b89ce9a39571f2239bccd50fcb1853bdb99b0dd6",
+      "bytes": 317835,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L01-Longeron-path.ntop",
+      "file": "hat-longerons-l01-longeron-path.ntop",
+      "source_sha256": "d003ecfac2013ef23334d4d6c99a9f4a7fc8213d9b145c7fc77ef6f4a867f845",
+      "published_sha256": "620430b83b483c70b981d7c3fb142a341a3a7a9fc094db9a30a740fed5de5b91",
+      "bytes": 1920793,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L02-Longeron-path.ntop",
+      "file": "hat-longerons-l02-longeron-path.ntop",
+      "source_sha256": "f5e03c7fc79237d3205fb954cb5fe279d260441ad98040008b6dfda279137354",
+      "published_sha256": "0e196af2f93715211f363fdd7bdef157f7b6d4343a1e74b207699a963e150c2b",
+      "bytes": 1920966,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L03-Longeron-path.ntop",
+      "file": "hat-longerons-l03-longeron-path.ntop",
+      "source_sha256": "efaacffb5a62bbc236a5fffa8275cf2160adddd4955f4ba51da28eee4660fc87",
+      "published_sha256": "0b51ad312964aee866c02b1ff99538ca2d1408c0861a3259e35a7ccdc68471f8",
+      "bytes": 1921000,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L04-Longeron-path.ntop",
+      "file": "hat-longerons-l04-longeron-path.ntop",
+      "source_sha256": "bf800aab1a6e873ffcc4c2db3e8423bfa7d23baf83cb7e48e39f824d8e692479",
+      "published_sha256": "e70e7dae6405e3686d275afd82a0c1ac880c762c58f0cc2a4c26ac304efb96bf",
+      "bytes": 1920875,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L05-Longeron-path.ntop",
+      "file": "hat-longerons-l05-longeron-path.ntop",
+      "source_sha256": "06c2c7837eaf20a4081a7f702dcec4629512d9bdc3c6becada46634673bd0f79",
+      "published_sha256": "4ed44a6abc0de2b43575e033fadeba39d32b5cfd5bbd203d065323aad4b3fa28",
+      "bytes": 1920968,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L06-Longeron-path.ntop",
+      "file": "hat-longerons-l06-longeron-path.ntop",
+      "source_sha256": "c32df4bc40dfd443ab6a25ed5d767cf20a4a233661c94cfa76ffe85d13568ef1",
+      "published_sha256": "05b349efda64fac801ba44a37bfbd84c007e2a5ae463bb8fc4b8ba20f52c1a4f",
+      "bytes": 1921013,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L07-Longeron-path.ntop",
+      "file": "hat-longerons-l07-longeron-path.ntop",
+      "source_sha256": "adc99898689b76842cefad254e4c7689e3d5be16765594831e65af3a42c723ee",
+      "published_sha256": "d264d70c455969d26636a4331c84213ba37e1dd42c61a7b0938bf4062bff2aaf",
+      "bytes": 1921158,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Longerons/L08-Longeron-path.ntop",
+      "file": "hat-longerons-l08-longeron-path.ntop",
+      "source_sha256": "7bcffb9fdec8dbf8f0409808e8d223cbea9023ae4b7e33a9c813ca751ee950c7",
+      "published_sha256": "954f951428aa4cb292964c299bc9f3ab5795dc4f40c3c28f9580cf529597d504",
+      "bytes": 1920866,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 263,
+      "binary_chunks_preserved": 278,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/Forward-primary-bulkhead.ntop",
+      "file": "rev-f-forward-primary-bulkhead.ntop",
+      "source_sha256": "bb5249b6b7bda17e70ad52ef51f20b6ae3ca6d82f34864d5e09890ba3d4f1fd8",
+      "published_sha256": "bb5249b6b7bda17e70ad52ef51f20b6ae3ca6d82f34864d5e09890ba3d4f1fd8",
+      "bytes": 3242168,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 78,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/Aft-primary-bulkhead.ntop",
+      "file": "rev-f-aft-primary-bulkhead.ntop",
+      "source_sha256": "e5bbb2db95df19b0c1138f362e7045601551fcbf768f5be037241f0c9b1ac7f8",
+      "published_sha256": "e5bbb2db95df19b0c1138f362e7045601551fcbf768f5be037241f0c9b1ac7f8",
+      "bytes": 3156946,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 78,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "edge_aligned/deliverables/Aircraft-C.ntop",
+      "file": "edge-aligned-aircraft-c.ntop",
+      "source_sha256": "9ea9a56cb0bfba0528ecb11e0b0a674110646e4bf308477c3bf763b92abf8896",
+      "published_sha256": "9cf624a0edd7a4589f46c5a001a00dd6faf87e6e30fbb4b6615fd506ebf29156",
+      "bytes": 38466875,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 428,
+      "binary_chunks_preserved": 3825,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "edge_aligned/deliverables/C-Fwd.ntop",
+      "file": "edge-aligned-c-fwd.ntop",
+      "source_sha256": "28107facd71b6b5d60cedfd204b3d07d3578731138c592443dd4be333ffdb866",
+      "published_sha256": "28107facd71b6b5d60cedfd204b3d07d3578731138c592443dd4be333ffdb866",
+      "bytes": 4352457,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 106,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "edge_aligned/deliverables/C-Aft.ntop",
+      "file": "edge-aligned-c-aft.ntop",
+      "source_sha256": "870495d1fdfb4dd2df3c68f4a01065f20d29847895eefb9564f91c050772033d",
+      "published_sha256": "870495d1fdfb4dd2df3c68f4a01065f20d29847895eefb9564f91c050772033d",
+      "bytes": 3585814,
+      "changed_chunks": [],
+      "function_chunks_preserved": 3,
+      "binary_chunks_preserved": 86,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "candidate_c/deliverables/Aircraft-C.ntop",
+      "file": "candidate-c-aircraft-c.ntop",
+      "source_sha256": "eb8390093a771f012cd792d7e4f5be30dfbe857be2ed323dba38d9e60ae7fa87",
+      "published_sha256": "7e6f2b70608153e29e02661dcb95b91eb20ee68733b4125181cbaf632ab2382f",
+      "bytes": 27423921,
+      "changed_chunks": [
+        "index"
+      ],
+      "function_chunks_preserved": 406,
+      "binary_chunks_preserved": 2844,
+      "airfoil_paths": [
+        "references/naca64a010-il.csv",
+        "references/naca64a010-il.dat",
+        "references/pw1211-il.csv",
+        "references/pw1211-il.dat"
+      ],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F01-frame.ntop",
+      "file": "rev-f-f01-frame.ntop",
+      "source_sha256": "e0cbfd523daec9cba7da04fcbfe85fefd9fca4e7c5690fcdb5870d22b317b160",
+      "published_sha256": "e0cbfd523daec9cba7da04fcbfe85fefd9fca4e7c5690fcdb5870d22b317b160",
+      "bytes": 353616,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F02-frame.ntop",
+      "file": "rev-f-f02-frame.ntop",
+      "source_sha256": "681dfc4df9ac33def30d1bb7eeb9de50888529d0d99ea3f31934aaabdd5ecb86",
+      "published_sha256": "681dfc4df9ac33def30d1bb7eeb9de50888529d0d99ea3f31934aaabdd5ecb86",
+      "bytes": 413897,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F03-frame.ntop",
+      "file": "rev-f-f03-frame.ntop",
+      "source_sha256": "43b813dce3a395d69f44eb7706f907351cbc0756ed59055c28e2122e00a378b6",
+      "published_sha256": "43b813dce3a395d69f44eb7706f907351cbc0756ed59055c28e2122e00a378b6",
+      "bytes": 418619,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F04-frame.ntop",
+      "file": "rev-f-f04-frame.ntop",
+      "source_sha256": "dcbabb2d468f820a45e59abb50adb35da7fa81fef2bd92ec93f98c95db6234ad",
+      "published_sha256": "dcbabb2d468f820a45e59abb50adb35da7fa81fef2bd92ec93f98c95db6234ad",
+      "bytes": 404801,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F05-frame.ntop",
+      "file": "rev-f-f05-frame.ntop",
+      "source_sha256": "70ba7d160d0b09251971f9f8b068c42ee9b348db4e23245fb2cb22ae709183f8",
+      "published_sha256": "70ba7d160d0b09251971f9f8b068c42ee9b348db4e23245fb2cb22ae709183f8",
+      "bytes": 411264,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F07-frame.ntop",
+      "file": "rev-f-f07-frame.ntop",
+      "source_sha256": "00158e21f24c4baf1add1772f4c5a3ab6c788ec1132756718020b460325dac0a",
+      "published_sha256": "00158e21f24c4baf1add1772f4c5a3ab6c788ec1132756718020b460325dac0a",
+      "bytes": 398983,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F09-frame.ntop",
+      "file": "rev-f-f09-frame.ntop",
+      "source_sha256": "50330efd6dff063f7d0f778684a4e1a0422d933e61939ac53115b4dc7a814a92",
+      "published_sha256": "50330efd6dff063f7d0f778684a4e1a0422d933e61939ac53115b4dc7a814a92",
+      "bytes": 389792,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F10-frame.ntop",
+      "file": "rev-f-f10-frame.ntop",
+      "source_sha256": "96a840d2d5924548cef3967b04151fbea34639f58ba46d446618e42ba1112372",
+      "published_sha256": "96a840d2d5924548cef3967b04151fbea34639f58ba46d446618e42ba1112372",
+      "bytes": 377909,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F11-frame.ntop",
+      "file": "rev-f-f11-frame.ntop",
+      "source_sha256": "2d2bf3b15deb177ff3931edac97dceb5fd9ccfa766063506fcadcc137709f83e",
+      "published_sha256": "2d2bf3b15deb177ff3931edac97dceb5fd9ccfa766063506fcadcc137709f83e",
+      "bytes": 351944,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    },
+    {
+      "source": "Bulkheads/F12-frame.ntop",
+      "file": "rev-f-f12-frame.ntop",
+      "source_sha256": "e4e7a58b6d76540c4c6eb198b89ce9a39571f2239bccd50fcb1853bdb99b0dd6",
+      "published_sha256": "e4e7a58b6d76540c4c6eb198b89ce9a39571f2239bccd50fcb1853bdb99b0dd6",
+      "bytes": 317835,
+      "changed_chunks": [],
+      "function_chunks_preserved": 2,
+      "binary_chunks_preserved": 10,
+      "airfoil_paths": [],
+      "source_unchanged": true,
+      "new_native_execution": false
+    }
+  ],
+  "supporting_files": [
+    {
+      "source": "buckling/assumptions.json",
+      "file": "evidence/buckling-assumptions.json",
+      "source_sha256": "fb5d6e98087bb46872d416380280b62c17f7ffc86987d8350be447ade4e13fe1",
+      "published_sha256": "f80892d64dd9c7fe41b1c1b99e8dc91af092fa8cdaf657d8f61c7f57f41db11f"
+    },
+    {
+      "source": "buckling/results/primary_sweep.csv",
+      "file": "evidence/buckling-results-primary-sweep.csv",
+      "source_sha256": "177eeae7315f49b1cf2e9d1394d693dda19474c89963de06bb678531285456d9",
+      "published_sha256": "02d89dba129083f9b134c98a8c141d03327de2dc5afd2b7058b393db9a084ed0"
+    },
+    {
+      "source": "buckling/README.md",
+      "file": "notes/buckling-readme.md",
+      "source_sha256": "cd52dffb81d0a3d3546cc4beeac9f7f4287fd11d4cd0dc9b0a33a601f4ece416",
+      "published_sha256": "39823788a3cd7d3d53bcc95795f0a2fd02a48c22165971e9be87f8f4f615e5f3"
+    },
+    {
+      "source": "buckling/results/run_manifest.json",
+      "file": "evidence/buckling-results-run-manifest.json",
+      "source_sha256": "460971d5caf3fd36d1f669d47820ed544bce5ca1343e73eb74c46e8e3d0c8283",
+      "published_sha256": "cb427e1c90f23b1004c26e7a6ff71b356bd59f833cfbb008d781c0b70c06e0c4"
+    },
+    {
+      "source": "buckling/results/workflow_verification.json",
+      "file": "evidence/buckling-results-workflow-verification.json",
+      "source_sha256": "b5db0b6d1c015e0c942990f0f458b2f1d671d3003b74354537bc435bdfbf52c7",
+      "published_sha256": "7563c0c720eca96f63d97a06e7ebb64fe90b6ba1a979f4ef265afe145a89131c"
+    },
+    {
+      "source": "buckling/results/primary_sweep.json",
+      "file": "evidence/buckling-results-primary-sweep.json",
+      "source_sha256": "2ce6607b9df9bb6c5414165b2df3386a4fede78bb577b98bb4ff1b9403ea979f",
+      "published_sha256": "c047ffb768441a096788f5712987459796e04fdaeec2627ecf95b8e4cddc53ff"
+    },
+    {
+      "source": "buckling/results/rib_sizing.json",
+      "file": "evidence/buckling-results-rib-sizing.json",
+      "source_sha256": "eeba194fcad8d38b826a4ddbc9786955f1a37b7ab1d01e32100cd7e68823d1b9",
+      "published_sha256": "f61f63c2d70d6c4459ec3749a512abe021d36a5f2032677acb693d1f15f990b4"
+    },
+    {
+      "source": "buckling/results/candidate_reanalysis.json",
+      "file": "evidence/buckling-results-candidate-reanalysis.json",
+      "source_sha256": "95781fc8c50c72b98dd7326e6a342728425e9b94c2cd2dfbd4c8344ffc04635a",
+      "published_sha256": "68af25fac8a2b3fabb4867aa46541eb76506a63150944f72c5cd4db9ceba646b"
+    },
+    {
+      "source": "buckling/results/native_section_checks.json",
+      "file": "evidence/buckling-results-native-section-checks.json",
+      "source_sha256": "d807136330ca37f4b86cd9c9737ae6e4392aad8bc605bcf3cc9d4ffac14978ab",
+      "published_sha256": "1a59443b876de2952184616209fa9ae70ed271ad4028d105f1fa1a58d13394e4"
+    },
+    {
+      "source": "cranked_wing/evidence/route_comparison.json",
+      "file": "evidence/cranked-wing-evidence-route-comparison.json",
+      "source_sha256": "7d7691cf6758a63e414a0b210387ce75b160cdaac1bdae030ca637dd2486c71e",
+      "published_sha256": "c05f6e2487f6cf3e9c8fb63fee5086f763af83917fdbcf436346df5d97b12ab8"
+    },
+    {
+      "source": "cranked_wing/evidence/current_spar_continuity_summary.json",
+      "file": "evidence/cranked-wing-evidence-current-spar-continuity-summary.json",
+      "source_sha256": "380317d658d9038c9a428e1a35d851179e3eff7a43d81a8dc06f3da7507161eb",
+      "published_sha256": "373e48c8f2abdd0b515939fce2a11c911b0daa9e17249ea3a2aea71180a6e76e"
+    },
+    {
+      "source": "cranked_wing/references/sources.json",
+      "file": "evidence/cranked-wing-references-sources.json",
+      "source_sha256": "6c6f7e3664192179e906dc7921bc781911115154a77d267bfb77da28c1d3f794",
+      "published_sha256": "eec2bf2807abca4ffd4746203a168132ec3a39ed3ba6cbc60ba70691eced3463"
+    },
+    {
+      "source": "modular/geometry/F06D.json",
+      "file": "evidence/modular-geometry-f06d.json",
+      "source_sha256": "173463f970a389102c8b117d8015e930c940aae4e9de95981ff015b7548a069f",
+      "published_sha256": "86212c695d9a58c2e9f4795b591cbea9dc6127d3e4ca8341be57e71b1a7f3f5a"
+    },
+    {
+      "source": "modular/geometry/F08D.json",
+      "file": "evidence/modular-geometry-f08d.json",
+      "source_sha256": "c117bfbd82f634760e9bc583f67a5642b5aacc51ebae03257606230dc4174d27",
+      "published_sha256": "d1f9149ac79f12326a888cfa4a369997ae78d473b662067a81af09cc5c5a01a8"
+    },
+    {
+      "source": "modular/manifest.json",
+      "file": "evidence/modular-manifest.json",
+      "source_sha256": "9dbb2584a19c861f6821f078f469ce5fe54271b159b9722b005a995a254fce65",
+      "published_sha256": "aa2b1820a684455a271ac076cdf733247bb0075cffdbfec8bafd7506a5829c99"
+    },
+    {
+      "source": "modular/evidence/primary_spar_fit.json",
+      "file": "evidence/modular-evidence-primary-spar-fit.json",
+      "source_sha256": "4f80e629bf89f74d451eeae0246c104fa08d35cf4350090377f0c49e024eaec6",
+      "published_sha256": "9afa3c3a43cc15eac2a037682fb14ce7535b73c5ab6d46bf5dd89d440f4ecdc2"
+    },
+    {
+      "source": "modular/evidence/tail_fit.json",
+      "file": "evidence/modular-evidence-tail-fit.json",
+      "source_sha256": "85e0234cceb0f945d0a038f62e032740a921627b76bfbf429eee692d20337395",
+      "published_sha256": "d9e6a85f140d419a81c8ba148582a62e4025f4c90227f5554df17797c76ad07d"
+    },
+    {
+      "source": "modular/evidence/tail_bridge_fit.json",
+      "file": "evidence/modular-evidence-tail-bridge-fit.json",
+      "source_sha256": "ec3fa414737917a350b6a33bdede264d07ec7c23d9ee13ccbc9243ad970f025a",
+      "published_sha256": "18f561032ad6453b2241c905375816c7f4194e08cffba40da7c6b74fd9ecebbe"
+    },
+    {
+      "source": "modular/evidence/longeron_clearance.json",
+      "file": "evidence/modular-evidence-longeron-clearance.json",
+      "source_sha256": "f03a96fd91cdc8da4eb5a650098c0db7a6baaf7797afed8df227020ec2cbde06",
+      "published_sha256": "c72d89618aed900e3afaa2c539bddae6d5adc6301442bdbb538a46462c6c19b4"
+    },
+    {
+      "source": "hat_longerons/evidence/assembly_expression_audit.json",
+      "file": "evidence/hat-longerons-evidence-assembly-expression-audit.json",
+      "source_sha256": "135571eddbf9192bc827814f47940cd95dacf619f9b675934cf8e12debe1f428",
+      "published_sha256": "edf1dd7ee7e40c9d1565295a774b554b27986651006f7bccf0ebac9bcf000a1c"
+    },
+    {
+      "source": "hat_longerons/evidence/hat_clearance.json",
+      "file": "evidence/hat-longerons-evidence-hat-clearance.json",
+      "source_sha256": "658e1eb50bc9cf7399614b8136ab3e8dcedc7a323fdd35550a155e08d2080381",
+      "published_sha256": "9b667444facb027193ae6ab1ece89182d43aa1da8c24433a87caf8c6818887aa"
+    },
+    {
+      "source": "hat_longerons/README.md",
+      "file": "notes/hat-longerons-readme.md",
+      "source_sha256": "3565b706928e7a5d3c5786180a1405d6c85ce3827b631e06faae8e8a1285574c",
+      "published_sha256": "2933577131c1cfef4e128dc0dcbbf7e1c0383d6b47fa76aaf991452cbe9ceb0c"
+    },
+    {
+      "source": "hat_longerons/manifest.json",
+      "file": "evidence/hat-longerons-manifest.json",
+      "source_sha256": "bbb5bdad5d5d4ddc6a82fd314e04f069fce3142e75825f429266ac05df34720a",
+      "published_sha256": "839e502439ec0882043731c103c65e47ba599f30b071e9bf41e39d4510ebe9cc"
+    },
+    {
+      "source": "load_path_revision/README.md",
+      "file": "notes/load-path-revision-readme.md",
+      "source_sha256": "bfad24aec9e7a27f0cbdd5c48471753ed1471f050a22ff4ac8d2e18962bc90c3",
+      "published_sha256": "9e9f7e2fd05b662da18d6822ab868fa8a0be783198c99abfdaa661bb1a4c33f6"
+    },
+    {
+      "source": "load_path_revision/manifest.json",
+      "file": "evidence/load-path-revision-manifest.json",
+      "source_sha256": "5c3a60984eb4625b11f93c3f51dcf3a4d5956d5c572bf1601482fde185400f9b",
+      "published_sha256": "e45cea1ec226efb4ad7a6b800083a15b6066021d15d1243f2b89ef64161b7033"
+    },
+    {
+      "source": "load_path_revision/evidence/delivery_audit.json",
+      "file": "evidence/load-path-revision-evidence-delivery-audit.json",
+      "source_sha256": "c31a16b90c1961e86791ca66c2ff225931736e31ac03f57642859fe5dc3237a8",
+      "published_sha256": "9d5de6504dec1326e0e0deab0bafd608cb1d0a97cdbdc4cc0873e3a197dd8c99"
+    },
+    {
+      "source": "load_path_revision/analysis/tie_comparison.json",
+      "file": "evidence/load-path-revision-analysis-tie-comparison.json",
+      "source_sha256": "c1fbb5d167124d639c31d4a1f329d32d1038b3a39202ffc245ad9af3814f50f0",
+      "published_sha256": "b170f3b2ac6ebb941f1092864c295a1b4c59f10867b2058061f374befd82dd32"
+    },
+    {
+      "source": "wing_trade/assumptions.json",
+      "file": "evidence/wing-trade-assumptions.json",
+      "source_sha256": "1d7a66de15905d81ec2c07500d1dfab6bace9c0954e1dda1e612bd934389bfc9",
+      "published_sha256": "203d4098b409108431af9c49fee41f29dfef7300406bbde82501ac6a761ab62a"
+    },
+    {
+      "source": "lug_attachment/Aircraft-G-manifest.json",
+      "file": "evidence/lug-attachment-aircraft-g-manifest.json",
+      "source_sha256": "2fb29f483caeb3e91d934d984f9cb50a5d1530cf80b86fbed68e8bcdd631f2e5",
+      "published_sha256": "10a675841fc69c368a7c9e9bec8708424c84c73e052da9bccc1a76d0c8a53bd7"
+    },
+    {
+      "source": "lug_attachment/README.md",
+      "file": "notes/lug-attachment-readme.md",
+      "source_sha256": "f379a679dedd36a794a9c25cfa1668700d8e8f26d13845cdcff7b24eacc963b2",
+      "published_sha256": "0240e6eb4543154ce5d33234910603baf8fd6529f7256135154c8f8fef8de046"
+    },
+    {
+      "source": "lug_attachment/analysis/local_joint_screens.json",
+      "file": "evidence/lug-attachment-analysis-local-joint-screens.json",
+      "source_sha256": "b0098e15b840ffe83a74bf7d298b818934d287e88b1fa5ce480750c6621c5f99",
+      "published_sha256": "2eb5860831c285e1a6706e61e8c08f19a2f125be1ac4925396e1628a6d541588"
+    },
+    {
+      "source": "lug_attachment/analysis/fork_fea.json",
+      "file": "evidence/lug-attachment-analysis-fork-fea.json",
+      "source_sha256": "5d1d6f880803422fc2f0db6aeba923976ec5a552a4762c0f5c738be7dcf7b953",
+      "published_sha256": "a7d68ae3f093f4ea4451a248320ff3252c847415613af62daddcd18ce2b00760"
+    },
+    {
+      "source": "lug_attachment/analysis/mass_and_fit.json",
+      "file": "evidence/lug-attachment-analysis-mass-and-fit.json",
+      "source_sha256": "76011710f7633149866b2264381180cf7d8785ab637841f2a8d39591cc7cacb9",
+      "published_sha256": "35324423d0740983dc1c1e5ca84bb1c4b954557c8d2e5c84db0cd43176bd4be2"
+    },
+    {
+      "source": "lug_attachment/evidence/Aircraft-G_expanded_graph_equality.json",
+      "file": "evidence/lug-attachment-evidence-aircraft-g-expanded-graph-equality.json",
+      "source_sha256": "4b83e34c2f13479495dea8c04058f0bed1240061bc81f0fcf74b075bb943d849",
+      "published_sha256": "86010da9e277a0c0b47916a99ca2ea513de23b5916ccfbaab55801361f7ad09b"
+    },
+    {
+      "source": "lug_attachment/revisions/small_eye_trial/local_joint_screens.json",
+      "file": "evidence/lug-attachment-revisions-small-eye-trial-local-joint-screens.json",
+      "source_sha256": "661f4f822828f5cf4914cc5c53d673894d8dc09b353c60f4a1493d08c3bc4e17",
+      "published_sha256": "8b2e7a8bb98703b93468da96a95576e849c542d0ca16097bb8e91eb052c40910"
+    },
+    {
+      "source": "lug_attachment/evidence/Source-root-containment.json",
+      "file": "evidence/lug-attachment-evidence-source-root-containment.json",
+      "source_sha256": "37bcd9eeec18ae4f3bef63fbc379a7906f07172d7d91a69f11dbc2cca5b9610a",
+      "published_sha256": "4d21ae2f87f84c446d6ad02f785fcdcb12a86587923f2033fd4a51e68d3da7d5"
+    },
+    {
+      "source": "lug_attachment/evidence/cover_trim_clearance.json",
+      "file": "evidence/lug-attachment-evidence-cover-trim-clearance.json",
+      "source_sha256": "a10533658579cb6fe6c7f70a0519ccd2e7a3fb9bbee40da6895c8cb8e7bcdeb3",
+      "published_sha256": "65051d80d56fdbf1702a844ec76e83769acfcb3151a7ebe43fdc7e3e30ab045a"
+    },
+    {
+      "source": "edge_aligned/analysis/native_stock_section_audit.json",
+      "file": "evidence/edge-aligned-analysis-native-stock-section-audit.json",
+      "source_sha256": "8f3546538d5bfe1bbe6ce7f2a432d2bd4c565a8a08dd3cb7abd21a9d892e589c",
+      "published_sha256": "be2193593f16401bebdc5a0defa17c66ece565fc12d7554a4bef0c7b141f8e00"
+    },
+    {
+      "source": "edge_aligned/analysis/sizing_assumptions_audit.json",
+      "file": "evidence/edge-aligned-analysis-sizing-assumptions-audit.json",
+      "source_sha256": "89f13ab6417846a1c95c89e31736fe4ad240161b7d146d8b0b8aab89dbb1c91a",
+      "published_sha256": "76ea5a9838e312909d4df877664038083abd3bb115665964cccc910083c0fccc"
+    },
+    {
+      "source": "edge_aligned/analysis/global_r8_massless_links.json",
+      "file": "evidence/edge-aligned-analysis-global-r8-massless-links.json",
+      "source_sha256": "386c9f9b3f5c421423ba9cd2797558c57b9f625ad546df1accd003f6146c642b",
+      "published_sha256": "7f7b61a68640c8907cc050bc5936adabc127c32882ae87aa93ce673361da631a"
+    },
+    {
+      "source": "edge_aligned/analysis/global_r4_massless_links.json",
+      "file": "evidence/edge-aligned-analysis-global-r4-massless-links.json",
+      "source_sha256": "6d144d5cf7ffc2859ac941297274737c790a445f0ec8f3603f8e2d619ac74a0c",
+      "published_sha256": "160925a182a15febb81f959dced7d4c779745d68f362d3dac83f2d6fb16be6a0"
+    },
+    {
+      "source": "edge_aligned/analysis/global_r8.json",
+      "file": "evidence/edge-aligned-analysis-global-r8.json",
+      "source_sha256": "113de452eaa13fd0606c8eeae60bb00833c834628b81ff904d9fc4b5fefe6af5",
+      "published_sha256": "08349176c0c5f8d2fe69095831b32834341962d16061bdb98a7b8fd4ec8d26e1"
+    },
+    {
+      "source": "edge_aligned/manufacturing/Audit-part-masses.csv",
+      "file": "evidence/edge-aligned-manufacturing-audit-part-masses.csv",
+      "source_sha256": "db0bc41574f6fccd191fcbfb3231a18c67d03d2828b2f5a8d459652b1762f92b",
+      "published_sha256": "5ebb1b6289be09fe40756915b9ca1b43f9cee0ef3a4cc07f15141304621a971b"
+    },
+    {
+      "source": "edge_aligned/manufacturing/Audit-mass-scope.json",
+      "file": "evidence/edge-aligned-manufacturing-audit-mass-scope.json",
+      "source_sha256": "9c2d4d1b0b359dada1fd68ab104e82ad1bdc6264723968f3f7a5d6f61abc00e4",
+      "published_sha256": "e5bbb5547bb82d880eba102eb468a725844820fb94d5ceb880ca88e04fa0c417"
+    },
+    {
+      "source": "edge_aligned/geometry/edge_alignment_measurements.json",
+      "file": "evidence/edge-aligned-geometry-edge-alignment-measurements.json",
+      "source_sha256": "c01a7a693711cb68eaca0b7fafa925c1a6e740d7368fcd8b1606b4c3e7650384",
+      "published_sha256": "cc29adfbc6ab7b451ff52a38319c3fe99df7fd26a008ba3da41828d657ecce86"
+    },
+    {
+      "source": "wing_trade/results/comparison.csv",
+      "file": "evidence/wing-trade-results-comparison.csv",
+      "source_sha256": "839f788f06a3f17190f64b6a085c021b45c40e996f513d27d5bcad4f0fe17a9d",
+      "published_sha256": "1a3d8c1e188b7a0d055bde6625195cc69629ebebe9bace44c354922686ff331b"
+    },
+    {
+      "source": "wing_trade/results/comparison.json",
+      "file": "evidence/wing-trade-results-comparison.json",
+      "source_sha256": "ae52f961002284e04893f87d35e28775391f76ea3053d2cbf480aeefe32c9d1c",
+      "published_sha256": "18cb0103bd40caf4c00b85d9c7e2f2e643474e717f8cd838071e6a84a0e288b8"
+    },
+    {
+      "source": "wing_trade/results/frames.json",
+      "file": "evidence/wing-trade-results-frames.json",
+      "source_sha256": "af232ab6dfb80fc059a22548fad7e5b04716bbce170868a72b31d96d20803f14",
+      "published_sha256": "f09842cb7d4d3d8b72dae424d8adbbd3b2adadb52008498af5994674258c8a77"
+    },
+    {
+      "source": "wing_trade/results/sensitivity.json",
+      "file": "evidence/wing-trade-results-sensitivity.json",
+      "source_sha256": "b514bf5ea1cfebd49a77d81e83590d91fde884ba20c37d99012171ce4efddfd9",
+      "published_sha256": "b67c764df8de5f2a4105c1dedf27f0e218feac372eceeb42407c1d87b73bc856"
+    },
+    {
+      "source": "wing_trade/results/solver_benchmark.json",
+      "file": "evidence/wing-trade-results-solver-benchmark.json",
+      "source_sha256": "04763b6087a25d0de857b9f34b0ff2b9b239d2653246b8cfd661ab382bb6ca31",
+      "published_sha256": "582532595c334044315fb079695e7c8738f490207cd479226bf31b7521e13c16"
+    },
+    {
+      "source": "wing_trade/results/wing_convergence.json",
+      "file": "evidence/wing-trade-results-wing-convergence.json",
+      "source_sha256": "dcb262e155bad45ee372b0c3b9c1717069a0bc1272db27a1a92e392662359772",
+      "published_sha256": "e257b4ce89460d2ea8774f120fd44f3580754514c58fdfe1ac0bc76ee4e99c2c"
+    },
+    {
+      "source": "wing_trade/results/dense_section_check.json",
+      "file": "evidence/wing-trade-results-dense-section-check.json",
+      "source_sha256": "b2fc88c43a3fb686dd79f30ae12bd3adbafb0f37b0c02f1552673a92db56d11a",
+      "published_sha256": "8c2f21b51ad92721a2e8c4b33bd744e411c768b46a3c298fcc4ccfd0fae4c139"
+    },
+    {
+      "source": "wing_trade/README.md",
+      "file": "notes/wing-trade-readme.md",
+      "source_sha256": "54bb16acdbe7e2d38850bb1852107fd36dc3f4bfe37e57393a455e21e71fb28c",
+      "published_sha256": "e8ba9c9e287f874d1d39e40fc33b3588fbcd9c212bc460f2ad369fa1fa5b8f7a"
+    },
+    {
+      "source": "load_path_revision/crossmember_analysis/comparison.json",
+      "file": "evidence/load-path-revision-crossmember-analysis-comparison.json",
+      "source_sha256": "33cdba23784dd2a700386b85b664f6f7ea9c9bc53209564928c926e2e50c87ba",
+      "published_sha256": "ce7eb151e0598c2118357fb32c13bba7537babeae56943278c8bea406df6bf17"
+    },
+    {
+      "source": "lug_attachment/evidence/C-Aft_native_checks.json",
+      "file": "evidence/lug-attachment-evidence-c-aft-native-checks.json",
+      "source_sha256": "4519e290fc1e910b633284774e5150422b4d83262f77d957c9e69054c27d2592",
+      "published_sha256": "4dbc282ed8975283e19d76cd08a9e7650510202f080f8e6642eedcc9e5cac38f"
+    },
+    {
+      "source": "lug_attachment/evidence/C-Fwd_native_checks.json",
+      "file": "evidence/lug-attachment-evidence-c-fwd-native-checks.json",
+      "source_sha256": "83ceee95f67dbff8226146e7b7507e59107046f1552383e4d746c9bf6620a780",
+      "published_sha256": "4d09a56c1a6b9f6beca0a7438571ca459f1d166f9a632d5bfccc9187e270aa9b"
+    },
+    {
+      "source": "lug_attachment/evidence/P-Front-spar_native_checks.json",
+      "file": "evidence/lug-attachment-evidence-p-front-spar-native-checks.json",
+      "source_sha256": "23ca384ac70cc76794fe8f013f65d2d5c6cb5938993551058085501b3c357e5e",
+      "published_sha256": "a7fed60ee5f68a7e68b02cd6a430aae423f805dc1e88ece4ab2bdd2049b8711b"
+    },
+    {
+      "source": "lug_attachment/evidence/P-Rear-spar_native_checks.json",
+      "file": "evidence/lug-attachment-evidence-p-rear-spar-native-checks.json",
+      "source_sha256": "1030fa44cf6318f789a9ef3f18debf38903089efb18d2f59996fe57bb053e582",
+      "published_sha256": "17546e2c178fee6f5b2766f62183e49c6549cd850c2547f513cafe789d05444a"
+    },
+    {
+      "source": "lug_attachment/evidence/S-Front-spar_native_checks.json",
+      "file": "evidence/lug-attachment-evidence-s-front-spar-native-checks.json",
+      "source_sha256": "ab0831cee1e388db3074635078f8aa9524956bde2a4b66f1ce376099e143cecb",
+      "published_sha256": "45ffc322826d72e7bc5df22f045d6cc34957a4f287413562744066bb409206fd"
+    },
+    {
+      "source": "lug_attachment/evidence/S-Rear-spar_native_checks.json",
+      "file": "evidence/lug-attachment-evidence-s-rear-spar-native-checks.json",
+      "source_sha256": "f45b50115eb35c7d2416e2d2a222faf1e5e353462275c453fae7ae037e9326c5",
+      "published_sha256": "db087e1af4f4f2f0fb6d631242e69e57281ab31f742b06d137f9499b36f0ef02"
+    },
+    {
+      "source": "lug_attachment/evidence/final_validation.json",
+      "file": "evidence/rev-g-final-validation.json",
+      "source_sha256": "ea1b48f8b37676e6de481349250fa9fa5a2d094c6f99d98e19189b23aa80334a",
+      "published_sha256": "914029f33666c388f0563daa12d2fa230d266056f8e810aabc11e9f173196a9d"
+    },
+    {
+      "source": "lug_attachment/evidence/assembly_gui_states.json",
+      "file": "evidence/rev-g-assembly-gui-states.json",
+      "source_sha256": "fd0a4d95e77afda6a0c02354cf06fd2136f6c26a63e692ae54e03c054588b4c9",
+      "published_sha256": "3042fbd29fc211129610bc74ab56a6951825c459d6d34cb4b06b2512b7d154fa"
+    },
+    {
+      "source": "lug_attachment/evidence/pin_stack_final.json",
+      "file": "evidence/rev-g-pin-stack-final.json",
+      "source_sha256": "4d54df1ec87356682faa557429ad6d5df40d9d312b0fc84d1c89f8e7e1791cf2",
+      "published_sha256": "0baaeaef4eaba09517b6fd90a01c137818fea9bcc1e850bbff68b30d29fa8338"
+    },
+    {
+      "source": "lug_attachment/evidence/Source-root-containment-tangent02.json",
+      "file": "evidence/rev-g-source-root-containment-tangent02.json",
+      "source_sha256": "8ab60c7cf5ea74feaf853dac2886e3d7f9c6dbac0369060177cf593d0cca1e25",
+      "published_sha256": "4d1323ace4bfd563489ebab0ee1fccb9208d9b27c9fa3cfc661bfe430fe8e9b6"
+    },
+    {
+      "source": "Lug-attachment-review.html",
+      "file": "reports/revision-g-lug-attachments.html",
+      "source_sha256": "482d1c39aa7c10589d7ee529be313c64d26fb52bf911a9d3d025c36f66f7ecc7",
+      "published_sha256": "e302dd2d5356f05b0598aa671f92493ad8b3e5a82ebfe2d155349b4e954faafb"
+    },
+    {
+      "source": "Design-review.html",
+      "file": "reports/revision-f-design.html",
+      "source_sha256": "85382d5ae1b7dd66b10f07166638506660ad401c2727306a4f9efbe3e6e12502",
+      "published_sha256": "90fddac9130b6b4ecee5ba779cff60efef97afc5e9709a380ebf3b3f62917fa0"
+    },
+    {
+      "source": "Design-review-E.html",
+      "file": "reports/revision-e-design.html",
+      "source_sha256": "4ca8eee1228c7b4b1686f0369c333831177691109b67c46c7cec1347c06ba930",
+      "published_sha256": "eb032930e708f6b0d14494a2117b8503e8f0ab1eda60318d7452ac2a083131ee"
+    },
+    {
+      "source": "Design-review-D.html",
+      "file": "reports/revision-d-design.html",
+      "source_sha256": "e56dd095cc15d73bd6da36ecf97d8a36fda9042d4406de796af835c79d0c55fb",
+      "published_sha256": "5f72548d8ed384da9c5b7114c210e55f5a72c7ccb53e91bf8020bacdd7c82cf9"
+    },
+    {
+      "source": "Sizing-audit.html",
+      "file": "reports/edge-aligned-sizing-audit.html",
+      "source_sha256": "d497f582c1b6dbd35f779f538c7f9280c0cf8f3da97e590935b5e9011b708c9c",
+      "published_sha256": "f3ecb4e9450b757f259e163050fa27ac10ca332d89255630beebb2df4d0f9622"
+    },
+    {
+      "source": "Wing-root-trade.html",
+      "file": "reports/wing-root-trade.html",
+      "source_sha256": "2419ad1af52ab8e58f9abf44fc2e0313594156292003cb895fe82354cf7c6b81",
+      "published_sha256": "889612f47ed956afa191d2ea16ab719186ea11285e4d0b280d066766689434c8"
+    },
+    {
+      "source": "Cranked-wing-review.html",
+      "file": "reports/cranked-wing-review.html",
+      "source_sha256": "8938bb347f49a12eb17e3c79b010143988b11df5aa1a85c8e50975d845239311",
+      "published_sha256": "544598fd5abd265d7f555d16321097d901e0363ee3670bdddedcff33002024e4"
+    },
+    {
+      "source": "Buckling-review.html",
+      "file": "reports/buckling-review.html",
+      "source_sha256": "aa599d95a2f4a3ab9f51cb47083d5a1887021aeaf24d05e0d4f23544509ac349",
+      "published_sha256": "0f21f880e9e505cb500f8abce7a88046043fec587854922982df1d948dfeab58"
+    }
+  ],
+  "omitted_artifacts": [
+    "edge_aligned/exports/C-Aft.step",
+    "edge_aligned/exports/C-Fwd.step",
+    "hat_longerons/exports/F06E.step",
+    "hat_longerons/exports/F08E2.step",
+    "load_path_revision/exports/F06E-ties.step",
+    "load_path_revision/exports/F08E2-ties.step",
+    "modular/exports/F06D.step",
+    "modular/exports/F08D.step",
+    "scripts/check_cranked_spar_paths.py",
+    "scripts/compare_hat_step.py",
+    "scripts/export_hat_bulkheads.py",
+    "scripts/export_modular_bulkheads.py",
+    "scripts/wing_trade_beam.py",
+    "scripts/wing_trade_compare.py",
+    "scripts/wing_trade_frames.py"
+  ],
+  "excluded_reference_image_hashes": [
+    "0620385680fa4738fb7cdb27c2891f2cd576715a2f38c9353937bbe150f45fc2",
+    "177c16873f7c8cc9f3891eb0c293887fa9c66a912436bbc8f8f399fa715df84a",
+    "361959be5f07da933387cc25e1de2c8cd5e54f77791858fa32014e0010ccc3da",
+    "3b99667894b5dd1199d672ced0000a22e2c7d2be3f1d26d8899f503eb572ea3d",
+    "7173e1761c7e115b898ea22979f31a203e0bb0cac0cba6e3471e43c327aecbc4",
+    "95c9e7351544e0368277f3f3e8e8a2023ce23ca6f24cac4f61ed0e852deea5c4",
+    "b3239e2544a7a32d599999f2c1dab063fdbb1109ba2f7b04d0df476ecbd01d63",
+    "cdabcf4b22e3a5f99abbd6a721ba2ffa1cc2783ae62cf73f72a92ce3d86e5dd1",
+    "f9dfef03220e529c0b79b0b9ee09c1feb3f6cf44717b3848c5480ecdb5b91022"
+  ],
+  "images": [
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/3497a70f2ec2583ab407711ba01b197193e400ae5f10b047da2bc2d4c2e584a7.png",
+      "alt": "Proposed joint stack",
+      "sha256": "3497a70f2ec2583ab407711ba01b197193e400ae5f10b047da2bc2d4c2e584a7"
+    },
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/059ed62a92a7cc04d0076c4a4b19cd33b8b9e8ee0aebc3e9e2dd256ef108b35c.png",
+      "alt": "Revision G inside the aircraft",
+      "sha256": "059ed62a92a7cc04d0076c4a4b19cd33b8b9e8ee0aebc3e9e2dd256ef108b35c"
+    },
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/f3a9d6965c0b997c4258863a7bebc111246ba092de4f797ed8cc4be844bc4cb6.png",
+      "alt": "Forward spar attachment",
+      "sha256": "f3a9d6965c0b997c4258863a7bebc111246ba092de4f797ed8cc4be844bc4cb6"
+    },
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/8d0fcff78f8a15bae7e4580aa0ef539566aa960011824b9fe7b7609e02f60c3e.png",
+      "alt": "Aft spar attachment",
+      "sha256": "8d0fcff78f8a15bae7e4580aa0ef539566aa960011824b9fe7b7609e02f60c3e"
+    },
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/ddc6e993e150a6b960558a1e9c0ed546cc780bf46529a021fc05daf77bc8c148.png",
+      "alt": "Forward bulkhead",
+      "sha256": "ddc6e993e150a6b960558a1e9c0ed546cc780bf46529a021fc05daf77bc8c148"
+    },
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/872b4057b62153c255e89a4aca54d5c2802bb7fa5549692bf649f490951739b4.png",
+      "alt": "Aft bulkhead",
+      "sha256": "872b4057b62153c255e89a4aca54d5c2802bb7fa5549692bf649f490951739b4"
+    },
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/a2cdd79e941d59b603564f635e557e9071b13a2572dde932f30905ac9b10245c.png",
+      "alt": "All frame stations",
+      "sha256": "a2cdd79e941d59b603564f635e557e9071b13a2572dde932f30905ac9b10245c"
+    },
+    {
+      "report": "reports/revision-g-lug-attachments.html",
+      "file": "reports/assets/d6ea9ce054947a34541078a4bed6787887b7f22c968a4a322d166f823897c881.png",
+      "alt": "Calculated fork stresses",
+      "sha256": "d6ea9ce054947a34541078a4bed6787887b7f22c968a4a322d166f823897c881"
+    },
+    {
+      "report": "reports/revision-f-design.html",
+      "file": "reports/assets/26e84a944c91b5db7984ecb3dca045afcdeef3e6a0a4b27608fa03630423d3c7.png",
+      "alt": "Revision F native nTop assembly. All 54 structural members remain separate implicit bodies. Orange and ochre identify the two revised primaries.",
+      "sha256": "26e84a944c91b5db7984ecb3dca045afcdeef3e6a0a4b27608fa03630423d3c7"
+    },
+    {
+      "report": "reports/revision-f-design.html",
+      "file": "reports/assets/9a17466645121c1c34d5012c4b5d45344f5078968e468d20163f61cdcbd2043f.png",
+      "alt": "All twelve native frame and bulkhead stations inside the translucent aircraft. The forward primary stays at FS 4000 mm; the aft primary stays at FS 5400 mm.",
+      "sha256": "9a17466645121c1c34d5012c4b5d45344f5078968e468d20163f61cdcbd2043f"
+    },
+    {
+      "report": "reports/revision-f-design.html",
+      "file": "reports/assets/2ecc70d4016d9f957aae64179a372dc69d2f441a8e7e475969c1ef9d5ce371d6.png",
+      "alt": "Both revised primaries with the eight native hat longerons. The ribs connect each local passage pad to the inner perimeter flange. Longeron ends extend outside this detail view.",
+      "sha256": "2ecc70d4016d9f957aae64179a372dc69d2f441a8e7e475969c1ef9d5ce371d6"
+    },
+    {
+      "report": "reports/revision-f-design.html",
+      "file": "reports/assets/34622175f258867ec9ec4c4f6ae9d7a6a71ec7ece6c0a49f06bfc86b0c5e8b5f.png",
+      "alt": "Forward primary at FS 4000 mm. Native front view shows all eight pad ties, including the crown, sides, and lower corners.",
+      "sha256": "34622175f258867ec9ec4c4f6ae9d7a6a71ec7ece6c0a49f06bfc86b0c5e8b5f"
+    },
+    {
+      "report": "reports/revision-f-design.html",
+      "file": "reports/assets/464990b50adec6a144e8555da78b5c1e065aabef25cf5b08707daf6ed59d9241.png",
+      "alt": "Aft primary at FS 5400 mm. Native oblique view shows the 60 mm forging depth, 6 mm residual floor, and rounded pocket roots.",
+      "sha256": "464990b50adec6a144e8555da78b5c1e065aabef25cf5b08707daf6ed59d9241"
+    },
+    {
+      "report": "reports/revision-f-design.html",
+      "file": "reports/assets/c2d650a1c7fcd6df6f5c5e9464e99462106f4cd6cec2b71a39823f36f5e62c55.png",
+      "alt": "Dimensional profile comparison at the forward primary. The dashed line marks the current lower spar-cap level. The unselected concept reduces opening area by 17.6%. These are analytical plan views, not native nTop renders.",
+      "sha256": "c2d650a1c7fcd6df6f5c5e9464e99462106f4cd6cec2b71a39823f36f5e62c55"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/3b9eeb18f6557dc0a6780ce89a21e14545765510beddaf747ec7c783662020bb.png",
+      "alt": "All eight native hat members. Frames, spars, and ribs are hidden in this view to expose the longitudinal paths.",
+      "sha256": "3b9eeb18f6557dc0a6780ce89a21e14545765510beddaf747ec7c783662020bb"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/8b12e9e4bf68279097cc8baf99113b012dd1af36239bd639594e3f5af8bd2435.png",
+      "alt": "Native side view of the eight hat members. The routes follow the aircraft contour and pass through all twelve station planes.",
+      "sha256": "8b12e9e4bf68279097cc8baf99113b012dd1af36239bd639594e3f5af8bd2435"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/a4bc5be3670625a4a46b88295959fdd7540faff903bdb4bfb06ca5bdb9bdc398.png",
+      "alt": "One complete native longeron. Its center and orientation rails follow the aircraft section data.",
+      "sha256": "a4bc5be3670625a4a46b88295959fdd7540faff903bdb4bfb06ca5bdb9bdc398"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/31c2f9e633a83d0430199592495b656c030ce37a62dd8fb942b6229fc2f58f79.png",
+      "alt": "Native close-up of the forward end of L01. The open hat cavity, crown, webs, and outward-facing feet are visible.",
+      "sha256": "31c2f9e633a83d0430199592495b656c030ce37a62dd8fb942b6229fc2f58f79"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/2b2c0745ee394b84a3a4bb47721ec5075a3afaad56da3bead5a7d746b10f9d12.png",
+      "alt": "Native close-up: L01 passes through the forward primary bulkhead. The cutout clears the entire hat section.",
+      "sha256": "2b2c0745ee394b84a3a4bb47721ec5075a3afaad56da3bead5a7d746b10f9d12"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/cdd34e78167816a5c4482310237a13807eaa1ca7abc4a7e6d0805f9e4ecd3f7e.png",
+      "alt": "Native close-up: upper hat passage at the aft primary bulkhead. The inward route adjustment preserves the outer edge.",
+      "sha256": "cdd34e78167816a5c4482310237a13807eaa1ca7abc4a7e6d0805f9e4ecd3f7e"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/0752b4ba2aa84685b50aca7ede76897157747ece49fab72d73b521ee70aa0500.png",
+      "alt": "Updated forward primary at FS 4,000 mm. The eight hat openings replace the former round-member passages.",
+      "sha256": "0752b4ba2aa84685b50aca7ede76897157747ece49fab72d73b521ee70aa0500"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/fe8a310965687da5b6a141bbb12938b6a39a742f40d9a18c1d8f632eee896b68.png",
+      "alt": "Updated aft primary at FS 5,400 mm. Both faces retain 28 conformal pockets and R6.35 rolling-ball floor blends.",
+      "sha256": "fe8a310965687da5b6a141bbb12938b6a39a742f40d9a18c1d8f632eee896b68"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/ad5d842d5130a005577954c2ed0d97d2afaa9f11bed52a8d2eb5e239643c2af0.png",
+      "alt": "All twelve updated native frame and bulkhead bodies inside the supplied aircraft envelope.",
+      "sha256": "ad5d842d5130a005577954c2ed0d97d2afaa9f11bed52a8d2eb5e239643c2af0"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/87910c91ba52802327f4064c6d039ca52c4a3fafb8704cf8c797f7f853365d43.png",
+      "alt": "Native side view of the twelve stations. The primary bulkheads remain at FS 4,000 and 5,400 mm.",
+      "sha256": "87910c91ba52802327f4064c6d039ca52c4a3fafb8704cf8c797f7f853365d43"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/6ddd51446f396f227a49630644781214a4cee4c7c3448159349011c888426e43.png",
+      "alt": "F01, FS 900 mm. Native front view of the separate Revision E station model.",
+      "sha256": "6ddd51446f396f227a49630644781214a4cee4c7c3448159349011c888426e43"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/91747d88eaf90569586c45a7914f59e37d5e3814f25b38dce12d7854f9444588.png",
+      "alt": "F02, FS 1,500 mm. Native front view of the separate Revision E station model.",
+      "sha256": "91747d88eaf90569586c45a7914f59e37d5e3814f25b38dce12d7854f9444588"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/3d780aa0ec6b9268f490bb8673ae3f50769b35edaf1677febc9069077948f7bb.png",
+      "alt": "F03, FS 2,150 mm. Native front view of the separate Revision E station model.",
+      "sha256": "3d780aa0ec6b9268f490bb8673ae3f50769b35edaf1677febc9069077948f7bb"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/e143ee11a2dcfc6fb0ac6a3324e093d6a0dd35c9b421d8a50bd97941056c4fff.png",
+      "alt": "F04, FS 2,800 mm. Native front view of the separate Revision E station model.",
+      "sha256": "e143ee11a2dcfc6fb0ac6a3324e093d6a0dd35c9b421d8a50bd97941056c4fff"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/6f2727ae0a9c26aa1ee71f4fbcd415c63ebb64d09568a96d9e7bbd909550f746.png",
+      "alt": "F05, FS 3,400 mm. Native front view of the separate Revision E station model.",
+      "sha256": "6f2727ae0a9c26aa1ee71f4fbcd415c63ebb64d09568a96d9e7bbd909550f746"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/58874785276db3b505494dca006bc41f958f511820e66b6f4ddc433be9da7f0d.png",
+      "alt": "F06, FS 4,000 mm. Native front view of the separate Revision E station model.",
+      "sha256": "58874785276db3b505494dca006bc41f958f511820e66b6f4ddc433be9da7f0d"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/f5c8a88891973ddfd6c0af6a55ac4da75c6d36a22a0dca465e887c003aef8504.png",
+      "alt": "F07, FS 4,700 mm. Native front view of the separate Revision E station model.",
+      "sha256": "f5c8a88891973ddfd6c0af6a55ac4da75c6d36a22a0dca465e887c003aef8504"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/a3e8b95af2376d76e6fb05771f71376deaf730b150a2ed39906e65229a1eb8e1.png",
+      "alt": "F08, FS 5,400 mm. Native front view of the separate Revision E station model.",
+      "sha256": "a3e8b95af2376d76e6fb05771f71376deaf730b150a2ed39906e65229a1eb8e1"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/74ed1b203a204227e415ac4dca625db0fc52a0d0fa2840d0a8a93c99205fe0ec.png",
+      "alt": "F09, FS 6,100 mm. Native front view of the separate Revision E station model.",
+      "sha256": "74ed1b203a204227e415ac4dca625db0fc52a0d0fa2840d0a8a93c99205fe0ec"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/cb3186a68ac3e00913d9ee4aff8bdc54de655d53b869de5e94902407eb442627.png",
+      "alt": "F10, FS 6,800 mm. Native front view of the separate Revision E station model.",
+      "sha256": "cb3186a68ac3e00913d9ee4aff8bdc54de655d53b869de5e94902407eb442627"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/d6259624b189b9bf240fc4502ad029191b3840babee5507ed15dff13e370d504.png",
+      "alt": "F11, FS 7,500 mm. Native front view of the separate Revision E station model.",
+      "sha256": "d6259624b189b9bf240fc4502ad029191b3840babee5507ed15dff13e370d504"
+    },
+    {
+      "report": "reports/revision-e-design.html",
+      "file": "reports/assets/3eddd1eaf7e22fa30771268805a7f67974ee99a273dfc3fa012905d0f0150321.png",
+      "alt": "F12, FS 8,150 mm. Native front view of the separate Revision E station model.",
+      "sha256": "3eddd1eaf7e22fa30771268805a7f67974ee99a273dfc3fa012905d0f0150321"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/9685369edee84ec13f8cfc41eac8fb3b65c768fcd263ea644985a7001d091038.png",
+      "alt": "Native nTop view: 54 separate implicit members inside the translucent source aircraft. Orange and gold identify the primary bulkheads. Member sizes remain proposed.",
+      "sha256": "9685369edee84ec13f8cfc41eac8fb3b65c768fcd263ea644985a7001d091038"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/e0d5bae1f5f908d5a7fd2980807961e46d2f3a84334fe65fb87b2a2260c9ace4.png",
+      "alt": "All twelve native bulkhead and frame bodies inside the aircraft. The other structural families are hidden to show the stations.",
+      "sha256": "e0d5bae1f5f908d5a7fd2980807961e46d2f3a84334fe65fb87b2a2260c9ace4"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/a50b93ef147a5d3a6bdf159b4ed0c13c399b3c39e5392e4f64bc614790c9408d.png",
+      "alt": "Native side view of the same twelve stations. The detailed primary bulkheads sit at X = 4,000 mm and X = 5,400 mm.",
+      "sha256": "a50b93ef147a5d3a6bdf159b4ed0c13c399b3c39e5392e4f64bc614790c9408d"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/6a446fee544aabef84e07ece7c23e260af2c38b366ae9c1f818b5eb873d1b310.png",
+      "alt": "Forward primary bulkhead, FS 4,000 mm. Native implicit view of 28 pockets per face and eight oblique longeron passages.",
+      "sha256": "6a446fee544aabef84e07ece7c23e260af2c38b366ae9c1f818b5eb873d1b310"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/51831d23cabace515749e46fb055b8855cdfd94ff0c54c9f9a7bb088d7d8b041.png",
+      "alt": "New detailed aft primary bulkhead, FS 5,400 mm. Its perimeter and pockets follow the measured aft aircraft section.",
+      "sha256": "51831d23cabace515749e46fb055b8855cdfd94ff0c54c9f9a7bb088d7d8b041"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/525fcdf9013ba71d42c6f2caab7e7854919cce71ef8ba9a2545413a6c58918dd.png",
+      "alt": "New shoulder pocket with a rounded plan boundary and R6.35 floor transition.",
+      "sha256": "525fcdf9013ba71d42c6f2caab7e7854919cce71ef8ba9a2545413a6c58918dd"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/029427146cfc2065f970dbd5aef1f84e3bfa8b55c7c4a92a9e7bebbe2d2b2afd.png",
+      "alt": "Corrected crown pocket corner. The separate curved upper land protects a longeron passage.",
+      "sha256": "029427146cfc2065f970dbd5aef1f84e3bfa8b55c7c4a92a9e7bebbe2d2b2afd"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/09219464e72b8babdfd7971c026608aa6307d6bdba35eea066b58100701bdebb.png",
+      "alt": "Superseded first sector pattern, retained for the material comparison.",
+      "sha256": "09219464e72b8babdfd7971c026608aa6307d6bdba35eea066b58100701bdebb"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/8736bb7abf7ee16dccaa1becb8e0a0c92a53720abae13160433e5916076b6f1d.png",
+      "alt": "Native view of the primary spar roots and fitted wing ribs. The shared root faces replace the old overlapping or offset ends.",
+      "sha256": "8736bb7abf7ee16dccaa1becb8e0a0c92a53720abae13160433e5916076b6f1d"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/0f20d09ceb26ed7890bfbdc24127fe315f5adbfa3602a1792f9f33426602f8ce.png",
+      "alt": "Native close-up of a rib-to-spar connection. The rib end follows the web face and clears the cap.",
+      "sha256": "0f20d09ceb26ed7890bfbdc24127fe315f5adbfa3602a1792f9f33426602f8ce"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/6ad66ed62ea7a2637a63e88760b05e73066293b60dd155cf7071d2eca3fe2775.png",
+      "alt": "Native tail-root view. Four proposed supports connect the tail spar roots to the aft fuselage frames. Their sockets use the actual saved tail spar bodies.",
+      "sha256": "6ad66ed62ea7a2637a63e88760b05e73066293b60dd155cf7071d2eca3fe2775"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/612f1b217fa48f69d12146b9a9ed0216f2c1151ad0999f221093efec720534ac.png",
+      "alt": "F01 at FS 900 mm. Separate native nTop part model.",
+      "sha256": "612f1b217fa48f69d12146b9a9ed0216f2c1151ad0999f221093efec720534ac"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/18b0f74b6384025fed3b310ffd220800bcb31802b299970ccdd22bfca698521f.png",
+      "alt": "F02 at FS 1,500 mm. Separate native nTop part model.",
+      "sha256": "18b0f74b6384025fed3b310ffd220800bcb31802b299970ccdd22bfca698521f"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/8b7375fe62a3aae2daf6f9d45c7ca7da67743c3488531c6eaabf4e22e1a86053.png",
+      "alt": "F03 at FS 2,150 mm. Separate native nTop part model.",
+      "sha256": "8b7375fe62a3aae2daf6f9d45c7ca7da67743c3488531c6eaabf4e22e1a86053"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/ad3237602aae72b209cb4fae4a5c6b4693b236a8709664b54d971efbe127a83f.png",
+      "alt": "F04 at FS 2,800 mm. Separate native nTop part model.",
+      "sha256": "ad3237602aae72b209cb4fae4a5c6b4693b236a8709664b54d971efbe127a83f"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/9dce7c1aac8bc9ef6f42c4c75aa03c326e631cf614ca01d73357fde0736a3df5.png",
+      "alt": "F05 at FS 3,400 mm. Separate native nTop part model.",
+      "sha256": "9dce7c1aac8bc9ef6f42c4c75aa03c326e631cf614ca01d73357fde0736a3df5"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/6a446fee544aabef84e07ece7c23e260af2c38b366ae9c1f818b5eb873d1b310.png",
+      "alt": "F06 at FS 4,000 mm. Separate native nTop part model.",
+      "sha256": "6a446fee544aabef84e07ece7c23e260af2c38b366ae9c1f818b5eb873d1b310"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/4285ddfc3940ebcf3498342258b8984387df0922f6b1aabf1c752fda871b04e6.png",
+      "alt": "F07 at FS 4,700 mm. Separate native nTop part model.",
+      "sha256": "4285ddfc3940ebcf3498342258b8984387df0922f6b1aabf1c752fda871b04e6"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/928a0af076ed6a70fab93572148cca7007638d8ce64f3396d8ef9196836c6f60.png",
+      "alt": "F08 at FS 5,400 mm. Separate native nTop part model.",
+      "sha256": "928a0af076ed6a70fab93572148cca7007638d8ce64f3396d8ef9196836c6f60"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/94eabf86891ed62bf93adad29ad2f8a2566ad39fd2fdf52c8ba9652638214d0d.png",
+      "alt": "F09 at FS 6,100 mm. Separate native nTop part model.",
+      "sha256": "94eabf86891ed62bf93adad29ad2f8a2566ad39fd2fdf52c8ba9652638214d0d"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/f629f3609e55dfc0e14731d631367824e3fc4443dceeb11d1e9529c290c292ab.png",
+      "alt": "F10 at FS 6,800 mm. Separate native nTop part model.",
+      "sha256": "f629f3609e55dfc0e14731d631367824e3fc4443dceeb11d1e9529c290c292ab"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/5bd12e03054c3f35559d3fc1ca799c1e5513f947d0b052fc1d88981f27b71f4b.png",
+      "alt": "F11 at FS 7,500 mm. Separate native nTop part model.",
+      "sha256": "5bd12e03054c3f35559d3fc1ca799c1e5513f947d0b052fc1d88981f27b71f4b"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/591f885eb57c6dca3080786e7f1f6ed1fe3018658410bc2ccbda59806de53838.png",
+      "alt": "F12 at FS 8,150 mm. Separate native nTop part model.",
+      "sha256": "591f885eb57c6dca3080786e7f1f6ed1fe3018658410bc2ccbda59806de53838"
+    },
+    {
+      "report": "reports/revision-d-design.html",
+      "file": "reports/assets/65448d013253b933193adbb9190db58aabe3311af231f5b81c03a27589bc21e3.png",
+      "alt": "Earlier native nTop pocket coupon. The small test qualified the circular rolling-ball construction before the full bulkhead.",
+      "sha256": "65448d013253b933193adbb9190db58aabe3311af231f5b81c03a27589bc21e3"
+    },
+    {
+      "report": "reports/edge-aligned-sizing-audit.html",
+      "file": "reports/assets/bb0f85c1d98ca09356f4568a9c0f7693dc464ba55d6291c8c7cd6e1aa415aaf4.png",
+      "alt": "Calculated | weight breakdown and rib sensitivity",
+      "sha256": "bb0f85c1d98ca09356f4568a9c0f7693dc464ba55d6291c8c7cd6e1aa415aaf4"
+    },
+    {
+      "report": "reports/edge-aligned-sizing-audit.html",
+      "file": "reports/assets/6bdfc2ce2a353e42e65385fb5c7ab6fd40824c0603446c5f6551f7d56f2a8a3a.png",
+      "alt": "Derived from the aircraft source | edge-aligned spar layout",
+      "sha256": "6bdfc2ce2a353e42e65385fb5c7ab6fd40824c0603446c5f6551f7d56f2a8a3a"
+    },
+    {
+      "report": "reports/edge-aligned-sizing-audit.html",
+      "file": "reports/assets/e0d84206af2bf4801148650d513a06b3f36fe6e1f5581176ef180fe98eaacc55.png",
+      "alt": "Native nTop | all revised bulkhead stations in the aircraft",
+      "sha256": "e0d84206af2bf4801148650d513a06b3f36fe6e1f5581176ef180fe98eaacc55"
+    },
+    {
+      "report": "reports/edge-aligned-sizing-audit.html",
+      "file": "reports/assets/f1c6a099b8f613430d41cd3ac6e4c250c53d2eae3ed5a60b8546fd5e6d8aea24.png",
+      "alt": "Native nTop | revised forward primary",
+      "sha256": "f1c6a099b8f613430d41cd3ac6e4c250c53d2eae3ed5a60b8546fd5e6d8aea24"
+    },
+    {
+      "report": "reports/edge-aligned-sizing-audit.html",
+      "file": "reports/assets/a2ae9fde98cf7ed6cccb47329714da943ee97c5ce9275f3127fe74021ae3a79b.png",
+      "alt": "Native nTop | revised aft primary",
+      "sha256": "a2ae9fde98cf7ed6cccb47329714da943ee97c5ce9275f3127fe74021ae3a79b"
+    },
+    {
+      "report": "reports/edge-aligned-sizing-audit.html",
+      "file": "reports/assets/955c55bf03e34c0f0d73bdd3a0cba8b512e7dac6f2e61951b3a64b51663e0ccd.png",
+      "alt": "Native nTop | revised front spar",
+      "sha256": "955c55bf03e34c0f0d73bdd3a0cba8b512e7dac6f2e61951b3a64b51663e0ccd"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/4979690ac3c9e3f6bfdd369cfc5dc723bb6ab5979b6992479b3a5ca1e769f181.png",
+      "alt": "Derived from the saved aircraft geometry. Both spars stay attached at BL 1280. The straight lines extend the first outboard spar segment inboard. C is the closest studied interpretation of George's sketch.",
+      "sha256": "4979690ac3c9e3f6bfdd369cfc5dc723bb6ab5979b6992479b3a5ca1e769f181"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/e230d65236da7bd6ff13c34b3c6112bb3f740b47cdf369d6ca083340715c9b7a.png",
+      "alt": "Calculated study mass ledger. The frame proxies pass the selected local buckling screen but fail the stress screen. These are not equal-strength released part weights.",
+      "sha256": "e230d65236da7bd6ff13c34b3c6112bb3f740b47cdf369d6ca083340715c9b7a"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/04fa41267d44f82dccefc0a7128dfed0b8822e241a348e85148c36fbf6d00066.png",
+      "alt": "Calculated cover, spar-web, and cap gauges. Every step occurs at a modeled rib. Runouts, gauge transitions, local joints, fatigue, and manufacturing details require a later design pass.",
+      "sha256": "04fa41267d44f82dccefc0a7128dfed0b8822e241a348e85148c36fbf6d00066"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/df890ce2cf9412535f288f5f3f7a1d5a04aaffb30f7dbbf11b537d98a8c56927.png",
+      "alt": "Calculated in-plane stress on 8 mm target meshes. Circles locate maximum element stresses. The common color scale extends to 550 MPa. The 250 MPa study ceiling is exceeded in both forward frames.",
+      "sha256": "df890ce2cf9412535f288f5f3f7a1d5a04aaffb30f7dbbf11b537d98a8c56927"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/acf4ce279c637481d89c0e9e37ffa0a7989b10efc59fb2cc4191b72833665bfa.png",
+      "alt": "Calculated station sweep. The aft primary stays at FS 5400 for this curve. Blue includes the least-mass bracing allowance. Gray omits that additional bracing. Every forward-frame stress result exceeds the study ceiling.",
+      "sha256": "acf4ce279c637481d89c0e9e37ffa0a7989b10efc59fb2cc4191b72833665bfa"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/c2f6aa9d833f6ae7b97e4c2d7a3f537eb717ed1774cdd793d7fa52eb0d5b5cb4.png",
+      "alt": "The wing is re-sized for each load, cover-pitch, or load-line case. Baseline frame gauges remain fixed in these sensitivity totals; their stresses scale with the applied load. The plot is not a set of fully re-sized aircraft weights.",
+      "sha256": "c2f6aa9d833f6ae7b97e4c2d7a3f537eb717ed1774cdd793d7fa52eb0d5b5cb4"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/ed85f44fe2caf26532fa9f25dfe36e10fcd5e9fe74a1f984157a464fbcd647e1.png",
+      "alt": "Calculated pad-to-inner-flange rib layout at the current primary stations. Orange lines identify the eight paths per primary. The exterior, main opening, and all passage envelopes stay fixed in this candidate.",
+      "sha256": "ed85f44fe2caf26532fa9f25dfe36e10fcd5e9fe74a1f984157a464fbcd647e1"
+    },
+    {
+      "report": "reports/wing-root-trade.html",
+      "file": "reports/assets/2ecc70d4016d9f957aae64179a372dc69d2f441a8e7e475969c1ef9d5ce371d6.png",
+      "alt": "Revision F native nTop view of the updated primaries and hat longerons. All eight pads per primary connect to the inner flange. Primary stations and the central opening remain fixed.",
+      "sha256": "2ecc70d4016d9f957aae64179a372dc69d2f441a8e7e475969c1ef9d5ce371d6"
+    },
+    {
+      "report": "reports/cranked-wing-review.html",
+      "file": "reports/assets/cc3c8fb565c2f2901a8ffa6740368b4f03f1e55379c2ed3b61f2b78338647f17.png",
+      "alt": "Measured plan-view comparison of existing cranked spar routes and straight inboard extensions",
+      "sha256": "cc3c8fb565c2f2901a8ffa6740368b4f03f1e55379c2ed3b61f2b78338647f17"
+    },
+    {
+      "report": "reports/buckling-review.html",
+      "file": "reports/assets/219d05b3d9e4e22c45936e433639f9eda54d0a131b306478fc7b8b1597ff3d4d.png",
+      "alt": "Calculated stress from the two-dimensional model. The displayed factored stresses are linear extrapolations. Values above the assumed ceiling do not represent a valid elastic material response.",
+      "sha256": "219d05b3d9e4e22c45936e433639f9eda54d0a131b306478fc7b8b1597ff3d4d"
+    },
+    {
+      "report": "reports/buckling-review.html",
+      "file": "reports/assets/aebc958805110a4a37d34b65aa45b01140f29f8c70d3b0ee08551b449b9f861c.png",
+      "alt": "Pocket-floor screening factors at the factored load, after the assumed 0.65 reduction. The required factor is 1.15. Green regions are candidates for closer local study, not approval to remove material.",
+      "sha256": "aebc958805110a4a37d34b65aa45b01140f29f8c70d3b0ee08551b449b9f861c"
+    },
+    {
+      "report": "reports/buckling-review.html",
+      "file": "reports/assets/2354e82cdad46e77a70d9bb35420a7b7d8a09e642db0970c5bc746ada6333964.png",
+      "alt": "Uniform rib and web trials. Labels give rib width r and residual web thickness w in millimetres. Mass is a projected membrane proxy that omits the three-dimensional blend volume.",
+      "sha256": "2354e82cdad46e77a70d9bb35420a7b7d8a09e642db0970c5bc746ada6333964"
+    },
+    {
+      "report": "reports/buckling-review.html",
+      "file": "reports/assets/dd518ab82059c730328dfea1df8777578a5c145a4f5431095ceaf65c21bb0aa9.png",
+      "alt": "Measured baseline dimensions and proposed section dimensions at the same scale. These are straight-section shapes, not complete curved ribs.",
+      "sha256": "dd518ab82059c730328dfea1df8777578a5c145a4f5431095ceaf65c21bb0aa9"
+    },
+    {
+      "report": "reports/buckling-review.html",
+      "file": "reports/assets/91eebe088714cac0f713e1bbd20fdc780d02aeee92eb5f4668eed9a89fe10549.png",
+      "alt": "Discrete section search using the recovered baseline force envelopes. A ratio above one means more material per unit length. No passing option means the search cannot support a thickness recommendation.",
+      "sha256": "91eebe088714cac0f713e1bbd20fdc780d02aeee92eb5f4668eed9a89fe10549"
+    },
+    {
+      "report": "reports/buckling-review.html",
+      "file": "reports/assets/e9e5e3782b46c2edd0074d3ff571e5960deecfead7f41ea4637be1bcf2d9dceb.png",
+      "alt": "Native nTop section coupons. Blue shows the flat rib references; orange shows the thin flanged candidates. Gold shows the hat concept and gray shows the solid round reference.",
+      "sha256": "e9e5e3782b46c2edd0074d3ff571e5960deecfead7f41ea4637be1bcf2d9dceb"
+    },
+    {
+      "report": "reports/buckling-review.html",
+      "file": "reports/assets/61ac081e2cde49b7bdffee2717be1bec47f4f873aa749d1a0dea2ae4061fbbf7.png",
+      "alt": "Equal-scale cross sections; both plot coordinates are millimetres. The Euler comparison uses the measured longest frame bay and pinned ends. The 0.65 study reduction is included. Local, distortional and torsional instability are excluded.",
+      "sha256": "61ac081e2cde49b7bdffee2717be1bec47f4f873aa749d1a0dea2ae4061fbbf7"
+    }
+  ]
+}

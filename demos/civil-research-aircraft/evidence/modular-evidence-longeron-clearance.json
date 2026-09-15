@@ -1,0 +1,775 @@
+{
+  "method": "Analytic circular-cylinder sections at the station and both limiting axial planes. Angular maximum refined numerically. Infinite adjoining cylinders conservatively include the capsule end regions.",
+  "samples": 96,
+  "minimum_clearance_mm": 0.27881820596413043,
+  "checks": [
+    {
+      "frame": "F01",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000004,
+      "minimum_radial_clearance_mm": 0.49999999999999645
+    },
+    {
+      "frame": "F01",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000004,
+      "minimum_radial_clearance_mm": 0.49999999999999645
+    },
+    {
+      "frame": "F01",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000005,
+      "minimum_radial_clearance_mm": 0.49999999999999467
+    },
+    {
+      "frame": "F01",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000002,
+      "minimum_radial_clearance_mm": 0.4999999999999982
+    },
+    {
+      "frame": "F01",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000004,
+      "minimum_radial_clearance_mm": 0.49999999999999645
+    },
+    {
+      "frame": "F01",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000002,
+      "minimum_radial_clearance_mm": 0.4999999999999982
+    },
+    {
+      "frame": "F01",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000004,
+      "minimum_radial_clearance_mm": 0.49999999999999645
+    },
+    {
+      "frame": "F01",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000004,
+      "minimum_radial_clearance_mm": 0.49999999999999645
+    },
+    {
+      "frame": "F02",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.964242804090242,
+      "max_tube_radius_about_passage_axis_mm": 10.617308220911333,
+      "minimum_radial_clearance_mm": 0.3469345831789088
+    },
+    {
+      "frame": "F02",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.105499763531835,
+      "max_tube_radius_about_passage_axis_mm": 10.826681557567705,
+      "minimum_radial_clearance_mm": 0.27881820596413043
+    },
+    {
+      "frame": "F02",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.101645412370871,
+      "max_tube_radius_about_passage_axis_mm": 10.806581523899775,
+      "minimum_radial_clearance_mm": 0.29506388847109655
+    },
+    {
+      "frame": "F02",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.102533097480858,
+      "max_tube_radius_about_passage_axis_mm": 10.822878524867171,
+      "minimum_radial_clearance_mm": 0.279654572613687
+    },
+    {
+      "frame": "F02",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.963743349114187,
+      "max_tube_radius_about_passage_axis_mm": 10.616684116938218,
+      "minimum_radial_clearance_mm": 0.3470592321759689
+    },
+    {
+      "frame": "F02",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.932941686590654,
+      "max_tube_radius_about_passage_axis_mm": 10.5342950965881,
+      "minimum_radial_clearance_mm": 0.39864659000255465
+    },
+    {
+      "frame": "F02",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.703052628436925,
+      "max_tube_radius_about_passage_axis_mm": 10.221070389141046,
+      "minimum_radial_clearance_mm": 0.48198223929587947
+    },
+    {
+      "frame": "F02",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.93747597853733,
+      "max_tube_radius_about_passage_axis_mm": 10.540121792776564,
+      "minimum_radial_clearance_mm": 0.39735418576076675
+    },
+    {
+      "frame": "F03",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.093177644288504,
+      "max_tube_radius_about_passage_axis_mm": 10.734506600747103,
+      "minimum_radial_clearance_mm": 0.3586710435414009
+    },
+    {
+      "frame": "F03",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.200536970717021,
+      "max_tube_radius_about_passage_axis_mm": 10.876983425961267,
+      "minimum_radial_clearance_mm": 0.3235535447557538
+    },
+    {
+      "frame": "F03",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.168982607606274,
+      "max_tube_radius_about_passage_axis_mm": 10.820889636820594,
+      "minimum_radial_clearance_mm": 0.3480929707856806
+    },
+    {
+      "frame": "F03",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.206900452775637,
+      "max_tube_radius_about_passage_axis_mm": 10.885319557468438,
+      "minimum_radial_clearance_mm": 0.32158089530719813
+    },
+    {
+      "frame": "F03",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.095953502229374,
+      "max_tube_radius_about_passage_axis_mm": 10.737978539105834,
+      "minimum_radial_clearance_mm": 0.3579749631235405
+    },
+    {
+      "frame": "F03",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.915367343232903,
+      "max_tube_radius_about_passage_axis_mm": 10.478885607136686,
+      "minimum_radial_clearance_mm": 0.43648173609621743
+    },
+    {
+      "frame": "F03",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.642551121450445,
+      "max_tube_radius_about_passage_axis_mm": 10.14986900552114,
+      "minimum_radial_clearance_mm": 0.49268211592930555
+    },
+    {
+      "frame": "F03",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.91321563334475,
+      "max_tube_radius_about_passage_axis_mm": 10.476393583242094,
+      "minimum_radial_clearance_mm": 0.4368220501026556
+    },
+    {
+      "frame": "F04",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.148076129525816,
+      "max_tube_radius_about_passage_axis_mm": 10.726730036322744,
+      "minimum_radial_clearance_mm": 0.4213460932030717
+    },
+    {
+      "frame": "F04",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.137584955486703,
+      "max_tube_radius_about_passage_axis_mm": 10.713902150537374,
+      "minimum_radial_clearance_mm": 0.42368280494932975
+    },
+    {
+      "frame": "F04",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.065650374201677,
+      "max_tube_radius_about_passage_axis_mm": 10.623366997447706,
+      "minimum_radial_clearance_mm": 0.4422833767539718
+    },
+    {
+      "frame": "F04",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.140717657720684,
+      "max_tube_radius_about_passage_axis_mm": 10.71706353067695,
+      "minimum_radial_clearance_mm": 0.42365412704373284
+    },
+    {
+      "frame": "F04",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 11.144793045528463,
+      "max_tube_radius_about_passage_axis_mm": 10.722891930223167,
+      "minimum_radial_clearance_mm": 0.42190111530529606
+    },
+    {
+      "frame": "F04",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.828890447645136,
+      "max_tube_radius_about_passage_axis_mm": 10.353280412654458,
+      "minimum_radial_clearance_mm": 0.47561003499067844
+    },
+    {
+      "frame": "F04",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.581968535973983,
+      "max_tube_radius_about_passage_axis_mm": 10.084090927287264,
+      "minimum_radial_clearance_mm": 0.4978776086867196
+    },
+    {
+      "frame": "F04",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.831369057228937,
+      "max_tube_radius_about_passage_axis_mm": 10.356019438510753,
+      "minimum_radial_clearance_mm": 0.4753496187181838
+    },
+    {
+      "frame": "F05",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.850668695055116,
+      "max_tube_radius_about_passage_axis_mm": 10.360890208517866,
+      "minimum_radial_clearance_mm": 0.48977848653725076
+    },
+    {
+      "frame": "F05",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.909472925679447,
+      "max_tube_radius_about_passage_axis_mm": 10.424596670415124,
+      "minimum_radial_clearance_mm": 0.4848762552643233
+    },
+    {
+      "frame": "F05",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.87544370065504,
+      "max_tube_radius_about_passage_axis_mm": 10.389996231199198,
+      "minimum_radial_clearance_mm": 0.48544746945584194
+    },
+    {
+      "frame": "F05",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.89823731732257,
+      "max_tube_radius_about_passage_axis_mm": 10.412711123171684,
+      "minimum_radial_clearance_mm": 0.4855261941508857
+    },
+    {
+      "frame": "F05",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.851552943805094,
+      "max_tube_radius_about_passage_axis_mm": 10.361753789823267,
+      "minimum_radial_clearance_mm": 0.48979915398182783
+    },
+    {
+      "frame": "F05",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.689464909341583,
+      "max_tube_radius_about_passage_axis_mm": 10.192017367705093,
+      "minimum_radial_clearance_mm": 0.49744754163648963
+    },
+    {
+      "frame": "F05",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.541479703098455,
+      "max_tube_radius_about_passage_axis_mm": 10.041957819799649,
+      "minimum_radial_clearance_mm": 0.4995218832988062
+    },
+    {
+      "frame": "F05",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.690502543790828,
+      "max_tube_radius_about_passage_axis_mm": 10.193009429230727,
+      "minimum_radial_clearance_mm": 0.4974931145601005
+    },
+    {
+      "frame": "F06",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.040118096772463,
+      "max_tube_radius_about_passage_axis_mm": 10.552471768189276,
+      "minimum_radial_clearance_mm": 0.4876463285831871
+    },
+    {
+      "frame": "F06",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.324829374714156,
+      "max_tube_radius_about_passage_axis_mm": 10.849565610419194,
+      "minimum_radial_clearance_mm": 0.47526376429496153
+    },
+    {
+      "frame": "F06",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.41088664645628,
+      "max_tube_radius_about_passage_axis_mm": 10.939327801765664,
+      "minimum_radial_clearance_mm": 0.47155884469061604
+    },
+    {
+      "frame": "F06",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.362609178654456,
+      "max_tube_radius_about_passage_axis_mm": 10.88859935453609,
+      "minimum_radial_clearance_mm": 0.47400982411836523
+    },
+    {
+      "frame": "F06",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.040590473825226,
+      "max_tube_radius_about_passage_axis_mm": 10.55294915042965,
+      "minimum_radial_clearance_mm": 0.4876413233955752
+    },
+    {
+      "frame": "F06",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.868636618592104,
+      "max_tube_radius_about_passage_axis_mm": 10.372641704845924,
+      "minimum_radial_clearance_mm": 0.49599491374618054
+    },
+    {
+      "frame": "F06",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.576710843306891,
+      "max_tube_radius_about_passage_axis_mm": 10.076809420217316,
+      "minimum_radial_clearance_mm": 0.4999014230895753
+    },
+    {
+      "frame": "F06",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.857072662249083,
+      "max_tube_radius_about_passage_axis_mm": 10.360973883396026,
+      "minimum_radial_clearance_mm": 0.49609877885305664
+    },
+    {
+      "frame": "F07",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.588173921709478,
+      "max_tube_radius_about_passage_axis_mm": 10.096506623259682,
+      "minimum_radial_clearance_mm": 0.49166729844979606
+    },
+    {
+      "frame": "F07",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.68061391007291,
+      "max_tube_radius_about_passage_axis_mm": 10.204863135911138,
+      "minimum_radial_clearance_mm": 0.4757507741617726
+    },
+    {
+      "frame": "F07",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.683909004144333,
+      "max_tube_radius_about_passage_axis_mm": 10.209860718102,
+      "minimum_radial_clearance_mm": 0.47404828604233273
+    },
+    {
+      "frame": "F07",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.673318601364988,
+      "max_tube_radius_about_passage_axis_mm": 10.196627033204651,
+      "minimum_radial_clearance_mm": 0.4766915681603372
+    },
+    {
+      "frame": "F07",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.587893906373356,
+      "max_tube_radius_about_passage_axis_mm": 10.096195115176835,
+      "minimum_radial_clearance_mm": 0.49169879119652116
+    },
+    {
+      "frame": "F07",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.623636002368945,
+      "max_tube_radius_about_passage_axis_mm": 10.129398971865426,
+      "minimum_radial_clearance_mm": 0.49423703050351975
+    },
+    {
+      "frame": "F07",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.558480621950714,
+      "max_tube_radius_about_passage_axis_mm": 10.058963392739585,
+      "minimum_radial_clearance_mm": 0.4995172292111292
+    },
+    {
+      "frame": "F07",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.626089821605694,
+      "max_tube_radius_about_passage_axis_mm": 10.131923294211623,
+      "minimum_radial_clearance_mm": 0.4941665273940714
+    },
+    {
+      "frame": "F08",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.783090744809307,
+      "max_tube_radius_about_passage_axis_mm": 10.28480585458015,
+      "minimum_radial_clearance_mm": 0.4982848902291579
+    },
+    {
+      "frame": "F08",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.989951730545602,
+      "max_tube_radius_about_passage_axis_mm": 10.510411452338783,
+      "minimum_radial_clearance_mm": 0.47954027820681944
+    },
+    {
+      "frame": "F08",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.776527727158086,
+      "max_tube_radius_about_passage_axis_mm": 10.290591611709106,
+      "minimum_radial_clearance_mm": 0.48593611544898074
+    },
+    {
+      "frame": "F08",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.982128011950714,
+      "max_tube_radius_about_passage_axis_mm": 10.50208559524171,
+      "minimum_radial_clearance_mm": 0.48004241670900427
+    },
+    {
+      "frame": "F08",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 10.786293665309485,
+      "max_tube_radius_about_passage_axis_mm": 10.287871563918586,
+      "minimum_radial_clearance_mm": 0.49842210139089893
+    },
+    {
+      "frame": "F08",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.718660192018335,
+      "max_tube_radius_about_passage_axis_mm": 11.252320896918901,
+      "minimum_radial_clearance_mm": 0.4663392950994343
+    },
+    {
+      "frame": "F08",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.213087041565087,
+      "max_tube_radius_about_passage_axis_mm": 10.723020605246608,
+      "minimum_radial_clearance_mm": 0.4900664363184788
+    },
+    {
+      "frame": "F08",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 64.0,
+      "passage_radius_mm": 11.718654415836813,
+      "max_tube_radius_about_passage_axis_mm": 11.252309934326053,
+      "minimum_radial_clearance_mm": 0.4663444815107596
+    },
+    {
+      "frame": "F09",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.651034443521505,
+      "max_tube_radius_about_passage_axis_mm": 10.155329919004933,
+      "minimum_radial_clearance_mm": 0.4957045245165723
+    },
+    {
+      "frame": "F09",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.66321358559632,
+      "max_tube_radius_about_passage_axis_mm": 10.18500817535317,
+      "minimum_radial_clearance_mm": 0.47820541024315055
+    },
+    {
+      "frame": "F09",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.507896990683934,
+      "max_tube_radius_about_passage_axis_mm": 10.00922417127939,
+      "minimum_radial_clearance_mm": 0.49867281940454333
+    },
+    {
+      "frame": "F09",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.667869359368865,
+      "max_tube_radius_about_passage_axis_mm": 10.190699844063593,
+      "minimum_radial_clearance_mm": 0.4771695153052722
+    },
+    {
+      "frame": "F09",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.651209384746696,
+      "max_tube_radius_about_passage_axis_mm": 10.155442599504013,
+      "minimum_radial_clearance_mm": 0.49576678524268303
+    },
+    {
+      "frame": "F09",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.84096470982108,
+      "max_tube_radius_about_passage_axis_mm": 10.39162313474126,
+      "minimum_radial_clearance_mm": 0.44934157507981887
+    },
+    {
+      "frame": "F09",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.79443629370726,
+      "max_tube_radius_about_passage_axis_mm": 10.323759213506841,
+      "minimum_radial_clearance_mm": 0.470677080200419
+    },
+    {
+      "frame": "F09",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.842265015299596,
+      "max_tube_radius_about_passage_axis_mm": 10.393186194095813,
+      "minimum_radial_clearance_mm": 0.4490788212037824
+    },
+    {
+      "frame": "F10",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.64848940255599,
+      "max_tube_radius_about_passage_axis_mm": 10.151827442698707,
+      "minimum_radial_clearance_mm": 0.496661959857283
+    },
+    {
+      "frame": "F10",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.660363038405757,
+      "max_tube_radius_about_passage_axis_mm": 10.18658032421236,
+      "minimum_radial_clearance_mm": 0.4737827141933977
+    },
+    {
+      "frame": "F10",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.523283241665615,
+      "max_tube_radius_about_passage_axis_mm": 10.02717779623248,
+      "minimum_radial_clearance_mm": 0.49610544543313395
+    },
+    {
+      "frame": "F10",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.658124004038385,
+      "max_tube_radius_about_passage_axis_mm": 10.183921923640176,
+      "minimum_radial_clearance_mm": 0.474202080398209
+    },
+    {
+      "frame": "F10",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.647231567568204,
+      "max_tube_radius_about_passage_axis_mm": 10.150000982002313,
+      "minimum_radial_clearance_mm": 0.49723058556589095
+    },
+    {
+      "frame": "F10",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.803462450408581,
+      "max_tube_radius_about_passage_axis_mm": 10.36612741557312,
+      "minimum_radial_clearance_mm": 0.43733503483546166
+    },
+    {
+      "frame": "F10",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.775696681455996,
+      "max_tube_radius_about_passage_axis_mm": 10.318359425283457,
+      "minimum_radial_clearance_mm": 0.4573372561725382
+    },
+    {
+      "frame": "F10",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.80325045037393,
+      "max_tube_radius_about_passage_axis_mm": 10.366006941197583,
+      "minimum_radial_clearance_mm": 0.4372435091763478
+    },
+    {
+      "frame": "F11",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.63024818378651,
+      "max_tube_radius_about_passage_axis_mm": 10.138869451810745,
+      "minimum_radial_clearance_mm": 0.49137873197576454
+    },
+    {
+      "frame": "F11",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.620862912311487,
+      "max_tube_radius_about_passage_axis_mm": 10.142767209700397,
+      "minimum_radial_clearance_mm": 0.4780957026110908
+    },
+    {
+      "frame": "F11",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.541738341984079,
+      "max_tube_radius_about_passage_axis_mm": 10.048495545727269,
+      "minimum_radial_clearance_mm": 0.4932427962568102
+    },
+    {
+      "frame": "F11",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.623382997732701,
+      "max_tube_radius_about_passage_axis_mm": 10.14584358813236,
+      "minimum_radial_clearance_mm": 0.47753940960034136
+    },
+    {
+      "frame": "F11",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.631122512373892,
+      "max_tube_radius_about_passage_axis_mm": 10.139917039322713,
+      "minimum_radial_clearance_mm": 0.49120547305117945
+    },
+    {
+      "frame": "F11",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.744557959427711,
+      "max_tube_radius_about_passage_axis_mm": 10.307017711123216,
+      "minimum_radial_clearance_mm": 0.43754024830449545
+    },
+    {
+      "frame": "F11",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.722802707298825,
+      "max_tube_radius_about_passage_axis_mm": 10.267462119362172,
+      "minimum_radial_clearance_mm": 0.45534058793665366
+    },
+    {
+      "frame": "F11",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.743595417860346,
+      "max_tube_radius_about_passage_axis_mm": 10.305712750925528,
+      "minimum_radial_clearance_mm": 0.4378826669348186
+    },
+    {
+      "frame": "F12",
+      "passage": "L01",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000004,
+      "minimum_radial_clearance_mm": 0.49999999999999645
+    },
+    {
+      "frame": "F12",
+      "passage": "L02",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000002,
+      "minimum_radial_clearance_mm": 0.4999999999999982
+    },
+    {
+      "frame": "F12",
+      "passage": "L03",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000004,
+      "minimum_radial_clearance_mm": 0.49999999999999645
+    },
+    {
+      "frame": "F12",
+      "passage": "L04",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000002,
+      "minimum_radial_clearance_mm": 0.4999999999999982
+    },
+    {
+      "frame": "F12",
+      "passage": "L05",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.0,
+      "minimum_radial_clearance_mm": 0.5
+    },
+    {
+      "frame": "F12",
+      "passage": "L06",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000002,
+      "minimum_radial_clearance_mm": 0.4999999999999982
+    },
+    {
+      "frame": "F12",
+      "passage": "L07",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000002,
+      "minimum_radial_clearance_mm": 0.4999999999999982
+    },
+    {
+      "frame": "F12",
+      "passage": "L08",
+      "maximum_frame_thickness_mm": 20.0,
+      "passage_radius_mm": 10.5,
+      "max_tube_radius_about_passage_axis_mm": 10.000000000000002,
+      "minimum_radial_clearance_mm": 0.4999999999999982
+    }
+  ]
+}

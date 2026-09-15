@@ -28,7 +28,7 @@ def test_fury_current_model_has_finite_edges_and_paused_mesh_operations():
 
 def test_report_assets_and_pages_match_release_manifest():
     manifest=json.loads((ROOT/"reports/manifest.json").read_text())
-    assert len(manifest["reports"])==27
+    assert len(manifest["reports"])==37
     for item in manifest["reports"]+manifest["assets"]:
         raw=(ROOT/"reports"/item["file"]).read_bytes()
         assert len(raw)==item["bytes"]

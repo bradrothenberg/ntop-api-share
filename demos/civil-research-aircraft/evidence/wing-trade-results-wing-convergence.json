@@ -1,0 +1,83 @@
+[
+  {
+    "id": "A",
+    "steps_mm": [
+      50,
+      25,
+      12.5
+    ],
+    "results": [
+      {
+        "wing_structure_mass_kg": 198.01449561266267,
+        "tip_deflection_limit_mm": 72.15739883426933,
+        "tip_twist_limit_deg": 0.8308771010644636
+      },
+      {
+        "wing_structure_mass_kg": 198.01480863132485,
+        "tip_deflection_limit_mm": 72.16383859432726,
+        "tip_twist_limit_deg": 0.8308704817885564
+      },
+      {
+        "wing_structure_mass_kg": 198.01445012712145,
+        "tip_deflection_limit_mm": 72.16575467837788,
+        "tip_twist_limit_deg": 0.8308695667434729
+      }
+    ],
+    "deflection_change_last_pct": 0.0026551858769430225,
+    "mass_change_last_pct": 0.00018104918813044435
+  },
+  {
+    "id": "B",
+    "steps_mm": [
+      50,
+      25,
+      12.5
+    ],
+    "results": [
+      {
+        "wing_structure_mass_kg": 184.3661198838207,
+        "tip_deflection_limit_mm": 60.049457785821076,
+        "tip_twist_limit_deg": 0.8079555555710652
+      },
+      {
+        "wing_structure_mass_kg": 184.36612001731342,
+        "tip_deflection_limit_mm": 60.052576045058515,
+        "tip_twist_limit_deg": 0.8079338311568762
+      },
+      {
+        "wing_structure_mass_kg": 184.36612006022492,
+        "tip_deflection_limit_mm": 60.05335782787951,
+        "tip_twist_limit_deg": 0.8079283883871594
+      }
+    ],
+    "deflection_change_last_pct": 0.0013018306165735183,
+    "mass_change_last_pct": 2.3275159577451632e-08
+  },
+  {
+    "id": "C",
+    "steps_mm": [
+      50,
+      25,
+      12.5
+    ],
+    "results": [
+      {
+        "wing_structure_mass_kg": 182.61830762915423,
+        "tip_deflection_limit_mm": 60.871428887463,
+        "tip_twist_limit_deg": 0.8105620324540043
+      },
+      {
+        "wing_structure_mass_kg": 182.61830783452416,
+        "tip_deflection_limit_mm": 60.8745412089676,
+        "tip_twist_limit_deg": 0.8105404596496649
+      },
+      {
+        "wing_structure_mass_kg": 182.6183079005583,
+        "tip_deflection_limit_mm": 60.875321076053666,
+        "tip_twist_limit_deg": 0.8105350655954883
+      }
+    ],
+    "deflection_change_last_pct": 0.0012811054844519276,
+    "mass_change_last_pct": 3.6159653049594453e-08
+  }
+]

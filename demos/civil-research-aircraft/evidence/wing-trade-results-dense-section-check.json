@@ -1,0 +1,23 @@
+[
+  {
+    "id": "A",
+    "sections": 252,
+    "maximum_stress_ultimate_MPa": 212.84577413753004,
+    "minimum_buckling_RF": 1.150576035404916,
+    "pass": true
+  },
+  {
+    "id": "B",
+    "sections": 252,
+    "maximum_stress_ultimate_MPa": 160.59200479525444,
+    "minimum_buckling_RF": 1.150576035404916,
+    "pass": true
+  },
+  {
+    "id": "C",
+    "sections": 252,
+    "maximum_stress_ultimate_MPa": 163.0129059454606,
+    "minimum_buckling_RF": 1.150576035404916,
+    "pass": true
+  }
+]

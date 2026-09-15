@@ -1,0 +1,21 @@
+{
+  "revision": "H",
+  "base_assembly_sha256": "98775b647d69620e0a4431383406de259744c029f177e634a07f74dcc43546b8",
+  "assembly_sha256": "a5d146a66f15b1e592603913d5508790d7bad2d3b90515dd7a93cdf2062bb596",
+  "changed_parts": {
+    "C-Fwd": {
+      "source": "lower_haunch\\parts\\C-Fwd.ntop",
+      "sha256": "caca18b8a5786f0885c31f55c2308f1558736311c67ec4171cd273c6229321c4",
+      "function": "user_func_a0cbf78a_0281_48a3_89fd_381c79d6ad3d[1.0.0]"
+    },
+    "C-Aft": {
+      "source": "lower_haunch\\parts\\C-Aft.ntop",
+      "sha256": "8f355d8ed4b9130709fcc023ec393b7b4d16bad2b1afda28800c6eb9de06f655",
+      "function": "user_func_036f2811_d958_4e0d_9198_b0b828970a87[1.0.0]"
+    }
+  },
+  "root_pins": 8,
+  "retained_cover_fasteners": 952,
+  "prior_manifest": "lug_attachment\\Aircraft-G-manifest.json",
+  "status": "Geometry revision. Existing fork stress failure and global release questions remain open."
+}

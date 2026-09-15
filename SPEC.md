@@ -65,3 +65,9 @@ Plan: compare the source skills and references; adapt local links and remove sou
 Review the September 12-13 bulkhead, marine propeller, ski, KestrelSAT, and DDG(X) work. Extract reusable modeling, API, verification, and presentation lessons into public guidance and the relevant bundled skills. Bind recorded claims to source-file hashes. Label earlier baseline evidence and unfinished experiments separately.
 
 Plan: inspect current source notes and completed receipts; compare existing guidance; consolidate portable lessons; validate links, skill metadata, and the proposed public snapshot; publish the focused documentation update. Source projects remain read-only. Preserve their active model work and pending marine assets. This task adds guidance, not model snapshots or new native execution.
+
+## Civil research aircraft repository addition, September 15
+
+Add the civil research aircraft to this repository in a new PR. Revision G is primary. Include the approved Revision H follow-up, the earlier design studies, 78 native assembly and part notebooks, and ten reports. Preserve the earlier Revision F report while retaining the current design overview separately.
+
+Use the audited community snapshot as a hash-checked baseline. Keep source files read-only. Preserve native function, binary, camera, and visibility payloads; change only portable input literals and collapsed UI state. Provide checkout-local working-copy preparation and extend the native reader for variable chunk-directory sizes. Audit report assets and links, verify source and native payload hashes, and test the complete catalogue offline. Keep the recorded failed structural screens visible. No new native evaluation is claimed.

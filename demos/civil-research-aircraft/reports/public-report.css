@@ -1,0 +1,38 @@
+/* Shared nTop colors for the public editions. Native figure colors stay unchanged. */
+:root {
+  color-scheme: light;
+  --paper: #F7F8FA; --paper-2: #FFFFFF; --paper-3: #F0F2F5;
+  --ink: #262626; --ink-2: #4E4C4A; --ink-3: #6D6C6A;
+  --rule: #E4E7EC; --rule-2: #CBD0D8;
+  --accent: #16489D; --orange: #16489D; --blue: #16489D;
+  --orange-soft: #EDF2FB; --orange-line: #B9CAE6;
+  --blue-soft: #EDF2FB; --blue-line: #B9CAE6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #11151C; --paper-2: #19212C; --paper-3: #202938;
+    --ink: #F2F4F8; --ink-2: #D2D8E2; --ink-3: #AEB8C8;
+    --rule: #303C4E; --rule-2: #4A5870;
+    --accent: #248AFF; --orange: #248AFF; --blue: #248AFF;
+    --orange-soft: #14243D; --orange-line: #2B4A78;
+    --blue-soft: #14243D; --blue-line: #2B4A78;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #11151C; --paper-2: #19212C; --paper-3: #202938;
+  --ink: #F2F4F8; --ink-2: #D2D8E2; --ink-3: #AEB8C8;
+  --rule: #303C4E; --rule-2: #4A5870;
+  --accent: #248AFF; --orange: #248AFF; --blue: #248AFF;
+  --orange-soft: #14243D; --orange-line: #2B4A78;
+  --blue-soft: #14243D; --blue-line: #2B4A78;
+}
+.community-publication, .publication-note {
+  background: var(--blue-soft); color: var(--ink); border-left-color: var(--accent);
+}
+.community-publication a { color: var(--accent); }
+.community-publication strong { color: inherit; }
+.kicker, .meta, .num, h4, code, .mono, th, .lbl, .figlbl {
+  font-family: "Aeonik Fono", "IBM Plex Mono", ui-monospace, monospace;
+}

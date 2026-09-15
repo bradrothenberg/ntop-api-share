@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "seconds": 26.64469210000243,
+  "assumptions_sha256": "fb5d6e98087bb46872d416380280b62c17f7ffc86987d8350be447ade4e13fe1",
+  "geometry_sha256": {
+    "F06D.json": "173463f970a389102c8b117d8015e930c940aae4e9de95981ff015b7548a069f",
+    "F08D.json": "c117bfbd82f634760e9bc583f67a5642b5aacc51ebae03257606230dc4174d27",
+    "wing_paths.json": "c9b8a7558fcc4010424037b51585b237dab13e7fa2bf8780e59244db482990d0",
+    "longeron_chains.json": "aaa60de46585529568a74f2cda2f0c51fe987b5af8f14eae005d5d4560f90aaa"
+  },
+  "native_assembly_sha256": "58b30b8746ccb232c8b81c29f743c85fb1a106558a3755de4822127758c6ee2e",
+  "primary_sweep_cases": 18,
+  "distinct_rib_sections": 11,
+  "candidate_note": "Local numerical study. Native assembly remains Revision D until changes pass geometric and broader structural checks."
+}

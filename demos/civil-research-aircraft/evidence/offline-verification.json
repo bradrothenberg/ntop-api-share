@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-15",
+  "scope": "Offline public-repository preparation and verification. Source-native evidence is recorded separately.",
+  "native_notebooks": 78,
+  "reports": 10,
+  "function_payloads_preserved": 6347,
+  "source_models_unchanged": true,
+  "source_final_deliverable_hashes_matched": {
+    "G": 15,
+    "H": 3
+  },
+  "working_copy_preparation": {
+    "prepared_models": 78,
+    "resolved_input_files": [
+      "naca64a010-il.dat",
+      "pw1211-il.dat"
+    ],
+    "native_payloads_preserved": true,
+    "new_native_execution": false
+  },
+  "tests": {
+    "passed": 194,
+    "failed": 0,
+    "skipped": 0
+  },
+  "offline_builders": {
+    "passed": 11,
+    "failed": 0
+  },
+  "browser": {
+    "page_checks": 48,
+    "viewport_widths": [
+      1440,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "javascript_errors": 0,
+    "broken_images": 0,
+    "horizontal_page_overflow": 0,
+    "remote_requests": 0,
+    "keyboard_figure_zoom_checks": 12
+  },
+  "public_data_audit": {
+    "findings": 0,
+    "local_links_checked": 503,
+    "image_payloads_scanned": 84,
+    "scope": "Pattern checks, native roundtrips, resource links, image metadata, and embedded/compressed payloads. Visual/provenance review is recorded separately."
+  },
+  "visual_review": "Reviewed all 94 report image entries, the catalogue, and primary G/H report layouts. Native views and calculated figures retain their captions. Reference photos are excluded.",
+  "new_native_execution": false,
+  "structural_release": false
+}

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "complete_native_definitions_reused": 120,
+  "unique_embedded_definitions": 174,
+  "method": "Qualified fixed-slot refresh from saved native part files. The main expression, every imported definition expression, and every input default match. GUI evaluation and native images are checked separately.",
+  "native_sha256": "98775b647d69620e0a4431383406de259744c029f177e634a07f74dcc43546b8",
+  "expected_recipe_sha256": "a346e89ca0c4ad22cf2348337b37d08354a3daaa536a92d6c96d007790296f7d",
+  "readback_exit_note": "Native readback completed with a clean exit."
+}

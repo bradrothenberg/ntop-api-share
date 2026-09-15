@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "diameters_mm": [
+    36,
+    48
+  ],
+  "stack_mm": 76,
+  "source_sha256": "4d78c53cbcd013524b949f1493e261bcc160b22297a6b60f5f08412c6d50a369"
+}

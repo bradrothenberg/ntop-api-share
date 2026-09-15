@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-09-15T13:19:28.955716+00:00",
+  "geometry_package_pass": true,
+  "structural_release": false,
+  "changed_primary_checks": 1396,
+  "fork_clearance_checks": 208,
+  "source_envelope_checks": 720,
+  "unchanged_main_body_rows": 125,
+  "assembly_native_variables_ok": 128,
+  "protected_earlier_files_checked": 17,
+  "deliverables_sha256": {
+    "lower_haunch\\deliverables\\C-Fwd.ntop": "9ad8666e57a4be1e1d5f41d99743b0c1968b196ebea6c5431fc7c69995609a43",
+    "lower_haunch\\deliverables\\C-Aft.ntop": "d4ac068dad91133212c56bc12079cc2e6ed21cb5b4fae65ed8aa2e5c72fcf465",
+    "lower_haunch\\deliverables\\Aircraft-H.ntop": "95b96397965503dea7137f19976417f6e72955ec4fe7ecf5cfd01ff53477c820"
+  },
+  "report_sha256": "80128815b7dbf679144d6b21fe1ac7fe42a06db2eb8029eefd67299ffe0a9b0c",
+  "inspected_native_images": [
+    "lower_haunch\\views\\C-Fwd\\C-Fwd_GPU_res3_cam0_ortho.png",
+    "lower_haunch\\views\\C-Aft\\C-Aft_GPU_res3_cam0_ortho.png",
+    "lower_haunch\\views\\Front-lower-joint\\Front-lower-joint_GPU_res3_cam0_ortho.png",
+    "lower_haunch\\evidence\\final_assembly_window.png"
+  ],
+  "remaining_scope": "The earlier fork stress failure, lower-frame shell analysis, global analysis and manufacturing release remain open."
+}

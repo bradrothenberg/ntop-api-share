@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aircraft sizing audit | nTop</title>
+
+
+
+<style>
+:root{
+  --paper:#F7F8FA; --paper-2:#FFFFFF; --paper-3:#F0F2F5;
+  --ink:#262626; --ink-2:#4E4C4A; --ink-3:#6D6C6A; --ink-4:#A3A3A3;
+  --rule:#E4E7EC; --rule-2:#CBD0D8;
+  --orange:#16489D; --orange-soft:#EDF2FB; --orange-line:#B9CAE6;
+  --red:#B3362A; --red-soft:#F9E9E6; --red-line:#E3A99F;
+  --blue:#16489D; --blue-soft:#EDF2FB; --blue-line:#A9C0E8;
+  --green:#196B24; --green-soft:#E9F2EA; --green-line:#A8CBAE;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#141210; --paper-2:#1C1917; --paper-3:#211E1B;
+    --ink:#EDE9E4; --ink-2:#C9C3BA; --ink-3:#A39D94; --ink-4:#6E6862;
+    --rule:#2E2A26; --rule-2:#3B362F;
+    --orange:#16489D; --orange-soft:#33201A; --orange-line:#7A4030;
+    --red:#E08B7B; --red-soft:#2A1613; --red-line:#6B3229;
+    --blue:#248AFF; --blue-soft:#14243D; --blue-line:#2B4A78;
+    --green:#6FBF7E; --green-soft:#12211A; --green-line:#2C4D39;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141210; --paper-2:#1C1917; --paper-3:#211E1B;
+  --ink:#EDE9E4; --ink-2:#C9C3BA; --ink-3:#A39D94; --ink-4:#6E6862;
+  --rule:#2E2A26; --rule-2:#3B362F;
+  --orange:#16489D; --orange-soft:#33201A; --orange-line:#7A4030;
+  --red:#E08B7B; --red-soft:#2A1613; --red-line:#6B3229;
+  --blue:#248AFF; --blue-soft:#14243D; --blue-line:#2B4A78;
+  --green:#6FBF7E; --green-soft:#12211A; --green-line:#2C4D39;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);
+  font-family:"Aeonik","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16.5px;line-height:1.62;margin:0;-webkit-font-smoothing:antialiased}
+.wrap{max-width:830px;margin:0 auto;padding:0 26px 120px}
+.mast{border-bottom:2px solid var(--ink);padding:52px 0 20px;margin-bottom:44px}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:20px}
+h1{font-family:"Aeonik","Inter",system-ui,sans-serif;font-weight:600;font-size:clamp(36px,6vw,56px);line-height:1.05;letter-spacing:-.015em;margin:0 0 16px}
+.dek{font-size:clamp(17px,2.4vw,20px);line-height:1.5;color:var(--ink-2);max-width:64ch;margin:0 0 24px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 26px;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.03em}
+h2{font-family:"Aeonik","Inter",system-ui,sans-serif;font-weight:650;font-size:clamp(25px,3.6vw,31px);line-height:1.16;letter-spacing:-.012em;margin:64px 0 8px;padding-top:26px;border-top:1px solid var(--rule)}
+h2 .num{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;color:var(--orange);letter-spacing:.1em;display:block;margin-bottom:12px}
+h3{font-family:"Aeonik","Inter",sans-serif;font-weight:650;font-size:16.5px;margin:34px 0 8px}
+h4{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:28px 0 8px}
+p{margin:0 0 16px;max-width:70ch}
+a{color:var(--orange);text-underline-offset:2px}
+strong{font-weight:640;color:var(--ink)}
+code,.mono{font-family:"IBM Plex Mono",monospace;font-size:.88em}
+ul,ol{max-width:70ch;padding-left:22px;margin:0 0 18px}
+li{margin-bottom:7px} li::marker{color:var(--ink-4)}
+hr{border:0;border-top:1px solid var(--rule);margin:40px 0}
+.call{border-left:3px solid var(--orange);background:var(--orange-soft);padding:18px 22px;margin:26px 0;border-radius:0 5px 5px 0}
+.call.red{border-color:var(--red);background:var(--red-soft)}
+.call.blue{border-color:var(--blue);background:var(--blue-soft)}
+.call.green{border-color:var(--green);background:var(--green-soft)}
+.call p:last-child{margin-bottom:0}
+.call .lbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--orange);display:block;margin-bottom:7px}
+.call.red .lbl{color:var(--red)} .call.blue .lbl{color:var(--blue)} .call.green .lbl{color:var(--green)}
+.bluf{border:2px solid var(--ink);border-radius:7px;padding:26px 28px;margin:0 0 42px;background:var(--paper-2)}
+.bluf h4{margin-top:0}
+.bluf .verdict{font-family:"Aeonik","Inter",system-ui,sans-serif;font-size:21px;line-height:1.4;font-weight:600;margin:0 0 18px}
+.moves{display:grid;gap:1px;background:var(--rule-2);border:1px solid var(--rule-2);border-radius:5px;overflow:hidden;margin-top:20px}
+.move{background:var(--paper);padding:14px 16px;display:grid;grid-template-columns:78px 1fr;gap:14px;align-items:start}
+.move .tag{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:3px 0;color:var(--ink-3)}
+.move.do .tag{color:var(--green)} .move.kill .tag{color:var(--red)} .move.opt .tag{color:var(--blue)}
+.move div:last-child{font-size:15px;line-height:1.5}
+.tw{overflow-x:auto;margin:24px 0;border:1px solid var(--rule);border-radius:6px;background:var(--paper-2)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px}
+th{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);font-weight:600;padding:12px 14px;border-bottom:1px solid var(--rule-2);white-space:nowrap;background:var(--paper-3)}
+td{padding:12px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:0}
+td.num,th.num{font-family:"IBM Plex Mono",monospace;font-size:13px;white-space:nowrap}
+.pill{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2.5px 7px;border-radius:3px;white-space:nowrap}
+.p-hold{background:var(--green-soft);color:var(--green);border:1px solid var(--green-line)}
+.p-part{background:var(--orange-soft);color:var(--orange);border:1px solid var(--orange-line)}
+.p-fail{background:var(--red-soft);color:var(--red);border:1px solid var(--red-line)}
+.p-info{background:var(--blue-soft);color:var(--blue);border:1px solid var(--blue-line)}
+figure{margin:38px 0;padding:0}
+.figbox{border:1px solid var(--rule);border-radius:7px;background:var(--paper-2);padding:22px 20px 16px;overflow-x:auto}
+figure svg{display:block;width:100%;height:auto;min-width:520px}
+figcaption{font-size:13.5px;line-height:1.5;color:var(--ink-3);margin-top:12px}
+figcaption b{color:var(--ink-2);font-weight:600}
+.figlbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--orange);font-weight:600;margin-bottom:10px}
+svg text{font-family:"Aeonik","Inter",sans-serif;fill:var(--ink)}
+.svg-lbl{font-size:11px;font-weight:600}
+.svg-sm{font-size:9.5px;fill:var(--ink-3);font-family:"IBM Plex Mono",monospace;letter-spacing:.04em}
+.svg-tt{font-size:10px;font-weight:700;font-family:"IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase}
+.team{border:1px solid var(--rule);border-radius:7px;overflow:hidden;margin:26px 0;background:var(--paper-2)}
+.team-hd{padding:14px 20px;border-bottom:1px solid var(--rule);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.team-hd .nm{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.team-hd .ds{font-size:13px;color:var(--ink-3)}
+.team-bd{padding:6px 20px 16px}
+.team.pink .team-hd{background:var(--orange-soft);border-color:var(--orange-line)} .team.pink .team-hd .nm{color:var(--orange)}
+.team.redt .team-hd{background:var(--red-soft);border-color:var(--red-line)} .team.redt .team-hd .nm{color:var(--red)}
+.team.gold .team-hd{background:var(--blue-soft);border-color:var(--blue-line)} .team.gold .team-hd .nm{color:var(--blue)}
+.arg{border-bottom:1px solid var(--rule);padding:16px 0} .arg:last-child{border-bottom:0}
+.arg .ah{font-weight:650;font-size:15px;margin-bottom:5px;display:flex;gap:9px;align-items:baseline}
+.arg .ah .ix{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-4);flex-shrink:0}
+.arg p{font-size:15px;margin:0 0 8px;color:var(--ink-2)} .arg p:last-child{margin-bottom:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:1px;background:var(--rule-2);border:1px solid var(--rule-2);border-radius:6px;overflow:hidden;margin:28px 0}
+.stat{background:var(--paper-2);padding:16px 16px 14px}
+.stat .v{font-family:"Aeonik","Inter",system-ui,sans-serif;font-size:27px;line-height:1;font-weight:600;margin-bottom:6px}
+.stat .k{font-size:12.5px;line-height:1.35;color:var(--ink-3)}
+.stat.warn .v{color:var(--red)}
+.src{font-size:13px;line-height:1.55;color:var(--ink-3)} .src a{color:var(--ink-2)}
+@media(max-width:640px){body{font-size:16px}.wrap{padding:0 18px 90px}.move{grid-template-columns:1fr;gap:5px}}
+</style>
+<style>.wrap{max-width:1160px}nav{display:flex;flex-wrap:wrap;gap:18px;margin:26px 0;font-size:14px}img{display:block;width:100%;height:auto;background:white;cursor:zoom-in}.figbox{padding:10px}dialog{max-width:96vw;width:1540px;border:1px solid #CBD0D8;padding:12px}dialog::backdrop{background:#000b}dialog button{position:sticky;top:0;float:right;padding:12px;background:white;border:1px solid #CBD0D8;cursor:pointer}dialog img{cursor:default}.files{columns:2}.files li{break-inside:avoid}@media(max-width:700px){.files{columns:1}}@media print{nav,dialog{display:none}figure,.tw{break-inside:avoid}}</style><style>.community-publication{max-width:1100px;margin:16px auto;padding:14px 20px;background:#EDF2FB;color:#262626;border-left:3px solid #16489D;font:15px/1.5 system-ui,sans-serif}.community-publication a{color:#16489D}.publication-note{border-left:3px solid #16489D;padding:12px;background:#EDF2FB;color:#262626}:root{--accent:#16489D;--blue:#16489D}table{max-width:100%}@media(prefers-color-scheme:dark){.community-publication{background:#202938;color:#f2f4f8}.community-publication a{color:#248AFF}}</style><link rel="stylesheet" href="public-report.css"></head><body><aside class="community-publication"><strong>Built with Astra.</strong> Public report edition. Recorded source results; no new native execution. <a href="index.html">Report catalogue</a> · <a href="../README.md">Package guide and scope</a>.</aside><main class="wrap">
+<header class="mast"><div class="kicker">nTop · Engineering review · Civil research aircraft</div><h1>The sizing assumptions<br>need correction</h1><p class="dek">A sizing audit found an incorrect rib load method, artificial analysis mass and fixed geometry that still needs optimization.</p><div class="meta"><span>15 SEP 2026 00:29 LOCAL</span><span>7500 LB ASSUMED GROSS WEIGHT</span><span>SIZING COMPARISON</span></div></header>
+<p>The apparent weight prompted a check of the calculations behind the geometry. Several assumptions inflate the estimate. Other assumptions overstate restraint and load transfer.</p>
+<div class="bluf"><h4>Review finding</h4><p class="verdict">The current analysis does not establish the required gauges. Retain this model as a comparison while the sizing method is corrected.</p><p>The artificial connection mass is corrected. The ordinary-rib load method is identified and tested with a limited sensitivity. That sensitivity is not a complete rib design.</p></div>
+<nav><a href="#s1">Assumptions</a><a href="#s2">Rib sizing</a><a href="#s3">Mass and analysis</a><a href="#s4">Wing geometry</a><a href="#s5">Native models</a><a href="#s6">Next sizing steps</a><a href="#s7">Evidence</a></nav>
+<h2 id="s1"><span class="num">01</span>Which sizing assumptions hold?</h2>
+<div class="tw"><table><thead><tr><th>Input or method</th><th>Current basis</th><th>Audit finding</th></tr></thead><tbody><tr><td>Gross weight</td><td>7500 lb / 3401.94 kg</td><td>User assumption. An empty-weight target and equipment mass distribution are still missing.</td></tr><tr><td>Maneuver and roll loads</td><td>+3.8 g, -1.5 g; 70/30 lift split</td><td>Provisional. These do not establish the mission, gust, speed or control-load envelope.</td></tr><tr><td>Ultimate load</td><td>1.5 times limit load</td><td>Retained in this audit. Lowering it is not a weight optimization.</td></tr><tr><td>Buckling treatment</td><td>0.65 capacity knockdown; reserve factor 1.15 at ultimate</td><td>This requires ideal elastic buckling capacity at least 2.654 times limit demand. The added allowances are not calibrated.</td></tr><tr><td>Ordinary wing ribs</td><td>Full outboard wing shear at every station</td><td>Incorrect as a general pressure-transfer model. Use local pressure and the actual diaphragm and attachment load cases.</td></tr><tr><td>Spar caps and root joints</td><td>76 mm cap width across the span; broad splice plates</td><td>Root hardware drove a fixed width. Spanwise width, joint footprint and fastener count were not optimized.</td></tr><tr><td>Primary bulkheads</td><td>76 mm stock; 10 mm residual pocket floors</td><td>Current proposed gauges. Their earlier local screens do not validate the moved stations.</td></tr><tr><td>Skin and connections</td><td>Perfect skin attachment; idealized links and stiffeners</td><td>Potentially optimistic. The native connection detail and stiffness model do not yet match.</td></tr></tbody></table></div>
+<p>FAA flight-load guidance considers maneuver and gust conditions across the structural envelope. It does not validate the selected 3.8 g value for this aircraft. <a href="https://www.faa.gov/sites/faa.gov/files/2022-12/Amd_23-64.pdf">FAA Part 23 amendment reference</a>.</p>
+<h2 id="s2"><span class="num">02</span>Ordinary ribs carry local loads</h2>
+<p>The earlier routine assigns the remaining outboard wing shear to every rib. This repeats a load that the spanwise wing structure carries.</p><p>The sensitivity integrates pressure between adjacent rib midpoints. The tributary loads sum to the one-wing pressure resultant. Root and tip closure checks retain their separate load envelopes.</p>
+<figure><div class="figlbl">Calculated | weight breakdown and rib sensitivity</div><div class="figbox"><img src="assets/bb0f85c1d98ca09356f4568a9c0f7693dc464ba55d6291c8c7cd6e1aa415aaf4.png" alt="Calculated | weight breakdown and rib sensitivity" loading="lazy"></div><figcaption>The left chart is an analytical estimate for both outer wings. The orange curve is pressure-only sizing, not a released thickness schedule.</figcaption></figure>
+<div class="tw"><table><thead><tr><th>Rib estimate, both wings</th><th>Mass, kg</th><th>Interpretation</th></tr></thead><tbody><tr><td>Earlier full-shear routine</td><td>93.39</td><td>Uses the flawed ordinary-rib load assignment</td></tr><tr><td>Tributary-pressure sensitivity</td><td>61.01</td><td>Still excludes several rib load cases</td></tr><tr><td>Potential difference</td><td>32.38</td><td>Not a verified aircraft weight saving</td></tr></tbody></table></div>
+<p>The sensitivity still includes assumed perimeter flanges and stiffeners. The native ribs do not yet contain every credited detail. Sweep-force transfer, diaphragm action, fuel, equipment and control attachments must be added before selecting thinner webs.</p>
+<p>Allowing stable postbuckling can change a panel design. That requires a model of combined loads, imperfections and the skin-to-stiffener interface. This audit takes no postbuckling credit. <a href="https://ntrs.nasa.gov/citations/19840010611">NASA POSTOP theory and capability</a>.</p>
+<h2 id="s3"><span class="num">03</span>Keep physical weight separate from analysis mass</h2>
+<div class="tw"><table><thead><tr><th>Mass basis</th><th>Mass, kg</th><th>Scope</th></tr></thead><tbody><tr><td>Outer-wing analytical estimate</td><td>353.80</td><td>Both outer wings. Includes the flawed rib estimate and approximate thin-wall sections.</td></tr><tr><td>Two primary CAD solids</td><td>205.82</td><td>Net reconstructed STEP volume at assumed density 2830 kg/m³.</td></tr><tr><td>Checked new CAD definitions (81/81)</td><td>795.51</td><td>Includes the two primaries. Excludes retained fuselage/tail parts and hardware.</td></tr><tr><td>Global structural idealization, before correction</td><td>1236.40</td><td>Contained artificial coupling-beam mass.</td></tr><tr><td>Global structural idealization, corrected</td><td>928.12</td><td>Different scope and sections from the CAD ledger. Not an aircraft BOM.</td></tr><tr><td>Artificial connection mass removed from accounting</td><td>308.27</td><td>Coupling stiffness and gross aircraft mass remain unchanged. No physical material was removed.</td></tr></tbody></table></div>
+<p>These totals overlap. Do not add them. Reconciliation must also remove cover/cap overlap and use the native gauge direction in the section stiffness calculation.</p>
+<h3>Where the CAD mass sits</h3>
+<div class="tw"><table><thead><tr><th>New CAD family</th><th>Net mass, kg</th></tr></thead><tbody><tr><td>primary</td><td>205.82</td></tr><tr><td>center covers</td><td>188.75</td></tr><tr><td>cover</td><td>146.04</td></tr><tr><td>splice</td><td>102.82</td></tr><tr><td>spar</td><td>58.09</td></tr><tr><td>rib</td><td>53.21</td></tr><tr><td>stringer</td><td>28.88</td></tr><tr><td>frame</td><td>11.91</td></tr></tbody></table></div>
+<p>The two center covers increase from 102.66 kg in the preceding Candidate C to 188.75 kg with the edge-aligned stations. This 86.09 kg increase comes from regenerating the larger center box with the retained cover construction. It has not been optimized.</p>
+<h3>The geometry and analytical stiffness do not yet agree</h3><p>A separate check intersects the actual stock cells with planes normal to the wing axis. It unions their sections and integrates area and bending moments. Rectangle and cavity benchmarks verify the integration routine.</p>
+<div class="tw"><table><thead><tr><th>Section BL, mm</th><th>Stock area vs. analytical area</th><th>Stock / analytical bending stiffness range</th></tr></thead><tbody><tr><td>1900</td><td>-11.68%</td><td>0.633 to 0.808</td></tr><tr><td>2850</td><td>-9.69%</td><td>0.747 to 0.880</td></tr><tr><td>3900</td><td>-13.29%</td><td>0.740 to 0.851</td></tr></tbody></table></div>
+<p>The three sampled stock sections provide 12-37% less bending stiffness than the analytical sections predict. The comparison excludes holes, ribs and root splices. It does not establish torsional stiffness. This measured mismatch must be corrected before using the global screen to select thinner gauges.</p>
+<h3>Recalculated global cases</h3><p>The massless-link model preserves the assumed 7500 lb gross mass by adjusting the remaining distributed mass. It reruns pitch trim and inertia relief.</p>
+<div class="tw"><table><thead><tr><th>Case</th><th>Wing ultimate stress, MPa</th><th>Change from mass correction</th><th>Wing local buckling RF</th></tr></thead><tbody><tr><td>positive-3p8g</td><td>179.25</td><td>-0.019%</td><td>1.564</td></tr><tr><td>negative-1p5g</td><td>70.76</td><td>-0.019%</td><td>3.981</td></tr><tr><td>roll-70-30</td><td>219.44</td><td>-0.317%</td><td>1.267</td></tr></tbody></table></div>
+<p>The refined model has 2,307 nodes, 2,412 beams and 1,536 membrane triangles. The two refinement levels change recovered wing stress by less than 0.4% and displacement by less than 0.8%.</p>
+<div class="call red"><span class="lbl">Whole-aircraft analysis remains unresolved</span><p>The wing screen is only one part of the result. The global model still flags ordinary frames, skin and tail load introduction. Very high local stresses at the idealized tail attachment show that its load path needs correction. They are not credible elastic operating stresses.</p></div>
+<h2 id="s4"><span class="num">04</span>The revised spars follow the wing edges</h2>
+<p>The straight outer-panel edge fits use source sections from BL 2200 to 4200 mm. The existing spar positions at BL 4200 remain proposed anchors. Extending edge-parallel lines inboard changes both primary stations.</p>
+<div class="tw"><table><thead><tr><th>Measured or derived geometry</th><th>Front spar</th><th>Rear spar</th></tr></thead><tbody><tr><td>Sweep from spanwise direction</td><td>35.08°</td><td>15.16°</td></tr><tr><td>Root station, mm</td><td>4083.31</td><td>5795.74</td></tr><tr><td>Movement from preceding C, mm</td><td>-311.94</td><td>+434.39</td></tr><tr><td>Available depth across root cap land, mm</td><td>165.98</td><td>93.76</td></tr></tbody></table></div>
+<figure><div class="figlbl">Derived from the aircraft source | edge-aligned spar layout</div><div class="figbox"><img src="assets/6bdfc2ce2a353e42e65385fb5c7ab6fd40824c0603446c5f6551f7d56f2a8a3a.png" alt="Derived from the aircraft source | edge-aligned spar layout" loading="lazy"></div><figcaption>Solid lines show the revised directions. Dashed lines show the preceding Candidate C. The edge angles are measured; the retained tip anchors are a design assumption.</figcaption></figure>
+<p>The aft spar now lies in a shallower wing region. That can increase required cap area and joint depth constraints. Edge alignment alone does not prove a lower structural weight.</p>
+<h2 id="s5"><span class="num">05</span>Native geometry documents the current comparison</h2>
+<figure><div class="figlbl">Native nTop | all revised bulkhead stations in the aircraft</div><div class="figbox"><img src="assets/e0d84206af2bf4801148650d513a06b3f36fe6e1f5581176ef180fe98eaacc55.png" alt="Native nTop | all revised bulkhead stations in the aircraft" loading="lazy"></div><figcaption>All 13 stations are visible with the source aircraft envelope. Other members are hidden in this view. The two new primary stations remain sizing comparisons.</figcaption></figure>
+<figure><div class="figlbl">Native nTop | revised forward primary</div><div class="figbox"><img src="assets/f1c6a099b8f613430d41cd3ac6e4c250c53d2eae3ed5a60b8546fd5e6d8aea24.png" alt="Native nTop | revised forward primary" loading="lazy"></div><figcaption>Native conformal pockets, rolling-ball roots and shared connection bores. Thickness remains under sizing review.</figcaption></figure>
+<figure><div class="figlbl">Native nTop | revised aft primary</div><div class="figbox"><img src="assets/a2ae9fde98cf7ed6cccb47329714da943ee97c5ce9275f3127fe74021ae3a79b.png" alt="Native nTop | revised aft primary" loading="lazy"></div><figcaption>Native conformal pockets, rolling-ball roots and shared connection bores. Thickness remains under sizing review.</figcaption></figure>
+<figure><div class="figlbl">Native nTop | revised front spar</div><div class="figbox"><img src="assets/955c55bf03e34c0f0d73bdd3a0cba8b512e7dac6f2e61951b3a64b51663e0ccd.png" alt="Native nTop | revised front spar" loading="lazy"></div><figcaption>Actual nTop rendering of the edge-aligned spar with root cap holes. This geometry retains the current comparison gauges.</figcaption></figure>
+<p>Both revised primaries pass 2,935 native field checks. The checks sample pockets, bores, bearing lands and longeron clearances. They do not establish structural strength or all assembly contacts.</p>
+<p>The assembled comparison contains 174 imported native definitions and 1128 nominal fasteners. Complete graph and input-default checks pass. All 143 checked GUI variables evaluate successfully. These checks establish native construction, not structural capacity.</p>
+<p>The source and accepted Revision F remain preserved. Separate revised part notebooks contain native feature definitions. Assembly regeneration and its verification records use the isolated edge_aligned folder.</p>
+<h3>STEP provenance</h3><p>The STEP files come from an independent Open CASCADE reconstruction of the shared stock, pocket and drill definitions. They are not direct exports of an nTop implicit. Both primary STEP files reimport as valid single solids. Native field checks and CAD validity are separate tests.</p>
+<h2 id="s6"><span class="num">06</span>What must change before weight is credible</h2>
+<div class="tw"><table><thead><tr><th>Work</th><th>Required result</th></tr></thead><tbody><tr><td>Reconcile geometry, mass and stiffness</td><td>Use matching section boundaries and gauge directions. Separate physical parts from mathematical coupling.</td></tr><tr><td>Resolve rib load cases</td><td>Combine tributary pressure with diaphragm, sweep and attachment loads. Model every credited flange and stiffener.</td></tr><tr><td>Optimize sections and joints</td><td>Trade cap width, cover/stringer arrangement, root splice footprint and fastener rows together.</td></tr><tr><td>Reassess primary floors and ordinary frames</td><td>Use loads recovered at the revised stations. Check out-of-plane stability and local joint effects.</td></tr><tr><td>Define the flight and equipment envelope</td><td>Keep the present assumptions visible until mission, speeds, gusts, mass distribution and control loads replace them.</td></tr><tr><td>Validate critical regions</td><td>Complete shell/contact checks, connection load sharing, fatigue, tolerances and manufacturing access.</td></tr></tbody></table></div>
+<p>The current 0.5 mm gauge search is local. It does not establish minimum weight. The next sizing pass must correct the model before it searches thinner sections.</p>
+<h2 id="s7"><span class="num">07</span>Evidence and reproducibility</h2>
+<ul class="files"><li><a href="../evidence/edge-aligned-analysis-native-stock-section-audit.json">Actual stock section audit</a></li><li><a href="../evidence/edge-aligned-analysis-sizing-assumptions-audit.json">Sizing audit and pressure-conservation check</a></li><li><a href="../evidence/edge-aligned-analysis-global-r8-massless-links.json">Corrected global calculations</a></li><li><a href="../evidence/edge-aligned-analysis-global-r4-massless-links.json">Coarser global comparison</a></li><li><a href="../evidence/edge-aligned-analysis-global-r8.json">Retained calculation with artificial mass</a></li><li><a href="../evidence/edge-aligned-manufacturing-audit-part-masses.csv">Checked CAD part masses</a></li><li><a href="../evidence/edge-aligned-manufacturing-audit-mass-scope.json">Mass scope and missing definitions</a></li><li><a href="../evidence/edge-aligned-geometry-edge-alignment-measurements.json">Measured edge directions and stations</a></li><li><a href="../models/edge-aligned-aircraft-c.ntop">Native edge-aligned comparison assembly</a></li><li><a href="../models/edge-aligned-c-fwd.ntop">Native forward primary comparison</a></li><li><a href="../models/edge-aligned-c-aft.ntop">Native aft primary comparison</a></li><li><a href="../README.md#scope-of-this-package">Forward primary STEP</a></li><li><a href="../README.md#scope-of-this-package">Aft primary STEP</a></li></ul>
+<p>Host Python uses uv. Run the corrected global solver at refinements 4 and 8, then run edge_aligned_sizing_audit.py and this report script. The environment variable CIVIL_AIRCRAFT_VARIANT selects edge_aligned. The default global model now uses massless connection links. The explicit --legacy-link-mass option reproduces the earlier error for comparison.</p>
+<p class="src">Classification: source geometry is measured or derived; aircraft mass is user-assumed; loads, gauges and material ceilings are proposed. CAD masses use integrated B-rep volumes. Analysis masses use idealized sections. This report does not establish manufacturing or flight release.</p>
+</main><dialog aria-label="Enlarged engineering figure" id="zoom"><button type="button" onclick="this.closest('dialog').close()">Close image</button><img alt="Enlarged engineering figure"></dialog><script>document.querySelectorAll("figure img").forEach(i=>i.addEventListener("click",()=>{const d=document.getElementById("zoom");d.querySelector("img").src=i.src;d.querySelector("img").alt=i.alt;d.showModal()}));</script><script>document.querySelectorAll("figure img").forEach(i=>{i.tabIndex=0;i.setAttribute("role","button");i.setAttribute("aria-label","Enlarge: "+i.alt);i.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();i.click()}})});</script></body></html>

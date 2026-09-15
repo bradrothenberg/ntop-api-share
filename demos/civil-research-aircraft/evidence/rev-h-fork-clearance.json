@@ -1,0 +1,2296 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "P-Front-spar cheek 0.00000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1278.0,
+        728.4093477477533
+      ],
+      "expected": "positive",
+      "field_mm": 466.1530238426416,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.00000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1278.0,
+        728.4093477477533
+      ],
+      "expected": "positive",
+      "field_mm": 466.1530195425962,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.04167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1193.3031147629977,
+        738.6963266244354
+      ],
+      "expected": "positive",
+      "field_mm": 381.726320999693,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.04167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1193.3031147629977,
+        738.6963266244354
+      ],
+      "expected": "positive",
+      "field_mm": 381.7263157486032,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.08333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1108.550449851187,
+        748.8289015309117
+      ],
+      "expected": "positive",
+      "field_mm": 297.64245018320923,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.08333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1108.550449851187,
+        748.8289015309117
+      ],
+      "expected": "positive",
+      "field_mm": 297.6424434486889,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.12500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1023.7591653342762,
+        758.6118566605267
+      ],
+      "expected": "positive",
+      "field_mm": 214.24396862195172,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.12500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1023.7591653342762,
+        758.6118566605267
+      ],
+      "expected": "positive",
+      "field_mm": 214.2439592658929,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.16667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -938.8297301682322,
+        767.1327578905781
+      ],
+      "expected": "positive",
+      "field_mm": 132.0883328785744,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.16667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -938.8297301682322,
+        767.1327578905781
+      ],
+      "expected": "positive",
+      "field_mm": 132.0883177032807,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.20833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -853.8267325526183,
+        774.8899274935268
+      ],
+      "expected": "positive",
+      "field_mm": 54.139786767171266,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.20833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -853.8267325526183,
+        774.8899274935268
+      ],
+      "expected": "positive",
+      "field_mm": 54.13974974301707,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.25000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -770.0068027546592,
+        789.9450965579318
+      ],
+      "expected": "positive",
+      "field_mm": 10.759144520370624,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.25000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -770.0068027546592,
+        789.9450965579318
+      ],
+      "expected": "positive",
+      "field_mm": 10.758958214063583,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.29167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -690.3658632089688,
+        772.4187437395212
+      ],
+      "expected": "positive",
+      "field_mm": 10.680022624726917,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.29167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -690.3658632089688,
+        772.4187437395212
+      ],
+      "expected": "positive",
+      "field_mm": 10.679834938163818,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.33333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -676.575746977786,
+        693.4496240083604
+      ],
+      "expected": "positive",
+      "field_mm": 10.68003513339633,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.33333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -676.575746977786,
+        693.4496240083604
+      ],
+      "expected": "positive",
+      "field_mm": 10.679847447053074,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.37500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -742.0,
+        648.2227580967359
+      ],
+      "expected": "positive",
+      "field_mm": 11.058253962842064,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.37500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -742.0,
+        648.2227580967359
+      ],
+      "expected": "positive",
+      "field_mm": 11.058072695929333,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.41667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -742.0,
+        562.8665440060853
+      ],
+      "expected": "positive",
+      "field_mm": 4.242271056957691,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.41667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -742.0,
+        562.8665440060853
+      ],
+      "expected": "positive",
+      "field_mm": 4.242271056957691,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.45833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -742.0,
+        477.5103299154347
+      ],
+      "expected": "positive",
+      "field_mm": 4.241912533562602,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.45833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -742.0,
+        477.5103299154347
+      ],
+      "expected": "positive",
+      "field_mm": 4.241912533562602,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.50000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -713.0223702246614,
+        427.6515901264434
+      ],
+      "expected": "positive",
+      "field_mm": 10.680095917176436,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.50000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -713.0223702246614,
+        427.6515901264434
+      ],
+      "expected": "positive",
+      "field_mm": 10.679908231901353,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.54167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -670.0720344766492,
+        359.9643986639622
+      ],
+      "expected": "positive",
+      "field_mm": 4.2425936695110105,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.54167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -670.0720344766492,
+        359.9643986639622
+      ],
+      "expected": "positive",
+      "field_mm": 4.2425936695110105,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.58333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -718.8391253236082,
+        296.34228816852703
+      ],
+      "expected": "positive",
+      "field_mm": 20.35167967712472,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.58333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -718.8391253236082,
+        296.34228816852703
+      ],
+      "expected": "positive",
+      "field_mm": 20.35167967712472,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.62500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -790.7368859650751,
+        323.0010446064704
+      ],
+      "expected": "positive",
+      "field_mm": 2.9998964580402676,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.62500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -790.7368859650751,
+        323.0010446064704
+      ],
+      "expected": "positive",
+      "field_mm": 2.9998964580402676,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.66667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -860.0532738266011,
+        355.99346220933165
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999771280462046,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.66667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -860.0532738266011,
+        355.99346220933165
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999771280462046,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.70833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -874.6662438555446,
+        439.4723170228911
+      ],
+      "expected": "positive",
+      "field_mm": 63.57388851348883,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.70833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -874.6662438555446,
+        439.4723170228911
+      ],
+      "expected": "positive",
+      "field_mm": 63.57388851348883,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.75000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -936.0706469039375,
+        491.03054464254393
+      ],
+      "expected": "positive",
+      "field_mm": 162.49273736723194,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.75000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -936.0706469039375,
+        491.03054464254393
+      ],
+      "expected": "positive",
+      "field_mm": 162.492725031424,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.79167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1019.5957935182317,
+        508.615571425282
+      ],
+      "expected": "positive",
+      "field_mm": 243.45336509562537,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.79167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1019.5957935182317,
+        508.615571425282
+      ],
+      "expected": "positive",
+      "field_mm": 243.4533568621012,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.83333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1102.9672663072338,
+        526.9132045520436
+      ],
+      "expected": "positive",
+      "field_mm": 326.41366617104677,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.83333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1102.9672663072338,
+        526.9132045520436
+      ],
+      "expected": "positive",
+      "field_mm": 326.41366003013013,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.87500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1186.2322365852306,
+        545.6914517213149
+      ],
+      "expected": "positive",
+      "field_mm": 408.3350507108246,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.87500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1186.2322365852306,
+        545.6914517213149
+      ],
+      "expected": "positive",
+      "field_mm": 408.33504580191675,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.91667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1269.4907545194862,
+        564.4984311513089
+      ],
+      "expected": "positive",
+      "field_mm": 480.8421587659202,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.91667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1269.4907545194862,
+        564.4984311513089
+      ],
+      "expected": "positive",
+      "field_mm": 480.84215459723595,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.95833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        -1278.0,
+        643.0531336571023
+      ],
+      "expected": "positive",
+      "field_mm": 472.0375063305594,
+      "pass": true
+    },
+    {
+      "name": "P-Front-spar cheek 0.95833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        -1278.0,
+        643.0531336571023
+      ],
+      "expected": "positive",
+      "field_mm": 472.037502084119,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.00000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        728.7984909334957,
+        432.3389796842244
+      ],
+      "expected": "positive",
+      "field_mm": 8.294393947354326,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.00000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        728.7984909334957,
+        432.3389796842244
+      ],
+      "expected": "positive",
+      "field_mm": 8.294393947354326,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.04167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        742.0,
+        493.27901119904914
+      ],
+      "expected": "positive",
+      "field_mm": 4.241974227977741,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.04167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        742.0,
+        493.27901119904914
+      ],
+      "expected": "positive",
+      "field_mm": 4.241974227977741,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.08333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        742.0,
+        578.903602044439
+      ],
+      "expected": "positive",
+      "field_mm": 6.95510326290641,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.08333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        742.0,
+        578.903602044439
+      ],
+      "expected": "positive",
+      "field_mm": 6.95510326290641,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.12500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        729.7109018898143,
+        653.8222302535164
+      ],
+      "expected": "positive",
+      "field_mm": 10.68001007537914,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.12500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        729.7109018898143,
+        653.8222302535164
+      ],
+      "expected": "positive",
+      "field_mm": 10.679822388595513,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.16667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        671.3985660117199,
+        709.1530649083256
+      ],
+      "expected": "positive",
+      "field_mm": 10.6800899423844,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.16667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        671.3985660117199,
+        709.1530649083256
+      ],
+      "expected": "positive",
+      "field_mm": 10.679902257004331,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.20833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        703.5584605993955,
+        782.8224080522664
+      ],
+      "expected": "positive",
+      "field_mm": 10.680082565340713,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.20833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        703.5584605993955,
+        782.8224080522664
+      ],
+      "expected": "positive",
+      "field_mm": 10.679894879830993,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.25000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        786.6335245939823,
+        785.9938090979325
+      ],
+      "expected": "positive",
+      "field_mm": 12.413674818424052,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.25000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        786.6335245939823,
+        785.9938090979325
+      ],
+      "expected": "positive",
+      "field_mm": 12.413513343905544,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.29167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        871.146038610804,
+        773.4286259426249
+      ],
+      "expected": "positive",
+      "field_mm": 69.31324183959391,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.29167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        871.146038610804,
+        773.4286259426249
+      ],
+      "expected": "positive",
+      "field_mm": 69.31321292045102,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.33333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        956.4021407415327,
+        765.4942447925716
+      ],
+      "expected": "positive",
+      "field_mm": 148.90695521447907,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.33333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        956.4021407415327,
+        765.4942447925716
+      ],
+      "expected": "positive",
+      "field_mm": 148.90694175319237,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.37500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1041.5780519494238,
+        756.750270925284
+      ],
+      "expected": "positive",
+      "field_mm": 231.70546481612982,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.37500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1041.5780519494238,
+        756.750270925284
+      ],
+      "expected": "positive",
+      "field_mm": 231.7054561651506,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.41667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1126.6087532838962,
+        746.6829779421552
+      ],
+      "expected": "positive",
+      "field_mm": 315.515914810179,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.41667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1126.6087532838962,
+        746.6829779421552
+      ],
+      "expected": "positive",
+      "field_mm": 315.51590845715833,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.45833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1211.6213845833197,
+        736.4647768840008
+      ],
+      "expected": "positive",
+      "field_mm": 399.9550610058827,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.45833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1211.6213845833197,
+        736.4647768840008
+      ],
+      "expected": "positive",
+      "field_mm": 399.9550559941218,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.50000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1278.0,
+        709.6659819847301
+      ],
+      "expected": "positive",
+      "field_mm": 466.28907434134356,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.50000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1278.0,
+        709.6659819847301
+      ],
+      "expected": "positive",
+      "field_mm": 466.2890700425528,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.54167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1278.0,
+        624.0413911393404
+      ],
+      "expected": "positive",
+      "field_mm": 475.1609208530281,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.54167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1278.0,
+        624.0413911393404
+      ],
+      "expected": "positive",
+      "field_mm": 475.16091663450106,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.58333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1250.720533815105,
+        560.1765822431612
+      ],
+      "expected": "positive",
+      "field_mm": 464.19353008940385,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.58333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1250.720533815105,
+        560.1765822431612
+      ],
+      "expected": "positive",
+      "field_mm": 464.19352577120674,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.62500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1167.212744151152,
+        541.2560082810638
+      ],
+      "expected": "positive",
+      "field_mm": 391.03272760419395,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.62500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1167.212744151152,
+        541.2560082810638
+      ],
+      "expected": "positive",
+      "field_mm": 391.0327224780779,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.66667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        1083.6453550243982,
+        522.5995876174395
+      ],
+      "expected": "positive",
+      "field_mm": 307.0607527150268,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.66667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        1083.6453550243982,
+        522.5995876174395
+      ],
+      "expected": "positive",
+      "field_mm": 307.0607461870706,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.70833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        999.9611496095038,
+        504.48177755600653
+      ],
+      "expected": "positive",
+      "field_mm": 224.19541015253438,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.70833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        999.9611496095038,
+        504.48177755600653
+      ],
+      "expected": "positive",
+      "field_mm": 224.19540121176632,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.75000 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        916.1733834773886,
+        486.8414599843055
+      ],
+      "expected": "positive",
+      "field_mm": 143.70778623030688,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.75000 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        916.1733834773886,
+        486.8414599843055
+      ],
+      "expected": "positive",
+      "field_mm": 143.7077722820075,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.79167 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        867.4039061799796,
+        420.22966764553547
+      ],
+      "expected": "positive",
+      "field_mm": 34.4969064945976,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.79167 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        867.4039061799796,
+        420.22966764553547
+      ],
+      "expected": "positive",
+      "field_mm": 34.4969064945976,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.83333 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        848.617745623592,
+        350.8914301200035
+      ],
+      "expected": "positive",
+      "field_mm": 3.006127820594892,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.83333 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        848.617745623592,
+        350.8914301200035
+      ],
+      "expected": "positive",
+      "field_mm": 3.006127820594892,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.87500 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        779.5294486636218,
+        311.909025698244
+      ],
+      "expected": "positive",
+      "field_mm": 9.811789525039545,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.87500 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        779.5294486636218,
+        311.909025698244
+      ],
+      "expected": "positive",
+      "field_mm": 9.811789525039545,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.91667 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        704.317294779415,
+        302.84325421084765
+      ],
+      "expected": "positive",
+      "field_mm": 7.009508603569726,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.91667 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        704.317294779415,
+        302.84325421084765
+      ],
+      "expected": "positive",
+      "field_mm": 7.009508603569726,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.95833 -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        671.2301687880159,
+        376.10012216318694
+      ],
+      "expected": "positive",
+      "field_mm": 4.242510963997468,
+      "pass": true
+    },
+    {
+      "name": "S-Front-spar cheek 0.95833 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        671.2301687880159,
+        376.10012216318694
+      ],
+      "expected": "positive",
+      "field_mm": 4.242510963997468,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.00000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -754.7332097171195,
+        359.2034810829967
+      ],
+      "expected": "positive",
+      "field_mm": 67.6771661034469,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.00000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -754.7332097171195,
+        359.2034810829967
+      ],
+      "expected": "positive",
+      "field_mm": 67.6772294355999,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.04167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -814.7491479768689,
+        403.34607763176524
+      ],
+      "expected": "positive",
+      "field_mm": 141.70398935904822,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.04167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -814.7491479768689,
+        403.34607763176524
+      ],
+      "expected": "positive",
+      "field_mm": 141.7040196062008,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.08333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -894.2148449394517,
+        415.4195528948412
+      ],
+      "expected": "positive",
+      "field_mm": 213.55822127982546,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.08333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -894.2148449394517,
+        415.4195528948412
+      ],
+      "expected": "positive",
+      "field_mm": 213.55824134996098,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.12500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -973.6800980029179,
+        427.495948728406
+      ],
+      "expected": "positive",
+      "field_mm": 280.89542095159766,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.12500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -973.6800980029179,
+        427.495948728406
+      ],
+      "expected": "positive",
+      "field_mm": 280.8954362104528,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.16667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1053.1482369438518,
+        439.55307535395565
+      ],
+      "expected": "positive",
+      "field_mm": 353.0031678903288,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.16667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1053.1482369438518,
+        439.55307535395565
+      ],
+      "expected": "positive",
+      "field_mm": 353.00318003226676,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.20833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1132.653129696613,
+        451.3656884031107
+      ],
+      "expected": "positive",
+      "field_mm": 427.81822628233016,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.20833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1132.653129696613,
+        451.3656884031107
+      ],
+      "expected": "positive",
+      "field_mm": 427.81823630093703,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.25000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1212.2537947640649,
+        462.5110952051085
+      ],
+      "expected": "positive",
+      "field_mm": 504.3766468685612,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.25000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1212.2537947640649,
+        462.5110952051085
+      ],
+      "expected": "positive",
+      "field_mm": 504.37665536646193,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.29167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1278.0,
+        484.7292085876973
+      ],
+      "expected": "positive",
+      "field_mm": 566.9561350168037,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.29167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1278.0,
+        484.7292085876973
+      ],
+      "expected": "positive",
+      "field_mm": 566.9561425767231,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.33333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1273.1417744259575,
+        560.3396606436247
+      ],
+      "expected": "positive",
+      "field_mm": 559.4560727172297,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.33333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1273.1417744259575,
+        560.3396606436247
+      ],
+      "expected": "positive",
+      "field_mm": 559.4560803784973,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.37500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1192.788813469209,
+        562.2254941782995
+      ],
+      "expected": "positive",
+      "field_mm": 479.21508436847586,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.37500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1192.788813469209,
+        562.2254941782995
+      ],
+      "expected": "positive",
+      "field_mm": 479.21509331256533,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.41667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1112.4675486521787,
+        565.2355135918001
+      ],
+      "expected": "positive",
+      "field_mm": 399.09916630404115,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.41667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1112.4675486521787,
+        565.2355135918001
+      ],
+      "expected": "positive",
+      "field_mm": 399.099177043584,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.45833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -1032.1758062037752,
+        568.9487920294346
+      ],
+      "expected": "positive",
+      "field_mm": 319.1778138828876,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.45833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -1032.1758062037752,
+        568.9487920294346
+      ],
+      "expected": "positive",
+      "field_mm": 319.1778273115858,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.50000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -951.8902487003286,
+        572.7936596583335
+      ],
+      "expected": "positive",
+      "field_mm": 239.52514939869545,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.50000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -951.8902487003286,
+        572.7936596583335
+      ],
+      "expected": "positive",
+      "field_mm": 239.5251672930272,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.54167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -871.6098072242463,
+        576.7454333211933
+      ],
+      "expected": "positive",
+      "field_mm": 160.45396632663892,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.54167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -871.6098072242463,
+        576.7454333211933
+      ],
+      "expected": "positive",
+      "field_mm": 160.45399303923685,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.58333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -791.3293657481642,
+        580.6972069840532
+      ],
+      "expected": "positive",
+      "field_mm": 82.99511419778358,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.58333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -791.3293657481642,
+        580.6972069840532
+      ],
+      "expected": "positive",
+      "field_mm": 82.99516584108031,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.62500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -711.5410760425574,
+        589.1656187336218
+      ],
+      "expected": "positive",
+      "field_mm": 17.926398736204312,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.62500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -711.5410760425574,
+        589.1656187336218
+      ],
+      "expected": "positive",
+      "field_mm": 17.926637831302223,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.66667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -633.1650773727648,
+        588.7443585996826
+      ],
+      "expected": "positive",
+      "field_mm": 10.679807655325206,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.66667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -633.1650773727648,
+        588.7443585996826
+      ],
+      "expected": "positive",
+      "field_mm": 10.68020897923032,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.70833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -614.80302341398,
+        518.4932513465267
+      ],
+      "expected": "positive",
+      "field_mm": 10.6797308541424,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.70833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -614.80302341398,
+        518.4932513465267
+      ],
+      "expected": "positive",
+      "field_mm": 10.680132180933457,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.75000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -662.0,
+        467.751951151864
+      ],
+      "expected": "positive",
+      "field_mm": 24.887643668426584,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.75000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -662.0,
+        467.751951151864
+      ],
+      "expected": "positive",
+      "field_mm": 24.887815887535456,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.79167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -662.0,
+        387.37430625804336
+      ],
+      "expected": "positive",
+      "field_mm": 33.792798487764564,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.79167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -662.0,
+        387.37430625804336
+      ],
+      "expected": "positive",
+      "field_mm": 33.792798487764564,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.83333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -632.4209283964668,
+        328.285827450166
+      ],
+      "expected": "positive",
+      "field_mm": 4.242506374277862,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.83333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -632.4209283964668,
+        328.285827450166
+      ],
+      "expected": "positive",
+      "field_mm": 4.242506374277862,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.87500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -615.2431541324055,
+        257.7380735762615
+      ],
+      "expected": "positive",
+      "field_mm": 4.2425031084009905,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.87500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -615.2431541324055,
+        257.7380735762615
+      ],
+      "expected": "positive",
+      "field_mm": 4.2425031084009905,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.91667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -685.5351370144041,
+        238.35852999000787
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999887806941965,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.91667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -685.5351370144041,
+        238.35852999000787
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999887806941965,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.95833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        -743.8257774690004,
+        280.0893811177919
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999854365221403,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-spar cheek 0.95833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        -743.8257774690004,
+        280.0893811177919
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999854365221403,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.00000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        657.4484883249412,
+        232.2680261897871
+      ],
+      "expected": "positive",
+      "field_mm": 11.937216937488715,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.00000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        657.4484883249412,
+        232.2680261897871
+      ],
+      "expected": "positive",
+      "field_mm": 11.937216937488701,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.04167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        608.0153224702084,
+        285.4414920064368
+      ],
+      "expected": "positive",
+      "field_mm": 4.242469228622886,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.04167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        608.0153224702084,
+        285.4414920064368
+      ],
+      "expected": "positive",
+      "field_mm": 4.242469228622886,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.08333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        659.7717509216955,
+        337.27564946973496
+      ],
+      "expected": "positive",
+      "field_mm": 10.681037738444674,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.08333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        659.7717509216955,
+        337.27564946973496
+      ],
+      "expected": "positive",
+      "field_mm": 10.681439016133007,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.12500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        662.0,
+        416.34979243274995
+      ],
+      "expected": "positive",
+      "field_mm": 32.35116503483985,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.12500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        662.0,
+        416.34979243274995
+      ],
+      "expected": "positive",
+      "field_mm": 32.35116503483985,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.16667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        656.6353075656791,
+        492.31798504962575
+      ],
+      "expected": "positive",
+      "field_mm": 10.679751037092375,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.16667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        656.6353075656791,
+        492.31798504962575
+      ],
+      "expected": "positive",
+      "field_mm": 10.680152363125018,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.20833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        608.0443310836155,
+        546.2556779294927
+      ],
+      "expected": "positive",
+      "field_mm": 10.679774144236003,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.20833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        608.0443310836155,
+        546.2556779294927
+      ],
+      "expected": "positive",
+      "field_mm": 10.680175469400352,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.25000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        660.7348772787581,
+        596.196070124788
+      ],
+      "expected": "positive",
+      "field_mm": 10.679804535743463,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.25000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        660.7348772787581,
+        596.196070124788
+      ],
+      "expected": "positive",
+      "field_mm": 10.680205859765804,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.29167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        740.0669240433922,
+        584.712095445956
+      ],
+      "expected": "positive",
+      "field_mm": 37.29248766748952,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.29167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        740.0669240433922,
+        584.712095445956
+      ],
+      "expected": "positive",
+      "field_mm": 37.29260260045075,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.33333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        820.214667446427,
+        579.3156088044893
+      ],
+      "expected": "positive",
+      "field_mm": 110.5349290697747,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.33333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        820.214667446427,
+        579.3156088044893
+      ],
+      "expected": "positive",
+      "field_mm": 110.53496784613189,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.37500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        900.4813133579098,
+        575.3815817779964
+      ],
+      "expected": "positive",
+      "field_mm": 188.7974221571499,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.37500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        900.4813133579098,
+        575.3815817779964
+      ],
+      "expected": "positive",
+      "field_mm": 188.7974448594852,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.41667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        980.7479592693924,
+        571.4475547515035
+      ],
+      "expected": "positive",
+      "field_mm": 268.11941845498853,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.41667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        980.7479592693924,
+        571.4475547515035
+      ],
+      "expected": "positive",
+      "field_mm": 268.11943444093447,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.45833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1061.019025516288,
+        567.6068957996924
+      ],
+      "expected": "positive",
+      "field_mm": 347.8678847351353,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.45833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1061.019025516288,
+        567.6068957996924
+      ],
+      "expected": "positive",
+      "field_mm": 347.8678970563145,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.50000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1141.303610509021,
+        564.0671076745915
+      ],
+      "expected": "positive",
+      "field_mm": 427.84845212150844,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.50000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1141.303610509021,
+        564.0671076745915
+      ],
+      "expected": "positive",
+      "field_mm": 427.8484621394075,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.54167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1221.6170435558518,
+        561.2699786283144
+      ],
+      "expected": "positive",
+      "field_mm": 507.9895460324011,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.54167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1221.6170435558518,
+        561.2699786283144
+      ],
+      "expected": "positive",
+      "field_mm": 507.9895544698634,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.58333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1278.0,
+        536.2729921743941
+      ],
+      "expected": "positive",
+      "field_mm": 564.1559830351615,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.58333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1278.0,
+        536.2729921743941
+      ],
+      "expected": "positive",
+      "field_mm": 564.155990632604,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.62500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1263.4742174132123,
+        468.79253642591385
+      ],
+      "expected": "positive",
+      "field_mm": 554.2709006493317,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.62500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1263.4742174132123,
+        468.79253642591385
+      ],
+      "expected": "positive",
+      "field_mm": 554.2709083822699,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.66667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1183.7736447934592,
+        458.5187431576281
+      ],
+      "expected": "positive",
+      "field_mm": 476.8587083155239,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.66667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1183.7736447934592,
+        458.5187431576281
+      ],
+      "expected": "positive",
+      "field_mm": 476.85871730381024,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.70833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1104.2255288686906,
+        447.1108881009621
+      ],
+      "expected": "positive",
+      "field_mm": 400.8560002980612,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.70833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1104.2255288686906,
+        447.1108881009621
+      ],
+      "expected": "positive",
+      "field_mm": 400.8560109905357,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.75000 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        1024.7412782135912,
+        435.2596955774971
+      ],
+      "expected": "positive",
+      "field_mm": 326.8394510792457,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.75000 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        1024.7412782135912,
+        435.2596955774971
+      ],
+      "expected": "positive",
+      "field_mm": 326.83946419315384,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.79167 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        945.2914191670895,
+        423.1795088233321
+      ],
+      "expected": "positive",
+      "field_mm": 256.1258044650183,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.79167 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        945.2914191670895,
+        423.1795088233321
+      ],
+      "expected": "positive",
+      "field_mm": 256.1258211995387,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.83333 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        865.8415601205877,
+        411.0993220691671
+      ],
+      "expected": "positive",
+      "field_mm": 188.1190903336902,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.83333 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        865.8415601205877,
+        411.0993220691671
+      ],
+      "expected": "positive",
+      "field_mm": 188.11911311788703,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.87500 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        786.60304903488,
+        397.9564665825134
+      ],
+      "expected": "positive",
+      "field_mm": 116.68943706717278,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.87500 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        786.60304903488,
+        397.9564665825134
+      ],
+      "expected": "positive",
+      "field_mm": 116.68947379836352,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.91667 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        747.812319923773,
+        331.37188636754223
+      ],
+      "expected": "positive",
+      "field_mm": 32.21732620909786,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.91667 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        747.812319923773,
+        331.37188636754223
+      ],
+      "expected": "positive",
+      "field_mm": 32.21732620909786,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.95833 -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        733.349608693134,
+        257.06305057967444
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999941544493995,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-spar cheek 0.95833 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        733.349608693134,
+        257.06305057967444
+      ],
+      "expected": "positive",
+      "field_mm": 2.9999941544493995,
+      "pass": true
+    },
+    {
+      "name": "P-Front-Lower-pin face gap -18.125",
+      "xyz_mm": [
+        4065.181088896556,
+        -711.925,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.1765634333365376,
+      "pass": true
+    },
+    {
+      "name": "P-Front-Lower-pin face gap 18.125",
+      "xyz_mm": [
+        4101.431088896556,
+        -711.925,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.17679763237332277,
+      "pass": true
+    },
+    {
+      "name": "P-Front-Upper-pin face gap -18.125",
+      "xyz_mm": [
+        4065.181088896556,
+        -711.925,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.17675771218567818,
+      "pass": true
+    },
+    {
+      "name": "P-Front-Upper-pin face gap 18.125",
+      "xyz_mm": [
+        4101.431088896556,
+        -711.925,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.1767976323733072,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin face gap -18.125",
+      "xyz_mm": [
+        4065.181088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.12487527533060205,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin face gap 18.125",
+      "xyz_mm": [
+        4101.431088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.12512728766901565,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin face gap -18.125",
+      "xyz_mm": [
+        4065.181088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.17675771218567599,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin face gap 18.125",
+      "xyz_mm": [
+        4101.431088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.17679763237330717,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-Lower-pin face gap -18.125",
+      "xyz_mm": [
+        5777.611872898488,
+        -637.925,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 0.1250452528906293,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-Lower-pin face gap 18.125",
+      "xyz_mm": [
+        5813.861872898488,
+        -637.925,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 0.12495731010987417,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-Upper-pin face gap -18.125",
+      "xyz_mm": [
+        5777.611872898488,
+        -637.925,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 0.17666094348450262,
+      "pass": true
+    },
+    {
+      "name": "P-Rear-Upper-pin face gap 18.125",
+      "xyz_mm": [
+        5813.861872898488,
+        -637.925,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 0.17689444054785722,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin face gap -18.125",
+      "xyz_mm": [
+        5777.611872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 0.1250452528906293,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin face gap 18.125",
+      "xyz_mm": [
+        5813.861872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 0.12495731010987417,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin face gap -18.125",
+      "xyz_mm": [
+        5777.611872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 0.17666094348449962,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin face gap 18.125",
+      "xyz_mm": [
+        5813.861872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 0.17689444054786208,
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "scope": "The primary bodies are absent at 192 sampled fork cheek locations and 16 pin-plane face-gap locations. Finite samples do not establish global clearance.",
+  "minimum_sampled_field_mm": 0.12487527533060205
+}

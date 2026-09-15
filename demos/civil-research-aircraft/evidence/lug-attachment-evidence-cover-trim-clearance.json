@@ -1,0 +1,8576 @@
+{
+  "pass": true,
+  "retained_holes": 952,
+  "minimum_bore_edge_reserve_mm": 12.754715438420206,
+  "checks": [
+    {
+      "hole": "H00005",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00006",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00007",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00008",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00009",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00010",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00011",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00012",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00013",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00014",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00015",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00016",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00017",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00018",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00019",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00020",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00021",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00022",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00023",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00024",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00025",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00026",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00027",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00028",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00029",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00030",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00031",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00032",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00033",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00034",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00035",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00036",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00037",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00038",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00039",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00040",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00041",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00042",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00043",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00044",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00049",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00050",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00051",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00052",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00053",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00054",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00055",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00056",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00057",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00058",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00059",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00060",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00061",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00062",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00063",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00064",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00065",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00066",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00067",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00068",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00069",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00070",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00071",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00072",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00073",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00074",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00075",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00076",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00077",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00078",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00079",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00080",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00081",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00082",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00083",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00084",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00085",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00086",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00087",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00088",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00093",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00094",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00095",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00096",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00097",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00098",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00099",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00100",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00101",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00102",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00103",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00104",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00105",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00106",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00107",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00108",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00109",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00110",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00111",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00112",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00113",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00114",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00115",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00116",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00117",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00118",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00119",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00120",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00121",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00122",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00123",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00124",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00125",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00126",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00127",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00128",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00129",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00130",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00131",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00132",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00137",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420206,
+      "pass": true
+    },
+    {
+      "hole": "H00138",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 45.763978546943676,
+      "pass": true
+    },
+    {
+      "hole": "H00139",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 78.77324165546715,
+      "pass": true
+    },
+    {
+      "hole": "H00140",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00141",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00142",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00143",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00144",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00145",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00146",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00147",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00148",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00149",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00150",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00151",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00152",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00153",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00154",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00155",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00156",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00157",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00158",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00159",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00160",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00161",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00162",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00163",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00164",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00165",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00166",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00167",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00168",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00169",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00170",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00171",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00172",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00173",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00174",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 93.84309111841006,
+      "pass": true
+    },
+    {
+      "hole": "H00175",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 54.91350624977328,
+      "pass": true
+    },
+    {
+      "hole": "H00176",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136497,
+      "pass": true
+    },
+    {
+      "hole": "H00181",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420455,
+      "pass": true
+    },
+    {
+      "hole": "H00182",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 46.26122882627829,
+      "pass": true
+    },
+    {
+      "hole": "H00183",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00184",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00185",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00186",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00187",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00188",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00189",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00190",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00191",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00192",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00193",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00194",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00195",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00196",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00197",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00198",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00199",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00200",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00201",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00202",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00203",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00204",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00205",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00206",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00207",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00208",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00209",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00210",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00211",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00212",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00213",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00214",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00215",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00216",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00217",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00218",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 55.499940030092574,
+      "pass": true
+    },
+    {
+      "hole": "H00219",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136199,
+      "pass": true
+    },
+    {
+      "hole": "H00224",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420703,
+      "pass": true
+    },
+    {
+      "hole": "H00225",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00226",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00227",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00228",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00229",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00230",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00231",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00232",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00233",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00234",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00235",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00236",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00237",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00238",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00239",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00240",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00241",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00242",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00243",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00244",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00245",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00246",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00247",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00248",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00249",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00250",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00251",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00252",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00253",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00254",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00255",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00256",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00257",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00258",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00259",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00260",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00261",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00262",
+      "mates": [
+        "P-Upper-outer-splice",
+        "P-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136781,
+      "pass": true
+    },
+    {
+      "hole": "H00267",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00268",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00269",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00270",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00271",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00272",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00273",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00274",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00275",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00276",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00277",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00278",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00279",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00280",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00281",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00282",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00283",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00284",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00285",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00286",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00287",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00288",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00289",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00290",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00291",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00292",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00293",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00294",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00295",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00296",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00297",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00298",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00299",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00300",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00301",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00302",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00303",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00304",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00305",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00306",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00311",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00312",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00313",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00314",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00315",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00316",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00317",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00318",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00319",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00320",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00321",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00322",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00323",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00324",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00325",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00326",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00327",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00328",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00329",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00330",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00331",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00332",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00333",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00334",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00335",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00336",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00337",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00338",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00339",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00340",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00341",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00342",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00343",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00344",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00345",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00346",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00347",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00348",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00349",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00350",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00355",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00356",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00357",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00358",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00359",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00360",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00361",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00362",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00363",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00364",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00365",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00366",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00367",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00368",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00369",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00370",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00371",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00372",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00373",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00374",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00375",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00376",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00377",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00378",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00379",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00380",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00381",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00382",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00383",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00384",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00385",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00386",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00387",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00388",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00389",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00390",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00391",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00392",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00393",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00394",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00399",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420206,
+      "pass": true
+    },
+    {
+      "hole": "H00400",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 45.763978546943676,
+      "pass": true
+    },
+    {
+      "hole": "H00401",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 78.77324165546715,
+      "pass": true
+    },
+    {
+      "hole": "H00402",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00403",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00404",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00405",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00406",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00407",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00408",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00409",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00410",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00411",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00412",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00413",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00414",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00415",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00416",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00417",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00418",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00419",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00420",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00421",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00422",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00423",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00424",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00425",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00426",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00427",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00428",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00429",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00430",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00431",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00432",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00433",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00434",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00435",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00436",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 93.84309111841006,
+      "pass": true
+    },
+    {
+      "hole": "H00437",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 54.91350624977328,
+      "pass": true
+    },
+    {
+      "hole": "H00438",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136497,
+      "pass": true
+    },
+    {
+      "hole": "H00443",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420455,
+      "pass": true
+    },
+    {
+      "hole": "H00444",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 46.26122882627829,
+      "pass": true
+    },
+    {
+      "hole": "H00445",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00446",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00447",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00448",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00449",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00450",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00451",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00452",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00453",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00454",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00455",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00456",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00457",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00458",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00459",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00460",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00461",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00462",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00463",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00464",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00465",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00466",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00467",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00468",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00469",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00470",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00471",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00472",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00473",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00474",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00475",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00476",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00477",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00478",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00479",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00480",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 55.499940030092574,
+      "pass": true
+    },
+    {
+      "hole": "H00481",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136199,
+      "pass": true
+    },
+    {
+      "hole": "H00486",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420703,
+      "pass": true
+    },
+    {
+      "hole": "H00487",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00488",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00489",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00490",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00491",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00492",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00493",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00494",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00495",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00496",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00497",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00498",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00499",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00500",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00501",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00502",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00503",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00504",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00505",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00506",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00507",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00508",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00509",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00510",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00511",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00512",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00513",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00514",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00515",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00516",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00517",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00518",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00519",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00520",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00521",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00522",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00523",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00524",
+      "mates": [
+        "P-Lower-outer-splice",
+        "P-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136781,
+      "pass": true
+    },
+    {
+      "hole": "H00529",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00530",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00531",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00532",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00533",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00534",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00535",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00536",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00537",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00538",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00539",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00540",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00541",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00542",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00543",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00544",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00545",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00546",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00547",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00548",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00549",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00550",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00551",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00552",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00553",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00554",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00555",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00556",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00557",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00558",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00559",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00560",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00561",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00562",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00563",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00564",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00565",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00566",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00567",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00568",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00573",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00574",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00575",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00576",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00577",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00578",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00579",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00580",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00581",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00582",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00583",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00584",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00585",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00586",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00587",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00588",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00589",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00590",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00591",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00592",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00593",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00594",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00595",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00596",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00597",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00598",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00599",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00600",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00601",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00602",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00603",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00604",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00605",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00606",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00607",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00608",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00609",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00610",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00611",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00612",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00617",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00618",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00619",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00620",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00621",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00622",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00623",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00624",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00625",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00626",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00627",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00628",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00629",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00630",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00631",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00632",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00633",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00634",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00635",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00636",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00637",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00638",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00639",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00640",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00641",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00642",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00643",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00644",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00645",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00646",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00647",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00648",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00649",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00650",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00651",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00652",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00653",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00654",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00655",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00656",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00661",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420206,
+      "pass": true
+    },
+    {
+      "hole": "H00662",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 45.763978546943676,
+      "pass": true
+    },
+    {
+      "hole": "H00663",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 78.77324165546715,
+      "pass": true
+    },
+    {
+      "hole": "H00664",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00665",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00666",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00667",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00668",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00669",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00670",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00671",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00672",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00673",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00674",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00675",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00676",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00677",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00678",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00679",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00680",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00681",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00682",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00683",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00684",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00685",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00686",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00687",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00688",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00689",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00690",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00691",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00692",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00693",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00694",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00695",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00696",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00697",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00698",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 93.84309111841006,
+      "pass": true
+    },
+    {
+      "hole": "H00699",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 54.91350624977328,
+      "pass": true
+    },
+    {
+      "hole": "H00700",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136497,
+      "pass": true
+    },
+    {
+      "hole": "H00705",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420455,
+      "pass": true
+    },
+    {
+      "hole": "H00706",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 46.26122882627829,
+      "pass": true
+    },
+    {
+      "hole": "H00707",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00708",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00709",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00710",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00711",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00712",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00713",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00714",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00715",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00716",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00717",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00718",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00719",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00720",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00721",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00722",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00723",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00724",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00725",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00726",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00727",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00728",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00729",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00730",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00731",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00732",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00733",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00734",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00735",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00736",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00737",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00738",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00739",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00740",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00741",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00742",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 55.499940030092574,
+      "pass": true
+    },
+    {
+      "hole": "H00743",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136199,
+      "pass": true
+    },
+    {
+      "hole": "H00748",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420703,
+      "pass": true
+    },
+    {
+      "hole": "H00749",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00750",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00751",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00752",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00753",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00754",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00755",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00756",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00757",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00758",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00759",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00760",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00761",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00762",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00763",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00764",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00765",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00766",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00767",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00768",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00769",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00770",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00771",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00772",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00773",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00774",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00775",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00776",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00777",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00778",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00779",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00780",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00781",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00782",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00783",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00784",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00785",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H00786",
+      "mates": [
+        "S-Upper-outer-splice",
+        "S-Upper-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136781,
+      "pass": true
+    },
+    {
+      "hole": "H00791",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00792",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00793",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00794",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00795",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00796",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00797",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00798",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00799",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00800",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00801",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00802",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00803",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00804",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00805",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00806",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00807",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00808",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00809",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00810",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00811",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00812",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00813",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00814",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00815",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00816",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00817",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00818",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00819",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00820",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00821",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00822",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00823",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00824",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00825",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00826",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00827",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.74999999999999,
+      "pass": true
+    },
+    {
+      "hole": "H00828",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 98.4131171283043,
+      "pass": true
+    },
+    {
+      "hole": "H00829",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00830",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00835",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00836",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00837",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00838",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00839",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00840",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00841",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00842",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00843",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00844",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00845",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00846",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00847",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00848",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00849",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00850",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00851",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00852",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00853",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00854",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00855",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00856",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00857",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00858",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00859",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00860",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00861",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00862",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00863",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00864",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00865",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00866",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00867",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00868",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00869",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00870",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00871",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00872",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00873",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 57.58155856415215,
+      "pass": true
+    },
+    {
+      "hole": "H00874",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00879",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00880",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00881",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00882",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00883",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00884",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00885",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00886",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00887",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00888",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00889",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00890",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00891",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00892",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00893",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00894",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00895",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00896",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00897",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00898",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00899",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00900",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00901",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00902",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00903",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00904",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00905",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00906",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00907",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00908",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00909",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00910",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00911",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00912",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00913",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00914",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00915",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00916",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00917",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.749999999999993,
+      "pass": true
+    },
+    {
+      "hole": "H00918",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 16.75,
+      "pass": true
+    },
+    {
+      "hole": "H00923",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420206,
+      "pass": true
+    },
+    {
+      "hole": "H00924",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 45.763978546943676,
+      "pass": true
+    },
+    {
+      "hole": "H00925",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 78.77324165546715,
+      "pass": true
+    },
+    {
+      "hole": "H00926",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00927",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00928",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00929",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00930",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00931",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00932",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00933",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00934",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00935",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00936",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00937",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00938",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00939",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00940",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00941",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00942",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00943",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00944",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00945",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00946",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00947",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00948",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00949",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00950",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00951",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00952",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00953",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00954",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00955",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00956",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00957",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00958",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00959",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 109.75,
+      "pass": true
+    },
+    {
+      "hole": "H00960",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 93.84309111841006,
+      "pass": true
+    },
+    {
+      "hole": "H00961",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 54.91350624977328,
+      "pass": true
+    },
+    {
+      "hole": "H00962",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136497,
+      "pass": true
+    },
+    {
+      "hole": "H00967",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420455,
+      "pass": true
+    },
+    {
+      "hole": "H00968",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 46.26122882627829,
+      "pass": true
+    },
+    {
+      "hole": "H00969",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00970",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00971",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00972",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00973",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00974",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00975",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00976",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00977",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00978",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00979",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00980",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00981",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00982",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00983",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00984",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00985",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00986",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00987",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00988",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00989",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00990",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00991",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00992",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00993",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00994",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00995",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00996",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00997",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00998",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H00999",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H01000",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H01001",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H01002",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H01003",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 69.75,
+      "pass": true
+    },
+    {
+      "hole": "H01004",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 55.499940030092574,
+      "pass": true
+    },
+    {
+      "hole": "H01005",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136199,
+      "pass": true
+    },
+    {
+      "hole": "H01010",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 12.754715438420703,
+      "pass": true
+    },
+    {
+      "hole": "H01011",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01012",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01013",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01014",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01015",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01016",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01017",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01018",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01019",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01020",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01021",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01022",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01023",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01024",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01025",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01026",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01027",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01028",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01029",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01030",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01031",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01032",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01033",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01034",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01035",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01036",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01037",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01038",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01039",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01040",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01041",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01042",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01043",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01044",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01045",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01046",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01047",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 29.75,
+      "pass": true
+    },
+    {
+      "hole": "H01048",
+      "mates": [
+        "S-Lower-outer-splice",
+        "S-Lower-inner-splice"
+      ],
+      "bore_to_trim_edge_mm": 15.983921381136781,
+      "pass": true
+    }
+  ],
+  "scope": "Planar clearance to the newly applied trimming boundary. This does not establish fastener strength, head seating, or three-dimensional contact."
+}

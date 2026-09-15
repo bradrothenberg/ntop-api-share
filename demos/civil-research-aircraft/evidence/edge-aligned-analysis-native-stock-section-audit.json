@@ -1,0 +1,144 @@
+{
+  "integration_benchmarks_pass": true,
+  "stations": [
+    {
+      "station_mm": 1900.0,
+      "plane_center_mm": [
+        5241.214215262309,
+        1900.0,
+        591.6616463425955
+      ],
+      "plane_normal": [
+        0.43750130351320415,
+        0.8990962568269392,
+        0.014782773218647988
+      ],
+      "thin_wall_area_mm2": 21865.32478943836,
+      "stock_union_area_mm2": 19311.531403660378,
+      "area_change_percent": -11.679649903995692,
+      "thin_wall_Q_mm4": [
+        [
+          5171543406.51472,
+          -483699184.57893366
+        ],
+        [
+          -483699184.57893366,
+          97763664.49303584
+        ]
+      ],
+      "stock_union_Q_mm4": [
+        [
+          4160343739.763057,
+          -401842336.002354
+        ],
+        [
+          -401842336.002354,
+          72190606.18502374
+        ]
+      ],
+      "relative_bending_stiffness_eigenvalues": [
+        0.8079382325627047,
+        0.6327499627547213
+      ],
+      "centroid_shift_in_section_mm": [
+        137.1570173531514,
+        -13.007010412564796
+      ],
+      "stock_cross_sections": 58,
+      "note": "Gross stock union on the actual normal plane. Not a manufactured section with all local details or a validated beam replacement."
+    },
+    {
+      "station_mm": 2850.0,
+      "plane_center_mm": [
+        5703.485340498677,
+        2850.0,
+        607.3087769637139
+      ],
+      "plane_normal": [
+        0.43750168424162433,
+        0.8990970392713308,
+        0.01472379907731639
+      ],
+      "thin_wall_area_mm2": 11361.20695573158,
+      "stock_union_area_mm2": 10260.389214207244,
+      "area_change_percent": -9.689267573538817,
+      "thin_wall_Q_mm4": [
+        [
+          1088223241.2943332,
+          -103574453.53462788
+        ],
+        [
+          -103574453.53462791,
+          31041946.477175836
+        ]
+      ],
+      "stock_union_Q_mm4": [
+        [
+          946340845.2587537,
+          -95363636.54970373
+        ],
+        [
+          -95363636.54970373,
+          25615662.419475254
+        ]
+      ],
+      "relative_bending_stiffness_eigenvalues": [
+        0.8795353600968627,
+        0.747042973430114
+      ],
+      "centroid_shift_in_section_mm": [
+        52.20944938609188,
+        -5.269031757017306
+      ],
+      "stock_cross_sections": 50,
+      "note": "Gross stock union on the actual normal plane. Not a manufactured section with all local details or a validated beam replacement."
+    },
+    {
+      "station_mm": 3900.0,
+      "plane_center_mm": [
+        6214.416584180978,
+        3900.0,
+        624.5094977856808
+      ],
+      "plane_normal": [
+        0.4375039214657552,
+        0.899101636925842,
+        0.014372375564170353
+      ],
+      "thin_wall_area_mm2": 4793.325044838825,
+      "stock_union_area_mm2": 4156.413387905583,
+      "area_change_percent": -13.287470617479457,
+      "thin_wall_Q_mm4": [
+        [
+          182800010.51068985,
+          -18107580.5794084
+        ],
+        [
+          -18107580.5794084,
+          8263336.387103406
+        ]
+      ],
+      "stock_union_Q_mm4": [
+        [
+          154802410.27637783,
+          -16045216.77628149
+        ],
+        [
+          -16045216.77628149,
+          6475085.626729258
+        ]
+      ],
+      "relative_bending_stiffness_eigenvalues": [
+        0.8508512295145733,
+        0.7402741445397625
+      ],
+      "centroid_shift_in_section_mm": [
+        31.53747543217072,
+        -3.205841762997604
+      ],
+      "stock_cross_sections": 34,
+      "note": "Gross stock union on the actual normal plane. Not a manufactured section with all local details or a validated beam replacement."
+    }
+  ],
+  "scope": "Measured shared convex stock geometry versus the analytical projected thin-wall section. No holes, ribs or root splices. Compare axial area and centroidal bending matrix only; no torsion or shear correction is implied."
+}

@@ -1,0 +1,527 @@
+{
+  "id": "S-Front-spar",
+  "checks": [
+    {
+      "part": "S-Front-spar",
+      "name": "S-Front-spar pin bore",
+      "xyz_mm": [
+        4111.556088896556,
+        740.0,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 24.074989481129997,
+      "pass": true
+    },
+    {
+      "part": "S-Front-spar",
+      "name": "S-Front-spar cheek bearing",
+      "xyz_mm": [
+        4111.556088896556,
+        771.2,
+        363.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -7.1249904632600005,
+      "pass": true
+    },
+    {
+      "part": "S-Front-spar",
+      "name": "S-Front-spar eye slot",
+      "xyz_mm": [
+        4083.306088896556,
+        771.2,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 18.249883147090003,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin outer cheek face -1",
+      "xyz_mm": [
+        4045.306088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "zero",
+      "field_mm": 0.00011685291,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin beyond cover edge -1",
+      "xyz_mm": [
+        4045.181088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.12511685291,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin outer cheek face 1",
+      "xyz_mm": [
+        4121.306088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "zero",
+      "field_mm": -0.00021222034,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin beyond cover edge 1",
+      "xyz_mm": [
+        4121.431088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.12478777966000001,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bore 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        740.0,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 24.074989481129997,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 0.0",
+      "xyz_mm": [
+        4111.556088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999046326,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 0.7853981633974483",
+      "xyz_mm": [
+        4111.556088896556,
+        759.8520228818123,
+        382.91356572297093
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999901182400004,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 1.5707963267948966",
+      "xyz_mm": [
+        4111.556088896556,
+        740.0,
+        391.1365428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999556184,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 2.356194490192345",
+      "xyz_mm": [
+        4111.556088896556,
+        720.1479771181877,
+        382.91356572297093
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000360523,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 3.141592653589793",
+      "xyz_mm": [
+        4111.556088896556,
+        711.925,
+        363.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000953674,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 3.9269908169872414",
+      "xyz_mm": [
+        4111.556088896556,
+        720.1479771181877,
+        343.20951995934627
+      ],
+      "expected": "negative",
+      "field_mm": -4.0000098818,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 4.71238898038469",
+      "xyz_mm": [
+        4111.556088896556,
+        740.0,
+        334.9865428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000443816,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring 28.25 5.497787143782138",
+      "xyz_mm": [
+        4111.556088896556,
+        759.8520228818123,
+        343.20951995934627
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999639481,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bore -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        740.0,
+        363.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 24.074989481129997,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 0.0",
+      "xyz_mm": [
+        4055.056088896556,
+        768.075,
+        363.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999046326,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 0.7853981633974483",
+      "xyz_mm": [
+        4055.056088896556,
+        759.8520228818123,
+        382.91356572297093
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999901182400004,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 1.5707963267948966",
+      "xyz_mm": [
+        4055.056088896556,
+        740.0,
+        391.1365428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999556184,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 2.356194490192345",
+      "xyz_mm": [
+        4055.056088896556,
+        720.1479771181877,
+        382.91356572297093
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000360523,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 3.141592653589793",
+      "xyz_mm": [
+        4055.056088896556,
+        711.925,
+        363.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000953674,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 3.9269908169872414",
+      "xyz_mm": [
+        4055.056088896556,
+        720.1479771181877,
+        343.20951995934627
+      ],
+      "expected": "negative",
+      "field_mm": -4.0000098818,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 4.71238898038469",
+      "xyz_mm": [
+        4055.056088896556,
+        740.0,
+        334.9865428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000443816,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Lower-pin bearing ring -28.25 5.497787143782138",
+      "xyz_mm": [
+        4055.056088896556,
+        759.8520228818123,
+        343.20951995934627
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999639481,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin outer cheek face -1",
+      "xyz_mm": [
+        4045.306088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "zero",
+      "field_mm": 0.00011685291,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin beyond cover edge -1",
+      "xyz_mm": [
+        4045.181088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.12511685291,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin outer cheek face 1",
+      "xyz_mm": [
+        4121.306088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "zero",
+      "field_mm": -0.00021222034,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin beyond cover edge 1",
+      "xyz_mm": [
+        4121.431088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 0.12478777966000001,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bore 28.25",
+      "xyz_mm": [
+        4111.556088896556,
+        740.0,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 24.074978970030003,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 0.0",
+      "xyz_mm": [
+        4111.556088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999046326,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 0.7853981633974483",
+      "xyz_mm": [
+        4111.556088896556,
+        759.8520228818123,
+        742.9135657229709
+      ],
+      "expected": "negative",
+      "field_mm": -3.99998000299,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 1.5707963267948966",
+      "xyz_mm": [
+        4111.556088896556,
+        740.0,
+        751.1365428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99998125673,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 2.356194490192345",
+      "xyz_mm": [
+        4111.556088896556,
+        720.1479771181877,
+        742.9135657229709
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999934899900005,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 3.141592653589793",
+      "xyz_mm": [
+        4111.556088896556,
+        711.925,
+        723.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000953675,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 3.9269908169872414",
+      "xyz_mm": [
+        4111.556088896556,
+        720.1479771181877,
+        703.2095199593463
+      ],
+      "expected": "negative",
+      "field_mm": -4.00001999704,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 4.71238898038469",
+      "xyz_mm": [
+        4111.556088896556,
+        740.0,
+        694.9865428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00001874327,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring 28.25 5.497787143782138",
+      "xyz_mm": [
+        4111.556088896556,
+        759.8520228818123,
+        703.2095199593463
+      ],
+      "expected": "negative",
+      "field_mm": -4.0000065100599995,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bore -28.25",
+      "xyz_mm": [
+        4055.056088896556,
+        740.0,
+        723.0615428411586
+      ],
+      "expected": "positive",
+      "field_mm": 24.074978970030003,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 0.0",
+      "xyz_mm": [
+        4055.056088896556,
+        768.075,
+        723.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99999046326,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 0.7853981633974483",
+      "xyz_mm": [
+        4055.056088896556,
+        759.8520228818123,
+        742.9135657229709
+      ],
+      "expected": "negative",
+      "field_mm": -3.99998000299,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 1.5707963267948966",
+      "xyz_mm": [
+        4055.056088896556,
+        740.0,
+        751.1365428411586
+      ],
+      "expected": "negative",
+      "field_mm": -3.99998125673,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 2.356194490192345",
+      "xyz_mm": [
+        4055.056088896556,
+        720.1479771181877,
+        742.9135657229709
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999934899900005,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 3.141592653589793",
+      "xyz_mm": [
+        4055.056088896556,
+        711.925,
+        723.0615428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00000953675,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 3.9269908169872414",
+      "xyz_mm": [
+        4055.056088896556,
+        720.1479771181877,
+        703.2095199593463
+      ],
+      "expected": "negative",
+      "field_mm": -4.00001999704,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 4.71238898038469",
+      "xyz_mm": [
+        4055.056088896556,
+        740.0,
+        694.9865428411586
+      ],
+      "expected": "negative",
+      "field_mm": -4.00001874327,
+      "pass": true
+    },
+    {
+      "name": "S-Front-Upper-pin bearing ring -28.25 5.497787143782138",
+      "xyz_mm": [
+        4055.056088896556,
+        759.8520228818123,
+        703.2095199593463
+      ],
+      "expected": "negative",
+      "field_mm": -4.0000065100599995,
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "pass": true
+}

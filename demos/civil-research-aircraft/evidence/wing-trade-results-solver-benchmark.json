@@ -1,0 +1,102 @@
+{
+  "pass": true,
+  "plate_and_column": {
+    "pass": true,
+    "compression": [
+      {
+        "a_mm": 200,
+        "b_mm": 200,
+        "analytic_N_per_mm": 52.425235662091374,
+        "Ritz_N_per_mm": 52.42523566209139,
+        "relative_error": 2.220446049250313e-16
+      },
+      {
+        "a_mm": 450,
+        "b_mm": 150,
+        "analytic_N_per_mm": 93.2004189548291,
+        "Ritz_N_per_mm": 93.2004189548291,
+        "relative_error": 0.0
+      },
+      {
+        "a_mm": 80,
+        "b_mm": 160,
+        "analytic_N_per_mm": 127.99129800315276,
+        "Ritz_N_per_mm": 127.99129800315278,
+        "relative_error": 2.220446049250313e-16
+      }
+    ],
+    "beam_convergence": [
+      {
+        "elements": 2,
+        "FE_N": 235.3377075166873,
+        "analytic_N": 233.58063749244812,
+        "relative_error": 0.007522327377396554
+      },
+      {
+        "elements": 4,
+        "FE_N": 233.70026360684355,
+        "analytic_N": 233.58063749244812,
+        "relative_error": 0.0005121405424681758
+      },
+      {
+        "elements": 8,
+        "FE_N": 233.58829101560224,
+        "analytic_N": 233.58063749244812,
+        "relative_error": 3.2766085563684655e-05
+      },
+      {
+        "elements": 16,
+        "FE_N": 233.5811187177776,
+        "analytic_N": 233.58063749244812,
+        "relative_error": 2.0602107033695916e-06
+      }
+    ],
+    "shear_convergence": [
+      {
+        "modes_per_axis": 4,
+        "Ritz_N_per_mm": 83.73639087907691,
+        "coefficient": 6.389013979359302
+      },
+      {
+        "modes_per_axis": 8,
+        "Ritz_N_per_mm": 72.58329744435318,
+        "coefficient": 5.538042626050651
+      },
+      {
+        "modes_per_axis": 12,
+        "Ritz_N_per_mm": 72.50286438905671,
+        "coefficient": 5.531905653710467
+      },
+      {
+        "modes_per_axis": 16,
+        "Ritz_N_per_mm": 72.48754138432791,
+        "coefficient": 5.530736521742988
+      }
+    ],
+    "scope": "Independent analytic plate/column values verify the numerical Ritz and beam stiffness implementation. This is not full-airframe validation."
+  },
+  "cantilever_exact_deflection_mm": 1.9642013013022062,
+  "cantilever_convergence": [
+    {
+      "segments": 10,
+      "deflection_mm": 1.9596420304433173,
+      "relative_error": 0.002321183096593127
+    },
+    {
+      "segments": 20,
+      "deflection_mm": 1.9630614835874836,
+      "relative_error": 0.0005802957741484205
+    },
+    {
+      "segments": 40,
+      "deflection_mm": 1.9639163468735252,
+      "relative_error": 0.0001450739435372439
+    },
+    {
+      "segments": 80,
+      "deflection_mm": 1.9641300626950364,
+      "relative_error": 3.6268485884005663e-05
+    }
+  ],
+  "torsion_exact_relative_error": 2.220446049250313e-16
+}

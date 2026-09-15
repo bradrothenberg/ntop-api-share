@@ -1,0 +1,455 @@
+{
+  "status": "Audit of a preliminary model. Candidate gauges remain unapproved. No native thinning is applied by this script.",
+  "pressure_partition_check": {
+    "pass": true,
+    "sum_tributary_loads_N": 88742.02122444706,
+    "one_wing_limit_shear_N": 88742.02122444706,
+    "note": "Checks distributed pressure conservation only. The root/tip special design checks do not add physical lift."
+  },
+  "mass_correction": {
+    "before_idealization_kg": 1236.3954498852145,
+    "after_idealization_kg": 928.1238952820927,
+    "removed_fictitious_mass_kg": 308.2715546031218,
+    "gross_aircraft_mass_preserved_kg": 3401.942775,
+    "comparisons": [
+      {
+        "case": "positive-3p8g",
+        "old_peak_wing_MPa": 179.28751612650706,
+        "corrected_peak_wing_MPa": 179.25375105183355,
+        "peak_wing_change_percent": -0.018832920106770512,
+        "corrected_wing_local_RF": 1.5638058317746801,
+        "refinement_stress_change_percent": -0.29856153149739884,
+        "refinement_movement_change_percent": -0.6019037378718006
+      },
+      {
+        "case": "negative-1p5g",
+        "old_peak_wing_MPa": 70.77138840978489,
+        "corrected_peak_wing_MPa": 70.7580590745088,
+        "peak_wing_change_percent": -0.018834356052077617,
+        "corrected_wing_local_RF": 3.98085786525032,
+        "refinement_stress_change_percent": -0.2985621623141421,
+        "refinement_movement_change_percent": -0.6019043767858667
+      },
+      {
+        "case": "roll-70-30",
+        "old_peak_wing_MPa": 220.13796143368165,
+        "corrected_peak_wing_MPa": 219.43958531889382,
+        "peak_wing_change_percent": -0.31724474517687007,
+        "corrected_wing_local_RF": 1.2671778239272593,
+        "refinement_stress_change_percent": -0.3433461374995561,
+        "refinement_movement_change_percent": -0.7030380694530103
+      }
+    ],
+    "note": "Accounting correction. No physical aircraft mass was removed. Finite coupling stiffness is unchanged."
+  },
+  "combined_buckling_capacity_vs_limit_demand": 2.6538461538461537,
+  "rib_load_finding": "Every ordinary rib was assigned the complete outboard wing shear. This is not a resolved rib load path and overstates distributed pressure transfer. Replace it with tributary pressure plus actual diaphragm, sweep, fuel and attachment load cases.",
+  "rib_sensitivity": {
+    "original_kg": 93.39302113511535,
+    "pressure_only_kg": 61.011352645235405,
+    "difference_kg": 32.38166848987994,
+    "ordinary_load_ratio_max": 0.3727425608774249,
+    "records": [
+      {
+        "station_mm": 1280.0,
+        "tributary_limits_mm": [
+          1280,
+          1350.0
+        ],
+        "old_outboard_shear_limit_N": 88742.02122444706,
+        "local_pressure_resultant_limit_N": 2555.8400007261953,
+        "local_load_fraction": 0.02880078643083803,
+        "original_web_mm": 6.0,
+        "pressure_only_web_mm": 6.0,
+        "original_mass_both_wings_kg": 9.72945303825693,
+        "pressure_only_mass_both_wings_kg": 9.72945303825693,
+        "scope": "Root/tip closure load retained"
+      },
+      {
+        "station_mm": 1420.0,
+        "tributary_limits_mm": [
+          1350.0,
+          1490.0
+        ],
+        "old_outboard_shear_limit_N": 83642.96961912018,
+        "local_pressure_resultant_limit_N": 5073.071977256026,
+        "local_load_fraction": 0.0606515048468145,
+        "original_web_mm": 6.0,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 8.463538893800546,
+        "pressure_only_mass_both_wings_kg": 4.16898313935446,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 1560.0,
+        "tributary_limits_mm": [
+          1490.0,
+          1630.0
+        ],
+        "old_outboard_shear_limit_N": 78597.33445104497,
+        "local_pressure_resultant_limit_N": 5016.7172592594,
+        "local_load_fraction": 0.06382808392037907,
+        "original_web_mm": 6.0,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 7.598112597435926,
+        "pressure_only_mass_both_wings_kg": 3.8190449970675804,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 1700.0,
+        "tributary_limits_mm": [
+          1630.0,
+          1762.5
+        ],
+        "old_outboard_shear_limit_N": 73611.04198043358,
+        "local_pressure_resultant_limit_N": 4690.605745005931,
+        "local_load_fraction": 0.06372149637893636,
+        "original_web_mm": 6.0,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 7.054793496943786,
+        "pressure_only_mass_both_wings_kg": 3.58782124428034,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 1825.0,
+        "tributary_limits_mm": [
+          1762.5,
+          1887.5
+        ],
+        "old_outboard_shear_limit_N": 69214.13965119196,
+        "local_pressure_resultant_limit_N": 4369.111800581246,
+        "local_load_fraction": 0.06312455551133914,
+        "original_web_mm": 5.5,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 6.2714406364488235,
+        "pressure_only_mass_both_wings_kg": 3.3995185114274555,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 1950.0,
+        "tributary_limits_mm": [
+          1887.5,
+          2012.5
+        ],
+        "old_outboard_shear_limit_N": 64873.97410566256,
+        "local_pressure_resultant_limit_N": 4310.04026878711,
+        "local_load_fraction": 0.06643712410414682,
+        "original_web_mm": 5.5,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 5.965876476677256,
+        "pressure_only_mass_both_wings_kg": 3.2516275342536454,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2075.0,
+        "tributary_limits_mm": [
+          2012.5,
+          2137.5
+        ],
+        "old_outboard_shear_limit_N": 60595.2631125368,
+        "local_pressure_resultant_limit_N": 4246.151006897104,
+        "local_load_fraction": 0.07007397589826787,
+        "original_web_mm": 5.0,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 5.323631233608397,
+        "pressure_only_mass_both_wings_kg": 3.1161715822120684,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2200.0,
+        "tributary_limits_mm": [
+          2137.5,
+          2262.5
+        ],
+        "old_outboard_shear_limit_N": 56382.93118863406,
+        "local_pressure_resultant_limit_N": 4177.223197217776,
+        "local_load_fraction": 0.07408666256180453,
+        "original_web_mm": 5.0,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 5.037948705932348,
+        "pressure_only_mass_both_wings_kg": 2.947089905109096,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2325.0,
+        "tributary_limits_mm": [
+          2262.5,
+          2387.5
+        ],
+        "old_outboard_shear_limit_N": 52242.13928573654,
+        "local_pressure_resultant_limit_N": 4103.002792160427,
+        "local_load_fraction": 0.07853818484957512,
+        "original_web_mm": 4.5,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 4.466572923446851,
+        "pressure_only_mass_both_wings_kg": 2.8174227940663963,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2450.0,
+        "tributary_limits_mm": [
+          2387.5,
+          2512.5
+        ],
+        "old_outboard_shear_limit_N": 48178.32132063373,
+        "local_pressure_resultant_limit_N": 4023.1966160394077,
+        "local_load_fraction": 0.08350636771390288,
+        "original_web_mm": 4.5,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 4.247035274173926,
+        "pressure_only_mass_both_wings_kg": 2.6892492491085647,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2575.0,
+        "tributary_limits_mm": [
+          2512.5,
+          2637.5
+        ],
+        "old_outboard_shear_limit_N": 44197.226575829205,
+        "local_pressure_resultant_limit_N": 3937.464828330987,
+        "local_load_fraction": 0.08908850471817449,
+        "original_web_mm": 4.0,
+        "pressure_only_web_mm": 2.0,
+        "original_mass_both_wings_kg": 3.702086418344444,
+        "pressure_only_mass_both_wings_kg": 2.528185887954178,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2700.0,
+        "tributary_limits_mm": [
+          2637.5,
+          2762.5
+        ],
+        "old_outboard_shear_limit_N": 40304.971130169215,
+        "local_pressure_resultant_limit_N": 3845.410848087471,
+        "local_load_fraction": 0.09540785516675612,
+        "original_web_mm": 4.0,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 3.505851149935853,
+        "pressure_only_mass_both_wings_kg": 2.1269314780960418,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2825.0,
+        "tributary_limits_mm": [
+          2762.5,
+          2887.5
+        ],
+        "old_outboard_shear_limit_N": 36508.10066583153,
+        "local_pressure_resultant_limit_N": 3746.568328367801,
+        "local_load_fraction": 0.1026229318983518,
+        "original_web_mm": 3.5,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 3.0528124783528634,
+        "pressure_only_mass_both_wings_kg": 2.0195717016066657,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 2950.0,
+        "tributary_limits_mm": [
+          2887.5,
+          3012.5
+        ],
+        "old_outboard_shear_limit_N": 32813.66825133302,
+        "local_pressure_resultant_limit_N": 3640.3838608401056,
+        "local_load_fraction": 0.11094108201975311,
+        "original_web_mm": 3.5,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 2.8469934524821854,
+        "pressure_only_mass_both_wings_kg": 1.8820171479423333,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3075.0,
+        "tributary_limits_mm": [
+          3012.5,
+          3137.5
+        ],
+        "old_outboard_shear_limit_N": 29229.33219416561,
+        "local_pressure_resultant_limit_N": 3526.193495897409,
+        "local_load_fraction": 0.12063886620718837,
+        "original_web_mm": 3.0,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 2.4508656089463696,
+        "pressure_only_mass_both_wings_kg": 1.7773759933520688,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3200.0,
+        "tributary_limits_mm": [
+          3137.5,
+          3262.5
+        ],
+        "old_outboard_shear_limit_N": 25763.481744646626,
+        "local_pressure_resultant_limit_N": 3403.1900302000613,
+        "local_load_fraction": 0.13209356033204664,
+        "original_web_mm": 3.0,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 2.298493367427827,
+        "pressure_only_mass_both_wings_kg": 1.673988925202822,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3325.0,
+        "tributary_limits_mm": [
+          3262.5,
+          3387.5
+        ],
+        "old_outboard_shear_limit_N": 22425.40001025287,
+        "local_pressure_resultant_limit_N": 3270.378894374211,
+        "local_load_fraction": 0.14583369272695235,
+        "original_web_mm": 3.0,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 2.147952050875783,
+        "pressure_only_mass_both_wings_kg": 1.5714169052147475,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3450.0,
+        "tributary_limits_mm": [
+          3387.5,
+          3512.5
+        ],
+        "old_outboard_shear_limit_N": 19225.48345930008,
+        "local_pressure_resultant_limit_N": 3126.507785980568,
+        "local_load_fraction": 0.16262310347613962,
+        "original_web_mm": 2.5,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 1.794745469632502,
+        "pressure_only_mass_both_wings_kg": 1.441509103825315,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3575.0,
+        "tributary_limits_mm": [
+          3512.5,
+          3637.5
+        ],
+        "old_outboard_shear_limit_N": 16175.544048120197,
+        "local_pressure_resultant_limit_N": 2969.966493173064,
+        "local_load_fraction": 0.18360844521444158,
+        "original_web_mm": 2.5,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 1.6649409262224553,
+        "pressure_only_mass_both_wings_kg": 1.3420048959768076,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3700.0,
+        "tributary_limits_mm": [
+          3637.5,
+          3762.5
+        ],
+        "old_outboard_shear_limit_N": 13289.238743615611,
+        "local_pressure_resultant_limit_N": 2798.624107206626,
+        "local_load_fraction": 0.21059325979459395,
+        "original_web_mm": 2.5,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 1.5372912396029055,
+        "pressure_only_mass_both_wings_kg": 1.2437902865989363,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3825.0,
+        "tributary_limits_mm": [
+          3762.5,
+          3887.5
+        ],
+        "old_outboard_shear_limit_N": 10582.707853175112,
+        "local_pressure_resultant_limit_N": 2609.5567275362155,
+        "local_load_fraction": 0.2465868626197854,
+        "original_web_mm": 2.0,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 1.2512241068594352,
+        "pressure_only_mass_both_wings_kg": 1.1190600485192244,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 3950.0,
+        "tributary_limits_mm": [
+          3887.5,
+          4012.5
+        ],
+        "old_outboard_shear_limit_N": 8075.575190014783,
+        "local_pressure_resultant_limit_N": 2398.5567449358396,
+        "local_load_fraction": 0.2970137344398187,
+        "original_web_mm": 2.0,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 1.14094996883642,
+        "pressure_only_mass_both_wings_kg": 1.0228874154761298,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 4075.0,
+        "tributary_limits_mm": [
+          4012.5,
+          4137.5
+        ],
+        "old_outboard_shear_limit_N": 5792.629704672828,
+        "local_pressure_resultant_limit_N": 2159.1596303343913,
+        "local_load_fraction": 0.3727425608774249,
+        "original_web_mm": 2.0,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 1.0311488616481688,
+        "pressure_only_mass_both_wings_kg": 0.9269681011102499,
+        "scope": "Ordinary rib pressure-only sensitivity; incomplete rib load set"
+      },
+      {
+        "station_mm": 4200.0,
+        "tributary_limits_mm": [
+          4137.5,
+          4572
+        ],
+        "old_outboard_shear_limit_N": 3766.944560498333,
+        "local_pressure_resultant_limit_N": 4745.098785251688,
+        "local_load_fraction": 1.2596678047802101,
+        "original_web_mm": 1.5,
+        "pressure_only_web_mm": 1.5,
+        "original_mass_both_wings_kg": 0.8092627592233512,
+        "pressure_only_mass_both_wings_kg": 0.8092627592233512,
+        "scope": "Root/tip closure load retained"
+      }
+    ]
+  },
+  "outer_wing_estimated_mass_kg": 353.8049035576825,
+  "outer_wing_mass_components": {
+    "covers_kg": 157.40745170310072,
+    "spar_webs_kg": 22.285538853547944,
+    "spar_caps_kg": 47.14984201246799,
+    "cover_stringers_kg": 33.545486736121,
+    "ribs_kg": 93.39302113511536,
+    "cap_turn_ties_kg": 0.023563117329488716
+  },
+  "global_idealization_mass_kg": 1236.3954498852145,
+  "global_idealization_mass_by_kind_kg": {
+    "longeron": 36.653874591431716,
+    "frame": 99.04251110067085,
+    "primary ring": 101.29826247675794,
+    "center box": 256.60632807997945,
+    "carry-through attachment": 308.2715546031218,
+    "wing box": 263.8841018290166,
+    "tail equivalent": 12.882483282411044,
+    "assumed skin": 157.75633392182527
+  },
+  "native_gross_cell_volume_by_role_kg": {
+    "spar": 58.33217509684677,
+    "cover": 336.41935708762963,
+    "stringer": 28.88394669877131,
+    "rib": 53.20658852130768,
+    "splice": 108.58380954281883
+  },
+  "gross_volume_note": "Sum of constructed cells before drills and overlap removal. Excludes primary/frame feature bodies. This is an upper bound, not an aircraft BOM.",
+  "issues": [
+    "7500 lb is the user assumption. The 3.8g/-1.5g envelope and 70/30 roll split have not been established from the aircraft mission, design speeds, control inputs or gusts.",
+    "The local sizing envelope applies the heavy roll-wing load to the symmetric pair and omits wing-mass inertial relief. Symmetric structure must withstand either roll direction, but this does not mean both wings have the heavy-side load simultaneously.",
+    "All elastic buckling capacities are multiplied by 0.65 and then required to exceed 1.15 times ultimate demand. These additional allowances are not calibrated to an imperfection or restraint model.",
+    "The no-buckling-at-ultimate criterion excludes postbuckling reserve. That reserve cannot be credited without a suitable nonlinear panel model and validation.",
+    "76 mm cap width is retained to accommodate root fasteners across the span. It was not optimized as a spanwise width distribution.",
+    "Center covers, bulkhead depth, residual floors, frame sections and large full-chord splice plates retain proposed minima or fixed dimensions; the wing gauge search does not optimize them.",
+    "The global mass includes finite dense attachment beams and approximate primary rings. Those masses are analysis idealizations, not measured manufactured parts.",
+    "Projected thin-wall section formulas do not exactly reproduce the native stock intersections. Cap/web/cover overlap and gauge conventions need reconciliation for both mass and stiffness.",
+    "The global model credits perfect skin attachment and unresolved center-box stiffeners. It also concentrates tail loads at simplified equivalent attachments. These assumptions can be optimistic locally.",
+    "The discrete gauge search is a local search. It does not prove minimum weight or optimum rib and stringer spacing."
+  ]
+}

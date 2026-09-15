@@ -1,0 +1,642 @@
+{
+  "C-Fwd": {
+    "blockId": "C-Fwd",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Front-spar": {
+    "blockId": "P-Front-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Front-spar": {
+    "blockId": "S-Front-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "C-Aft": {
+    "blockId": "C-Aft",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rear-spar": {
+    "blockId": "P-Rear-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rear-spar": {
+    "blockId": "S-Rear-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Upper-outer-splice": {
+    "blockId": "P-Upper-outer-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Upper-inner-splice": {
+    "blockId": "P-Upper-inner-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Lower-outer-splice": {
+    "blockId": "P-Lower-outer-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Lower-inner-splice": {
+    "blockId": "P-Lower-inner-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Upper-outer-splice": {
+    "blockId": "S-Upper-outer-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Upper-inner-splice": {
+    "blockId": "S-Upper-inner-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Lower-outer-splice": {
+    "blockId": "S-Lower-outer-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Lower-inner-splice": {
+    "blockId": "S-Lower-inner-splice",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Lower-cover": {
+    "blockId": "P-Lower-cover",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Upper-cover": {
+    "blockId": "P-Upper-cover",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Upper-stringers": {
+    "blockId": "P-Upper-stringers",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Lower-stringers": {
+    "blockId": "P-Lower-stringers",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-00": {
+    "blockId": "P-Rib-00",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-01": {
+    "blockId": "P-Rib-01",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-02": {
+    "blockId": "P-Rib-02",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-03": {
+    "blockId": "P-Rib-03",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-04": {
+    "blockId": "P-Rib-04",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-05": {
+    "blockId": "P-Rib-05",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-06": {
+    "blockId": "P-Rib-06",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-07": {
+    "blockId": "P-Rib-07",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-08": {
+    "blockId": "P-Rib-08",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-09": {
+    "blockId": "P-Rib-09",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-10": {
+    "blockId": "P-Rib-10",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-11": {
+    "blockId": "P-Rib-11",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-12": {
+    "blockId": "P-Rib-12",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-13": {
+    "blockId": "P-Rib-13",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-14": {
+    "blockId": "P-Rib-14",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-15": {
+    "blockId": "P-Rib-15",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-16": {
+    "blockId": "P-Rib-16",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-17": {
+    "blockId": "P-Rib-17",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-18": {
+    "blockId": "P-Rib-18",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-19": {
+    "blockId": "P-Rib-19",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-20": {
+    "blockId": "P-Rib-20",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-21": {
+    "blockId": "P-Rib-21",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-22": {
+    "blockId": "P-Rib-22",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rib-23": {
+    "blockId": "P-Rib-23",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Center-Upper-cover": {
+    "blockId": "Center-Upper-cover",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Center-Lower-cover": {
+    "blockId": "Center-Lower-cover",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Lower-cover": {
+    "blockId": "S-Lower-cover",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Upper-cover": {
+    "blockId": "S-Upper-cover",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Upper-stringers": {
+    "blockId": "S-Upper-stringers",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Lower-stringers": {
+    "blockId": "S-Lower-stringers",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-00": {
+    "blockId": "S-Rib-00",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-01": {
+    "blockId": "S-Rib-01",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-02": {
+    "blockId": "S-Rib-02",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-03": {
+    "blockId": "S-Rib-03",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-04": {
+    "blockId": "S-Rib-04",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-05": {
+    "blockId": "S-Rib-05",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-06": {
+    "blockId": "S-Rib-06",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-07": {
+    "blockId": "S-Rib-07",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-08": {
+    "blockId": "S-Rib-08",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-09": {
+    "blockId": "S-Rib-09",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-10": {
+    "blockId": "S-Rib-10",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-11": {
+    "blockId": "S-Rib-11",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-12": {
+    "blockId": "S-Rib-12",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-13": {
+    "blockId": "S-Rib-13",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-14": {
+    "blockId": "S-Rib-14",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-15": {
+    "blockId": "S-Rib-15",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-16": {
+    "blockId": "S-Rib-16",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-17": {
+    "blockId": "S-Rib-17",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-18": {
+    "blockId": "S-Rib-18",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-19": {
+    "blockId": "S-Rib-19",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-20": {
+    "blockId": "S-Rib-20",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-21": {
+    "blockId": "S-Rib-21",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-22": {
+    "blockId": "S-Rib-22",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rib-23": {
+    "blockId": "S-Rib-23",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "C-F4000": {
+    "blockId": "C-F4000",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Aircraft outer surface": {
+    "blockId": "Aircraft outer surface",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Shared interior": {
+    "blockId": "Shared interior",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F01 FS 900": {
+    "blockId": "F01 FS 900",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F02 FS 1500": {
+    "blockId": "F02 FS 1500",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F03 FS 2150": {
+    "blockId": "F03 FS 2150",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F04 FS 2800": {
+    "blockId": "F04 FS 2800",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F05 FS 3400": {
+    "blockId": "F05 FS 3400",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F07 FS 4700": {
+    "blockId": "F07 FS 4700",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F09 FS 6100": {
+    "blockId": "F09 FS 6100",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F10 FS 6800": {
+    "blockId": "F10 FS 6800",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F11 FS 7500": {
+    "blockId": "F11 FS 7500",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "F12 FS 8150": {
+    "blockId": "F12 FS 8150",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L01-Longeron-path": {
+    "blockId": "L01-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L02-Longeron-path": {
+    "blockId": "L02-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L03-Longeron-path": {
+    "blockId": "L03-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L04-Longeron-path": {
+    "blockId": "L04-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L05-Longeron-path": {
+    "blockId": "L05-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L06-Longeron-path": {
+    "blockId": "L06-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L07-Longeron-path": {
+    "blockId": "L07-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "L08-Longeron-path": {
+    "blockId": "L08-Longeron-path",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-tail-front-spar": {
+    "blockId": "Port-tail-front-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-tail-rear-spar": {
+    "blockId": "Port-tail-rear-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-tail-rib-BL-900": {
+    "blockId": "Port-tail-rib-BL-900",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-tail-rib-BL-1100": {
+    "blockId": "Port-tail-rib-BL-1100",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-tail-rib-BL-1300": {
+    "blockId": "Port-tail-rib-BL-1300",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-tail-rib-BL-1500": {
+    "blockId": "Port-tail-rib-BL-1500",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-tail-rib-BL-1650": {
+    "blockId": "Port-tail-rib-BL-1650",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-tail-front-spar": {
+    "blockId": "Starboard-tail-front-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-tail-rear-spar": {
+    "blockId": "Starboard-tail-rear-spar",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-tail-rib-BL-900": {
+    "blockId": "Starboard-tail-rib-BL-900",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-tail-rib-BL-1100": {
+    "blockId": "Starboard-tail-rib-BL-1100",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-tail-rib-BL-1300": {
+    "blockId": "Starboard-tail-rib-BL-1300",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-tail-rib-BL-1500": {
+    "blockId": "Starboard-tail-rib-BL-1500",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-tail-rib-BL-1650": {
+    "blockId": "Starboard-tail-rib-BL-1650",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-front-tail-root-bridge": {
+    "blockId": "Port-front-tail-root-bridge",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Port-rear-tail-root-bridge": {
+    "blockId": "Port-rear-tail-root-bridge",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-front-tail-root-bridge": {
+    "blockId": "Starboard-front-tail-root-bridge",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Starboard-rear-tail-root-bridge": {
+    "blockId": "Starboard-rear-tail-root-bridge",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Pin 48 family": {
+    "blockId": "Pin 48 family",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Front-Lower-pin": {
+    "blockId": "P-Front-Lower-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Front-Upper-pin": {
+    "blockId": "P-Front-Upper-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Front-Lower-pin": {
+    "blockId": "S-Front-Lower-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Front-Upper-pin": {
+    "blockId": "S-Front-Upper-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Pin 36 family": {
+    "blockId": "Pin 36 family",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rear-Lower-pin": {
+    "blockId": "P-Rear-Lower-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Rear-Upper-pin": {
+    "blockId": "P-Rear-Upper-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rear-Lower-pin": {
+    "blockId": "S-Rear-Lower-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Rear-Upper-pin": {
+    "blockId": "S-Rear-Upper-pin",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "M10 cover grip 24": {
+    "blockId": "M10 cover grip 24",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "M10 cover grip 22": {
+    "blockId": "M10 cover grip 22",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Upper-cover fasteners": {
+    "blockId": "P-Upper-cover fasteners",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "P-Lower-cover fasteners": {
+    "blockId": "P-Lower-cover fasteners",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Upper-cover fasteners": {
+    "blockId": "S-Upper-cover fasteners",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "S-Lower-cover fasteners": {
+    "blockId": "S-Lower-cover fasteners",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "Complete Revision G structure": {
+    "blockId": "Complete Revision G structure",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  }
+}

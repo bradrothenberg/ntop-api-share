@@ -1,0 +1,154 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Revision G | Local lug attachments</title>
+
+
+<style>
+:root{
+  --paper:#F7F8FA; --paper-2:#FFFFFF; --paper-3:#F0F2F5;
+  --ink:#262626; --ink-2:#4E4C4A; --ink-3:#6D6C6A; --ink-4:#A3A3A3;
+  --rule:#E4E7EC; --rule-2:#CBD0D8;
+  --orange:#16489D; --orange-soft:#EDF2FB; --orange-line:#B9CAE6;
+  --red:#B3362A; --red-soft:#F9E9E6; --red-line:#E3A99F;
+  --blue:#16489D; --blue-soft:#EDF2FB; --blue-line:#A9C0E8;
+  --green:#196B24; --green-soft:#E9F2EA; --green-line:#A8CBAE;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#141210; --paper-2:#1C1917; --paper-3:#211E1B;
+    --ink:#EDE9E4; --ink-2:#C9C3BA; --ink-3:#A39D94; --ink-4:#6E6862;
+    --rule:#2E2A26; --rule-2:#3B362F;
+    --orange:#16489D; --orange-soft:#33201A; --orange-line:#7A4030;
+    --red:#E08B7B; --red-soft:#2A1613; --red-line:#6B3229;
+    --blue:#248AFF; --blue-soft:#14243D; --blue-line:#2B4A78;
+    --green:#6FBF7E; --green-soft:#12211A; --green-line:#2C4D39;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141210; --paper-2:#1C1917; --paper-3:#211E1B;
+  --ink:#EDE9E4; --ink-2:#C9C3BA; --ink-3:#A39D94; --ink-4:#6E6862;
+  --rule:#2E2A26; --rule-2:#3B362F;
+  --orange:#16489D; --orange-soft:#33201A; --orange-line:#7A4030;
+  --red:#E08B7B; --red-soft:#2A1613; --red-line:#6B3229;
+  --blue:#248AFF; --blue-soft:#14243D; --blue-line:#2B4A78;
+  --green:#6FBF7E; --green-soft:#12211A; --green-line:#2C4D39;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);
+  font-family:"Aeonik","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16.5px;line-height:1.62;margin:0;-webkit-font-smoothing:antialiased}
+.wrap{max-width:830px;margin:0 auto;padding:0 26px 120px}
+.mast{border-bottom:2px solid var(--ink);padding:52px 0 20px;margin-bottom:44px}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:20px}
+h1{font-family:"Aeonik","Inter",system-ui,sans-serif;font-weight:600;font-size:clamp(36px,6vw,56px);line-height:1.05;letter-spacing:-.015em;margin:0 0 16px}
+.dek{font-size:clamp(17px,2.4vw,20px);line-height:1.5;color:var(--ink-2);max-width:64ch;margin:0 0 24px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 26px;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.03em}
+h2{font-family:"Aeonik","Inter",system-ui,sans-serif;font-weight:650;font-size:clamp(25px,3.6vw,31px);line-height:1.16;letter-spacing:-.012em;margin:64px 0 8px;padding-top:26px;border-top:1px solid var(--rule)}
+h2 .num{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;color:var(--orange);letter-spacing:.1em;display:block;margin-bottom:12px}
+h3{font-family:"Aeonik","Inter",sans-serif;font-weight:650;font-size:16.5px;margin:34px 0 8px}
+h4{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:28px 0 8px}
+p{margin:0 0 16px;max-width:70ch}
+a{color:var(--orange);text-underline-offset:2px}
+strong{font-weight:640;color:var(--ink)}
+code,.mono{font-family:"IBM Plex Mono",monospace;font-size:.88em}
+ul,ol{max-width:70ch;padding-left:22px;margin:0 0 18px}
+li{margin-bottom:7px} li::marker{color:var(--ink-4)}
+hr{border:0;border-top:1px solid var(--rule);margin:40px 0}
+.call{border-left:3px solid var(--orange);background:var(--orange-soft);padding:18px 22px;margin:26px 0;border-radius:0 5px 5px 0}
+.call.red{border-color:var(--red);background:var(--red-soft)}
+.call.blue{border-color:var(--blue);background:var(--blue-soft)}
+.call.green{border-color:var(--green);background:var(--green-soft)}
+.call p:last-child{margin-bottom:0}
+.call .lbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--orange);display:block;margin-bottom:7px}
+.call.red .lbl{color:var(--red)} .call.blue .lbl{color:var(--blue)} .call.green .lbl{color:var(--green)}
+.bluf{border:2px solid var(--ink);border-radius:7px;padding:26px 28px;margin:0 0 42px;background:var(--paper-2)}
+.bluf h4{margin-top:0}
+.bluf .verdict{font-family:"Aeonik","Inter",system-ui,sans-serif;font-size:21px;line-height:1.4;font-weight:600;margin:0 0 18px}
+.moves{display:grid;gap:1px;background:var(--rule-2);border:1px solid var(--rule-2);border-radius:5px;overflow:hidden;margin-top:20px}
+.move{background:var(--paper);padding:14px 16px;display:grid;grid-template-columns:78px 1fr;gap:14px;align-items:start}
+.move .tag{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:3px 0;color:var(--ink-3)}
+.move.do .tag{color:var(--green)} .move.kill .tag{color:var(--red)} .move.opt .tag{color:var(--blue)}
+.move div:last-child{font-size:15px;line-height:1.5}
+.tw{overflow-x:auto;margin:24px 0;border:1px solid var(--rule);border-radius:6px;background:var(--paper-2)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px}
+th{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);font-weight:600;padding:12px 14px;border-bottom:1px solid var(--rule-2);white-space:nowrap;background:var(--paper-3)}
+td{padding:12px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:0}
+td.num,th.num{font-family:"IBM Plex Mono",monospace;font-size:13px;white-space:nowrap}
+.pill{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2.5px 7px;border-radius:3px;white-space:nowrap}
+.p-hold{background:var(--green-soft);color:var(--green);border:1px solid var(--green-line)}
+.p-part{background:var(--orange-soft);color:var(--orange);border:1px solid var(--orange-line)}
+.p-fail{background:var(--red-soft);color:var(--red);border:1px solid var(--red-line)}
+.p-info{background:var(--blue-soft);color:var(--blue);border:1px solid var(--blue-line)}
+figure{margin:38px 0;padding:0}
+.figbox{border:1px solid var(--rule);border-radius:7px;background:var(--paper-2);padding:22px 20px 16px;overflow-x:auto}
+figure svg{display:block;width:100%;height:auto;min-width:520px}
+figcaption{font-size:13.5px;line-height:1.5;color:var(--ink-3);margin-top:12px}
+figcaption b{color:var(--ink-2);font-weight:600}
+.figlbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--orange);font-weight:600;margin-bottom:10px}
+svg text{font-family:"Aeonik","Inter",sans-serif;fill:var(--ink)}
+.svg-lbl{font-size:11px;font-weight:600}
+.svg-sm{font-size:9.5px;fill:var(--ink-3);font-family:"IBM Plex Mono",monospace;letter-spacing:.04em}
+.svg-tt{font-size:10px;font-weight:700;font-family:"IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase}
+.team{border:1px solid var(--rule);border-radius:7px;overflow:hidden;margin:26px 0;background:var(--paper-2)}
+.team-hd{padding:14px 20px;border-bottom:1px solid var(--rule);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.team-hd .nm{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.team-hd .ds{font-size:13px;color:var(--ink-3)}
+.team-bd{padding:6px 20px 16px}
+.team.pink .team-hd{background:var(--orange-soft);border-color:var(--orange-line)} .team.pink .team-hd .nm{color:var(--orange)}
+.team.redt .team-hd{background:var(--red-soft);border-color:var(--red-line)} .team.redt .team-hd .nm{color:var(--red)}
+.team.gold .team-hd{background:var(--blue-soft);border-color:var(--blue-line)} .team.gold .team-hd .nm{color:var(--blue)}
+.arg{border-bottom:1px solid var(--rule);padding:16px 0} .arg:last-child{border-bottom:0}
+.arg .ah{font-weight:650;font-size:15px;margin-bottom:5px;display:flex;gap:9px;align-items:baseline}
+.arg .ah .ix{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-4);flex-shrink:0}
+.arg p{font-size:15px;margin:0 0 8px;color:var(--ink-2)} .arg p:last-child{margin-bottom:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:1px;background:var(--rule-2);border:1px solid var(--rule-2);border-radius:6px;overflow:hidden;margin:28px 0}
+.stat{background:var(--paper-2);padding:16px 16px 14px}
+.stat .v{font-family:"Aeonik","Inter",system-ui,sans-serif;font-size:27px;line-height:1;font-weight:600;margin-bottom:6px}
+.stat .k{font-size:12.5px;line-height:1.35;color:var(--ink-3)}
+.stat.warn .v{color:var(--red)}
+.src{font-size:13px;line-height:1.55;color:var(--ink-3)} .src a{color:var(--ink-2)}
+@media(max-width:640px){body{font-size:16px}.wrap{padding:0 18px 90px}.move{grid-template-columns:1fr;gap:5px}}
+</style><style>.wrap{max-width:1180px}.figbox{background:white;border:1px solid var(--rule);padding:8px}.figbox img{width:100%;height:auto;cursor:zoom-in}.tw{overflow:auto}table{width:100%}dialog{border:0;max-width:96vw;max-height:96vh;padding:12px;background:var(--paper-2)}dialog img{max-width:90vw;max-height:88vh}dialog::backdrop{background:#000b}.nav{display:flex;gap:16px;flex-wrap:wrap}.num{scroll-margin-top:20px}@media(max-width:600px){.wrap{padding:0 16px 60px}.mast{padding-top:30px}}</style><style>.community-publication{max-width:1100px;margin:16px auto;padding:14px 20px;background:#EDF2FB;color:#262626;border-left:3px solid #16489D;font:15px/1.5 system-ui,sans-serif}.community-publication a{color:#16489D}.publication-note{border-left:3px solid #16489D;padding:12px;background:#EDF2FB;color:#262626}:root{--accent:#16489D;--blue:#16489D}table{max-width:100%}@media(prefers-color-scheme:dark){.community-publication{background:#202938;color:#f2f4f8}.community-publication a{color:#248AFF}}</style><link rel="stylesheet" href="public-report.css"></head><body><aside class="community-publication"><strong>Built with Astra.</strong> Public report edition. Recorded source results; no new native execution. <a href="index.html">Report catalogue</a> · <a href="../README.md">Package guide and scope</a>.</aside><main class="wrap">
+<header class="mast"><div class="kicker">nTop / Civil research aircraft / Connection study</div><h1>Bulkheads with local spar attachments</h1><p class="dek">Revision G develops the supplied attachment reference into native bulkhead and spar models.</p><div class="meta"><span>15 September 2026</span><span>7,500 lb proposed aircraft</span><span>Geometry revision; release inputs remain open</span></div></header>
+<nav class="nav"><a href="#s1">Architecture</a><a href="#s2">Native model</a><a href="#s3">Load screens</a><a href="#s4">Weight</a><a href="#s5">Files and evidence</a><a href="../reports/edge-aligned-sizing-audit.html">Prior sizing audit</a></nav>
+<h2 id="s1"><span class="num">01</span>Bring the joint into the bulkhead</h2>
+<p>The reference shows localized eyes at the upper and lower bulkhead load paths. The new model uses integral eyes and paired fork cheeks. Each spar root has two pins. Continuous bulkhead ribs connect the eyes inward.</p>
+<div class="bluf"><p class="verdict">The new attachment geometry is built and checked in nTop. Nominal pin and eye screens pass. Local fork stresses still exceed the study ceiling.</p><p>The first small-eye trial failed. Wider vertical spacing and larger pins improved the nominal joint checks. The fork transition and the overall structure need further analysis and design.</p></div>
+<p class="publication-note">The source reference image is omitted from this public edition. The recorded design discussion is retained.</p>
+<div class="tw"><table><thead><tr><th>Feature</th><th>Forward primary</th><th>Aft primary</th></tr></thead><tbody><tr><td>Fuselage station (source-derived proposal)</td><td>4,083.306 mm</td><td>5,795.737 mm</td></tr><tr><td>Attachment buttock line (proposed)</td><td>+/-740 mm</td><td>+/-660 mm</td></tr><tr><td>Pin center spacing (proposed)</td><td>360 mm</td><td>260 mm</td></tr><tr><td>Nominal pin diameter (proposed)</td><td>48 mm</td><td>36 mm</td></tr><tr><td>Eye thickness / fork cheek (proposed)</td><td>36 / 19.75 mm</td><td>36 / 19.75 mm</td></tr><tr><td>Pin bore / face gap (proposed)</td><td>48.15 mm / 0.25 mm</td><td>36.15 mm / 0.25 mm</td></tr></tbody></table></div>
+<figure><div class="figlbl">Proposed joint stack</div><div class="figbox"><img src="assets/3497a70f2ec2583ab407711ba01b197193e400ae5f10b047da2bc2d4c2e584a7.png" alt="Proposed joint stack"></div><figcaption>Dimensioned section diagram of the common pin stack. The native assembly images below show the modeled joint. Fits and hardware selection remain provisional.</figcaption></figure>
+<p>The outboard spar directions retain the measured 35.075-degree front and 15.165-degree rear sweep. Internal root transitions connect those spars to the deeper attachment positions. These transitions change the local load path and need a new shell/contact analysis.</p>
+<p>Cover and stringer forces retain the separate cover-splice path. The model removes 176 obsolete cap/web fasteners and their cap or web splice stock. It adds eight nominal pins and retains 952 cover fasteners.</p>
+<h2 id="s2"><span class="num">02</span>Native model and connection views</h2>
+<figure><div class="figlbl">Revision G inside the aircraft</div><div class="figbox"><img src="assets/059ed62a92a7cc04d0076c4a4b19cd33b8b9e8ee0aebc3e9e2dd256ef108b35c.png" alt="Revision G inside the aircraft"></div><figcaption>Native nTop implicit view. Covers, cover splices, stringers and cover fasteners are hidden for this structural view. They remain in the assembly.</figcaption></figure>
+<figure><div class="figlbl">Forward spar attachment</div><div class="figbox"><img src="assets/f3a9d6965c0b997c4258863a7bebc111246ba092de4f797ed8cc4be844bc4cb6.png" alt="Forward spar attachment"></div><figcaption>Native assembled view. The fork cheeks straddle the machined bulkhead eyes. Pin and bore positions use the shared joint table.</figcaption></figure>
+<figure><div class="figlbl">Aft spar attachment</div><div class="figbox"><img src="assets/8d0fcff78f8a15bae7e4580aa0ef539566aa960011824b9fe7b7609e02f60c3e.png" alt="Aft spar attachment"></div><figcaption>Native assembled view. Local face reliefs provide clearance while the fuselage ring remains continuous.</figcaption></figure>
+<figure><div class="figlbl">Forward bulkhead</div><div class="figbox"><img src="assets/ddc6e993e150a6b960558a1e9c0ed546cc780bf46529a021fc05daf77bc8c148.png" alt="Forward bulkhead"></div><figcaption>Native face view. Integral eyes, continuous load-path ribs, conformal pockets and retained longeron passages.</figcaption></figure>
+<figure><div class="figlbl">Aft bulkhead</div><div class="figbox"><img src="assets/872b4057b62153c255e89a4aca54d5c2802bb7fa5549692bf649f490951739b4.png" alt="Aft bulkhead"></div><figcaption>Native face view. The lower pin row introduces a crossmember through the authorized upper opening region.</figcaption></figure>
+<figure><div class="figlbl">All frame stations</div><div class="figbox"><img src="assets/a2cdd79e941d59b603564f635e557e9071b13a2572dde932f30905ac9b10245c.png" alt="All frame stations"></div><figcaption>Native frame stations inside the aircraft. Source fuselage geometry provides the translucent reference.</figcaption></figure>
+<h2 id="s3"><span class="num">03</span>Local screening loads and limitations</h2>
+<p>Loads come from the retained edge-aligned, massless-link beam cases: +3.8 g, -1.5 g and a 70/30 rolling split. The screen recovers cap and web forces. It adds the inboard shear lever arm. It applies 1.5 for ultimate load and 1.25 for unequal sharing, once each.</p>
+<p>Two pins resolve the group force and the moments about X and Y. The residual moment about Z needs restraint from the closed cover box. The model does not establish that restraint or its flexibility. Axial pin-direction loads require contact at the proposed thrust faces.</p>
+<div class="tw"><table><thead><tr><th>Screen</th><th>Lowest reserve factor (calculated)</th><th>Study ceiling</th></tr></thead><tbody><tr><td>pin combined</td><td>1.374</td><td>600 MPa steel combined stress</td></tr><tr><td>eye bearing</td><td>1.946</td><td>300 MPa aluminum bearing</td></tr><tr><td>fork bearing</td><td>2.136</td><td>300 MPa aluminum bearing</td></tr><tr><td>eye net</td><td>3.239</td><td>250 MPa aluminum net section</td></tr><tr><td>eye shear out</td><td>1.943</td><td>150 MPa aluminum shear</td></tr><tr><td>eye neck</td><td>2.027</td><td>250 MPa aluminum neck</td></tr><tr><td>thrust average</td><td>52.595</td><td>150 MPa average contact pressure</td></tr></tbody></table></div>
+<div class="call red"><span class="lbl">Scope of the result</span><p>These are unvalidated material ceilings and nominal geometry checks. Lug efficiency, stress concentration, pin contact, prying, slip, fork buckling and fatigue are unresolved. A reserve above one does not release the joint.</p></div>
+<p>Pin bending uses a symmetric double-shear beam with distributed eye and cheek bearing. The formula is M = P(t_eye/8 + gap/2 + t_cheek/4). The screen combines bending and average double-shear stress. It does not replace contact analysis.</p>
+<p>The general attachment and fastener references are the <a href="https://www.faa.gov/documentlibrary/media/advisory_circular/ac_65-15a.pdf">FAA Airframe Handbook</a> and <a href="https://ntrs.nasa.gov/citations/19900009424">NASA Fastener Design Manual, RP-1228</a>. They do not supply approval or joint-specific allowables for this model.</p>
+<figure><div class="figlbl">Calculated fork stresses</div><div class="figbox"><img src="assets/d6ea9ce054947a34541078a4bed6787887b7f22c968a4a322d166f823897c881.png" alt="Calculated fork stresses"></div><figcaption>Local 2-D plane-stress analysis of the two cheeks with summed thickness. The plot uses the governing 3 mm mesh case and clips its color scale at 500 MPa. This is a calculation figure, not an nTop viewport.</figcaption></figure>
+<div class="tw"><table><thead><tr><th>Fork / mesh target</th><th>Peak outside the fixed 50 mm root zone</th><th>Study ceiling</th></tr></thead><tbody><tr><td>Front-spar / 12 mm</td><td>374.1 MPa</td><td>250 MPa</td></tr><tr><td>Front-spar / 6 mm</td><td>381.9 MPa</td><td>250 MPa</td></tr><tr><td>Front-spar / 3 mm</td><td>410.7 MPa</td><td>250 MPa</td></tr><tr><td>Rear-spar / 12 mm</td><td>389.4 MPa</td><td>250 MPa</td></tr><tr><td>Rear-spar / 6 mm</td><td>443.4 MPa</td><td>250 MPa</td></tr><tr><td>Rear-spar / 3 mm</td><td>462.3 MPa</td><td>250 MPa</td></tr></tbody></table></div>
+<p>The loaded half of each hole receives radial bearing tractions. The outboard edge is fixed. The solve includes the same ultimate load and 1.25 distribution multiplier as the nominal screen. Results without that additional multiplier scale by 0.8 in this linear model. Both fine-mesh stress screens still fail at that scale.</p>
+<p>Mesh refinement increases the local peaks. The tangent outlines remove the visible hooks. Their source-constrained root transitions still concentrate stress. These linear peaks do not predict post-yield behavior. X loads, contact, lateral buckling and three-dimensional transition fillets are not solved.</p>
+<h2 id="s4"><span class="num">04</span>This revision is not a demonstrated weight reduction</h2>
+<p>The main bulkhead stock remains 76 mm with 10 mm residual pocket floors. The fork cheeks remain solid 19.75 mm stock. These gauges preserve a comparison for further analysis. They are not a minimum-weight result.</p>
+<div class="tw"><table><thead><tr><th>Part / scope</th><th>Prior mass</th><th>Revision G mass or addition</th></tr></thead><tbody><tr><td>C-Fwd</td><td>116.03 kg</td><td>116.73 kg (calculated)</td></tr><tr><td>C-Aft</td><td>89.80 kg</td><td>84.27 kg (calculated)</td></tr><tr><td>Four new fork roots</td><td>Not present</td><td>+64.23 kg of stock</td></tr></tbody></table></div>
+<p>New primary masses use section integration of the shared native construction at 2,830 kg/m3. The final 12-to-24-point quadrature change is below 0.001 percent for each primary. This is a calculated geometry mass, not a new native mass measurement or STEP measurement.</p>
+<p>The table excludes removed splice stock, restored material in old spar holes, pin hardware and the unchanged airframe. It is not a complete assembly weight comparison. Fork pocketing and thinner bulkhead floors need a compatible shell model and validated attachment loads.</p>
+<p>The preceding <a href="../reports/edge-aligned-sizing-audit.html">sizing audit</a> still applies. Its artificial coupling mass correction is not physical weight removal. Its rib-load error and native-section stiffness mismatch prevent a claim of overall structural adequacy.</p>
+<h2 id="s5"><span class="num">05</span>Native files, checks and reproduction</h2>
+<div class="tw"><table><thead><tr><th>Evidence</th><th>Result</th></tr></thead><tbody><tr><td>Native geometry probes</td><td>1,997 passed on two primaries and four spars</td></tr><tr><td>Pin/fork pilot</td><td>45 probes passed; two pin diameter inputs checked</td></tr><tr><td>Assembly graph</td><td>174 imported definitions; complete expressions and input defaults match</td></tr><tr><td>Native GUI</td><td>All 128 checked variables report e_OK</td></tr><tr><td>Part organization</td><td>Separate native notebooks; embedded custom definitions in the main assembly</td></tr><tr><td>Manufacturing state</td><td>Pocket rolling-ball geometry checked. Lug-root fillets, fits, threads, retention and process definition remain open</td></tr></tbody></table></div>
+<p><a href="../models/civil-research-aircraft-rev-g.ntop">Open Revision G assembly</a> / <a href="../models/rev-g-c-fwd.ntop">Forward bulkhead</a> / <a href="../models/rev-g-c-aft.ntop">Aft bulkhead</a> / <a href="../evidence/lug-attachment-aircraft-g-manifest.json">Assembly manifest</a></p>
+<p><a href="../models/rev-g-p-front-spar.ntop">Port front spar</a> / <a href="../models/rev-g-s-front-spar.ntop">Starboard front spar</a> / <a href="../models/rev-g-p-rear-spar.ntop">Port rear spar</a> / <a href="../models/rev-g-s-rear-spar.ntop">Starboard rear spar</a> / <a href="../models/rev-g-root-pin.ntop">Nominal pin family</a> / <a href="../notes/lug-attachment-readme.md">Reproduction and editing guide</a></p>
+<p><a href="../evidence/lug-attachment-analysis-local-joint-screens.json">Local load and strength screen</a> / <a href="../evidence/lug-attachment-analysis-fork-fea.json">Fork finite-element analysis</a> / <a href="../evidence/lug-attachment-analysis-mass-and-fit.json">Mass and clearance calculations</a> / <a href="../evidence/lug-attachment-evidence-aircraft-g-expanded-graph-equality.json">Complete native graph verification</a> / <a href="../evidence/lug-attachment-revisions-small-eye-trial-local-joint-screens.json">Retained failed small-eye trial</a></p>
+<p>All 1,344 sampled root and bulkhead points remain inside the source envelope. The smallest sampled reserve is 7.824 mm. All 952 retained cover holes remain inside the new splice trimming boundary. The smallest bore-edge reserve to that boundary is 12.755 mm. These finite geometry checks do not establish joint strength or global minimum clearance.</p>
+<p><a href="../evidence/lug-attachment-evidence-source-root-containment.json">Native source-containment samples</a> / <a href="../evidence/lug-attachment-evidence-cover-trim-clearance.json">Retained cover-hole trim checks</a></p>
+<p>Regenerate the shared geometry and joint table with lug_revision_geometry.py. Run lug_revision_analysis.py, then lug_revision_tangent_forks.py --install. Recompute the mass and fork FEA. Build changed parts with lug_revision_native.py or the verified GUI-template authoring route. Refresh the assembly from the verified saved definitions. Imported custom blocks are snapshots, so saving a separate part alone does not update the main assembly.</p>
+<p>No new STEP is claimed for Revision G. Prior STEP files remain tied to their prior revisions. Final machining details require approved material/temper, tolerances, cutter access, local root fillets and a selected pin/bushing/retention system.</p>
+</main><dialog aria-label="Enlarged engineering figure" id="zoom"><button onclick="this.parentElement.close()">Close</button><img alt="Expanded figure"></dialog><script>document.querySelectorAll("figure img").forEach(i=>i.onclick=()=>{const d=document.getElementById("zoom");d.querySelector("img").src=i.src;d.querySelector("img").alt=i.alt;d.showModal()});</script><script>document.querySelectorAll("figure img").forEach(i=>{i.tabIndex=0;i.setAttribute("role","button");i.setAttribute("aria-label","Enlarge: "+i.alt);i.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();i.click()}})});</script></body></html>

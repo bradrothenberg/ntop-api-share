@@ -1,0 +1,132 @@
+[
+  {
+    "kind": "wing",
+    "station_mm": 4200,
+    "runs": [
+      {
+        "mesh_mm": 2,
+        "elements": 22243,
+        "nodes": 11599,
+        "screen": {
+          "shape": "I",
+          "t_mm": 2.0,
+          "flange_width_mm": 25,
+          "braced": false,
+          "area_mm2": 148,
+          "Iweak_mm4": 5224.333333333333,
+          "Istrong_mm4": 19237.333333333332,
+          "local_width_mm": 11.5,
+          "local_k": 0.43,
+          "web_width_mm": 24,
+          "web_k": 4.0,
+          "unbraced_length_mm": 448.1098238526409,
+          "peak_section_equivalent_ultimate_MPa": 191.33644073491655,
+          "compression_ultimate_N": 6335.880706712831,
+          "knocked_down_Euler_N": 11850.410636290426,
+          "Euler_reserve": 1.8703651764994533,
+          "local_reserve": 2.89533510687984,
+          "stress_reserve": 1.3065989888792682,
+          "pass": true,
+          "mass_ratio_to_flat_baseline": 0.8809523809523809
+        },
+        "displacement_limit_mm": 1.3681632547442535,
+        "volume_proxy_mm3": 139319.0941895602
+      },
+      {
+        "mesh_mm": 1,
+        "elements": 83614,
+        "nodes": 42727,
+        "screen": {
+          "shape": "I",
+          "t_mm": 2.0,
+          "flange_width_mm": 25,
+          "braced": false,
+          "area_mm2": 148,
+          "Iweak_mm4": 5224.333333333333,
+          "Istrong_mm4": 19237.333333333332,
+          "local_width_mm": 11.5,
+          "local_k": 0.43,
+          "web_width_mm": 24,
+          "web_k": 4.0,
+          "unbraced_length_mm": 448.1098238526409,
+          "peak_section_equivalent_ultimate_MPa": 164.5828186698656,
+          "compression_ultimate_N": 4676.079606708659,
+          "knocked_down_Euler_N": 11850.410636290426,
+          "Euler_reserve": 2.5342619529592536,
+          "local_reserve": 3.3659838770683885,
+          "stress_reserve": 1.5189920917654933,
+          "pass": true,
+          "mass_ratio_to_flat_baseline": 0.8809523809523809
+        },
+        "displacement_limit_mm": 1.381929245648815,
+        "volume_proxy_mm3": 139319.0941895602
+      }
+    ],
+    "scope": "Updated plane-stress stiffness includes full-width flange bands at both rail edges. Euler and local screens remain reduced models. Curvature, lateral-torsional modes, local corners and joints need 3-D analysis."
+  },
+  {
+    "kind": "tail",
+    "station_mm": 1500,
+    "runs": [
+      {
+        "mesh_mm": 2,
+        "elements": 10546,
+        "nodes": 5614,
+        "screen": {
+          "shape": "I",
+          "t_mm": 1.5,
+          "flange_width_mm": 15,
+          "braced": false,
+          "area_mm2": 67.5,
+          "Iweak_mm4": 847.96875,
+          "Istrong_mm4": 3493.125,
+          "local_width_mm": 6.75,
+          "local_k": 0.43,
+          "web_width_mm": 15.0,
+          "web_k": 4.0,
+          "unbraced_length_mm": 313.55792518894316,
+          "peak_section_equivalent_ultimate_MPa": 163.83308895525224,
+          "compression_ultimate_N": 2639.1513445265946,
+          "knocked_down_Euler_N": 3928.400288140567,
+          "Euler_reserve": 1.4885089088535146,
+          "local_reserve": 5.520845192029733,
+          "stress_reserve": 1.5259432730849782,
+          "pass": true,
+          "mass_ratio_to_flat_baseline": 0.9375
+        },
+        "displacement_limit_mm": 0.7923064623322625,
+        "volume_proxy_mm3": 44241.32921083125
+      },
+      {
+        "mesh_mm": 1,
+        "elements": 37466,
+        "nodes": 19388,
+        "screen": {
+          "shape": "I",
+          "t_mm": 1.5,
+          "flange_width_mm": 15,
+          "braced": false,
+          "area_mm2": 67.5,
+          "Iweak_mm4": 847.96875,
+          "Istrong_mm4": 3493.125,
+          "local_width_mm": 6.75,
+          "local_k": 0.43,
+          "web_width_mm": 15.0,
+          "web_k": 4.0,
+          "unbraced_length_mm": 313.55792518894316,
+          "peak_section_equivalent_ultimate_MPa": 133.58215030307406,
+          "compression_ultimate_N": 1704.6497114777985,
+          "knocked_down_Euler_N": 3928.400288140567,
+          "Euler_reserve": 2.304520548526624,
+          "local_reserve": 6.771092690167371,
+          "stress_reserve": 1.8715075287588545,
+          "pass": true,
+          "mass_ratio_to_flat_baseline": 0.9375
+        },
+        "displacement_limit_mm": 0.7994513815568636,
+        "volume_proxy_mm3": 44241.329210831245
+      }
+    ],
+    "scope": "Updated plane-stress stiffness includes full-width flange bands at both rail edges. Euler and local screens remain reduced models. Curvature, lateral-torsional modes, local corners and joints need 3-D analysis."
+  }
+]

@@ -270,6 +270,106 @@
       "source_report_sha256": "54ae60ad4a1b97ac5efa351b05caf1409f22632aa8924c993c529a05dbca3363",
       "sha256": "80a7035c09c6d8654a701ddfe7cc5e4eafe5ea585214862a0d6b00a04f967c3f",
       "bytes": 13264391
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/buckling-review.html",
+      "title": "Buckling and thin sections",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "aa599d95a2f4a3ab9f51cb47083d5a1887021aeaf24d05e0d4f23544509ac349",
+      "sha256": "768f95b0e4ecceb6463fdc69be859a59d2c6bf95e454bc6c1fa4b82deba75dae",
+      "bytes": 30036
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/cranked-wing-review.html",
+      "title": "Cranked-wing review",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "8938bb347f49a12eb17e3c79b010143988b11df5aa1a85c8e50975d845239311",
+      "sha256": "0532b6059b4a6f16cfb434c1d9821697bebf5f8443ace15282a7af81316ff598",
+      "bytes": 16896
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/current-design-review.html",
+      "title": "Current design overview",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "286b4b49a676e5ab98c7e2db44c05ccff3714973900f3c8102ce733e3f9f639c",
+      "sha256": "db900e263f06e71c45bc14815b3ac83d74176d4251c936d6e4e9a81ec5d25c7c",
+      "bytes": 22934
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/edge-aligned-sizing-audit.html",
+      "title": "Edge-aligned sizing audit",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "d497f582c1b6dbd35f779f538c7f9280c0cf8f3da97e590935b5e9011b708c9c",
+      "sha256": "4dec7139f104ecb812496f9da2a0029a748f69920452651787cee232911136bb",
+      "bytes": 27920
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/revision-d-design.html",
+      "title": "Revision D: modular fitted structure",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "e56dd095cc15d73bd6da36ecf97d8a36fda9042d4406de796af835c79d0c55fb",
+      "sha256": "3fde228cff11210666f3bc614a2eda96088868e16e9c6589513b5c8cff8dc7d1",
+      "bytes": 38531
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/revision-e-design.html",
+      "title": "Revision E: hat longerons",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "4ca8eee1228c7b4b1686f0369c333831177691109b67c46c7cec1347c06ba930",
+      "sha256": "24af96948a7ec115f85bc96b7804703b29d404791d24795add48a8faaf9746d2",
+      "bytes": 31360
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/revision-f-design.html",
+      "title": "Revision F: pad-to-flange ribs",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "85382d5ae1b7dd66b10f07166638506660ad401c2727306a4f9efbe3e6e12502",
+      "sha256": "1dc295df171d83d3cba816da099c881ccf51c848ae7379535adcb47a14a4f119",
+      "bytes": 22722
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/revision-g-lug-attachments.html",
+      "title": "Revision G: local lug attachments",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "482d1c39aa7c10589d7ee529be313c64d26fb52bf911a9d3d025c36f66f7ecc7",
+      "sha256": "677f6bf85a5410ac977a1f7a872629842048002e5f4ac111818a8111b742a2bd",
+      "bytes": 24819
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/revision-h-lower-bulkheads.html",
+      "title": "Revision H: integrated lower sections",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "80128815b7dbf679144d6b21fe1ac7fe42a06db2eb8029eefd67299ffe0a9b0c",
+      "sha256": "2da7344a1068cc46e60be76dc2d6ef561796231023bd15aff9f136a44cf6e924",
+      "bytes": 17918
+    },
+    {
+      "demo": "civil-research-aircraft",
+      "file": "../demos/civil-research-aircraft/reports/wing-root-trade.html",
+      "title": "Wing-root trade",
+      "description": "Recorded civil research aircraft design evidence.",
+      "group": "Civil research aircraft",
+      "source_report_sha256": "2419ad1af52ab8e58f9abf44fc2e0313594156292003cb895fe82354cf7c6b81",
+      "sha256": "af1c4e76339b2097261d98ebb41e7387ae9d44e38848790018d432ae8d6bb129",
+      "bytes": 37620
     }
   ],
   "assets": [

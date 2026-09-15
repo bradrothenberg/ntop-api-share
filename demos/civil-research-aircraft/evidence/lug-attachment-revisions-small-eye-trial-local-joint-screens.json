@@ -1,0 +1,733 @@
+{
+  "status": "Preliminary local screen. No Revision G overall-structure solve or joint release.",
+  "load_basis": "Recovered cap/web forces from retained edge_aligned massless-link r8 cases. Continuous cover/stringer loads retain the separate cover joint. Inboard vertical shear arm is added. The old wing stiffness approximation remains under audit.",
+  "assumptions": {
+    "gross_weight_lbf": 7500,
+    "ultimate_multiplier": 1.5,
+    "joint_distribution_multiplier": 1.25,
+    "steel_pin_vm_ceiling_MPa": 600,
+    "aluminum_bearing_ceiling_MPa": 300,
+    "aluminum_net_neck_ceiling_MPa": 250,
+    "aluminum_shear_out_ceiling_MPa": 150,
+    "thrust_average_ceiling_MPa": 150,
+    "allowable_status": "Unvalidated study ceilings. Product-form, temper, grain direction, bearing/bypass and fatigue allowables are not selected."
+  },
+  "minimum_reserve_factors": {
+    "pin_combined": 0.4838082241218856,
+    "eye_bearing": 0.38769886401363024,
+    "fork_bearing": 0.4523153413492353,
+    "eye_net": 0.644739409885412,
+    "eye_shear_out": 0.3868436459312472,
+    "eye_neck": 0.41810661805391497,
+    "thrust_average": 5.786722576442503
+  },
+  "screen_pass": false,
+  "records": [
+    {
+      "case": "positive-3p8g",
+      "pin": "P-Front-Lower-pin",
+      "ultimate_force_xyz_N": [
+        123796.24593863689,
+        411004.85928849934,
+        37731.34353606196
+      ],
+      "screen_force_with_1p25_distribution_N": 515916.4307384776,
+      "pin_bending_MPa": 885.7855606026617,
+      "pin_shear_MPa": 284.1198967970801,
+      "pin_vm_MPa": 1013.3056827236892,
+      "eye_bearing_MPa": 632.2505278657814,
+      "fork_bearing_MPa": 541.9290238849554,
+      "eye_neck_MPa": 488.5572260781038,
+      "average_thrust_face_pressure_MPa": 21.3284899721324,
+      "reserve_factors": {
+        "pin_combined": 0.5921214202482762,
+        "eye_bearing": 0.4744954520048833,
+        "fork_bearing": 0.5535780273390306,
+        "eye_net": 0.7890812847679247,
+        "eye_shear_out": 0.4734487708607548,
+        "eye_neck": 0.5117107815738937,
+        "thrust_average": 7.032846685160955
+      },
+      "unresolved_group_Mz_limit_Nmm": -98453.33569231443,
+      "force_equilibrium_error_N": 1.4551915228366852e-11,
+      "resolved_moment_error_Nmm": 7.450580596923828e-09
+    },
+    {
+      "case": "positive-3p8g",
+      "pin": "P-Front-Upper-pin",
+      "ultimate_force_xyz_N": [
+        -123405.62198447743,
+        -410202.09931454854,
+        37731.34353606196
+      ],
+      "screen_force_with_1p25_distribution_N": 514917.19080459164,
+      "pin_bending_MPa": 884.06994882471,
+      "pin_shear_MPa": 283.5696062267937,
+      "pin_vm_MPa": 1011.343086762243,
+      "eye_bearing_MPa": 631.0259691232741,
+      "fork_bearing_MPa": 540.8794021056635,
+      "eye_neck_MPa": 487.6109761407118,
+      "average_thrust_face_pressure_MPa": 21.261190523542545,
+      "reserve_factors": {
+        "pin_combined": 0.593270481455374,
+        "eye_bearing": 0.4754162501692438,
+        "fork_bearing": 0.5546522918641178,
+        "eye_net": 0.7906125630878234,
+        "eye_shear_out": 0.47436753785269403,
+        "eye_neck": 0.5127037992021257,
+        "thrust_average": 7.055108218606328
+      },
+      "unresolved_group_Mz_limit_Nmm": -98453.33569231443,
+      "force_equilibrium_error_N": 1.4551915228366852e-11,
+      "resolved_moment_error_Nmm": 7.450580596923828e-09
+    },
+    {
+      "case": "positive-3p8g",
+      "pin": "P-Rear-Lower-pin",
+      "ultimate_force_xyz_N": [
+        -43301.02092498273,
+        132172.16598824115,
+        21266.32167848426
+      ],
+      "screen_force_with_1p25_distribution_N": 167340.11912380322,
+      "pin_bending_MPa": 514.4130387082412,
+      "pin_shear_MPa": 135.8826894701015,
+      "pin_vm_MPa": 565.6969951183501,
+      "eye_bearing_MPa": 249.01803441042145,
+      "fork_bearing_MPa": 213.44402949464697,
+      "eye_neck_MPa": 193.6806934303278,
+      "average_thrust_face_pressure_MPa": 11.002612358730447,
+      "reserve_factors": {
+        "pin_combined": 1.0606384781564437,
+        "eye_bearing": 1.2047320215593387,
+        "fork_bearing": 1.4055206918192285,
+        "eye_net": 2.002508434645508,
+        "eye_shear_out": 1.2015050607873048,
+        "eye_neck": 1.290784308813577,
+        "thrust_average": 13.633125944037891
+      },
+      "unresolved_group_Mz_limit_Nmm": -38091.38056654669,
+      "force_equilibrium_error_N": 7.275957614183426e-12,
+      "resolved_moment_error_Nmm": 9.313225746154785e-10
+    },
+    {
+      "case": "positive-3p8g",
+      "pin": "P-Rear-Upper-pin",
+      "ultimate_force_xyz_N": [
+        43419.577771837125,
+        -131928.52324621496,
+        21266.32167848426
+      ],
+      "screen_force_with_1p25_distribution_N": 167039.43997068034,
+      "pin_bending_MPa": 513.4887338993046,
+      "pin_shear_MPa": 135.6385334828352,
+      "pin_vm_MPa": 564.6805425527194,
+      "eye_bearing_MPa": 248.5705951944648,
+      "fork_bearing_MPa": 213.0605101666841,
+      "eye_neck_MPa": 193.3326851512504,
+      "average_thrust_face_pressure_MPa": 11.032737168736016,
+      "reserve_factors": {
+        "pin_combined": 1.062547679237563,
+        "eye_bearing": 1.2069005980586736,
+        "fork_bearing": 1.408050697735119,
+        "eye_net": 2.00611304766598,
+        "eye_shear_out": 1.2036678285995879,
+        "eye_neck": 1.293107783634293,
+        "thrust_average": 13.59590079106226
+      },
+      "unresolved_group_Mz_limit_Nmm": -38091.38056654669,
+      "force_equilibrium_error_N": 7.275957614183426e-12,
+      "resolved_moment_error_Nmm": 9.313225746154785e-10
+    },
+    {
+      "case": "positive-3p8g",
+      "pin": "S-Front-Lower-pin",
+      "ultimate_force_xyz_N": [
+        123800.50476233425,
+        411018.42536558106,
+        37732.503438118765
+      ],
+      "screen_force_with_1p25_distribution_N": 515933.4498716098,
+      "pin_bending_MPa": 885.8147810373761,
+      "pin_shear_MPa": 284.12926938934703,
+      "pin_vm_MPa": 1013.3391098124393,
+      "eye_bearing_MPa": 632.2713846465806,
+      "fork_bearing_MPa": 541.9469011256406,
+      "eye_neck_MPa": 488.57334268144865,
+      "average_thrust_face_pressure_MPa": 21.32922371230226,
+      "reserve_factors": {
+        "pin_combined": 0.5921018878971868,
+        "eye_bearing": 0.474479799789912,
+        "fork_bearing": 0.5535597664215639,
+        "eye_net": 0.7890552552878806,
+        "eye_shear_out": 0.4734331531727283,
+        "eye_neck": 0.5116939017342188,
+        "thrust_average": 7.032604750330556
+      },
+      "unresolved_group_Mz_limit_Nmm": -98459.78895940259,
+      "force_equilibrium_error_N": 5.093170329928398e-11,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "positive-3p8g",
+      "pin": "S-Front-Upper-pin",
+      "ultimate_force_xyz_N": [
+        -123409.85520415958,
+        -410215.6127735601,
+        37732.503438118765
+      ],
+      "screen_force_with_1p25_distribution_N": 514934.1444223946,
+      "pin_bending_MPa": 884.0990567750582,
+      "pin_shear_MPa": 283.57894273916963,
+      "pin_vm_MPa": 1011.3763851730687,
+      "eye_bearing_MPa": 631.0467456156796,
+      "fork_bearing_MPa": 540.8972105277254,
+      "eye_neck_MPa": 487.6270307030252,
+      "average_thrust_face_pressure_MPa": 21.261919852472158,
+      "reserve_factors": {
+        "pin_combined": 0.5932509487032632,
+        "eye_bearing": 0.47540059763291476,
+        "fork_bearing": 0.5546340305717338,
+        "eye_net": 0.7905865330733642,
+        "eye_shear_out": 0.47435191984401853,
+        "eye_neck": 0.5126869190158884,
+        "thrust_average": 7.054866213436472
+      },
+      "unresolved_group_Mz_limit_Nmm": -98459.78895940259,
+      "force_equilibrium_error_N": 5.093170329928398e-11,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "positive-3p8g",
+      "pin": "S-Rear-Lower-pin",
+      "ultimate_force_xyz_N": [
+        -43302.117691338746,
+        132176.69398884417,
+        21266.973819618655
+      ],
+      "screen_force_with_1p25_distribution_N": 167345.83674826333,
+      "pin_bending_MPa": 514.4306150108524,
+      "pin_shear_MPa": 135.88733226701765,
+      "pin_vm_MPa": 565.7163236750239,
+      "eye_bearing_MPa": 249.02654278015376,
+      "fork_bearing_MPa": 213.45132238298893,
+      "eye_neck_MPa": 193.68731105123072,
+      "average_thrust_face_pressure_MPa": 11.002891042576822,
+      "reserve_factors": {
+        "pin_combined": 1.0606022398333168,
+        "eye_bearing": 1.204690860061639,
+        "fork_bearing": 1.4054726700719122,
+        "eye_net": 2.002440015906028,
+        "eye_shear_out": 1.2014640095436169,
+        "eye_neck": 1.290740207208899,
+        "thrust_average": 13.632780640975133
+      },
+      "unresolved_group_Mz_limit_Nmm": -38064.55491242744,
+      "force_equilibrium_error_N": 1.4551915228366852e-11,
+      "resolved_moment_error_Nmm": 9.313225746154785e-10
+    },
+    {
+      "case": "positive-3p8g",
+      "pin": "S-Rear-Upper-pin",
+      "ultimate_force_xyz_N": [
+        43420.591045158246,
+        -131933.22283093567,
+        21266.973819618655
+      ],
+      "screen_force_with_1p25_distribution_N": 167045.36931438,
+      "pin_bending_MPa": 513.5069610388935,
+      "pin_shear_MPa": 135.64334819895302,
+      "pin_vm_MPa": 564.7005868309922,
+      "eye_bearing_MPa": 248.57941862258926,
+      "fork_bearing_MPa": 213.0680731050765,
+      "eye_neck_MPa": 193.33954781756944,
+      "average_thrust_face_pressure_MPa": 11.032994637343629,
+      "reserve_factors": {
+        "pin_combined": 1.062509963673143,
+        "eye_bearing": 1.2068577586283644,
+        "fork_bearing": 1.4080007183997585,
+        "eye_net": 2.006041839862921,
+        "eye_shear_out": 1.2036251039177528,
+        "eye_neck": 1.2930618842446762,
+        "thrust_average": 13.595583513862282
+      },
+      "unresolved_group_Mz_limit_Nmm": -38064.55491242744,
+      "force_equilibrium_error_N": 1.4551915228366852e-11,
+      "resolved_moment_error_Nmm": 9.313225746154785e-10
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "P-Front-Lower-pin",
+      "ultimate_force_xyz_N": [
+        -48866.93631730293,
+        -162238.7483628537,
+        -14893.949953347788
+      ],
+      "screen_force_with_1p25_distribution_N": 203651.20770402925,
+      "pin_bending_MPa": 349.6521692967063,
+      "pin_shear_MPa": 112.15258260460391,
+      "pin_vm_MPa": 399.9890559109587,
+      "eye_bearing_MPa": 249.57255846082015,
+      "fork_bearing_MPa": 213.91933582356015,
+      "eye_neck_MPa": 192.8515224469974,
+      "average_thrust_face_pressure_MPa": 8.41914028418158,
+      "reserve_factors": {
+        "pin_combined": 1.5000410414568082,
+        "eye_bearing": 1.2020552333565004,
+        "fork_bearing": 1.4023977722492504,
+        "eye_net": 1.9990060682166308,
+        "eye_shear_out": 1.1994036409299786,
+        "eye_neck": 1.2963340751883827,
+        "thrust_average": 17.81654598175892
+      },
+      "unresolved_group_Mz_limit_Nmm": 38863.08546781819,
+      "force_equilibrium_error_N": 3.637978807091713e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "P-Front-Upper-pin",
+      "ultimate_force_xyz_N": [
+        48712.742942243305,
+        161921.8700239085,
+        -14893.949953347788
+      ],
+      "screen_force_with_1p25_distribution_N": 203256.77163247674,
+      "pin_bending_MPa": 348.9749553993665,
+      "pin_shear_MPa": 111.93536305262698,
+      "pin_vm_MPa": 399.21434844098485,
+      "eye_bearing_MPa": 249.08918092215288,
+      "fork_bearing_MPa": 213.50501221898818,
+      "eye_neck_MPa": 192.4780034398454,
+      "average_thrust_face_pressure_MPa": 8.392574762514965,
+      "reserve_factors": {
+        "pin_combined": 1.5029519914379954,
+        "eye_bearing": 1.2043879179712673,
+        "fork_bearing": 1.4051192376331452,
+        "eye_net": 2.002885299861531,
+        "eye_shear_out": 1.2017311799169188,
+        "eye_neck": 1.2988497154592098,
+        "thrust_average": 17.872941766329905
+      },
+      "unresolved_group_Mz_limit_Nmm": 38863.08546781819,
+      "force_equilibrium_error_N": 3.637978807091713e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "P-Rear-Lower-pin",
+      "ultimate_force_xyz_N": [
+        17092.505788192673,
+        -52173.21985060413,
+        -8394.599831243386
+      ],
+      "screen_force_with_1p25_distribution_N": 66055.30561471511,
+      "pin_bending_MPa": 203.05776440213924,
+      "pin_shear_MPa": 53.63790003075377,
+      "pin_vm_MPa": 223.30143000689023,
+      "eye_bearing_MPa": 98.29658573618319,
+      "fork_bearing_MPa": 84.25421634529988,
+      "eye_neck_MPa": 76.45290001703137,
+      "average_thrust_face_pressure_MPa": 4.343135829352629,
+      "reserve_factors": {
+        "pin_combined": 2.6869509970513232,
+        "eye_bearing": 3.051987998903296,
+        "fork_bearing": 3.5606526653871784,
+        "eye_net": 5.073021718415151,
+        "eye_shear_out": 3.043813031049091,
+        "eye_neck": 3.269987141682103,
+        "thrust_average": 34.53725738583645
+      },
+      "unresolved_group_Mz_limit_Nmm": 15035.673148368951,
+      "force_equilibrium_error_N": 1.8189894035458565e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "P-Rear-Upper-pin",
+      "ultimate_force_xyz_N": [
+        -17139.303304383764,
+        52077.04763054826,
+        -8394.599831243386
+      ],
+      "screen_force_with_1p25_distribution_N": 65936.61961783243,
+      "pin_bending_MPa": 202.6929169009649,
+      "pin_shear_MPa": 53.54152521912281,
+      "pin_vm_MPa": 222.9002093543013,
+      "eye_bearing_MPa": 98.1199696693935,
+      "fork_bearing_MPa": 84.10283114519443,
+      "eye_neck_MPa": 76.31553196508384,
+      "average_thrust_face_pressure_MPa": 4.355026886861273,
+      "reserve_factors": {
+        "pin_combined": 2.691787512170059,
+        "eye_bearing": 3.057481581076954,
+        "fork_bearing": 3.5670618445897797,
+        "eye_net": 5.082153163784164,
+        "eye_shear_out": 3.049291898270498,
+        "eye_neck": 3.2758731225824507,
+        "thrust_average": 34.44295612790282
+      },
+      "unresolved_group_Mz_limit_Nmm": 15035.673148368951,
+      "force_equilibrium_error_N": 1.8189894035458565e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "S-Front-Lower-pin",
+      "ultimate_force_xyz_N": [
+        -48868.619628237735,
+        -162244.11242835192,
+        -14894.40889886929
+      ],
+      "screen_force_with_1p25_distribution_N": 203657.9371539384,
+      "pin_bending_MPa": 349.66372320196143,
+      "pin_shear_MPa": 112.15628857421405,
+      "pin_vm_MPa": 400.0022731481473,
+      "eye_bearing_MPa": 249.58080533570882,
+      "fork_bearing_MPa": 213.9264045734647,
+      "eye_neck_MPa": 192.85789503213863,
+      "average_thrust_face_pressure_MPa": 8.419430296856204,
+      "reserve_factors": {
+        "pin_combined": 1.4999914757428898,
+        "eye_bearing": 1.202015513959388,
+        "fork_bearing": 1.4023514329526192,
+        "eye_net": 1.998940015248639,
+        "eye_shear_out": 1.1993640091491833,
+        "eye_neck": 1.296291240544438,
+        "thrust_average": 17.815932279409648
+      },
+      "unresolved_group_Mz_limit_Nmm": 38865.73842578847,
+      "force_equilibrium_error_N": 3.637978807091713e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "S-Front-Upper-pin",
+      "ultimate_force_xyz_N": [
+        48714.41572728861,
+        161927.2124579561,
+        -14894.40889886929
+      ],
+      "screen_force_with_1p25_distribution_N": 203263.47414920453,
+      "pin_bending_MPa": 348.9864630625915,
+      "pin_shear_MPa": 111.93905418988783,
+      "pin_vm_MPa": 399.2275127790136,
+      "eye_bearing_MPa": 249.09739479069182,
+      "fork_bearing_MPa": 213.51205267773585,
+      "eye_neck_MPa": 192.48435052008006,
+      "average_thrust_face_pressure_MPa": 8.392862961715142,
+      "reserve_factors": {
+        "pin_combined": 1.502902432308369,
+        "eye_bearing": 1.2043482038504656,
+        "fork_bearing": 1.4050729044922097,
+        "eye_net": 2.0028192556679922,
+        "eye_shear_out": 1.2016915534007953,
+        "eye_neck": 1.2988068865054039,
+        "thrust_average": 17.872328034454934
+      },
+      "unresolved_group_Mz_limit_Nmm": 38865.73842578847,
+      "force_equilibrium_error_N": 3.637978807091713e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "S-Rear-Lower-pin",
+      "ultimate_force_xyz_N": [
+        17092.94046687554,
+        -52175.01024928469,
+        -8394.857891492142
+      ],
+      "screen_force_with_1p25_distribution_N": 66057.56643748446,
+      "pin_bending_MPa": 203.0647142998497,
+      "pin_shear_MPa": 53.639735852790494,
+      "pin_vm_MPa": 223.3090727685532,
+      "eye_bearing_MPa": 98.29995005578046,
+      "fork_bearing_MPa": 84.25710004781182,
+      "eye_neck_MPa": 76.45551671005147,
+      "average_thrust_face_pressure_MPa": 4.3432462794285405,
+      "reserve_factors": {
+        "pin_combined": 2.686859036049399,
+        "eye_bearing": 3.051883544495847,
+        "fork_bearing": 3.560530801911822,
+        "eye_net": 5.072848094050389,
+        "eye_shear_out": 3.0437088564302335,
+        "eye_neck": 3.26987522624555,
+        "thrust_average": 34.5363790928605
+      },
+      "unresolved_group_Mz_limit_Nmm": 15025.577101146337,
+      "force_equilibrium_error_N": 3.637978807091713e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "negative-1p5g",
+      "pin": "S-Rear-Upper-pin",
+      "ultimate_force_xyz_N": [
+        -17139.706559802195,
+        52078.9026062694,
+        -8394.857891492142
+      ],
+      "screen_force_with_1p25_distribution_N": 65938.96012236006,
+      "pin_bending_MPa": 202.70011174492984,
+      "pin_shear_MPa": 53.543425743943736,
+      "pin_vm_MPa": 222.90812148192066,
+      "eye_bearing_MPa": 98.12345256303581,
+      "fork_bearing_MPa": 84.10581648260212,
+      "eye_neck_MPa": 76.31824088236118,
+      "average_thrust_face_pressure_MPa": 4.355129352414181,
+      "reserve_factors": {
+        "pin_combined": 2.6916919671258546,
+        "eye_bearing": 3.057373055715462,
+        "fork_bearing": 3.5669352316680394,
+        "eye_net": 5.081972772669898,
+        "eye_shear_out": 3.049183663601939,
+        "eye_neck": 3.275756845409424,
+        "thrust_average": 34.44214576929854
+      },
+      "unresolved_group_Mz_limit_Nmm": 15025.577101146337,
+      "force_equilibrium_error_N": 3.637978807091713e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "P-Front-Lower-pin",
+      "ultimate_force_xyz_N": [
+        97169.04163089955,
+        319166.99294284394,
+        28788.025500618438
+      ],
+      "screen_force_with_1p25_distribution_N": 400578.33151816577,
+      "pin_bending_MPa": 687.7596463466035,
+      "pin_shear_MPa": 220.60215071494827,
+      "pin_vm_MPa": 786.7714139716742,
+      "eye_bearing_MPa": 490.90481803696787,
+      "fork_bearing_MPa": 420.775558317401,
+      "eye_neck_MPa": 379.33554121038424,
+      "average_thrust_face_pressure_MPa": 16.740967501176367,
+      "reserve_factors": {
+        "pin_combined": 0.7626103202849736,
+        "eye_bearing": 0.611116430267768,
+        "fork_bearing": 0.7129691686457293,
+        "eye_net": 1.0162806321977464,
+        "eye_shear_out": 0.6097683793186479,
+        "eye_neck": 0.6590471306809262,
+        "thrust_average": 8.960055623395702
+      },
+      "unresolved_group_Mz_limit_Nmm": -95034.66966041178,
+      "force_equilibrium_error_N": 2.1827872842550278e-11,
+      "resolved_moment_error_Nmm": 7.450580596923828e-09
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "P-Front-Upper-pin",
+      "ultimate_force_xyz_N": [
+        -96791.9815934316,
+        -318392.1077812133,
+        28788.025500618438
+      ],
+      "screen_force_with_1p25_distribution_N": 399613.65074122685,
+      "pin_bending_MPa": 686.1033697640175,
+      "pin_shear_MPa": 220.07089218845846,
+      "pin_vm_MPa": 784.8766952632831,
+      "eye_bearing_MPa": 489.7226112024839,
+      "fork_bearing_MPa": 419.76223817355765,
+      "eye_neck_MPa": 378.4220177473739,
+      "average_thrust_face_pressure_MPa": 16.676004939775165,
+      "reserve_factors": {
+        "pin_combined": 0.7644512872161823,
+        "eye_bearing": 0.6125916858594059,
+        "fork_bearing": 0.7146903001693069,
+        "eye_net": 1.0187339677833502,
+        "eye_shear_out": 0.6112403806700101,
+        "eye_neck": 0.660638092593477,
+        "thrust_average": 8.99496015632761
+      },
+      "unresolved_group_Mz_limit_Nmm": -95034.66966041178,
+      "force_equilibrium_error_N": 2.1827872842550278e-11,
+      "resolved_moment_error_Nmm": 7.450580596923828e-09
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "P-Rear-Lower-pin",
+      "ultimate_force_xyz_N": [
+        -31631.28242003541,
+        103634.99347379195,
+        16216.138612500661
+      ],
+      "screen_force_with_1p25_distribution_N": 131120.02507133453,
+      "pin_bending_MPa": 403.07041064399243,
+      "pin_shear_MPa": 106.47142922671499,
+      "pin_vm_MPa": 443.2541614711077,
+      "eye_bearing_MPa": 195.11908492758116,
+      "fork_bearing_MPa": 167.24492993792668,
+      "eye_neck_MPa": 151.75928827700756,
+      "average_thrust_face_pressure_MPa": 8.037379522300801,
+      "reserve_factors": {
+        "pin_combined": 1.3536251932946812,
+        "eye_bearing": 1.5375225858164803,
+        "fork_bearing": 1.7937763501192272,
+        "eye_net": 2.555673702912215,
+        "eye_shear_out": 1.5334042217473292,
+        "eye_neck": 1.6473456276605147,
+        "thrust_average": 18.662799185207643
+      },
+      "unresolved_group_Mz_limit_Nmm": 136658.4902259158,
+      "force_equilibrium_error_N": 1.0913936421275139e-11,
+      "resolved_moment_error_Nmm": 2.3283064365386963e-10
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "P-Rear-Upper-pin",
+      "ultimate_force_xyz_N": [
+        31205.942107972838,
+        -104509.09802932621,
+        16216.138612500661
+      ],
+      "screen_force_with_1p25_distribution_N": 132199.6284176129,
+      "pin_bending_MPa": 406.3891727009727,
+      "pin_shear_MPa": 107.34808335497394,
+      "pin_vm_MPa": 446.9037845985871,
+      "eye_bearing_MPa": 196.72563752620968,
+      "fork_bearing_MPa": 168.62197502246542,
+      "eye_neck_MPa": 153.00882918705196,
+      "average_thrust_face_pressure_MPa": 7.929302288226493,
+      "reserve_factors": {
+        "pin_combined": 1.3425708635225035,
+        "eye_bearing": 1.5249664648311592,
+        "fork_bearing": 1.7791275423030193,
+        "eye_net": 2.5348028887148883,
+        "eye_shear_out": 1.520881733228933,
+        "eye_neck": 1.6338926408905279,
+        "thrust_average": 18.91717512431346
+      },
+      "unresolved_group_Mz_limit_Nmm": 136658.4902259158,
+      "force_equilibrium_error_N": 1.0913936421275139e-11,
+      "resolved_moment_error_Nmm": 2.3283064365386963e-10
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "S-Front-Lower-pin",
+      "ultimate_force_xyz_N": [
+        150454.77062080882,
+        502971.86281580164,
+        46690.268215695
+      ],
+      "screen_force_with_1p25_distribution_N": 631417.8934282191,
+      "pin_bending_MPa": 1084.0919563354266,
+      "pin_shear_MPa": 347.7276086358915,
+      "pin_vm_MPa": 1240.1608118361423,
+      "eye_bearing_MPa": 773.7964380247784,
+      "fork_bearing_MPa": 663.2540897355243,
+      "eye_neck_MPa": 597.9336112009651,
+      "average_thrust_face_pressure_MPa": 25.921408537994115,
+      "reserve_factors": {
+        "pin_combined": 0.4838082241218856,
+        "eye_bearing": 0.38769886401363024,
+        "fork_bearing": 0.4523153413492353,
+        "eye_net": 0.644739409885412,
+        "eye_shear_out": 0.3868436459312472,
+        "eye_neck": 0.41810661805391497,
+        "thrust_average": 5.786722576442503
+      },
+      "unresolved_group_Mz_limit_Nmm": -101876.79447345436,
+      "force_equilibrium_error_N": 1.4551915228366852e-11,
+      "resolved_moment_error_Nmm": 7.450580596923828e-09
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "S-Front-Upper-pin",
+      "ultimate_force_xyz_N": [
+        -150050.56373422174,
+        -502141.18895084213,
+        46690.268215695
+      ],
+      "screen_force_with_1p25_distribution_N": 630384.0034889186,
+      "pin_bending_MPa": 1082.3168533828537,
+      "pin_shear_MPa": 347.1582359907266,
+      "pin_vm_MPa": 1238.1301601871835,
+      "eye_bearing_MPa": 772.5294160403415,
+      "fork_bearing_MPa": 662.1680708917213,
+      "eye_neck_MPa": 596.9545487584456,
+      "average_thrust_face_pressure_MPa": 25.85176892605053,
+      "reserve_factors": {
+        "pin_combined": 0.4846017157915696,
+        "eye_bearing": 0.3883347271585759,
+        "fork_bearing": 0.45305718168500525,
+        "eye_net": 0.6457968440615043,
+        "eye_shear_out": 0.38747810643690256,
+        "eye_neck": 0.4187923528180721,
+        "thrust_average": 5.802310875866089
+      },
+      "unresolved_group_Mz_limit_Nmm": -101876.79447345436,
+      "force_equilibrium_error_N": 1.4551915228366852e-11,
+      "resolved_moment_error_Nmm": 7.450580596923828e-09
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "S-Rear-Lower-pin",
+      "ultimate_force_xyz_N": [
+        -54999.95124137326,
+        160740.8155608361,
+        26325.300207420463
+      ],
+      "screen_force_with_1p25_distribution_N": 203602.82728487873,
+      "pin_bending_MPa": 625.8866649647649,
+      "pin_shear_MPa": 165.32855300956058,
+      "pin_vm_MPa": 688.2838867076732,
+      "eye_bearing_MPa": 302.9803977453553,
+      "fork_bearing_MPa": 259.69748378173307,
+      "eye_neck_MPa": 235.65142046860964,
+      "average_thrust_face_pressure_MPa": 13.975262715082202,
+      "reserve_factors": {
+        "pin_combined": 0.871733323396587,
+        "eye_bearing": 0.9901630674210805,
+        "fork_bearing": 1.155190245324594,
+        "eye_net": 1.645851408198433,
+        "eye_shear_out": 0.9875108449190598,
+        "eye_neck": 1.0608890008083005,
+        "thrust_average": 10.73325082025964
+      },
+      "unresolved_group_Mz_limit_Nmm": -212815.48992547393,
+      "force_equilibrium_error_N": 7.275957614183426e-12,
+      "resolved_moment_error_Nmm": 0.0
+    },
+    {
+      "case": "roll-70-30",
+      "pin": "S-Rear-Upper-pin",
+      "ultimate_force_xyz_N": [
+        55662.325066424346,
+        -159379.59029832535,
+        26325.300207420463
+      ],
+      "screen_force_with_1p25_distribution_N": 201923.85335610138,
+      "pin_bending_MPa": 620.7254036657021,
+      "pin_shear_MPa": 163.96520096829866,
+      "pin_vm_MPa": 682.6080779932746,
+      "eye_bearing_MPa": 300.4819246370556,
+      "fork_bearing_MPa": 257.5559354031905,
+      "eye_neck_MPa": 233.70816360659882,
+      "average_thrust_face_pressure_MPa": 14.143569195574488,
+      "reserve_factors": {
+        "pin_combined": 0.878981687066867,
+        "eye_bearing": 0.9983961609749481,
+        "fork_bearing": 1.1647955211374394,
+        "eye_net": 1.6595364759062754,
+        "eye_shear_out": 0.9957218855437652,
+        "eye_neck": 1.0697101724731586,
+        "thrust_average": 10.605526647894147
+      },
+      "unresolved_group_Mz_limit_Nmm": -212815.48992547393,
+      "force_equilibrium_error_N": 7.275957614183426e-12,
+      "resolved_moment_error_Nmm": 0.0
+    }
+  ],
+  "unresolved": [
+    "No new global stiffness solution for the internal root transition",
+    "Residual group moment about Z requires cover-box restraint",
+    "Pin thrust-face contact and prying",
+    "Tapered neck stress concentration and lug efficiency",
+    "Fork buckling and root-transition secondary bending",
+    "Fatigue, damage tolerance and fastener retention",
+    "Root fillet manufacture and access",
+    "Ordinary frame and tail failures from the prior global model"
+  ]
+}

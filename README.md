@@ -1,10 +1,11 @@
 # nTop Notebook API: public demo collection
 
-Eleven editable demonstrations and 29 reports, with six source builders, five saved-graph replay collections, and measured Notebook API lessons.
+Twelve editable demonstrations and 39 reports, with six source builders, five saved-graph replay collections, and one native-snapshot collection.
 Each demo contains a local agent, scripts, native models, and an HTML report. No private project checkout is required.
 
 | Demo | Learn from it |
 |---|---|
+| [Civil research aircraft](demos/civil-research-aircraft/README.md) | Revision G and H assemblies, editable structural parts, and ten reports with recorded design and analysis limits. |
 | [KestrelSAT corner](demos/kestrelsat-corner/README.md) | One native CSG part, its original STEP reference, matched geometry views, and measured volume and surface checks. |
 | [Propellers](demos/propellers/README.md) | An eight-inch assembly, separate retained spinner, twenty native two-rail blade studies, and a CFD optimization plan. |
 | [Original inline-six](demos/i6/README.md) | An API recorder, slider-crank mechanism, cam motion, and analytic helical springs. |
@@ -60,7 +61,7 @@ ntop-api-share/
     models/             Relevant .ntop snapshots
     reports/            Public HTML report and compact assets
     output/             Generated recipes and run evidence; ignored
-  reports/              29-report offline catalogue and shared compact assets
+  reports/              39-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
   .agents/skills/       Bundled API, CSG, assembly, HTML-report, and PDF-report skills
   templates/            HTML report template and offline CSS
