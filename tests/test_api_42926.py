@@ -1,4 +1,7 @@
 import base64
+import builtins
+import contextlib
+import io
 import json
 import socket
 from types import SimpleNamespace
@@ -75,6 +78,7 @@ def test_runner_retains_traceback_and_unicode_in_paths(tmp_path):
 
 def test_partial_send_is_never_retried_and_blocks_followup(tmp_path,monkeypatch):
     monkeypatch.setattr(ntop_tcp,'ROOT',tmp_path)
+    monkeypatch.setattr(ntop_tcp,'verify_interpreter',lambda *args:42)
     sends=[]
     class PartialSocket(FragmentedSocket):
         def __enter__(self):return self
@@ -91,6 +95,7 @@ def test_partial_send_is_never_retried_and_blocks_followup(tmp_path,monkeypatch)
 
 def test_completed_socket_runner_is_reported_and_failed_script_is_not_success(tmp_path,monkeypatch):
     monkeypatch.setattr(ntop_tcp,'ROOT',tmp_path)
+    monkeypatch.setattr(ntop_tcp,'verify_interpreter',lambda *args:42)
     class RunningSocket(FragmentedSocket):
         def __enter__(self):return self
         def __exit__(self,*args):pass
@@ -99,3 +104,74 @@ def test_completed_socket_runner_is_reported_and_failed_script_is_not_success(tm
     result=ntop_tcp.dispatch('raise ValueError("native failure")',{'pid':42},tmp_path/'.local'/'run',owner_check=lambda *args:None)
     assert result['status']=='failed'
     assert not (tmp_path/'.local/tcp-42.pending.json').exists()
+
+
+class ConsoleSocket:
+    """Execute the real probe and runner against a controlled fake interpreter."""
+    def __init__(self,pid,identity='valid',fragment=False):
+        self.pid=pid;self.identity=identity;self.fragment=fragment
+        self.pending=[b'py> '];self.sent=[];self.closed=False
+    def __enter__(self):return self
+    def __exit__(self,*args):self.closed=True
+    def settimeout(self,value):pass
+    def recv(self,count):
+        if self.identity=='timeout' and self.sent:raise socket.timeout()
+        return self.pending.pop(0) if self.pending else b''
+    def sendall(self,data):
+        self.sent.append(data)
+        original_import=builtins.__import__
+        def controlled_import(name,*args,**kwargs):
+            return SimpleNamespace(getpid=lambda:self.pid) if name=='os' else original_import(name,*args,**kwargs)
+        output=io.StringIO()
+        with contextlib.redirect_stdout(output):
+            exec(data.decode('ascii'),{'__builtins__':{**vars(builtins),'__import__':controlled_import}})
+        response=output.getvalue().encode()
+        if len(self.sent)==1:
+            if self.identity=='duplicate':response+=response
+            if self.identity=='echo_only':response=b''
+            if self.identity=='stale':response=b'NTOP_SESSION_previous_PID_42\n'
+        response=data+response+b'py> '
+        self.pending.extend([response[i:i+3] for i in range(0,len(response),3)] if self.fragment else [response])
+
+
+@pytest.mark.parametrize('actual_pid,identity',[(43,'valid'),(42,'duplicate'),(42,'echo_only'),(42,'stale'),(42,'timeout')])
+def test_socket_identity_failure_never_sends_notebook_command(tmp_path,monkeypatch,actual_pid,identity):
+    monkeypatch.setattr(ntop_tcp,'ROOT',tmp_path)
+    conn=ConsoleSocket(actual_pid,identity=identity)
+    connections=[]
+    def connect(*args,**kwargs):connections.append(conn);return conn
+    monkeypatch.setattr(ntop_tcp.socket,'create_connection',connect)
+    forbidden=tmp_path/'wrong-session-mutation.txt'
+    with pytest.raises((RuntimeError,socket.timeout)):
+        ntop_tcp.dispatch(f"open({str(forbidden)!r},'w').write('changed')",{'pid':42},tmp_path/'.local'/'run',owner_check=lambda *args:None)
+    assert not forbidden.exists()
+    assert len(connections)==1 and len(conn.sent)==1 and conn.closed
+    receipt=json.loads((tmp_path/'.local/run/dispatch.json').read_text())
+    assert receipt['status']=='not_dispatched'
+    assert not (tmp_path/'.local/run/completion.json').exists()
+    assert not (tmp_path/'.local/tcp-42.pending.json').exists()
+
+
+def test_socket_identity_and_notebook_command_use_one_connection(tmp_path,monkeypatch):
+    monkeypatch.setattr(ntop_tcp,'ROOT',tmp_path)
+    conn=ConsoleSocket(42,fragment=True)
+    connections=[];owner_checks=[]
+    def connect(*args,**kwargs):connections.append(conn);return conn
+    monkeypatch.setattr(ntop_tcp.socket,'create_connection',connect)
+    def owner(*args):owner_checks.append(len(conn.sent))
+    result=ntop_tcp.dispatch('print("model command completed")',{'pid':42},tmp_path/'.local'/'run',owner_check=owner)
+    assert result['status']=='completed' and result['interpreter_pid']==42
+    assert len(connections)==1 and len(conn.sent)==2 and conn.closed
+    assert owner_checks==[0,1]
+    assert not (tmp_path/'.local/tcp-42.pending.json').exists()
+
+
+def test_host_owner_change_after_socket_probe_rejects_notebook_command(tmp_path,monkeypatch):
+    monkeypatch.setattr(ntop_tcp,'ROOT',tmp_path)
+    conn=ConsoleSocket(42)
+    monkeypatch.setattr(ntop_tcp.socket,'create_connection',lambda *args,**kwargs:conn)
+    def owner(*args):
+        if conn.sent:raise RuntimeError('Process creation time changed')
+    with pytest.raises(RuntimeError,match='creation time'):
+        ntop_tcp.dispatch('print("must not run")',{'pid':42},tmp_path/'.local'/'run',owner_check=owner)
+    assert len(conn.sent)==1 and conn.closed

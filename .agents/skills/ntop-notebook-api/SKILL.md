@@ -19,6 +19,8 @@ Use the [launch and attachment procedure](../../../docs/BACKGROUND_CONSOLE.md#la
 Computer Use is not a prerequisite for launching nTop or using the Notebook API. Prefer direct process launch and API dispatch for this workflow.
 Keep the user's existing windows and notebooks intact. Do not call `new_notebook` or `open_notebook` in an existing user session to make room for the task; both discard unsaved work without prompts.
 A new window does not prove that TCP reaches it. If the default port still belongs to an existing session, or listener ownership is ambiguous, stop dispatch to that endpoint and resolve routing without closing or repurposing the user's session.
+For parallel agents, assign one agent to each nTop process and notebook, with a distinct configured server listener port where the build supports it. Client `--port` only selects a destination. The supplied build 42926 package and executable help do not document a console server-port setting; see the [multi-agent port guidance](../../../docs/BACKGROUND_CONSOLE.md#multiple-agents-and-ports).
+Do not let multiple agents or clients edit the same live notebook concurrently. The shared helper verifies the interpreter PID on the same socket before sending notebook code; this check rejects a wrong destination and cannot select a process for the operating system.
 
 ## Authoring
 
