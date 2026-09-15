@@ -1,0 +1,529 @@
+{
+  "id": "S-Rear-spar",
+  "checks": [
+    {
+      "part": "S-Rear-spar",
+      "name": "S-Rear-spar pin bore",
+      "xyz_mm": [
+        5823.986872898488,
+        660.0,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 18.07497140503161,
+      "pass": true
+    },
+    {
+      "part": "S-Rear-spar",
+      "name": "S-Rear-spar cheek bearing",
+      "xyz_mm": [
+        5823.986872898488,
+        683.4,
+        284.20523948620735
+      ],
+      "expected": "negative",
+      "field_mm": -5.324973773959081,
+      "pass": true
+    },
+    {
+      "part": "S-Rear-spar",
+      "name": "S-Rear-spar eye slot",
+      "xyz_mm": [
+        5795.736872898488,
+        683.4,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 18.249905360777408,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin outer cheek face -1",
+      "xyz_mm": [
+        5757.736872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "zero",
+      "field_mm": -0.0001900066548652165,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin beyond cover edge -1",
+      "xyz_mm": [
+        5757.611872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 0.12480999334573163,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin outer cheek face 1",
+      "xyz_mm": [
+        5833.736872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "zero",
+      "field_mm": 9.463922284735915e-05,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin beyond cover edge 1",
+      "xyz_mm": [
+        5833.861872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 0.12509463922344422,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bore 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        660.0,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 18.07497140503161,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 0.0",
+      "xyz_mm": [
+        5823.986872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "negative",
+      "field_mm": -3.999973773959338,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 0.7853981633974483",
+      "xyz_mm": [
+        5823.986872898488,
+        675.609382194693,
+        299.81462168090036
+      ],
+      "expected": "negative",
+      "field_mm": -3.999989513540435,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 1.5707963267948966",
+      "xyz_mm": [
+        5823.986872898488,
+        660.0,
+        306.28023948620734
+      ],
+      "expected": "negative",
+      "field_mm": -4.000011395929357,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 2.356194490192345",
+      "xyz_mm": [
+        5823.986872898488,
+        644.390617805307,
+        299.81462168090036
+      ],
+      "expected": "negative",
+      "field_mm": -4.000026602753541,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 3.141592653589793",
+      "xyz_mm": [
+        5823.986872898488,
+        637.925,
+        284.20523948620735
+      ],
+      "expected": "negative",
+      "field_mm": -4.000026226046678,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 3.9269908169872414",
+      "xyz_mm": [
+        5823.986872898488,
+        644.390617805307,
+        268.59585729151433
+      ],
+      "expected": "negative",
+      "field_mm": -4.000010486511271,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 4.71238898038469",
+      "xyz_mm": [
+        5823.986872898488,
+        660.0,
+        262.13023948620736
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999886041018202,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring 28.25 5.497787143782138",
+      "xyz_mm": [
+        5823.986872898488,
+        675.609382194693,
+        268.59585729151433
+      ],
+      "expected": "negative",
+      "field_mm": -3.999973397271088,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bore -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        660.0,
+        284.20523948620735
+      ],
+      "expected": "positive",
+      "field_mm": 18.07497140503161,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 0.0",
+      "xyz_mm": [
+        5767.486872898488,
+        682.075,
+        284.20523948620735
+      ],
+      "expected": "negative",
+      "field_mm": -3.999973773959338,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 0.7853981633974483",
+      "xyz_mm": [
+        5767.486872898488,
+        675.609382194693,
+        299.81462168090036
+      ],
+      "expected": "negative",
+      "field_mm": -3.999989513540435,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 1.5707963267948966",
+      "xyz_mm": [
+        5767.486872898488,
+        660.0,
+        306.28023948620734
+      ],
+      "expected": "negative",
+      "field_mm": -4.000011395929357,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 2.356194490192345",
+      "xyz_mm": [
+        5767.486872898488,
+        644.390617805307,
+        299.81462168090036
+      ],
+      "expected": "negative",
+      "field_mm": -4.000026602753541,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 3.141592653589793",
+      "xyz_mm": [
+        5767.486872898488,
+        637.925,
+        284.20523948620735
+      ],
+      "expected": "negative",
+      "field_mm": -4.000026226046678,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 3.9269908169872414",
+      "xyz_mm": [
+        5767.486872898488,
+        644.390617805307,
+        268.59585729151433
+      ],
+      "expected": "negative",
+      "field_mm": -4.000010486511271,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 4.71238898038469",
+      "xyz_mm": [
+        5767.486872898488,
+        660.0,
+        262.13023948620736
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999886041018202,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Lower-pin bearing ring -28.25 5.497787143782138",
+      "xyz_mm": [
+        5767.486872898488,
+        675.609382194693,
+        268.59585729151433
+      ],
+      "expected": "negative",
+      "field_mm": -3.999973397271088,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin outer cheek face -1",
+      "xyz_mm": [
+        5757.736872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "zero",
+      "field_mm": -0.0001900066548492961,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin beyond cover edge -1",
+      "xyz_mm": [
+        5757.611872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 0.12480999334574756,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin outer cheek face 1",
+      "xyz_mm": [
+        5833.736872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "zero",
+      "field_mm": 9.463922283348136e-05,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin beyond cover edge 1",
+      "xyz_mm": [
+        5833.861872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 0.12509463922343034,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bore 28.25",
+      "xyz_mm": [
+        5823.986872898488,
+        660.0,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 18.074972314691014,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 0.0",
+      "xyz_mm": [
+        5823.986872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999737739581755,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 0.7853981633974483",
+      "xyz_mm": [
+        5823.986872898488,
+        675.609382194693,
+        559.8146216809004
+      ],
+      "expected": "negative",
+      "field_mm": -3.999975183599326,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 1.5707963267948966",
+      "xyz_mm": [
+        5823.986872898488,
+        660.0,
+        566.2802394862074
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999911303500864,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 2.356194490192345",
+      "xyz_mm": [
+        5823.986872898488,
+        644.390617805307,
+        559.8146216809004
+      ],
+      "expected": "negative",
+      "field_mm": -4.000012272836511,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 3.141592653589793",
+      "xyz_mm": [
+        5823.986872898488,
+        637.925,
+        544.2052394862073
+      ],
+      "expected": "negative",
+      "field_mm": -4.000026226045516,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 3.9269908169872414",
+      "xyz_mm": [
+        5823.986872898488,
+        644.390617805307,
+        528.5958572915143
+      ],
+      "expected": "negative",
+      "field_mm": -4.000024816427143,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 4.71238898038469",
+      "xyz_mm": [
+        5823.986872898488,
+        660.0,
+        522.1302394862073
+      ],
+      "expected": "negative",
+      "field_mm": -4.000008869680979,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring 28.25 5.497787143782138",
+      "xyz_mm": [
+        5823.986872898488,
+        675.609382194693,
+        528.5958572915143
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999877272110345,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bore -28.25",
+      "xyz_mm": [
+        5767.486872898488,
+        660.0,
+        544.2052394862073
+      ],
+      "expected": "positive",
+      "field_mm": 18.074972314691014,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 0.0",
+      "xyz_mm": [
+        5767.486872898488,
+        682.075,
+        544.2052394862073
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999737739581755,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 0.7853981633974483",
+      "xyz_mm": [
+        5767.486872898488,
+        675.609382194693,
+        559.8146216809004
+      ],
+      "expected": "negative",
+      "field_mm": -3.999975183599326,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 1.5707963267948966",
+      "xyz_mm": [
+        5767.486872898488,
+        660.0,
+        566.2802394862074
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999911303500864,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 2.356194490192345",
+      "xyz_mm": [
+        5767.486872898488,
+        644.390617805307,
+        559.8146216809004
+      ],
+      "expected": "negative",
+      "field_mm": -4.000012272836511,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 3.141592653589793",
+      "xyz_mm": [
+        5767.486872898488,
+        637.925,
+        544.2052394862073
+      ],
+      "expected": "negative",
+      "field_mm": -4.000026226045516,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 3.9269908169872414",
+      "xyz_mm": [
+        5767.486872898488,
+        644.390617805307,
+        528.5958572915143
+      ],
+      "expected": "negative",
+      "field_mm": -4.000024816427143,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 4.71238898038469",
+      "xyz_mm": [
+        5767.486872898488,
+        660.0,
+        522.1302394862073
+      ],
+      "expected": "negative",
+      "field_mm": -4.000008869680979,
+      "pass": true
+    },
+    {
+      "name": "S-Rear-Upper-pin bearing ring -28.25 5.497787143782138",
+      "xyz_mm": [
+        5767.486872898488,
+        675.609382194693,
+        528.5958572915143
+      ],
+      "expected": "negative",
+      "field_mm": -3.9999877272110345,
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "pass": true,
+  "method": "Native CLI field evaluation of the graph-verified saved part. This is independent of GUI presentation.",
+  "part_sha256": "1e40f2818d29b248f8f81d535fe7661a434b836db873bf4945879553ea70f7fa"
+}

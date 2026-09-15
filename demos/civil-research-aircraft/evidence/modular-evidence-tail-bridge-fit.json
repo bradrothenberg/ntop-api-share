@@ -1,0 +1,1736 @@
+{
+  "samples": 144,
+  "pass": true,
+  "failed": [],
+  "checks": [
+    {
+      "name": "Port-front-tail-root-bridge socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        7753.190288474183,
+        -450.0709821416067,
+        281.4278871394099
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.20009062993721957,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 0 thickness16 dr0",
+      "xyz_mm": [
+        7752.998358678471,
+        -450.0734298016621,
+        281.48407399266154
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -9.062993776894762e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.806428882759,
+        -450.0758774617175,
+        281.5402608459132
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.19990937006094356,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        7752.992574566913,
+        -450.0735035658151,
+        380.57658774726497
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.20009139442899587,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 1 thickness16 dr0",
+      "xyz_mm": [
+        7752.793827050262,
+        -450.07603817153284,
+        380.55438413497956
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -9.139443024695076e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.595079533609,
+        -450.0785727772506,
+        380.5321805226941
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.19990860556942744,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        7753.193837882747,
+        -450.07150720878974,
+        281.43994023178925
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.20009059239721114,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 0 thickness20 dr0",
+      "xyz_mm": [
+        7753.002030480434,
+        -450.07397297461006,
+        281.496542708916
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -9.05923983980303e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.810223078121,
+        -450.0764387404304,
+        281.55314518604285
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.19990940759967868,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        7752.993155387996,
+        -450.074087067702,
+        380.57147616341024
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.20009138647089295,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 1 thickness20 dr0",
+      "xyz_mm": [
+        7752.794427899657,
+        -450.07664179417446,
+        380.5490962896126
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -9.138647219606583e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.595700411319,
+        -450.079196520647,
+        380.52671641581486
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.19990861352743322,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge thickness16 dx-0.2",
+      "xyz_mm": [
+        7507.8,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "negative",
+      "part": "F11 e9e17053",
+      "field_mm": -0.2001029968257094,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge thickness16 dx0",
+      "xyz_mm": [
+        7508.0,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "zero",
+      "part": "F11 e9e17053",
+      "field_mm": -0.00010299682617551098,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge thickness16 dx0.2",
+      "xyz_mm": [
+        7508.2,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "positive",
+      "part": "F11 e9e17053",
+      "field_mm": 0.19989700317335837,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge thickness16 dx-0.2",
+      "xyz_mm": [
+        7507.8,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "negative",
+      "part": "F11 e9e17053",
+      "field_mm": -0.2001029968257094,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge thickness16 dx0",
+      "xyz_mm": [
+        7508.0,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "zero",
+      "part": "F11 e9e17053",
+      "field_mm": -0.00010299682617551098,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge thickness16 dx0.2",
+      "xyz_mm": [
+        7508.2,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "positive",
+      "part": "F11 e9e17053",
+      "field_mm": 0.19989700317335837,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx-0.2",
+      "xyz_mm": [
+        7507.8,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "positive",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0",
+      "xyz_mm": [
+        7508.0,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "zero",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0.2",
+      "xyz_mm": [
+        7508.2,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "negative",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": -0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        7753.190288474183,
+        -450.0709821416067,
+        281.4278871394099
+      ],
+      "expected": "positive",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.20009062993721957,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0",
+      "xyz_mm": [
+        7752.998358678471,
+        -450.0734298016621,
+        281.48407399266154
+      ],
+      "expected": "zero",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": 9.062993776894762e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.806428882759,
+        -450.0758774617175,
+        281.5402608459132
+      ],
+      "expected": "negative",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": -0.19990937006094356,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        7752.992574566913,
+        -450.0735035658151,
+        380.57658774726497
+      ],
+      "expected": "positive",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.20009139442899587,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0",
+      "xyz_mm": [
+        7752.793827050262,
+        -450.07603817153284,
+        380.55438413497956
+      ],
+      "expected": "zero",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": 9.139443024695076e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.595079533609,
+        -450.0785727772506,
+        380.5321805226941
+      ],
+      "expected": "negative",
+      "part": "Port-front-tail-root-bridge 168d81a9",
+      "field_mm": -0.19990860556942744,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge thickness20 dx-0.2",
+      "xyz_mm": [
+        7509.8,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "negative",
+      "part": "F11 af49647f",
+      "field_mm": -0.19977111816382037,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge thickness20 dx0",
+      "xyz_mm": [
+        7510.0,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "zero",
+      "part": "F11 af49647f",
+      "field_mm": 0.0002288818357135125,
+      "passed": true
+    },
+    {
+      "name": "Port-front-tail-root-bridge thickness20 dx0.2",
+      "xyz_mm": [
+        7510.2,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "positive",
+      "part": "F11 af49647f",
+      "field_mm": 0.20022888183613557,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge thickness20 dx-0.2",
+      "xyz_mm": [
+        7509.8,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "negative",
+      "part": "F11 af49647f",
+      "field_mm": -0.19977111816382037,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge thickness20 dx0",
+      "xyz_mm": [
+        7510.0,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "zero",
+      "part": "F11 af49647f",
+      "field_mm": 0.0002288818357135125,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge thickness20 dx0.2",
+      "xyz_mm": [
+        7510.2,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "positive",
+      "part": "F11 af49647f",
+      "field_mm": 0.20022888183613557,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx-0.2",
+      "xyz_mm": [
+        7509.8,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "positive",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0",
+      "xyz_mm": [
+        7510.0,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "zero",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0.2",
+      "xyz_mm": [
+        7510.2,
+        -453.1978675365793,
+        353.20658468946044
+      ],
+      "expected": "negative",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": -0.20000000000042206,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        7753.193837882747,
+        -450.07150720878974,
+        281.43994023178925
+      ],
+      "expected": "positive",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": 0.20009059239721114,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0",
+      "xyz_mm": [
+        7753.002030480434,
+        -450.07397297461006,
+        281.496542708916
+      ],
+      "expected": "zero",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": 9.05923983980303e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.810223078121,
+        -450.0764387404304,
+        281.55314518604285
+      ],
+      "expected": "negative",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": -0.19990940759967868,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        7752.993155387996,
+        -450.074087067702,
+        380.57147616341024
+      ],
+      "expected": "positive",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": 0.20009138647089295,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0",
+      "xyz_mm": [
+        7752.794427899657,
+        -450.07664179417446,
+        380.5490962896126
+      ],
+      "expected": "zero",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": 9.138647219606583e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.595700411319,
+        -450.079196520647,
+        380.52671641581486
+      ],
+      "expected": "negative",
+      "part": "Port-front-tail-root-bridge ead669c4",
+      "field_mm": -0.19990861352743322,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.090690048299,
+        -449.90338991022486,
+        256.42443539690385
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.19993604657111713,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 0 thickness16 dr0",
+      "xyz_mm": [
+        8293.890862627683,
+        -449.9000585278188,
+        256.43204485558005
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 6.395342815393446e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        8293.691035207068,
+        -449.8967271454128,
+        256.43965431425625
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.20006395342571198,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.661449405448,
+        -449.9129052093496,
+        327.4726166742992
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.19994260900955702,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 1 thickness16 dr0",
+      "xyz_mm": [
+        8294.481303341976,
+        -449.9099019407065,
+        327.3857928515731
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 5.739098600521242e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        8294.301157278504,
+        -449.9068986720634,
+        327.298969028847
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.20005739098333253,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.090833990691,
+        -449.9020110722457,
+        256.42758490342834
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.1999360561900426,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 0 thickness20 dr0",
+      "xyz_mm": [
+        8293.891011533606,
+        -449.89863214370246,
+        256.43530296577785
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 6.394380815729489e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        8293.69118907652,
+        -449.89525321515924,
+        256.4430210281273
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.20006394380818557,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.675585995354,
+        -449.9118990261229,
+        327.44352814293916
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.19994277528383347,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 1 thickness20 dr0",
+      "xyz_mm": [
+        8294.495927400498,
+        -449.90886106150646,
+        327.35570126740754
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 5.722471402118401e-05,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        8294.316268805644,
+        -449.90582309689,
+        327.26787439187586
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.20005722471049847,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge thickness16 dx-0.2",
+      "xyz_mm": [
+        8157.8,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "negative",
+      "part": "F12 e9e17053",
+      "field_mm": -0.200198364257876,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge thickness16 dx0",
+      "xyz_mm": [
+        8158.0,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "zero",
+      "part": "F12 e9e17053",
+      "field_mm": -0.00019836425834210414,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge thickness16 dx0.2",
+      "xyz_mm": [
+        8158.2,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "positive",
+      "part": "F12 e9e17053",
+      "field_mm": 0.19980163574119178,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge thickness16 dx-0.2",
+      "xyz_mm": [
+        8157.8,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "negative",
+      "part": "F12 e9e17053",
+      "field_mm": -0.200198364257876,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge thickness16 dx0",
+      "xyz_mm": [
+        8158.0,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "zero",
+      "part": "F12 e9e17053",
+      "field_mm": -0.00019836425834210414,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge thickness16 dx0.2",
+      "xyz_mm": [
+        8158.2,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "positive",
+      "part": "F12 e9e17053",
+      "field_mm": 0.19980163574119178,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx-0.2",
+      "xyz_mm": [
+        8157.8,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "positive",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0",
+      "xyz_mm": [
+        8158.0,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "zero",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0.2",
+      "xyz_mm": [
+        8158.2,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "negative",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": -0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.090690048299,
+        -449.90338991022486,
+        256.42443539690385
+      ],
+      "expected": "positive",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.19993604657111713,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0",
+      "xyz_mm": [
+        8293.890862627683,
+        -449.9000585278188,
+        256.43204485558005
+      ],
+      "expected": "zero",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": -6.395342815393446e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        8293.691035207068,
+        -449.8967271454128,
+        256.43965431425625
+      ],
+      "expected": "negative",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": -0.20006395342571198,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.661449405448,
+        -449.9129052093496,
+        327.4726166742992
+      ],
+      "expected": "positive",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.19994260900955702,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0",
+      "xyz_mm": [
+        8294.481303341976,
+        -449.9099019407065,
+        327.3857928515731
+      ],
+      "expected": "zero",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": -5.739098600521242e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        8294.301157278504,
+        -449.9068986720634,
+        327.298969028847
+      ],
+      "expected": "negative",
+      "part": "Port-rear-tail-root-bridge 168d81a9",
+      "field_mm": -0.20005739098333253,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge thickness20 dx-0.2",
+      "xyz_mm": [
+        8159.8,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "negative",
+      "part": "F12 af49647f",
+      "field_mm": -0.2003433227533019,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge thickness20 dx0",
+      "xyz_mm": [
+        8160.0,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "zero",
+      "part": "F12 af49647f",
+      "field_mm": -0.00034332275376802723,
+      "passed": true
+    },
+    {
+      "name": "Port-rear-tail-root-bridge thickness20 dx0.2",
+      "xyz_mm": [
+        8160.2,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "positive",
+      "part": "F12 af49647f",
+      "field_mm": 0.19965667724576586,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge thickness20 dx-0.2",
+      "xyz_mm": [
+        8159.8,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "negative",
+      "part": "F12 af49647f",
+      "field_mm": -0.2003433227533019,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge thickness20 dx0",
+      "xyz_mm": [
+        8160.0,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "zero",
+      "part": "F12 af49647f",
+      "field_mm": -0.00034332275376802723,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge thickness20 dx0.2",
+      "xyz_mm": [
+        8160.2,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "positive",
+      "part": "F12 af49647f",
+      "field_mm": 0.19965667724576586,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx-0.2",
+      "xyz_mm": [
+        8159.8,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "positive",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0",
+      "xyz_mm": [
+        8160.0,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "zero",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0.2",
+      "xyz_mm": [
+        8160.2,
+        -447.6345815101778,
+        261.6067896451313
+      ],
+      "expected": "negative",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": -0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.090833990691,
+        -449.9020110722457,
+        256.42758490342834
+      ],
+      "expected": "positive",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.1999360561900426,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0",
+      "xyz_mm": [
+        8293.891011533606,
+        -449.89863214370246,
+        256.43530296577785
+      ],
+      "expected": "zero",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": -6.394380815729489e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        8293.69118907652,
+        -449.89525321515924,
+        256.4430210281273
+      ],
+      "expected": "negative",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": -0.20006394380818557,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.675585995354,
+        -449.9118990261229,
+        327.44352814293916
+      ],
+      "expected": "positive",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.19994277528383347,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0",
+      "xyz_mm": [
+        8294.495927400498,
+        -449.90886106150646,
+        327.35570126740754
+      ],
+      "expected": "zero",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": -5.722471402118401e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        8294.316268805644,
+        -449.90582309689,
+        327.26787439187586
+      ],
+      "expected": "negative",
+      "part": "Port-rear-tail-root-bridge ead669c4",
+      "field_mm": -0.20005722471049847,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        7753.191066169908,
+        450.07572614751473,
+        281.4303281033602
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.2000906118703452,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 0 thickness16 dr0",
+      "xyz_mm": [
+        7752.99916319129,
+        450.0783373939808,
+        281.48659912778254
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -9.061187121114922e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.807260212672,
+        450.0809486404468,
+        281.5428701522049
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.1999093881271388,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        7752.992334375907,
+        450.0784303144772,
+        380.57932484200956
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.20009138680143063,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 1 thickness16 dr0",
+      "xyz_mm": [
+        7752.793578576807,
+        450.08113480807987,
+        380.5572156123015
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -9.138680178225056e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.594822777706,
+        450.0838393016825,
+        380.5351063825934
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.1999086131970248,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        7753.1946266207715,
+        450.0762861486659,
+        281.4423958414549
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.20009057410866424,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 0 thickness20 dr0",
+      "xyz_mm": [
+        7753.0028464163215,
+        450.07891670551646,
+        281.4990829947771
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -9.057410956404138e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.811066211872,
+        450.081547262367,
+        281.5557701480993
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.19990942588878416,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        7752.992911392728,
+        450.079052979458,
+        380.5742345570561
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.2000913788124739,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 1 thickness20 dr0",
+      "xyz_mm": [
+        7752.79417549076,
+        450.0817789442669,
+        380.55194980028074
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -9.137881301895384e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-front-tail-root-bridge socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.595439588791,
+        450.0845049090758,
+        380.5296650435053
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.19990862118559638,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx-0.2",
+      "xyz_mm": [
+        7507.8,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "positive",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0",
+      "xyz_mm": [
+        7508.0,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "zero",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0.2",
+      "xyz_mm": [
+        7508.2,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "negative",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": -0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        7753.191066169908,
+        450.07572614751473,
+        281.4303281033602
+      ],
+      "expected": "positive",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.2000906118703452,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0",
+      "xyz_mm": [
+        7752.99916319129,
+        450.0783373939808,
+        281.48659912778254
+      ],
+      "expected": "zero",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": 9.061187121114922e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.807260212672,
+        450.0809486404468,
+        281.5428701522049
+      ],
+      "expected": "negative",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": -0.1999093881271388,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        7752.992334375907,
+        450.0784303144772,
+        380.57932484200956
+      ],
+      "expected": "positive",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": 0.20009138680143063,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0",
+      "xyz_mm": [
+        7752.793578576807,
+        450.08113480807987,
+        380.5572156123015
+      ],
+      "expected": "zero",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": 9.138680178225056e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        7752.594822777706,
+        450.0838393016825,
+        380.5351063825934
+      ],
+      "expected": "negative",
+      "part": "Starboard-front-tail-root-bridge 168d81a9",
+      "field_mm": -0.1999086131970248,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx-0.2",
+      "xyz_mm": [
+        7509.8,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "positive",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0",
+      "xyz_mm": [
+        7510.0,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "zero",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0.2",
+      "xyz_mm": [
+        7510.2,
+        453.41206990647595,
+        353.32682794913416
+      ],
+      "expected": "negative",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": -0.20000000000042206,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        7753.1946266207715,
+        450.0762861486659,
+        281.4423958414549
+      ],
+      "expected": "positive",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": 0.20009057410866424,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0",
+      "xyz_mm": [
+        7753.0028464163215,
+        450.07891670551646,
+        281.4990829947771
+      ],
+      "expected": "zero",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": 9.057410956404138e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.811066211872,
+        450.081547262367,
+        281.5557701480993
+      ],
+      "expected": "negative",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": -0.19990942588878416,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        7752.992911392728,
+        450.079052979458,
+        380.5742345570561
+      ],
+      "expected": "positive",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": 0.2000913788124739,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0",
+      "xyz_mm": [
+        7752.79417549076,
+        450.0817789442669,
+        380.55194980028074
+      ],
+      "expected": "zero",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": 9.137881301895384e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        7752.595439588791,
+        450.0845049090758,
+        380.5296650435053
+      ],
+      "expected": "negative",
+      "part": "Starboard-front-tail-root-bridge ead669c4",
+      "field_mm": -0.19990862118559638,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.090424222126,
+        449.9091673055895,
+        256.41986080609144
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.19993602421268086,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 0 thickness16 dr0",
+      "xyz_mm": [
+        8293.890587635091,
+        449.9060351437133,
+        256.42731252025686
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 6.397578734915893e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        8293.690751048054,
+        449.9029029818371,
+        256.4347642344223
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.20006397578743643,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.662997745565,
+        449.91814160297946,
+        327.4692311752354
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.19994261628007887,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 1 thickness16 dr0",
+      "xyz_mm": [
+        8294.48290507313,
+        449.9153188996339,
+        327.3822906111622
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 5.7383718117531846e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        8294.302812400696,
+        449.91249619628843,
+        327.2953500470891
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.20005738371485504,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.090560528775,
+        449.90787080222424,
+        256.4229453122168
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.19993603346919656,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 0 thickness20 dr0",
+      "xyz_mm": [
+        8293.890728641969,
+        449.9046939333354,
+        256.43050338866243
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 6.39665305932069e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        8293.690896755163,
+        449.9015170644466,
+        256.43806146510804
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.20006396653044367,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.677166013815,
+        449.91719648465266,
+        327.4401210951485
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.19994278278554542,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 1 thickness20 dr0",
+      "xyz_mm": [
+        8294.497561902355,
+        449.91434119102,
+        327.3521767352103
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 5.7217210387185136e-05,
+      "passed": true
+    },
+    {
+      "name": "Starboard-rear-tail-root-bridge socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        8294.317957790894,
+        449.9114858973873,
+        327.2642323752721
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.20005721720970338,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx-0.2",
+      "xyz_mm": [
+        8157.8,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "positive",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0",
+      "xyz_mm": [
+        8158.0,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "zero",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness16 dx0.2",
+      "xyz_mm": [
+        8158.2,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "negative",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": -0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.090424222126,
+        449.9091673055895,
+        256.41986080609144
+      ],
+      "expected": "positive",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.19993602421268086,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0",
+      "xyz_mm": [
+        8293.890587635091,
+        449.9060351437133,
+        256.42731252025686
+      ],
+      "expected": "zero",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": -6.397578734915893e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness16 dr0.2",
+      "xyz_mm": [
+        8293.690751048054,
+        449.9029029818371,
+        256.4347642344223
+      ],
+      "expected": "negative",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": -0.20006397578743643,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr-0.2",
+      "xyz_mm": [
+        8294.662997745565,
+        449.91814160297946,
+        327.4692311752354
+      ],
+      "expected": "positive",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": 0.19994261628007887,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0",
+      "xyz_mm": [
+        8294.48290507313,
+        449.9153188996339,
+        327.3822906111622
+      ],
+      "expected": "zero",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": -5.7383718117531846e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness16 dr0.2",
+      "xyz_mm": [
+        8294.302812400696,
+        449.91249619628843,
+        327.2953500470891
+      ],
+      "expected": "negative",
+      "part": "Starboard-rear-tail-root-bridge 168d81a9",
+      "field_mm": -0.20005738371485504,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx-0.2",
+      "xyz_mm": [
+        8159.8,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "positive",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0",
+      "xyz_mm": [
+        8160.0,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "zero",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.0,
+      "passed": true
+    },
+    {
+      "name": "frame thickness20 dx0.2",
+      "xyz_mm": [
+        8160.2,
+        447.7761382902774,
+        261.4945418592519
+      ],
+      "expected": "negative",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": -0.19999999999953388,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.090560528775,
+        449.90787080222424,
+        256.4229453122168
+      ],
+      "expected": "positive",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.19993603346919656,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0",
+      "xyz_mm": [
+        8293.890728641969,
+        449.9046939333354,
+        256.43050338866243
+      ],
+      "expected": "zero",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": -6.39665305932069e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 0 thickness20 dr0.2",
+      "xyz_mm": [
+        8293.690896755163,
+        449.9015170644466,
+        256.43806146510804
+      ],
+      "expected": "negative",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": -0.20006396653044367,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr-0.2",
+      "xyz_mm": [
+        8294.677166013815,
+        449.91719648465266,
+        327.4401210951485
+      ],
+      "expected": "positive",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": 0.19994278278554542,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0",
+      "xyz_mm": [
+        8294.497561902355,
+        449.91434119102,
+        327.3521767352103
+      ],
+      "expected": "zero",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": -5.7217210387185136e-05,
+      "passed": true
+    },
+    {
+      "name": "tail socket 1 thickness20 dr0.2",
+      "xyz_mm": [
+        8294.317957790894,
+        449.9114858973873,
+        327.2642323752721
+      ],
+      "expected": "negative",
+      "part": "Starboard-rear-tail-root-bridge ead669c4",
+      "field_mm": -0.20005721720970338,
+      "passed": true
+    }
+  ],
+  "scope": "Finite native field checks of shared contacts and adjacent material. Does not establish global interference freedom or joint strength."
+}

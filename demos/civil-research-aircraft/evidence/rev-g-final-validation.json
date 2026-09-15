@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-09-15T09:48:50.956066+00:00",
+  "geometry_package_pass": true,
+  "structural_release": false,
+  "status": "Proposed geometry revision. Fork stress screens fail; overall Revision G analysis and manufacturing release remain open.",
+  "native_geometry_probes_passed": 1997,
+  "deliverable_gui_variables_ok": 128,
+  "standalone_changed_parts": 14,
+  "native_assembly_definitions": 174,
+  "protected_files_sha256": {
+    "[source-workspace path omitted]": "84f0f00ddd67144bddd07c51757129f4945c15d404fd30f87c10bf0a3179038a",
+    "Aircraft-structure.ntop": "0bdb5a6e2c5e93dd70d408dc6735c6823d8d12321fde278ae0adf65aea2b4ff2"
+  },
+  "deliverables_sha256": {
+    "lug_attachment\\deliverables\\Aircraft-G.ntop": "1f491b7444ea5a30317665d8fd107305fe53e614293c8cc8af76c6db80190bf6",
+    "lug_attachment\\deliverables\\C-Fwd.ntop": "0332d4ecfb75b12083e45cceda08f08a58f11d6ff7d00f903886f71de4dc773b",
+    "lug_attachment\\deliverables\\C-Aft.ntop": "2ef93d19908786c0b73106a5fab4757d39a050e1559dfa79e8eb34c763a2ee3d",
+    "lug_attachment\\deliverables\\P-Front-spar.ntop": "71fc8dfb0c8cff02bdc10e918b8dedf30a8016a9fab62268d7a8f6a6dabd680d",
+    "lug_attachment\\deliverables\\S-Front-spar.ntop": "bf8c5c6d99e6e527365a52bf08c7a2412d5827e520cedbf1b6b096955abd6329",
+    "lug_attachment\\deliverables\\P-Rear-spar.ntop": "3b4a9c19ff287b3b3490d8e751e4d73f6176d5cbc0131a2886149aab645063b8",
+    "lug_attachment\\deliverables\\S-Rear-spar.ntop": "0855709d595135d7b6f233c7318c38a3d988c3b5dd1ba3944ada4ccefd8a31bc",
+    "lug_attachment\\deliverables\\P-Upper-outer-splice.ntop": "d0266be9669236edd844236717848cec596a5b85670fddec6d0d4438f19b7f8d",
+    "lug_attachment\\deliverables\\P-Upper-inner-splice.ntop": "8e96db7cbf47d6b42069b8e72a680e7cb4b178dfd8f2d29c2d266d48a7c0a9ff",
+    "lug_attachment\\deliverables\\P-Lower-outer-splice.ntop": "955215da6957a51173217ecf3d12e04962037b600062b08bbbc9a3d8518e3e1a",
+    "lug_attachment\\deliverables\\P-Lower-inner-splice.ntop": "2dc8e53e53f3d86af891d818ae99c3186f2f7df435b260f23c9a0c6ce8b714de",
+    "lug_attachment\\deliverables\\S-Upper-outer-splice.ntop": "b8e6236f5aa1fdc2f95e95218028a926b082708903f6116c5381077ac346d7c2",
+    "lug_attachment\\deliverables\\S-Upper-inner-splice.ntop": "ec37099a7f4fd1942434eb955aae2c62ccea7d701ccb5696591ddf20012c53ea",
+    "lug_attachment\\deliverables\\S-Lower-outer-splice.ntop": "149c6404dee5c4cf69bb9ba1a857e94ee9e80704b761028a82ab94e5642092f8",
+    "lug_attachment\\deliverables\\S-Lower-inner-splice.ntop": "3bda0b3c781589c8cf80013b4a1dd328d580dc5beabdde85ed4ea51ac109fce8"
+  },
+  "native_images_inspected": [
+    "lug_attachment\\views\\Aircraft-G\\Aircraft-G_GPU_res3_cam0_ortho.png",
+    "lug_attachment\\views\\Forward-lug-joint\\Forward-lug-joint_GPU_res3_cam0_ortho.png",
+    "lug_attachment\\views\\Aft-lug-joint\\Aft-lug-joint_GPU_res3_cam0_ortho.png",
+    "lug_attachment\\views\\C-Fwd\\C-Fwd_GPU_res3_cam0_ortho.png",
+    "lug_attachment\\views\\C-Aft\\C-Aft_GPU_res3_cam0_ortho.png",
+    "lug_attachment\\views\\Frames-G\\Frames-G_GPU_res3_cam0_ortho.png"
+  ],
+  "report_sha256": "482d1c39aa7c10589d7ee529be313c64d26fb52bf911a9d3d025c36f66f7ecc7",
+  "report_browser_checked": true,
+  "report_images_and_zoom_checked": true,
+  "report_local_links": 19
+}

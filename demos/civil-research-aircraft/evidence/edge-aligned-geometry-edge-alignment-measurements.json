@@ -1,0 +1,40 @@
+{
+  "basis": "Least-squares sweep of measured outer panel edges at BL2200-4200. Keep the existing BL4200 spar locations and extend the edge-parallel directions to BL1280. Root fillet curvature does not determine these straight spar directions.",
+  "source_mesh_sha256": "7c66aab0d94cb096dd33212ffd771b10f81032a6a4e9fe870a80518ba3ca13e5",
+  "lines": {
+    "front": {
+      "slope_dx_dy": 0.7021714859771385,
+      "edge_intercept_mm": 2901.007512558307,
+      "spar_intercept_mm": 3184.5265868458187,
+      "sweep_from_span_deg": 35.0754363716605,
+      "edge_fit_max_residual_mm": 0.18424387374125217,
+      "root_fs_mm": 4083.306088896556,
+      "tip_anchor_x_mm": 6133.6468279498,
+      "constant_chordwise_setback_mm": 283.51907428751156
+    },
+    "rear": {
+      "slope_dx_dy": 0.27103088294152994,
+      "edge_intercept_mm": 5845.638522224882,
+      "spar_intercept_mm": 5448.81734273333,
+      "sweep_from_span_deg": 15.164612781452169,
+      "edge_fit_max_residual_mm": 0.015268423503584927,
+      "root_fs_mm": 5795.736872898488,
+      "tip_anchor_x_mm": 6587.147051087756,
+      "constant_chordwise_setback_mm": 396.82117949155145
+    }
+  },
+  "root_shift_mm": {
+    "front": -311.9417376853703,
+    "rear": 434.39457890411813
+  },
+  "root_cap_land_depth_mm": {
+    "front": 165.9812143301226,
+    "rear": 93.76177971860267
+  },
+  "minimum_cap_land_depth_mm": {
+    "front": 82.76016561250219,
+    "rear": 58.74443595730645
+  },
+  "seconds": 1.0653567999979714,
+  "status": "Measured geometry proposal. Native member regeneration and resizing remain pending."
+}

@@ -1,0 +1,82 @@
+{
+  "status": "Editable preliminary assumptions, not approved loads or material allowables",
+  "gross_weight_lbf": 7500,
+  "limit_load_factor": 3.8,
+  "load_factors_for_sensitivity": [
+    2.5,
+    3.8,
+    6.0
+  ],
+  "ultimate_multiplier": 1.5,
+  "exposed_wing_root_mm": 1280,
+  "semispan_mm": 4572,
+  "lift_distribution": "Elliptical over the supplied half span; normalized so the two exposed wings carry the full maneuver load. No inertial relief.",
+  "forward_primary_load_fraction": 0.55,
+  "aft_primary_load_fraction": 0.45,
+  "tail_load_fraction_of_maneuver_weight": 0.15,
+  "bulkhead_load_model": "Both wing end faces receive upward shear and equal/opposite wing root bending moments. A distributed downward inertial load acts on the lower outside rim. Three constraints remove rigid modes only.",
+  "E_MPa": 71000,
+  "poisson_ratio": 0.33,
+  "density_kg_m3": 2830,
+  "elastic_stress_ceiling_MPa": 250,
+  "material_note": "Assumed isotropic room-temperature elastic properties and conservative study stress ceiling. These are not certified 7050 forging allowables.",
+  "buckling_knockdown": 0.65,
+  "buckling_reserve_factor": 1.15,
+  "knockdown_note": "Study allowance for imperfect restraints and initial shape. This chosen factor is not a validated imperfection model.",
+  "web_minimum_mm": 2.0,
+  "primary_rib_minimum_mm": 3.0,
+  "wing_rib_minimum_mm": 1.5,
+  "tail_rib_minimum_mm": 1.5,
+  "thickness_increment_mm": 0.5,
+  "skin_bracing_pitch_mm": 150,
+  "skin_bracing_note": "Sensitivity case only. No skin or attachment stiffness exists in the current assembly. The unbraced case uses the full measured member length.",
+  "primary_local_model": "Pocket floors: simply supported rectangular plates enclosing each pocket. Cross ribs: outstanding flat plates with one supported and one free longitudinal edge, k=0.43. Global bulkhead lateral buckling is not covered.",
+  "analysis_mesh_sizes_mm": [
+    20,
+    12
+  ],
+  "rib_mesh_size_mm": 2,
+  "sources": [
+    {
+      "title": "NACA TN 3781, Handbook of Structural Stability Part I: Buckling of Flat Plates",
+      "url": "https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19930084505.pdf",
+      "use": "Classical elastic plate coefficients and boundary-condition sensitivity"
+    },
+    {
+      "title": "NACA TN 1750, Buckling Tests of Flat Rectangular Plates under Combined Shear and Longitudinal Compression",
+      "url": "https://ntrs.nasa.gov/api/citations/19930082377/downloads/19930082377.pdf",
+      "use": "Compression/shear interaction Rc + Rs squared = 1"
+    },
+    {
+      "title": "NACA TR 734, Critical Compressive Stress for Outstanding Flanges",
+      "url": "https://ntrs.nasa.gov/citations/19930091812",
+      "use": "Outstanding flange local stability"
+    },
+    {
+      "title": "FAA AC 65-15A, Airframe Handbook",
+      "url": "https://www.faa.gov/documentlibrary/media/advisory_circular/ac_65-15a.pdf",
+      "use": "Longerons, stringers, skins and thin-wall structural sections"
+    }
+  ],
+  "study": "Wing-root architecture trade. Sizing assumptions, not released requirements.",
+  "structural_tip_mm": 4200.0,
+  "tip_deflection_limit_mm": 100.0,
+  "tip_twist_limit_deg": 2.0,
+  "cover_pitch_mm": 150.0,
+  "rib_pitch_mm": 250.0,
+  "stringer_flange_mm": 40.0,
+  "stringer_height_mm": 40.0,
+  "stringer_wall_mm": 2.5,
+  "cap_width_mm": 58.5,
+  "gauge_step_mm": 0.5,
+  "minimum_cover_mm": 1.5,
+  "minimum_spar_web_mm": 1.5,
+  "minimum_cap_mm": 3.0,
+  "lift_chord_fraction": 0.25,
+  "beam_station_step_mm": 50.0,
+  "scope": "Two closed outer wing boxes BL1280-4200, two primary bulkhead gross membrane proxies, full-depth ribs and a calculated cap-turn tie allowance. Common outer tips beyond BL4200 and the rest of the airframe are excluded. Lift to BL4572 is retained.",
+  "stiffeners": "Ideal attached T sections, 40 mm flange, web height min(40 mm, 30% of local minimum box depth), 2.5 mm wall. Included in mass and bending stiffness. Ribs at <=250 mm projected span pitch. No joint slip credit.",
+  "frame_scope": "Same 60 mm axial envelope and 12 mm ribs. Pocket floor is sized to local elastic buckling and a mesh-dependent stress screen. Gross profiles omit holes and rolling-ball volume. Out-of-plane frame stability and complete joint stresses are open.",
+  "joint_scope": "Cap-turn tie area from the change in cap-force direction and the assumed stress ceiling. Additional joint, fastener, fitting and assembly mass is varied separately, not presented as measured.",
+  "stiffness_scope": "Fixed-root thin-wall spatial beam with closed-cell torsion and web shear compliance. Deflection/twist targets are assumed comparison gates, not aeroelastic requirements."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "NASA CR-2020-220425: Passive Aeroelastic Tailoring Final Report",
+    "url": "https://ntrs.nasa.gov/api/citations/20200001139/downloads/20200001139.pdf",
+    "pages": "Printed pages 56-59 and 67; PDF pages 70-73 and 81",
+    "finding": "The tested kinked wing uses special rib arrangements and local fittings at the kink. Its spar splice transfers the upper cap, lower cap, and web through distinct splice plates. This supports checking all three load paths, not only the spar outline. The composite test article does not prescribe dimensions for this aluminum aircraft."
+  },
+  {
+    "title": "NASA CR-159249: Initial ACT Configuration Design Study",
+    "url": "https://ntrs.nasa.gov/api/citations/19820024504/downloads/19820024504.pdf",
+    "pages": "Printed pages 68-70; PDF pages 98-100",
+    "finding": "The outboard wing joins a center section through the fuselage at the side-of-body rib. The center section includes spars, upper and lower panels, beams, and a centerline rib. Fittings connect primary fuselage bulkheads to the spars. This supports a complete wing-box-to-fuselage connection."
+  },
+  {
+    "title": "NASA CR-4746: High-Lift Systems on Commercial Subsonic Airliners",
+    "url": "https://ntrs.nasa.gov/api/citations/19960052267/downloads/19960052267.pdf",
+    "pages": "Printed page 93, section 3.2",
+    "finding": "The report discusses cranked inboard front spars for structural layout and systems routing. A spar does not need to follow one straight line solely because the external wing planform has a crank. This is layout context, not sizing evidence."
+  },
+  {
+    "title": "Airbus: How to Make a Wing",
+    "url": "https://www.airbus.com/en/newsroom/stories/2023-09-how-to-make-a-wing",
+    "pages": "Wing assembly description",
+    "finding": "The completed wing joins the center wing box and fuselage. Covers, spars, and ribs form an integrated structure. An isolated spar-to-frame contact is only one part of that connection."
+  }
+]

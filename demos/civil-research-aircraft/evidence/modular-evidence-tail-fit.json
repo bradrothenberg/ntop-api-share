@@ -1,0 +1,3368 @@
+{
+  "samples": 280,
+  "pass": true,
+  "failed": [],
+  "checks": [
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8230.230143049148,
+        -899.5,
+        748.068983598354
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": 0.1387260159315673,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8230.430143049149,
+        -899.5,
+        748.068983598354
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": 0.00028809390517636757,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8230.63014304915,
+        -899.5,
+        748.068983598354
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.1381498281203264,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8238.430143049149,
+        -899.5,
+        748.068983598354
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8231.27416738894,
+        -900.5,
+        748.9981897108697
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": 0.13815414254292335,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8231.47416738894,
+        -900.5,
+        748.9981897108697
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -9.46620630770667e-05,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8231.674167388941,
+        -900.5,
+        748.9981897108697
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.1383434666690775,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8239.47416738894,
+        -900.5,
+        748.9981897108697
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.5000238418578773,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8670.526321423255,
+        -899.5,
+        717.3518230363895
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": 0.1541099873270113,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        8670.326321423254,
+        -899.5,
+        717.3518230363895
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": 0.00027357206722200544,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8670.126321423253,
+        -899.5,
+        717.3518230363895
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.15356284319434366,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        8662.326321423254,
+        -899.5,
+        717.3518230363895
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8671.358652281218,
+        -900.5,
+        718.2957389924247
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": 0.15334424794755108,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        8671.158652281218,
+        -900.5,
+        718.2957389924247
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.00025941891301783926,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        8670.958652281217,
+        -900.5,
+        718.2957389924247
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.15386308577269858,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        8663.158652281218,
+        -900.5,
+        718.2957389924247
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-900",
+      "field_mm": -0.5000238418578773,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8230.230143049148,
+        -899.5,
+        748.068983598354
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.13821895432108988,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0",
+      "xyz_mm": [
+        8230.430143049149,
+        -899.5,
+        748.068983598354
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.00021896770530105414,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8230.63014304915,
+        -899.5,
+        748.068983598354
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.1386568897308038,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8231.27416738894,
+        -900.5,
+        748.9981897108697
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.13815414254292335,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0",
+      "xyz_mm": [
+        8231.47416738894,
+        -900.5,
+        748.9981897108697
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": 9.46620630770667e-05,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0.2",
+      "xyz_mm": [
+        8231.674167388941,
+        -900.5,
+        748.9981897108697
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.1383434666690775,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8439.30730243597,
+        -1099.5,
+        933.9627316653564
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.13815332505906497,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0",
+      "xyz_mm": [
+        8439.50730243597,
+        -1099.5,
+        933.9627316653564
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": 9.54795469354508e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8439.70730243597,
+        -1099.5,
+        933.9627316653564
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.1383442841520477,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8440.352168474732,
+        -1100.5,
+        934.8921989028323
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.13837294078999918,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0",
+      "xyz_mm": [
+        8440.552168474733,
+        -1100.5,
+        934.8921989028323
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -5.1384318133784745e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0.2",
+      "xyz_mm": [
+        8440.752168474733,
+        -1100.5,
+        934.8921989028323
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.13827017215195525,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8648.175716854861,
+        -1299.5,
+        1119.8556174637251
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.13837009393125044,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0",
+      "xyz_mm": [
+        8648.375716854862,
+        -1299.5,
+        1119.8556174637251
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -4.853746116140201e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8648.575716854863,
+        -1299.5,
+        1119.8556174637251
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.138273019010704,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8649.220902009893,
+        -1300.5,
+        1120.7850870305224
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.13840375420670625,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0",
+      "xyz_mm": [
+        8649.420902009893,
+        -1300.5,
+        1120.7850870305224
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.00019901695047508383,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0.2",
+      "xyz_mm": [
+        8649.620902009894,
+        -1300.5,
+        1120.7850870305224
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.13800572030664426,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8857.38104533215,
+        -1499.5,
+        1305.7505560550048
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.13840486182115086,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0",
+      "xyz_mm": [
+        8857.58104533215,
+        -1499.5,
+        1305.7505560550048
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.00020012456491969033,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8857.78104533215,
+        -1499.5,
+        1305.7505560550048
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.13800461269131148,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8858.40795252576,
+        -1500.5,
+        1306.681278968658
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.1406546703890399,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0",
+      "xyz_mm": [
+        8858.607952525761,
+        -1500.5,
+        1306.681278968658
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.00021738210076449604,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0.2",
+      "xyz_mm": [
+        8858.807952525762,
+        -1500.5,
+        1306.681278968658
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.14108943459145706,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9008.567696447839,
+        -1649.5,
+        1445.5449741485863
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.14065633773263642,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0",
+      "xyz_mm": [
+        9008.76769644784,
+        -1649.5,
+        1445.5449741485863
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.00021571475805615137,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9008.96769644784,
+        -1649.5,
+        1445.5449741485863
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.14108776724697236,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9009.575479964094,
+        -1650.5,
+        1446.4769452571768
+      ],
+      "expected": "negative",
+      "part": "Port-tail-front-spar",
+      "field_mm": -0.1409125768079278,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0",
+      "xyz_mm": [
+        9009.775479964095,
+        -1650.5,
+        1446.4769452571768
+      ],
+      "expected": "zero",
+      "part": "Port-tail-front-spar",
+      "field_mm": -4.0524319011581156e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0.2",
+      "xyz_mm": [
+        9009.975479964096,
+        -1650.5,
+        1446.4769452571768
+      ],
+      "expected": "positive",
+      "part": "Port-tail-front-spar",
+      "field_mm": 0.140831528171681,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8670.526321423255,
+        -899.5,
+        717.3518230363895
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.15392354004895026,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0",
+      "xyz_mm": [
+        8670.326321423254,
+        -899.5,
+        717.3518230363895
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -8.712478916095279e-05,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8670.126321423253,
+        -899.5,
+        717.3518230363895
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.1537492904724047,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8671.358652281218,
+        -900.5,
+        718.2957389924247
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.15334424794755108,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0",
+      "xyz_mm": [
+        8671.158652281218,
+        -900.5,
+        718.2957389924247
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.00025941891301783926,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0.2",
+      "xyz_mm": [
+        8670.958652281217,
+        -900.5,
+        718.2957389924247
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.15386308577269858,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8837.29888859128,
+        -1099.5,
+        906.1507454328082
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.15334487349338843,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0",
+      "xyz_mm": [
+        8837.09888859128,
+        -1099.5,
+        906.1507454328082
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.0002587933654041308,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8836.898888591279,
+        -1099.5,
+        906.1507454328082
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.15386246022597305,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8838.130866109603,
+        -1100.5,
+        907.0948812324508
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.15389959324796365,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0",
+      "xyz_mm": [
+        8837.930866109602,
+        -1100.5,
+        907.0948812324508
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -9.737656014863205e-06,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0.2",
+      "xyz_mm": [
+        8837.730866109601,
+        -1100.5,
+        907.0948812324508
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.15388011793593392,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9003.317682091732,
+        -1299.5,
+        1095.0059230498046
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.15389955125666432,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0",
+      "xyz_mm": [
+        9003.117682091732,
+        -1299.5,
+        1095.0059230498046
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -9.695666491893462e-06,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9002.917682091731,
+        -1299.5,
+        1095.0059230498046
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.1538801599254569,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9004.148827832476,
+        -1300.5,
+        1095.9501329115687
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.15394075816121955,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0",
+      "xyz_mm": [
+        9003.948827832475,
+        -1300.5,
+        1095.9501329115687
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.00021137754480093918,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0.2",
+      "xyz_mm": [
+        9003.748827832474,
+        -1300.5,
+        1095.9501329115687
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.15351800307250585,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9169.758016666332,
+        -1499.5,
+        1283.8346160763213
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.15394298707516185,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0",
+      "xyz_mm": [
+        9169.558016666331,
+        -1499.5,
+        1283.8346160763213
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.0002136064578550645,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9169.35801666633,
+        -1499.5,
+        1283.8346160763213
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.15351577415856354,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9170.542719495208,
+        -1500.5,
+        1284.7820777926547
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.16081720038840785,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0",
+      "xyz_mm": [
+        9170.342719495207,
+        -1500.5,
+        1284.7820777926547
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.00016655186918512754,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0.2",
+      "xyz_mm": [
+        9170.142719495207,
+        -1500.5,
+        1284.7820777926547
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.1611503041276663,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9280.385322619984,
+        -1649.5,
+        1426.4483426693378
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.16082054086030695,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0",
+      "xyz_mm": [
+        9280.185322619984,
+        -1649.5,
+        1426.4483426693378
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.00016321139906239068,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9279.985322619983,
+        -1649.5,
+        1426.4483426693378
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.16114696365754355,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9281.122521298674,
+        -1650.5,
+        1427.3991229705234
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -0.16105349689521375,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0",
+      "xyz_mm": [
+        9280.922521298673,
+        -1650.5,
+        1427.3991229705234
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rear-spar",
+      "field_mm": -6.974463762077221e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0.2",
+      "xyz_mm": [
+        9280.722521298672,
+        -1650.5,
+        1427.3991229705234
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rear-spar",
+      "field_mm": 0.1609140076208604,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8439.30730243597,
+        -1099.5,
+        933.9627316653564
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 0.13851046154211843,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8439.50730243597,
+        -1099.5,
+        933.9627316653564
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 0.00026165693611801544,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8439.70730243597,
+        -1099.5,
+        933.9627316653564
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.13798714766899423,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8447.50730243597,
+        -1099.5,
+        933.9627316653564
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8440.352168474732,
+        -1100.5,
+        934.8921989028323
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 0.13837294078999918,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8440.552168474733,
+        -1100.5,
+        934.8921989028323
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 5.1384318133784745e-05,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8440.752168474733,
+        -1100.5,
+        934.8921989028323
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.13827017215195525,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8448.552168474733,
+        -1100.5,
+        934.8921989028323
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8837.29888859128,
+        -1099.5,
+        906.1507454328082
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 0.1538106741865164,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        8837.09888859128,
+        -1099.5,
+        906.1507454328082
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 0.00020700732772382935,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8836.898888591279,
+        -1099.5,
+        906.1507454328082
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.1533966595328451,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        8829.09888859128,
+        -1099.5,
+        906.1507454328082
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8838.130866109603,
+        -1100.5,
+        907.0948812324508
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 0.15389959324796365,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        8837.930866109602,
+        -1100.5,
+        907.0948812324508
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": 9.737656014863205e-06,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        8837.730866109601,
+        -1100.5,
+        907.0948812324508
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.15388011793593392,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        8829.930866109602,
+        -1100.5,
+        907.0948812324508
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1100",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8648.175716854861,
+        -1299.5,
+        1119.8556174637251
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": 0.138593442513546,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8648.375716854862,
+        -1299.5,
+        1119.8556174637251
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": 0.0002718860434569592,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8648.575716854863,
+        -1299.5,
+        1119.8556174637251
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.13804967042840843,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8656.375716854862,
+        -1299.5,
+        1119.8556174637251
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.4999523162840802,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8649.220902009893,
+        -1300.5,
+        1120.7850870305224
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": 0.13840375420670625,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8649.420902009893,
+        -1300.5,
+        1120.7850870305224
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": 0.00019901695047508383,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8649.620902009894,
+        -1300.5,
+        1120.7850870305224
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.13800572030664426,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8657.420902009893,
+        -1300.5,
+        1120.7850870305224
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.5000476837158097,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9003.317682091732,
+        -1299.5,
+        1095.0059230498046
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": 0.15352111454269846,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        9003.117682091732,
+        -1299.5,
+        1095.0059230498046
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.00036874104747397496,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9002.917682091731,
+        -1299.5,
+        1095.0059230498046
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.15425859663942276,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        8995.117682091732,
+        -1299.5,
+        1095.0059230498046
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.4999523162840802,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9004.148827832476,
+        -1300.5,
+        1095.9501329115687
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": 0.15394075816121955,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        9003.948827832475,
+        -1300.5,
+        1095.9501329115687
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": 0.00021137754480093918,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        9003.748827832474,
+        -1300.5,
+        1095.9501329115687
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.15351800307250585,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        8995.948827832475,
+        -1300.5,
+        1095.9501329115687
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1300",
+      "field_mm": -0.5000476837158097,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8857.38104533215,
+        -1499.5,
+        1305.7505560550048
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": 0.138424767675005,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8857.58104533215,
+        -1499.5,
+        1305.7505560550048
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": 0.00022003041877383112,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8857.78104533215,
+        -1499.5,
+        1305.7505560550048
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.13798470683745734,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8865.58104533215,
+        -1499.5,
+        1305.7505560550048
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8858.40795252576,
+        -1500.5,
+        1306.681278968658
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": 0.1406546703890399,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8858.607952525761,
+        -1500.5,
+        1306.681278968658
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.00021738210076449604,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8858.807952525762,
+        -1500.5,
+        1306.681278968658
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.14108943459145706,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8866.607952525761,
+        -1500.5,
+        1306.681278968658
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9169.758016666332,
+        -1499.5,
+        1283.8346160763213
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": 0.15339290004501294,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        9169.558016666331,
+        -1499.5,
+        1283.8346160763213
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.0003364805722938513,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9169.35801666633,
+        -1499.5,
+        1283.8346160763213
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.15406586118871246,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        9161.558016666331,
+        -1499.5,
+        1283.8346160763213
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9170.542719495208,
+        -1500.5,
+        1284.7820777926547
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": 0.16081720038840785,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        9170.342719495207,
+        -1500.5,
+        1284.7820777926547
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.00016655186918512754,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        9170.142719495207,
+        -1500.5,
+        1284.7820777926547
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.1611503041276663,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        9162.342719495207,
+        -1500.5,
+        1284.7820777926547
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9008.567696447839,
+        -1649.5,
+        1445.5449741485863
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": 0.14054179726130656,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        9008.76769644784,
+        -1649.5,
+        1445.5449741485863
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.0003302552293860117,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9008.96769644784,
+        -1649.5,
+        1445.5449741485863
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.14120230771830222,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        9016.76769644784,
+        -1649.5,
+        1445.5449741485863
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9009.575479964094,
+        -1650.5,
+        1446.4769452571768
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": 0.1409125768079278,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        9009.775479964095,
+        -1650.5,
+        1446.4769452571768
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": 4.0524319011581156e-05,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        9009.975479964096,
+        -1650.5,
+        1446.4769452571768
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.140831528171681,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        9017.775479964095,
+        -1650.5,
+        1446.4769452571768
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9280.385322619984,
+        -1649.5,
+        1426.4483426693378
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": 0.16105522418641272,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        9280.185322619984,
+        -1649.5,
+        1426.4483426693378
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": 7.147192704337613e-05,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9279.985322619983,
+        -1649.5,
+        1426.4483426693378
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.16091228033143778,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        9272.185322619984,
+        -1649.5,
+        1426.4483426693378
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9281.122521298674,
+        -1650.5,
+        1427.3991229705234
+      ],
+      "expected": "positive",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": 0.16105349689521375,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        9280.922521298673,
+        -1650.5,
+        1427.3991229705234
+      ],
+      "expected": "zero",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": 6.974463762077221e-05,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        9280.722521298672,
+        -1650.5,
+        1427.3991229705234
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.1609140076208604,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        9272.922521298673,
+        -1650.5,
+        1427.3991229705234
+      ],
+      "expected": "negative",
+      "part": "Port-tail-rib-BL-1650",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8230.230143049148,
+        899.5,
+        748.068983598354
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": 0.1387260159315673,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8230.430143049149,
+        899.5,
+        748.068983598354
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": 0.00028809390517636757,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8230.63014304915,
+        899.5,
+        748.068983598354
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.1381498281203264,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8238.430143049149,
+        899.5,
+        748.068983598354
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8231.27416738894,
+        900.5,
+        748.9981897108697
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": 0.13815414254292335,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8231.47416738894,
+        900.5,
+        748.9981897108697
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -9.46620630770667e-05,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8231.674167388941,
+        900.5,
+        748.9981897108697
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.1383434666690775,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8239.47416738894,
+        900.5,
+        748.9981897108697
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.5000238418578773,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8670.526321423255,
+        899.5,
+        717.3518230363895
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": 0.1541099873270113,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        8670.326321423254,
+        899.5,
+        717.3518230363895
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": 0.00027357206722200544,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8670.126321423253,
+        899.5,
+        717.3518230363895
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.15356284319434366,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        8662.326321423254,
+        899.5,
+        717.3518230363895
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8671.358652281218,
+        900.5,
+        718.2957389924247
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": 0.15334424794755108,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        8671.158652281218,
+        900.5,
+        718.2957389924247
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.00025941891301783926,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        8670.958652281217,
+        900.5,
+        718.2957389924247
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.15386308577269858,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        8663.158652281218,
+        900.5,
+        718.2957389924247
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-900",
+      "field_mm": -0.5000238418578773,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8230.230143049148,
+        899.5,
+        748.068983598354
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.13821895432108988,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0",
+      "xyz_mm": [
+        8230.430143049149,
+        899.5,
+        748.068983598354
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.00021896770530105414,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8230.63014304915,
+        899.5,
+        748.068983598354
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.1386568897308038,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8231.27416738894,
+        900.5,
+        748.9981897108697
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.13815414254292335,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0",
+      "xyz_mm": [
+        8231.47416738894,
+        900.5,
+        748.9981897108697
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 9.46620630770667e-05,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0.2",
+      "xyz_mm": [
+        8231.674167388941,
+        900.5,
+        748.9981897108697
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.1383434666690775,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8439.30730243597,
+        1099.5,
+        933.9627316653564
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.13815332505906497,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0",
+      "xyz_mm": [
+        8439.50730243597,
+        1099.5,
+        933.9627316653564
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 9.54795469354508e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8439.70730243597,
+        1099.5,
+        933.9627316653564
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.1383442841520477,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8440.352168474732,
+        1100.5,
+        934.8921989028323
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.13837294078999918,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0",
+      "xyz_mm": [
+        8440.552168474733,
+        1100.5,
+        934.8921989028323
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -5.1384318133784745e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0.2",
+      "xyz_mm": [
+        8440.752168474733,
+        1100.5,
+        934.8921989028323
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.13827017215195525,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8648.175716854861,
+        1299.5,
+        1119.8556174637251
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.13837009393125044,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0",
+      "xyz_mm": [
+        8648.375716854862,
+        1299.5,
+        1119.8556174637251
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -4.853746116140201e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8648.575716854863,
+        1299.5,
+        1119.8556174637251
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.138273019010704,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8649.220902009893,
+        1300.5,
+        1120.7850870305224
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.13840375420670625,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0",
+      "xyz_mm": [
+        8649.420902009893,
+        1300.5,
+        1120.7850870305224
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.00019901695047508383,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0.2",
+      "xyz_mm": [
+        8649.620902009894,
+        1300.5,
+        1120.7850870305224
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.13800572030664426,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8857.38104533215,
+        1499.5,
+        1305.7505560550048
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.13840486182115086,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0",
+      "xyz_mm": [
+        8857.58104533215,
+        1499.5,
+        1305.7505560550048
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.00020012456491969033,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8857.78104533215,
+        1499.5,
+        1305.7505560550048
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.13800461269131148,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8858.40795252576,
+        1500.5,
+        1306.681278968658
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.1406546703890399,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0",
+      "xyz_mm": [
+        8858.607952525761,
+        1500.5,
+        1306.681278968658
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.00021738210076449604,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0.2",
+      "xyz_mm": [
+        8858.807952525762,
+        1500.5,
+        1306.681278968658
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.14108943459145706,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9008.567696447839,
+        1649.5,
+        1445.5449741485863
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.14065633773263642,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0",
+      "xyz_mm": [
+        9008.76769644784,
+        1649.5,
+        1445.5449741485863
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.00021571475805615137,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9008.96769644784,
+        1649.5,
+        1445.5449741485863
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.14108776724697236,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9009.575479964094,
+        1650.5,
+        1446.4769452571768
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -0.1409125768079278,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0",
+      "xyz_mm": [
+        9009.775479964095,
+        1650.5,
+        1446.4769452571768
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": -4.0524319011581156e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0.2",
+      "xyz_mm": [
+        9009.975479964096,
+        1650.5,
+        1446.4769452571768
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-front-spar",
+      "field_mm": 0.140831528171681,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8670.526321423255,
+        899.5,
+        717.3518230363895
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.15392354004895026,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0",
+      "xyz_mm": [
+        8670.326321423254,
+        899.5,
+        717.3518230363895
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -8.712478916095279e-05,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8670.126321423253,
+        899.5,
+        717.3518230363895
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.1537492904724047,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8671.358652281218,
+        900.5,
+        718.2957389924247
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.15334424794755108,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0",
+      "xyz_mm": [
+        8671.158652281218,
+        900.5,
+        718.2957389924247
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.00025941891301783926,
+      "passed": true
+    },
+    {
+      "name": "rib900 dy0.5 dx0.2",
+      "xyz_mm": [
+        8670.958652281217,
+        900.5,
+        718.2957389924247
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.15386308577269858,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8837.29888859128,
+        1099.5,
+        906.1507454328082
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.15334487349338843,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0",
+      "xyz_mm": [
+        8837.09888859128,
+        1099.5,
+        906.1507454328082
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.0002587933654041308,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy-0.5 dx0.2",
+      "xyz_mm": [
+        8836.898888591279,
+        1099.5,
+        906.1507454328082
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.15386246022597305,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx-0.2",
+      "xyz_mm": [
+        8838.130866109603,
+        1100.5,
+        907.0948812324508
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.15389959324796365,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0",
+      "xyz_mm": [
+        8837.930866109602,
+        1100.5,
+        907.0948812324508
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -9.737656014863205e-06,
+      "passed": true
+    },
+    {
+      "name": "rib1100 dy0.5 dx0.2",
+      "xyz_mm": [
+        8837.730866109601,
+        1100.5,
+        907.0948812324508
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.15388011793593392,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9003.317682091732,
+        1299.5,
+        1095.0059230498046
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.15389955125666432,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0",
+      "xyz_mm": [
+        9003.117682091732,
+        1299.5,
+        1095.0059230498046
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -9.695666491893462e-06,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9002.917682091731,
+        1299.5,
+        1095.0059230498046
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.1538801599254569,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9004.148827832476,
+        1300.5,
+        1095.9501329115687
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.15394075816121955,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0",
+      "xyz_mm": [
+        9003.948827832475,
+        1300.5,
+        1095.9501329115687
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.00021137754480093918,
+      "passed": true
+    },
+    {
+      "name": "rib1300 dy0.5 dx0.2",
+      "xyz_mm": [
+        9003.748827832474,
+        1300.5,
+        1095.9501329115687
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.15351800307250585,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9169.758016666332,
+        1499.5,
+        1283.8346160763213
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.15394298707516185,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0",
+      "xyz_mm": [
+        9169.558016666331,
+        1499.5,
+        1283.8346160763213
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.0002136064578550645,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9169.35801666633,
+        1499.5,
+        1283.8346160763213
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.15351577415856354,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9170.542719495208,
+        1500.5,
+        1284.7820777926547
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.16081720038840785,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0",
+      "xyz_mm": [
+        9170.342719495207,
+        1500.5,
+        1284.7820777926547
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.00016655186918512754,
+      "passed": true
+    },
+    {
+      "name": "rib1500 dy0.5 dx0.2",
+      "xyz_mm": [
+        9170.142719495207,
+        1500.5,
+        1284.7820777926547
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.1611503041276663,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9280.385322619984,
+        1649.5,
+        1426.4483426693378
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.16082054086030695,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0",
+      "xyz_mm": [
+        9280.185322619984,
+        1649.5,
+        1426.4483426693378
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.00016321139906239068,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy-0.5 dx0.2",
+      "xyz_mm": [
+        9279.985322619983,
+        1649.5,
+        1426.4483426693378
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.16114696365754355,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx-0.2",
+      "xyz_mm": [
+        9281.122521298674,
+        1650.5,
+        1427.3991229705234
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -0.16105349689521375,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0",
+      "xyz_mm": [
+        9280.922521298673,
+        1650.5,
+        1427.3991229705234
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": -6.974463762077221e-05,
+      "passed": true
+    },
+    {
+      "name": "rib1650 dy0.5 dx0.2",
+      "xyz_mm": [
+        9280.722521298672,
+        1650.5,
+        1427.3991229705234
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rear-spar",
+      "field_mm": 0.1609140076208604,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8439.30730243597,
+        1099.5,
+        933.9627316653564
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 0.13851046154211843,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8439.50730243597,
+        1099.5,
+        933.9627316653564
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 0.00026165693611801544,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8439.70730243597,
+        1099.5,
+        933.9627316653564
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.13798714766899423,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8447.50730243597,
+        1099.5,
+        933.9627316653564
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8440.352168474732,
+        1100.5,
+        934.8921989028323
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 0.13837294078999918,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8440.552168474733,
+        1100.5,
+        934.8921989028323
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 5.1384318133784745e-05,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8440.752168474733,
+        1100.5,
+        934.8921989028323
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.13827017215195525,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8448.552168474733,
+        1100.5,
+        934.8921989028323
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8837.29888859128,
+        1099.5,
+        906.1507454328082
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 0.1538106741865164,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        8837.09888859128,
+        1099.5,
+        906.1507454328082
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 0.00020700732772382935,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8836.898888591279,
+        1099.5,
+        906.1507454328082
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.1533966595328451,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        8829.09888859128,
+        1099.5,
+        906.1507454328082
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8838.130866109603,
+        1100.5,
+        907.0948812324508
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 0.15389959324796365,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        8837.930866109602,
+        1100.5,
+        907.0948812324508
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": 9.737656014863205e-06,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        8837.730866109601,
+        1100.5,
+        907.0948812324508
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.15388011793593392,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        8829.930866109602,
+        1100.5,
+        907.0948812324508
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1100",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8648.175716854861,
+        1299.5,
+        1119.8556174637251
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": 0.138593442513546,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8648.375716854862,
+        1299.5,
+        1119.8556174637251
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": 0.0002718860434569592,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8648.575716854863,
+        1299.5,
+        1119.8556174637251
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.13804967042840843,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8656.375716854862,
+        1299.5,
+        1119.8556174637251
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.4999523162840802,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8649.220902009893,
+        1300.5,
+        1120.7850870305224
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": 0.13840375420670625,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8649.420902009893,
+        1300.5,
+        1120.7850870305224
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": 0.00019901695047508383,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8649.620902009894,
+        1300.5,
+        1120.7850870305224
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.13800572030664426,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8657.420902009893,
+        1300.5,
+        1120.7850870305224
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.5000476837158097,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9003.317682091732,
+        1299.5,
+        1095.0059230498046
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": 0.15352111454269846,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        9003.117682091732,
+        1299.5,
+        1095.0059230498046
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.00036874104747397496,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9002.917682091731,
+        1299.5,
+        1095.0059230498046
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.15425859663942276,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        8995.117682091732,
+        1299.5,
+        1095.0059230498046
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.4999523162840802,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9004.148827832476,
+        1300.5,
+        1095.9501329115687
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": 0.15394075816121955,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        9003.948827832475,
+        1300.5,
+        1095.9501329115687
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": 0.00021137754480093918,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        9003.748827832474,
+        1300.5,
+        1095.9501329115687
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.15351800307250585,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        8995.948827832475,
+        1300.5,
+        1095.9501329115687
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1300",
+      "field_mm": -0.5000476837158097,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        8857.38104533215,
+        1499.5,
+        1305.7505560550048
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": 0.138424767675005,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        8857.58104533215,
+        1499.5,
+        1305.7505560550048
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": 0.00022003041877383112,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        8857.78104533215,
+        1499.5,
+        1305.7505560550048
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.13798470683745734,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        8865.58104533215,
+        1499.5,
+        1305.7505560550048
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        8858.40795252576,
+        1500.5,
+        1306.681278968658
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": 0.1406546703890399,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        8858.607952525761,
+        1500.5,
+        1306.681278968658
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.00021738210076449604,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        8858.807952525762,
+        1500.5,
+        1306.681278968658
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.14108943459145706,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        8866.607952525761,
+        1500.5,
+        1306.681278968658
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9169.758016666332,
+        1499.5,
+        1283.8346160763213
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": 0.15339290004501294,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        9169.558016666331,
+        1499.5,
+        1283.8346160763213
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.0003364805722938513,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9169.35801666633,
+        1499.5,
+        1283.8346160763213
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.15406586118871246,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        9161.558016666331,
+        1499.5,
+        1283.8346160763213
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9170.542719495208,
+        1500.5,
+        1284.7820777926547
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": 0.16081720038840785,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        9170.342719495207,
+        1500.5,
+        1284.7820777926547
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.00016655186918512754,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        9170.142719495207,
+        1500.5,
+        1284.7820777926547
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.1611503041276663,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        9162.342719495207,
+        1500.5,
+        1284.7820777926547
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1500",
+      "field_mm": -0.49999999999994493,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9008.567696447839,
+        1649.5,
+        1445.5449741485863
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": 0.14054179726130656,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0",
+      "xyz_mm": [
+        9008.76769644784,
+        1649.5,
+        1445.5449741485863
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.0003302552293860117,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9008.96769644784,
+        1649.5,
+        1445.5449741485863
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.14120230771830222,
+      "passed": true
+    },
+    {
+      "name": "front web dy-0.5 dx8",
+      "xyz_mm": [
+        9016.76769644784,
+        1649.5,
+        1445.5449741485863
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9009.575479964094,
+        1650.5,
+        1446.4769452571768
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": 0.1409125768079278,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0",
+      "xyz_mm": [
+        9009.775479964095,
+        1650.5,
+        1446.4769452571768
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": 4.0524319011581156e-05,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx0.2",
+      "xyz_mm": [
+        9009.975479964096,
+        1650.5,
+        1446.4769452571768
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.140831528171681,
+      "passed": true
+    },
+    {
+      "name": "front web dy0.5 dx8",
+      "xyz_mm": [
+        9017.775479964095,
+        1650.5,
+        1446.4769452571768
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx-0.2",
+      "xyz_mm": [
+        9280.385322619984,
+        1649.5,
+        1426.4483426693378
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": 0.16105522418641272,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0",
+      "xyz_mm": [
+        9280.185322619984,
+        1649.5,
+        1426.4483426693378
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": 7.147192704337613e-05,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx0.2",
+      "xyz_mm": [
+        9279.985322619983,
+        1649.5,
+        1426.4483426693378
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.16091228033143778,
+      "passed": true
+    },
+    {
+      "name": "rear web dy-0.5 dx8",
+      "xyz_mm": [
+        9272.185322619984,
+        1649.5,
+        1426.4483426693378
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.4999761581421236,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx-0.2",
+      "xyz_mm": [
+        9281.122521298674,
+        1650.5,
+        1427.3991229705234
+      ],
+      "expected": "positive",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": 0.16105349689521375,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0",
+      "xyz_mm": [
+        9280.922521298673,
+        1650.5,
+        1427.3991229705234
+      ],
+      "expected": "zero",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": 6.974463762077221e-05,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx0.2",
+      "xyz_mm": [
+        9280.722521298672,
+        1650.5,
+        1427.3991229705234
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.1609140076208604,
+      "passed": true
+    },
+    {
+      "name": "rear web dy0.5 dx8",
+      "xyz_mm": [
+        9272.922521298673,
+        1650.5,
+        1427.3991229705234
+      ],
+      "expected": "negative",
+      "part": "Starboard-tail-rib-BL-1650",
+      "field_mm": -0.5000238418579883,
+      "passed": true
+    }
+  ],
+  "scope": "Finite native field checks of shared contacts and adjacent material. Does not establish global interference freedom or joint strength."
+}

@@ -1,0 +1,20 @@
+{
+  "cad_mass_kg": 795.5133777908335,
+  "checked_definitions": 81,
+  "total_definitions": 81,
+  "missing": [],
+  "net_CAD_mass_by_family_kg": {
+    "spar": 58.08506518625798,
+    "cover": 146.0355552519472,
+    "stringer": 28.88394669877078,
+    "rib": 53.20658852130844,
+    "splice": 102.81917608268078,
+    "primary": 205.82128088408143,
+    "center covers": 188.74882745756435,
+    "frame": 11.912937708222584
+  },
+  "center_covers_previous_C_kg": 102.65935650964464,
+  "center_covers_current_kg": 188.74882745756435,
+  "basis": "Net integrated reconstructed B-reps at assumed 2830 kg/m3. Not a direct nTop implicit mass measurement.",
+  "excluded": "Retained fuselage frames, eight longerons, tail members/bridges, hardware, fuselage skin and unresolved connection details. Do not add the global idealization mass."
+}

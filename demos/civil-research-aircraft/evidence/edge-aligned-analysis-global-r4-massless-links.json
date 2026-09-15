@@ -1,0 +1,233 @@
+{
+  "idealization": "Coupled Euler-Bernoulli spatial beam model with rigid section attachment beams and inertia relief. Frame sections and tail equivalent sections are proposed idealizations; local shell/contact checks remain open.",
+  "refinement": 4,
+  "nodes": 1107,
+  "elements": 1212,
+  "membrane_triangles": 768,
+  "seconds": 3.957681899992167,
+  "frame_stations_mm": [
+    900,
+    1500,
+    2150,
+    2800,
+    3400,
+    4000.0,
+    4083.306088896556,
+    4700,
+    5795.736872898488,
+    6100,
+    6800,
+    7500,
+    8150
+  ],
+  "nonstructural_mass_kg": 2474.662537628715,
+  "structural_idealization_mass_kg": 927.2802373712847,
+  "skin_membrane_mass_kg": 157.72757882935184,
+  "hat_A_mm2": 220.0,
+  "skin_assumed_perfectly_attached": true,
+  "attachment_links_massless": true,
+  "attachment_link_note": "Finite-stiffness coupling idealization. Link mass must not be interpreted as a manufactured part.",
+  "cases": [
+    {
+      "skin_peak_ultimate_vm_MPa": 220.62645864782633,
+      "force_residual_N": 0.033682175990387676,
+      "moment_residual_Nmm": 18.964556552461136,
+      "balanced_resultant": [
+        6.179952383167375e-18,
+        -2.0209528495129803e-16,
+        2.546585164964199e-10,
+        -2.8870999813079834e-08,
+        2.60770320892334e-08,
+        7.673861546209082e-13
+      ],
+      "energy_Nmm": 3440597.3780810144,
+      "anchor_node": 323,
+      "name": "positive-3p8g",
+      "cg_mm": [
+        4930.094683367401,
+        0.0745409962752076,
+        89.51634652466329
+      ],
+      "rigid_body_acceleration": [
+        3.1887185520251845e-18,
+        -2.845245818903659e-16,
+        37265.26999999998,
+        -0.004037714401334285,
+        -1.1221872806257213e-08,
+        -2.880264855764633e-05
+      ],
+      "total_mass_kg": 3401.942775,
+      "family_screens": {
+        "longeron": {
+          "peak_stress_bound_ultimate_MPa": 4942.340425224965,
+          "min_member_Euler_RF": 0.922602584597127
+        },
+        "frame": {
+          "peak_stress_bound_ultimate_MPa": 1151.8559785293623,
+          "min_member_Euler_RF": 0.9915694916015249
+        },
+        "primary ring": {
+          "peak_stress_bound_ultimate_MPa": 192.60394655326087,
+          "min_member_Euler_RF": 9.112315807547109
+        },
+        "center box": {
+          "peak_stress_bound_ultimate_MPa": 1085.1053603110336,
+          "min_member_Euler_RF": 261914.7712732026
+        },
+        "carry-through attachment": {
+          "peak_stress_bound_ultimate_MPa": 174.70933059019382,
+          "min_member_Euler_RF": 21.907589334018432
+        },
+        "wing box": {
+          "peak_stress_bound_ultimate_MPa": 1220.100079577587,
+          "min_member_Euler_RF": 7492526.595073696
+        },
+        "tail equivalent": {
+          "peak_stress_bound_ultimate_MPa": 198.11497776924364,
+          "min_member_Euler_RF": 229.44315590375703
+        }
+      },
+      "wing_lift_scale_for_pitch_trim": 1.0767339289106885,
+      "tail_total_load_N": -9727.891354324818,
+      "net_lift_N": 126774.31603492424,
+      "wing_peak_ultimate_MPa": 179.790536430889,
+      "wing_min_local_RF": 1.560080390583146,
+      "maximum_relative_translation_mm": 112.8288522267069,
+      "maximum_rotation_deg": 5.039648101728617
+    },
+    {
+      "skin_peak_ultimate_vm_MPa": 87.08939159395682,
+      "force_residual_N": 0.01358340413621036,
+      "moment_residual_Nmm": 7.302339537296601,
+      "balanced_resultant": [
+        -4.994106257011355e-18,
+        -5.230191280070073e-16,
+        -9.913492249324918e-11,
+        3.585591912269592e-08,
+        0.0,
+        1.865174681370263e-13
+      ],
+      "energy_Nmm": 536104.1625355178,
+      "anchor_node": 323,
+      "name": "negative-1p5g",
+      "cg_mm": [
+        4930.094683367401,
+        0.0745409962752076,
+        89.51634652466329
+      ],
+      "rigid_body_acceleration": [
+        -1.2587046914706062e-18,
+        1.1231233495733568e-16,
+        -14709.974999999988,
+        0.001593834632114328,
+        4.4296823542940355e-09,
+        1.1369466535975009e-05
+      ],
+      "total_mass_kg": 3401.942775,
+      "family_screens": {
+        "longeron": {
+          "peak_stress_bound_ultimate_MPa": 1950.923852043471,
+          "min_member_Euler_RF": 2.3372598830315727
+        },
+        "frame": {
+          "peak_stress_bound_ultimate_MPa": 454.6799915802954,
+          "min_member_Euler_RF": 2.5119760442442614
+        },
+        "primary ring": {
+          "peak_stress_bound_ultimate_MPa": 76.02787563922342,
+          "min_member_Euler_RF": 23.084532794980063
+        },
+        "center box": {
+          "peak_stress_bound_ultimate_MPa": 428.33106376054457,
+          "min_member_Euler_RF": 663517.4416766475
+        },
+        "carry-through attachment": {
+          "peak_stress_bound_ultimate_MPa": 68.96420967468835,
+          "min_member_Euler_RF": 55.499226966439565
+        },
+        "wing box": {
+          "peak_stress_bound_ultimate_MPa": 481.6184523521989,
+          "min_member_Euler_RF": 18981067.36223462
+        },
+        "tail equivalent": {
+          "peak_stress_bound_ultimate_MPa": 78.20328069839972,
+          "min_member_Euler_RF": 581.2559949560537
+        }
+      },
+      "wing_lift_scale_for_pitch_trim": 1.076733928910689,
+      "tail_total_load_N": 3839.957113549282,
+      "net_lift_N": -50042.49317168063,
+      "wing_peak_ultimate_MPa": 70.96994848730573,
+      "wing_min_local_RF": 3.9714383628578473,
+      "maximum_relative_translation_mm": 44.537704858140245,
+      "maximum_rotation_deg": 1.9893347771163665
+    },
+    {
+      "skin_peak_ultimate_vm_MPa": 227.62929218951575,
+      "force_residual_N": 0.0356189733011934,
+      "moment_residual_Nmm": 19.876148075681588,
+      "balanced_resultant": [
+        1.0147438445073931e-13,
+        -2.015099198615644e-11,
+        6.548361852765083e-11,
+        1.8347054719924927e-07,
+        1.1175870895385742e-08,
+        -8.149072527885437e-10
+      ],
+      "energy_Nmm": 3585399.365359032,
+      "anchor_node": 323,
+      "name": "roll-70-30",
+      "cg_mm": [
+        4930.094683367401,
+        0.0745409962752076,
+        89.51634652466329
+      ],
+      "rigid_body_acceleration": [
+        -3.8902098450430027e-14,
+        3.4711759987916005e-12,
+        37265.270000000004,
+        49.25977652534543,
+        0.00013690489295774505,
+        0.3513898929599543
+      ],
+      "total_mass_kg": 3401.942775,
+      "family_screens": {
+        "longeron": {
+          "peak_stress_bound_ultimate_MPa": 5187.616448357473,
+          "min_member_Euler_RF": 0.6395426023816523
+        },
+        "frame": {
+          "peak_stress_bound_ultimate_MPa": 1185.2894506009993,
+          "min_member_Euler_RF": 0.9641935858787188
+        },
+        "primary ring": {
+          "peak_stress_bound_ultimate_MPa": 261.86168490511864,
+          "min_member_Euler_RF": 6.078719417256953
+        },
+        "center box": {
+          "peak_stress_bound_ultimate_MPa": 1307.5344808551583,
+          "min_member_Euler_RF": 232082.85016950857
+        },
+        "carry-through attachment": {
+          "peak_stress_bound_ultimate_MPa": 211.53329614329718,
+          "min_member_Euler_RF": 15.817280742370055
+        },
+        "wing box": {
+          "peak_stress_bound_ultimate_MPa": 1456.85421595055,
+          "min_member_Euler_RF": 4651760.163274044
+        },
+        "tail equivalent": {
+          "peak_stress_bound_ultimate_MPa": 205.12152871638506,
+          "min_member_Euler_RF": 227.3491473612792
+        }
+      },
+      "wing_lift_scale_for_pitch_trim": 1.0767339289106888,
+      "tail_total_load_N": -9727.891354324835,
+      "net_lift_N": 126774.31603492424,
+      "wing_peak_ultimate_MPa": 220.19561846985331,
+      "wing_min_local_RF": 1.2632682877357775,
+      "maximum_relative_translation_mm": 128.07960157130722,
+      "maximum_rotation_deg": 5.342417250549129
+    }
+  ]
+}

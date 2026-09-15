@@ -1,0 +1,134 @@
+{
+  "parts": [
+    {
+      "id": "C-Fwd",
+      "method": "Native construction section quadrature; ear and bore polygons at 128 segments per quadrant",
+      "mass_kg": 116.73046423343922,
+      "previous_drilled_step_mass_kg": 116.02617323389534,
+      "difference_kg": 0.7042909995438862,
+      "quadrature_6_12_24_mm3": [
+        41246875.22182069,
+        41247436.31950831,
+        41247513.863406084
+      ],
+      "last_relative_change": 1.8799653728122287e-06
+    },
+    {
+      "id": "P-Front-spar",
+      "method": "Additional prismatic fork stock only; touching outboard boundary and unperforated outboard spar retained",
+      "added_fork_mass_kg": 19.218820637531433
+    },
+    {
+      "id": "S-Front-spar",
+      "method": "Additional prismatic fork stock only; touching outboard boundary and unperforated outboard spar retained",
+      "added_fork_mass_kg": 19.221991930617094
+    },
+    {
+      "id": "C-Aft",
+      "method": "Native construction section quadrature; ear and bore polygons at 128 segments per quadrant",
+      "mass_kg": 84.27210492006053,
+      "previous_drilled_step_mass_kg": 89.79510765018608,
+      "difference_kg": -5.523002730125555,
+      "quadrature_6_12_24_mm3": [
+        29777641.3479185,
+        29778069.24199763,
+        29778128.947017852
+      ],
+      "last_relative_change": 2.0049956909328278e-06
+    },
+    {
+      "id": "P-Rear-spar",
+      "method": "Additional prismatic fork stock only; touching outboard boundary and unperforated outboard spar retained",
+      "added_fork_mass_kg": 12.894082514981369
+    },
+    {
+      "id": "S-Rear-spar",
+      "method": "Additional prismatic fork stock only; touching outboard boundary and unperforated outboard spar retained",
+      "added_fork_mass_kg": 12.89577943173598
+    }
+  ],
+  "fit_checks": [
+    {
+      "id": "P-Front-Lower-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": -1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    },
+    {
+      "id": "P-Front-Upper-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": -1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    },
+    {
+      "id": "S-Front-Lower-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": 1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    },
+    {
+      "id": "S-Front-Upper-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": 1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    },
+    {
+      "id": "P-Rear-Lower-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": -1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    },
+    {
+      "id": "P-Rear-Upper-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": -1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    },
+    {
+      "id": "S-Rear-Lower-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": 1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    },
+    {
+      "id": "S-Rear-Upper-pin",
+      "eye_to_cheek_face_clearance_mm": 0.25,
+      "pin_radial_clearance_mm": 0.07499999999999929,
+      "ear_to_nominal_trim_plan_offset_mm": 35.0,
+      "coaxial_bores": true,
+      "ear_throat_overlap_into_bulkhead_mm": 35.0,
+      "sides": 1,
+      "fit_basis": "The complete fuselage ring is retained. Matched face reliefs leave a 36 mm tongue wherever the fork projection crosses that ring; the fork inner faces are at +/-18.25 mm."
+    }
+  ],
+  "scope": "Changed primaries and added fork stock only. No full aircraft weight or equal-strength efficiency ranking. Removed cap splice stock, restored spar bore material and eight steel pins are not included in this subtotal.",
+  "all_analytic_fit_checks_pass": true
+}

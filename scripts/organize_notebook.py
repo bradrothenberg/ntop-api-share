@@ -6,7 +6,7 @@ Build 42926 adds move_block; this saved-file helper also controls visibility. Th
 
   MAGIC%$1 container
     table at byte 24: 16-byte chunk name + 8-byte END offset relative to
-    the first chunk (byte 344), one entry per top-level chunk
+    the first chunk (104 + 24 * top-level chunk count), one entry per chunk
     chunks: 'MAGIC@@9' + type(16) + name(16) + size(8) + pad to 128 + payload
       main (ntopfn)  -> fn (json): {"code":[blocks...]}; block 100 is the root
                         group whose `inputs` order is the tree order
@@ -35,7 +35,6 @@ from pathlib import Path
 
 MAGIC = b"MAGIC@@9"
 HEADER = 128
-FIRST_CHUNK = 344
 TABLE_AT = 24
 
 
@@ -83,9 +82,21 @@ def parse_chunks(buf: bytes, start: int, end: int) -> list[Chunk]:
 
 def read_file(path: Path):
     raw = path.read_bytes()
-    assert raw[:9] == b"MAGIC%$1\n", "not an nTop container"
-    header = bytearray(raw[:FIRST_CHUNK])
-    chunks = parse_chunks(raw, FIRST_CHUNK, len(raw))
+    assert raw[:8] == b"MAGIC%$1", "not an nTop container"
+    assert len(raw) >= 104, "truncated nTop header"
+    count = struct.unpack_from("<Q", raw, 8)[0]
+    first_chunk = 104 + 24 * count
+    assert count > 0 and first_chunk < len(raw), "invalid chunk directory size"
+    assert raw[first_chunk:first_chunk + 8] == MAGIC, "missing first chunk marker"
+    header = bytearray(raw[:first_chunk])
+    chunks = parse_chunks(raw, first_chunk, len(raw))
+    assert len(chunks) == count, "chunk directory count mismatch"
+    offset = 0
+    for i, chunk in enumerate(chunks):
+        offset += len(chunk.serialize())
+        entry = raw[TABLE_AT + 24 * i:TABLE_AT + 24 * (i + 1)]
+        assert entry[:16].rstrip(b"\0").decode() == chunk.name, "chunk directory name mismatch"
+        assert struct.unpack_from("<Q", entry, 16)[0] == offset, "chunk directory offset mismatch"
     return header, chunks
 
 

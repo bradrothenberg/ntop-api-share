@@ -1,0 +1,816 @@
+{
+  "scope": "Two equally loaded cheeks represented by one plane-stress mesh with summed thickness. Loaded-half radial bearing tractions; outboard edge clamped. Uses ultimate and 1.25 distribution forces. No X loads, thrust contact, pin bending/contact, fork lateral buckling, transition fillets, plasticity or global structure response. Root-zone exclusion does not remove real notch singularities. Mesh-dependent peaks are not released allowables.",
+  "records": [
+    {
+      "id": "S-Front-spar",
+      "case": "positive-3p8g",
+      "mesh_target_mm": 12.0,
+      "nodes": 2848,
+      "elements": 5032,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 307.0121555311952,
+      "peak_yz_mm": [
+        912.0615117868514,
+        484.6609522927134
+      ],
+      "peak_outside_50mm_root_zone_MPa": 307.0121555311952,
+      "interior_peak_yz_mm": [
+        912.0615117868514,
+        484.6609522927134
+      ],
+      "interior_RF_to_250MPa": 0.814300005703187,
+      "max_displacement_mm": 4.379855897206124,
+      "strain_energy_Nmm": 223458.6947124393,
+      "free_residual": 3.454079864975171e-12,
+      "force_balance_N": [
+        1.6893000065465458e-07,
+        7.21029209671542e-08
+      ],
+      "moment_balance_Nmm": -1.621246337890625e-05,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            212891.03905105992,
+            47165.629297648455
+          ],
+          "integration_error_N": 9.458744898438454e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -211887.52331103384,
+            47165.629297648455
+          ],
+          "integration_error_N": 8.761413176247367e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "negative-1p5g",
+      "mesh_target_mm": 12.0,
+      "nodes": 2848,
+      "elements": 5032,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 120.96685462194826,
+      "peak_yz_mm": [
+        912.0615117868514,
+        484.6609522927134
+      ],
+      "peak_outside_50mm_root_zone_MPa": 120.96685462194826,
+      "interior_peak_yz_mm": [
+        912.0615117868514,
+        484.6609522927134
+      ],
+      "interior_RF_to_250MPa": 2.0666818260366666,
+      "max_displacement_mm": 1.7581526578915783,
+      "strain_energy_Nmm": 35150.89428002491,
+      "free_residual": 3.561213554784093e-12,
+      "force_balance_N": [
+        -6.434402166632935e-08,
+        3.547984306351282e-08
+      ],
+      "moment_balance_Nmm": 5.128234624862671e-05,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -84035.93511653597,
+            -18618.011123586613
+          ],
+          "integration_error_N": 2.9330322825621076e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            83639.8101535412,
+            -18618.011123586613
+          ],
+          "integration_error_N": 1.4551915228366852e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "roll-70-30",
+      "mesh_target_mm": 12.0,
+      "nodes": 2848,
+      "elements": 5032,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 374.076198249346,
+      "peak_yz_mm": [
+        912.0615117868514,
+        484.6609522927134
+      ],
+      "peak_outside_50mm_root_zone_MPa": 374.076198249346,
+      "interior_peak_yz_mm": [
+        912.0615117868514,
+        484.6609522927134
+      ],
+      "interior_RF_to_250MPa": 0.6683130366753749,
+      "max_displacement_mm": 5.279698758923486,
+      "strain_energy_Nmm": 328502.52653204376,
+      "free_residual": 3.3450099503323154e-12,
+      "force_balance_N": [
+        2.2806625565863214e-07,
+        4.580579116009176e-08
+      ],
+      "moment_balance_Nmm": -6.896257400512695e-05,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            259868.896235833,
+            58362.83526961875
+          ],
+          "integration_error_N": 8.9998625312386e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -258830.55390463362,
+            58362.83526961875
+          ],
+          "integration_error_N": 3.253907165344266e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "positive-3p8g",
+      "mesh_target_mm": 12.0,
+      "nodes": 2042,
+      "elements": 3551,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 316.917128443826,
+      "peak_yz_mm": [
+        774.5955432257359,
+        391.11136975054757
+      ],
+      "peak_outside_50mm_root_zone_MPa": 316.917128443826,
+      "interior_peak_yz_mm": [
+        774.5955432257359,
+        391.11136975054757
+      ],
+      "interior_RF_to_250MPa": 0.7888497577508274,
+      "max_displacement_mm": 9.677749784938491,
+      "strain_energy_Nmm": 242138.23988362242,
+      "free_residual": 1.0248655891983731e-11,
+      "force_balance_N": [
+        1.0171925168833695e-07,
+        3.1689825874536837e-07
+      ],
+      "moment_balance_Nmm": 0.00022581219673156738,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            155249.80245420212,
+            26583.71727452332
+          ],
+          "integration_error_N": 8.7387249728376e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -154945.4635068165,
+            26583.71727452332
+          ],
+          "integration_error_N": 1.4551915228366852e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "negative-1p5g",
+      "mesh_target_mm": 12.0,
+      "nodes": 2042,
+      "elements": 3551,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 124.96292244279819,
+      "peak_yz_mm": [
+        774.5955432257359,
+        391.11136975054757
+      ],
+      "peak_outside_50mm_root_zone_MPa": 124.96292244279819,
+      "interior_peak_yz_mm": [
+        774.5955432257359,
+        391.11136975054757
+      ],
+      "interior_RF_to_250MPa": 2.000593416934832,
+      "max_displacement_mm": 3.8321598702315525,
+      "strain_energy_Nmm": 37771.353018438334,
+      "free_residual": 1.0405117595426226e-11,
+      "force_balance_N": [
+        1.1229644769628067e-08,
+        6.650789430295845e-08
+      ],
+      "moment_balance_Nmm": 3.771483898162842e-05,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -61282.81563946224,
+            -10493.572364365176
+          ],
+          "integration_error_N": 2.961100216652941e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            61162.681085693126,
+            -10493.572364365176
+          ],
+          "integration_error_N": 2.9160618472599524e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "roll-70-30",
+      "mesh_target_mm": 12.0,
+      "nodes": 2042,
+      "elements": 3551,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 389.3987732841061,
+      "peak_yz_mm": [
+        774.5955432257359,
+        391.11136975054757
+      ],
+      "peak_outside_50mm_root_zone_MPa": 389.3987732841061,
+      "interior_peak_yz_mm": [
+        774.5955432257359,
+        391.11136975054757
+      ],
+      "interior_RF_to_250MPa": 0.6420153764007868,
+      "max_displacement_mm": 11.74775124977395,
+      "strain_energy_Nmm": 361157.2513801819,
+      "free_residual": 1.0295116218783421e-11,
+      "force_balance_N": [
+        -8.160608899743238e-08,
+        4.3305250585490285e-07
+      ],
+      "moment_balance_Nmm": 0.00035278499126434326,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            190902.70469050156,
+            32906.62525927558
+          ],
+          "integration_error_N": 8.761413176247367e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -189201.17311236306,
+            32906.62525927558
+          ],
+          "integration_error_N": 3.253907165344266e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "positive-3p8g",
+      "mesh_target_mm": 6.0,
+      "nodes": 8167,
+      "elements": 15558,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 313.5035127206965,
+      "peak_yz_mm": [
+        913.5552208164017,
+        485.3696013838503
+      ],
+      "peak_outside_50mm_root_zone_MPa": 313.5035127206965,
+      "interior_peak_yz_mm": [
+        913.5552208164017,
+        485.3696013838503
+      ],
+      "interior_RF_to_250MPa": 0.7974392306816912,
+      "max_displacement_mm": 4.406256877669694,
+      "strain_energy_Nmm": 224774.32235372308,
+      "free_residual": 5.741380488713047e-12,
+      "force_balance_N": [
+        4.604316927725449e-11,
+        4.49929302703822e-08
+      ],
+      "moment_balance_Nmm": 1.671910285949707e-05,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            212891.03905105992,
+            47165.629297648455
+          ],
+          "integration_error_N": 9.458744898438454e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -211887.52331103384,
+            47165.629297648455
+          ],
+          "integration_error_N": 8.761413176247367e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "negative-1p5g",
+      "mesh_target_mm": 6.0,
+      "nodes": 8167,
+      "elements": 15558,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 123.560363879803,
+      "peak_yz_mm": [
+        913.5552208164017,
+        485.3696013838503
+      ],
+      "peak_outside_50mm_root_zone_MPa": 123.560363879803,
+      "interior_peak_yz_mm": [
+        913.5552208164017,
+        485.3696013838503
+      ],
+      "interior_RF_to_250MPa": 2.0233025555282023,
+      "max_displacement_mm": 1.7700185003952078,
+      "strain_energy_Nmm": 35384.55702134436,
+      "free_residual": 5.774707755387675e-12,
+      "force_balance_N": [
+        4.463666414267209e-08,
+        5.266851843543918e-08
+      ],
+      "moment_balance_Nmm": 2.2456049919128418e-05,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -84035.93511653597,
+            -18618.011123586613
+          ],
+          "integration_error_N": 2.9330322825621076e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            83639.8101535412,
+            -18618.011123586613
+          ],
+          "integration_error_N": 1.4551915228366852e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "roll-70-30",
+      "mesh_target_mm": 6.0,
+      "nodes": 8167,
+      "elements": 15558,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 381.94827874328513,
+      "peak_yz_mm": [
+        913.5552208164017,
+        485.3696013838503
+      ],
+      "peak_outside_50mm_root_zone_MPa": 381.94827874328513,
+      "interior_peak_yz_mm": [
+        913.5552208164017,
+        485.3696013838503
+      ],
+      "interior_RF_to_250MPa": 0.6545388837006119,
+      "max_displacement_mm": 5.311454479184811,
+      "strain_energy_Nmm": 330438.6288179663,
+      "free_residual": 5.646609682255828e-12,
+      "force_balance_N": [
+        -1.4570957773685222e-08,
+        -2.7138796099279716e-08
+      ],
+      "moment_balance_Nmm": -2.518296241760254e-05,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            259868.896235833,
+            58362.83526961875
+          ],
+          "integration_error_N": 8.9998625312386e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -258830.55390463362,
+            58362.83526961875
+          ],
+          "integration_error_N": 3.253907165344266e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "positive-3p8g",
+      "mesh_target_mm": 6.0,
+      "nodes": 5649,
+      "elements": 10629,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 360.9431944465759,
+      "peak_yz_mm": [
+        783.1970796122981,
+        394.7559777194306
+      ],
+      "peak_outside_50mm_root_zone_MPa": 360.9431944465759,
+      "interior_peak_yz_mm": [
+        783.1970796122981,
+        394.7559777194306
+      ],
+      "interior_RF_to_250MPa": 0.6926297651443962,
+      "max_displacement_mm": 9.784282831136963,
+      "strain_energy_Nmm": 244717.08988373584,
+      "free_residual": 1.7112336237095038e-11,
+      "force_balance_N": [
+        -1.4245665624912363e-07,
+        -5.016123054701893e-07
+      ],
+      "moment_balance_Nmm": -0.0002907663583755493,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            155249.80245420212,
+            26583.71727452332
+          ],
+          "integration_error_N": 8.7387249728376e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -154945.4635068165,
+            26583.71727452332
+          ],
+          "integration_error_N": 1.4551915228366852e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "negative-1p5g",
+      "mesh_target_mm": 6.0,
+      "nodes": 5649,
+      "elements": 10629,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 142.44941511924992,
+      "peak_yz_mm": [
+        783.1970796122981,
+        394.7559777194306
+      ],
+      "peak_outside_50mm_root_zone_MPa": 142.44941511924992,
+      "interior_peak_yz_mm": [
+        783.1970796122981,
+        394.7559777194306
+      ],
+      "interior_RF_to_250MPa": 1.7550089608350818,
+      "max_displacement_mm": 3.8748237040572544,
+      "strain_energy_Nmm": 38180.4566178877,
+      "free_residual": 1.7248475350931104e-11,
+      "force_balance_N": [
+        1.1781878583860816e-07,
+        2.1950208761722934e-08
+      ],
+      "moment_balance_Nmm": -3.4421682357788086e-05,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -61282.81563946224,
+            -10493.572364365176
+          ],
+          "integration_error_N": 2.961100216652941e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            61162.681085693126,
+            -10493.572364365176
+          ],
+          "integration_error_N": 2.9160618472599524e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "roll-70-30",
+      "mesh_target_mm": 6.0,
+      "nodes": 5649,
+      "elements": 10629,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 443.3969043448609,
+      "peak_yz_mm": [
+        783.1970796122981,
+        394.7559777194306
+      ],
+      "peak_outside_50mm_root_zone_MPa": 443.3969043448609,
+      "interior_peak_yz_mm": [
+        783.1970796122981,
+        394.7559777194306
+      ],
+      "interior_RF_to_250MPa": 0.563828925168944,
+      "max_displacement_mm": 11.876887150651983,
+      "strain_energy_Nmm": 365006.36500645475,
+      "free_residual": 1.69752182880521e-11,
+      "force_balance_N": [
+        5.022093318984844e-08,
+        7.632863230355724e-08
+      ],
+      "moment_balance_Nmm": 8.951127529144287e-05,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            190902.70469050156,
+            32906.62525927558
+          ],
+          "integration_error_N": 8.761413176247367e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -189201.17311236306,
+            32906.62525927558
+          ],
+          "integration_error_N": 3.253907165344266e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "positive-3p8g",
+      "mesh_target_mm": 3.0,
+      "nodes": 29939,
+      "elements": 58861,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 337.0370684832412,
+      "peak_yz_mm": [
+        911.5373809676224,
+        483.4298913730717
+      ],
+      "peak_outside_50mm_root_zone_MPa": 337.0370684832412,
+      "interior_peak_yz_mm": [
+        911.5373809676224,
+        483.4298913730717
+      ],
+      "interior_RF_to_250MPa": 0.7417581725507767,
+      "max_displacement_mm": 4.414479437623722,
+      "strain_energy_Nmm": 225228.75917230805,
+      "free_residual": 1.1450053721440791e-11,
+      "force_balance_N": [
+        -1.611878985841031e-07,
+        4.573240257599309e-07
+      ],
+      "moment_balance_Nmm": 0.00042372941970825195,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            212891.03905105992,
+            47165.629297648455
+          ],
+          "integration_error_N": 9.458744898438454e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -211887.52331103384,
+            47165.629297648455
+          ],
+          "integration_error_N": 8.761413176247367e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "negative-1p5g",
+      "mesh_target_mm": 3.0,
+      "nodes": 29939,
+      "elements": 58861,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 132.81350300985625,
+      "peak_yz_mm": [
+        911.5373809676224,
+        483.4298913730717
+      ],
+      "peak_outside_50mm_root_zone_MPa": 132.81350300985625,
+      "interior_peak_yz_mm": [
+        911.5373809676224,
+        483.4298913730717
+      ],
+      "interior_RF_to_250MPa": 1.882338725614723,
+      "max_displacement_mm": 1.773902437784788,
+      "strain_energy_Nmm": 35464.63264447553,
+      "free_residual": 1.1531131613351138e-11,
+      "force_balance_N": [
+        -1.529373605535511e-08,
+        -2.4254884101182483e-07
+      ],
+      "moment_balance_Nmm": -0.00020935386419296265,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -84035.93511653597,
+            -18618.011123586613
+          ],
+          "integration_error_N": 2.9330322825621076e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            83639.8101535412,
+            -18618.011123586613
+          ],
+          "integration_error_N": 1.4551915228366852e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Front-spar",
+      "case": "roll-70-30",
+      "mesh_target_mm": 3.0,
+      "nodes": 29939,
+      "elements": 58861,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 410.66087639855607,
+      "peak_yz_mm": [
+        911.5373809676224,
+        483.4298913730717
+      ],
+      "peak_outside_50mm_root_zone_MPa": 410.66087639855607,
+      "interior_peak_yz_mm": [
+        911.5373809676224,
+        483.4298913730717
+      ],
+      "interior_RF_to_250MPa": 0.608774817295644,
+      "max_displacement_mm": 5.321351251990523,
+      "strain_energy_Nmm": 331109.36374241963,
+      "free_residual": 1.1111358179261698e-11,
+      "force_balance_N": [
+        -4.847339596381062e-08,
+        2.2752191775055053e-07
+      ],
+      "moment_balance_Nmm": 0.0002282261848449707,
+      "loads": [
+        {
+          "pin": "S-Front-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            259868.896235833,
+            58362.83526961875
+          ],
+          "integration_error_N": 8.9998625312386e-11
+        },
+        {
+          "pin": "S-Front-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -258830.55390463362,
+            58362.83526961875
+          ],
+          "integration_error_N": 3.253907165344266e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "positive-3p8g",
+      "mesh_target_mm": 3.0,
+      "nodes": 20284,
+      "elements": 39631,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 376.3393662040955,
+      "peak_yz_mm": [
+        784.6213637820097,
+        395.48989210956046
+      ],
+      "peak_outside_50mm_root_zone_MPa": 376.3393662040955,
+      "interior_peak_yz_mm": [
+        784.6213637820097,
+        395.48989210956046
+      ],
+      "interior_RF_to_250MPa": 0.6642940453495385,
+      "max_displacement_mm": 9.815130675067692,
+      "strain_energy_Nmm": 245468.76647049113,
+      "free_residual": 3.383045291183685e-11,
+      "force_balance_N": [
+        5.332334609420286e-07,
+        3.455655885886699e-07
+      ],
+      "moment_balance_Nmm": 0.0002211928367614746,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            155249.80245420212,
+            26583.71727452332
+          ],
+          "integration_error_N": 8.7387249728376e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -154945.4635068165,
+            26583.71727452332
+          ],
+          "integration_error_N": 1.4551915228366852e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "negative-1p5g",
+      "mesh_target_mm": 3.0,
+      "nodes": 20284,
+      "elements": 39631,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 148.56275873302818,
+      "peak_yz_mm": [
+        784.6213637820097,
+        395.48989210956046
+      ],
+      "peak_outside_50mm_root_zone_MPa": 148.56275873302818,
+      "interior_peak_yz_mm": [
+        784.6213637820097,
+        395.48989210956046
+      ],
+      "interior_RF_to_250MPa": 1.6827905063964088,
+      "max_displacement_mm": 3.887287062570217,
+      "strain_energy_Nmm": 38301.100989449,
+      "free_residual": 3.440595363584093e-11,
+      "force_balance_N": [
+        -5.7956981436291244e-08,
+        -4.28761843807024e-07
+      ],
+      "moment_balance_Nmm": -0.00030552223324775696,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -61282.81563946224,
+            -10493.572364365176
+          ],
+          "integration_error_N": 2.961100216652941e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            61162.681085693126,
+            -10493.572364365176
+          ],
+          "integration_error_N": 2.9160618472599524e-11
+        }
+      ]
+    },
+    {
+      "id": "S-Rear-spar",
+      "case": "roll-70-30",
+      "mesh_target_mm": 3.0,
+      "nodes": 20284,
+      "elements": 39631,
+      "effective_pair_thickness_mm": 39.5,
+      "peak_vm_MPa": 462.28192582702803,
+      "peak_yz_mm": [
+        784.6213637820097,
+        395.48989210956046
+      ],
+      "peak_outside_50mm_root_zone_MPa": 462.28192582702803,
+      "interior_peak_yz_mm": [
+        784.6213637820097,
+        395.48989210956046
+      ],
+      "interior_RF_to_250MPa": 0.5407955319748807,
+      "max_displacement_mm": 11.914223957090218,
+      "strain_energy_Nmm": 366128.13847469573,
+      "free_residual": 3.356314085583322e-11,
+      "force_balance_N": [
+        4.268179267796768e-07,
+        -1.204661685960673e-07
+      ],
+      "moment_balance_Nmm": -0.00011782348155975342,
+      "loads": [
+        {
+          "pin": "S-Rear-Lower-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            190902.70469050156,
+            32906.62525927558
+          ],
+          "integration_error_N": 8.761413176247367e-11
+        },
+        {
+          "pin": "S-Rear-Upper-pin",
+          "applied_ultimate_and_distribution_force_N": [
+            -189201.17311236306,
+            32906.62525927558
+          ],
+          "integration_error_N": 3.253907165344266e-11
+        }
+      ]
+    }
+  ],
+  "all_interior_stress_screens_pass": false
+}

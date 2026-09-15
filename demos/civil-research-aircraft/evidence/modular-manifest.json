@@ -1,0 +1,1967 @@
+{
+  "revision": "D",
+  "members": [
+    {
+      "part": "F01",
+      "definition": "F01",
+      "name": "F01 FS 900 frame",
+      "source": "parts/F01.ntop",
+      "source_sha256": "97275b2f51cd663875e75c2a6c32e84b3045e34f8e7279baf581fc76c2cc96d2",
+      "function": "user_func_21021c29_7ae0_4bce_bc67_abbf33deb670<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F02",
+      "definition": "F02",
+      "name": "F02 FS 1500 frame",
+      "source": "parts/F02.ntop",
+      "source_sha256": "e5daef12c6ddea45dea4d7c16e3b12472799e1505c6a3ceff3900d54a1f87f6e",
+      "function": "user_func_aa435c87_dca1_432c_b4c9_9ee73ccfc16c<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F03",
+      "definition": "F03",
+      "name": "F03 FS 2150 frame",
+      "source": "parts/F03.ntop",
+      "source_sha256": "a4e79ca60aaca75d382fb74dc2289dc8f28f618ea47c891c195ed37937696bf1",
+      "function": "user_func_0861d694_2de3_41f5_bd93_a1eca8eedc03<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F04",
+      "definition": "F04",
+      "name": "F04 FS 2800 frame",
+      "source": "parts/F04.ntop",
+      "source_sha256": "a964228589e6dd17ba5d405aa1d12564ae5c241b21286b2fdb62af4d3ca27375",
+      "function": "user_func_a2b7d53e_19ed_486d_9440_056dd07e723a<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F05",
+      "definition": "F05",
+      "name": "F05 FS 3400 frame",
+      "source": "parts/F05.ntop",
+      "source_sha256": "ad5d006e044692433b71cba807d87d02a6862054fda1e70de5170e436a0f5f1a",
+      "function": "user_func_1b74abc1_55d0_420d_ae1a_a813edee51ed<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F06",
+      "definition": "F06D",
+      "name": "F06 FS 4000 primary bulkhead",
+      "source": "parts/F06D.ntop",
+      "source_sha256": "0e95abad471a6cfbcb4babf65e4ff8cdb1b8e3e9812c09378beb0afda0572673",
+      "function": "user_func_59c40f11_0dbb_41ac_80fc_05655364fd43<real,real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.06
+            }
+          },
+          "description": "Proposed thickness. Verified range [56, 64] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        },
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.006
+            }
+          },
+          "description": "Proposed pocket floor web, 6 to 8 mm. Other dimensions stay fixed.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Residual web",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F07",
+      "definition": "F07",
+      "name": "F07 FS 4700 frame",
+      "source": "parts/F07.ntop",
+      "source_sha256": "b68b70b5d4f4f515b150d36229ff41037dbe23e2a953a7c323ab81b5f0cb5bb8",
+      "function": "user_func_9ef75df6_46a6_465d_885c_9b692b9e710f<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F08",
+      "definition": "F08D",
+      "name": "F08 FS 5400 primary bulkhead",
+      "source": "parts/F08D.ntop",
+      "source_sha256": "89a9b07f1762e5c531389f3570050ec68198e7ae7bcfd18f1221ae79af24837a",
+      "function": "user_func_c5d16459_4e34_4d51_ab70_7d479e7cd88c<real,real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.06
+            }
+          },
+          "description": "Proposed thickness. Verified range [56, 64] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        },
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.006
+            }
+          },
+          "description": "Proposed pocket floor web, 6 to 8 mm. Other dimensions stay fixed.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Residual web",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F09",
+      "definition": "F09",
+      "name": "F09 FS 6100 frame",
+      "source": "parts/F09.ntop",
+      "source_sha256": "a469b845d7ee92fbee8685ec60694cc5eb9f8dd6067197f3bba41648253cf1f5",
+      "function": "user_func_d4281ec7_099d_4502_898d_94e28626b63a<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F10",
+      "definition": "F10",
+      "name": "F10 FS 6800 frame",
+      "source": "parts/F10.ntop",
+      "source_sha256": "0614d4765d08911f3c80aea89b364d5265437d499cd5a54b96d134aee005b33f",
+      "function": "user_func_e974bbba_6982_417c_9532_591f53e23e79<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F11",
+      "definition": "F11",
+      "name": "F11 FS 7500 frame",
+      "source": "parts/F11.ntop",
+      "source_sha256": "7ccfe64a2b60ff162ac0eb6fddbe35bf971ab6a43fc2519b304ecbdbfaf551a8",
+      "function": "user_func_e4e217fb_d856_44a3_85c9_27d029e5262b<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "F12",
+      "definition": "F12",
+      "name": "F12 FS 8150 frame",
+      "source": "parts/F12.ntop",
+      "source_sha256": "f3a423e85c4dacbc009a37e0d2ce40b02aec602cdaebc83eec6099680e707b18",
+      "function": "user_func_47d0888a_f559_4a7b_8fae_5e6107642d7d<real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Proposed thickness. Verified range [12, 20] mm.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Axial thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-front-spar",
+      "name": "Port front continuous spar",
+      "source": "parts/Port-front-spar.ntop",
+      "source_sha256": "27af1a0dc5cf8a3034603dabfa80065eef625fa447826877f73380ceaaec2c5f",
+      "function": "user_func_aa26ba76_26cf_44fe_883a_e6b37a8e2da5<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rear-spar",
+      "name": "Port rear continuous spar",
+      "source": "parts/Port-rear-spar.ntop",
+      "source_sha256": "ce52b87b8857db43593ce1c2fa2d6a9722cf870a8cc2d6764edcbdefbf04aa17",
+      "function": "user_func_6bbc5878_6558_44e8_90cb_4da1c423346e<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rib-1700",
+      "name": "Port wing rib BL 1700",
+      "source": "parts/Port-rib-1700.ntop",
+      "source_sha256": "7ee009f9006d91045aaa09e5844880d4dc66ab06fee4ef2f1704cddc9e2a63bd",
+      "function": "user_func_2ec7d37b_94c5_4638_9877_1b4673355286<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rib-2200",
+      "name": "Port wing rib BL 2200",
+      "source": "parts/Port-rib-2200.ntop",
+      "source_sha256": "135d377aebd1885581040e2c5c394b7360746d0a8f8e56631444c1cba539e62d",
+      "function": "user_func_a3791a97_5142_4e91_af6b_c4286190f2ec<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rib-2700",
+      "name": "Port wing rib BL 2700",
+      "source": "parts/Port-rib-2700.ntop",
+      "source_sha256": "7725aa0e0766285e77390af9f2bec787ccaa3045877b123385182ea1ce2a241b",
+      "function": "user_func_01677c43_0287_4e02_8d12_8663aa4c46cb<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rib-3200",
+      "name": "Port wing rib BL 3200",
+      "source": "parts/Port-rib-3200.ntop",
+      "source_sha256": "f351fc5952f0bc34cffb693c532a37c186f2b46d00e808374771b0f16edb14d5",
+      "function": "user_func_86ce8cbf_3b89_4f4c_a7b3_7261e3dc497d<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rib-3700",
+      "name": "Port wing rib BL 3700",
+      "source": "parts/Port-rib-3700.ntop",
+      "source_sha256": "e917f0ff2d4817821018bfee480d36e47917157ce2b73bc11b59eb2525624807",
+      "function": "user_func_7c27c774_6826_4074_bc10_6cc284916427<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rib-4200",
+      "name": "Port wing rib BL 4200",
+      "source": "parts/Port-rib-4200.ntop",
+      "source_sha256": "1d697ecf80c164066047f3034c79079229c477b209cb3058a07becba0502a8fa",
+      "function": "user_func_a5f4d9f9_9f82_491a_833b_f6e4a184bdb0<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-front-spar",
+      "name": "Starboard front continuous spar",
+      "source": "parts/Starboard-front-spar.ntop",
+      "source_sha256": "98f43feaee4ed61a876233585e5cc3ccdbae727e6fcd342fe9f3a6a1726506a4",
+      "function": "user_func_9aa7850e_14bc_4e35_a9e8_e756438129bb<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rear-spar",
+      "name": "Starboard rear continuous spar",
+      "source": "parts/Starboard-rear-spar.ntop",
+      "source_sha256": "b14474117644a1da5be259671ce607322f892aabe0364736f4a1da4104eeb8ce",
+      "function": "user_func_f03e96d0_0982_4a0e_9bd5_0acda2e35c7f<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rib-1700",
+      "name": "Starboard wing rib BL 1700",
+      "source": "parts/Starboard-rib-1700.ntop",
+      "source_sha256": "80ad1655dc6b1c312f5ab6cc16fcdf5e2bfc473536e7a2c604baea28f1cb29f3",
+      "function": "user_func_0d4eaabd_6309_4691_bfba_df4508318376<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rib-2200",
+      "name": "Starboard wing rib BL 2200",
+      "source": "parts/Starboard-rib-2200.ntop",
+      "source_sha256": "9fc052f6ff5e10ed69cc94298d595d09452ab0064dde273b93b74632d660a6c1",
+      "function": "user_func_a9285db3_0f08_4d37_b695_984eca0ce121<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rib-2700",
+      "name": "Starboard wing rib BL 2700",
+      "source": "parts/Starboard-rib-2700.ntop",
+      "source_sha256": "92254fb727a2df301342588e3b60debc215b97d96ff35382a016ef74045e7389",
+      "function": "user_func_abb629c6_cc74_45b5_b56e_b06e42b946aa<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rib-3200",
+      "name": "Starboard wing rib BL 3200",
+      "source": "parts/Starboard-rib-3200.ntop",
+      "source_sha256": "48a59a6cfefb37f983a919643c6d0b0837a76f1366360dc18f7be8dacb04505b",
+      "function": "user_func_5b93fbbe_c9ca_4e48_ac85_63aa356fcd3a<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rib-3700",
+      "name": "Starboard wing rib BL 3700",
+      "source": "parts/Starboard-rib-3700.ntop",
+      "source_sha256": "e3c3dcab314db9ec083ffbe161a752477fb4c84f1fa891885bae764b5c864e63",
+      "function": "user_func_06c6cba3_1496_4c0a_a5a3_20e3a8c8dc6f<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rib-4200",
+      "name": "Starboard wing rib BL 4200",
+      "source": "parts/Starboard-rib-4200.ntop",
+      "source_sha256": "6fa17bc337c3d35211147c802bc8d34426f3cde55b3eab789c3049180129da38",
+      "function": "user_func_3608a4b4_fd7f_4638_b908_1750e51d885b<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L01-Longeron-path",
+      "name": "L01 Longeron path",
+      "source": "parts/L01-Longeron-path.ntop",
+      "source_sha256": "0b5317914a91c9f6d3540d53fea7e5fef3dd3d92842f758156b548bacc7374f0",
+      "function": "user_func_3ea6ce21_6376_4b7a_9889_67fbf1ad771e<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L02-Longeron-path",
+      "name": "L02 Longeron path",
+      "source": "parts/L02-Longeron-path.ntop",
+      "source_sha256": "0ce386c53dc6fba44c9de6e469de6d550e8ff8fe14f22e6d3be0e67c341bb538",
+      "function": "user_func_e2bb5966_079b_46f4_8b6f_4cde3393a4d0<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L03-Longeron-path",
+      "name": "L03 Longeron path",
+      "source": "parts/L03-Longeron-path.ntop",
+      "source_sha256": "c699f02eebf77f39c8e532dd27191cfc94c78d59cd978ee749765f585c3449cb",
+      "function": "user_func_c4660aab_7102_44e1_a15c_0a3a18dc15ac<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L04-Longeron-path",
+      "name": "L04 Longeron path",
+      "source": "parts/L04-Longeron-path.ntop",
+      "source_sha256": "544eeee6644eb83e3778d4e251eb0960fa2edc8f7ba7d02378031225ca2fb5cd",
+      "function": "user_func_b624f2a9_8b61_489d_9206_d3ea7b94d903<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L05-Longeron-path",
+      "name": "L05 Longeron path",
+      "source": "parts/L05-Longeron-path.ntop",
+      "source_sha256": "f6669ee5e2d516ff4a81d28afbb2ad00068dc6493f25e464f3a883dc14753836",
+      "function": "user_func_c883f021_31fc_4885_84e2_815acb122bbe<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L06-Longeron-path",
+      "name": "L06 Longeron path",
+      "source": "parts/L06-Longeron-path.ntop",
+      "source_sha256": "26350f4a1c51ec34f5941c6d9b2851ab548db25bc56b3c213e973425b5df8ac4",
+      "function": "user_func_c8f83dbd_1e6d_43c7_813b_4f878c14f30f<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L07-Longeron-path",
+      "name": "L07 Longeron path",
+      "source": "parts/L07-Longeron-path.ntop",
+      "source_sha256": "6da8335c9c76922701335024e4640bc4ad0b58f68814889563febc8f7fc369d1",
+      "function": "user_func_dc9a93d3_8730_4f9b_ad8a_50a2ebf5a5c6<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "L08-Longeron-path",
+      "name": "L08 Longeron path",
+      "source": "parts/L08-Longeron-path.ntop",
+      "source_sha256": "d6b49998673a1cdc4ddea6be6c96807625ec4cc7bd119f34fcc78cbbc81db968",
+      "function": "user_func_5393bc6e_3238_498f_b986_2bf05eb7601e<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-tail-front-spar",
+      "name": "Port tail front spar",
+      "source": "parts/Port-tail-front-spar.ntop",
+      "source_sha256": "e24c9779749e1619f5293d73ee0914a5b3a46f55acd97bc5348a4902c05aa96a",
+      "function": "user_func_799885f2_3a4c_4cd8_bf7a_cea6270ad463<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-tail-rear-spar",
+      "name": "Port tail rear spar",
+      "source": "parts/Port-tail-rear-spar.ntop",
+      "source_sha256": "ae6adfb9a0976fa4312af62e6efad1c131916ebf87fba8e473066e320979e056",
+      "function": "user_func_8c944f44_6a73_437d_bf44_9a78b72ce8aa<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-tail-rib-BL-900",
+      "name": "Port tail rib BL 900",
+      "source": "parts/Port-tail-rib-BL-900.ntop",
+      "source_sha256": "9fa5d37ea2d7e2927dd3e2e3aa41ddec995e35e6246c7a75ba962862879bb015",
+      "function": "user_func_878b776c_888c_4685_a44c_8f361c816fad<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-tail-rib-BL-1100",
+      "name": "Port tail rib BL 1100",
+      "source": "parts/Port-tail-rib-BL-1100.ntop",
+      "source_sha256": "2fa0121072916f88698adba6ce33d70a6e120fa068979690a47bee49ed6dd464",
+      "function": "user_func_b6b423a6_c81e_4c35_a556_60dd7d35d63f<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-tail-rib-BL-1300",
+      "name": "Port tail rib BL 1300",
+      "source": "parts/Port-tail-rib-BL-1300.ntop",
+      "source_sha256": "7c53f2af4d7618984c754d52be32edc442aba6ef4cd73281d82b8790726fd944",
+      "function": "user_func_2b6fa751_8d09_4e18_882c_b58763dd201f<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-tail-rib-BL-1500",
+      "name": "Port tail rib BL 1500",
+      "source": "parts/Port-tail-rib-BL-1500.ntop",
+      "source_sha256": "6e19bb697c25152507db458ea772114eccfe6bfb783f34479eca5224ae948e59",
+      "function": "user_func_0e83050c_2759_496d_9927_009b08842ad8<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-tail-rib-BL-1650",
+      "name": "Port tail rib BL 1650",
+      "source": "parts/Port-tail-rib-BL-1650.ntop",
+      "source_sha256": "724f6b17974551cf4a2786b1ba48f6093b0173a31f1729a369885e8717423f1c",
+      "function": "user_func_114713bf_35d9_4c63_990d_7836816e12d8<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-tail-front-spar",
+      "name": "Starboard tail front spar",
+      "source": "parts/Starboard-tail-front-spar.ntop",
+      "source_sha256": "b9024bb3ab7039ce0a6593dbbf7b3c07d6214688e9108093da81b913bb956bcf",
+      "function": "user_func_dcd48164_a374_47eb_a831_78196aef4288<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-tail-rear-spar",
+      "name": "Starboard tail rear spar",
+      "source": "parts/Starboard-tail-rear-spar.ntop",
+      "source_sha256": "e3d9bdcf6d101197920f19065d65deb2097e5046f1691d95b824e807a9175181",
+      "function": "user_func_b3dada0e_5db9_4b57_b909_c757c572e5c0<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-tail-rib-BL-900",
+      "name": "Starboard tail rib BL 900",
+      "source": "parts/Starboard-tail-rib-BL-900.ntop",
+      "source_sha256": "f09939d552f8d3922344022f38052f7842074313b5fa6636201e0389f80f9c58",
+      "function": "user_func_46a72249_ddec_4ff7_aff2_2862df3e9d19<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-tail-rib-BL-1100",
+      "name": "Starboard tail rib BL 1100",
+      "source": "parts/Starboard-tail-rib-BL-1100.ntop",
+      "source_sha256": "1942503512c2cdab6a8d5f76b5f6fbbfa3f9f27f5247fc5d926beeef6191794c",
+      "function": "user_func_39b90475_5071_49e9_b86f_9d0ba43451ea<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-tail-rib-BL-1300",
+      "name": "Starboard tail rib BL 1300",
+      "source": "parts/Starboard-tail-rib-BL-1300.ntop",
+      "source_sha256": "1e84796640aa60f58e4e2903ba87d4032181d345621e0ed5622d09f84f644073",
+      "function": "user_func_b07549d9_b7ac_4052_85f4_81bb19638736<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-tail-rib-BL-1500",
+      "name": "Starboard tail rib BL 1500",
+      "source": "parts/Starboard-tail-rib-BL-1500.ntop",
+      "source_sha256": "b4fa8c9cd0dadaabbc537b8ee5a47598a3bd79621f0ef3504580121082e8c250",
+      "function": "user_func_a03ab921_4f1b_4eab_952c_be0ddb30d09d<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-tail-rib-BL-1650",
+      "name": "Starboard tail rib BL 1650",
+      "source": "parts/Starboard-tail-rib-BL-1650.ntop",
+      "source_sha256": "68df50dec0eb50afa3969a9ec778eea3e4decd3fe0d2fce0d1daad6e3db06ffc",
+      "function": "user_func_84b3f371_198e_4738_84f8_d41a28637cc6<implicit>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-front-tail-root-bridge",
+      "name": "Port front tail root bridge",
+      "source": "parts/Port-front-tail-root-bridge.ntop",
+      "source_sha256": "e24735aaca3a6e8808c803583a599db12c066f2416a69e2247eed456e5d9e4bf",
+      "function": "user_func_2f6d27d6_fdbd_4c2d_b2c9_6980b78432cf<implicit,real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        },
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Shared fuselage frame thickness. Moves the mating face and brace attachment center.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Frame thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Port-rear-tail-root-bridge",
+      "name": "Port rear tail root bridge",
+      "source": "parts/Port-rear-tail-root-bridge.ntop",
+      "source_sha256": "91049c22f9f7a763b26f4f78eef6e14d31fd474b1476a3fb6cb2d304b611d0dc",
+      "function": "user_func_0a5cd1ec_31a8_48aa_9717_4eef1443c6e0<implicit,real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        },
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Shared fuselage frame thickness. Moves the mating face and brace attachment center.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Frame thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-front-tail-root-bridge",
+      "name": "Starboard front tail root bridge",
+      "source": "parts/Starboard-front-tail-root-bridge.ntop",
+      "source_sha256": "ea894be787b23ff7419ad7eca53ae38e9cdb0aabec15ccda5b3abef01ae345ba",
+      "function": "user_func_77d3b742_91e8_4db5_8f37_48daf8a76756<implicit,real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        },
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Shared fuselage frame thickness. Moves the mating face and brace attachment center.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Frame thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    },
+    {
+      "part": "Starboard-rear-tail-root-bridge",
+      "name": "Starboard rear tail root bridge",
+      "source": "parts/Starboard-rear-tail-root-bridge.ntop",
+      "source_sha256": "b9879b3ee90591c7a4787240219ca2fdb34a6e8dd7528faeff808c90b3c691ee",
+      "function": "user_func_a68ed446_b8af_4cf7_b7dd_27bc831fd69b<implicit,real>[1.0.0]",
+      "inputs": [
+        {
+          "contents": {
+            "func": "user_func_0f467856_9929_4c82_afc6_ca4d2c0270e6<real>",
+            "id": "inst103",
+            "inputs": [
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": -0.008
+                }
+              }
+            ],
+            "name": "implicit",
+            "type": "implicit"
+          },
+          "description": "Shared source interior. Passed once from the main assembly. Standalone default uses the same source.",
+          "dimension": {},
+          "name": "Aircraft interior",
+          "type": "implicit"
+        },
+        {
+          "contents": {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {
+                "length": 1
+              },
+              "val": 0.016
+            }
+          },
+          "description": "Shared fuselage frame thickness. Moves the mating face and brace attachment center.",
+          "dimension": {
+            "length": 1
+          },
+          "name": "Frame thickness",
+          "type": "real"
+        }
+      ],
+      "coordinate_frame": "Aircraft world XYZ, mm. No assembly transform."
+    }
+  ],
+  "member_count": 54,
+  "root_variables": 65,
+  "unique_imported_definitions": 109,
+  "input_contracts": [
+    {
+      "name": "Frame thickness",
+      "type": "real",
+      "dimension": {
+        "length": 1
+      },
+      "description": "Proposed frame thickness, clamped to 12-20 mm. Tail-root bridge mating faces follow this input.",
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "units": {
+            "length": 1
+          },
+          "val": 0.016
+        }
+      }
+    },
+    {
+      "name": "Forward bulkhead thickness",
+      "type": "real",
+      "dimension": {
+        "length": 1
+      },
+      "description": "Proposed forward forging thickness, clamped to 60-64 mm to retain spar root contact.",
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "units": {
+            "length": 1
+          },
+          "val": 0.06
+        }
+      }
+    },
+    {
+      "name": "Aft bulkhead thickness",
+      "type": "real",
+      "dimension": {
+        "length": 1
+      },
+      "description": "Proposed aft forging thickness, clamped to 60-64 mm.",
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "units": {
+            "length": 1
+          },
+          "val": 0.06
+        }
+      }
+    },
+    {
+      "name": "Primary residual web",
+      "type": "real",
+      "dimension": {
+        "length": 1
+      },
+      "description": "Both primary pocket webs, clamped to 6-8 mm.",
+      "contents": {
+        "type": "real",
+        "value": {
+          "isFinite": true,
+          "units": {
+            "length": 1
+          },
+          "val": 0.006
+        }
+      }
+    }
+  ],
+  "update_rule": "Edit and verify the standalone part. Export its complete extended recipe. Rebuild the assembly from the new saved identity and definition. Imports are embedded snapshots."
+}

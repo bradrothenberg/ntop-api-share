@@ -14,3 +14,5 @@ reports/assets/56d3e314c912a6ac1b943d7dfbf35797fcf97f5a28dbe661f72b7ca7432bf872.
 demos/kestrelsat-corner/** -text whitespace=cr-at-eol
 # Retain whitespace in the extracted STEP reference.
 demos/kestrelsat-corner/inputs/Corner_block_source.step whitespace=cr-at-eol,-blank-at-eol
+# Retain the recorded aircraft snapshot and evidence hashes byte for byte.
+demos/civil-research-aircraft/** -text whitespace=cr-at-eol,-blank-at-eol

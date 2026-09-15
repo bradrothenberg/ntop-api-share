@@ -2,10 +2,11 @@
 
 [Open the offline catalogue](../reports/index.html). Download or clone the complete repository, then open `reports/index.html`. Reports use shared local assets. GitHub's source view is not an HTML hosting service. No website is deployed.
 
-The catalogue contains the original 27 reports plus the propeller gallery and KestrelSAT corner comparison: 29 reports across twelve groups.
+The catalogue contains the original 27 reports, the propeller gallery, the KestrelSAT corner comparison, and ten civil research aircraft reports: 39 reports across thirteen groups.
 
 | Group | Coverage |
 |---|---|
+| Civil research aircraft | Revision G primary model, H follow-up, D/E/F history, wing layout and buckling studies |
 | I6 Astra | Summary plus full configuration, assembly, and mechanism reference |
 | Original I6 | First engine assembly and mechanism report |
 | Jet20 | P3 assembly, C5 requirements, engineering study, closure plan, P4 nacelle, and P5 inlet pilot |
@@ -23,7 +24,7 @@ Reference photographs, photo composites, uncertain source scans, movies, animate
 
 Authored native views, numerical comparison figures, source credits, and compact evidence attachments remain. B52 derivatives retain GPL-2.0 source and notices. The [historical source](../demos/b52/history-source/README.md) supplies editable R2-R6 graphs and guide data.
 
-Eleven geometry demos contain native notebooks. F-16, A-12, F-Cat, propellers, and KestrelSAT corner replay complete saved API graphs. Replay does not rerun original measurement, fitting, or solver pipelines. Fury's current finite-edge notebook is separate from its earlier registered builder.
+Twelve geometry demos contain native notebooks. The civil research aircraft demo supplies native snapshots and working-copy preparation, with Revision G primary and H separate. F-16, A-12, F-Cat, propellers, and KestrelSAT corner replay complete saved API graphs. Replay does not rerun original measurement, fitting, or solver pipelines. Fury's current finite-edge notebook is separate from its earlier registered builder.
 
 For API capability claims, use [the current build 42926 reference](API_REFERENCE.md). An older report's build label identifies its recorded evidence.
 

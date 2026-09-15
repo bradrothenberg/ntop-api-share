@@ -1,0 +1,109 @@
+{
+  "parts": [
+    {
+      "id": "C-Fwd",
+      "G_mass_kg": 116.73024478420851,
+      "H_mass_kg": 119.55591072129455,
+      "mass_change_kg": 2.8256659370860433,
+      "quadrature_6_12_mm3": [
+        [
+          41246875.22182069,
+          42245220.53578656
+        ],
+        [
+          41247436.31950831,
+          42245904.848513976
+        ]
+      ],
+      "relative_change": 1.619832099390203e-05,
+      "band_widths": [
+        {
+          "waterline_mm": 0,
+          "G_band_mm": 59.131164799513044,
+          "H_band_mm": 181.10029464842057
+        },
+        {
+          "waterline_mm": 100,
+          "G_band_mm": 57.302898137734815,
+          "H_band_mm": 176.0122389748658
+        },
+        {
+          "waterline_mm": 200,
+          "G_band_mm": 56.16461361706911,
+          "H_band_mm": 173.19260777641398
+        }
+      ],
+      "fork_clearance_sections": [
+        {
+          "abs_x_offset_mm": 18.1,
+          "projected_fork_overlap_mm2": 0.0
+        },
+        {
+          "abs_x_offset_mm": 28.25,
+          "projected_fork_overlap_mm2": 0.0
+        },
+        {
+          "abs_x_offset_mm": 37.5,
+          "projected_fork_overlap_mm2": 0.0
+        }
+      ],
+      "new_pockets_per_face": 6,
+      "maximum_lower_side_section_difference_mm2": 0.0,
+      "comparison_scope": "Below lower lug and existing face-relief region. Existing G lug stock is retained by the addition-only build."
+    },
+    {
+      "id": "C-Aft",
+      "G_mass_kg": 84.27193595485329,
+      "H_mass_kg": 86.66403134654638,
+      "mass_change_kg": 2.3920953916930863,
+      "quadrature_6_12_mm3": [
+        [
+          29777641.3479185,
+          30622798.90214574
+        ],
+        [
+          29778069.24199763,
+          30623332.631288473
+        ]
+      ],
+      "relative_change": 1.742883928274993e-05,
+      "band_widths": [
+        {
+          "waterline_mm": 0,
+          "G_band_mm": 57.329819966907166,
+          "H_band_mm": 176.6935637284139
+        },
+        {
+          "waterline_mm": 100,
+          "G_band_mm": 56.29197014333067,
+          "H_band_mm": 172.9355389234903
+        },
+        {
+          "waterline_mm": 200,
+          "G_band_mm": 171.16592969670864,
+          "H_band_mm": 171.16592969670864
+        }
+      ],
+      "fork_clearance_sections": [
+        {
+          "abs_x_offset_mm": 18.1,
+          "projected_fork_overlap_mm2": 0.0
+        },
+        {
+          "abs_x_offset_mm": 28.25,
+          "projected_fork_overlap_mm2": 0.0
+        },
+        {
+          "abs_x_offset_mm": 37.5,
+          "projected_fork_overlap_mm2": 0.0
+        }
+      ],
+      "new_pockets_per_face": 6,
+      "maximum_lower_side_section_difference_mm2": 0.0,
+      "comparison_scope": "Below lower lug and existing face-relief region. Existing G lug stock is retained by the addition-only build."
+    }
+  ],
+  "density_kg_m3": 2830,
+  "density_status": "Assumed 7xxx aluminum density. No material allowable claim.",
+  "scope": "Section-integrated geometry mass for two changed primaries. Includes rolling pocket floors and face reliefs. Not native mass measurement, global strength proof or manufacturing release."
+}

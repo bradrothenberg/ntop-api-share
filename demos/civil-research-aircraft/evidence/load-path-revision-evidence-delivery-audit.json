@@ -1,0 +1,78 @@
+{
+  "pass": true,
+  "revision": "F - pad ties only",
+  "members": 54,
+  "native_checks": [
+    {
+      "part": "F06E-ties",
+      "case": "nominal",
+      "samples": 1100
+    },
+    {
+      "part": "F06E-ties",
+      "case": "changed",
+      "samples": 1100
+    },
+    {
+      "part": "F08E2-ties",
+      "case": "nominal",
+      "samples": 1094
+    },
+    {
+      "part": "F08E2-ties",
+      "case": "changed",
+      "samples": 1094
+    }
+  ],
+  "total_samples": 4388,
+  "cad": [
+    {
+      "id": "F06E-ties",
+      "mass_kg": 56.079921067605405,
+      "max_sampled_formula_residual_mm": 0.008540993143032694
+    },
+    {
+      "id": "F08E2-ties",
+      "mass_kg": 53.937098756149446,
+      "max_sampled_formula_residual_mm": 0.005245359423317275
+    }
+  ],
+  "geometry_scope": [
+    {
+      "id": "F06E-ties",
+      "station_outer_opening_passages_and_spar_interface_unchanged": true,
+      "pad_tie_count": 8,
+      "pockets_per_face": 34
+    },
+    {
+      "id": "F08E2-ties",
+      "station_outer_opening_passages_and_spar_interface_unchanged": true,
+      "pad_tie_count": 8,
+      "pockets_per_face": 34
+    }
+  ],
+  "views": [
+    {
+      "view": "Aircraft-structure",
+      "visible_native_bodies": 55,
+      "geometry_preserved": true,
+      "collapsed": true
+    },
+    {
+      "view": "Bulkheads-in-aircraft",
+      "visible_native_bodies": 13,
+      "geometry_preserved": true,
+      "collapsed": true
+    },
+    {
+      "view": "Primary-load-paths",
+      "visible_native_bodies": 10,
+      "geometry_preserved": true,
+      "collapsed": true
+    }
+  ],
+  "main_sha256": "0bdb5a6e2c5e93dd70d408dc6735c6823d8d12321fde278ae0adf65aea2b4ff2",
+  "source_sha256": "84f0f00ddd67144bddd07c51757129f4945c15d404fd30f87c10bf0a3179038a",
+  "fit_scope": "Outer contours, main openings, spar interfaces and complete hat clearance envelopes match accepted E exactly. Native checks verify material along new ribs and empty passage samples. This is not a new exhaustive pairwise interference solve.",
+  "structural_scope": "The two-dimensional stress and local floor-buckling gates fail. No manufacturing or flight release."
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "F06E",
+    "selected": false,
+    "lower_cap_line_z_mm": 589.4489584263143,
+    "original_opening_area_mm2": 1178289.0147875308,
+    "new_opening_area_mm2": 970635.5826462939,
+    "removed_opening_area_mm2": 207653.43214123684,
+    "scope": "Concept only, pending user clarification. Continue the lower spar-cap level through the upper part of the opening. Pocket the resulting upper beam and tie the passage pads to its inner flange. Equipment keep-outs are not defined.",
+    "trials": [
+      {
+        "web_mm": 6,
+        "mass_proxy_kg": 61.51738954975632,
+        "peak_vm_ultimate_MPa": 693.5975392086375,
+        "pocket_buckling_factor": 0.28883244935680774,
+        "pass": false
+      },
+      {
+        "web_mm": 8,
+        "mass_proxy_kg": 66.62786225206048,
+        "peak_vm_ultimate_MPa": 631.7234797086336,
+        "pocket_buckling_factor": 0.576650028591053,
+        "pass": false
+      },
+      {
+        "web_mm": 10,
+        "mass_proxy_kg": 71.73833495436462,
+        "peak_vm_ultimate_MPa": 584.221463497353,
+        "pocket_buckling_factor": 0.9943521585965045,
+        "pass": false
+      },
+      {
+        "web_mm": 12,
+        "mass_proxy_kg": 76.84880765666878,
+        "peak_vm_ultimate_MPa": 543.1135269320503,
+        "pocket_buckling_factor": 1.5627461122679254,
+        "pass": false
+      }
+    ]
+  },
+  {
+    "id": "F08E2",
+    "selected": false,
+    "lower_cap_line_z_mm": 468.00906726964945,
+    "original_opening_area_mm2": 821158.0039272388,
+    "new_opening_area_mm2": 704588.5237216942,
+    "removed_opening_area_mm2": 116569.4802055445,
+    "scope": "Concept only, pending user clarification. Continue the lower spar-cap level through the upper part of the opening. Pocket the resulting upper beam and tie the passage pads to its inner flange. Equipment keep-outs are not defined.",
+    "trials": [
+      {
+        "web_mm": 6,
+        "mass_proxy_kg": 56.76611912623072,
+        "peak_vm_ultimate_MPa": 576.4194218377228,
+        "pocket_buckling_factor": 0.33795381809798064,
+        "pass": false
+      },
+      {
+        "web_mm": 8,
+        "mass_proxy_kg": 61.089794593189325,
+        "peak_vm_ultimate_MPa": 463.28658911814534,
+        "pocket_buckling_factor": 0.7298151456355325,
+        "pass": false
+      },
+      {
+        "web_mm": 10,
+        "mass_proxy_kg": 65.41347006014793,
+        "peak_vm_ultimate_MPa": 436.68901985318155,
+        "pocket_buckling_factor": 1.2378349948166443,
+        "pass": false
+      },
+      {
+        "web_mm": 12,
+        "mass_proxy_kg": 69.73714552710653,
+        "peak_vm_ultimate_MPa": 414.74583529743154,
+        "pocket_buckling_factor": 1.9176801372622203,
+        "pass": false
+      }
+    ]
+  }
+]

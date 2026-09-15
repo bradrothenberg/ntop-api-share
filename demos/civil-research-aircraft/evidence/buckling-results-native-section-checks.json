@@ -1,0 +1,403 @@
+{
+  "pass": true,
+  "samples": 36,
+  "checks": [
+    {
+      "case": "wing",
+      "xyz_mm": [
+        20,
+        0,
+        0
+      ],
+      "expected": -1,
+      "field_mm": -1.000000000000001,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        20,
+        1.1,
+        0
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999999896,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        20,
+        0,
+        13.0
+      ],
+      "expected": -1,
+      "field_mm": -0.9999999999999957,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        20,
+        12.4,
+        13.0
+      ],
+      "expected": -1,
+      "field_mm": -0.0999999999999994,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        20,
+        12.6,
+        13.0
+      ],
+      "expected": 1,
+      "field_mm": 0.10000000000000113,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        20,
+        0,
+        14.1
+      ],
+      "expected": 1,
+      "field_mm": 0.1000000000000046,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        150.0,
+        0,
+        0
+      ],
+      "expected": -1,
+      "field_mm": -1.0000000000000082,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        150.0,
+        1.1,
+        0
+      ],
+      "expected": 1,
+      "field_mm": 0.0999999999999918,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        150.0,
+        0,
+        13.0
+      ],
+      "expected": -1,
+      "field_mm": -0.9999999999999679,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        150.0,
+        12.4,
+        13.0
+      ],
+      "expected": -1,
+      "field_mm": -0.10000000000000633,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        150.0,
+        12.6,
+        13.0
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999999419,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        150.0,
+        0,
+        14.1
+      ],
+      "expected": 1,
+      "field_mm": 0.10000000000003235,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        280,
+        0,
+        0
+      ],
+      "expected": -1,
+      "field_mm": -1.0000000000000155,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        280,
+        1.1,
+        0
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999998443,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        280,
+        0,
+        13.0
+      ],
+      "expected": -1,
+      "field_mm": -0.9999999999999385,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        280,
+        12.4,
+        13.0
+      ],
+      "expected": -1,
+      "field_mm": -0.10000000000001327,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        280,
+        12.6,
+        13.0
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999998725,
+      "pass": true
+    },
+    {
+      "case": "wing",
+      "xyz_mm": [
+        280,
+        0,
+        14.1
+      ],
+      "expected": 1,
+      "field_mm": 0.10000000000006184,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        20,
+        0,
+        0
+      ],
+      "expected": -1,
+      "field_mm": -0.7500000000000011,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        20,
+        0.85,
+        0
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999999885,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        20,
+        0,
+        8.25
+      ],
+      "expected": -1,
+      "field_mm": -0.7499999999999938,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        20,
+        7.4,
+        8.25
+      ],
+      "expected": -1,
+      "field_mm": -0.09999999999999853,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        20,
+        7.6,
+        8.25
+      ],
+      "expected": 1,
+      "field_mm": 0.10000000000000113,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        20,
+        0,
+        9.1
+      ],
+      "expected": 1,
+      "field_mm": 0.10000000000000633,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        150.0,
+        0,
+        0
+      ],
+      "expected": -1,
+      "field_mm": -0.7500000000000083,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        150.0,
+        0.85,
+        0
+      ],
+      "expected": 1,
+      "field_mm": 0.0999999999999916,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        150.0,
+        0,
+        8.25
+      ],
+      "expected": -1,
+      "field_mm": -0.749999999999966,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        150.0,
+        7.4,
+        8.25
+      ],
+      "expected": -1,
+      "field_mm": -0.10000000000000633,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        150.0,
+        7.6,
+        8.25
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999999332,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        150.0,
+        0,
+        9.1
+      ],
+      "expected": 1,
+      "field_mm": 0.10000000000003409,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        280,
+        0,
+        0
+      ],
+      "expected": -1,
+      "field_mm": -0.7500000000000155,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        280,
+        0.85,
+        0
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999998443,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        280,
+        0,
+        8.25
+      ],
+      "expected": -1,
+      "field_mm": -0.7499999999999365,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        280,
+        7.4,
+        8.25
+      ],
+      "expected": -1,
+      "field_mm": -0.10000000000001327,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        280,
+        7.6,
+        8.25
+      ],
+      "expected": 1,
+      "field_mm": 0.09999999999998638,
+      "pass": true
+    },
+    {
+      "case": "tail",
+      "xyz_mm": [
+        280,
+        0,
+        9.1
+      ],
+      "expected": 1,
+      "field_mm": 0.10000000000006358,
+      "pass": true
+    }
+  ],
+  "scope": "Native coupon field and dimension checks at two control sets. No full curved-rib strength or fit claim."
+}

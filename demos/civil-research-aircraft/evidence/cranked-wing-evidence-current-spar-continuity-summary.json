@@ -1,0 +1,30 @@
+[
+  {
+    "part": "Port-front-spar",
+    "pass": true,
+    "samples": 610,
+    "interior_samples": 605,
+    "shared_plane_samples": 5
+  },
+  {
+    "part": "Port-rear-spar",
+    "pass": true,
+    "samples": 610,
+    "interior_samples": 605,
+    "shared_plane_samples": 5
+  },
+  {
+    "part": "Starboard-front-spar",
+    "pass": true,
+    "samples": 610,
+    "interior_samples": 605,
+    "shared_plane_samples": 5
+  },
+  {
+    "part": "Starboard-rear-spar",
+    "pass": true,
+    "samples": 610,
+    "interior_samples": 605,
+    "shared_plane_samples": 5
+  }
+]

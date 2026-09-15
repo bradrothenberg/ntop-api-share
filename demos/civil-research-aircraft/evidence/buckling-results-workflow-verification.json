@@ -1,0 +1,102 @@
+{
+  "pass": true,
+  "membrane_patch": {
+    "maximum_displacement_error_mm": 1.522913739560039e-14,
+    "maximum_stress_error_MPa": 3.183231456205249e-12,
+    "elements": 309
+  },
+  "rib_mesh_sensitivity": [
+    {
+      "kind": "wing",
+      "station_mm": 1700,
+      "base_mesh_mm": 2,
+      "fine_mesh_mm": 1.0,
+      "base_elements": 43477,
+      "fine_elements": 173693,
+      "relative_change": {
+        "N_limit_N": -0.08420564986430523,
+        "M_limit_Nmm": -0.019035722833812052,
+        "Q_limit_N": -0.050742165792391214
+      },
+      "maximum_force_change_below_10_percent": true,
+      "selected_section_fine_screen": null
+    },
+    {
+      "kind": "wing",
+      "station_mm": 4200,
+      "base_mesh_mm": 2,
+      "fine_mesh_mm": 1.0,
+      "base_elements": 20470,
+      "fine_elements": 81941,
+      "relative_change": {
+        "N_limit_N": -0.017184220858716626,
+        "M_limit_Nmm": 0.0013189065448357962,
+        "Q_limit_N": 0.028130321622795496
+      },
+      "maximum_force_change_below_10_percent": true,
+      "selected_section_fine_screen": {
+        "shape": "I",
+        "t_mm": 2.0,
+        "flange_width_mm": 25,
+        "braced": false,
+        "area_mm2": 148.0,
+        "Iweak_mm4": 5224.333333333333,
+        "Istrong_mm4": 19237.333333333332,
+        "local_width_mm": 11.5,
+        "local_k": 0.43,
+        "web_width_mm": 24.0,
+        "web_k": 4.0,
+        "unbraced_length_mm": 448.1098238526409,
+        "peak_section_equivalent_ultimate_MPa": 199.50843064097256,
+        "compression_ultimate_N": 5467.623954034884,
+        "knocked_down_Euler_N": 11850.410636290426,
+        "Euler_reserve": 2.1673785058947415,
+        "local_reserve": 2.776740372852532,
+        "stress_reserve": 1.2530798783630857,
+        "pass": true,
+        "mass_ratio_to_flat_baseline": 0.8809523809523809
+      }
+    },
+    {
+      "kind": "tail",
+      "station_mm": 1500,
+      "base_mesh_mm": 2,
+      "fine_mesh_mm": 1.0,
+      "base_elements": 9170,
+      "fine_elements": 36727,
+      "relative_change": {
+        "N_limit_N": -0.03471092955164512,
+        "M_limit_Nmm": 0.017756661543460783,
+        "Q_limit_N": 0.114744125126933
+      },
+      "maximum_force_change_below_10_percent": false,
+      "selected_section_fine_screen": {
+        "shape": "I",
+        "t_mm": 1.5,
+        "flange_width_mm": 15,
+        "braced": false,
+        "area_mm2": 67.5,
+        "Iweak_mm4": 847.96875,
+        "Istrong_mm4": 3493.125,
+        "local_width_mm": 6.75,
+        "local_k": 0.43,
+        "web_width_mm": 15.0,
+        "web_k": 4.0,
+        "unbraced_length_mm": 313.55792518894316,
+        "peak_section_equivalent_ultimate_MPa": 164.56039086312705,
+        "compression_ultimate_N": 1956.7274107046014,
+        "knocked_down_Euler_N": 3928.400288140567,
+        "Euler_reserve": 2.007637991193665,
+        "local_reserve": 5.496444902141114,
+        "stress_reserve": 1.5191991140075576,
+        "pass": true,
+        "mass_ratio_to_flat_baseline": 0.9375
+      }
+    }
+  ],
+  "wing_load_sum_N": 63387.15801746209,
+  "tail_pair_load_sum_N": 19016.147405238637,
+  "assumptions_sha256": "fb5d6e98087bb46872d416380280b62c17f7ffc86987d8350be447ade4e13fe1",
+  "native_baseline_unchanged": true,
+  "scope": "Numerical implementation and selected mesh checks. Peak membrane stresses and simplified local stability are not production allowables."
+}
