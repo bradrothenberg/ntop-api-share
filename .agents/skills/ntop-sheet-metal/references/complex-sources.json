@@ -1,0 +1,11 @@
+{
+  "study": 3,
+  "scope": "Public manufacturer feature families only. All dimensions, layouts, tooling shells and motions are authored studies, not supplier replicas or production process definitions.",
+  "sources": [
+    {"id":"protolabs-forms","title":"Protolabs: stocked punch form tooling","url":"https://www.protolabs.com/services/sheet-metal-fabrication/tooling-library/","used":"Public examples of louver, bridge lance, dimple/emboss and rib features; an upper punch and lower die are described. No catalog dimensions or CAD are copied."},
+    {"id":"mate-forms","title":"Mate: forming applications","url":"https://www.mate.com/technical-resources/punch-press-resources/forming-applications/","used":"Feature families include round embosses, round extrusions, dimples, card guides and curved beads. These inform the crossmember and annular-cover study families; dimensions are authored."},
+    {"id":"mate-bridges","title":"Mate: bridge and cable-clamp forming applications","url":"https://www.mate.com/technical-resources/punch-press-resources/forming-applications/","used":"Single-bridge cable clamps and double-bridge card guides establish the two-ended lance family. The cable panel is an original combination of bridges, dimples and edge flanges."},
+    {"id":"mate-ribs","title":"Mate: strengthening ribs","url":"https://www.mate.com/use-strengthening-ribs-to-add-structural-rigidity/","used":"Public rib-forming examples motivate the corrugated shield family. No strength increase is quantified or established by the geometry study."},
+    {"id":"beckwood-drawing","title":"Beckwood: deep drawing","url":"https://beckwoodpress.com/applications/deep-drawing/","used":"The manufacturer distinguishes forming motion, blank holding and material flow, and discusses multiple draws for demanding parts. The stepped housing is a target geometry; its sequence is illustrative and unqualified."}
+  ]
+}

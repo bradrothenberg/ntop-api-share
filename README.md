@@ -72,6 +72,7 @@ ntop-api-share/
 
 - [HTML report skill](.agents/skills/engineering-html/SKILL.md) and [PDF report skill](.agents/skills/engineering-report/SKILL.md): nTop blue highlights, shared design tokens, and reproducible report workflows
 - [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)
+- [Sheet-metal modeling skill](.agents/skills/ntop-sheet-metal/SKILL.md): analytic bends, explicit reliefs, drafted forms, assemblies, blank-development estimates and scoped tooling illustrations
 - [Native assembly modeling skill](.agents/skills/ntop-assembly-modeling/SKILL.md): reusable custom parts, explicit inputs, shared placements, and a generic contract pilot
 - [KestrelSAT skill audit](docs/KESTRELSAT_SKILL_AUDIT.md): source coverage, resizing lessons, and recorded pilot scope
 - [Recent modeling lessons](docs/RECENT_MODELING_LEARNINGS.md): bulkheads, marine propellers, skis, KestrelSAT, and DDG(X), with evidence and unfinished experiments separated

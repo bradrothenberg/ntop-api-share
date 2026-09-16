@@ -46,3 +46,7 @@ The skill includes a generic source-only two-instance pilot. It does not add the
 ## Recent modeling lessons
 
 Read [docs/RECENT_MODELING_LEARNINGS.md](docs/RECENT_MODELING_LEARNINGS.md) for the reviewed bulkhead, marine, ski, KestrelSAT, and DDG(X) findings. Keep source revisions and evidence scopes explicit. Passing field samples, exact graph comparisons, successful exports, and presentation checks establish different facts.
+
+## Sheet-metal modeling
+
+Use [.agents/skills/ntop-sheet-metal/SKILL.md](.agents/skills/ntop-sheet-metal/SKILL.md) for analytic bends, reliefs, drafted forms and sheet-metal assemblies. Keep bend-development estimates, geometric preforms, release envelopes and qualified forming processes distinct. Publish reusable sources; keep generated notebooks, raw meshes, GIFs and ZIPs in the development output.
