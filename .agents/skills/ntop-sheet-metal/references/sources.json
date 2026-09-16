@@ -1,0 +1,54 @@
+{
+  "accessed": "2026-09-14",
+  "sources": [
+    {
+      "id": "hammond",
+      "title": "Hammond 1444 Series aluminum chassis",
+      "url": "https://www.hammfg.com/electronics/small-case/chassis/1444",
+      "used": "1444-8 nominal outside envelope 6 x 4 x 2 inches and aluminum thickness 0.040 inch. Source product is spot welded. Study uses open corner reliefs and omits welded tabs; bend radius and hole layout are authored assumptions."
+    },
+    {
+      "id": "bracket",
+      "title": "Protocase custom sheet-metal brackets",
+      "url": "https://www.protocase.com/products/electronic-enclosures/brackets/",
+      "used": "Public L-bracket and offset-bracket families. All study dimensions are authored; no stock part dimensions are claimed."
+    },
+    {
+      "id": "ucover",
+      "title": "Protocase U-shape enclosures",
+      "url": "https://www.protocase.com/products/electronic-enclosures/u-shape-enclosures/",
+      "used": "Public U-shaped enclosure construction family. Study dimensions are authored."
+    },
+    {
+      "id": "strut",
+      "title": "Unistrut manufacturer catalog, P1000 section, page 25",
+      "url": "https://galileo.phys.virginia.edu/research/groups/hep/aag/nova/cable_trays/unistrut_catalog.pdf",
+      "used": "Manufacturer-authored catalog hosted by University of Virginia. P1000 1-5/8 inch square envelope, 0.105 inch nominal thickness, 7/8 inch opening. Study is a simplified return-flange channel; lips, root radii and 120 mm coupon length are authored and do not reproduce the nut interface."
+    },
+    {
+      "id": "cup",
+      "title": "Coer et al., Detailed experimental and numerical analysis of a cylindrical cup deep drawing",
+      "url": "https://arxiv.org/abs/1703.10126",
+      "pdf": "https://arxiv.org/pdf/1703.10126",
+      "used": "Research study: AA5754-O, initial thickness 1 mm, blank diameter 60 mm, measured die diameter 35.30 mm, radial die-punch clearance 1.15 mm. This implies a 33.0 mm punch diameter. Our constant-thickness cup target uses 33 mm internal diameter, authored 3 mm inner bottom radius and 20 mm height. It is a geometry precursor, not a reproduction of the deformed experiment or forming simulation."
+    },
+    {
+      "id": "bending",
+      "title": "Protolabs sheet metal bend radius guidelines",
+      "url": "https://www.protolabs.com/resources/design-tips/the-basics-of-bend-radii-in-sheet-metal/",
+      "used": "Neutral-axis definition and dependence of K-factor on material and tooling. K=0.42 in this study is an illustrative input requiring coupon calibration, not a supplier-approved value."
+    },
+    {
+      "id": "round-relief",
+      "title": "Protolabs: How and When to Add Bend Reliefs to Sheet Metal Parts",
+      "url": "https://www.protolabs.com/resources/blog/bend-relief/",
+      "used": "Round relief roots help reduce tear and crack propagation. Revision 3 uses authored 0.5 mm root radii at 45-degree miter seams with a 0.5 mm normal gap. Revision 2 used 1.5 mm wide slots with 0.75 mm roots. This source does not certify the study dimensions or miter edge preparation."
+    },
+    {
+      "id": "relief-shapes",
+      "title": "Protocase: Bend Reliefs in Sheet Metal Design",
+      "url": "https://www.protocase.com/blog/2025/09/19/bend-reliefs-in-sheet-metal-design/",
+      "used": "Rectangular and rounded reliefs are both described; relief design depends on material and cutting process. The study distinguishes the relief-root radius from the sheet bend radius."
+    }
+  ]
+}
