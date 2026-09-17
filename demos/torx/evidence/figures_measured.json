@@ -1,0 +1,235 @@
+{
+  "planes": [
+    {
+      "stack": "recess",
+      "label": "mouth",
+      "caption": "the recess mouth, just inside the head top face",
+      "target_mm": -2.95,
+      "plane_mm": -2.95,
+      "slice_index": 1,
+      "axis": "z",
+      "pixel_mm": [
+        0.006108888888888889,
+        0.006108888888888889
+      ],
+      "col_axis": "x",
+      "row_axis": "y",
+      "asset": "assets/torx_recess_mouth.png",
+      "bytes": 4778,
+      "px": [
+        900,
+        900
+      ]
+    },
+    {
+      "stack": "recess",
+      "label": "wall",
+      "caption": "mid recess: the six lobes and six valleys",
+      "target_mm": -2.35,
+      "plane_mm": -2.35,
+      "slice_index": 4,
+      "axis": "z",
+      "pixel_mm": [
+        0.006108888888888889,
+        0.006108888888888889
+      ],
+      "col_axis": "x",
+      "row_axis": "y",
+      "asset": "assets/torx_recess_wall.png",
+      "bytes": 4939,
+      "px": [
+        900,
+        900
+      ]
+    },
+    {
+      "stack": "recess",
+      "label": "web",
+      "caption": "below the recess floor: solid head metal",
+      "target_mm": -1.55,
+      "plane_mm": -1.55,
+      "slice_index": 8,
+      "axis": "z",
+      "pixel_mm": [
+        0.006108888888888889,
+        0.006108888888888889
+      ],
+      "col_axis": "x",
+      "row_axis": "y",
+      "asset": "assets/torx_recess_web.png",
+      "bytes": 4042,
+      "px": [
+        900,
+        900
+      ]
+    },
+    {
+      "stack": "recess",
+      "label": "thread",
+      "caption": "a thread crest, one turn inside the threaded length",
+      "target_mm": 5.45,
+      "plane_mm": 5.45,
+      "slice_index": 43,
+      "axis": "z",
+      "pixel_mm": [
+        0.006108888888888889,
+        0.006108888888888889
+      ],
+      "col_axis": "x",
+      "row_axis": "y",
+      "asset": "assets/torx_recess_thread.png",
+      "bytes": 2184,
+      "px": [
+        900,
+        900
+      ]
+    },
+    {
+      "stack": "profile",
+      "label": "axis",
+      "caption": "the axial section through the screw axis",
+      "target_mm": 0.0,
+      "plane_mm": 0.0,
+      "slice_index": 3,
+      "axis": "y",
+      "pixel_mm": [
+        0.00864,
+        0.007854285714285715
+      ],
+      "col_axis": "z",
+      "row_axis": "x",
+      "asset": "assets/torx_profile_axis.png",
+      "bytes": 3133,
+      "px": [
+        1500,
+        700
+      ]
+    }
+  ],
+  "measurements": {
+    "recess_contour": [
+      {
+        "angle_deg": 0.0,
+        "feature": "lobe",
+        "measured_mm": 1.3989355555555665,
+        "expected_mm": 1.4,
+        "delta_mm": -0.0010644444444334322,
+        "pixel_mm": 0.006108888888888889
+      },
+      {
+        "angle_deg": 12.64548270100928,
+        "feature": "junction",
+        "measured_mm": 1.2278866666666761,
+        "expected_mm": 1.22804650996174,
+        "delta_mm": -0.00015984329506379957,
+        "pixel_mm": 0.006108888888888889
+      },
+      {
+        "angle_deg": 29.999999999999996,
+        "feature": "valley",
+        "measured_mm": 1.026293333333341,
+        "expected_mm": 1.025,
+        "delta_mm": 0.00129333333334114,
+        "pixel_mm": 0.006108888888888889
+      },
+      {
+        "angle_deg": 59.99999999999999,
+        "feature": "lobe 60",
+        "measured_mm": 1.4050444444444554,
+        "expected_mm": 1.4,
+        "delta_mm": 0.005044444444455509,
+        "pixel_mm": 0.006108888888888889
+      },
+      {
+        "angle_deg": 90.0,
+        "feature": "valley 90",
+        "measured_mm": 1.026293333333341,
+        "expected_mm": 1.025,
+        "delta_mm": 0.00129333333334114,
+        "pixel_mm": 0.006108888888888889
+      },
+      {
+        "angle_deg": 119.99999999999999,
+        "feature": "lobe 120",
+        "measured_mm": 1.4050444444444554,
+        "expected_mm": 1.4,
+        "delta_mm": 0.005044444444455509,
+        "pixel_mm": 0.006108888888888889
+      }
+    ],
+    "head_radius": [
+      {
+        "direction": "+X",
+        "measured_mm": 2.7474727777778,
+        "expected_mm": 2.75,
+        "delta_mm": -0.0025272222221999208,
+        "note": "the print volume is clipped 1 micrometre inside the head radius, so the measured value is bounded by 2.749 mm"
+      },
+      {
+        "direction": "-X",
+        "measured_mm": 2.7474727777778,
+        "expected_mm": 2.75,
+        "delta_mm": -0.0025272222221999208,
+        "note": "the print volume is clipped 1 micrometre inside the head radius, so the measured value is bounded by 2.749 mm"
+      }
+    ]
+  },
+  "stacks": [
+    {
+      "name": "recess",
+      "axis": "z",
+      "archive": "torx_recess.zip",
+      "images": 65,
+      "layers_requested": 6,
+      "note": "the stack continues past the print-volume ceiling until the body's own bounds are exhausted",
+      "first_plane_mm": -2.95,
+      "last_plane_mm": 9.850000000000001
+    },
+    {
+      "name": "profile",
+      "axis": "y",
+      "archive": "torx_profile.zip",
+      "images": 10,
+      "layers_requested": 4,
+      "note": "the stack continues past the print-volume ceiling until the body's own bounds are exhausted",
+      "first_plane_mm": -0.8,
+      "last_plane_mm": 2.8
+    }
+  ],
+  "calibration": {
+    "stack": "calibration",
+    "images": 27,
+    "layer_mm": 0.005,
+    "known_plane_mm": -1.73,
+    "closes_between": [
+      13,
+      14
+    ],
+    "laws": {
+      "BOX0 + (k-1)h": {
+        "bracket_mm": [
+          -1.73,
+          -1.725
+        ],
+        "contains_known_plane": true
+      },
+      "BOX0 + h/2 + (k-1)h": {
+        "bracket_mm": [
+          -1.7275,
+          -1.7225
+        ],
+        "contains_known_plane": false
+      }
+    },
+    "law_used": "BOX0 + (k-1)h",
+    "note": "a plane lying exactly on a boundary surface rasterises as open"
+  },
+  "verdict": {
+    "contour_points_read": 6,
+    "of": 6,
+    "worst_delta_mm": 0.005044444444455509,
+    "pixel_mm": 0.006108888888888889,
+    "within_one_pixel": true,
+    "scope": "the raster confirms the mapping and the gross shape at pixel resolution. The field samples, not the raster, carry the sub-micrometre verdict."
+  }
+}

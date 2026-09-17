@@ -1,0 +1,39 @@
+{
+  "note": "Custom-block identifiers recorded from the source project's converted blocks. Rule I1: every convert stamps a new uuid, so these are carried as source data and never regenerated. Rule I2: a block is referenced by its full uuid, never by name.",
+  "recorded_build": "nTop 6.0.3 convert of the source project, 15 September 2026",
+  "identifiers": {
+    "Countersunk Head 2013": "user_func_4c032f9d_493b_4e0e_8d12_686555af1f4b",
+    "Torx Internal": "user_func_572043a5_b7b0_48dc_a34d_7bf861a46045",
+    "Screw Head": "user_func_7ccfd95e_ec44_428c_b65a_4bd70d781d71",
+    "Pan Head": "user_func_a1fab3fb_2b5c_46e8_b210_9424e67cdd68",
+    "Metric Thread Kernel": "user_func_a2a5d81f_2c09_41f0_8e4c_87db1150543d",
+    "Torx Local Development": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b",
+    "Place Screw": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c",
+    "Torx": "user_func_Torx"
+  },
+  "root_import_order": [
+    "Countersunk Head 2013",
+    "Torx Internal",
+    "Screw Head",
+    "Pan Head",
+    "Metric Thread Kernel",
+    "Torx Local Development",
+    "Place Screw"
+  ],
+  "root_cbRefs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "torx_local_cbRefs": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -24,7 +24,7 @@ Reference photographs, photo composites, uncertain source scans, movies, animate
 
 Authored native views, numerical comparison figures, source credits, and compact evidence attachments remain. B52 derivatives retain GPL-2.0 source and notices. The [historical source](../demos/b52/history-source/README.md) supplies editable R2-R6 graphs and guide data.
 
-Twelve geometry demos contain native notebooks. The civil research aircraft demo supplies native snapshots and working-copy preparation, with Revision G primary and H separate. F-16, A-12, F-Cat, propellers, and KestrelSAT corner replay complete saved API graphs. Replay does not rerun original measurement, fitting, or solver pipelines. Fury's current finite-edge notebook is separate from its earlier registered builder.
+Thirteen geometry demos contain native notebooks. The civil research aircraft demo supplies native snapshots and working-copy preparation, with Revision G primary and H separate. F-16, A-12, F-Cat, propellers, and KestrelSAT corner replay complete saved API graphs. Replay does not rerun original measurement, fitting, or solver pipelines. Fury's current finite-edge notebook is separate from its earlier registered builder.
 
 For API capability claims, use [the current build 42926 reference](API_REFERENCE.md). An older report's build label identifies its recorded evidence.
 

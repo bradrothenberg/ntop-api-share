@@ -1,0 +1,5458 @@
+{
+  "started": "2026-09-17T01:40:42",
+  "interpreter_pid": 28232,
+  "torx_recipe": "torx_recipe.json",
+  "torx_recipe_bytes": 1067220,
+  "torx_empty_before": {
+    "variables": 0,
+    "sections": 1,
+    "custom_blocks": 0
+  },
+  "torx_import_seconds": 32.708,
+  "torx_after": {
+    "variables": {
+      "value": [
+        {
+          "name": "Integer Variable",
+          "id": "Drive family selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Integer Variable",
+          "id": "Screw series selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Integer Variable",
+          "id": "Metric size selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Integer Variable",
+          "id": "Drive size selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Local screw",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Torx",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        }
+      ]
+    },
+    "sections": {
+      "value": [
+        {
+          "name": "Section 1",
+          "id": "section_2"
+        }
+      ]
+    },
+    "custom_blocks": {
+      "value": [
+        {
+          "name": "Place Screw",
+          "id": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Countersunk Head 2013",
+          "id": "user_func_4c032f9d_493b_4e0e_8d12_686555af1f4b<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Internal",
+          "id": "user_func_572043a5_b7b0_48dc_a34d_7bf861a46045<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Screw Head",
+          "id": "user_func_7ccfd95e_ec44_428c_b65a_4bd70d781d71<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Local Development",
+          "id": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Pan Head",
+          "id": "user_func_a1fab3fb_2b5c_46e8_b210_9424e67cdd68<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Metric Thread Kernel",
+          "id": "user_func_a2a5d81f_2c09_41f0_8e4c_87db1150543d<real,real,real,real,real,real>",
+          "bufferId": 2
+        }
+      ]
+    },
+    "open_custom_block": {
+      "value": {
+        "name": "",
+        "id": "",
+        "bufferId": 0
+      }
+    },
+    "counts": {
+      "variables": 6,
+      "sections": 1,
+      "custom_blocks": 7
+    }
+  },
+  "custom_blocks_created": [
+    "Place Screw",
+    "Countersunk Head 2013",
+    "Torx Internal",
+    "Screw Head",
+    "Torx Local Development",
+    "Pan Head",
+    "Metric Thread Kernel"
+  ],
+  "model": "Torx.ntop",
+  "model_bytes": 1379587,
+  "selections": {
+    "Drive family selection": {
+      "value": 0,
+      "expected": 0,
+      "agrees": true,
+      "state": {
+        "blockId": "Drive family selection",
+        "buildState": "e_OK",
+        "pauseState": "e_UNPAUSED"
+      }
+    },
+    "Screw series selection": {
+      "value": 0,
+      "expected": 0,
+      "agrees": true,
+      "state": {
+        "blockId": "Screw series selection",
+        "buildState": "e_OK",
+        "pauseState": "e_UNPAUSED"
+      }
+    },
+    "Metric size selection": {
+      "value": 2,
+      "expected": 2,
+      "agrees": true,
+      "state": {
+        "blockId": "Metric size selection",
+        "buildState": "e_OK",
+        "pauseState": "e_UNPAUSED"
+      }
+    },
+    "Drive size selection": {
+      "value": 0,
+      "expected": 0,
+      "agrees": true,
+      "state": {
+        "blockId": "Drive size selection",
+        "buildState": "e_OK",
+        "pauseState": "e_UNPAUSED"
+      }
+    }
+  },
+  "selections_agreeing": 4,
+  "verification_recipe": "torx_verification_recipe.json",
+  "verification_recipe_bytes": 1592175,
+  "verification_empty_before": {
+    "variables": 0,
+    "sections": 1,
+    "custom_blocks": 0
+  },
+  "verification_import_seconds": 186.269,
+  "verification_after": {
+    "variables": {
+      "value": [
+        {
+          "name": "Integer Variable",
+          "id": "Drive family selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Integer Variable",
+          "id": "Screw series selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Integer Variable",
+          "id": "Metric size selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Integer Variable",
+          "id": "Drive size selection",
+          "funcId": "core.var<integer>",
+          "blockFuncId": "core.select_by_choice<choice,list_interface>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Local screw",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Torx",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw default",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body default",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d default-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw oblique",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body oblique",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d oblique-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw rotated",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body rotated",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d rotated-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw farfield",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body farfield",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d farfield-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw m8",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body m8",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d m8-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw t25",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body t25",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d t25-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw tamper",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body tamper",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-post-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-post-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-post-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-post-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-post-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-post-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-post-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d tamper-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Screw custom",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Body custom",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-side",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-side-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-side-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-top",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-top-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-top-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-round",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-round-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-round-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-seat",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-seat-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-seat-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-fillet",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-fillet-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-head-fillet-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-shank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-shank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-shank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-lobe",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-lobe-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-lobe-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-junction",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-junction-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-junction-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-mid",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-mid-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-mid-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-sector2",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-sector2-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-sector2-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-sector2-valley",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-sector2-valley-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-sector2-valley-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-floor-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-floor-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-recess-void",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-under-recess",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-crest",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-crest-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-crest-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-root",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-root-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-root-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-flank",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-flank-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-flank-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-helix",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-helix-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-helix-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-thread-gap",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-tip",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-tip-in",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-tip-out",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-air",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d custom-core",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        }
+      ]
+    },
+    "sections": {
+      "value": [
+        {
+          "name": "Section 1",
+          "id": "section_2"
+        }
+      ]
+    },
+    "custom_blocks": {
+      "value": [
+        {
+          "name": "Place Screw",
+          "id": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Countersunk Head 2013",
+          "id": "user_func_4c032f9d_493b_4e0e_8d12_686555af1f4b<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Internal",
+          "id": "user_func_572043a5_b7b0_48dc_a34d_7bf861a46045<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Screw Head",
+          "id": "user_func_7ccfd95e_ec44_428c_b65a_4bd70d781d71<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Local Development",
+          "id": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Pan Head",
+          "id": "user_func_a1fab3fb_2b5c_46e8_b210_9424e67cdd68<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Metric Thread Kernel",
+          "id": "user_func_a2a5d81f_2c09_41f0_8e4c_87db1150543d<real,real,real,real,real,real>",
+          "bufferId": 2
+        }
+      ]
+    },
+    "open_custom_block": {
+      "value": {
+        "name": "",
+        "id": "",
+        "bufferId": 0
+      }
+    },
+    "counts": {
+      "variables": 501,
+      "sections": 1,
+      "custom_blocks": 7
+    }
+  },
+  "band_polls": 1,
+  "band_read_seconds": 0.058,
+  "band_unread": [],
+  "summary": {
+    "total": 479,
+    "passed": 479,
+    "failed": 0,
+    "unread": 0,
+    "boundary_worst_residual_m": 7.705872713602117e-08,
+    "boundary_gate_m": 1e-07,
+    "selections_agreeing": 4,
+    "selections_total": 4
+  },
+  "first_failures": [],
+  "verification_model": "Torx_Verification.ntop",
+  "verification_model_bytes": 3240685,
+  "finished": "2026-09-17T01:44:24",
+  "scope": "one native session; field samples and a graph readback. No mesh comparison and no manufacturing claim.",
+  "boundary_samples": [
+    {
+      "id": "default-head-side",
+      "configuration": "default",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        2.75,
+        0.0,
+        -1.5
+      ],
+      "value_mm": -2.8058784896228817e-08,
+      "residual_m": 2.8058784896228817e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-head-top",
+      "configuration": "default",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        1.925,
+        0.0,
+        -3.0
+      ],
+      "value_mm": 2.744743451618681e-09,
+      "residual_m": 2.744743451618681e-12,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-head-round",
+      "configuration": "default",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        2.662132034356,
+        0.0,
+        -2.912132034356
+      ],
+      "value_mm": -3.587047629413642e-08,
+      "residual_m": 3.587047629413642e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-head-seat",
+      "configuration": "default",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        2.175,
+        0.0,
+        0.0
+      ],
+      "value_mm": -5.492634905929217e-08,
+      "residual_m": 5.492634905929217e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-head-fillet",
+      "configuration": "default",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        1.529289321881,
+        0.0,
+        0.029289321881
+      ],
+      "value_mm": -5.8679841110427684e-08,
+      "residual_m": 5.867984111042768e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-shank",
+      "configuration": "default",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        1.5,
+        0.0,
+        0.55
+      ],
+      "value_mm": -2.805878554675012e-08,
+      "residual_m": 2.805878554675012e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-recess-lobe",
+      "configuration": "default",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.4,
+        0.0,
+        -2.365
+      ],
+      "value_mm": -5.421010862427522e-17,
+      "residual_m": 5.421010862427522e-20,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-recess-junction",
+      "configuration": "default",
+      "where": "recess wall at 12.645 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.198258138674,
+        0.268841335608,
+        -2.365
+      ],
+      "value_mm": -4.0584304321418856e-13,
+      "residual_m": 4.0584304321418856e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-recess-mid",
+      "configuration": "default",
+      "where": "recess wall at 21.323 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.98928061384,
+        0.386156808241,
+        -2.365
+      ],
+      "value_mm": 5.659535340374333e-14,
+      "residual_m": 5.659535340374333e-17,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-recess-valley",
+      "configuration": "default",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.887676038879,
+        0.5125,
+        -2.365
+      ],
+      "value_mm": 4.2934406030425976e-14,
+      "residual_m": 4.2934406030425976e-17,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-recess-sector2",
+      "configuration": "default",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.7,
+        1.212435565298,
+        -2.365
+      ],
+      "value_mm": 1.8545278160364553e-13,
+      "residual_m": 1.8545278160364553e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-recess-sector2-valley",
+      "configuration": "default",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        1.025,
+        -2.365
+      ],
+      "value_mm": -2.1684043449710089e-16,
+      "residual_m": 2.168404344971009e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-recess-floor",
+      "configuration": "default",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        0.5125,
+        0.0,
+        -1.73
+      ],
+      "value_mm": -0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-thread-crest",
+      "configuration": "default",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1.5,
+        0.0,
+        5.5
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-thread-root",
+      "configuration": "default",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1.229367061317,
+        0.0,
+        5.75
+      ],
+      "value_mm": -3.629908873481469e-13,
+      "residual_m": 3.629908873481469e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-thread-flank",
+      "configuration": "default",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1.391746824527,
+        0.0,
+        5.59375
+      ],
+      "value_mm": 5.4860629927766524e-14,
+      "residual_m": 5.4860629927766524e-17,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-thread-helix",
+      "configuration": "default",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        1.5,
+        5.625
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "default-tip",
+      "configuration": "default",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        0.614683530659,
+        0.0,
+        10.0
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-head-side",
+      "configuration": "oblique",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        13.263033073864,
+        -4.691592329207,
+        3.675462090932
+      ],
+      "value_mm": -2.5630748738680875e-07,
+      "residual_m": 2.5630748738680875e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-head-top",
+      "configuration": "oblique",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        12.293183913142,
+        -4.549215899506,
+        2.271985494151
+      ],
+      "value_mm": 1.1648205728957695e-07,
+      "residual_m": 1.1648205728957695e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-head-round",
+      "configuration": "oblique",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        12.780211654875,
+        -4.043884866032,
+        2.513913047046
+      ],
+      "value_mm": -5.705138331158974e-08,
+      "residual_m": 5.705138331158974e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-head-seat",
+      "configuration": "oblique",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        13.358466814049,
+        -5.878008965209,
+        4.754319341476
+      ],
+      "value_mm": -1.6608521871165627e-07,
+      "residual_m": 1.6608521871165627e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-head-fillet",
+      "configuration": "oblique",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        12.964043265991,
+        -6.374336527862,
+        4.628267132048
+      ],
+      "value_mm": -3.1453794024926835e-07,
+      "residual_m": 3.1453794024926835e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-shank",
+      "configuration": "oblique",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        13.103548834713,
+        -6.659177443,
+        5.042273562
+      ],
+      "value_mm": -2.7744974265102307e-07,
+      "residual_m": 2.7744974265102307e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-recess-lobe",
+      "configuration": "oblique",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        12.157712190178,
+        -5.261454409765,
+        2.663410731944
+      ],
+      "value_mm": 2.1932734084852482e-07,
+      "residual_m": 2.1932734084852482e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-recess-junction",
+      "configuration": "oblique",
+      "where": "recess wall at 12.645 deg",
+      "kind": "boundary",
+      "point_mm": [
+        11.838205483835,
+        -5.295098140833,
+        2.762198414905
+      ],
+      "value_mm": 1.5012967876249644e-07,
+      "residual_m": 1.5012967876249644e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-recess-mid",
+      "configuration": "oblique",
+      "where": "recess wall at 21.323 deg",
+      "kind": "boundary",
+      "point_mm": [
+        11.623242351518,
+        -5.399971459484,
+        2.777263765367
+      ],
+      "value_mm": 2.2091388766042053e-07,
+      "residual_m": 2.2091388766042053e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-recess-valley",
+      "configuration": "oblique",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        11.468844652464,
+        -5.420849866824,
+        2.822113897925
+      ],
+      "value_mm": 2.4111040551264007e-07,
+      "residual_m": 2.4111040551264007e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-recess-sector2",
+      "configuration": "oblique",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        10.847837158277,
+        -5.256706028932,
+        3.157581606928
+      ],
+      "value_mm": 2.0296784630606524e-07,
+      "residual_m": 2.0296784630606524e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-recess-sector2-valley",
+      "configuration": "oblique",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        10.545538796949,
+        -5.860161510096,
+        2.893783816698
+      ],
+      "value_mm": 1.278937071264724e-07,
+      "residual_m": 1.278937071264724e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-recess-floor",
+      "configuration": "oblique",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        11.795829331538,
+        -6.244024759155,
+        2.970782746159
+      ],
+      "value_mm": 1.2830493742108096e-07,
+      "residual_m": 1.2830493742108096e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-thread-crest",
+      "configuration": "oblique",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        14.603625363373,
+        -9.159304990766,
+        9.042477638427
+      ],
+      "value_mm": -3.0044158784089947e-07,
+      "residual_m": 3.0044158784089947e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-thread-root",
+      "configuration": "oblique",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        14.51035422215,
+        -9.487396679646,
+        9.181756227605
+      ],
+      "value_mm": -3.030208182899091e-07,
+      "residual_m": 3.030208182899091e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-thread-flank",
+      "configuration": "oblique",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        14.564422870863,
+        -9.287384939616,
+        9.093138311375
+      ],
+      "value_mm": -5.010361168924365e-07,
+      "residual_m": 5.010361168924365e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-thread-helix",
+      "configuration": "oblique",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        12.624986605237,
+        -9.689347047206,
+        9.607870495837
+      ],
+      "value_mm": -1.1073783274910542e-07,
+      "residual_m": 1.1073783274910542e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "oblique-tip",
+      "configuration": "oblique",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        15.414378175055,
+        -12.09236677979,
+        12.47374761775
+      ],
+      "value_mm": -1.2725117140566233e-07,
+      "residual_m": 1.2725117140566233e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-head-side",
+      "configuration": "rotated",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        1.263033073864,
+        2.808407670793,
+        -0.574537909068
+      ],
+      "value_mm": -1.2588778110222965e-08,
+      "residual_m": 1.2588778110222965e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-head-top",
+      "configuration": "rotated",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        0.293183913142,
+        2.950784100494,
+        -1.978014505849
+      ],
+      "value_mm": -1.710840258524471e-08,
+      "residual_m": 1.710840258524471e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-head-round",
+      "configuration": "rotated",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.780211654875,
+        3.456115133968,
+        -1.736086952954
+      ],
+      "value_mm": -3.404785242806796e-08,
+      "residual_m": 3.404785242806796e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-head-seat",
+      "configuration": "rotated",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        1.358466814049,
+        1.621991034791,
+        0.504319341476
+      ],
+      "value_mm": -3.249475905367505e-08,
+      "residual_m": 3.249475905367505e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-head-fillet",
+      "configuration": "rotated",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.964043265991,
+        1.125663472138,
+        0.378267132048
+      ],
+      "value_mm": -4.774004484103551e-08,
+      "residual_m": 4.774004484103551e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-shank",
+      "configuration": "rotated",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        1.103548834713,
+        0.840822557,
+        0.792273562
+      ],
+      "value_mm": -3.373103445863945e-08,
+      "residual_m": 3.373103445863945e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-recess-lobe",
+      "configuration": "rotated",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.157712190178,
+        2.238545590235,
+        -1.586589268056
+      ],
+      "value_mm": -2.43913579112999e-08,
+      "residual_m": 2.43913579112999e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-recess-junction",
+      "configuration": "rotated",
+      "where": "recess wall at 12.645 deg",
+      "kind": "boundary",
+      "point_mm": [
+        -0.161794516165,
+        2.204901859167,
+        -1.487801585095
+      ],
+      "value_mm": -3.590934635148285e-08,
+      "residual_m": 3.590934635148285e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-recess-mid",
+      "configuration": "rotated",
+      "where": "recess wall at 21.323 deg",
+      "kind": "boundary",
+      "point_mm": [
+        -0.376757648482,
+        2.100028540516,
+        -1.472736234633
+      ],
+      "value_mm": -3.4099567787493346e-08,
+      "residual_m": 3.4099567787493346e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-recess-valley",
+      "configuration": "rotated",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        -0.531155347536,
+        2.079150133176,
+        -1.427886102075
+      ],
+      "value_mm": -3.1364053715288165e-08,
+      "residual_m": 3.1364053715288165e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-recess-sector2",
+      "configuration": "rotated",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        -1.152162841723,
+        2.243293971068,
+        -1.092418393072
+      ],
+      "value_mm": -2.52530178300632e-08,
+      "residual_m": 2.52530178300632e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-recess-sector2-valley",
+      "configuration": "rotated",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        -1.454461203051,
+        1.639838489904,
+        -1.356216183302
+      ],
+      "value_mm": 5.077930805875985e-09,
+      "residual_m": 5.077930805875985e-12,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-recess-floor",
+      "configuration": "rotated",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        -0.204170668462,
+        1.255975240845,
+        -1.279217253841
+      ],
+      "value_mm": -5.285522453740699e-09,
+      "residual_m": 5.285522453740699e-12,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-thread-crest",
+      "configuration": "rotated",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.603625363373,
+        -1.659304990766,
+        4.792477638427
+      ],
+      "value_mm": -5.672287878115412e-08,
+      "residual_m": 5.672287878115412e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-thread-root",
+      "configuration": "rotated",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.51035422215,
+        -1.987396679646,
+        4.931756227605
+      ],
+      "value_mm": -5.930211031436594e-08,
+      "residual_m": 5.930211031436594e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-thread-flank",
+      "configuration": "rotated",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.564422870863,
+        -1.787384939616,
+        4.843138311375
+      ],
+      "value_mm": -3.80950525031426e-08,
+      "residual_m": 3.80950525031426e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-thread-helix",
+      "configuration": "rotated",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.624986605237,
+        -2.189347047206,
+        5.357870495837
+      ],
+      "value_mm": 1.2077870387844358e-08,
+      "residual_m": 1.2077870387844358e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "rotated-tip",
+      "configuration": "rotated",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        3.414378175055,
+        -4.59236677979,
+        8.22374761775
+      ],
+      "value_mm": 6.339290203882797e-09,
+      "residual_m": 6.339290203882797e-12,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-head-side",
+      "configuration": "farfield",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        1201.263033073864,
+        -747.191592329207,
+        424.425462090932
+      ],
+      "value_mm": -3.2558975484459074e-05,
+      "residual_m": 3.2558975484459074e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-head-top",
+      "configuration": "farfield",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        1200.293183913142,
+        -747.049215899506,
+        423.021985494151
+      ],
+      "value_mm": 2.4066805399914834e-05,
+      "residual_m": 2.4066805399914834e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-head-round",
+      "configuration": "farfield",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        1200.780211654875,
+        -746.543884866031,
+        423.263913047046
+      ],
+      "value_mm": -5.960372864157685e-06,
+      "residual_m": 5.960372864157685e-09,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-head-seat",
+      "configuration": "farfield",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        1201.358466814049,
+        -748.378008965209,
+        425.504319341476
+      ],
+      "value_mm": -2.41164086341953e-05,
+      "residual_m": 2.41164086341953e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-head-fillet",
+      "configuration": "farfield",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        1200.964043265991,
+        -748.874336527861,
+        425.378267132048
+      ],
+      "value_mm": -4.0091508436427745e-05,
+      "residual_m": 4.0091508436427745e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-shank",
+      "configuration": "farfield",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        1201.103548834712,
+        -749.159177443,
+        425.792273562
+      ],
+      "value_mm": -3.2580000753224675e-05,
+      "residual_m": 3.2580000753224675e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-recess-lobe",
+      "configuration": "farfield",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1200.157712190178,
+        -747.761454409765,
+        423.413410731944
+      ],
+      "value_mm": 3.2520746945418136e-05,
+      "residual_m": 3.2520746945418136e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-recess-junction",
+      "configuration": "farfield",
+      "where": "recess wall at 12.645 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1199.838205483835,
+        -747.795098140833,
+        423.512198414905
+      ],
+      "value_mm": -1.7693748758469338e-05,
+      "residual_m": 1.7693748758469338e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-recess-mid",
+      "configuration": "farfield",
+      "where": "recess wall at 21.323 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1199.623242351518,
+        -747.899971459484,
+        423.527263765367
+      ],
+      "value_mm": 1.3267001768013653e-06,
+      "residual_m": 1.3267001768013653e-09,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-recess-valley",
+      "configuration": "farfield",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1199.468844652464,
+        -747.920849866824,
+        423.572113897925
+      ],
+      "value_mm": 1.4223120594269653e-05,
+      "residual_m": 1.4223120594269653e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-recess-sector2",
+      "configuration": "farfield",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1198.847837158276,
+        -747.756706028932,
+        423.907581606928
+      ],
+      "value_mm": -7.888127315561471e-06,
+      "residual_m": 7.888127315561471e-09,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-recess-sector2-valley",
+      "configuration": "farfield",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1198.545538796949,
+        -748.360161510096,
+        423.643783816698
+      ],
+      "value_mm": -2.7860279452050253e-05,
+      "residual_m": 2.7860279452050253e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-recess-floor",
+      "configuration": "farfield",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        1199.795829331538,
+        -748.744024759155,
+        423.720782746159
+      ],
+      "value_mm": 2.4078628289804158e-05,
+      "residual_m": 2.4078628289804158e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-thread-crest",
+      "configuration": "farfield",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1202.603625363373,
+        -751.659304990766,
+        429.792477638427
+      ],
+      "value_mm": -3.2602991821475275e-05,
+      "residual_m": 3.2602991821475275e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-thread-root",
+      "configuration": "farfield",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1202.51035422215,
+        -751.987396679646,
+        429.931756227605
+      ],
+      "value_mm": -3.260551390774774e-05,
+      "residual_m": 3.260551390774774e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-thread-flank",
+      "configuration": "farfield",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1202.564422870862,
+        -751.787384939616,
+        429.843138311375
+      ],
+      "value_mm": -7.705872713602117e-05,
+      "residual_m": 7.705872713602117e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-thread-helix",
+      "configuration": "farfield",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        1200.624986605237,
+        -752.189347047206,
+        430.357870495837
+      ],
+      "value_mm": 2.7878788505823413e-05,
+      "residual_m": 2.7878788505823413e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "farfield-tip",
+      "configuration": "farfield",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        1203.414378175055,
+        -754.59236677979,
+        433.22374761775
+      ],
+      "value_mm": -2.4077574510561472e-05,
+      "residual_m": 2.4077574510561472e-08,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-head-side",
+      "configuration": "m8",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        6.5,
+        0.0,
+        -4.0
+      ],
+      "value_mm": -8.070628540468583e-08,
+      "residual_m": 8.070628540468583e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-head-top",
+      "configuration": "m8",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        4.8325,
+        0.0,
+        -8.0
+      ],
+      "value_mm": -4.64535007682625e-09,
+      "residual_m": 4.64535007682625e-12,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-head-round",
+      "configuration": "m8",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        6.265685424949,
+        0.0,
+        -7.765685424949
+      ],
+      "value_mm": 1.4325606022616566e-08,
+      "residual_m": 1.4325606022616566e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-head-seat",
+      "configuration": "m8",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        5.45,
+        0.0,
+        0.0
+      ],
+      "value_mm": -1.04571156855221e-07,
+      "residual_m": 1.04571156855221e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-head-fillet",
+      "configuration": "m8",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        4.117157287525,
+        0.0,
+        0.117157287525
+      ],
+      "value_mm": -1.3101147407603222e-07,
+      "residual_m": 1.3101147407603222e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-shank",
+      "configuration": "m8",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        4.0,
+        0.0,
+        8.7
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-recess-lobe",
+      "configuration": "m8",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        3.965,
+        0.0,
+        -6.345
+      ],
+      "value_mm": -3.2526065174565133e-16,
+      "residual_m": 3.2526065174565133e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-recess-junction",
+      "configuration": "m8",
+      "where": "recess wall at 13.167 deg",
+      "kind": "boundary",
+      "point_mm": [
+        3.325547010798,
+        0.777992490629,
+        -6.345
+      ],
+      "value_mm": -7.32920668600201e-14,
+      "residual_m": 7.32920668600201e-17,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-recess-mid",
+      "configuration": "m8",
+      "where": "recess wall at 21.584 deg",
+      "kind": "boundary",
+      "point_mm": [
+        2.718137248044,
+        1.075287104018,
+        -6.345
+      ],
+      "value_mm": 1.5525775109992423e-13,
+      "residual_m": 1.5525775109992423e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-recess-valley",
+      "configuration": "m8",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        2.442191638672,
+        1.41,
+        -6.345
+      ],
+      "value_mm": 1.0148132334464322e-13,
+      "residual_m": 1.0148132334464322e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-recess-sector2",
+      "configuration": "m8",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.9825,
+        3.433790726005,
+        -6.345
+      ],
+      "value_mm": 2.587990585722899e-13,
+      "residual_m": 2.587990585722899e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-recess-sector2-valley",
+      "configuration": "m8",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        2.82,
+        -6.345
+      ],
+      "value_mm": -0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-recess-floor",
+      "configuration": "m8",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        1.41,
+        0.0,
+        -4.69
+      ],
+      "value_mm": -4.3368086899420177e-16,
+      "residual_m": 4.336808689942018e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-thread-crest",
+      "configuration": "m8",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        4.0,
+        0.0,
+        30.75
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-thread-root",
+      "configuration": "m8",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        3.323417653293,
+        0.0,
+        31.375
+      ],
+      "value_mm": -4.0766001685454967e-13,
+      "residual_m": 4.0766001685454967e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-thread-flank",
+      "configuration": "m8",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        3.729367061317,
+        0.0,
+        30.984375
+      ],
+      "value_mm": -3.5822039778921066e-13,
+      "residual_m": 3.5822039778921066e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-thread-helix",
+      "configuration": "m8",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        4.0,
+        31.0625
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "m8-tip",
+      "configuration": "m8",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        1.661708826647,
+        0.0,
+        45.0
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-head-side",
+      "configuration": "t25",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        4.25,
+        0.0,
+        -2.5
+      ],
+      "value_mm": 7.282381815632011e-08,
+      "residual_m": 7.282381815632011e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-head-top",
+      "configuration": "t25",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        3.0,
+        0.0,
+        -5.0
+      ],
+      "value_mm": -4.906758332978711e-08,
+      "residual_m": 4.906758332978711e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-head-round",
+      "configuration": "t25",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        4.103553390593,
+        0.0,
+        -4.853553390593
+      ],
+      "value_mm": 1.6797813790978e-08,
+      "residual_m": 1.6797813790978e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-head-seat",
+      "configuration": "t25",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        3.475,
+        0.0,
+        0.0
+      ],
+      "value_mm": -5.440893438915517e-08,
+      "residual_m": 5.440893438915517e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-head-fillet",
+      "configuration": "t25",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        2.558578643763,
+        0.0,
+        0.058578643763
+      ],
+      "value_mm": -1.1821947690530618e-08,
+      "residual_m": 1.1821947690530618e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-shank",
+      "configuration": "t25",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        2.5,
+        0.0,
+        0.9
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-recess-lobe",
+      "configuration": "t25",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        2.25,
+        0.0,
+        -3.985
+      ],
+      "value_mm": -1.6263032587282567e-16,
+      "residual_m": 1.6263032587282567e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-recess-junction",
+      "configuration": "t25",
+      "where": "recess wall at 12.904 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.90737029666,
+        0.437002997009,
+        -3.985
+      ],
+      "value_mm": 3.2829641782861074e-13,
+      "residual_m": 3.2829641782861074e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-recess-mid",
+      "configuration": "t25",
+      "where": "recess wall at 21.452 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.567363936644,
+        0.61589230086,
+        -3.985
+      ],
+      "value_mm": 5.32018006038637e-13,
+      "residual_m": 5.32018006038637e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-recess-valley",
+      "configuration": "t25",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.40729128115,
+        0.8125,
+        -3.985
+      ],
+      "value_mm": -2.484991379336776e-13,
+      "residual_m": 2.484991379336776e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-recess-sector2",
+      "configuration": "t25",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.125,
+        1.948557158515,
+        -3.985
+      ],
+      "value_mm": -1.1329912702473521e-14,
+      "residual_m": 1.1329912702473521e-17,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-recess-sector2-valley",
+      "configuration": "t25",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        1.625,
+        -3.985
+      ],
+      "value_mm": -1.0842021724855044e-16,
+      "residual_m": 1.0842021724855044e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-recess-floor",
+      "configuration": "t25",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        0.8125,
+        0.0,
+        -2.97
+      ],
+      "value_mm": -4.3368086899420177e-16,
+      "residual_m": 4.336808689942018e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-thread-crest",
+      "configuration": "t25",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.5,
+        0.0,
+        8.8
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-thread-root",
+      "configuration": "t25",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.066987298108,
+        0.0,
+        9.2
+      ],
+      "value_mm": 2.190088388420719e-13,
+      "residual_m": 2.190088388420719e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-thread-flank",
+      "configuration": "t25",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.326794919243,
+        0.0,
+        8.95
+      ],
+      "value_mm": -1.1232334506949826e-13,
+      "residual_m": 1.1232334506949826e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-thread-helix",
+      "configuration": "t25",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        2.5,
+        9.0
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "t25-tip",
+      "configuration": "t25",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        1.033493649054,
+        0.0,
+        16.0
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-head-side",
+      "configuration": "tamper",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        4.25,
+        0.0,
+        -2.5
+      ],
+      "value_mm": 7.282381815632011e-08,
+      "residual_m": 7.282381815632011e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-head-top",
+      "configuration": "tamper",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        3.0,
+        0.0,
+        -5.0
+      ],
+      "value_mm": -4.906758332978711e-08,
+      "residual_m": 4.906758332978711e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-head-round",
+      "configuration": "tamper",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        4.103553390593,
+        0.0,
+        -4.853553390593
+      ],
+      "value_mm": 1.6797813790978e-08,
+      "residual_m": 1.6797813790978e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-head-seat",
+      "configuration": "tamper",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        3.475,
+        0.0,
+        0.0
+      ],
+      "value_mm": -5.440893438915517e-08,
+      "residual_m": 5.440893438915517e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-head-fillet",
+      "configuration": "tamper",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        2.558578643763,
+        0.0,
+        0.058578643763
+      ],
+      "value_mm": -1.1821947690530618e-08,
+      "residual_m": 1.1821947690530618e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-shank",
+      "configuration": "tamper",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        2.5,
+        0.0,
+        0.9
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-recess-lobe",
+      "configuration": "tamper",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        2.25,
+        0.0,
+        -3.985
+      ],
+      "value_mm": -1.6263032587282567e-16,
+      "residual_m": 1.6263032587282567e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-recess-junction",
+      "configuration": "tamper",
+      "where": "recess wall at 12.904 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.90737029666,
+        0.437002997009,
+        -3.985
+      ],
+      "value_mm": 3.2829641782861074e-13,
+      "residual_m": 3.2829641782861074e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-recess-mid",
+      "configuration": "tamper",
+      "where": "recess wall at 21.452 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.567363936644,
+        0.61589230086,
+        -3.985
+      ],
+      "value_mm": 5.32018006038637e-13,
+      "residual_m": 5.32018006038637e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-recess-valley",
+      "configuration": "tamper",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.40729128115,
+        0.8125,
+        -3.985
+      ],
+      "value_mm": -2.484991379336776e-13,
+      "residual_m": 2.484991379336776e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-recess-sector2",
+      "configuration": "tamper",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.125,
+        1.948557158515,
+        -3.985
+      ],
+      "value_mm": -1.1329912702473521e-14,
+      "residual_m": 1.1329912702473521e-17,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-recess-sector2-valley",
+      "configuration": "tamper",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        1.625,
+        -3.985
+      ],
+      "value_mm": -1.0842021724855044e-16,
+      "residual_m": 1.0842021724855044e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-recess-floor",
+      "configuration": "tamper",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        1.257,
+        0.0,
+        -2.97
+      ],
+      "value_mm": -4.3368086899420177e-16,
+      "residual_m": 4.336808689942018e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-post-side",
+      "configuration": "tamper",
+      "where": "tamper-resistant post, cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        0.889,
+        0.0,
+        -3.985
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-post-top",
+      "configuration": "tamper",
+      "where": "tamper-resistant post, top face",
+      "kind": "boundary",
+      "point_mm": [
+        0.4445,
+        0.0,
+        -5.0
+      ],
+      "value_mm": -2.879798283330395e-17,
+      "residual_m": 2.879798283330395e-20,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-thread-crest",
+      "configuration": "tamper",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.5,
+        0.0,
+        8.8
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-thread-root",
+      "configuration": "tamper",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.066987298108,
+        0.0,
+        9.2
+      ],
+      "value_mm": 2.190088388420719e-13,
+      "residual_m": 2.190088388420719e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-thread-flank",
+      "configuration": "tamper",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.326794919243,
+        0.0,
+        8.95
+      ],
+      "value_mm": -1.1232334506949826e-13,
+      "residual_m": 1.1232334506949826e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-thread-helix",
+      "configuration": "tamper",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        2.5,
+        9.0
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "tamper-tip",
+      "configuration": "tamper",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        1.033493649054,
+        0.0,
+        16.0
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-head-side",
+      "configuration": "custom",
+      "where": "head cylindrical side",
+      "kind": "boundary",
+      "point_mm": [
+        3.666666666667,
+        0.0,
+        -2.0
+      ],
+      "value_mm": -1.1502159424567338e-07,
+      "residual_m": 1.1502159424567338e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-head-top",
+      "configuration": "custom",
+      "where": "flat head top face",
+      "kind": "boundary",
+      "point_mm": [
+        2.408333333333,
+        0.0,
+        -4.0
+      ],
+      "value_mm": -4.318018945875801e-08,
+      "residual_m": 4.318018945875801e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-head-round",
+      "configuration": "custom",
+      "where": "top edge round, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        3.549509379141,
+        0.0,
+        -3.882842712475
+      ],
+      "value_mm": -1.1186571916184385e-07,
+      "residual_m": 1.1186571916184385e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-head-seat",
+      "configuration": "custom",
+      "where": "underhead seating plane",
+      "kind": "boundary",
+      "point_mm": [
+        2.9,
+        0.0,
+        0.0
+      ],
+      "value_mm": -4.246476499429608e-08,
+      "residual_m": 4.246476499429608e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-head-fillet",
+      "configuration": "custom",
+      "where": "underhead fillet, 45 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        2.039052429175,
+        0.0,
+        0.039052429175
+      ],
+      "value_mm": -5.0800006941905534e-08,
+      "residual_m": 5.0800006941905534e-11,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-shank",
+      "configuration": "custom",
+      "where": "plain shank between fillet and thread",
+      "kind": "boundary",
+      "point_mm": [
+        2.0,
+        0.0,
+        0.733333333333
+      ],
+      "value_mm": -1.1502192904730424e-07,
+      "residual_m": 1.1502192904730424e-10,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-recess-lobe",
+      "configuration": "custom",
+      "where": "recess wall at 0.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.55,
+        0.0,
+        -3.153333333333
+      ],
+      "value_mm": 1.6263032587282567e-16,
+      "residual_m": 1.6263032587282567e-19,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-recess-junction",
+      "configuration": "custom",
+      "where": "recess wall at 12.645 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.326642939246,
+        0.297645764423,
+        -3.153333333333
+      ],
+      "value_mm": -2.226951262285226e-13,
+      "residual_m": 2.226951262285226e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-recess-mid",
+      "configuration": "custom",
+      "where": "recess wall at 21.323 deg",
+      "kind": "boundary",
+      "point_mm": [
+        1.095274965323,
+        0.427530751981,
+        -3.153333333333
+      ],
+      "value_mm": 4.5644911461639737e-14,
+      "residual_m": 4.5644911461639737e-17,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-recess-valley",
+      "configuration": "custom",
+      "where": "recess wall at 30.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.982784185902,
+        0.567410714286,
+        -3.153333333333
+      ],
+      "value_mm": -3.117081245895825e-13,
+      "residual_m": 3.1170812458958252e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-recess-sector2",
+      "configuration": "custom",
+      "where": "recess wall at 60.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.775,
+        1.342339375866,
+        -3.153333333333
+      ],
+      "value_mm": -1.0359551758098995e-13,
+      "residual_m": 1.0359551758098995e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-recess-sector2-valley",
+      "configuration": "custom",
+      "where": "recess wall at 90.000 deg",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        1.134821428571,
+        -3.153333333333
+      ],
+      "value_mm": 4.2869353900076845e-13,
+      "residual_m": 4.2869353900076845e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-recess-floor",
+      "configuration": "custom",
+      "where": "recess floor",
+      "kind": "boundary",
+      "point_mm": [
+        0.567410714286,
+        0.0,
+        -2.306666666667
+      ],
+      "value_mm": 3.3328374782204406e-13,
+      "residual_m": 3.3328374782204406e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-thread-crest",
+      "configuration": "custom",
+      "where": "thread crest, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        2.0,
+        0.0,
+        6.666666666667
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-thread-root",
+      "configuration": "custom",
+      "where": "thread root, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1.639156081756,
+        0.0,
+        7.0
+      ],
+      "value_mm": -4.839878497975292e-13,
+      "residual_m": 4.839878497975292e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-thread-flank",
+      "configuration": "custom",
+      "where": "thread flank, theta = 0",
+      "kind": "boundary",
+      "point_mm": [
+        1.855662432703,
+        0.0,
+        6.791666666667
+      ],
+      "value_mm": 9.851060939203293e-13,
+      "residual_m": 9.851060939203293e-16,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-thread-helix",
+      "configuration": "custom",
+      "where": "thread crest, theta = 90 degrees",
+      "kind": "boundary",
+      "point_mm": [
+        0.0,
+        2.0,
+        6.833333333333
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    },
+    {
+      "id": "custom-tip",
+      "configuration": "custom",
+      "where": "flat tip face",
+      "kind": "boundary",
+      "point_mm": [
+        0.819578040878,
+        0.0,
+        12.0
+      ],
+      "value_mm": 0.0,
+      "residual_m": 0.0,
+      "tolerance_m": 1e-07,
+      "verdict": "pass"
+    }
+  ],
+  "sign_samples_omitted": 333,
+  "note": "the 333 sign probes are summarised in `summary` and retained in the ignored output/live_run.json"
+}

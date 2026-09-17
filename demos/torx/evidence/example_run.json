@@ -1,0 +1,229 @@
+{
+  "started": "2026-09-17T02:36:26",
+  "interpreter_pid": 4120,
+  "source": "torx_example_recipe.json",
+  "source_displayname": "Torx compact Boolean example",
+  "source_description": "Configure Torx once, then use Detailed screws or Outer moulds. Both receive matching flush transforms.",
+  "expected": {
+    "imports": 15,
+    "import_names": [
+      "Torx Outer Moulds",
+      "Place Screw",
+      "Countersunk Head 2013",
+      "Torx Internal",
+      "Screw Head",
+      "Pan Head",
+      "Metric Thread Kernel",
+      "Torx Local Development",
+      "Torx",
+      "Torx Outer Mould",
+      "Flush Shift",
+      "Surface Frame",
+      "Resolve Frame",
+      "Torx Screws",
+      "Torx"
+    ],
+    "duplicate_display_names": [
+      "Torx"
+    ],
+    "root_variables": [
+      "Main body",
+      "Torx result pair",
+      "Detailed screws",
+      "Outer moulds",
+      "Detailed subtraction comparison",
+      "Main body minus outer moulds"
+    ],
+    "root_inputs": 0
+  },
+  "example_recipe": "D:\\ntop_dev\\ntop-api-share\\demos\\torx\\inputs\\recorded\\torx_example_recipe.json",
+  "example_recipe_bytes": 1073695,
+  "example_empty_before": {
+    "variables": 0,
+    "sections": 1,
+    "custom_blocks": 0
+  },
+  "example_import_seconds": 13.411,
+  "example_after": {
+    "variables": {
+      "value": [
+        {
+          "name": "Implicit Body Variable",
+          "id": "Main body",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "box<point,real,real,real>"
+        },
+        {
+          "name": "Implicit Body List Variable",
+          "id": "Torx result pair",
+          "funcId": "core.var<list<implicit>>",
+          "blockFuncId": "user_func_e6f29cad_8047_4d0a_827f_0426c72986d0<choice,choice,choice,choice,list<real>,bool,list<real>,bool,list<real>,list<point>,list<vector>,list<vector>,list<real>,choice,implicit,list<real>,list<real>,list<bool>>"
+        },
+        {
+          "name": "Implicit Body List Variable",
+          "id": "Detailed screws",
+          "funcId": "core.var<list<implicit>>",
+          "blockFuncId": "user_func_b9cafd31_9d78_4d9a_a83d_c0693814d603<list<implicit>>"
+        },
+        {
+          "name": "Implicit Body List Variable",
+          "id": "Outer moulds",
+          "funcId": "core.var<list<implicit>>",
+          "blockFuncId": "user_func_145925d8_68ed_46dd_97ad_b0336265af2c<list<implicit>>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Detailed subtraction comparison",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "boolean_subtract<blend_enum,real_field,implicit,list<implicit>>[5.44.0]"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Main body minus outer moulds",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "boolean_subtract<blend_enum,real_field,implicit,list<implicit>>[5.44.0]"
+        }
+      ]
+    },
+    "sections": {
+      "value": [
+        {
+          "name": "Section 1",
+          "id": "section_2"
+        }
+      ]
+    },
+    "custom_blocks": {
+      "value": [
+        {
+          "name": "Torx Outer Moulds",
+          "id": "user_func_145925d8_68ed_46dd_97ad_b0336265af2c<list<implicit>>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx",
+          "id": "user_func_2d03c56b_5be9_4b06_9f0d_43ab52aadc21<choice,choice,choice,choice,real,bool,real,bool,real,point,vector,vector,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Place Screw",
+          "id": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Countersunk Head 2013",
+          "id": "user_func_4c032f9d_493b_4e0e_8d12_686555af1f4b<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Outer Mould",
+          "id": "user_func_4e989921_4528_4173_896e_e82f5a6da73b<integer,integer,real,bool,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Flush Shift",
+          "id": "user_func_5201fcd7_2e44_4ced_ab6d_734aa96b6780<bool,integer,integer,bool,real,vector,vector>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Internal",
+          "id": "user_func_572043a5_b7b0_48dc_a34d_7bf861a46045<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Local Development",
+          "id": "user_func_637b5fda_d5ae_4dd7_ac8c_767d7cdf898f<integer,integer,integer,integer,real,bool,real,bool,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Screw Head",
+          "id": "user_func_7ccfd95e_ec44_428c_b65a_4bd70d781d71<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Resolve Frame",
+          "id": "user_func_89ab1d74_4ab0_40f7_9dac_b230c362bfd9<integer,implicit,point,vector,vector,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Pan Head",
+          "id": "user_func_a1fab3fb_2b5c_46e8_b210_9424e67cdd68<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Metric Thread Kernel",
+          "id": "user_func_a2a5d81f_2c09_41f0_8e4c_87db1150543d<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Surface Frame",
+          "id": "user_func_a8cabca8_edca_4656_8a42_efaaf9415ef3<implicit,point>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Screws",
+          "id": "user_func_b9cafd31_9d78_4d9a_a83d_c0693814d603<list<implicit>>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx",
+          "id": "user_func_e6f29cad_8047_4d0a_827f_0426c72986d0<choice,choice,choice,choice,list<real>,bool,list<real>,bool,list<real>,list<point>,list<vector>,list<vector>,list<real>,choice,implicit,list<real>,list<real>,list<bool>>",
+          "bufferId": 2
+        }
+      ]
+    },
+    "open_custom_block": {
+      "value": {
+        "name": "",
+        "id": "",
+        "bufferId": 0
+      }
+    },
+    "counts": {
+      "variables": 6,
+      "sections": 1,
+      "custom_blocks": 15
+    }
+  },
+  "custom_blocks_created": [
+    "Torx Outer Moulds",
+    "Torx",
+    "Place Screw",
+    "Countersunk Head 2013",
+    "Torx Outer Mould",
+    "Flush Shift",
+    "Torx Internal",
+    "Torx Local Development",
+    "Screw Head",
+    "Resolve Frame",
+    "Pan Head",
+    "Metric Thread Kernel",
+    "Surface Frame",
+    "Torx Screws",
+    "Torx"
+  ],
+  "custom_blocks_count": 15,
+  "both_torx_blocks_kept": true,
+  "variables": [
+    "Main body",
+    "Torx result pair",
+    "Detailed screws",
+    "Outer moulds",
+    "Detailed subtraction comparison",
+    "Main body minus outer moulds"
+  ],
+  "variable_states": {
+    "Main body": "e_OK",
+    "Torx result pair": "e_OK",
+    "Detailed screws": "e_OK",
+    "Outer moulds": "e_OK",
+    "Detailed subtraction comparison": "e_OK",
+    "Main body minus outer moulds": "e_OK"
+  },
+  "variables_ok": 6,
+  "model": "Torx_Example.ntop",
+  "model_bytes": 1559105,
+  "readback_bytes": 13618,
+  "finished": "2026-09-17T02:36:44",
+  "scope": "one import and a graph readback. The geometry of this example is not re-verified here; the Torx demo's own samples cover the screw it calls."
+}

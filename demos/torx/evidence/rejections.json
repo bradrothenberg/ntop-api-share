@@ -1,0 +1,315 @@
+{
+  "started": "2026-09-17T01:44:24",
+  "rejections_recipe": "torx_rejections_recipe.json",
+  "rejections_recipe_bytes": 1071501,
+  "rejections_empty_before": {
+    "variables": 0,
+    "sections": 1,
+    "custom_blocks": 0
+  },
+  "rejections_import_seconds": 54.885,
+  "rejections_after": {
+    "variables": {
+      "value": [
+        {
+          "name": "Implicit Body Variable",
+          "id": "Control",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d control",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Reject tamper-t6",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d reject tamper-t6",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Reject recess-too-large",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d reject recess-too-large",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Reject too-short",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d reject too-short",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Reject csk-too-short",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d reject csk-too-short",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Reject pan-m12",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d reject pan-m12",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        },
+        {
+          "name": "Implicit Body Variable",
+          "id": "Reject csk-thin-floor",
+          "funcId": "core.var<implicit>",
+          "blockFuncId": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>"
+        },
+        {
+          "name": "Scalar Variable",
+          "id": "d reject csk-thin-floor",
+          "funcId": "core.var<real>",
+          "blockFuncId": "evaluate_field<real_field,point>"
+        }
+      ]
+    },
+    "sections": {
+      "value": [
+        {
+          "name": "Section 1",
+          "id": "section_2"
+        }
+      ]
+    },
+    "custom_blocks": {
+      "value": [
+        {
+          "name": "Place Screw",
+          "id": "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c<implicit,point,vector,vector,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Countersunk Head 2013",
+          "id": "user_func_4c032f9d_493b_4e0e_8d12_686555af1f4b<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Internal",
+          "id": "user_func_572043a5_b7b0_48dc_a34d_7bf861a46045<real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Screw Head",
+          "id": "user_func_7ccfd95e_ec44_428c_b65a_4bd70d781d71<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Torx Local Development",
+          "id": "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b<integer,integer,integer,integer,real,bool,real,bool,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Pan Head",
+          "id": "user_func_a1fab3fb_2b5c_46e8_b210_9424e67cdd68<real,real,real,real,real,real>",
+          "bufferId": 2
+        },
+        {
+          "name": "Metric Thread Kernel",
+          "id": "user_func_a2a5d81f_2c09_41f0_8e4c_87db1150543d<real,real,real,real,real,real>",
+          "bufferId": 2
+        }
+      ]
+    },
+    "open_custom_block": {
+      "value": {
+        "name": "",
+        "id": "",
+        "bufferId": 0
+      }
+    },
+    "counts": {
+      "variables": 14,
+      "sections": 1,
+      "custom_blocks": 7
+    }
+  },
+  "cases": [
+    {
+      "name": "control",
+      "gate": null,
+      "why": null,
+      "expected_refused": false,
+      "body_state": {
+        "blockId": "Control",
+        "buildState": "e_OK",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe_state": {
+        "blockId": "d control",
+        "buildState": "e_OK",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe": {
+        "value": -5.421010862427522e-17
+      },
+      "refused": false,
+      "verdict": "pass"
+    },
+    {
+      "name": "tamper-t6",
+      "gate": "family_has_post",
+      "why": "T6 has no sourced tamper-resistant post",
+      "expected_refused": true,
+      "body_state": {
+        "blockId": "Reject tamper-t6",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe_state": {
+        "blockId": "d reject tamper-t6",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe": {
+        "value": null
+      },
+      "refused": true,
+      "verdict": "pass"
+    },
+    {
+      "name": "recess-too-large",
+      "gate": "recess_inside_head",
+      "why": "the recess would break through the head side",
+      "expected_refused": true,
+      "body_state": {
+        "blockId": "Reject recess-too-large",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe_state": {
+        "blockId": "d reject recess-too-large",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe": {
+        "value": null
+      },
+      "refused": true,
+      "verdict": "pass"
+    },
+    {
+      "name": "too-short",
+      "gate": "neck_before_tip",
+      "why": "no threaded length is left below the neck",
+      "expected_refused": true,
+      "body_state": {
+        "blockId": "Reject too-short",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe_state": {
+        "blockId": "d reject too-short",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe": {
+        "value": null
+      },
+      "refused": true,
+      "verdict": "pass"
+    },
+    {
+      "name": "csk-too-short",
+      "gate": "neck_before_tip",
+      "why": "the countersunk head alone exceeds the total length",
+      "expected_refused": true,
+      "body_state": {
+        "blockId": "Reject csk-too-short",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe_state": {
+        "blockId": "d reject csk-too-short",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe": {
+        "value": null
+      },
+      "refused": true,
+      "verdict": "pass"
+    },
+    {
+      "name": "pan-m12",
+      "gate": "nominal_radius_positive",
+      "why": "M12 has no pan row: the source table stops at M10, so the selector returns its sentinel instead of a dimension",
+      "expected_refused": true,
+      "body_state": {
+        "blockId": "Reject pan-m12",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe_state": {
+        "blockId": "d reject pan-m12",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe": {
+        "value": null
+      },
+      "refused": true,
+      "verdict": "pass"
+    },
+    {
+      "name": "csk-thin-floor",
+      "gate": "floor_wall",
+      "why": "a countersunk recess deep enough to break out through the cone",
+      "expected_refused": true,
+      "body_state": {
+        "blockId": "Reject csk-thin-floor",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe_state": {
+        "blockId": "d reject csk-thin-floor",
+        "buildState": "e_DIRTY",
+        "pauseState": "e_UNPAUSED"
+      },
+      "probe": {
+        "value": null
+      },
+      "refused": true,
+      "verdict": "pass"
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0
+  },
+  "finished": "2026-09-17T01:45:25"
+}

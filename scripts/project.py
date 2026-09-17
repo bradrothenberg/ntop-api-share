@@ -13,6 +13,7 @@ JOBS={
  'fcat':(['replay.py'], 'output/build/recipe.json'),
  'propellers':(['replay.py'], 'output/build/recipe.json'),
  'kestrelsat-corner':(['replay.py'], 'output/build/recipe.json'),
+ 'torx':(['build_torx.py'], 'output/build/torx_recipe.json'),
 }
 def prepare():
     (ROOT/'.local').mkdir(exist_ok=True)

@@ -16,3 +16,5 @@ demos/kestrelsat-corner/** -text whitespace=cr-at-eol
 demos/kestrelsat-corner/inputs/Corner_block_source.step whitespace=cr-at-eol,-blank-at-eol
 # Retain the recorded aircraft snapshot and evidence hashes byte for byte.
 demos/civil-research-aircraft/** -text whitespace=cr-at-eol,-blank-at-eol
+# Retain the recorded Torx evidence: evidence/manifest.json states byte counts.
+demos/torx/** -text whitespace=cr-at-eol,-blank-at-eol

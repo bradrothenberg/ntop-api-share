@@ -1,0 +1,290 @@
+{
+  "body": [
+    {
+      "contents": {
+        "func": "divide<real,real>",
+        "id": "inst102",
+        "inputs": [
+          {
+            "input": 0,
+            "props": [
+              "size"
+            ]
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {},
+              "val": 2.0
+            }
+          }
+        ],
+        "name": "n1",
+        "type": "real"
+      },
+      "id": "inst103",
+      "name": "Fastener count",
+      "type": "real",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "and<bool,bool>",
+        "id": "inst107",
+        "inputs": [
+          {
+            "func": "equals<real,real>",
+            "id": "inst104",
+            "inputs": [
+              {
+                "props": [],
+                "ref": {
+                  "id": "inst103"
+                }
+              },
+              {
+                "props": [
+                  "round"
+                ],
+                "ref": {
+                  "id": "inst103"
+                }
+              }
+            ],
+            "name": "n2",
+            "type": "bool"
+          },
+          {
+            "func": "greater_than<real,real>",
+            "id": "inst106",
+            "inputs": [
+              {
+                "props": [],
+                "ref": {
+                  "id": "inst103"
+                }
+              },
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {},
+                  "val": 0.0
+                }
+              }
+            ],
+            "name": "n3",
+            "type": "bool"
+          }
+        ],
+        "name": "n4",
+        "type": "bool"
+      },
+      "id": "inst108",
+      "name": "Non-empty paired result",
+      "type": "bool",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "sequence<real,real,integer>",
+        "id": "inst113",
+        "inputs": [
+          {
+            "func": "core.if<bool,any,1>",
+            "id": "inst109",
+            "inputs": [
+              {
+                "props": [],
+                "ref": {
+                  "id": "inst108"
+                }
+              },
+              {
+                "props": [],
+                "ref": {
+                  "id": "inst103"
+                }
+              },
+              {
+                "input": 0,
+                "props": [
+                  "size"
+                ]
+              }
+            ],
+            "name": "n5",
+            "type": "real"
+          },
+          {
+            "type": "real",
+            "value": {
+              "isFinite": true,
+              "units": {},
+              "val": 1.0
+            }
+          },
+          {
+            "func": "core.if<bool,any,1>",
+            "id": "inst112",
+            "inputs": [
+              {
+                "props": [],
+                "ref": {
+                  "id": "inst108"
+                }
+              },
+              {
+                "props": [
+                  "round"
+                ],
+                "ref": {
+                  "id": "inst103"
+                }
+              },
+              {
+                "type": "integer",
+                "value": {
+                  "val": 1
+                }
+              }
+            ],
+            "name": "n6",
+            "type": "integer"
+          }
+        ],
+        "name": "n7",
+        "type": "list<real>"
+      },
+      "id": "inst114",
+      "name": "Native extraction indices",
+      "type": "list<real>",
+      "variable": true
+    },
+    {
+      "contents": {
+        "func": "core.list_element<list_interface,integer>",
+        "id": "inst115",
+        "inputs": [
+          {
+            "input": 0,
+            "props": []
+          },
+          {
+            "props": [
+              "round"
+            ],
+            "ref": {
+              "id": "inst114"
+            }
+          }
+        ],
+        "name": "n8",
+        "type": "list<implicit>"
+      },
+      "id": "inst116",
+      "name": "Outer moulds",
+      "type": "list<implicit>",
+      "variable": true
+    }
+  ],
+  "description": "Extract the outer mould list from one Torx V2 result. No placement or size inputs need repeating.",
+  "displayname": "Torx Outer Moulds",
+  "inputs": [
+    {
+      "contents": {
+        "func": "core.list<implicit>",
+        "id": "inst108",
+        "inputs": [
+          {
+            "func": "sphere<point,real>",
+            "id": "inst104",
+            "inputs": [
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  }
+                ]
+              },
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": 0.001
+                }
+              }
+            ],
+            "name": "d4",
+            "type": "sphere"
+          },
+          {
+            "func": "sphere<point,real>",
+            "id": "inst107",
+            "inputs": [
+              {
+                "type": "point",
+                "value": [
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  },
+                  {
+                    "isFinite": true,
+                    "val": 0.0
+                  }
+                ]
+              },
+              {
+                "type": "real",
+                "value": {
+                  "isFinite": true,
+                  "units": {
+                    "length": 1
+                  },
+                  "val": 0.002
+                }
+              }
+            ],
+            "name": "d5",
+            "type": "sphere"
+          }
+        ],
+        "name": "d6",
+        "type": "list<implicit>"
+      },
+      "description": "Connect the complete Torx V2 output. First half: detailed screws; second half: matching outer moulds.",
+      "dimension": {},
+      "name": "Torx result",
+      "type": "list<implicit>"
+    }
+  ],
+  "name": "user_func_145925d8_68ed_46dd_97ad_b0336265af2c",
+  "namespaces": [],
+  "output": {
+    "id": "inst116"
+  },
+  "version": [
+    1,
+    0,
+    0
+  ]
+}

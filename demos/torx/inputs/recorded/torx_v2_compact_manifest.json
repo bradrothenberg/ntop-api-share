@@ -1,0 +1,34 @@
+{
+  "Torx.json": {
+    "bytes": 1033099,
+    "sha256": "c5299666abf03a6ade1f77367734473d9fa0c5696650e5f08c1df05dbca14de1"
+  },
+  "Torx.ntop": {
+    "bytes": 1367456,
+    "sha256": "7bab7b6beb2d500e3fce47014775cef338f7a5731609167b6edc0ae47f7f7aec"
+  },
+  "Torx_Example.json": {
+    "bytes": 1073695,
+    "sha256": "94554a230c09ec54bf67f534f3f9b6fd48428e142fd898e78bf5c6457490443b"
+  },
+  "Torx_Example.ntop": {
+    "bytes": 1544256,
+    "sha256": "39e28eb7616b1298b6daf5b6a24c46b4c98400b648d222d2e5333d7d4ff5c569"
+  },
+  "Torx_Outer_Moulds.json": {
+    "bytes": 6984,
+    "sha256": "9f07845b273f33c5f17953bfba4c94c5f172ca4b1483fe28a3dc63f21f29cf0a"
+  },
+  "Torx_Outer_Moulds.ntop": {
+    "bytes": 13837,
+    "sha256": "ad94d45afb15b7c33ea8d1a38c916f4c207779615bd6a1451b0dc2678fd18c3f"
+  },
+  "Torx_Screws.json": {
+    "bytes": 7053,
+    "sha256": "59154d7fa6dc72e52a7bc3d95d72cbd7ec8f3006a02e9c0c6b2b4d1d97d588d6"
+  },
+  "Torx_Screws.ntop": {
+    "bytes": 14099,
+    "sha256": "432978dfcb4396e4e0b5246e4c6c8eda9cc1cb57850b6e62e95f088376df0cf1"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "graph": {
+    "source": "torx_example_recipe.json",
+    "source_displayname": "Torx compact Boolean example",
+    "source_imports": 15,
+    "source_root_body": 6,
+    "source_root_inputs": 0,
+    "duplicate_display_names": [
+      "Torx"
+    ],
+    "readback_root_body": 6,
+    "readback_carries_imports": false,
+    "same_variable_order": true,
+    "identical": true
+  },
+  "manifest": {
+    "release": "D:\\ntop_dev\\ntop-mcp\\projects\\torx\\release\\V2_compact",
+    "files": [
+      {
+        "file": "Torx.json",
+        "manifest_bytes": 1033099,
+        "on_disk_bytes": 1033099,
+        "matches": true
+      },
+      {
+        "file": "Torx.ntop",
+        "manifest_bytes": 1367456,
+        "on_disk_bytes": 1367456,
+        "matches": true
+      },
+      {
+        "file": "Torx_Example.json",
+        "manifest_bytes": 1073695,
+        "on_disk_bytes": 1073695,
+        "matches": true
+      },
+      {
+        "file": "Torx_Example.ntop",
+        "manifest_bytes": 1544256,
+        "on_disk_bytes": 15233693,
+        "matches": false
+      },
+      {
+        "file": "Torx_Outer_Moulds.json",
+        "manifest_bytes": 6984,
+        "on_disk_bytes": 6984,
+        "matches": true
+      },
+      {
+        "file": "Torx_Outer_Moulds.ntop",
+        "manifest_bytes": 13837,
+        "on_disk_bytes": 13837,
+        "matches": true
+      },
+      {
+        "file": "Torx_Screws.json",
+        "manifest_bytes": 7053,
+        "on_disk_bytes": 7053,
+        "matches": true
+      },
+      {
+        "file": "Torx_Screws.ntop",
+        "manifest_bytes": 14099,
+        "on_disk_bytes": 14099,
+        "matches": true
+      }
+    ],
+    "checked": 8,
+    "matching": 7,
+    "mismatched": [
+      "Torx_Example.ntop"
+    ],
+    "note": "a mismatch here is a fact about the source release, not about this demo; the origin project is read-only from here"
+  },
+  "imported_notebook": {
+    "file": "Torx_Example.ntop",
+    "bytes": 1559105,
+    "manifest_bytes": 1544256,
+    "relative_to_manifest": 0.0096
+  },
+  "import": {
+    "example_import_seconds": 13.411,
+    "custom_blocks_count": 15,
+    "both_torx_blocks_kept": true,
+    "variables_ok": 6
+  }
+}

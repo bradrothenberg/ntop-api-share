@@ -1,10 +1,11 @@
 # nTop Notebook API: public demo collection
 
-Twelve editable demonstrations and 39 reports, with six source builders, five saved-graph replay collections, and one native-snapshot collection.
+Thirteen editable demonstrations and 40 reports, with seven source builders, five saved-graph replay collections, and one native-snapshot collection.
 Each demo contains a local agent, scripts, native models, and an HTML report. No private project checkout is required.
 
 | Demo | Learn from it |
 |---|---|
+| [Torx](demos/torx/README.md) | A seven-block custom assembly imported in one call, checked against nTop's own recipe, with 479 field samples against a frozen mirror. |
 | [Civil research aircraft](demos/civil-research-aircraft/README.md) | Revision G and H assemblies, editable structural parts, and ten reports with recorded design and analysis limits. |
 | [KestrelSAT corner](demos/kestrelsat-corner/README.md) | One native CSG part, its original STEP reference, matched geometry views, and measured volume and surface checks. |
 | [Propellers](demos/propellers/README.md) | An eight-inch assembly, separate retained spinner, twenty native two-rail blade studies, and a CFD optimization plan. |
@@ -61,19 +62,21 @@ ntop-api-share/
     models/             Relevant .ntop snapshots
     reports/            Public HTML report and compact assets
     output/             Generated recipes and run evidence; ignored
-  reports/              39-report offline catalogue and shared compact assets
+  reports/              40-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
-  .agents/skills/       Bundled API, CSG, assembly, HTML-report, and PDF-report skills
+  .agents/skills/       Bundled API, CSG, assembly, sheet-metal, packaging, HTML-report, and PDF-report skills
   templates/            HTML report template and offline CSS
   tests/                Portability and graph-invariant checks
 ```
 
 ## Read next
 
+- [Torx](demos/torx/README.md): what `import_recipe` reaches that the live setters cannot, and two behaviours measured on build 42926 that differ from the recorded ones
 - [HTML report skill](.agents/skills/engineering-html/SKILL.md) and [PDF report skill](.agents/skills/engineering-report/SKILL.md): nTop blue highlights, shared design tokens, and reproducible report workflows
 - [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)
-- [Sheet-metal modeling skill](.agents/skills/ntop-sheet-metal/SKILL.md): analytic bends, explicit reliefs, drafted forms, assemblies, blank-development estimates and scoped tooling illustrations
 - [Native assembly modeling skill](.agents/skills/ntop-assembly-modeling/SKILL.md): reusable custom parts, explicit inputs, shared placements, and a generic contract pilot
+- [Sheet-metal modeling skill](.agents/skills/ntop-sheet-metal/SKILL.md): analytic bends, explicit reliefs, drafted forms, assemblies, blank-development estimates and scoped tooling illustrations
+- [Community package skill](.agents/skills/ntop-community-package/SKILL.md): manifest contract, package anatomy, publication checks, and the offline gate for a requested Utilities-community submission
 - [KestrelSAT skill audit](docs/KESTRELSAT_SKILL_AUDIT.md): source coverage, resizing lessons, and recorded pilot scope
 - [Recent modeling lessons](docs/RECENT_MODELING_LEARNINGS.md): bulkheads, marine propellers, skis, KestrelSAT, and DDG(X), with evidence and unfinished experiments separated
 - [Build 42926 changes](docs/API_42926.md) and [propeller workflow lessons](docs/PROPELLER_LEARNINGS.md)

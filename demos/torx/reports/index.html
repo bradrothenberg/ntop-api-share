@@ -1,0 +1,295 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Torx | Seven custom blocks, one import call</title><style>
+:root{color-scheme:light dark;--paper:#f7f8fa;--card:#fff;--panel:#f0f2f5;--ink:#262626;
+--head:#0a0a0a;--muted:#6d6c6a;--rule:#e4e7ec;--strong:#cbd0d8;--accent:#16489d;--tint:#edf2fb;
+--ok:#1a7f4b;--warn:#a2590d}
+@media(prefers-color-scheme:dark){:root{--paper:#171b21;--card:#20262e;--panel:#1b2129;
+--ink:#eef0f4;--head:#fff;--muted:#a8b0bb;--rule:#38414d;--strong:#4a5563;--accent:#248aff;
+--tint:#182436;--ok:#4cc38a;--warn:#e0a458}}
+:root[data-theme="light"]{color-scheme:light;--paper:#f7f8fa;--card:#fff;--panel:#f0f2f5;
+--ink:#262626;--head:#0a0a0a;--muted:#6d6c6a;--rule:#e4e7ec;--strong:#cbd0d8;--accent:#16489d;
+--tint:#edf2fb;--ok:#1a7f4b;--warn:#a2590d}
+:root[data-theme="dark"]{color-scheme:dark;--paper:#171b21;--card:#20262e;--panel:#1b2129;
+--ink:#eef0f4;--head:#fff;--muted:#a8b0bb;--rule:#38414d;--strong:#4a5563;--accent:#248aff;
+--tint:#182436;--ok:#4cc38a;--warn:#e0a458}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:17px/1.65 "Aeonik","Inter",system-ui,sans-serif}
+.wrap{max-width:1060px;margin:auto;padding:36px 26px 90px}
+.toolbar{display:flex;justify-content:flex-end;gap:12px}
+.toolbar button{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--rule);
+border-radius:4px;padding:7px 12px;cursor:pointer}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);
+outline-offset:4px}
+header{border-bottom:2px solid var(--ink);padding:24px 0 30px}
+.kicker,.num,.meta,th,.lbl{font-family:"Aeonik Fono","IBM Plex Mono",ui-monospace,monospace}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{color:var(--head);font-size:clamp(34px,6.6vw,60px);line-height:1.06;letter-spacing:-.035em;
+margin:18px 0 14px}
+.dek{font-size:20px;color:var(--muted);max-width:70ch;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:12px;letter-spacing:.06em;
+text-transform:uppercase;color:var(--muted);margin:22px 0 0}
+h2{color:var(--head);font-size:29px;line-height:1.2;letter-spacing:-.02em;margin:62px 0 6px}
+h3{font-size:19px;margin:34px 0 4px}
+.num{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+color:var(--accent);margin-bottom:10px}
+section{border-top:1px solid var(--rule);padding-top:8px}
+p{max-width:78ch}a{color:var(--accent);text-underline-offset:3px}
+.highlight,mark{background:none;color:var(--accent);font-weight:600}
+.note{border-left:3px solid var(--accent);background:var(--tint);padding:16px 22px;margin:26px 0}
+.note p{margin:0 0 10px}.note p:last-child{margin:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--strong);
+border-bottom:1px solid var(--strong);margin:28px 0}
+.stat{padding:22px 18px 22px 0}
+.stat strong{display:block;color:var(--accent);font-size:clamp(22px,3vw,32px);line-height:1.15;
+letter-spacing:-.025em}
+.stat span{display:block;margin-top:8px;font-size:13px;color:var(--muted)}
+.tw{overflow:auto;margin:22px 0}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{background:var(--panel);font-size:11px;letter-spacing:.09em;text-transform:uppercase;
+color:var(--muted);font-weight:600;text-align:left;padding:10px 14px}
+td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top}
+td.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.pass{color:var(--ok);font-weight:600}.fail{color:var(--warn);font-weight:600}
+figure{margin:24px 0;border:1px solid var(--rule);background:var(--card)}
+figure img{display:block;width:100%;height:auto;background:#0d1117}
+figcaption{padding:14px 18px;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.grid figure{margin:0}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.grid4 figure{margin:0}
+.links{display:flex;flex-wrap:wrap;gap:8px 22px;margin:22px 0}
+code{font:0.88em "Aeonik Fono","IBM Plex Mono",ui-monospace,monospace}
+pre{overflow:auto;padding:16px 18px;background:var(--panel);border:1px solid var(--rule);
+font-size:14px}
+details{border:1px solid var(--rule);background:var(--card);padding:14px 20px;margin:22px 0}
+summary{cursor:pointer;font-weight:600}
+.small{font-size:14px;color:var(--muted)}
+footer{border-top:1px solid var(--rule);margin-top:54px;padding-top:22px;color:var(--muted);
+font-size:14px}
+@media(max-width:760px){.stats,.grid4{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.wrap{padding:20px 16px 56px}.stats,.grid,.grid4{grid-template-columns:1fr}
+.stat{padding:16px 0}.stat+.stat{border-top:1px solid var(--rule)}h2{font-size:25px}
+th,td{min-width:110px}.toolbar{justify-content:flex-start}}
+@media print{.toolbar{display:none}.wrap{max-width:none;padding:0}h2{break-after:avoid}
+figure,tr{break-inside:avoid}}
+</style></head>
+<body><main class="wrap"><div class="toolbar">
+<button id="theme" type="button" aria-pressed="false">Dark theme</button>
+<button type="button" onclick="window.print()">Print report</button></div>
+<header><div class="kicker">nTop / Notebook API / parametric fastener</div>
+<h1>Seven custom blocks.<br>One import call.</h1>
+<p class="dek">A complete parametric Torx screw, ported to the offline recipe harness and
+imported into a live nTop notebook in a single call. The import created all seven custom
+blocks that the recorded API surface lists no method for.</p>
+<div class="meta"><span>nTop 6.1.0-rc build 42926</span><span>PID 28232</span>
+<span>2026-09-17</span><span>1451 graph nodes</span><span>479 field samples</span></div></header><p class="note"><strong>Scope.</strong> One native session on one build.
+The verdict rests on 479 field samples and a graph readback, not on a mesh comparison.
+The 0.1 micrometre gate below verifies the declared CAD construction only: the supplied
+informative contour ratios carry no certified error bound, and no manufacturing conformity
+is claimed.</p><p class="note"><strong>Which notebook these numbers describe.</strong>
+Every measurement on this page was taken on the <em>ported</em> thirteen-input block, rebuilt
+from the source tables and imported by recipe. The notebooks linked below are the
+<em>released</em> V2 compact originals, which expose eighteen inputs: they add Placement mode,
+Reference Body, Tilt X, Tilt Y and Flush, and return a paired screw and mould container read
+through two extractor blocks. The release carries its own verification, recorded in its source
+project. Do not read the figures below as measurements of the released assembly.</p><div class="stats">
+<div class="stat"><strong>8 / 8</strong><span>blocks byte-identical to nTop's own recorded recipe</span></div>
+<div class="stat"><strong>479 / 479</strong><span>field samples pass, worst boundary residual 7.71e-8 m</span></div>
+<div class="stat"><strong>1 call</strong><span>32.7 s for a 1,451 node, seven-block assembly</span></div>
+<div class="stat"><strong>7 / 7</strong><span>invalid configurations refused by the graph's own gate</span></div>
+</div><div class="links">
+<a href="../models/Torx.ntop">Open the released assembly</a>
+<a href="../models/Torx_Example.ntop">Open the released example</a>
+<a href="../README.md">Read the demo notes</a>
+<a href="../evidence/live_run.json">Every measured value</a></div><section><h2><span class="num">01 / The port</span>The same graph, rebuilt in Python</h2>
+<p>The source project authored this screw in JavaScript and converted each block with
+<code>ntopcl</code>. nTop then wrote back what it believes the graph is. That readback is
+kept here as <a href="../inputs/recorded/torx_recorded_recipe.json">the comparison
+reference</a>. <code>torx.py</code> rebuilds the same eight blocks against the recording
+backend in this repository, from the same ISO source tables, and
+<code>check_recipe.py</code> compares the two.</p>
+<p>Identifiers are the only thing allowed to differ, because nTop mints its own on every
+conversion. The exporter also writes a <code>type</code> key on call nodes and an empty
+<code>dimension</code> on dimensionless inputs, which the recipe form omits. Everything
+else has to agree: <mark>every function identifier, every literal value and unit, every
+input index, every reference, every import and every cbRefs entry.</mark></p>
+<div class="tw"><table><thead><tr><th>Block</th><th>Inputs</th><th>Body entries</th><th>Graph nodes</th><th>Against the recorded recipe</th></tr></thead><tbody><tr><td>Countersunk Head 2013</td><td class="n">4</td><td class="n">7</td><td class="n">20</td><td><span class="pass">identical</span></td></tr><tr><td>Torx Internal</td><td class="n">4</td><td class="n">39</td><td class="n">216</td><td><span class="pass">identical</span></td></tr><tr><td>Screw Head</td><td class="n">6</td><td class="n">11</td><td class="n">36</td><td><span class="pass">identical</span></td></tr><tr><td>Pan Head</td><td class="n">6</td><td class="n">13</td><td class="n">42</td><td><span class="pass">identical</span></td></tr><tr><td>Metric Thread Kernel</td><td class="n">6</td><td class="n">11</td><td class="n">29</td><td><span class="pass">identical</span></td></tr><tr><td>Torx Local Development</td><td class="n">9</td><td class="n">49</td><td class="n">998</td><td><span class="pass">identical</span></td></tr><tr><td>Place Screw</td><td class="n">5</td><td class="n">30</td><td class="n">100</td><td><span class="pass">identical</span></td></tr><tr><td>Torx (root)</td><td class="n">13</td><td class="n">6</td><td class="n">10</td><td><span class="pass">identical</span></td></tr></tbody></table></div>
+<p>All 8 agree. The offline build takes 0.063 s and writes a 1,067,220 byte recipe carrying the
+transitive closure of seven definitions in dependency order.</p>
+<p class="small">The one string the port deliberately did not modernise is the description
+of the <code>Metric size index</code> input, which still names the source project's
+<code>catalogue.js</code>. A description belongs to a block's content key, so rewording it
+would have made the block a different block.</p></section><section><h2><span class="num">02 / One call</span>import_recipe creates custom blocks</h2>
+<p>The recorded API surface for build 42926 says that the API edits existing custom blocks
+and lists no method that creates or imports one. Taken at face value that would put this
+screw out of reach of the Notebook API altogether: it is an assembly of seven referenced
+custom blocks, and no sequence of <code>add_block</code> and
+<code>connect_block_property</code> calls can bring a definition into existence.</p>
+<p><mark>It is reachable, through the recipe.</mark> A complete recipe carries its
+definitions in <code>imports</code> and calls them by uuid. Importing one into an empty
+notebook that held <strong>0</strong> custom blocks left it holding <strong>7</strong>,
+named exactly as the recipe names them.</p>
+<div class="tw"><table><thead><tr><th>Import</th><th>Recipe bytes</th><th>Call count</th><th>Seconds</th><th>Variables after</th><th>Custom blocks after</th><th>Saved notebook</th></tr></thead><tbody><tr><td>Public block</td><td class="n">1,067,220</td><td class="n">1</td><td class="n">32.7</td><td class="n">6</td><td class="n">7</td><td class="n">1,379,587 B</td></tr><tr><td>Public block and measurement band</td><td class="n">1,592,175</td><td class="n">1</td><td class="n">186.3</td><td class="n">501</td><td class="n">7</td><td class="n">3,240,685 B</td></tr></tbody></table></div>
+<p>The measurement notebook is the same graph plus 479 <code>evaluate_field</code> probes
+and eight configurations of the assembly. It imports in one call as well, and
+<mark>every probe read a value on the first poll</mark>, in 0.058 s: nothing had to be
+waited on.</p>
+<p class="small">A choice input cannot be set from the live API on this build, so the
+verification band calls the local assembly directly with integer literals the recipe
+carries. The four public Choice Lists are checked separately, by reading back the
+selection variables the root body computes: 4 of 4 resolve to the source identifier the
+assembly expects.</p></section><section><h2><span class="num">02b / The wired example</span>Fifteen definitions, two of them called Torx</h2>
+<p>The origin project also ships an example on top of this screw: one configured
+Torx call feeding two named list extractors and two native Boolean consumers, with
+mould outputs and flush placement. It is the harder import. Fifteen definitions
+nested three deep, and <mark>two of them are both called <code>Torx</code></mark>:
+the thirteen-input public block and the eighteen-input wrapper that adds the mould
+branch and the flush shift. One display name, two behaviours, two uuids.</p>
+<p>A recipe refers to a definition by uuid and never by name, so the ambiguity is
+only in what a human reads. Whether the import would keep both was not known until
+it was run. <mark>It keeps both</mark>: 15 custom blocks from zero, fourteen
+distinct names with <code>Torx</code> twice, in one call and 13.4 s. All 6 root
+variables read <code>e_OK</code>.</p>
+<p>nTop's own readback of the imported notebook, compared against the recipe it
+came from, is <strong>identical</strong> across the root graph, same variables in the same
+order. <code>recipe_only</code> omits the definitions, so that is what the
+comparison covers.</p>
+<h3>Why the recipe travels and the released notebook does not</h3>
+<p>The source release ships a manifest with a size and digest for each file. Seven
+of eight match. <code>Torx_Example.ntop</code> does not.</p>
+<div class="tw"><table><thead><tr><th>Released file</th><th>Manifest bytes</th><th>On disk</th><th>Digest</th></tr></thead><tbody><tr><td>Torx.json</td><td class="n">1,033,099</td><td class="n">1,033,099</td><td><span class="pass">matches</span></td></tr><tr><td>Torx.ntop</td><td class="n">1,367,456</td><td class="n">1,367,456</td><td><span class="pass">matches</span></td></tr><tr><td>Torx_Example.json</td><td class="n">1,073,695</td><td class="n">1,073,695</td><td><span class="pass">matches</span></td></tr><tr><td>Torx_Example.ntop</td><td class="n">1,544,256</td><td class="n">15,233,693</td><td><span class="fail">differs</span></td></tr><tr><td>Torx_Outer_Moulds.json</td><td class="n">6,984</td><td class="n">6,984</td><td><span class="pass">matches</span></td></tr><tr><td>Torx_Outer_Moulds.ntop</td><td class="n">13,837</td><td class="n">13,837</td><td><span class="pass">matches</span></td></tr><tr><td>Torx_Screws.json</td><td class="n">7,053</td><td class="n">7,053</td><td><span class="pass">matches</span></td></tr><tr><td>Torx_Screws.ntop</td><td class="n">14,099</td><td class="n">14,099</td><td><span class="pass">matches</span></td></tr></tbody></table></div>
+<p>Converting a notebook runs every block at its default inputs and caches the
+result inside the file, so the released example had been reconverted after its
+manifest was written and carries about 13.7 MB of cached solve. Copying it would
+have published an artefact that fails its own release manifest. Importing the
+recipe instead produced <mark>1,559,105 bytes, +0.96 per cent of the signed size</mark>.
+The mismatch is a fact about the source release, not about this demo; the origin
+project is read-only from here and was not touched.</p></section><section><h2><span class="num">03 / The yardstick</span>A mirror, frozen before the run</h2>
+<p><code>torx_spec.py</code> is a closed-form mirror with no nTop import: the exact tangent
+arc contour of the recess, the helical thread law, the head sections, the placement frame
+and the validity gate, all in pure Python. It was frozen before the first dispatch.</p>
+<p>It predicts the <strong>surface</strong>, not interior distances. The composed field is
+not a Euclidean signed distance and is not claimed to be one: a revolved body carries its
+section distance in the half plane, the thread carries a radial residual with axial caps,
+and the sharp booleans are exactly min, max and max(f, -g). So each prediction is a point
+where any correct field must read zero, plus the sign of the field two micrometres either
+side of it along the outward normal. A constant zero field would pass the first test; it
+cannot pass the second.</p>
+<p><code>check_spec.py</code> checks the mirror on its own terms before anything native
+runs: <mark>748 checks, 0 failed, worst disagreement 5.13e-14 mm</mark>. It recomputes the concave
+arc radius by bisection for all sixteen drive sizes, asserts external tangency and sixfold
+symmetry, recovers the declared A and B dimensions exactly, verifies the thread's axial and
+angular periods and its flank slope, and confirms the placement frame is orthonormal,
+right-handed and rigid.</p>
+<div class="tw"><table><thead><tr><th>Predicted</th><th>Count</th><th>What it settles</th></tr></thead><tbody><tr><td>Boundary points</td><td class="n">146</td><td>the surface is where the mirror says it is, to 1e-7 m</td></tr><tr><td>Sign probes</td><td class="n">333</td><td>the field changes sign across that surface, and solid is solid on the inside</td></tr><tr><td>Configurations</td><td class="n">8</td><td>families, series, sizes, overrides and placements</td></tr><tr><td>Refused inputs</td><td class="n">6</td><td>each breaking one named condition of the validity gate</td></tr></tbody></table></div></section><section><h2><span class="num">04 / Measured geometry</span>479 of 479, against predictions written first</h2>
+<p>Each configuration is one call to the local assembly with literal inputs, placed through
+the placement block, with one <code>evaluate_field</code> probe per prediction. The gate is
+1e-7 m at a boundary point. The worst residual over the whole set is 7.706e-8 m.</p>
+<div class="tw"><table><thead><tr><th>Configuration</th><th>Metric size</th><th>Drive</th><th>Boundary</th><th>Sign</th><th>Worst residual, m</th><th>Result</th></tr></thead><tbody><tr><td>default</td><td>M3 x 0.5</td><td>T10</td><td class="n">18</td><td class="n">41</td><td class="n">5.87e-11</td><td><span class="pass">59 / 59</span></td></tr><tr><td>oblique</td><td>M3 x 0.5</td><td>T10</td><td class="n">18</td><td class="n">41</td><td class="n">5.01e-10</td><td><span class="pass">59 / 59</span></td></tr><tr><td>rotated</td><td>M3 x 0.5</td><td>T10</td><td class="n">18</td><td class="n">41</td><td class="n">5.93e-11</td><td><span class="pass">59 / 59</span></td></tr><tr><td>farfield</td><td>M3 x 0.5</td><td>T10</td><td class="n">18</td><td class="n">41</td><td class="n">7.71e-8</td><td><span class="pass">59 / 59</span></td></tr><tr><td>m8</td><td>M8 x 1.25</td><td>T45</td><td class="n">18</td><td class="n">41</td><td class="n">1.31e-10</td><td><span class="pass">59 / 59</span></td></tr><tr><td>t25</td><td>M5 x 0.8</td><td>T25</td><td class="n">18</td><td class="n">41</td><td class="n">7.28e-11</td><td><span class="pass">59 / 59</span></td></tr><tr><td>tamper</td><td>M5 x 0.8</td><td>T25</td><td class="n">20</td><td class="n">46</td><td class="n">7.28e-11</td><td><span class="pass">66 / 66</span></td></tr><tr><td>custom</td><td>M3 x 0.5</td><td>T10</td><td class="n">18</td><td class="n">41</td><td class="n">1.15e-10</td><td><span class="pass">59 / 59</span></td></tr></tbody></table></div>
+<p class="small">Worst residual is the largest absolute field value at a point the mirror
+places on the surface. The <code>tamper</code> row carries two extra boundary points and
+five extra sign probes, for the round post the internal family does not have.</p></section><section><h2><span class="num">05 / Placement resolution</span>The residual scales with the insertion distance</h2>
+<p>Three of the eight configurations are the same screw under the same oblique rotation and
+the same 37 degree clocking, differing only in where the insertion point sits. That
+separates a rotation cost from a translation cost, which one oblique case alone cannot
+do.</p>
+<div class="tw"><table><thead><tr><th>Configuration</th><th>Insertion distance, mm</th><th>Mean residual, m</th><th>Worst residual, m</th><th>Residual / distance</th></tr></thead><tbody><tr><td>rotated</td><td class="n">0.000</td><td class="n">2.84e-11</td><td class="n">5.93e-11</td><td class="n">not applicable</td></tr><tr><td>oblique</td><td class="n">14.775</td><td class="n">2.12e-10</td><td class="n">5.01e-10</td><td class="n">1.44e-8</td></tr><tr><td>farfield</td><td class="n">1477.540</td><td class="n">2.66e-8</td><td class="n">7.71e-8</td><td class="n">1.80e-8</td></tr></tbody></table></div>
+<p>The rotation alone costs nothing measurable: at the origin the mean residual is 2.84e-11 m, the
+same band as the configurations that are not placed at all. <mark>The residual is
+proportional to the distance from the origin</mark>, at about 1.80e-8 of it, stable across two
+decades of distance. Double precision on these coordinates would give a relative error near
+1e-16, so a reduced-precision step somewhere in the coordinate map is the natural reading.
+That is an inference from the scaling, not a measurement of the implementation.</p>
+<p>The practical consequence is a working limit rather than a defect: a 0.1 micrometre
+boundary gate is reachable out to roughly <mark>5.6 m</mark> from the origin. Beyond that
+the placement's own resolution, not the geometry, sets the floor. Everything in this report
+was measured inside that range.</p></section><section><h2><span class="num">06 / The validity gate</span>An invalid screw refuses to exist</h2>
+<p>The assembly multiplies its thread length by <code>sqrt(+1 or -1)</code>, gated on ten
+named conditions. An invalid configuration therefore refuses to evaluate rather than
+building a plausible wrong screw. That matters more than a warning would: a fastener that
+silently came out 0.3 mm undersized is worse than one that does not come out at all.</p>
+<div class="tw"><table><thead><tr><th>Case</th><th>Condition broken</th><th>Why</th><th>Probe</th><th>Result</th></tr></thead><tbody><tr><td>control</td><td>valid control</td><td>a valid configuration, so a failure below is the gate and not the import</td><td>reads -5.421e-17 mm</td><td><span class="pass">pass</span></td></tr><tr><td>tamper-t6</td><td>family_has_post</td><td>T6 has no sourced tamper-resistant post</td><td>reads nothing</td><td><span class="pass">pass</span></td></tr><tr><td>recess-too-large</td><td>recess_inside_head</td><td>the recess would break through the head side</td><td>reads nothing</td><td><span class="pass">pass</span></td></tr><tr><td>too-short</td><td>neck_before_tip</td><td>no threaded length is left below the neck</td><td>reads nothing</td><td><span class="pass">pass</span></td></tr><tr><td>csk-too-short</td><td>neck_before_tip</td><td>the countersunk head alone exceeds the total length</td><td>reads nothing</td><td><span class="pass">pass</span></td></tr><tr><td>pan-m12</td><td>nominal_radius_positive</td><td>M12 has no pan row: the source table stops at M10, so the selector returns its sentinel instead of a dimension</td><td>reads nothing</td><td><span class="pass">pass</span></td></tr><tr><td>csk-thin-floor</td><td>floor_wall</td><td>a countersunk recess deep enough to break out through the cone</td><td>reads nothing</td><td><span class="pass">pass</span></td></tr></tbody></table></div>
+<p class="small">A block in error reports <code>e_DIRTY</code> with no error field on this
+build, which is indistinguishable from a block still queued. The verdict here is therefore
+taken from the pair (state, readable value): a refused configuration must not produce a
+number. The control does produce one, and it is -5.421e-17 mm at the recess lobe.</p></section><section><h2><span class="num">07 / Native sections</span>Look at it</h2>
+<p>Numbers describing a shape are not a check of the shape. These are nTop's own rasters,
+produced by the same notebook that produced the samples, at 0.00611 mm per pixel.</p>
+<div class="grid4"><figure><img src="assets/torx_recess_mouth.png" alt="Native transverse section of the Torx screw at z = -2.950 mm"><figcaption><strong>z = -2.950 mm.</strong> the recess mouth, just inside the head top face</figcaption></figure><figure><img src="assets/torx_recess_wall.png" alt="Native transverse section of the Torx screw at z = -2.350 mm"><figcaption><strong>z = -2.350 mm.</strong> mid recess: the six lobes and six valleys</figcaption></figure><figure><img src="assets/torx_recess_web.png" alt="Native transverse section of the Torx screw at z = -1.550 mm"><figcaption><strong>z = -1.550 mm.</strong> below the recess floor: solid head metal</figcaption></figure><figure><img src="assets/torx_recess_thread.png" alt="Native transverse section of the Torx screw at z = 5.450 mm"><figcaption><strong>z = 5.450 mm.</strong> a thread crest, one turn inside the threaded length</figcaption></figure></div>
+<figure><img src="assets/torx_profile_axis.png" alt="Native axial section of the Torx screw through its axis">
+<figcaption><strong>y = 0.000 mm, the axis plane.</strong> the axial section through the screw axis Solid is white. Head, recess
+void, seating plane, underhead fillet, plain shank, thread and flat tip, left to right.
+</figcaption></figure>
+<h3>The raster's own axes had to be measured first</h3>
+<p>A picture is only evidence once its axes are known. The recorded index law for this
+block family puts the plane of slice k at <code>BOX0 + h/2 + (k-1)h</code>. <mark>On this
+build it is <code>BOX0 + (k-1)h</code>.</mark> A fine stack across the recess floor, a plane
+the mirror puts at exactly -1.7300 mm, settles it: the recess closes between slices 13 and 14,
+which brackets the floor at [-1.7300, -1.7250] under the measured law and at [-1.7275, -1.7225] under
+the recorded one. The true value sits on the edge of the first bracket and outside the
+second. Half a layer is 0.0025 mm here, twenty-five times the boundary gate, so this is not a
+rounding question.</p>
+<div class="tw"><table><thead><tr><th>Feature</th><th>Angle, deg</th><th>Read off the raster, mm</th><th>Mirror, mm</th><th>Difference, mm</th></tr></thead><tbody><tr><td>lobe</td><td class="n">0.000</td><td class="n">1.398936</td><td class="n">1.400000</td><td class="n">-0.001064</td></tr><tr><td>junction</td><td class="n">12.645</td><td class="n">1.227887</td><td class="n">1.228047</td><td class="n">-0.000160</td></tr><tr><td>valley</td><td class="n">30.000</td><td class="n">1.026293</td><td class="n">1.025000</td><td class="n">+0.001293</td></tr><tr><td>lobe 60</td><td class="n">60.000</td><td class="n">1.405044</td><td class="n">1.400000</td><td class="n">+0.005044</td></tr><tr><td>valley 90</td><td class="n">90.000</td><td class="n">1.026293</td><td class="n">1.025000</td><td class="n">+0.001293</td></tr><tr><td>lobe 120</td><td class="n">120.000</td><td class="n">1.405044</td><td class="n">1.400000</td><td class="n">+0.005044</td></tr></tbody></table></div>
+<p>With that mapping applied, the recess contour read off the raster agrees with the mirror
+at all six angles, worst 0.005044 mm against a pixel of 0.006109 mm: <mark>inside one pixel</mark>.
+The head outer radius reads 2.7475 mm, bounded by the print volume, which is clipped one
+micrometre inside the head on purpose.</p>
+<p class="small">The raster confirms the mapping and the gross shape at pixel resolution.
+The field samples, not the raster, carry the sub-micrometre verdict. The stack also does not
+stop at the print-volume ceiling: it continues until the body's own bounds are exhausted, so
+the archive holds more images than layers were asked for, and a plane lying exactly on a
+boundary surface rasterises as open.</p></section><section><h2><span class="num">08 / Coverage and limits</span>What the block offers, and what it does not</h2>
+<p>Four native Choice Lists drive the block: drive family, screw series, metric size and
+drive size. A size is never entered as a numeric code. 31 series and size combinations are
+supported across 14 metric labels, with 16 internal drive sizes and 11 tamper-resistant
+posts.</p>
+<div class="tw"><table><thead><tr><th>Series</th><th>Metric sizes</th><th>Source</th></tr></thead><tbody><tr><td>Cylindrical</td><td>M2 to M20, 13 rows</td><td>ISO 14579:2011, Table 1 and Figure 1</td></tr><tr><td>Pan</td><td>M2 to M10, 9 rows</td><td>ISO 14583:2011, Figure 1 and Table 1</td></tr><tr><td>Countersunk, historical</td><td>M2 to M10, 9 rows</td><td>ISO 14581:2013, Figure 1 and Table 1</td></tr><tr><td>Recess contour</td><td>T6 to T100, 16 sizes</td><td>ISO 10664:1999, Table 1 and informative Annex A</td></tr></tbody></table></div>
+<h3>Limits, stated plainly</h3>
+<p>The supplied ISO 10664:1999 Table 1 A and B values are exact declared nominal
+dimensions, not metrology of one sample. The informative Annex A radius ratio is
+approximate and carries no certified error bound, so the contour here is a labelled derived
+CAD contour, not a unique normative one. The pan crown uses an exact spherical cap to stand
+in for an explicitly approximate source rf, and its crown-to-side micro-round is omitted.
+The countersunk series is the historical 2013 envelope with a sharp cone-to-neck junction,
+and is not asserted equivalent to the revised 2022 design. The thread is the ISO 68-1 basic
+profile: actual external root, runout and tip details remain simplified. Tamper-resistant
+posts are custom derivatives combining the ISO recess construction with Camcar reference
+post dimensions; T6 has no sourced post and T27 has no A and B pair in the supplied table.
+External E, Torx Plus, Paralobe and ttap are not offered, because their complete nominal
+contours were not established.</p>
+<p>None of the checks in this report establish strength, manufacturing tolerance or
+production conformity. They establish that the implemented construction is the one the
+source tables and the declared CAD choices describe.</p></section><section><h2><span class="num">09 / Reproduce</span>Offline first, then the console</h2>
+<p>Everything except the last step runs without nTop.</p>
+<pre>uv run --locked python demos/torx/scripts/check_spec.py       # the mirror against itself
+uv run --locked python scripts/build.py torx                  # the offline recipe
+uv run --locked python demos/torx/scripts/check_recipe.py     # against nTop's own recipe
+uv run --locked python demos/torx/scripts/torx_verification.py # the three live recipes
+uv run --group render python demos/torx/scripts/make_figures.py
+uv run --locked python demos/torx/scripts/render_report.py    # this page</pre>
+<p>For the live step, launch a separate task-owned nTop process as
+<a href="../../../docs/BACKGROUND_CONSOLE.md">the background console procedure</a> describes,
+verify that exactly one loopback listener belongs to it, then dispatch
+<code>torx_live.run</code>, <code>torx_live.run_rejections</code> and
+<code>torx_live.run_figures</code>. Each writes its own receipt under
+<code>demos/torx/output/</code>.</p>
+<div class="links">
+<a href="../evidence/check_spec.json">Mirror self-check</a>
+<a href="../evidence/check_recipe.json">Recipe comparison</a>
+<a href="../evidence/live_run.json">Field samples</a>
+<a href="../evidence/rejections.json">Validity gate</a>
+<a href="../evidence/figures_measured.json">Figure measurements</a>
+<a href="../evidence/port_receipt.json">Offline build receipt</a></div></section><footer><p>Recorded on nTop 6.1.0-rc build 42926, PID 28232, 2026-09-17T01:40:42. Transport:
+loopback console on 127.0.0.1:2323, interpreter PID verified on the connected socket before
+each dispatch. Offline checks and recipe comparison do not prove native execution; the
+field samples and the saved notebooks do. Converted and measured is not delivered: the
+geometry verdict rests on 479 field samples, one validity-gate sweep and native sections,
+not on a mesh comparison or a physical part.</p>
+<p>Source tables are cited per row in <code>demos/torx/inputs/source_tables/</code>. The
+standards themselves are not redistributed.</p></footer></main><script>
+(function(){var b=document.getElementById('theme');if(!b)return;
+var r=document.documentElement;function set(d){r.setAttribute('data-theme',d?'dark':'light');
+b.setAttribute('aria-pressed',d?'true':'false');b.textContent=d?'Light theme':'Dark theme';}
+var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;set(dark);
+b.addEventListener('click',function(){set(r.getAttribute('data-theme')!=='dark');});})();
+</script></body></html>

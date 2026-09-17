@@ -1,0 +1,87 @@
+{
+ "tolSample": 1e-7,
+ "points": [
+  [
+   "head outside",
+   0.00275,
+   0,
+   -0.0015,
+   0
+  ],
+  [
+   "top ring",
+   0.002,
+   0,
+   -0.003,
+   0
+  ],
+  [
+   "recess void",
+   0.0001,
+   0,
+   -0.0025,
+   {
+    "sign": 1
+   }
+  ],
+  [
+   "solid under recess",
+   0.0001,
+   0,
+   -0.001,
+   {
+    "sign": -1
+   }
+  ],
+  [
+   "thread crest",
+   0.0015,
+   0,
+   0.005,
+   0
+  ],
+  [
+   "thread root",
+   0.001229367061317363,
+   0,
+   0.00525,
+   0
+  ],
+  [
+   "tip",
+   0.001,
+   0,
+   0.01,
+   0
+  ]
+ ],
+ "bbox": [
+  [
+   -0.00275,
+   -0.00275,
+   -0.003
+  ],
+  [
+   0.00275,
+   0.00275,
+   0.01
+  ]
+ ],
+ "pointsFor": false,
+ "closedFor": false,
+ "imports": [
+  "user_func_4c032f9d_493b_4e0e_8d12_686555af1f4b",
+  "user_func_572043a5_b7b0_48dc_a34d_7bf861a46045",
+  "user_func_7ccfd95e_ec44_428c_b65a_4bd70d781d71",
+  "user_func_a1fab3fb_2b5c_46e8_b210_9424e67cdd68",
+  "user_func_a2a5d81f_2c09_41f0_8e4c_87db1150543d",
+  "user_func_90fcbb3d_3b99_4780_8690_643f0cf6290b",
+  "user_func_41a7d0e1_a189_49e4_8644_bf1ad147457c"
+ ],
+ "lint": {
+  "verdict": "DOUBT",
+  "rules": [
+   "R9"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "receipts cited by reports/index.html, copied out of the ignored output/ tree with machine paths reduced to file names",
+  "build": "nTop 6.1.0-rc commit-050d0c7cdc8e412c3a35298bc5a89dc8a6da864d",
+  "session": {
+    "pid": 28232,
+    "started": "2026-09-17T01:40:42",
+    "finished": "2026-09-17T01:44:24"
+  },
+  "files": [
+    {
+      "file": "evidence/live_run.json",
+      "bytes": 166682
+    },
+    {
+      "file": "evidence/check_spec.json",
+      "bytes": 335
+    },
+    {
+      "file": "evidence/check_recipe.json",
+      "bytes": 3241
+    },
+    {
+      "file": "evidence/rejections.json",
+      "bytes": 9583
+    },
+    {
+      "file": "evidence/figures_measured.json",
+      "bytes": 6245
+    },
+    {
+      "file": "evidence/port_receipt.json",
+      "bytes": 824
+    },
+    {
+      "file": "evidence/check_example.json",
+      "bytes": 2249
+    },
+    {
+      "file": "evidence/example_run.json",
+      "bytes": 7492
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "checks": 748,
+  "failed": 0,
+  "worst_delta": 5.129230373768223e-14,
+  "worst_delta_units": "mm or dimensionless, per row",
+  "predictions": {
+    "total": 479,
+    "boundary": 146,
+    "sign": 333,
+    "configurations": 8
+  },
+  "scope": "the mirror checked against itself; no nTop, no recipe",
+  "failed_rows": []
+}

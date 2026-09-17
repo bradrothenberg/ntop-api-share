@@ -1,0 +1,147 @@
+{
+  "recorded": "inputs\\recorded\\torx_recorded_recipe.json",
+  "offline": "output\\build\\torx_recipe.json",
+  "same_import_order": true,
+  "same_root_cbRefs": true,
+  "blocks": [
+    {
+      "block": "Countersunk Head 2013",
+      "same_signature": true,
+      "inputs": {
+        "offline": 4,
+        "recorded": 4,
+        "identical": true
+      },
+      "body": {
+        "offline": 7,
+        "recorded": 7,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    },
+    {
+      "block": "Torx Internal",
+      "same_signature": true,
+      "inputs": {
+        "offline": 4,
+        "recorded": 4,
+        "identical": true
+      },
+      "body": {
+        "offline": 39,
+        "recorded": 39,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    },
+    {
+      "block": "Screw Head",
+      "same_signature": true,
+      "inputs": {
+        "offline": 6,
+        "recorded": 6,
+        "identical": true
+      },
+      "body": {
+        "offline": 11,
+        "recorded": 11,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    },
+    {
+      "block": "Pan Head",
+      "same_signature": true,
+      "inputs": {
+        "offline": 6,
+        "recorded": 6,
+        "identical": true
+      },
+      "body": {
+        "offline": 13,
+        "recorded": 13,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    },
+    {
+      "block": "Metric Thread Kernel",
+      "same_signature": true,
+      "inputs": {
+        "offline": 6,
+        "recorded": 6,
+        "identical": true
+      },
+      "body": {
+        "offline": 11,
+        "recorded": 11,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    },
+    {
+      "block": "Torx Local Development",
+      "same_signature": true,
+      "inputs": {
+        "offline": 9,
+        "recorded": 9,
+        "identical": true
+      },
+      "body": {
+        "offline": 49,
+        "recorded": 49,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    },
+    {
+      "block": "Place Screw",
+      "same_signature": true,
+      "inputs": {
+        "offline": 5,
+        "recorded": 5,
+        "identical": true
+      },
+      "body": {
+        "offline": 30,
+        "recorded": 30,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    },
+    {
+      "block": "Torx (root)",
+      "same_signature": true,
+      "inputs": {
+        "offline": 13,
+        "recorded": 13,
+        "identical": true
+      },
+      "body": {
+        "offline": 6,
+        "recorded": 6,
+        "identical": true
+      },
+      "same_cbRefs": true,
+      "same_description": true,
+      "identical": true
+    }
+  ],
+  "blocks_identical": 8,
+  "blocks_total": 8,
+  "identical": true
+}

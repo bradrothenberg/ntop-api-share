@@ -1,0 +1,39 @@
+{
+  "recipe": "output\\build\\torx_recipe.json",
+  "seconds": 0.063,
+  "blocks": 7,
+  "imports": 7,
+  "import_order": [
+    "Countersunk Head 2013",
+    "Torx Internal",
+    "Screw Head",
+    "Pan Head",
+    "Metric Thread Kernel",
+    "Torx Local Development",
+    "Place Screw"
+  ],
+  "root_cbRefs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "notebook_inputs": 13,
+  "root_body_entries": 6,
+  "func_nodes": 1451,
+  "func_nodes_by_block": {
+    "Countersunk Head 2013": 20,
+    "Torx Internal": 216,
+    "Screw Head": 36,
+    "Pan Head": 42,
+    "Metric Thread Kernel": 29,
+    "Torx Local Development": 998,
+    "Place Screw": 100
+  },
+  "bytes": 1067220,
+  "problems": [],
+  "scope": "offline recipe construction and structural validation only; no nTop was launched"
+}
