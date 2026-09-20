@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="504" height="648" preserveAspectRatio="xMinYMin meet" viewBox="0 0 504 648" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="504" height="648"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-648)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="504" height="648" style="stroke: none; stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="624" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1248) scale(1,-1)">Potential future engineering skills</text>
+			<text x="20" y="606" style="font-family: Helvetica; font-size: 9.4px;fill: rgb(28%,32%,36%); stroke:none;" transform="translate(0,1212) scale(1,-1)">Ten proposed skill briefs. These are not installed or validated capabilities.</text>
+			<rect x="20" y="531" width="464" height="56" style="stroke: rgb(8%,28%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,94%,98%); fill-rule: evenodd;"/>
+			<text x="170.699" y="569" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1138) scale(1,-1)">Shared aircraft design contract</text>
+			<text x="88.191" y="553" style="font-family: Helvetica; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1106) scale(1,-1)">Mission, geometry, interfaces, materials, loads, mass, units and coordinate frames</text>
+			<text x="101.94299999999998" y="540" style="font-family: Helvetica; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1080) scale(1,-1)">Every result retains assumptions, sources, revision identity and uncertainty.</text>
+			<path d="M 252,531 L 252,83 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<rect x="20" y="434" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,473 L 240,473 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="240 473, 243.5103 474.9177, 243.5103 471.0823" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="30" y="493" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,986) scale(1,-1)">George Irving configurator</text>
+			<text x="30" y="476" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,952) scale(1,-1)">Capture George-reviewed configuration rules.</text>
+			<text x="30" y="462" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,924) scale(1,-1)">Generate coordinated aircraft layouts.</text>
+			<text x="30" y="448" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,896) scale(1,-1)">Expose editable design choices and constraints.</text>
+			<rect x="264" y="434" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,473 L 264,473 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="264 473, 260.4897 471.0823, 260.4897 474.9177" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="274" y="493" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,986) scale(1,-1)">Expert airframing</text>
+			<text x="274" y="476" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,952) scale(1,-1)">Define spars, frames, ribs and longerons.</text>
+			<text x="274" y="462" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,924) scale(1,-1)">Coordinate joints and structural load paths.</text>
+			<text x="274" y="448" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,896) scale(1,-1)">Check access and removable skin panels.</text>
+			<rect x="20" y="345" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,384 L 240,384 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="240 384, 243.5103 385.9177, 243.5103 382.0823" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="30" y="404" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,808) scale(1,-1)">Propulsion and installation</text>
+			<text x="30" y="387" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,774) scale(1,-1)">Match engine or propulsor to the mission.</text>
+			<text x="30" y="373" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,746) scale(1,-1)">Model cycle, power and installed losses.</text>
+			<text x="30" y="359" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,718) scale(1,-1)">Coordinate inlets, exhausts and cooling.</text>
+			<rect x="264" y="345" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,384 L 264,384 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="264 384, 260.4897 382.0823, 260.4897 385.9177" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="274" y="404" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,808) scale(1,-1)">Weights and mass properties</text>
+			<text x="274" y="387" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,774) scale(1,-1)">Maintain component mass and growth ledgers.</text>
+			<text x="274" y="373" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,746) scale(1,-1)">Calculate CG, inertia and loading cases.</text>
+			<text x="274" y="359" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,718) scale(1,-1)">Track uncertainty and configuration changes.</text>
+			<rect x="20" y="256" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,295 L 240,295 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="240 295, 243.5103 296.9177, 243.5103 293.0823" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="30" y="315" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,630) scale(1,-1)">Stability and control (S&amp;C)</text>
+			<text x="30" y="298" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,596) scale(1,-1)">Estimate derivatives, trim and static margins.</text>
+			<text x="30" y="284" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,568) scale(1,-1)">Assess modes and control authority.</text>
+			<text x="30" y="270" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,540) scale(1,-1)">Map limits across the flight / CG envelope.</text>
+			<rect x="264" y="256" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,295 L 264,295 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="264 295, 260.4897 293.0823, 260.4897 296.9177" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="274" y="315" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,630) scale(1,-1)">Loads and aeroelasticity</text>
+			<text x="274" y="298" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,596) scale(1,-1)">Build maneuver, gust and ground load cases.</text>
+			<text x="274" y="284" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,568) scale(1,-1)">Transfer distributed loads into the structure.</text>
+			<text x="274" y="270" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,540) scale(1,-1)">Screen stiffness coupling and flutter risk.</text>
+			<rect x="20" y="167" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,206 L 240,206 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="240 206, 243.5103 207.9177, 243.5103 204.0823" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="30" y="226" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,452) scale(1,-1)">Structural sizing and joints</text>
+			<text x="30" y="209" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,418) scale(1,-1)">Size members, fasteners and connections.</text>
+			<text x="30" y="195" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,390) scale(1,-1)">Check stress, buckling, fatigue and damage.</text>
+			<text x="30" y="181" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,362) scale(1,-1)">Retain allowables and failure-mode coverage.</text>
+			<rect x="264" y="167" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,206 L 264,206 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="264 206, 260.4897 204.0823, 260.4897 207.9177" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="274" y="226" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,452) scale(1,-1)">Aerodynamics and mission</text>
+			<text x="274" y="209" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,418) scale(1,-1)">Build polars and performance models.</text>
+			<text x="274" y="195" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,390) scale(1,-1)">Compare range, endurance and field performance.</text>
+			<text x="274" y="181" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,362) scale(1,-1)">Assess model fidelity and sensitivity.</text>
+			<rect x="20" y="78" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,117 L 240,117 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="240 117, 243.5103 118.9177, 243.5103 115.0823" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="30" y="137" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,274) scale(1,-1)">Manufacturing and assembly</text>
+			<text x="30" y="120" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,240) scale(1,-1)">Evaluate forming, machining and printing routes.</text>
+			<text x="30" y="106" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,212) scale(1,-1)">Define tolerances, tooling and assembly access.</text>
+			<text x="30" y="92" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,184) scale(1,-1)">Estimate process-driven mass, cost and risk.</text>
+			<rect x="264" y="78" width="220" height="77" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 252,117 L 264,117 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<polygon points="264 117, 260.4897 115.0823, 260.4897 118.9177" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="274" y="137" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,274) scale(1,-1)">Verification and trade studies</text>
+			<text x="274" y="120" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,240) scale(1,-1)">Enforce shared constraints across disciplines.</text>
+			<text x="274" y="106" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,212) scale(1,-1)">Run benchmarks and uncertainty studies.</text>
+			<text x="274" y="92" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,184) scale(1,-1)">Rank candidates with traceable evidence.</text>
+			<rect x="20" y="21" width="464" height="37" style="stroke: none; stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,95%,96%); fill-rule: evenodd;"/>
+			<text x="79.87844999999999" y="42" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,84) scale(1,-1)">Reviewed results update the shared design and can drive new notebook variants.</text>
+			<text x="74.4143" y="28" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,56) scale(1,-1)">Each future skill needs bounded pilots, independent checks and documented operating limits.</text>
+			<text x="20" y="7" style="font-family: Helvetica; font-size: 8.0px;fill: rgb(28%,32%,36%); stroke:none;" transform="translate(0,14) scale(1,-1)">Dashed boxes and links indicate proposals. Detailed inputs, outputs and validation gates accompany the figure.</text>
+		</g>
+	</g>
+</svg>

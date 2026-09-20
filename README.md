@@ -63,12 +63,14 @@ ntop-api-share/
     output/             Generated recipes and run evidence; ignored
   reports/              39-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
-  .agents/skills/       Bundled API, CSG, assembly, HTML-report, and PDF-report skills
+  .agents/skills/       20 skill entries for modeling, execution, CFD, and reporting
   templates/            HTML report template and offline CSS
   tests/                Portability and graph-invariant checks
 ```
 
 ## Read next
+
+- [Complete engineering skill package](docs/skills/README.md): all 18 paper-inventory skills, two existing repository skills, diagrams, captions, and ten proposed future skills
 
 - [HTML report skill](.agents/skills/engineering-html/SKILL.md) and [PDF report skill](.agents/skills/engineering-report/SKILL.md): nTop blue highlights, shared design tokens, and reproducible report workflows
 - [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)

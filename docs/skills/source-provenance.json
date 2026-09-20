@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "source_inventory_date": "2026-09-16",
+  "package_date": "2026-09-20",
+  "base_commit": "1723796",
+  "scope": "18 named experiment skills; existing engineering-html and ntop-sheet-metal retained; ten proposals documented separately",
+  "skills": [
+    {
+      "id": "aflr3-mesh-generator",
+      "destination": ".agents/skills/aflr3-mesh-generator/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "71dbfd14065a138ad36c52726d13308a0db4ae628065f3ef89a000ec31d1b517"
+        }
+      ]
+    },
+    {
+      "id": "engineering-report",
+      "destination": ".agents/skills/engineering-report/SKILL.md",
+      "status": "preserved-current-public-version",
+      "source_files": [
+        {
+          "path": "references/flow_fields.md",
+          "sha256": "ccf8b8975f29dac296dc55742d64c7ea64f7598d161d25e4b25f3c6c02c82a42"
+        },
+        {
+          "path": "references/gmsh_screenshots.md",
+          "sha256": "2af32481b16005d9f27956ce22ae1a1cb4abf89798b237a4d888f33156071d26"
+        },
+        {
+          "path": "references/pyvista_ho_meshes.md",
+          "sha256": "94ffcef659c9cae9951a75d118f3011010c7c2713051f4102b24cecba6585fc7"
+        },
+        {
+          "path": "scripts/crop_pairs.py",
+          "sha256": "10cb19013b389beea7b83c1acd235cef92f4124a76b657190b6c07a956a7129b"
+        },
+        {
+          "path": "scripts/ho_mesh_render.py",
+          "sha256": "a67d44a5918cbc6bf6c1ead8d430c8af51dcb1453920994fb357a0dd3d7adae0"
+        },
+        {
+          "path": "scripts/report_style.py",
+          "sha256": "ab1cebd314dfd3403b8f20fa7f1c96fa35bd9b98fd650f861694a343afeaa847"
+        },
+        {
+          "path": "scripts/verify_pdf.py",
+          "sha256": "a8e87a11593ed530503228bfca6312adce85b9743aba896f7e3e3c36c6a2401d"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "692aeaa734bc202b85715822cceeb32f010cbee4a9a2af4fbf466eba686245f4"
+        }
+      ]
+    },
+    {
+      "id": "fun3d-cfd-runner",
+      "destination": ".agents/skills/fun3d-cfd-runner/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "105f7511395d2dd0a8ba7f2d7a239dcd295935791288e303273c75a947021e48"
+        }
+      ]
+    },
+    {
+      "id": "fun3d-gcp",
+      "destination": ".agents/skills/fun3d-gcp/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "45f615c5cd86bfe4c4d5f3af38ace841b464787b37d5f62a7a36cd7a8ec04120"
+        }
+      ]
+    },
+    {
+      "id": "ntop-assembly-modeling",
+      "destination": ".agents/skills/ntop-assembly-modeling/SKILL.md",
+      "status": "preserved-current-public-version",
+      "source_files": [
+        {
+          "path": "references/custom-block-contracts.md",
+          "sha256": "5d2c07d1a9981133865b694a0ca322e626a39517c97383eb52d52a59f20b67b8"
+        },
+        {
+          "path": "references/generic-pilot.md",
+          "sha256": "3429ef1b5d1b52621f1e72548aecabcf03388757a133f10af84aaf771bb38837"
+        },
+        {
+          "path": "references/recorded-pilot.json",
+          "sha256": "1f048104200520cd0b9a19f45943cc326269179810d73ee00413249475b51146"
+        },
+        {
+          "path": "references/verification-and-gui.md",
+          "sha256": "7726a320ba32c31a1dfee877fbabf53c5d1b4bbddfee49164993a94215fc2e6d"
+        },
+        {
+          "path": "scripts/run_pilot.py",
+          "sha256": "2cb90a7d0ba52f23211a6dff62f7db24dd53aa19f975f7c14eb6b74b09afd3c4"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "e4a29a13cca92e07bb10c90998ddcbd67c8b72bf3cb17a9e6ef087c3a35a961e"
+        }
+      ]
+    },
+    {
+      "id": "ntop-automate",
+      "destination": ".agents/skills/ntop-automate/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "references/json-io.md",
+          "sha256": "30884f1340edf2702aacc8dae3e06c252e08d7be6188a31527188f330e7a7508"
+        },
+        {
+          "path": "scripts/ntop_sweep.py",
+          "sha256": "63d9b4fbc33381fff2400ec71520e37b9800a5203952ccc93c24689fe16a0dd8"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "9dfc833385cc8bd7e34eabe5f9d59230c85d31d1f01d816ae5ca313d45e3815e"
+        }
+      ]
+    },
+    {
+      "id": "ntop-csg-modeling",
+      "destination": ".agents/skills/ntop-csg-modeling/SKILL.md",
+      "status": "preserved-current-public-version",
+      "source_files": [
+        {
+          "path": "references/kestrelsat.md",
+          "sha256": "bebf9d445b934ffd525e92fc6e80a14f2f868ad7844d727b5930eae727a3cb88"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "a0108806fa306681d13c6e3c63e652bd0e89518d4a60d32e156705cf4e8eb7bf"
+        }
+      ]
+    },
+    {
+      "id": "ntop-custom-assembly",
+      "destination": ".agents/skills/ntop-custom-assembly/SKILL.md",
+      "status": "consolidated-routing-entry",
+      "source_files": [
+        {
+          "path": "examples/README.md",
+          "sha256": "92ae540956c6fc2451f3750a2d276899c36fa2aa742388362efefd28c330c936"
+        },
+        {
+          "path": "examples/run_example.py",
+          "sha256": "e02efe33bbdf39d1b2a9de475c961c027e216cbea9edb0c986bdbfebccf02c47"
+        },
+        {
+          "path": "references/example-pilot.md",
+          "sha256": "17ba92bb5fb5974ba62fdf428921b7511ebd59b0c3c962058afde14e1d88605b"
+        },
+        {
+          "path": "references/kestrelsat-example.md",
+          "sha256": "9ba806639ccb81004b9c03c577eb168d60261ae33749d89b527f8089b0918c18"
+        },
+        {
+          "path": "references/resizing-contract.md",
+          "sha256": "056197f5a131650cee5169394df2e4ff6d4deed34332b9210fb688082fdf53d1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "ab161d3b7bb0e3d017c8890df6eae93832fb97897c39859e1d96b6a48b6f5d1e"
+        }
+      ]
+    },
+    {
+      "id": "ntop-design-v1",
+      "destination": ".agents/skills/ntop-design-v1/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b1fe5ea6a0e351008706e0cc45dd820cafc28d817ba3ec74a14d9c97586dc893"
+        }
+      ]
+    },
+    {
+      "id": "ntop-docs-v1",
+      "destination": ".agents/skills/ntop-docs-v1/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "scripts/serve_preview.py",
+          "sha256": "da9301f7208f8a8b1024fb7cf26d4ec14db429f43a0540b376bc8fc24afb3ddd"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "a63a45c04de0e01b0545725c7b9c2ab3cb326abdea576745edb193782d71edc0"
+        }
+      ]
+    },
+    {
+      "id": "ntop-doe-sweep",
+      "destination": ".agents/skills/ntop-doe-sweep/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "12fa2519ce152f0271d9ab01a9c0f32e82204576c4353845735ae39b8954cb24"
+        }
+      ]
+    },
+    {
+      "id": "ntop-nektar-cfd",
+      "destination": ".agents/skills/ntop-nektar-cfd/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "assets/conditions_ns.xml",
+          "sha256": "e19423541dfd9f51ba4bb5b61f0d753d8698cda6b9a9023e724a33b4b4339a55"
+        },
+        {
+          "path": "references/gcp_fleet.md",
+          "sha256": "905d5c66af060ee0594f0c1dbca220ce8ae5613769db1707d3118890aa517cee"
+        },
+        {
+          "path": "references/meshing.md",
+          "sha256": "5b6561ef277062263557dca2e7ea87738356e8838e4415fbcee5301390bca3aa"
+        },
+        {
+          "path": "references/postprocessing.md",
+          "sha256": "88554875697134e30b5716fc80ebbe34e29c159f123dd0eb7dfca49ec473530c"
+        },
+        {
+          "path": "references/solving.md",
+          "sha256": "d9d7ea98b9d1d9c97ab35fa682adcd63ba1cd44836142f296c9579df810fe4d2"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "7a2670b839428cb672c8121fb0d563b853bffefaa3fc45f5132d7e81dd51663e"
+        }
+      ]
+    },
+    {
+      "id": "ntop-notebook-api",
+      "destination": ".agents/skills/ntop-notebook-api/SKILL.md",
+      "status": "preserved-current-public-version",
+      "source_files": [
+        {
+          "path": "references/background-console.md",
+          "sha256": "d375a1cdd4768c9513a59f69b2c1d83b78eba9389d83a530e094d445a716f78f"
+        },
+        {
+          "path": "references/native-screenshots.md",
+          "sha256": "4193a08915ca2ab769090d7f0e96b16ff0b9b7350840f9631daa0d479123196b"
+        },
+        {
+          "path": "references/public-source-reconstruction.md",
+          "sha256": "114cd8392b6091956876fd5eb74e6d3d13099b00d21477e30d200b6d1751e76e"
+        },
+        {
+          "path": "references/visualization-meshing.md",
+          "sha256": "c1cf354aa5b4b697cd0e54b824efe18c224ae6ef6aff76017dc74c463ac46953"
+        },
+        {
+          "path": "scripts/collapse_saved_notebook.py",
+          "sha256": "a140195cb4dcf0d6baaafb34616b42bfe38d7eb7ec7154cfa3aa37ec79b7aba4"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "231b3db1be5bf2b062f415c07c28a0d160fb23b015069b45e409f0ba058f5d8a"
+        }
+      ]
+    },
+    {
+      "id": "ntop-orchestrate",
+      "destination": ".agents/skills/ntop-orchestrate/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "scripts/fetch_results.py",
+          "sha256": "6a2f82c2b29b081949aadd5d6902fe512a2d3baf21a8f96ffc4304a6c102c5fe"
+        },
+        {
+          "path": "scripts/make_ndjson.py",
+          "sha256": "0d440b1fe26456f4709101b6c71662a5eadd596908f2665f23b5d9d8ca31a988"
+        },
+        {
+          "path": "scripts/summarize.py",
+          "sha256": "0afc34ab6029e4e98d2a57819f2b51a495bd4b03d4f70b1fc0abd5cdaf4fb8b1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "f90e173676da5caf5f8104d7db09bf089399507643bb941820042b99c0ac5519"
+        }
+      ]
+    },
+    {
+      "id": "ntop-writing-style",
+      "destination": ".agents/skills/ntop-writing-style/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "88a4bb3b905e695e3a69404c0ff7b10c95549cfc3b4a84c767b8b135891d47e3"
+        }
+      ]
+    },
+    {
+      "id": "open-ntop-gui",
+      "destination": ".agents/skills/open-ntop-gui/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "scripts/open_ntop.py",
+          "sha256": "345df334f8bcfd61e123b43b3d2536dce19b3a27c08ca86e1d7fd0b0fe58b6cf"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "df13d8538ffb5050e4b82d832efd08129099dc652732374df9eb992b655d000c"
+        }
+      ]
+    },
+    {
+      "id": "run-lava",
+      "destination": ".agents/skills/run-lava/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "f0d19565c3b1eaf57c98706dd7ac24a2bc6f424ec74e64ae6dc87a0f4f39e6d2"
+        },
+        {
+          "path": "bin/lavarunner-down.sh",
+          "sha256": "9f30fa7e1ba92731bee00d3e35cc54e5c184e6b15396e46a23fa6c9c4d32085f"
+        },
+        {
+          "path": "bin/lavarunner-status.sh",
+          "sha256": "3c36024cd36d851c72f64f30b92ef7049c6342af8b8de2c085d3461d4636eaa3"
+        },
+        {
+          "path": "bin/lavarunner-up.sh",
+          "sha256": "ad3c6c184b084acf0d464ba1f7dda921bd1d4e5b272c973e437ec0ce294a6d94"
+        },
+        {
+          "path": "README.md",
+          "sha256": "8af0ca74fe129668d513da8d8cdd7e68ae3e4c0bd40eefc7adeda07d497b9f58"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "27b756f1f5b7168121930948b8a61b5aa793b6bb37e7d0806b47c433151561fc"
+        },
+        {
+          "path": "TEST_PLAN.md",
+          "sha256": "12022ba99ac698036b46726f673c0e34f7029448a89c25487548bab45ee65f22"
+        }
+      ]
+    },
+    {
+      "id": "run-ntop-automate",
+      "destination": ".agents/skills/run-ntop-automate/SKILL.md",
+      "status": "portable-adaptation",
+      "source_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "33dca1bb239d90b600967b8e128447e758b527b13fe2946017c419ed633f7b0d"
+        }
+      ]
+    }
+  ],
+  "additional_existing_skills": [
+    "engineering-html",
+    "ntop-sheet-metal"
+  ],
+  "adaptation_notes": [
+    "Source hashes identify read-only handoff snapshots, not claimed public byte copies.",
+    "Preserved current public implementations for API, CSG, assembly, and engineering-report.",
+    "Custom-assembly source lessons are consolidated in the existing assembly/CSG skills.",
+    "Excluded private deployment helpers; included a tested input-only grid preparer adapted from make_ndjson.py.",
+    "Retained selected JSON/conditions resources with scope corrections and portable references.",
+    "Future skills remain design briefs outside the installed skill tree."
+  ],
+  "paper_sources": [
+    {
+      "path": "captions.md",
+      "sha256": "c1f1e6b05173d7ea72c30aa004f694bbf2a5b4e5bb8ab364faf615d7414a43a8"
+    },
+    {
+      "path": "current-engineering-skills.png",
+      "sha256": "b424d90d1adaa1dcaa32d0dcf37357dee8d1954059699ebcc00643c1a27f5330"
+    },
+    {
+      "path": "current-engineering-skills.svg",
+      "sha256": "84fa485c936a6f4e73fb50ac2f4d1ddb312a8ee5a78e66cfd5d216ffd4b26d78"
+    },
+    {
+      "path": "future-engineering-skills.md",
+      "sha256": "5497ecdc71281714042e06640145a1160149a100e1a00f1141b2627e096991fe"
+    },
+    {
+      "path": "make_diagrams.py",
+      "sha256": "349e64e29b7c6f10963573d0a41d4902cd3c46580beaad4c10cd00100c778a39"
+    },
+    {
+      "path": "ntop-engineering-skills.pdf",
+      "sha256": "057d8731eef72ec24faab769b55142fc6f0a66ebb1c9781b9b11c404c0a5f509"
+    },
+    {
+      "path": "proposed-engineering-skills.png",
+      "sha256": "bb54955e6044a1de10b10b16412b4c0b10854f219e97d52a1a4fc46047561348"
+    },
+    {
+      "path": "proposed-engineering-skills.svg",
+      "sha256": "298764cc9eb9e555babe9a16884be0b478ab0d7e16d035b02a1cba71217252e3"
+    }
+  ]
+}

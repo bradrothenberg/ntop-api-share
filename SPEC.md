@@ -71,3 +71,9 @@ Plan: inspect current source notes and completed receipts; compare existing guid
 Add the civil research aircraft to this repository in a new PR. Revision G is primary. Include the approved Revision H follow-up, the earlier design studies, 78 native assembly and part notebooks, and ten reports. Preserve the earlier Revision F report while retaining the current design overview separately.
 
 Use the audited community snapshot as a hash-checked baseline. Keep source files read-only. Preserve native function, binary, camera, and visibility payloads; change only portable input literals and collapsed UI state. Provide checkout-local working-copy preparation and extend the native reader for variable chunk-directory sizes. Audit report assets and links, verify source and native payload hashes, and test the complete catalogue offline. Keep the recorded failed structural screens visible. No new native evaluation is claimed.
+
+## Complete engineering skill package, September 20
+
+Package all 18 named skills from the paper handoff in this public repository. Preserve the newer API, CSG, assembly, and reporting implementations. Retain the existing sheet-metal and HTML-report skills. Add a catalog that connects lofting, two-rail sweeps, and analysis evidence to their actual guides and examples. Include the paper figures, captions, and ten future skill briefs as proposals outside the installed skills.
+
+Use a separate branch from current main. Adapt missing skills for public use, remove private deployment settings, and identify external licensed dependencies. Keep source hashes without source-workspace paths. Replace unsafe implicit path rewriting with explicit typed input preparation. Validate the skill metadata, helper behavior, local links, existing offline tests, and public-content audit. Publish a focused pull request; do not merge it or operate existing native or cloud jobs.

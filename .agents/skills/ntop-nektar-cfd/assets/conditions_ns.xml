@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Historical implicit laminar-NS example; review every assumption before use (AGARD-B campaign, 2026-07-03).
+     Placeholders: __NUMMODES__ (order+1: 2 for P=1, 4 for P=3),
+     __DT__ (2e-6 for P=1, 5e-7 for P=3 at M0.2 scale), __MACH__,
+     __RE__ (demo Reynolds number based on body length __L__).
+     Composites assume the CGNS ingestion route:
+     C[0]=prisms C[1]=pyramids C[2]=tets C[3]=wall C[4]=farfield.
+     For Euler: EQType=EulerImplicitCFE, drop Diffusion* lines, wall
+     USERDEFINEDTYPE="Wall". -->
+<NEKTAR>
+    <EXPANSIONS>
+        <E COMPOSITE="C[0]" NUMMODES="__NUMMODES__" FIELDS="rho,rhou,rhov,rhow,E" TYPE="MODIFIED" />
+        <E COMPOSITE="C[1]" NUMMODES="__NUMMODES__" FIELDS="rho,rhou,rhov,rhow,E" TYPE="MODIFIED" />
+        <E COMPOSITE="C[2]" NUMMODES="__NUMMODES__" FIELDS="rho,rhou,rhov,rhow,E" TYPE="MODIFIED" />
+    </EXPANSIONS>
+
+    <CONDITIONS>
+        <PARAMETERS>
+            <P> Gamma           = 1.4                       </P>
+            <P> GasConstant     = 287.058                   </P>
+            <P> pInf            = 101325                    </P>
+            <P> rhoInf          = 1.225                     </P>
+            <P> Mach            = __MACH__                  </P>
+            <P> aInf            = sqrt(Gamma*pInf/rhoInf)   </P>
+            <P> UInf            = Mach*aInf                 </P>
+            <P> alpha           = 0.0*PI/180.0              </P>
+            <P> uInf            = UInf*cos(alpha)           </P>
+            <P> vInf            = 0.0                       </P>
+            <P> wInf            = UInf*sin(alpha)           </P>
+            <P> EInf            = pInf/(Gamma-1) + 0.5*rhoInf*UInf*UInf </P>
+            <P> L               = __L__                     </P>
+            <P> Re              = __RE__                    </P>
+            <P> mu              = rhoInf*UInf*L/Re          </P>
+            <P> Pr              = 0.72                      </P>
+            <P> TimeStep        = __DT__                    </P>
+            <P> NumSteps        = 750                       </P>
+            <P> IO_CheckSteps   = 125                       </P>
+            <P> IO_InfoSteps    = 10                        </P>
+            <P> NekNonlinSysMaxIterations = 10              </P>
+            <P> NekLinSysMaxIterations    = 30              </P>
+        </PARAMETERS>
+
+        <SOLVERINFO>
+            <I PROPERTY="EQType"               VALUE="NavierStokesImplicitCFE" />
+            <I PROPERTY="AdvectionAdvancement" VALUE="Implicit"        />
+            <I PROPERTY="DiffusionAdvancement" VALUE="Implicit"        />
+            <I PROPERTY="Projection"           VALUE="DisContinuous"   />
+            <I PROPERTY="AdvectionType"        VALUE="WeakDG"          />
+            <I PROPERTY="DiffusionType"        VALUE="InteriorPenalty" />
+            <I PROPERTY="UpwindType"           VALUE="Roe"             />
+            <I PROPERTY="ViscosityType"        VALUE="Constant"        />
+            <I PROPERTY="ProblemType"          VALUE="General"         />
+        </SOLVERINFO>
+
+        <TIMEINTEGRATIONSCHEME>
+            <METHOD> DIRK </METHOD>
+            <ORDER> 2 </ORDER>
+        </TIMEINTEGRATIONSCHEME>
+
+        <VARIABLES>
+            <V ID="0"> rho  </V>
+            <V ID="1"> rhou </V>
+            <V ID="2"> rhov </V>
+            <V ID="3"> rhow </V>
+            <V ID="4"> E    </V>
+        </VARIABLES>
+
+        <BOUNDARYREGIONS>
+            <B ID="0"> C[3] </B>  <!-- wall -->
+            <B ID="1"> C[4] </B>  <!-- farfield -->
+        </BOUNDARYREGIONS>
+
+        <BOUNDARYCONDITIONS>
+            <REGION REF="0">
+                <D VAR="rho"  USERDEFINEDTYPE="WallViscous" VALUE="0" />
+                <D VAR="rhou" USERDEFINEDTYPE="WallViscous" VALUE="0" />
+                <D VAR="rhov" USERDEFINEDTYPE="WallViscous" VALUE="0" />
+                <D VAR="rhow" USERDEFINEDTYPE="WallViscous" VALUE="0" />
+                <D VAR="E"    USERDEFINEDTYPE="WallViscous" VALUE="0" />
+            </REGION>
+            <REGION REF="1">
+                <D VAR="rho"  USERDEFINEDTYPE="RiemannInvariant" VALUE="rhoInf"      />
+                <D VAR="rhou" USERDEFINEDTYPE="RiemannInvariant" VALUE="rhoInf*uInf" />
+                <D VAR="rhov" USERDEFINEDTYPE="RiemannInvariant" VALUE="rhoInf*vInf" />
+                <D VAR="rhow" USERDEFINEDTYPE="RiemannInvariant" VALUE="rhoInf*wInf" />
+                <D VAR="E"    USERDEFINEDTYPE="RiemannInvariant" VALUE="EInf"        />
+            </REGION>
+        </BOUNDARYCONDITIONS>
+
+        <FUNCTION NAME="InitialConditions">
+            <E VAR="rho"  VALUE="rhoInf"      />
+            <E VAR="rhou" VALUE="rhoInf*uInf" />
+            <E VAR="rhov" VALUE="rhoInf*vInf" />
+            <E VAR="rhow" VALUE="rhoInf*wInf" />
+            <E VAR="E"    VALUE="EInf"        />
+            <!-- restart instead:
+            <F VAR="rho,rhou,rhov,rhow,E" FILE="previous.chk" /> -->
+        </FUNCTION>
+    </CONDITIONS>
+</NEKTAR>
