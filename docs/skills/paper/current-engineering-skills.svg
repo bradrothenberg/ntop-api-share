@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="504" height="648" preserveAspectRatio="xMinYMin meet" viewBox="0 0 504 648" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="504" height="648"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-648)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="504" height="648" style="stroke: none; stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="624" style="font-family: Helvetica-Bold; font-size: 13.3px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1248) scale(1,-1)">Current skills for nTop engineering experiments</text>
+			<text x="20" y="606" style="font-family: Helvetica; font-size: 9.0px;fill: rgb(28%,32%,36%); stroke:none;" transform="translate(0,1212) scale(1,-1)">18 named skills, with lofting and project analysis methods shown explicitly.</text>
+			<text x="20" y="584" style="font-family: Helvetica-Bold; font-size: 8.7px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,1168) scale(1,-1)">AUTHORING AND MODELING</text>
+			<rect x="20" y="457" width="148" height="117" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="178" y="457" width="148" height="117" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="336" y="457" width="148" height="117" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="29" y="557" style="font-family: Helvetica-Bold; font-size: 9.7px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,1114) scale(1,-1)">ntop-notebook-api</text>
+			<text x="29" y="539" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1078) scale(1,-1)">Schemas, units and recipes</text>
+			<text x="29" y="526" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1052) scale(1,-1)">Native graph and controls</text>
+			<text x="29" y="513" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1026) scale(1,-1)">Background command bridge</text>
+			<text x="29" y="491" style="font-family: Helvetica-Bold; font-size: 8.4px;fill: rgb(28%,32%,36%); stroke:none;" transform="translate(0,982) scale(1,-1)">Included methods</text>
+			<text x="29" y="478" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,956) scale(1,-1)">Rendering, AT + Sharpen,</text>
+			<text x="29" y="466" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,932) scale(1,-1)">saved-file organization</text>
+			<text x="187" y="557" style="font-family: Helvetica-Bold; font-size: 9.6px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,1114) scale(1,-1)">ntop-csg-modeling</text>
+			<text x="187" y="540" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1080) scale(1,-1)">Primitives, cuts and fillets</text>
+			<text x="187" y="527" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1054) scale(1,-1)">Source-fidelity verification</text>
+			<rect x="184" y="464" width="136" height="51" style="stroke: none; stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,95%,96%); fill-rule: evenodd;"/>
+			<text x="190" y="500" style="font-family: Helvetica-Bold; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1000) scale(1,-1)">Lofting and two-rail sweeps</text>
+			<text x="190" y="486" style="font-family: Helvetica; font-size: 8.4px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,972) scale(1,-1)">Guide-driven conic / spline</text>
+			<text x="190" y="473" style="font-family: Helvetica; font-size: 8.4px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,946) scale(1,-1)">surfaces; blade chord / twist</text>
+			<text x="345" y="557" style="font-family: Helvetica-Bold; font-size: 8.8px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,1114) scale(1,-1)">ntop-assembly-modeling</text>
+			<text x="345" y="539" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1078) scale(1,-1)">Part contracts and placements</text>
+			<text x="345" y="526" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,1052) scale(1,-1)">Shared families; import updates</text>
+			<path d="M 345,514 L 474,514 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7; stroke-dasharray: 3, 2;"/>
+			<text x="345" y="497" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,994) scale(1,-1)">ntop-custom-assembly</text>
+			<text x="345" y="480" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,960) scale(1,-1)">KestrelSAT-specific contracts</text>
+			<text x="345" y="467" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,934) scale(1,-1)">and native example pilots</text>
+			<path d="M 20,446 L 484,446 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 252,446 L 252,433 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="252 433, 250.0823 436.5103, 253.9177 436.5103" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<rect x="20" y="402" width="464" height="31" style="stroke: rgb(8%,28%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,94%,98%); fill-rule: evenodd;"/>
+			<text x="90.91005000000001" y="413" style="font-family: Helvetica-Bold; font-size: 10.1px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,826) scale(1,-1)">Editable notebooks, native geometry and measured parameter sets</text>
+			<path d="M 252,402 L 252,393 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 136,393 L 368,393 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 136,393 L 136,380 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="136 380, 134.0823 383.5103, 137.9177 383.5103" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<path d="M 368,393 L 368,380 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="368 380, 366.0823 383.5103, 369.9177 383.5103" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<rect x="20" y="236" width="225" height="144" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="259" y="236" width="225" height="144" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="30" y="364" style="font-family: Helvetica-Bold; font-size: 8.7px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,728) scale(1,-1)">NOTEBOOK EXECUTION AND STUDIES</text>
+			<text x="269" y="364" style="font-family: Helvetica-Bold; font-size: 8.7px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,728) scale(1,-1)">MESHING AND CFD</text>
+			<text x="30" y="346" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,692) scale(1,-1)">run-ntop-automate + ntop-automate</text>
+			<text x="30" y="334" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,668) scale(1,-1)">Prepared notebook runs with ntopcl</text>
+			<text x="30" y="319" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,638) scale(1,-1)">ntop-doe-sweep</text>
+			<text x="30" y="307" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,614) scale(1,-1)">Reproducible parameter studies and retries</text>
+			<text x="30" y="292" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,584) scale(1,-1)">ntop-orchestrate</text>
+			<text x="30" y="280" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,560) scale(1,-1)">Remote notebook jobs and result collection</text>
+			<text x="30" y="265" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,530) scale(1,-1)">open-ntop-gui</text>
+			<text x="30" y="253" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,506) scale(1,-1)">Interactive review at a selected input set</text>
+			<text x="269" y="346" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,692) scale(1,-1)">AFLR3 Mesh Generator</text>
+			<text x="269" y="334" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,668) scale(1,-1)">Surface-to-volume boundary-layer meshing</text>
+			<text x="269" y="319" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,638) scale(1,-1)">Fun3D CFD Runner + fun3d-gcp</text>
+			<text x="269" y="307" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,614) scale(1,-1)">FUN3D execution and refine adaptation</text>
+			<text x="269" y="292" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,584) scale(1,-1)">ntop-nektar-cfd</text>
+			<text x="269" y="280" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,560) scale(1,-1)">High-order meshing, solves and field analysis</text>
+			<text x="269" y="265" style="font-family: Helvetica-Bold; font-size: 8.9px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,530) scale(1,-1)">run-lava</text>
+			<text x="269" y="253" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,506) scale(1,-1)">LAVA mesh routes, solves and postprocessing</text>
+			<path d="M 136,236 L 136,228 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 368,236 L 368,228 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 136,228 L 368,228 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 252,228 L 252,218 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="252 218, 250.0823 221.5103, 253.9177 221.5103" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<rect x="20" y="140" width="464" height="78" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,95%,96%); fill-rule: evenodd;"/>
+			<text x="30" y="201" style="font-family: Helvetica-Bold; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,402) scale(1,-1)">ANALYSIS AND OPTIMIZATION METHODS</text>
+			<text x="365.5386" y="201" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(28%,32%,36%); stroke:none;" transform="translate(0,402) scale(1,-1)">Project scripts and references</text>
+			<text x="30" y="185" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,370) scale(1,-1)">Ski-A170: section / beam bending and torsion. Aircraft: FEA and buckling screens.</text>
+			<text x="30" y="171" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,342) scale(1,-1)">Jet20lbf: cycle matching and performance trades. Propellers: CFD study workflows.</text>
+			<text x="30" y="157" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,314) scale(1,-1)">Field analysis, mass / stiffness comparisons, sensitivity and geometry feedback.</text>
+			<text x="30" y="146" style="font-family: Helvetica; font-size: 8.1px;fill: rgb(28%,32%,36%); stroke:none;" transform="translate(0,292) scale(1,-1)">Project methods retain their own assumptions, model fidelity, validation records and limits.</text>
+			<path d="M 252,140 L 252,126 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="252 126, 250.0823 129.5103, 253.9177 129.5103" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+			<text x="20" y="112" style="font-family: Helvetica-Bold; font-size: 8.7px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,224) scale(1,-1)">POSTPROCESSING AND REPORTING</text>
+			<rect x="20" y="50" width="110" height="53" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="138" y="50" width="110" height="53" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="256" y="50" width="110" height="53" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="374" y="50" width="110" height="53" style="stroke: rgb(53%,58%,63%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="27" y="88" style="font-family: Helvetica-Bold; font-size: 8.8px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,176) scale(1,-1)">engineering-report</text>
+			<text x="27" y="71" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,142) scale(1,-1)">Scientific figures,</text>
+			<text x="27" y="58" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,116) scale(1,-1)">field plots and PDFs</text>
+			<text x="145" y="88" style="font-family: Helvetica-Bold; font-size: 8.8px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,176) scale(1,-1)">ntop-docs-v1</text>
+			<text x="145" y="71" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,142) scale(1,-1)">Report structure</text>
+			<text x="145" y="58" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,116) scale(1,-1)">and evidence</text>
+			<text x="263" y="88" style="font-family: Helvetica-Bold; font-size: 8.8px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,176) scale(1,-1)">ntop-design-v1</text>
+			<text x="263" y="71" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,142) scale(1,-1)">Visual design</text>
+			<text x="263" y="58" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,116) scale(1,-1)">and typography</text>
+			<text x="381" y="88" style="font-family: Helvetica-Bold; font-size: 8.8px;fill: rgb(8%,28%,61%); stroke:none;" transform="translate(0,176) scale(1,-1)">ntop-writing-style</text>
+			<text x="381" y="71" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,142) scale(1,-1)">Factual technical</text>
+			<text x="381" y="58" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,116) scale(1,-1)">writing</text>
+			<path d="M 20,38 L 484,38 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="76.48185000000001" y="23" style="font-family: Helvetica-Bold; font-size: 8.7px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,46) scale(1,-1)">Verification at every stage: source, graph, geometry, mesh, solver and result checks.</text>
+			<text x="65.91999999999999" y="10" style="font-family: Helvetica; font-size: 8.0px;fill: rgb(28%,32%,36%); stroke:none;" transform="translate(0,20) scale(1,-1)">Blue names identify skills. Gray method panels identify supporting guidance and project implementations.</text>
+			<path d="M 20,176 L 8,176 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 8,176 L 8,527 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 8,527 L 20,527 Z" style="stroke: rgb(28%,32%,36%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<polygon points="20 527, 16.48967 525.0823, 16.48967 528.9177" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,32%,36%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>
