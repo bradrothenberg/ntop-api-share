@@ -64,12 +64,19 @@ The aircraft package preserves specific recorded revisions and reports, not a ge
 - [Figure source](paper/make_diagrams.py)
 
 The figures retain the **16 September 2026 inventory scope**: 18 named existing skills and ten future proposals.
-The two additional repository skills appear in the catalog above. They do not change the archived figure's count.
+The two additional repository skills appear in the catalog above. They do not change the figure's inventory count.
 The proposed briefs include George Irving's configurator, expert airframing, propulsion, weights, S&C, loads, structural sizing, mission performance, manufacturing, and verification.
 George's rules still require his contribution and review. The proposal does not claim that his expertise has already been encoded.
 
-The retained PNGs are 450 dpi. The source regenerates vector figures and 450-dpi PNGs into ignored local output.
-The PNG rasterizer can produce small antialiasing differences from the original exports.
+The figures use the nTop document design system: Aeonik headings/body, Aeonik Fono labels, blue highlights, light-grey surfaces, and thin rules.
+The PDF contains selectable text and embedded font subsets. SVG lettering uses outlines with accessible labels for consistent viewing.
+The PNGs are 450 dpi. Font source files are not distributed.
+The [layout receipt](paper/layout-verification.json) records dimensions, fonts, label coverage, and file hashes.
+
+The generator uses the bundled engineering-report style helper.
+To reproduce the Aeonik typography, set `NTOP_REPORT_FONT_DIR` to an authorized local directory containing `aeonikvf.ttf` and `aeonikfonovf.ttf`.
+The helper uses portable sans-serif and monospace fallbacks when those fonts are unavailable. It records the selected fonts in local output.
+The source regenerates the vector figures and PNGs into ignored local output.
 
 To regenerate:
 

@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-21",
+  "design_skill": "ntop-design-v1",
+  "treatment": "Document grammar with the blue report highlight preference",
+  "page_inches": [
+    7,
+    9
+  ],
+  "pages": 2,
+  "png_pixels": [
+    3150,
+    4050
+  ],
+  "png_dpi": 450,
+  "font_roles": {
+    "body": "Aeonik",
+    "heading": "Aeonik-SemiBold",
+    "labels": "AeonikFono"
+  },
+  "pdf_font_resources": [
+    "/AAAAAA+AeonikFonoVF-Regular",
+    "/AAAAAA+AeonikVF-Regular",
+    "/AAAAAA+AeonikVF-SemiBold",
+    "/Helvetica",
+    "/Times-Roman"
+  ],
+  "minimum_font_pt": 8,
+  "named_skills_verified": 18,
+  "future_briefs_verified": 10,
+  "future_titles_and_descriptions_unchanged": true,
+  "svg_accessible_label_counts": [
+    60,
+    49
+  ],
+  "svg_text_treatment": "TrueType glyph outlines with accessible text labels",
+  "fallback_render_verified": "Helvetica, Helvetica-Bold, Courier; 72 dpi",
+  "source_fonts_in_repository": false,
+  "artifacts": {
+    "ntop-engineering-skills.pdf": "c25a37d5a2a704def626f72dc2f4a52c39471671606f8f6745cb00131f708f14",
+    "current-engineering-skills.svg": "20f1a05b3e3ef78f9bb942329cc66ccaacdf5496c30f8f642e23e975a555a339",
+    "current-engineering-skills.png": "afcd529c8316c15b2535090c8692687a22d960378a37071f8cf3bec0114c258a",
+    "proposed-engineering-skills.svg": "6cb92518e36376cbd138c97e31540801d8aaf11393b6e918ad572777c92cdd94",
+    "proposed-engineering-skills.png": "b8dd3575301e55940cb12b411380940e9971369c57aa3f16ccd781fe5ded1738",
+    "make_diagrams.py": "4a8db7e8d4504c6fe3b8da0302c1b87e900661d7fedfac34f9d26259acddf538"
+  },
+  "pdf_fonts_used_by_text": [
+    "/AAAAAA+AeonikFonoVF-Regular",
+    "/AAAAAA+AeonikVF-Regular",
+    "/AAAAAA+AeonikVF-SemiBold"
+  ],
+  "design_skill_sha256": "10cc2957c770133593196575c7faf2e75f5d338a1109dd3d6a678f13426e67e1"
+}

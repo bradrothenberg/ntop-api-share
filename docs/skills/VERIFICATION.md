@@ -32,3 +32,20 @@ Tests also reject unknown or duplicate inputs, malformed values, unequal paired 
 The helper prepares inputs only. It does not launch nTop or validate a native run.
 
 The continuous-integration workflow runs the inventory check with the existing offline suite and public audit.
+
+## Layout update, 21 September 2026
+
+Both figures now follow the nTop document design skill and the blue report highlight preference.
+The generation script uses the bundled engineering-report typography and color helper.
+The 18-skill inventory, ten future titles and descriptions, and caption meanings are retained.
+
+Both pages were rendered with Aeonik, Aeonik SemiBold, and Aeonik Fono and visually inspected.
+Each page remains 7 by 9 inches; the PNGs are 3150 by 4050 pixels at 450 dpi.
+The minimum text size is 8 points. Label widths and page boundaries pass the script's checks.
+PDF text extraction verifies all 18 named skills and all ten future titles and descriptions.
+The SVGs preserve matching accessible labels and use outlined lettering for consistent display without installed Aeonik fonts.
+The portable Helvetica/Courier fallback also renders successfully.
+See the [layout receipt](paper/layout-verification.json) for selected fonts, label counts, and output hashes.
+
+This is a figure-layout update. The skill files, experiment results, and future brief document are unchanged.
+The preceding 212-test result describes the skill-package release. This follow-up uses focused rendering, content, and public-file checks.
