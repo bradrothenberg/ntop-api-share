@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aircraft OML to STEP"
+  short_description: "Rebuild fair aircraft CAD from source geometry"
+  default_prompt: "Use $aircraft-oml-to-step to rebuild this aircraft OML as independent smooth STEP geometry and report the measured source fit."

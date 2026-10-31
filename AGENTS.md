@@ -50,3 +50,7 @@ Read [docs/RECENT_MODELING_LEARNINGS.md](docs/RECENT_MODELING_LEARNINGS.md) for 
 ## Sheet-metal modeling
 
 Use [.agents/skills/ntop-sheet-metal/SKILL.md](.agents/skills/ntop-sheet-metal/SKILL.md) for analytic bends, reliefs, drafted forms and sheet-metal assemblies. Keep bend-development estimates, geometric preforms, release envelopes and qualified forming processes distinct. Publish reusable sources; keep generated notebooks, raw meshes, GIFs and ZIPs in the development output.
+
+## Implicit to STEP reconstruction
+
+Use [.agents/skills/aircraft-oml-to-step/SKILL.md](.agents/skills/aircraft-oml-to-step/SKILL.md) for new analytic and low-degree CAD surfaces derived from native implicit measurements. This skill contains generic methods and synthetic tests only. Keep customer geometry, images, measurements, paths, hashes, identifiers, and case narratives outside this public skill. Verify the actual exported file and distinguish finite sampled checks from global guarantees.

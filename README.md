@@ -63,7 +63,7 @@ ntop-api-share/
     output/             Generated recipes and run evidence; ignored
   reports/              39-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
-  .agents/skills/       20 skill entries for modeling, execution, CFD, and reporting
+  .agents/skills/       21 skill entries for modeling, execution, CFD, and reporting
   templates/            HTML report template and offline CSS
   tests/                Portability and graph-invariant checks
 ```
@@ -73,6 +73,7 @@ ntop-api-share/
 - [Complete engineering skill package](docs/skills/README.md): all 18 paper-inventory skills, two existing repository skills, diagrams, captions, and ten proposed future skills
 
 - [HTML report skill](.agents/skills/engineering-html/SKILL.md) and [PDF report skill](.agents/skills/engineering-report/SKILL.md): nTop blue highlights, shared design tokens, and reproducible report workflows
+- [Aircraft OML to STEP skill](.agents/skills/aircraft-oml-to-step/SKILL.md): new analytic and low-degree CAD supports, finite inlet bands, tangent joins, symmetry, and actual STEP readback checks. Includes generic guidance and synthetic helper tests only.
 - [Native CSG modeling skill](.agents/skills/ntop-csg-modeling/SKILL.md) and [corner comparison](demos/kestrelsat-corner/reports/index.html)
 - [Sheet-metal modeling skill](.agents/skills/ntop-sheet-metal/SKILL.md): analytic bends, explicit reliefs, drafted forms, assemblies, blank-development estimates and scoped tooling illustrations
 - [Native assembly modeling skill](.agents/skills/ntop-assembly-modeling/SKILL.md): reusable custom parts, explicit inputs, shared placements, and a generic contract pilot

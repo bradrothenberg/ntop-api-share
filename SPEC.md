@@ -81,3 +81,16 @@ Use a separate branch from current main. Adapt missing skills for public use, re
 ## nTop design layout follow-up, September 21
 
 Restyle both paper skill diagrams with the nTop document design skill and the blue report highlight preference. Use locally available Aeonik and Aeonik Fono, light-grey surfaces, white content groups, clear hierarchy, and thin rules. Preserve the 18-skill inventory, ten proposal briefs, caption meanings, and existing skill files. Keep the 7 by 9 inch vector paper format and regenerate PDF, SVG, and 450-dpi PNG files. Retain a portable font fallback without redistributing font source files. Inspect a small render, verify every label and page, audit changed public files, and publish a focused follow-up PR.
+
+## Generic implicit-to-STEP skill
+
+Add a reusable aircraft OML reconstruction skill. Include analytic-first,
+cubic/quartic surfacing, finite inlet bands, compatible tangent data, symmetry,
+retained-domain checks, and actual STEP readback. Ship only generic instructions
+and helper scripts with synthetic tests. Exclude customer geometry, data, names,
+images, measurements, paths, source hashes, identifiers, and case narratives.
+
+Audit the explicit changed-file list and the existing repository for accidental
+model references. Run the helper tests and repository checks. Preserve public
+history and unrelated demonstrations. Verify the published skill files. This
+change adds no aircraft model and does not claim a general automatic converter.
