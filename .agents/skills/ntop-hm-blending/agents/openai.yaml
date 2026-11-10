@@ -1,0 +1,4 @@
+interface:
+  display_name: "nTop HM blending"
+  short_description: "Constrained implicit blends and wing-root fairings"
+  default_prompt: "Use $ntop-hm-blending to build and verify a constrained wing-fuselage blend in nTop."

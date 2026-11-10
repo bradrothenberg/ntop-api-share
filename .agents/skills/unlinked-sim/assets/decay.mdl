@@ -1,0 +1,54 @@
+Model {
+  Name "decay"
+  Version 8.0
+  Solver "ode4"
+  StartTime "0"
+  StopTime "0.1"
+  FixedStep "0.01"
+  System {
+    Name "decay"
+    Block {
+      BlockType Integrator
+      Name "State x"
+      SID "1"
+      Ports [1, 1]
+      Position [240, 90, 285, 130]
+      InitialCondition "x0"
+    }
+    Block {
+      BlockType Gain
+      Name "Decay derivative"
+      SID "2"
+      Ports [1, 1]
+      Position [90, 90, 145, 130]
+      Gain "-rate"
+    }
+    Block {
+      BlockType Outport
+      Name "State output"
+      SID "3"
+      Ports [1, 0]
+      Position [360, 95, 395, 125]
+      Port "1"
+    }
+    Line {
+      SrcBlock "Decay derivative"
+      SrcPort 1
+      DstBlock "State x"
+      DstPort 1
+    }
+    Line {
+      SrcBlock "State x"
+      SrcPort 1
+      Branch {
+        DstBlock "State output"
+        DstPort 1
+      }
+      Branch {
+        Points [25, 0; 0, 80; -240, 0; 0, -80]
+        DstBlock "Decay derivative"
+        DstPort 1
+      }
+    }
+  }
+}

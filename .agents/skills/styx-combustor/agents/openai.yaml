@@ -1,0 +1,4 @@
+interface:
+  display_name: "Native combustor design and simulation"
+  short_description: "nTop combustors, STYX flow and engine coupling"
+  default_prompt: "Use $styx-combustor to advance the native combustor or engine simulation and report the evidence for combustion."

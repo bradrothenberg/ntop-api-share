@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unlinked Simulations"
+  short_description: "Build, run, and verify local Unlinked simulations"
+  default_prompt: "Use $unlinked-sim to set up a local dynamics model with editable inputs, verified simulation results, and synchronized dashboard playback."

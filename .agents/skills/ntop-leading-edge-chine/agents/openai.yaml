@@ -1,0 +1,4 @@
+interface:
+  display_name: "Leading-edge chine integration"
+  short_description: "Fair wing roots with explicit twist and straight edges"
+  default_prompt: "Use $ntop-leading-edge-chine to integrate this wing with its fuselage chine and verify the leading edge and twist."

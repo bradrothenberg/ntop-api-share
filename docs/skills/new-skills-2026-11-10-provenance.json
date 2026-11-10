@@ -1,0 +1,381 @@
+{
+  "date": "2026-11-10",
+  "scope": "Nine locally authored nTop and engineering skills absent from remote main",
+  "source_paths": "Logical filenames only; local installation and project paths omitted",
+  "adaptations": [
+    "Portable API routing",
+    "External source artifacts explicitly marked as unbundled",
+    "STYX run log replaced with reusable lessons",
+    "Omniverse workstation map replaced with portable workflow",
+    "Machine paths and Python bytecode excluded",
+    "Historical results remain labeled; no fresh native execution"
+  ],
+  "files": [
+    {
+      "path": ".agents/skills/ntop-adjoint-optimization/agents/openai.yaml",
+      "source_sha256": "c3d68d7a02b66d04cfcf3f40f029e05073e00f170145025a9c1da7a45ead1d64",
+      "published_sha256": "8f3105d24b16cf4f2478afa08beae38f40de110c479d142a0461392a9beb4e65",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-adjoint-optimization/references/inlet-recipe.md",
+      "source_sha256": "be0c5d9b595feba6dac7d8bc934f12756c790c7e3b89e562d499d0da53842522",
+      "published_sha256": "3886664584c5b2601bf2e8e0fbccd6518992904fbe876d7c38534f487805ed73",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-adjoint-optimization/references/native-coupling.md",
+      "source_sha256": "b2a9c92fdb8a21ac485fdb042cf934702e6b5a129e399131fa7911a6be67e625",
+      "published_sha256": "b2a9c92fdb8a21ac485fdb042cf934702e6b5a129e399131fa7911a6be67e625",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-adjoint-optimization/references/rendering.md",
+      "source_sha256": "41ff765bcf488cd1c1aa8a49fa3e0f009806e8f1f6516df54a18dc94a9f3a862",
+      "published_sha256": "41ff765bcf488cd1c1aa8a49fa3e0f009806e8f1f6516df54a18dc94a9f3a862",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-adjoint-optimization/references/verification-and-recovery.md",
+      "source_sha256": "aab93c2ad7e523a190a9a86e15a33fd8cb19d2bcc0b927b0f7f6437634a94cab",
+      "published_sha256": "1c8a229428d8cffb0b4024bdaf26e9dc4f911c82ef4f05e537e4ccfca10e445f",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-adjoint-optimization/scripts/audit_directional_gate.py",
+      "source_sha256": "6b79384d6118221c6def4360f4a3ca2408ee4c66c7394294ff94b593651d0f5b",
+      "published_sha256": "6b79384d6118221c6def4360f4a3ca2408ee4c66c7394294ff94b593651d0f5b",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-adjoint-optimization/SKILL.md",
+      "source_sha256": "b919a86b7aa52da5dfbf67e21e71d2125bcde48efcb1b5e6f7567a802dab68fc",
+      "published_sha256": "7744ee1e32c2f6f62203ec9c3d5fb5479c76ceba5e22e17c612ad2cadc3a7525",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-aircraft-windscreen/references/dc10.md",
+      "source_sha256": "9e69f2c7a36737dd44fc83c2b0a80455163359dabb6976cf3b40f2b62c57fe18",
+      "published_sha256": "884c82fe086c0741cbc3fbfe878c5a8549d63d914c2a4924804519a18e2d692b",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-aircraft-windscreen/SKILL.md",
+      "source_sha256": "38902449f38909e8e492d9ae33b7b37b935f306b01a34d23aaa951b781233904",
+      "published_sha256": "1f7572d4b30c1a19b240bf94a6cef3c4007b86dd25e99a41ed93de870b5e01bb",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-class-a-car-body/agents/openai.yaml",
+      "source_sha256": "7a64387ae3d0f270c62adf90de1ee6b28dc89c477b84f3175a37ddf99afee357",
+      "published_sha256": "7a64387ae3d0f270c62adf90de1ee6b28dc89c477b84f3175a37ddf99afee357",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-class-a-car-body/references/detail-deformation.md",
+      "source_sha256": "71a1cd2d2ea234050c2bcb2d86e3996d4cde59dd195aade8e0bc7944fab56695",
+      "published_sha256": "a4f6d0f44ec0bd4da3e47fc13990a22dc9142c20272446e8d0a1a6e9cc311ee1",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-class-a-car-body/references/measured-case.md",
+      "source_sha256": "fd07c396d2cae1242e30b8954162ae52e07cf5743b098c3906e4f8c526a27bce",
+      "published_sha256": "801ad6088d1fe301571c548f3702804aaa9f5c8835e7fbb656305ece19e29c75",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-class-a-car-body/references/modeling-and-fitting.md",
+      "source_sha256": "4e74be0c4f959602d0064560e07676677f4722ad17677dde808f85455f32e7cb",
+      "published_sha256": "a589920902f65768090d41d8d59a576a9621e80715dd9c4b9eb97cdc290e9386",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-class-a-car-body/references/native-workflow.md",
+      "source_sha256": "d18167b53e85cb75e1104f5ce4120980e662e520bca6e62844e338c78b93cc73",
+      "published_sha256": "1f759de45178bd74bb4150addf5afa0788cd24245746c5735d850a16ce2d2b90",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-class-a-car-body/references/validation-and-delivery.md",
+      "source_sha256": "38633a6b9ebe454e92af1f366f936317296733055e0bfc42b51acd6d0208cdcd",
+      "published_sha256": "3c11c924157a27f61aa38e6ce58c9725508cd4c935fdbf149759269f14716b08",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-class-a-car-body/SKILL.md",
+      "source_sha256": "2823d8c3977523f99cd01ea80ff31cc4423af53803d5b0b703db5326ac77fb56",
+      "published_sha256": "4a425990fbf1f5612df79e800005db853d71ccc99bac6996d540623f8e21a381",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-community-publishing/agents/openai.yaml",
+      "source_sha256": "5e428b1df9006af44da670c6eeaf2b7b3db0f882489a10a8bf291944c6fa57ac",
+      "published_sha256": "6789649f5af135ed969a948d9630cdc5e6ac8aa10dfb7205169147e49d69f2ef",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-community-publishing/assets/manifest.example.json",
+      "source_sha256": "f9989b248571eea27a46dbc2418c46483e704a3e1074cdb21069f90a37e6b276",
+      "published_sha256": "9062364316712c11f229be722b30dcbbac646c9efcbc7cdff4ed60693584aade",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-community-publishing/assets/README.template.md",
+      "source_sha256": "b3b0eeb044ca4dc6165011e971ee1b2338c500bac381682d96844a6d48d87d80",
+      "published_sha256": "7c0f29824497ece5f44d2b9b1962ee557331684b710f83d2c9a1f8671da466e3",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-community-publishing/assets/submission-receipt.example.json",
+      "source_sha256": "329e890b1535b047c92f58824606822c6b4350893334ce2480f287d9062f8715",
+      "published_sha256": "a8d57f977397bbf6b512364c6b8cd2555647265dc64b557eb0f394ee8196f548",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-community-publishing/references/package-audit.md",
+      "source_sha256": "0d62c5898725b7227fc1ee6039544f86889bf2c5e75b814246c51bd8f89d31d4",
+      "published_sha256": "3519934f8fb7108412e9dec295aae0499450dabd62d28c2b0a57dba41525897e",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-community-publishing/references/publishing-workflow.md",
+      "source_sha256": "bc189261209af17cdeeb40f6d068511152177d0bc699a0ea7bd0ab4ee5d7c384",
+      "published_sha256": "fd5c82b7e6cd328b16a63612d544a7510a025e25937caee82a30324f6b3dfaba",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-community-publishing/SKILL.md",
+      "source_sha256": "6a28c4481c40278d6f3f0a06eb41572156532bfe77441b6bfd691d29f1acce7c",
+      "published_sha256": "7827d27dd962208cab03fecd3d32299a95788b80d955c403ae1d34547aaeab98",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/agents/openai.yaml",
+      "source_sha256": "d82c186e9928c8166bcf26df0cc952bac51af1101347052360d4372adc2ff9e8",
+      "published_sha256": "d82c186e9928c8166bcf26df0cc952bac51af1101347052360d4372adc2ff9e8",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/assets/native_samples.json",
+      "source_sha256": "7a0eee8d2de006625c0cc79d6fe6e448e80910c51f106e15041d6fb645f2a8e9",
+      "published_sha256": "5d93ace82857d918bc726c579df7c668169ce7412b8450bb6b439b4dec31da21",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/references/construction.md",
+      "source_sha256": "1e3d846885e29e6d694ef9e8f64cc8499b2faf6e3d1ed225025b41a08a43b845",
+      "published_sha256": "1e3d846885e29e6d694ef9e8f64cc8499b2faf6e3d1ed225025b41a08a43b845",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/references/native-implementation.md",
+      "source_sha256": "3103c0ea68e7ead71cfa0bb75acee9ced280fae9f7971caed04e589890d047f6",
+      "published_sha256": "3103c0ea68e7ead71cfa0bb75acee9ced280fae9f7971caed04e589890d047f6",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/references/wing-example.md",
+      "source_sha256": "f6fd82bd05a194a67aa500f37d822b6464f4d3a0ecdd82a46ff714d263dfb22b",
+      "published_sha256": "f6fd82bd05a194a67aa500f37d822b6464f4d3a0ecdd82a46ff714d263dfb22b",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/scripts/blend_reference.py",
+      "source_sha256": "8c32f0b36c5b75f9065de60211f7ca2aab8c258b61c58f04f8403a815af2561a",
+      "published_sha256": "8c32f0b36c5b75f9065de60211f7ca2aab8c258b61c58f04f8403a815af2561a",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/scripts/check_blend.py",
+      "source_sha256": "6bdd9c0ad0c953600eabc6c804fc092b83e01130dbeb3e4c31293e348153a25d",
+      "published_sha256": "6bdd9c0ad0c953600eabc6c804fc092b83e01130dbeb3e4c31293e348153a25d",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/scripts/wing_example.py",
+      "source_sha256": "d540457b871ee3284ae3500c49a7044e1c78459b7068049e5b49308cdd7394fe",
+      "published_sha256": "d540457b871ee3284ae3500c49a7044e1c78459b7068049e5b49308cdd7394fe",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-hm-blending/SKILL.md",
+      "source_sha256": "44e91b25b78e888739f7a88248a0c6cded1726288cc1cafcb4dfc81a13d86951",
+      "published_sha256": "44e91b25b78e888739f7a88248a0c6cded1726288cc1cafcb4dfc81a13d86951",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/agents/openai.yaml",
+      "source_sha256": "46bc3f4828a45dd2dec0967f1f6034c70907d2b6042453f9dfe8c3cdbd91aede",
+      "published_sha256": "46bc3f4828a45dd2dec0967f1f6034c70907d2b6042453f9dfe8c3cdbd91aede",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/references/aircraft-case.md",
+      "source_sha256": "790a5f91a971b8bd6b9b05133a7bf70eb5917fdd97defef711cf305e5b5c8367",
+      "published_sha256": "790a5f91a971b8bd6b9b05133a7bf70eb5917fdd97defef711cf305e5b5c8367",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/references/compact-recovery.md",
+      "source_sha256": "1454877e088966111ff4fec2460ce90a707cdfa330f07002670c0a59f8a45e73",
+      "published_sha256": "1454877e088966111ff4fec2460ce90a707cdfa330f07002670c0a59f8a45e73",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/references/construction.md",
+      "source_sha256": "f1bd101c4c9ed60ba7cbd619f321674b4ee2bd75320e502bba002f37faaccb3b",
+      "published_sha256": "f1bd101c4c9ed60ba7cbd619f321674b4ee2bd75320e502bba002f37faaccb3b",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/references/inlet-and-trailing-edges.md",
+      "source_sha256": "668b473d7d42fb5069c193f01b1c5556b3295a2d9eeb89fb9c8b0c175caa6036",
+      "published_sha256": "668b473d7d42fb5069c193f01b1c5556b3295a2d9eeb89fb9c8b0c175caa6036",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/references/notebook-cleanup.md",
+      "source_sha256": "bb8fb5df5e9c5ce6e4036f14404b6578a896ede0c7bd9524d469b48e29b6561a",
+      "published_sha256": "bb8fb5df5e9c5ce6e4036f14404b6578a896ede0c7bd9524d469b48e29b6561a",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/references/root-fairness.md",
+      "source_sha256": "2fb1b402cf7863f57e9c8245f3a78fdb9eaa8c5f730aaa1439c7a3e8409db547",
+      "published_sha256": "2fb1b402cf7863f57e9c8245f3a78fdb9eaa8c5f730aaa1439c7a3e8409db547",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/scripts/check_sections.py",
+      "source_sha256": "bb8d082921c5b0ba713c60cafc6b75e883cbd6e7ddf9c9013c5ed1e6207a0049",
+      "published_sha256": "bb8d082921c5b0ba713c60cafc6b75e883cbd6e7ddf9c9013c5ed1e6207a0049",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/ntop-leading-edge-chine/SKILL.md",
+      "source_sha256": "45ce2f89a8569a2d99956d221e2f587b78a9f7f1505e040b1422a0f252945221",
+      "published_sha256": "10ca88dc12f136116cb5b00cd8d52138364f618b3ef3b65cc1b7899cf4e2a05f",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/omniverse-movies/agents/openai.yaml",
+      "source_sha256": "9824938bd5ce87b4cf476c1d1237d8147509eec02c82885e0ed6bea8ead654c1",
+      "published_sha256": "addd8aaa5716df95c097991f4ccedb525d5f600ee701d7e524f138603ffe797e",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/omniverse-movies/assets/storyboard-template.md",
+      "source_sha256": "8d3dd2467ca348818db10ae018e9a682f26c9e7d511de00acc12282dce488f14",
+      "published_sha256": "8d3dd2467ca348818db10ae018e9a682f26c9e7d511de00acc12282dce488f14",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/omniverse-movies/references/editing-and-delivery.md",
+      "source_sha256": "d67b0c8395cf7a52ab70eb445f9bb4664f448303f513eebe0b11ca8dbb2a28d6",
+      "published_sha256": "d67b0c8395cf7a52ab70eb445f9bb4664f448303f513eebe0b11ca8dbb2a28d6",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/omniverse-movies/references/local-example.md",
+      "source_sha256": "f2d7f95f71a8203149036b014566e54381f154ad7c471f3db37908909a989b63",
+      "published_sha256": "f648da5e3127bcf94cb653c8f2e60fe2b87ac5bd61b898432c8943e40009ae50",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/omniverse-movies/references/native-rendering.md",
+      "source_sha256": "db56d7152db86b97c8249d070836a59781f0ec6d1032f0379029ab1ef02a3378",
+      "published_sha256": "db56d7152db86b97c8249d070836a59781f0ec6d1032f0379029ab1ef02a3378",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/omniverse-movies/scripts/verify_movie.py",
+      "source_sha256": "3afc23dbaa8c90a109722dec2025325f41c81edd1f11e14436cc66fa66bc73d0",
+      "published_sha256": "3afc23dbaa8c90a109722dec2025325f41c81edd1f11e14436cc66fa66bc73d0",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/omniverse-movies/SKILL.md",
+      "source_sha256": "e6d7aa5c2d83e5d50817fd9e25604265c5ec604b06f4592bb8d2271a2cb052ed",
+      "published_sha256": "8dd7e5479dc23b86b27e01d74e102282290da3d531bcfc8dba1a8a391a6625ae",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/styx-combustor/agents/openai.yaml",
+      "source_sha256": "cbe0454e56362737c5cc6693ad73af67094889dfad0fdf72546b45a028c38864",
+      "published_sha256": "cbe0454e56362737c5cc6693ad73af67094889dfad0fdf72546b45a028c38864",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/styx-combustor/references/jet20.md",
+      "source_sha256": "b6bfa2f2bfc22847e7e03d6bb96cad65ce328039bb41a79878526f7e740b50be",
+      "published_sha256": "128128c723a9263608a078f11fc77c9a11fa117407aa354cbc70f9fda3bbf08f",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/styx-combustor/SKILL.md",
+      "source_sha256": "3417a255a38b1e4f422579a52e286f106fa4d607ba802a2dee8cbc847ff54fd3",
+      "published_sha256": "1c7116e36799155dc88d62a9b6df453505fd0f896958d09e79f465447df5640e",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/agents/openai.yaml",
+      "source_sha256": "6f83fd9c50a3d2292f0e3d6400b22d487051223d7d49e6d5b5b164de8d0effab",
+      "published_sha256": "6f83fd9c50a3d2292f0e3d6400b22d487051223d7d49e6d5b5b164de8d0effab",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/assets/decay.mdl",
+      "source_sha256": "9221a3dde31b77e9bec85ff5964ceecae8fcda99a2a25424c4abd91c656c3175",
+      "published_sha256": "9221a3dde31b77e9bec85ff5964ceecae8fcda99a2a25424c4abd91c656c3175",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/assets/decay_params.m",
+      "source_sha256": "1ec3596213ef2b64d35299ad4dab884728a417d7cd60a530a35ca51096106f1e",
+      "published_sha256": "1ec3596213ef2b64d35299ad4dab884728a417d7cd60a530a35ca51096106f1e",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/references/dashboard-and-ntop.md",
+      "source_sha256": "fef2154c5989c9e099229ccb9c16ec75b5b2e6c464396f81a37d80e43f00b2ba",
+      "published_sha256": "fef2154c5989c9e099229ccb9c16ec75b5b2e6c464396f81a37d80e43f00b2ba",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/references/local-setup.md",
+      "source_sha256": "49b86ab0b5e5fafee8f0c2265b7e41a7aa041e6951af4c5c602cdb76a0186ec2",
+      "published_sha256": "9e748fc4ea0e73dbaba2bf9ae422151e00f8d5cd83b946e9bd0aade1ba8c98d4",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/references/models-and-api.md",
+      "source_sha256": "484123494d668c4d1275c5f585f2727255308714cea29027b26992c56113e0ca",
+      "published_sha256": "484123494d668c4d1275c5f585f2727255308714cea29027b26992c56113e0ca",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/scripts/test_unlinked.py",
+      "source_sha256": "92e5531b4c782d8ddb7e883a069921096697c6029ab18525768bd90203ad7cc6",
+      "published_sha256": "49becd4687c3572411ebe0b49677a54daa83fd2f2752901e7072df6880e62348",
+      "adapted": true
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/scripts/unlinked.py",
+      "source_sha256": "d5235aa8aafa71c7a25cb20ed18a74aad8d42fb5e2bd6d53af317fc848fbfa2b",
+      "published_sha256": "d5235aa8aafa71c7a25cb20ed18a74aad8d42fb5e2bd6d53af317fc848fbfa2b",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/scripts/verify_decay.py",
+      "source_sha256": "0d46353efbfffb8292d427f770e619c0cd4cdc64bc619ab6ce211dec3ac20b16",
+      "published_sha256": "0d46353efbfffb8292d427f770e619c0cd4cdc64bc619ab6ce211dec3ac20b16",
+      "adapted": false
+    },
+    {
+      "path": ".agents/skills/unlinked-sim/SKILL.md",
+      "source_sha256": "e2f1e8e906e27d528f123d811a4d2d44de556ddcaa1dc99451c35a5f3f71728c",
+      "published_sha256": "92f9c7cdc2f66b54b30f0f68a7725519465d2ee7412fab6fd177cf2089536e87",
+      "adapted": true
+    }
+  ]
+}

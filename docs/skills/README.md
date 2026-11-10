@@ -1,11 +1,36 @@
 # Engineering skill package
 
 All **18 named skills** from the paper handoff are available in this repository.
-The existing **sheet-metal** and **engineering-html** skills bring the repository total to **20 skill entries**.
+The original package included **20 skill entries**, including **sheet-metal** and **engineering-html**.
 The **ten future skills are proposals**, stored separately from executable agent instructions.
 
 The package covers native authoring, modeling, nTop CL, studies, meshing, CFD, analysis methods, and reporting.
 It does not imply that every experiment used every skill or that the skills form one executable pipeline.
+
+## Skills added on 10 November 2026
+
+The repository now contains **30 skill entries**. This update adds nine locally
+authored nTop and engineering skills. The earlier implicit-to-STEP addition is
+also listed here. The paper figures retain their original inventory scope.
+
+| Skill | Use |
+|---|---|
+| [ntop-leading-edge-chine](../../.agents/skills/ntop-leading-edge-chine/SKILL.md) | Wing/fuselage chine integration, straight edges, twist, and root fairness |
+| [ntop-hm-blending](../../.agents/skills/ntop-hm-blending/SKILL.md) | Constrained Holder-Minkowski field averaging, anchors, and offline checks |
+| [ntop-aircraft-windscreen](../../.agents/skills/ntop-aircraft-windscreen/SKILL.md) | Planar glazing, bounded transitions, source fit, and surrounding skin fairness |
+| [ntop-class-a-car-body](../../.agents/skills/ntop-class-a-car-body/SKILL.md) | Editable body shells, silhouette fitting, and surface-quality checks |
+| [ntop-adjoint-optimization](../../.agents/skills/ntop-adjoint-optimization/SKILL.md) | Native geometry coupling, directional gradient checks, and constrained optimization |
+| [styx-combustor](../../.agents/skills/styx-combustor/SKILL.md) | Combustor and engine study contracts, conservation, chemistry, and evidence limits |
+| [unlinked-sim](../../.agents/skills/unlinked-sim/SKILL.md) | Local mechanism and control simulation, recorded traces, and a decay pilot |
+| [omniverse-movies](../../.agents/skills/omniverse-movies/SKILL.md) | Storyboards, native engineering-film capture, editing, and encoded-file checks |
+| [ntop-community-publishing](../../.agents/skills/ntop-community-publishing/SKILL.md) | Portable contribution packages, audits, and publication-state tracking |
+| [aircraft-oml-to-step](../../.agents/skills/aircraft-oml-to-step/SKILL.md) | Previously published implicit-to-CAD reconstruction methods and synthetic checks |
+
+Read the [publication notes](new-skills-2026-11-10.md) for dependencies,
+verification scope, and public adaptations. External study implementations,
+model assets, proprietary solvers, and private run records are not bundled.
+The [source receipt](new-skills-2026-11-10-provenance.json) records logical filenames
+and source/published hashes.
 
 ## Skills and their contents
 
@@ -107,3 +132,4 @@ The helper does not launch a solver, provision a fleet, or verify native results
 Public adaptations resolve source contradictions and qualify historical claims. They are not byte-for-byte private archives.
 Current API documentation targets build 42926; each older recorded result keeps its own build label.
 See [package verification](VERIFICATION.md) for the checks performed on this update.
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "nTop Class A Car Body"
+  short_description: "Build, fair, and verify native nTop car shells"
+  default_prompt: "Use $ntop-class-a-car-body to build or refine an editable nTop car shell and verify its silhouette and surface quality."

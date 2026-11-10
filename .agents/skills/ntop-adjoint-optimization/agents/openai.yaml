@@ -1,0 +1,4 @@
+interface:
+  display_name: "nTop Adjoint Optimization"
+  short_description: "Couple native nTop geometry to verified adjoint gradients"
+  default_prompt: "Use $ntop-adjoint-optimization to set up or continue a verified native nTop shape optimization with adjoint gradients."

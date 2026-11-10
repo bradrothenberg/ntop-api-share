@@ -1,0 +1,4 @@
+interface:
+  display_name: "Omniverse Movies"
+  short_description: "Storyboard and render native Omniverse films"
+  default_prompt: "Use $omniverse-movies to storyboard the film with me, then render and verify it in native Omniverse Kit."
