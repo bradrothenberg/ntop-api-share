@@ -1,0 +1,4 @@
+interface:
+  display_name: "nTop Surfacing and Lofting"
+  short_description: "Fair lofted implicit surfaces from Spline DF sections"
+  default_prompt: "Use $ntop-surfacing to build this body from a few fair primary surfaces, check its reflections, and verify the native nTop result against the host field."

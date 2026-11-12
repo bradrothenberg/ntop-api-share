@@ -99,3 +99,23 @@ Fury and F-16 retain finite trailing-edge controls. Define full physical thickne
 F-16 R6 uses sparse cubic guides to reduce aft-fuselage oscillation. A-12 uses independent upper and lower section surfaces and separates cockpit crown shape from pane borders. F-Cat uses one continuous bent tail loft and local pod-fairing controls. Each method retains its own recorded validation limits.
 
 Read [F-16 lessons](../demos/f16/LEARNINGS.md), [A-12 lessons](../demos/a12/LEARNINGS.md), and [F-Cat lessons](../demos/fcat/LEARNINGS.md). The [B52 historical source](../demos/b52/history-source/README.md) preserves R2-R6 graphs alongside the current R7 builder.
+
+## Primary surfaces and reflection checks
+
+Two later bodies were built entirely from native section fields and showed where a loft goes wrong.
+The findings are packaged as the [ntop-surfacing skill](../.agents/skills/ntop-surfacing/SKILL.md).
+
+A body fitted as two lofts through many traced keys matched its drawing and rippled in reflections.
+The rebuild used six primary surfaces, each a Spline DF section with four to about ten control points,
+lofted along the axis in which that face is simple. Guides carried 4 to 24 control values with recorded
+deviations from the keys. Compact C2 blends of 14 to 90 mm joined the surfaces along the feature lines.
+The plan outline was replaced by a designed curvature history with 15 parameters.
+
+Spline DF returns the signed planar distance to a clamped uniform cubic B-spline. On build 42926 it is
+positive on the left of the direction of travel, an open curve continues along its end tangents, and a
+curve whose first and last control points coincide is closed. The skill's pilot rechecks this on the
+host and natively. A planar section distance is not a three-dimensional distance to the loft.
+
+Check reflections on the bare envelope before cutting details: guide inflection counts, plane sections
+between the fitting stations, curvature against arc length, and zebra stripes in two directions.
+Sampled sections and stripe images do not establish a Class A acceptance.

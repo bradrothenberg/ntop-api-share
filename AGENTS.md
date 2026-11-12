@@ -54,3 +54,7 @@ Use [.agents/skills/ntop-sheet-metal/SKILL.md](.agents/skills/ntop-sheet-metal/S
 ## Implicit to STEP reconstruction
 
 Use [.agents/skills/aircraft-oml-to-step/SKILL.md](.agents/skills/aircraft-oml-to-step/SKILL.md) for new analytic and low-degree CAD surfaces derived from native implicit measurements. This skill contains generic methods and synthetic tests only. Keep customer geometry, images, measurements, paths, hashes, identifiers, and case narratives outside this public skill. Verify the actual exported file and distinguish finite sampled checks from global guarantees.
+
+## Surfacing and lofting
+
+Use [.agents/skills/ntop-surfacing/SKILL.md](.agents/skills/ntop-surfacing/SKILL.md) for free-form skins built from Spline DF sections: primary surfaces, fair guides, compact C2 seams, details cut from the envelope, and zebra and section-curvature checks. Run its pilot on each new build before trusting section signs. Keep host checks, native probes, native mesh comparisons, and recorded results distinct. The skill contains generic methods, a synthetic example, and offline tests. Keep reference drawings, photographs, traced outlines, and case models outside this repository.

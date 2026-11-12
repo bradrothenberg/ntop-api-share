@@ -32,6 +32,21 @@ model assets, proprietary solvers, and private run records are not bundled.
 The [source receipt](new-skills-2026-11-10-provenance.json) records logical filenames
 and source/published hashes.
 
+## Skill added on 12 November 2026
+
+The repository now contains **31 skill entries**.
+
+| Skill | Use |
+|---|---|
+| [ntop-surfacing](../../.agents/skills/ntop-surfacing/SKILL.md) | Primary surfaces from Spline DF sections, fair guides, compact C2 seams, details cut from the envelope, zebra and section-curvature checks |
+
+The skill bundles a numpy reference evaluator, a recipe writer for the same graph, a four-body
+native pilot, a worked example, and offline tests. Its pilot was run on build 42926 on
+12 November 2026: native mesh vertices agreed with the host field within 0.08 mm on all four
+bodies. The two worked cases in its references are recorded findings from separate projects.
+Their models, reference drawings, and photographs are not bundled, and this update did not rerun them.
+The `ntop-class-a-car-body` skill now points to it for the choice of surfaces.
+
 ## Skills and their contents
 
 | Area | Skill | Public package content |
@@ -69,6 +84,7 @@ These methods are part of the workflow but were not separate installed skills in
 | Method | Repository reference |
 |---|---|
 | Guide-driven conic and spline lofting | [Lofting guide](../LOFTING.md), [F-16](../../demos/f16/README.md), and [A-12](../../demos/a12/README.md) |
+| Primary-surface bodies and reflection checks | [ntop-surfacing](../../.agents/skills/ntop-surfacing/SKILL.md) |
 | Two-rail blade sweeps | [Propeller lessons](../PROPELLER_LEARNINGS.md) and [propeller studies](../../demos/propellers/README.md) |
 | Native graph, geometry, and display verification | [Verification](../VERIFICATION.md), [API reference](../API_REFERENCE.md), and [recent lessons](../RECENT_MODELING_LEARNINGS.md) |
 | Structural and buckling screens | [Civil research aircraft](../../demos/civil-research-aircraft/README.md), with its recorded failure modes and analysis limits |
