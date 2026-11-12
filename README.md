@@ -63,7 +63,7 @@ ntop-api-share/
     output/             Generated recipes and run evidence; ignored
   reports/              39-report offline catalogue and shared compact assets
   docs/                 Shared API, lofting, assembly, and verification lessons
-  .agents/skills/       21 skill entries for modeling, execution, CFD, and reporting
+  .agents/skills/       31 skill entries for modeling, execution, CFD, and reporting
   templates/            HTML report template and offline CSS
   tests/                Portability and graph-invariant checks
 ```

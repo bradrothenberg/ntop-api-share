@@ -1,0 +1,87 @@
+{
+ "build": "nTop prototype build 42926, headless ntopcl convert",
+ "date": "2026-11-12",
+ "what": "Each pilot body converted from its recipe, meshed natively, and 20000 mesh vertices evaluated in the numpy host field.",
+ "bodies": {
+  "Pilot loft": {
+   "exit_code": 0,
+   "seconds": 55.0,
+   "triangles": 1801192,
+   "bounds_m": [
+    [
+     -0.0,
+     -0.8645,
+     0.18
+    ],
+    [
+     1.0,
+     0.8645,
+     1.1956
+    ]
+   ],
+   "sampled_vertices": 20000,
+   "native_vs_host_max_mm": 0.02183,
+   "native_vs_host_mean_mm": 0.00274
+  },
+  "Pilot open arc": {
+   "exit_code": 0,
+   "seconds": 15.1,
+   "triangles": 1024968,
+   "bounds_m": [
+    [
+     -0.0,
+     -0.7,
+     0.05
+    ],
+    [
+     1.0,
+     0.7,
+     0.5101
+    ]
+   ],
+   "sampled_vertices": 20000,
+   "native_vs_host_max_mm": 0.02221,
+   "native_vs_host_mean_mm": 0.00168
+  },
+  "Pilot region": {
+   "exit_code": 0,
+   "seconds": 5.5,
+   "triangles": 194980,
+   "bounds_m": [
+    [
+     0.1087,
+     -0.05,
+     0.152
+    ],
+    [
+     0.9441,
+     0.05,
+     0.6965
+    ]
+   ],
+   "sampled_vertices": 20000,
+   "native_vs_host_max_mm": 0.07465,
+   "native_vs_host_mean_mm": 0.0009
+  },
+  "Pilot blend": {
+   "exit_code": 0,
+   "seconds": 16.6,
+   "triangles": 907318,
+   "bounds_m": [
+    [
+     -0.0,
+     -0.5941,
+     0.05
+    ],
+    [
+     1.0,
+     0.5941,
+     0.5101
+    ]
+   ],
+   "sampled_vertices": 20000,
+   "native_vs_host_max_mm": 0.01988,
+   "native_vs_host_mean_mm": 0.00242
+  }
+ }
+}

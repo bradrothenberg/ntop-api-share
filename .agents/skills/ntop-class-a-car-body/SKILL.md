@@ -37,6 +37,14 @@ Zebra bands in this reference are reflections, not edges to reproduce as ribs or
 
 Read [modeling and fitting](references/modeling-and-fitting.md) for the measured field construction and sensitivity method.
 
+Choose the surface architecture before fitting. One control net fitted through many traced keys can
+match every silhouette and still ripple in reflections. A later body built that way showed dimples
+where control rows converged and a pinched ridge up the rear pillar, and parameter repair did not cure it.
+The repair was a rebuild from a few primary surfaces, each lofted in the plane where it is simple,
+with guides of few control values and seams of chosen width. Use the `ntop-surfacing` skill for that
+method, its zebra and section-curvature checks, and its native Spline DF pilot. Run the zebra check on
+the bare envelope before fitting details or scoring the silhouette.
+
 Start with a small native pilot of the longitudinal guides and transverse cubic sections.
 Confirm section orientation, field sign, symmetry, units, and varying-section behavior against independent points.
 Then build the broad hood, cabin, shoulders, flanks, and rear as a coherent control net.
