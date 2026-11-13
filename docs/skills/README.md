@@ -47,6 +47,18 @@ bodies. The two worked cases in its references are recorded findings from separa
 Their models, reference drawings, and photographs are not bundled, and this update did not rerun them.
 The `ntop-class-a-car-body` skill now points to it for the choice of surfaces.
 
+## Skill added on 13 November 2026
+
+The repository now contains **32 skill entries**.
+
+| Skill | Use |
+|---|---|
+| [aircraft-units](../../.agents/skills/aircraft-units/SKILL.md) | US customary units for every airplane: span and large lengths in feet, small dimensions in inches, areas in square feet |
+
+The skill is a presentation rule and bundles no code. The repository owner set the three units for length and area.
+The related units for weight, thrust, speed, altitude and range, the 2 ft threshold between feet and inches,
+and the practice of converting stored values where they are shown are the author's extension of that rule.
+
 ## Skills and their contents
 
 | Area | Skill | Public package content |

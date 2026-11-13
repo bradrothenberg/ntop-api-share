@@ -58,3 +58,7 @@ Use [.agents/skills/aircraft-oml-to-step/SKILL.md](.agents/skills/aircraft-oml-t
 ## Surfacing and lofting
 
 Use [.agents/skills/ntop-surfacing/SKILL.md](.agents/skills/ntop-surfacing/SKILL.md) for free-form skins built from Spline DF sections: primary surfaces, fair guides, compact C2 seams, details cut from the envelope, and zebra and section-curvature checks. Run its pilot on each new build before trusting section signs. Keep host checks, native probes, native mesh comparisons, and recorded results distinct. The skill contains generic methods, a synthetic example, and offline tests. Keep reference drawings, photographs, traced outlines, and case models outside this repository.
+
+## Aircraft units
+
+Use [.agents/skills/aircraft-units/SKILL.md](.agents/skills/aircraft-units/SKILL.md) for every airplane: span and other large lengths in feet, small dimensions in inches, areas in square feet. Convert stored SI or millimetre values where the number is shown; do not rescale a working model.
